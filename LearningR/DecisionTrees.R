@@ -3,7 +3,7 @@ library(C50)
 library(gmodels)
 library (ROCR)
 
-credit <- read.csv("/home/askofen/Documents/LearningR/Data/credit.csv", stringsAsFactors = TRUE)
+credit <- read.csv("Data/credit.csv", stringsAsFactors = TRUE)
 credit$default <- factor(credit$default)
 
 str(credit)

@@ -6,7 +6,7 @@ library(tm)
 library(wordcloud)
 library(e1071)
 
-sms_row <- read.csv('/home/askofen/Documents/LearningR/Data/sms_spam.csv', stringsAsFactors = FALSE)
+sms_row <- read.csv('Data/sms_spam.csv', stringsAsFactors = FALSE)
 str(sms_row)
 
 sms_row$type <- factor(sms_row$type)

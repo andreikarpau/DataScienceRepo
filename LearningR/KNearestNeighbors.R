@@ -7,7 +7,7 @@ normalize <- function(x){
   return ((x - min(x)) / (max(x) - min(x)))
 }
 
-wbcd <- read.csv("/home/askofen/Documents/LearningR/Data/wisc_bc_data.csv", stringsAsFactors = FALSE)
+wbcd <- read.csv("Data/wisc_bc_data.csv", stringsAsFactors = FALSE)
 
 wbcd$diagnosis <- factor(wbcd$diagnosis, levels = c("B", "M"), labels = c("Benign", "Malignant"))
 wbcd = wbcd[2:32]

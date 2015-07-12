@@ -14,7 +14,7 @@ corr <- function(directory, threshold = 0) {
   }
   
   for (i in 1:idsCount){
-    fileName <- sprintf("%s/%s.csv", "Data", formatC(ids[i], width=3, flag="0"))
+    fileName <- sprintf("%s/%s.csv", directory, formatC(ids[i], width=3, flag="0"))
     table <- read.csv(fileName, stringsAsFactors = FALSE)
     naSulfate <- is.na(table$sulfate)
     naNitrate <- is.na(table$nitrate)

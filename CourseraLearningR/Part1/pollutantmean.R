@@ -10,7 +10,7 @@ pollutantmean <- function(directory, pollutant, id = 1:332) {
   newTable <- TRUE
   
   for (i in id){
-    fileName <- sprintf("%s/%s.csv", "Data", formatC(i, width=3, flag="0"))
+    fileName <- sprintf("%s/%s.csv", directory, formatC(i, width=3, flag="0"))
     table <- read.csv(fileName, stringsAsFactors = FALSE)
     
     if (newTable){

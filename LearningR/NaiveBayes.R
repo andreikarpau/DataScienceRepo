@@ -68,3 +68,4 @@ CrossTable(x = sms_test_pred, y = sms_test$type, dnn = c('Predicted', 'Actual'),
 sms_classifier <- naiveBayes(sms_train1, sms_train$type, laplace = 1)
 sms_test_pred <- predict(sms_classifier, sms_test1)
 CrossTable(x = sms_test_pred, y = sms_test$type, dnn = c('Predicted', 'Actual'), prop.chisq = FALSE, prop.t = FALSE)
+

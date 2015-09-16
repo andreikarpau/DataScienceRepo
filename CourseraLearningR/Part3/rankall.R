@@ -21,12 +21,16 @@ rankall <- function(outcome, num = "best") {
   }
   
   matrix <- sapply(names(stateData), function(x) {
-    nas <- which(is.na(stateData[[x]]))
-    stateData1 <- stateData[[x]][-nas]
-    names1 <- names[[x]][-nas]
+    nonNas <- which(!is.na(stateData[[x]]))
+    stateData1 <- stateData[[x]][nonNas]
+    names1 <- names[[x]][nonNas]
+    
     namesO <- names1[order(stateData1, names1)]
-
-    if (num == "best"){
+    
+    if (length(namesO) <= 0){
+      c(NA, x)
+    }
+    else if (num == "best"){
       c(namesO[1], x)
     }
     else if (num == "worst"){
@@ -36,11 +40,12 @@ rankall <- function(outcome, num = "best") {
       c(namesO[num], x)
     }
     else {
-      NA
+      c(NA, x)
     }
     })
   
   matrix <- t(matrix)
-  ## Return a data frame with the hospital names and the
-  ## (abbreviated) state name
+  df <- data.frame(matrix)
+  colnames(df) <- c("hospital", "state")
+  df
 }

@@ -1,0 +1,10 @@
+export HADOOP_CLASSPATH=$JAVA_HOME/lib/tools.jar
+
+
+rm –rf ./build/* ./*.jar && rm part-r-00000 
+hadoop com.sun.tools.javac.Main OrphanPages.java -d build
+jar -cvf OrphanPages.jar -C build/ ./
+bash start.sh
+hadoop jar OrphanPages.jar OrphanPages /mp2/links /mp2/D-output
+
+wc -l part-r-00000

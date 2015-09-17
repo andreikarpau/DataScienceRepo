@@ -63,10 +63,10 @@ public class OrphanPages extends Configured implements Tool {
                 int numLinks = 1;
                 
                 if (firstPageHandled){
-                	if (firstLink == outKey){
-                		continue;
-                	}
-                	
+//                	if (firstLink == outKey){
+//                		continue;
+//                	}
+//                	
                 }else{
                 	numLinks = 0;
                 	firstPageHandled = true;

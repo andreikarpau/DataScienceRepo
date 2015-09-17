@@ -18,28 +18,76 @@ import java.util.StringTokenizer;
 // >>> Don't Change
 public class OrphanPages extends Configured implements Tool {
 
-    public static void main(String[] args) throws Exception {
-        int res = ToolRunner.run(new Configuration(), new OrphanPages(), args);
-        System.exit(res);
-    }
+	public static void main(String[] args) throws Exception {
+		int res = ToolRunner.run(new Configuration(), new OrphanPages(), args);
+		System.exit(res);
+	}
 // <<< Don't Change
 
-    @Override
-    public int run(String[] args) throws Exception {
-        //TODO
-    }
+	@Override
+	public int run(String[] args) throws Exception {
+		Job job = Job.getInstance(this.getConf(), "Orphan Pages");
+		job.setOutputKeyClass(IntWritable.class);
+		job.setOutputValueClass(NullWritable.class);
 
-    public static class LinkCountMap extends Mapper<Object, Text, IntWritable, IntWritable> {
-        @Override
-        public void map(Object key, Text value, Context context) throws IOException, InterruptedException {
-            //TODO
-        }
-    }
+		job.setMapOutputKeyClass(IntWritable.class);
+		job.setMapOutputValueClass(IntWritable.class);
 
-    public static class OrphanPageReduce extends Reducer<IntWritable, IntWritable, IntWritable, NullWritable> {
-        @Override
-        public void reduce(IntWritable key, Iterable<IntWritable> values, Context context) throws IOException, InterruptedException {
-            //TODO
-        }
-    }
+		job.setMapperClass(LinkCountMap.class);
+		job.setReducerClass(OrphanPageReduce.class);
+
+		FileInputFormat.setInputPaths(job, new Path(args[0]));
+		FileOutputFormat.setOutputPath(job, new Path(args[1]));
+
+		job.setJarByClass(OrphanPages.class);
+		return job.waitForCompletion(true) ? 0 : 1;
+	}
+
+	public static class LinkCountMap extends Mapper<Object, Text, IntWritable, IntWritable> {
+		@Override
+		public void map(Object key, Text value, Context context) throws IOException, InterruptedException {
+			String line = value.toString();
+            StringTokenizer tokenizer = new StringTokenizer(line, ": ");           
+                        
+            Boolean firstPageHandled = false;
+            Integer firstLink = -1;
+            
+            while (tokenizer.hasMoreTokens()) {
+                String pageNum = tokenizer.nextToken().trim().toLowerCase();
+                
+                if (pageNum == null || pageNum.isEmpty()){
+                	continue;
+                }
+
+                int outKey = Integer.parseInt(pageNum);
+                int numLinks = 1;
+                
+                if (firstPageHandled){
+                	if (firstLink == outKey){
+                		continue;
+                	}
+                	
+                }else{
+                	numLinks = 0;
+                	firstPageHandled = true;
+                	firstLink = outKey;
+                }
+                
+                context.write(new IntWritable(outKey), new IntWritable(numLinks));               
+            }
+		}
+	}
+
+	public static class OrphanPageReduce extends Reducer<IntWritable, IntWritable, IntWritable, NullWritable> {
+		@Override
+		public void reduce(IntWritable key, Iterable<IntWritable> values, Context context) throws IOException, InterruptedException {
+        	for (IntWritable val: values) {
+        		if (0 < val.get()){
+                    return;
+        		}
+        	}
+
+        	context.write(key, NullWritable.get());   
+		}
+	}
 }

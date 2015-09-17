@@ -225,13 +225,13 @@ public class TopTitleStatistics extends Configured implements Tool {
         		}        		
         	}
 
+        	mean = sum / countToWordMap.size();
         	var = 0;
         	for (Pair<Integer, String> item: countToWordMap) {
         		Integer value = item.first - mean;
         		var += value * value;
         	}
         	
-        	mean = sum / countToWordMap.size();
         	var /= countToWordMap.size();
         	
             context.write(new Text("Mean"), new IntWritable(mean));

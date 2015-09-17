@@ -26,7 +26,7 @@ public class OrphanPages extends Configured implements Tool {
 
 	@Override
 	public int run(String[] args) throws Exception {
-		Job job = Job.getInstance(this.getConf(), "Orphan Pages");
+		Job job = Job.getInstance();
 		job.setOutputKeyClass(IntWritable.class);
 		job.setOutputValueClass(NullWritable.class);
 

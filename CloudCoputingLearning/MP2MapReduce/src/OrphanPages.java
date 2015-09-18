@@ -50,7 +50,6 @@ public class OrphanPages extends Configured implements Tool {
             StringTokenizer tokenizer = new StringTokenizer(line, ": ");           
                         
             Boolean firstPageHandled = false;
-            Integer firstLink = -1;
             
             while (tokenizer.hasMoreTokens()) {
                 String pageNum = tokenizer.nextToken().trim().toLowerCase();
@@ -62,15 +61,10 @@ public class OrphanPages extends Configured implements Tool {
                 int outKey = Integer.parseInt(pageNum);
                 int numLinks = 1;
                 
-                if (firstPageHandled){
-//                	if (firstLink == outKey){
-//                		continue;
-//                	}
-//                	
+                if (firstPageHandled){              	
                 }else{
                 	numLinks = 0;
                 	firstPageHandled = true;
-                	firstLink = outKey;
                 }
                 
                 context.write(new IntWritable(outKey), new IntWritable(numLinks));               

@@ -5,6 +5,7 @@ import org.apache.hadoop.fs.FileSystem;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.ArrayWritable;
 import org.apache.hadoop.io.IntWritable;
+import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.NullWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Job;
@@ -17,6 +18,7 @@ import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import org.apache.hadoop.mapreduce.lib.output.TextOutputFormat;
 import org.apache.hadoop.util.Tool;
 import org.apache.hadoop.util.ToolRunner;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -29,6 +31,7 @@ public class PopularityLeague extends Configured implements Tool {
 		System.exit(res);
 	}
 
+	
 	@Override
 	public int run(String[] args) throws Exception {
 		Configuration conf = this.getConf();
@@ -38,8 +41,8 @@ public class PopularityLeague extends Configured implements Tool {
 
 		Job jobA = Job.getInstance(conf, "Link count");
 
-		jobA.setOutputKeyClass(IntWritable.class);
-		jobA.setOutputValueClass(IntWritable.class);
+		jobA.setOutputKeyClass(LongWritable.class);
+		jobA.setOutputValueClass(LongWritable.class);
 		jobA.setMapOutputKeyClass(IntWritable.class);
 		jobA.setMapOutputValueClass(IntWritable.class);
 
@@ -52,7 +55,7 @@ public class PopularityLeague extends Configured implements Tool {
 		jobA.setJarByClass(PopularityLeague.class);
 		jobA.waitForCompletion(true);
 
-		Job jobB = Job.getInstance(this.getConf(), "Popularity League");
+		Job jobB = Job.getInstance(conf, "Popularity League");
 		jobB.setOutputKeyClass(IntWritable.class);
 		jobB.setOutputValueClass(IntWritable.class);
 
@@ -129,7 +132,7 @@ public class PopularityLeague extends Configured implements Tool {
 		}
 	}
 
-	public static class LinkCountReduce extends Reducer<IntWritable, IntWritable, IntWritable, IntWritable> {
+	public static class LinkCountReduce extends Reducer<IntWritable, IntWritable, LongWritable, LongWritable> {
 		@Override
 		public void reduce(IntWritable key, Iterable<IntWritable> values, Context context) throws IOException, InterruptedException {
 			Integer sum = 0;
@@ -138,11 +141,11 @@ public class PopularityLeague extends Configured implements Tool {
 				sum += val.get();
 			}
 
-			context.write(key, new IntWritable(sum));   
+			context.write(new LongWritable(key.get()), new LongWritable(sum));   
 		}
 	}
 
-	public static class PopularityLeagueMap extends Mapper<Text, Text, NullWritable, IntArrayWritable> {
+	public static class PopularityLeagueMap extends Mapper<LongWritable, Text, NullWritable, IntArrayWritable> {
 		ArrayList<Integer> leagues;
 
 		@Override
@@ -159,10 +162,27 @@ public class PopularityLeague extends Configured implements Tool {
 		}
 
 		@Override
-        public void map(Text key, Text value, Context context) throws IOException, InterruptedException {
-        	Integer count = Integer.parseInt(value.toString());
-        	Integer pageId = Integer.parseInt(key.toString());
-
+        public void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
+			String line = value.toString();
+            StringTokenizer tokenizer = new StringTokenizer(line, "\t ");           
+            
+			Integer pageId = 0;
+        	Integer count = 0;
+            
+        	Boolean firstItem = true;
+        	
+            while (tokenizer.hasMoreTokens()) {
+                String num = tokenizer.nextToken().trim().toLowerCase();
+                
+                if (firstItem){
+        			pageId = Integer.parseInt(num.toString());
+        			firstItem = false;
+                }
+                else{
+                	count = Integer.parseInt(num.toString());
+                }                
+            }
+			
         	if (leagues.contains(pageId)){
         		Integer[] items = {pageId, count};
         		IntArrayWritable val = new IntArrayWritable(items);
@@ -175,17 +195,26 @@ public class PopularityLeague extends Configured implements Tool {
 		@Override
         public void reduce(NullWritable key, Iterable<IntArrayWritable> values, Context context) throws IOException, InterruptedException {
 			Map<Integer, Integer> leaguesRates = new HashMap<Integer, Integer>();
+			Map<Integer, Integer> leaguesCounts = new HashMap<Integer, Integer>();
+			Map<Integer, Integer> leaguesCounts2 = new HashMap<Integer, Integer>();
 			
 			for (IntArrayWritable val : values) {       		
-        		Integer[] pair= (Integer[]) val.toArray();
-        		Integer pageId = pair[0];
-        		Integer pageCount = pair[1];
-        		Integer rate = 0;
+				IntWritable[] pair= (IntWritable[]) val.toArray();
+        		Integer pageId = pair[0].get();
+        		Integer pageCount = pair[1].get();        		
+    			leaguesRates.put(pageId, 0);
+    			leaguesCounts.put(pageId, pageCount);
+    			leaguesCounts2.put(pageId, pageCount);
+			}
+
+			for (Map.Entry<Integer, Integer> val : leaguesCounts.entrySet()) {    
+        		Integer pageId = val.getKey();
+        		Integer pageCount = val.getValue();        		
+	    		Integer rate = 0;
 				
-				for (IntArrayWritable array : values) {       		
-	        		Integer[] comparePair = (Integer[]) array.toArray();
-	        		Integer compareId = comparePair[0];
-	        		Integer compareCount = comparePair[1];
+				for (Map.Entry<Integer, Integer> val2 : leaguesCounts2.entrySet()) {       		
+	        		Integer compareId = val2.getKey();
+	        		Integer compareCount = val2.getValue();
 	        		
 	        		if (compareId != pageId && compareCount < pageCount){
 	        			rate++;
@@ -193,13 +222,12 @@ public class PopularityLeague extends Configured implements Tool {
 				}
 
 				leaguesRates.put(pageId, rate);
-			}
-
+			}					
+			
 			for (Map.Entry<Integer, Integer> entry : leaguesRates.entrySet())
 			{
 				context.write(new IntWritable(entry.getKey()), new IntWritable(entry.getValue()));
 			}		
 		}
 	}
-
 }

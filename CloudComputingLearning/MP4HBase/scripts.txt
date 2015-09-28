@@ -1,0 +1,16 @@
+git clone https://github.com/xldrx/cloudapp-mp4.git
+
+bash ~/start_hbase.sh
+
+export CLASSPATH=$(hbase classpath)
+rm –rf *.class 
+javac SuperTable.java
+java SuperTable
+
+service hbase-starter restart
+bash submit.sh
+
+# hbase shell
+> disable ‘emp’
+> drop ‘emp’
+> exit

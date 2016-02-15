@@ -23,10 +23,10 @@ wordcloud(subset(sms_row, type == "ham")$text, max.words = 40, scale = c(3, 0.5)
 #Data Preprocessing
 corpus_clean <- Corpus(VectorSource(sms_row$text)) #not yet clean!!!
 
-inspect(sms_corpus[1:3])
-print(sms_corpus[[1]]$content)
+inspect(corpus_clean[1:3])
+print(corpus_clean[[1]]$content)
 
-corpus_clean <- tm_map(sms_corpus, content_transformer(tolower))
+corpus_clean <- tm_map(corpus_clean, content_transformer(tolower))
 corpus_clean <- tm_map(corpus_clean, content_transformer(removeNumbers))
 corpus_clean <- tm_map(corpus_clean, content_transformer(removePunctuation))
 corpus_clean <- tm_map(corpus_clean, content_transformer(removeWords), stopwords())

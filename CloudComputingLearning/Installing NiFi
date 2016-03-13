@@ -1,0 +1,48 @@
+sudo apt-get update
+sudo apt-get install openjdk-7-jdk
+java -version
+
+
+
+
+sudo wget https://archive.apache.org/dist/nifi/0.5.0/nifi-0.5.0-bin.tar.gz -P ~/Downloads
+
+sudo tar zxvf ~/Downloads/nifi-* -C /usr/local
+sudo mv /usr/local/nifi-* /usr/local/nifi
+sudo nano /usr/local/nifi/conf/nifi.properties
+
+//---------------------------
+nifi.ui.banner.text=NiFi Test
+nifi.sensitive.props.key=admin
+//---------------------------
+
+sudo nano ~/.profile
+
+//---------------------------
+export JAVA_HOME=/usr
+export PATH=$PATH:$JAVA_HOME/bin
+
+export NIFI_HOME=/usr/local/nifi
+export PATH=$PATH:$NIFI_HOME/bin
+//---------------------------
+
+sudo nano /usr/local/nifi/conf/bootstrap.conf
+//---------------------------
+java=/usr/bin/java
+//---------------------------
+
+sudo su
+
+. ~/.profile
+
+sudo $NIFI_HOME/bin/nifi.sh install
+
+sudo service nifi start
+sudo service nifi stop
+sudo service nifi status
+
+//-------------------------------------
+http://ec2-52-23-171-176.compute-1.amazonaws.com:8080/nifi/
+
+
+

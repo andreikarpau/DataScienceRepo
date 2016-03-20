@@ -26,6 +26,11 @@ export NIFI_HOME=/usr/local/nifi
 export PATH=$PATH:$NIFI_HOME/bin
 //---------------------------
 
+sudo nano /usr/local/nifi/conf/bootstrap.conf
+//---------------------------
+java=/usr/bin/java
+//---------------------------
+
 sudo su
 
 . ~/.profile

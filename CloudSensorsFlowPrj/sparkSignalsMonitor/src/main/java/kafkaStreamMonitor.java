@@ -2,6 +2,9 @@
  * Created by askofen on 30.03.16.
  */
 import kafka.serializer.StringDecoder;
+import org.apache.hadoop.hbase.HBaseConfiguration;
+import org.apache.hadoop.hbase.client.HTable;
+import org.apache.hadoop.hbase.util.Bytes;
 import org.apache.spark.SparkConf;
 import org.apache.spark.api.java.JavaRDD;
 import org.apache.spark.api.java.function.Function;
@@ -32,7 +35,7 @@ public class kafkaStreamMonitor {
         Map<String, String> paramsMap = new HashMap<String, String>();
         Map<String, Integer> topicMap = new HashMap<String, Integer>();
 
-        fillBaseStreamingParams(args, paramsMap, sparkConf, topicMap, className);
+        fillBaseStreamingParams(args, paramsMap, sparkConf, topicMap);
         JavaStreamingContext jssc = new JavaStreamingContext(sparkConf, new Duration(5000));
         JavaPairInputDStream<String, String> messages = KafkaUtils.createDirectStream(jssc, String.class, String.class, StringDecoder.class, StringDecoder.class, paramsMap, topicMap.keySet());
 
@@ -60,17 +63,23 @@ public class kafkaStreamMonitor {
         alarmLines.foreach(new Function<JavaRDD<String>, Void>() {
             public Void call(JavaRDD<String> v1) throws Exception {
                 List<String> elements = v1.collect();
+
+//                HBaseConfiguration hConf = new HBaseConfiguration();
+//                HTable hTable = new HTable(hConf, "test");
+//                Put thePut = new Put(Bytes.toBytes(i));
+//                thePut.add(Bytes.toBytes("cf"), Bytes.toBytes("a"), Bytes.toBytes(record));
+//                hTable.put(thePut);
+
                 return null;
             }
         });
-
         alarmLines.print();
 
         jssc.start();
         jssc.awaitTermination();
     }
 
-    public static void fillBaseStreamingParams(String[] args, Map<String, String> paramsMap, SparkConf sparkConf, Map<String, Integer> topicMap, String folderName) throws IOException{
+    public static void fillBaseStreamingParams(String[] args, Map<String, String> paramsMap, SparkConf sparkConf, Map<String, Integer> topicMap) throws IOException{
         paramsMap.put("zookeeper.connect", args[0]);
         paramsMap.put("metadata.broker.list", args[0].split(":")[0] + ":6667");
         paramsMap.put("group.id", args[1]);

@@ -22,11 +22,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="sparkSignalsMonitor" />
+        <module name="kafkaStreamMonitor" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="sparkSignalsMonitor" target="1.5" />
+      <module name="kafkaStreamMonitor" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -1,0 +1,24 @@
+hbase shell
+help
+status
+
+create 'alerts', {NAME => 'Time'}, { NAME => 'SensorName' }, { NAME => 'Value'}
+describe 'alerts'
+
+list
+
+
+put 'alerts', 'row1', 'Time', '12:23'
+put 'alerts', 'row1', 'SensorName', 'Sens1'
+put 'alerts', 'row1', 'Value', '120'
+
+
+scan 'alerts'
+scan 'alerts',  {COLUMNS=>['SensorName']}
+
+scan 'alerts',  { STARTROW => 'row2', STOPROW => 'row2'}
+
+//-------------------------------------
+disable 'alerts'
+drop 'alerts'
+//-------------------------------------

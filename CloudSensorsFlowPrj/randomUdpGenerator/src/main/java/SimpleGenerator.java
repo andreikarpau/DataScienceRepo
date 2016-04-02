@@ -59,9 +59,9 @@ public class SimpleGenerator {
                 Integer val2 = Integer.valueOf(random.nextInt(200)) - 100;
                 Integer val3 = Integer.valueOf(random.nextInt(200)) - 100;
 
-                String message1 = "Sensor1 " + val1;
-                String message2 = "Sensor2 " + val2;
-                String message3 = "Sensor3 " + val3;
+                String message1 = "Sensor1 " + val1 + " ";
+                String message2 = "Sensor2 " + val2 + " ";
+                String message3 = "Sensor3 " + val3 + " ";
 
                 SendMessage(message1, IPAddress, port, clientSocket);
                 SendMessage(message2, IPAddress, port, clientSocket);

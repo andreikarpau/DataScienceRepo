@@ -1,0 +1,53 @@
+Kafka
+
+brokers: 172.31.14.143:6667
+topic: alarms1
+
+export PATH=$PATH:/usr/hdp/current/kafka-broker/bin
+
+kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic alarms1
+
+kafka-console-consumer.sh --zookeeper 172.31.14.143:2181 --topic alarms1 --from-beginning
+////////////////////////////////////////////////////
+
+hdfs dfs -copyToLocal /user/root/NiFiOutput ./
+
+
+////////////////////////////////////////////////////
+sudo yum install git
+
+sudo wget http://mirror.olnevhost.net/pub/apache/maven/binaries/apache-maven-3.2.1-bin.tar.gz
+sudo tar xvf apache-maven-3.2.1-bin.tar.gz
+sudo rm apache-maven-3.2.1-bin.tar.gz
+sudo mv apache-maven-3.2.1 apache-maven
+sudo mv apache-maven /usr/local/
+
+
+export JAVA_HOME=/usr/jdk64/jdk1.8.0_40
+PATH=$PATH:$JAVA_HOME/bin
+export PATH
+
+export M2_HOME=/usr/local/apache-maven/
+export M2=$M2_HOME/bin
+export PATH=$M2:$PATH
+
+mvn -version
+
+/////////////////////////////////////////////////////
+Build Spark Streaming
+
+cd /DataScienceStudyRepo/CloudSensorsFlowPrj/sparkSignalsMonitor/
+sudo rm -r target
+sudo mvn package
+
+sudo rm -fr /jars/*
+sudo cp -a ~/DataScienceStudyRepo/CloudSensorsFlowPrj/sparkSignalsMonitor/target/* /jars/
+/////////////////////////////////////////////////////
+Start Spark Streaming
+
+sudo su spark
+
+spark-submit --executor-memory 2048 --master yarn-client --class kafkaStreamMonitor /jars/kafkaStreamMonitor-1.0-jar-with-dependencies.jar 172.31.14.143:2181 0a alarms1 --fromStart
+
+
+

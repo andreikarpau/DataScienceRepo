@@ -1,10 +1,8 @@
 /**
  * Created by askofen on 30.03.16.
  */
+
 import kafka.serializer.StringDecoder;
-import org.apache.hadoop.hbase.HBaseConfiguration;
-import org.apache.hadoop.hbase.client.HTable;
-import org.apache.hadoop.hbase.util.Bytes;
 import org.apache.spark.SparkConf;
 import org.apache.spark.api.java.JavaRDD;
 import org.apache.spark.api.java.function.Function;

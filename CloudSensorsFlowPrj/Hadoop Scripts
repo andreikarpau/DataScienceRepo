@@ -1,3 +1,7 @@
+///////////////////////////////////////////////////
+java -cp /home/ubuntu/DataScienceStudyRepo/CloudSensorsFlowPrj/randomUdpGenerator/target/udpProducer-1.0-SNAPSHOT.jar SimpleGenerator ec2-54-175-138-204.compute-1.amazonaws.com 8881
+
+///////////////////////////////////////////////////
 Kafka
 
 brokers: 172.31.14.143:6667
@@ -5,6 +9,7 @@ topic: alarms1
 
 export PATH=$PATH:/usr/hdp/current/kafka-broker/bin
 
+kafka-topics.sh --list --zookeeper localhost:2181
 kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic alarms1
 
 kafka-console-consumer.sh --zookeeper 172.31.14.143:2181 --topic alarms1 --from-beginning

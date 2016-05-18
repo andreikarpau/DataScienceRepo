@@ -15,5 +15,8 @@ The scripts being made during learning Machine Learning on R. It contains **Desc
 The project contains scripts for data preprocessing and analysis for purchase prediction problem. The scripts are made on **R**.
 
 ## CaterpillarTubePricing
-The project for prediction Caterpillar tubes prices. The project contains the scripts for data preprocessing, data analyzing and building the predictive model. The project is implemented on **R**.
+The project for predicting Caterpillar tubes prices. The project contains the scripts for data preprocessing, data analyzing and building the predictive model. The project is implemented on **R**.
+
+## TitanicPrediction
+The project for predicting survivance among people being on Titanic. The project contains the script for data preprocessing, analyzing and building **Random Forest** predictor. The project in implemented on **Python**. It uses *NumPy*, *SkLearn* and *Pandas* libraries.
 

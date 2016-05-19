@@ -3,6 +3,7 @@ import csv as csv
 import pandas as pd
 import pylab as P
 from sklearn.ensemble import RandomForestClassifier
+from sklearn.metrics import accuracy_score
 
 # Analyze data set
 csv_file_reader = csv.reader(open('Data/train.csv', 'rb'))
@@ -76,11 +77,35 @@ df = df.drop(['Name', 'Sex', 'Ticket', 'Cabin', 'Embarked'], axis=1)
 df = df.drop(['Age'], axis=1)
 df = df.drop(['PassengerId'], axis=1)
 
-train_data = df.values
+mask = np.random.rand(len(df)) < 0.8
+df_train = df[mask]
+df_test = df[~mask]
+
+train_data = df_train.values
+test_data_results = df_test['Survived'].values
+
+df_test = df_test.drop(['Survived'], axis=1)
+test_data = df_test.values
+
 print train_data
+print test_data
+print test_data_results
+
 
 #Create Random Forest Classifier
 forest = RandomForestClassifier(n_estimators = 100)
 forest = forest.fit(train_data[0::,1::],train_data[0::,0])
 
-#output = forest.predict(test_data)
+output = forest.predict(test_data)
+
+true_positive = sum((output + test_data_results) == 2)
+true_negative = sum((output + test_data_results) == 0)
+false_positive = sum((test_data_results - output) == 1)
+false_negative = sum((test_data_results - output) == -1)
+
+print '                     Predicted positive    Predicted negative'
+print 'Condition positive:   ' + str(true_positive) + '                    ' + str(false_negative)
+print 'Condition negative:   ' + str(false_positive) + '                    ' + str(true_negative)
+
+print 'accurancy'
+print accuracy_score(output, test_data_results)

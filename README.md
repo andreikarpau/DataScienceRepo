@@ -20,3 +20,5 @@ The project for predicting Caterpillar tubes prices. The project contains the sc
 ## TitanicPrediction
 The project for predicting survivance among people being on Titanic. The project contains the script for data preprocessing, analyzing and building **Random Forest** predictor. The project in implemented on **Python**. It uses *NumPy*, *SkLearn* and *Pandas* libraries.
 
+## HopfieldNetworkProj
+The implementation of Hopfield Network with asynch running. The project is implemented on **Python**. It uses *NumPy* library.

@@ -14,6 +14,9 @@ The scripts being made during learning Machine Learning on R. It contains **Desc
 ## HomesitePrj
 The project contains scripts for data preprocessing and analysis for purchase prediction problem. The scripts are made on **R**.
 
+## Machine Learning Course Projects
+Contains the projects that were done during Machine Learning Coursera Course: **K-Means Clustering**, **PCA**, **Linear Regression**, **Logistic Regression**, **Neural Networks**, **Recommender Systems** and **Support Vector Machines**. All the projects are done on **Octave**.
+
 ## CaterpillarTubePricing
 The project for predicting Caterpillar tubes prices. The project contains the scripts for data preprocessing, data analyzing and building the predictive model. The project is implemented on **R**.
 

@@ -1,4 +1,3 @@
-import sys
 import numpy as np
 
 class HopfieldNetwork:
@@ -19,6 +18,22 @@ class HopfieldNetwork:
 
         return True
 
+    def train_by_generalised_hebb_rule(self, patterns):
+        w = np.matrix(np.zeros(shape=(self.n, self.n)))
+
+        for i in range(0, self.n):
+            for j in range(0, self.n):
+                if i != j:
+                    for k in range(0, patterns.shape[0]):
+                        w[i, j] += patterns[k, i] * patterns[k, j]
+
+                    w[i, j] /= self.n
+
+        self.weights = w
+
+        if self.log_intermediate:
+            print("Learned weights = " + " \n" + str(self.weights))
+
     def build_network_async(self, input_values):
         if self.thresholds.shape != input_values.shape:
             raise AssertionError('input_values should be a vector of size ' + str(self.n))
@@ -34,13 +49,12 @@ class HopfieldNetwork:
         while index < 100:
             index += 1
 
-            sums_temp = self.weights[neuron_num] * outputs
+            sum_temp = self.weights[neuron_num] * outputs
 
             if self.log_intermediate:
-                print("sums_temp for index = " + str(index) + " \n" + str(sums_temp))
+                print("sums_temp for index = " + str(index) + " \n" + str(sum_temp))
 
-            bool_output = self.thresholds[neuron_num] <= sums_temp
-            outputs[neuron_num] = bool_output.astype(int)
+            outputs[neuron_num] = 1 if self.thresholds[neuron_num] <= sum_temp else -1
 
             if self.log_intermediate:
                 print("outputs for index = " + str(index) + " \n " + str(outputs))

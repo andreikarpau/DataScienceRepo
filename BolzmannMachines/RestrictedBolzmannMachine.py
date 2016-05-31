@@ -29,6 +29,8 @@ class RestrictedBolzmannMachine:
                 print("\n" + "train epoch: " + str(i) + " is_last_epoch = " + str(is_last_epoch))
 
             positive_delta_v = self.__positive_gradient(data, self.w, is_last_epoch)
+            negative_delta_v = self.__negative_gradient(data, self.w, True)
+
             self.w += positive_delta_v
 
             if self.log_intermediate:
@@ -39,6 +41,13 @@ class RestrictedBolzmannMachine:
         sums = -(v * w)
         prob = 1 / (1 + np.exp(-sums))
         return prob
+
+    @staticmethod
+    def __sigmoid(vector):
+        v = np.copy(vector)
+        v[v >= 0.5] = 1
+        v[v < 0.5] = 0
+        return v
 
     def __positive_gradient(self, data, w, is_last_epoch):
         w_stats = []
@@ -66,6 +75,18 @@ class RestrictedBolzmannMachine:
         w_stats_mean = np.mean(w_stats, axis=0)
 
         if self.log_intermediate:
-            print("__positive_phase_probabilities w_stats_mean: " + "\n" + str(w_stats_mean))
+            print("__positive_gradient w_stats_mean: " + "\n" + str(w_stats_mean))
 
         return w_stats_mean
+
+
+    def __negative_gradient(self, data, w, generate_v):
+        w_stats = []
+
+        for data_i in range(data.shape[0]):
+            v = data[data_i]
+            h = self.__sigmoid(self.__positive_phase_probabilities(v, w))
+
+
+#visible bias log[pi/(1−pi)]
+            print "Negative h = " + str(h)

@@ -27,6 +27,11 @@ class RestrictedBolzmannMachine:
         self.hidden_bias = np.matrix(np.zeros(shape=self.h_size))
         self.visible_bias = np.matrix(np.zeros(shape=self.v_size))
 
+        self.visible_bias.fill(self.__count_initial_visible_bias(input_samples))
+
+        if len(input_samples.shape) == 1:
+            input_samples = input_samples.reshape(1, input_samples.shape[0])
+
         for i in range(self.epochs_count):
             w_h_biased = np.matrix(np.zeros(shape=(self.v_size + 1, self.h_size)))
             w_h_biased[:-1, :] = self.w.copy()
@@ -50,6 +55,8 @@ class RestrictedBolzmannMachine:
             neg_w_stats = []
             neg_h_bias_stats = []
 
+            total_squared_error = 0
+
             for data_i in range(input_samples.shape[0]):
                 v = input_samples[data_i]
 
@@ -63,7 +70,10 @@ class RestrictedBolzmannMachine:
                 pos_w_stat, pos_h_bias_stat = self.__count_gradient(v_biased, h_vector)
 
                 h_biased = self.__get_biased_vector(h_vector, self.h_size + 1)
-                v_generated = self.__count_layer_vector(h_biased, w_v_biased.T, is_last_epoch)
+                v_generated = self.__count_layer_vector(h_biased, w_v_biased.T, True)
+
+                error = v - v_generated
+                total_squared_error += error * error.T
 
                 # negative gradient for v bias vector. Use states for it.
                 neg_v_bias_stat = v_generated
@@ -101,12 +111,20 @@ class RestrictedBolzmannMachine:
                 print("\n" + "new visible bias: " + "\n" + str(self.visible_bias))
                 print("\n" + "new hidden bias: " + "\n" + str(self.hidden_bias))
 
-    @staticmethod
-    def __exp_sigmoid(sums):
-        return  1 / (1 + np.exp(-sums))
+            print("\n total squared error = " + str(total_squared_error))
 
-    def __cpunt_probabilities(self, v, w):
-        sums = -(v * w)
+    @staticmethod
+    def __count_initial_visible_bias(input_samples):
+        p = float(np.sum(input_samples)) / np.product(input_samples.shape)
+        value = np.log((p / (1 - p)))
+        return value
+
+    @staticmethod
+    def __exp_sigmoid(x):
+        return 1 / (1 + np.exp(-x))
+
+    def __count_probabilities(self, v, w):
+        sums = v * w
         prob = self.__exp_sigmoid(sums)
         return prob
 
@@ -123,7 +141,7 @@ class RestrictedBolzmannMachine:
         return np.matrix(vector_biased)
 
     def __count_layer_vector(self, vector_biased, weights_biased, use_probabilities_values):
-        vector_prob = self.__cpunt_probabilities(vector_biased, weights_biased)
+        vector_prob = self.__count_probabilities(vector_biased, weights_biased)
 
         sample_vector = []
         for i in range(vector_prob.shape[1]):
@@ -137,51 +155,14 @@ class RestrictedBolzmannMachine:
 
         return np.matrix(sample_vector)
 
-    def __count_gradient(self, v_biased, h_vector):
+    @staticmethod
+    def __count_gradient(v_biased, h_vector):
         w_stats = v_biased.T * h_vector
         h_bias_stats = w_stats[-1,:]
         w_stats = w_stats[:-1,:]
         return w_stats, h_bias_stats
 
-        # w_stats = []
-        #
-        # data_to_h = np.ones(shape=(input_samples.shape[0], self.v_size + 1))
-        # data_to_h[:, :-1] = input_samples
-        # data_to_h = np.matrix(data_to_h)
-        #
-        # for data_i in range(data_to_h.shape[0]):
-        #     v = data_to_h[data_i]
-        #     h_prob = self.__positive_phase_probabilities(v, self.w)
-        #
-        #     h_sample = []
-        #
-        #     for i in range(h_prob.shape[1]):
-        #         p = h_prob[0, i]
-        #
-        #         if is_last_epoch:
-        #             h_sample.append(p)
-        #         else:
-        #             h_tmp = np.random.choice([1., 0.], p=[p, 1 - p])
-        #             h_sample.append(h_tmp)
-        #
-        #     h_sample = np.matrix(h_sample)
-        #
-        #     w_stats_example = v.T * h_sample
-        #     w_stats.append(w_stats_example)
-        #
-        # w_stats_mean = np.mean(w_stats, axis=0)
-        #
-        # if self.log_intermediate:
-        #     print("__positive_gradient w_stats_mean: " + "\n" + str(w_stats_mean))
-        #
-        # return w_stats_mean
+    def __get_energy(self, v, h):
+        sum = self.visible_bias * v.T + self.hidden_bias * h.T + np.sum(np.multiply(v.T * h, self.w))
+        return -sum
 
-
-    # def __negative_gradient(self, data, generate_v):
-    #     w_stats = []
-    #
-    #     for data_i in range(data.shape[0]):
-    #         v = data[data_i]
-    #         h = self.__sigmoid(self.__positive_phase_probabilities(v, self.w))
-    #
-    #         print "Negative h = " + str(h)

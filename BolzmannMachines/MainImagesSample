@@ -1,0 +1,7 @@
+import numpy as np
+import RestrictedBolzmannMachine as rbmachine
+import Image as im
+import ImagesHelper as ih
+
+sunImage = im.open("Data/Sun.bmp")
+sumMask = ih.get_bit_mask_from_bitmap(sunImage)

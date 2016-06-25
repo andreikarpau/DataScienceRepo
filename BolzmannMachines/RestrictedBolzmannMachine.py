@@ -19,6 +19,41 @@ class RestrictedBolzmannMachine:
         self.rate = learning_rate
         self.epochs_count = epochs_count
 
+    def count_visible_from_visible(self, input_sample):
+        hidden = self.count_hidden(input_sample)
+        visible = self.count_visible(hidden)
+        return visible
+
+    def count_visible(self, hidden_sample):
+        w_v_biased = np.matrix(np.zeros(shape=(self.v_size, self.h_size + 1)))
+        w_v_biased[:, :-1] = self.w.copy()
+        w_v_biased[:, -1] = self.visible_bias.T.copy()
+
+        h_biased = self.__get_biased_vector(hidden_sample, self.h_size + 1)
+        v_generated = self.__count_layer_vector(h_biased, w_v_biased.T, True)
+
+        if self.log_intermediate:
+            print("\n" + "v_vector probabilities: " + "\n" + str(v_generated))
+
+        v_generated = self.__make_binary(v_generated)
+        return v_generated
+
+    def count_hidden(self, input_sample):
+        v = input_sample
+
+        w_h_biased = np.matrix(np.zeros(shape=(self.v_size + 1, self.h_size)))
+        w_h_biased[:-1, :] = self.w.copy()
+        w_h_biased[-1, :] = self.hidden_bias.copy()
+
+        v_biased = self.__get_biased_vector(v, self.v_size + 1)
+        h_vector = self.__count_layer_vector(v_biased, w_h_biased, True)
+
+        if self.log_intermediate:
+            print("\n" + "h_vector probabilities: " + "\n" + str(h_vector))
+
+        h_vector = self.__make_binary(h_vector)
+        return h_vector
+
     def train(self, input_samples):
         np.random.seed(0)
         self.w = np.random.normal(0, 0.01, self.v_size * self.h_size)
@@ -129,7 +164,7 @@ class RestrictedBolzmannMachine:
         return prob
 
     @staticmethod
-    def __sigmoid(vector):
+    def __make_binary(vector):
         v = np.copy(vector)
         v[v >= 0.5] = 1
         v[v < 0.5] = 0

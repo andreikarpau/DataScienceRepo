@@ -2,6 +2,9 @@
 
 Repository for data science projects and study files. The solutions are mainly made on **R** and **Python**.
 
+## BolzmannMachines
+Contains the implementation of BolzmannMachine made on **Python**.
+
 ## CourseraDataScience
 Contains the solutions to assignments in Coursera Data Science specialisation. The solutions are made on **R**.
 

@@ -17,6 +17,13 @@ class ImagesHelper:
             for j in range(0, image.size[1]):
                 pixel = pixels[j, i]
 
+                if (isinstance(pixel, int)):
+                    if PIXEL_COLOR_LIMIT < pixel:
+                        bitMask[i * image.size[1] + j] = 1
+
+                    continue;
+
+
                 if (PIXEL_COLOR_LIMIT < pixel[0] or PIXEL_COLOR_LIMIT < pixel[1] or PIXEL_COLOR_LIMIT < pixel[2]):
                     bitMask[i * image.size[1] + j] = 1
 
@@ -28,7 +35,16 @@ class ImagesHelper:
 
         figure = plt.figure()
         subplot = figure.add_subplot(111)
-        subplot.imshow(image)
+        subplot.imshow(image, cmap='Greys_r')
         plt.show()
 
+    @staticmethod
+    def subplot_bit_mask(bit_mask, width, height, subplot_args, show_plot = False):
+        image = np.asarray(bit_mask).reshape(width, height)
+
+        plt.subplot(subplot_args)
+        plt.imshow(image, cmap='Greys_r')
+
+        if show_plot:
+            plt.show()
 

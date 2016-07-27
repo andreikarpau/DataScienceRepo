@@ -2,34 +2,30 @@ import numpy as np
 
 
 class RestrictedBolzmannMachine:
-    log_intermediate = False
-    v_size = 0
-    h_size = 0
-    rate = 0.1
-    epochs_count = 10
-
-    # weights matrix
-    w = []
-    hidden_bias = []
-    visual_bias = []
 
     def __init__(self, v_count, h_count, learning_rate=0.1, epochs_count = 10):
-        self.v_size = v_count
-        self.h_size = h_count
-        self.rate = learning_rate
-        self.epochs_count = epochs_count
+        self.log_intermediate = False
+        self.__v_size = v_count
+        self.__h_size = h_count
+        self.__rate = learning_rate
+        self.__epochs_count = epochs_count
 
-    def count_visible_from_visible(self, input_sample):
-        hidden = self.count_hidden(input_sample)
-        visible = self.count_visible(hidden)
+        # weights
+        self.__w = []
+        self.__hidden_bias = []
+        self.__visual_bias = []
+
+    def calculate_visible_from_visible(self, input_sample):
+        hidden = self.calculate_hidden(input_sample)
+        visible = self.calculate_visible(hidden)
         return visible
 
-    def count_visible(self, hidden_sample):
-        w_v_biased = np.matrix(np.zeros(shape=(self.v_size, self.h_size + 1)))
-        w_v_biased[:, :-1] = self.w.copy()
+    def calculate_visible(self, hidden_sample):
+        w_v_biased = np.matrix(np.zeros(shape=(self.__v_size, self.__h_size + 1)))
+        w_v_biased[:, :-1] = self.__w.copy()
         w_v_biased[:, -1] = self.visible_bias.T.copy()
 
-        h_biased = self.__get_biased_vector(hidden_sample, self.h_size + 1)
+        h_biased = self.__get_biased_vector(hidden_sample, self.__h_size + 1)
         v_generated = self.__count_layer_vector(h_biased, w_v_biased.T, True)
 
         if self.log_intermediate:
@@ -38,14 +34,14 @@ class RestrictedBolzmannMachine:
         v_generated = self.__make_binary(v_generated)
         return v_generated
 
-    def count_hidden(self, input_sample):
+    def calculate_hidden(self, input_sample):
         v = input_sample
 
-        w_h_biased = np.matrix(np.zeros(shape=(self.v_size + 1, self.h_size)))
-        w_h_biased[:-1, :] = self.w.copy()
-        w_h_biased[-1, :] = self.hidden_bias.copy()
+        w_h_biased = np.matrix(np.zeros(shape=(self.__v_size + 1, self.__h_size)))
+        w_h_biased[:-1, :] = self.__w.copy()
+        w_h_biased[-1, :] = self.__hidden_bias.copy()
 
-        v_biased = self.__get_biased_vector(v, self.v_size + 1)
+        v_biased = self.__get_biased_vector(v, self.__v_size + 1)
         h_vector = self.__count_layer_vector(v_biased, w_h_biased, True)
 
         if self.log_intermediate:
@@ -56,27 +52,27 @@ class RestrictedBolzmannMachine:
 
     def train(self, input_samples):
         np.random.seed(0)
-        self.w = np.random.normal(0, 0.01, self.v_size * self.h_size)
-        self.w = np.matrix(np.reshape(self.w, (self.v_size, self.h_size)))
+        self.__w = np.random.normal(0, 0.01, self.__v_size * self.__h_size)
+        self.__w = np.matrix(np.reshape(self.__w, (self.__v_size, self.__h_size)))
 
-        self.hidden_bias = np.matrix(np.zeros(shape=self.h_size))
-        self.visible_bias = np.matrix(np.zeros(shape=self.v_size))
+        self.__hidden_bias = np.matrix(np.zeros(shape=self.__h_size))
+        self.visible_bias = np.matrix(np.zeros(shape=self.__v_size))
 
         self.visible_bias.fill(self.__count_initial_visible_bias(input_samples))
 
         if len(input_samples.shape) == 1:
             input_samples = input_samples.reshape(1, input_samples.shape[0])
 
-        for i in range(self.epochs_count):
-            w_h_biased = np.matrix(np.zeros(shape=(self.v_size + 1, self.h_size)))
-            w_h_biased[:-1, :] = self.w.copy()
-            w_h_biased[-1,:] = self.hidden_bias.copy()
+        for i in range(self.__epochs_count):
+            w_h_biased = np.matrix(np.zeros(shape=(self.__v_size + 1, self.__h_size)))
+            w_h_biased[:-1, :] = self.__w.copy()
+            w_h_biased[-1,:] = self.__hidden_bias.copy()
 
-            w_v_biased = np.matrix(np.zeros(shape=(self.v_size, self.h_size + 1)))
-            w_v_biased[:, :-1] = self.w.copy()
+            w_v_biased = np.matrix(np.zeros(shape=(self.__v_size, self.__h_size + 1)))
+            w_v_biased[:, :-1] = self.__w.copy()
             w_v_biased[:,-1] = self.visible_bias.T.copy()
 
-            is_last_epoch = (self.epochs_count - 1) == i
+            is_last_epoch = (self.__epochs_count - 1) == i
 
             if self.log_intermediate:
                 print ("\n" + "train epoch: " + str(i) + " is_last_epoch = " + str(is_last_epoch))
@@ -95,7 +91,7 @@ class RestrictedBolzmannMachine:
             for data_i in range(input_samples.shape[0]):
                 v = input_samples[data_i]
 
-                v_biased = self.__get_biased_vector(v, self.v_size + 1)
+                v_biased = self.__get_biased_vector(v, self.__v_size + 1)
                 h_vector = self.__count_layer_vector(v_biased, w_h_biased, is_last_epoch)
 
                 # positive gradient for v bias vector. Use states for it.
@@ -104,7 +100,7 @@ class RestrictedBolzmannMachine:
                 # positive gradient for w and h bias
                 pos_w_stat, pos_h_bias_stat = self.__count_gradient(v_biased, h_vector)
 
-                h_biased = self.__get_biased_vector(h_vector, self.h_size + 1)
+                h_biased = self.__get_biased_vector(h_vector, self.__h_size + 1)
                 v_generated = self.__count_layer_vector(h_biased, w_v_biased.T, True)
 
                 error = v - v_generated
@@ -113,7 +109,7 @@ class RestrictedBolzmannMachine:
                 # negative gradient for v bias vector. Use states for it.
                 neg_v_bias_stat = v_generated
 
-                v_generated_biased = self.__get_biased_vector(v_generated, self.v_size + 1)
+                v_generated_biased = self.__get_biased_vector(v_generated, self.__v_size + 1)
                 h_vector_generated = self.__count_layer_vector(v_generated_biased, w_h_biased, is_last_epoch)
 
                 # negative gradient for w and h bias
@@ -137,14 +133,14 @@ class RestrictedBolzmannMachine:
             pos_h_gradient = np.mean(pos_h_bias_stats, axis=0)
             neg_h_gradient = np.mean(neg_h_bias_stats, axis=0)
 
-            self.w += self.rate * (pos_w_gradient - neg_w_gradient)
-            self.visible_bias += self.rate * (pos_v_gradient - neg_v_gradient)
-            self.hidden_bias += self.rate * (pos_h_gradient - neg_h_gradient)
+            self.__w += self.__rate * (pos_w_gradient - neg_w_gradient)
+            self.visible_bias += self.__rate * (pos_v_gradient - neg_v_gradient)
+            self.__hidden_bias += self.__rate * (pos_h_gradient - neg_h_gradient)
 
             if self.log_intermediate:
-                print("\n" + "new w: " + "\n" + str(self.w))
+                print("\n" + "new w: " + "\n" + str(self.__w))
                 print("\n" + "new visible bias: " + "\n" + str(self.visible_bias))
-                print("\n" + "new hidden bias: " + "\n" + str(self.hidden_bias))
+                print("\n" + "new hidden bias: " + "\n" + str(self.__hidden_bias))
 
             print("\n total squared error = " + str(total_squared_error))
 
@@ -198,6 +194,6 @@ class RestrictedBolzmannMachine:
         return w_stats, h_bias_stats
 
     def __get_energy(self, v, h):
-        sum = self.visible_bias * v.T + self.hidden_bias * h.T + np.sum(np.multiply(v.T * h, self.w))
+        sum = self.visible_bias * v.T + self.__hidden_bias * h.T + np.sum(np.multiply(v.T * h, self.__w))
         return -sum
 

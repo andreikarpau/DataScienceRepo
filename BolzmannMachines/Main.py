@@ -15,20 +15,20 @@ rbm.log_intermediate = False
 
 rbm.train(input_samples)
 
-hidden = rbm.count_hidden(input_samples[0])
+hidden = rbm.calculate_hidden(input_samples[0])
 print "\n" + "Hidden counted:"
 print hidden
 
-visible = rbm.count_visible(hidden)
+visible = rbm.calculate_visible(hidden)
 print "\n" + "Visible counted:"
 print visible
 
 
-hidden = rbm.count_hidden(input_samples[4])
+hidden = rbm.calculate_hidden(input_samples[4])
 print "\n" + "Hidden counted:"
 print hidden
 
-visible = rbm.count_visible(hidden)
+visible = rbm.calculate_visible(hidden)
 print "\n" + "Visible counted:"
 print visible
 

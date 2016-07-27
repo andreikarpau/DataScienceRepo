@@ -21,20 +21,20 @@ rbm.log_intermediate = False
 
 rbm.train(input_samples)
 
-hidden_sun = rbm.count_hidden(sumMask)
-visible_sun = rbm.count_visible(hidden_sun)
+hidden_sun = rbm.calculate_hidden(sumMask)
+visible_sun = rbm.calculate_visible(hidden_sun)
 
 #ih.subplot_bit_mask(hidden_sun, 20, 20, 321)
 #ih.subplot_bit_mask(visible_sun, 30, 30, 322)
 
-hidden_ninja = rbm.count_hidden(ninjaMask)
-visible_ninja = rbm.count_visible(hidden_ninja)
+hidden_ninja = rbm.calculate_hidden(ninjaMask)
+visible_ninja = rbm.calculate_visible(hidden_ninja)
 
 #ih.subplot_bit_mask(hidden_ninja, 20, 20, 323)
 #ih.subplot_bit_mask(visible_ninja, 30, 30, 324)
 
-hidden_logo = rbm.count_hidden(logoMask)
-visible_logo = rbm.count_visible(hidden_logo)
+hidden_logo = rbm.calculate_hidden(logoMask)
+visible_logo = rbm.calculate_visible(hidden_logo)
 
 #ih.subplot_bit_mask(hidden_logo, 20, 20, 325)
 #ih.subplot_bit_mask(visible_logo, 30, 30, 326, True)
@@ -46,22 +46,22 @@ rbm2 = rbmachine.RestrictedBolzmannMachine(400, 100, 3, 250)
 rbm2.log_intermediate = False
 rbm2.train(input_samples2)
 
-hidden_sun2 = rbm2.count_hidden(hidden_sun)
-visible_sun2 = rbm2.count_visible(hidden_sun2)
+hidden_sun2 = rbm2.calculate_hidden(hidden_sun)
+visible_sun2 = rbm2.calculate_visible(hidden_sun2)
 
 ih.subplot_bit_mask(hidden_sun2, 10, 10, 331)
 ih.subplot_bit_mask(visible_sun2, 20, 20, 332)
 ih.subplot_bit_mask(visible_sun, 30, 30, 333)
 
-hidden_ninja2 = rbm2.count_hidden(hidden_ninja)
-visible_ninja2 = rbm2.count_visible(hidden_ninja2)
+hidden_ninja2 = rbm2.calculate_hidden(hidden_ninja)
+visible_ninja2 = rbm2.calculate_visible(hidden_ninja2)
 
 ih.subplot_bit_mask(hidden_ninja2, 10, 10, 334)
 ih.subplot_bit_mask(visible_ninja2, 20, 20, 335)
 ih.subplot_bit_mask(visible_ninja, 30, 30, 336)
 
-hidden_logo2 = rbm2.count_hidden(hidden_logo)
-visible_logo2 = rbm2.count_visible(hidden_logo2)
+hidden_logo2 = rbm2.calculate_hidden(hidden_logo)
+visible_logo2 = rbm2.calculate_visible(hidden_logo2)
 
 ih.subplot_bit_mask(hidden_logo2, 10, 10, 337)
 ih.subplot_bit_mask(visible_logo2, 20, 20, 338)

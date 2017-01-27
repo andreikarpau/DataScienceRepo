@@ -28,3 +28,6 @@ The project for predicting survivance among people being on Titanic. The project
 
 ## HopfieldNetworkProj
 The implementation of Hopfield Network with asynch running. The project is implemented on **Python**. It uses *NumPy* library.
+
+## TripAnalysisPrj
+This project for extracting and analyzing driving related data. The project is implemented on **Python** and contains interaction with external APIs.

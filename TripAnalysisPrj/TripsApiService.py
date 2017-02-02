@@ -32,7 +32,9 @@ class CarService:
 
                 trip_id = value['id']
 
-                measurements = CarService.get_car_measurements(trip_id, "Mönchengladbach") #Mönchengladbach
+                print('processing trip {0}'.format(trip_id))
+
+                measurements = CarService.get_car_measurements(trip_id, ["Germany", "Deutschland"]) #Germany only
                 if measurements is None:
                     continue
 
@@ -68,8 +70,8 @@ class CarService:
                 if not road.check_place(place):
                     return None
 
-            measurements[index] = CarTrip.Measurement(value['geometry']['coordinates'][1],
-                                                      value['geometry']['coordinates'][0])
+            measurements[index] = CarTrip.Measurement(index, value['geometry']['coordinates'][1],
+                                                      value['geometry']['coordinates'][0], road, value['properties']['phenomenons'])
             index += 1
 
         return measurements

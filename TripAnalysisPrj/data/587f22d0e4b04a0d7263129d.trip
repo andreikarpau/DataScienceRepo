@@ -1,0 +1,1520 @@
+!!python/object:CarTrip.Trip
+_Trip__car: !!python/object:CarTrip.Car {_Car__api_id: 574c0163e4b09078f97a1221, _Car__construction_year: 2016,
+  _Car__engine_displacement: 1600, _Car__fuel_type: gasoline, _Car__manufacturer: 'bmw ',
+  _Car__model: 120i}
+_Trip__id: 587f22d0e4b04a0d7263129d
+_Trip__length: 5.349141376405604
+_Trip__measurements:
+  0: !!python/object:CarTrip.Measurement
+    _Measurement__index: 0
+    _Measurement__latitude: 51.15618466832142
+    _Measurement__longitude: 6.377984450824727
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 11.201039086673505, Consumption_unit: l/h,
+      Consumption_value: 4.766399611350428, Engine Load_unit: '%', Engine Load_value: 25.48424156436886,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 2.999999910593033, GPS Altitude_unit: m,
+      GPS Altitude_value: 128.9999961555004, GPS Bearing_unit: deg, GPS Bearing_value: 177.1504530982952,
+      GPS HDOP_unit: precision, GPS HDOP_value: 0.6000000178813935, GPS PDOP_unit: precision,
+      GPS PDOP_value: 1.0000000298023224, GPS Speed_unit: km/h, GPS Speed_value: 77.00406860197131,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.800000023841858, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 96.54845815896988, Intake Temperature_unit: c, Intake Temperature_value: 10.999999802792445,
+      MAF_unit: l/s, MAF_value: 14.499784817695613, Rpm_unit: u/min, Rpm_value: 1692.4443940520287,
+      Speed_unit: km/h, Speed_value: 78.15666434168816, Throttle Position_unit: '%',
+      Throttle Position_value: 25.254036605358124}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: "Grotherath, Hehn, Viehstra\xDFe, M\xF6nchengladbach, Regierungsbezirk\
+        \ D\xFCsseldorf, Nordrhein-Westfalen, 41179, Deutschland"
+      _Road__osm_id: '8102286'
+      _Road__tags: {highway: tertiary, name: Grotherath, ref: K 9, 'source:ref': 'http://wiki.openstreetmap.org/wiki/Import/Catalogue/Strassen_NRW'}
+  1: !!python/object:CarTrip.Measurement
+    _Measurement__index: 1
+    _Measurement__latitude: 51.15522561185306
+    _Measurement__longitude: 6.377809713197687
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 10.496870036101823, Consumption_unit: l/h,
+      Consumption_value: 4.466753206851839, Engine Load_unit: '%', Engine Load_value: 23.468618130829867,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 3.0, GPS Altitude_unit: m, GPS Altitude_value: 129.46396839618683,
+      GPS Bearing_unit: deg, GPS Bearing_value: 188.97117515678838, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6000000178813933, GPS PDOP_unit: precision, GPS PDOP_value: 1.0000000298023224,
+      GPS Speed_unit: km/h, GPS Speed_value: 77.16729734120781, GPS VDOP_unit: precision,
+      GPS VDOP_value: 0.8000000238418579, Intake Pressure_unit: kPa, Intake Pressure_value: 95.98879138380289,
+      Intake Temperature_unit: c, Intake Temperature_value: 11.0, MAF_unit: l/s, MAF_value: 13.588235484677199,
+      Rpm_unit: u/min, Rpm_value: 1696.8619275689125, Speed_unit: km/h, Speed_value: 79.00000235438347,
+      Throttle Position_unit: '%', Throttle Position_value: 24.700873374938965}
+    _Measurement__road: &id001 !!python/object:CarTrip.Road
+      _Road__display_name: "Grotherather Stra\xDFe, Voosen, Hehn, Voosen, M\xF6nchengladbach,\
+        \ Regierungsbezirk D\xFCsseldorf, Nordrhein-Westfalen, 41179, Deutschland"
+      _Road__osm_id: '225781019'
+      _Road__tags: {highway: tertiary, name: "Grotherather Stra\xDFe", ref: K 9, 'source:ref': 'http://wiki.openstreetmap.org/wiki/Import/Catalogue/Strassen_NRW'}
+  2: !!python/object:CarTrip.Measurement
+    _Measurement__index: 2
+    _Measurement__latitude: 51.15425850240137
+    _Measurement__longitude: 6.3777503652997325
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 10.79375606401168, Consumption_unit: l/h,
+      Consumption_value: 4.5930876868134805, Engine Load_unit: '%', Engine Load_value: 24.34054298083413,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 3.0, GPS Altitude_unit: m, GPS Altitude_value: 129.0,
+      GPS Bearing_unit: deg, GPS Bearing_value: 175.9330021889209, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 0.9, GPS Speed_unit: km/h,
+      GPS Speed_value: 76.92731659167293, GPS VDOP_unit: precision, GPS VDOP_value: 0.7,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 95.99999713897705, Intake Temperature_unit: c,
+      Intake Temperature_value: 10.999999795109034, MAF_unit: l/s, MAF_value: 13.972555500593842,
+      Rpm_unit: u/min, Rpm_value: 1693.6003975868225, Speed_unit: km/h, Speed_value: 78.00000232458115,
+      Throttle Position_unit: '%', Throttle Position_value: 25.00000074505806}
+    _Measurement__road: *id001
+  3: !!python/object:CarTrip.Measurement
+    _Measurement__index: 3
+    _Measurement__latitude: 51.15330502102626
+    _Measurement__longitude: 6.378104794898473
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 9.200087263642672, Consumption_unit: l/h,
+      Consumption_value: 3.914930750486243, Engine Load_unit: '%', Engine Load_value: 20.457302634809082,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 2.999999910593033, GPS Altitude_unit: m,
+      GPS Altitude_value: 126.99999621510506, GPS Bearing_unit: deg, GPS Bearing_value: 160.53155469030935,
+      GPS HDOP_unit: precision, GPS HDOP_value: 0.6000000178813935, GPS PDOP_unit: precision,
+      GPS PDOP_value: 0.9000000268220901, GPS Speed_unit: km/h, GPS Speed_value: 77.45639355542812,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.7000000208616256, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 95.00000070780516, Intake Temperature_unit: c, Intake Temperature_value: 11.000000327825546,
+      MAF_unit: l/s, MAF_value: 11.909545587208356, Rpm_unit: u/min, Rpm_value: 1699.1336645036936,
+      Speed_unit: km/h, Speed_value: 79.0, Throttle Position_unit: '%', Throttle Position_value: 23.000000342726707}
+    _Measurement__road: *id001
+  4: !!python/object:CarTrip.Measurement
+    _Measurement__index: 4
+    _Measurement__latitude: 51.152430016155215
+    _Measurement__longitude: 6.378845527858561
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 10.386352439597912, Consumption_unit: l/h,
+      Consumption_value: 4.4197244423820905, Engine Load_unit: '%', Engine Load_value: 23.09293924736994,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 3.000000089406967, GPS Altitude_unit: m,
+      GPS Altitude_value: 126.00000375509262, GPS Bearing_unit: deg, GPS Bearing_value: 148.70058438950446,
+      GPS HDOP_unit: precision, GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 0.8999999999999999,
+      GPS Speed_unit: km/h, GPS Speed_value: 77.54863651820233, GPS VDOP_unit: precision,
+      GPS VDOP_value: 0.7, Intake Pressure_unit: kPa, Intake Pressure_value: 95.51137879490852,
+      Intake Temperature_unit: c, Intake Temperature_value: 11.000000040978193, MAF_unit: l/s,
+      MAF_value: 13.445170064096516, Rpm_unit: u/min, Rpm_value: 1698.0257740616798,
+      Speed_unit: km/h, Speed_value: 78.19935691356659, Throttle Position_unit: '%',
+      Throttle Position_value: 24.237991273403168}
+    _Measurement__road: *id001
+  5: !!python/object:CarTrip.Measurement
+    _Measurement__index: 5
+    _Measurement__latitude: 51.15161646164618
+    _Measurement__longitude: 6.379565190178964
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 2.653414541708591, Consumption_unit: l/h,
+      Consumption_value: 1.129112570939826, Engine Load_unit: '%', Engine Load_value: 6.274509860020057,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 3.0000000447034836, GPS Altitude_unit: m,
+      GPS Altitude_value: 123.00000183284283, GPS Bearing_unit: deg, GPS Bearing_value: 159.1101125627756,
+      GPS HDOP_unit: precision, GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 0.9,
+      GPS Speed_unit: km/h, GPS Speed_value: 71.58392950366874, GPS VDOP_unit: precision,
+      GPS VDOP_value: 0.7, Intake Pressure_unit: kPa, Intake Pressure_value: 94.98117457330227,
+      Intake Temperature_unit: c, Intake Temperature_value: 11.54401770234108, MAF_unit: l/s,
+      MAF_value: 3.434854533513196, Rpm_unit: u/min, Rpm_value: 1530.265625, Speed_unit: km/h,
+      Speed_value: 70.55800896883011, Throttle Position_unit: '%', Throttle Position_value: 16.0}
+    _Measurement__road: *id001
+  6: !!python/object:CarTrip.Measurement
+    _Measurement__index: 6
+    _Measurement__latitude: 51.1509980901065
+    _Measurement__longitude: 6.379701151615276
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 32.85056165073878, Consumption_unit: l/h,
+      Consumption_value: 13.978962404569694, Engine Load_unit: '%', Engine Load_value: 68.46691912609617,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 3.0, GPS Altitude_unit: m, GPS Altitude_value: 122.0,
+      GPS Bearing_unit: deg, GPS Bearing_value: 174.64782696569637, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6000000089406967, GPS PDOP_unit: precision, GPS PDOP_value: 0.9000000134110451,
+      GPS Speed_unit: km/h, GPS Speed_value: 45.600213032212196, GPS VDOP_unit: precision,
+      GPS VDOP_value: 0.7000000104308127, Intake Pressure_unit: kPa, Intake Pressure_value: 133.02270126342773,
+      Intake Temperature_unit: c, Intake Temperature_value: 12.0, MAF_unit: l/s, MAF_value: 42.525168548234724,
+      Rpm_unit: u/min, Rpm_value: 2140.4764635562897, Speed_unit: km/h, Speed_value: 49.05618119239807,
+      Throttle Position_unit: '%', Throttle Position_value: 55.76524678617716}
+    _Measurement__road: &id002 !!python/object:CarTrip.Road
+      _Road__display_name: "Voosen, Hehn, Voosen, M\xF6nchengladbach, Regierungsbezirk\
+        \ D\xFCsseldorf, Nordrhein-Westfalen, 41179, Deutschland"
+      _Road__osm_id: '10302438'
+      _Road__tags: {highway: tertiary, name: Voosen, ref: K 9, 'source:ref': 'http://wiki.openstreetmap.org/wiki/Import/Catalogue/Strassen_NRW'}
+  7: !!python/object:CarTrip.Measurement
+    _Measurement__index: 7
+    _Measurement__latitude: 51.1503291329296
+    _Measurement__longitude: 6.379762059263158
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 2.3786664107812125, Consumption_unit: l/h,
+      Consumption_value: 1.0121984726728563, Engine Load_unit: '%', Engine Load_value: 8.646623306440631,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 3.000000089406967, GPS Altitude_unit: m,
+      GPS Altitude_value: 121.2202724814415, GPS Bearing_unit: deg, GPS Bearing_value: 172.31499927772484,
+      GPS HDOP_unit: precision, GPS HDOP_value: 0.6000000178813935, GPS PDOP_unit: precision,
+      GPS PDOP_value: 0.9000000268220901, GPS Speed_unit: km/h, GPS Speed_value: 51.17584455100064,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.7000000208616257, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 94.88628832995892, Intake Temperature_unit: c, Intake Temperature_value: 11.0,
+      MAF_unit: l/s, MAF_value: 3.0791921037435515, Rpm_unit: u/min, Rpm_value: 1017.3217474594712,
+      Speed_unit: km/h, Speed_value: 50.61297616362572, Throttle Position_unit: '%',
+      Throttle Position_value: 15.999999523162842}
+    _Measurement__road: *id002
+  8: !!python/object:CarTrip.Measurement
+    _Measurement__index: 8
+    _Measurement__latitude: 51.149910816763345
+    _Measurement__longitude: 6.37992976047563
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 2.4782961306430633, Consumption_unit: l/h,
+      Consumption_value: 1.0545940981459843, Engine Load_unit: '%', Engine Load_value: 10.980392619675285,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 3.154084801673889, GPS Altitude_unit: m,
+      GPS Altitude_value: 121.0, GPS Bearing_unit: deg, GPS Bearing_value: 165.3383609162738,
+      GPS HDOP_unit: precision, GPS HDOP_value: 0.6000000089406967, GPS PDOP_unit: precision,
+      GPS PDOP_value: 1.0000000149011612, GPS Speed_unit: km/h, GPS Speed_value: 21.953074903558672,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.7000000104308127, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 95.32246798276901, Intake Temperature_unit: c, Intake Temperature_value: 12.000000357627869,
+      MAF_unit: l/s, MAF_value: 3.208163129401596, Rpm_unit: u/min, Rpm_value: 844.9181333780289,
+      Speed_unit: km/h, Speed_value: 19.480186462402344, Throttle Position_unit: '%',
+      Throttle Position_value: 16.00000011920929}
+    _Measurement__road: *id002
+  9: !!python/object:CarTrip.Measurement
+    _Measurement__index: 9
+    _Measurement__latitude: 51.14984452176596
+    _Measurement__longitude: 6.379977949476537
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 2.6086627711801427, Consumption_unit: l/h,
+      Consumption_value: 1.1100692643319756, Engine Load_unit: '%', Engine Load_value: 11.737304894530524,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 3.1635161638259888, GPS Altitude_unit: m,
+      GPS Altitude_value: 122.00000363588333, GPS Bearing_unit: deg, GPS Bearing_value: 165.89999389648438,
+      GPS HDOP_unit: precision, GPS HDOP_value: 0.6000000089406967, GPS PDOP_unit: precision,
+      GPS PDOP_value: 1.0000000149011612, GPS Speed_unit: km/h, GPS Speed_value: 0.21780341393307623,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.7000000104308128, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 95.57912456989288, Intake Temperature_unit: c, Intake Temperature_value: 12.000000011175871,
+      MAF_unit: l/s, MAF_value: 3.376923207869897, Rpm_unit: u/min, Rpm_value: 852.1836065649986,
+      Speed_unit: km/h, Speed_value: 0.0, Throttle Position_unit: '%', Throttle Position_value: 16.0}
+    _Measurement__road: *id002
+  10: !!python/object:CarTrip.Measurement
+    _Measurement__index: 10
+    _Measurement__latitude: 51.1498518042269
+    _Measurement__longitude: 6.379983273150164
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 2.493883493428919, Consumption_unit: l/h,
+      Consumption_value: 1.061227018480391, Engine Load_unit: '%', Engine Load_value: 11.372549290020093,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 3.0000000447034836, GPS Altitude_unit: m,
+      GPS Altitude_value: 121.08293333649635, GPS HDOP_unit: precision, GPS HDOP_value: 0.6999999843537807,
+      GPS PDOP_unit: precision, GPS PDOP_value: 1.099999975413084, GPS Speed_unit: km/h,
+      GPS Speed_value: 0.0, GPS VDOP_unit: precision, GPS VDOP_value: 0.7999999821186066,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 95.82715906202793, Intake Temperature_unit: c,
+      Intake Temperature_value: 12.0, MAF_unit: l/s, MAF_value: 3.228341025802223,
+      Rpm_unit: u/min, Rpm_value: 788.3615878224373, Speed_unit: km/h, Speed_value: 0.0,
+      Throttle Position_unit: '%', Throttle Position_value: 16.0}
+    _Measurement__road: *id002
+  11: !!python/object:CarTrip.Measurement
+    _Measurement__index: 11
+    _Measurement__latitude: 51.14985505684122
+    _Measurement__longitude: 6.379983986845269
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 2.394266672145959, Consumption_unit: l/h,
+      Consumption_value: 1.0188368817642377, Engine Load_unit: '%', Engine Load_value: 11.105705983990617,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 3.0000000670552254, GPS Altitude_unit: m,
+      GPS Altitude_value: 121.00000270456076, GPS HDOP_unit: precision, GPS HDOP_value: 0.7000000013038515,
+      GPS PDOP_unit: precision, GPS PDOP_value: 1.1000000020489098, GPS Speed_unit: km/h,
+      GPS Speed_value: 0.0, GPS VDOP_unit: precision, GPS VDOP_value: 0.8000000014901162,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 94.99999858438969, Intake Temperature_unit: c,
+      Intake Temperature_value: 12.000000178813934, MAF_unit: l/s, MAF_value: 3.0993866974002913,
+      Rpm_unit: u/min, Rpm_value: 780.9178345575929, Speed_unit: km/h, Speed_value: 0.0,
+      Throttle Position_unit: '%', Throttle Position_value: 16.0}
+    _Measurement__road: *id002
+  12: !!python/object:CarTrip.Measurement
+    _Measurement__index: 12
+    _Measurement__latitude: 51.14985485844506
+    _Measurement__longitude: 6.379983353764468
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 2.5361602426963668, Consumption_unit: l/h,
+      Consumption_value: 1.0792171245516453, Engine Load_unit: '%', Engine Load_value: 11.515561681531153,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 3.0000000251457095, GPS Altitude_unit: m,
+      GPS Altitude_value: 121.00000101421028, GPS HDOP_unit: precision, GPS HDOP_value: 0.6999999947845935,
+      GPS PDOP_unit: precision, GPS PDOP_value: 1.0999999918043615, GPS Speed_unit: km/h,
+      GPS Speed_value: 0.0, GPS VDOP_unit: precision, GPS VDOP_value: 0.7999999940395356,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 95.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 11.99999986588955, MAF_unit: l/s, MAF_value: 3.2830684276464837,
+      Rpm_unit: u/min, Rpm_value: 763.0836614370346, Speed_unit: km/h, Speed_value: 0.0,
+      Throttle Position_unit: '%', Throttle Position_value: 15.999999761581421}
+    _Measurement__road: *id002
+  13: !!python/object:CarTrip.Measurement
+    _Measurement__index: 13
+    _Measurement__latitude: 51.149854322816715
+    _Measurement__longitude: 6.3799833166308995
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 2.437342875848309, Consumption_unit: l/h,
+      Consumption_value: 1.0371671812120464, Engine Load_unit: '%', Engine Load_value: 11.401548123167686,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 2.9999999937135726, GPS Altitude_unit: m,
+      GPS Altitude_value: 120.99999974644743, GPS HDOP_unit: precision, GPS HDOP_value: 0.7000000156462192,
+      GPS PDOP_unit: precision, GPS PDOP_value: 1.1000000245869161, GPS Speed_unit: km/h,
+      GPS Speed_value: 0.0, GPS VDOP_unit: precision, GPS VDOP_value: 0.8000000178813935,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 95.99999713897705, Intake Temperature_unit: c,
+      Intake Temperature_value: 12.0, MAF_unit: l/s, MAF_value: 3.1551489958454795,
+      Rpm_unit: u/min, Rpm_value: 777.1017084419727, Speed_unit: km/h, Speed_value: 0.0,
+      Throttle Position_unit: '%', Throttle Position_value: 16.0}
+    _Measurement__road: *id002
+  14: !!python/object:CarTrip.Measurement
+    _Measurement__index: 14
+    _Measurement__latitude: 51.14985530432465
+    _Measurement__longitude: 6.379983614309669
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 2.418430994782076, Consumption_unit: l/h,
+      Consumption_value: 1.029119572247692, Engine Load_unit: '%', Engine Load_value: 11.764706008574535,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 3.0000000447034836, GPS Altitude_unit: m,
+      GPS Altitude_value: 121.0000018030405, GPS HDOP_unit: precision, GPS HDOP_value: 0.8000000089406968,
+      GPS PDOP_unit: precision, GPS PDOP_value: 1.1000000122934581, GPS Speed_unit: km/h,
+      GPS Speed_value: 0.0, GPS VDOP_unit: precision, GPS VDOP_value: 0.8000000089406968,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 95.4425835609436, Intake Temperature_unit: c,
+      Intake Temperature_value: 12.000000178813934, MAF_unit: l/s, MAF_value: 3.1306674987418326,
+      Rpm_unit: u/min, Rpm_value: 771.2976589202881, Speed_unit: km/h, Speed_value: 0.0,
+      Throttle Position_unit: '%', Throttle Position_value: 16.000000476837158}
+    _Measurement__road: *id002
+  15: !!python/object:CarTrip.Measurement
+    _Measurement__index: 15
+    _Measurement__latitude: 51.14977662202213
+    _Measurement__longitude: 6.380011973986243
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 7.606250363007069, Consumption_unit: l/h,
+      Consumption_value: 3.2367022821306675, Engine Load_unit: '%', Engine Load_value: 30.639898061010342,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 3.1045684814453125, GPS Altitude_unit: m,
+      GPS Altitude_value: 121.99999818205833, GPS Bearing_unit: deg, GPS Bearing_value: 165.18629195541143,
+      GPS HDOP_unit: precision, GPS HDOP_value: 0.5999999932944775, GPS PDOP_unit: precision,
+      GPS PDOP_value: 0.8999999899417161, GPS Speed_unit: km/h, GPS Speed_value: 15.917628597514636,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.6999999921768904, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 97.91901195049286, Intake Temperature_unit: c, Intake Temperature_value: 12.000000357627869,
+      MAF_unit: l/s, MAF_value: 9.846318067431667, Rpm_unit: u/min, Rpm_value: 1285.041097521782,
+      Speed_unit: km/h, Speed_value: 16.67852956056595, Throttle Position_unit: '%',
+      Throttle Position_value: 20.269841879606247}
+    _Measurement__road: *id002
+  16: !!python/object:CarTrip.Measurement
+    _Measurement__index: 16
+    _Measurement__latitude: 51.149616584736755
+    _Measurement__longitude: 6.380375286314865
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 18.31238440392892, Consumption_unit: l/h,
+      Consumption_value: 7.7925040016718805, Engine Load_unit: '%', Engine Load_value: 46.14994765351048,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 3.0, GPS Altitude_unit: m, GPS Altitude_value: 121.0,
+      GPS Bearing_unit: deg, GPS Bearing_value: 89.84736798499762, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.600000013411045, GPS PDOP_unit: precision, GPS PDOP_value: 0.9000000201165677,
+      GPS Speed_unit: km/h, GPS Speed_value: 32.96273620349484, GPS VDOP_unit: precision,
+      GPS VDOP_value: 0.7000000156462192, Intake Pressure_unit: kPa, Intake Pressure_value: 107.70678329467773,
+      Intake Temperature_unit: c, Intake Temperature_value: 12.0, MAF_unit: l/s, MAF_value: 23.70544654841933,
+      Rpm_unit: u/min, Rpm_value: 1546.4535522460938, Speed_unit: km/h, Speed_value: 35.11148649454117,
+      Throttle Position_unit: '%', Throttle Position_value: 28.891089191660285}
+    _Measurement__road: &id003 !!python/object:CarTrip.Road
+      _Road__display_name: "L 370, Voosen, Hehn, Voosen, M\xF6nchengladbach, Regierungsbezirk\
+        \ D\xFCsseldorf, Nordrhein-Westfalen, 41179, Deutschland"
+      _Road__osm_id: '148132023'
+      _Road__tags: {highway: secondary, ref: L 370}
+  17: !!python/object:CarTrip.Measurement
+    _Measurement__index: 17
+    _Measurement__latitude: 51.14966613492986
+    _Measurement__longitude: 6.381215562374206
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 14.154607899250335, Consumption_unit: l/h,
+      Consumption_value: 6.023237403936313, Engine Load_unit: '%', Engine Load_value: 44.3309515411745,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 3.0, GPS Altitude_unit: m, GPS Altitude_value: 121.2034068107605,
+      GPS Bearing_unit: deg, GPS Bearing_value: 87.0237502332202, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.5999999910593032, GPS PDOP_unit: precision, GPS PDOP_value: 0.9999999850988388,
+      GPS Speed_unit: km/h, GPS Speed_value: 45.5260030571626, GPS VDOP_unit: precision,
+      GPS VDOP_value: 0.7149631083011627, Intake Pressure_unit: kPa, Intake Pressure_value: 110.98333671689034,
+      Intake Temperature_unit: c, Intake Temperature_value: 11.999999642372131, MAF_unit: l/s,
+      MAF_value: 18.32319011922459, Rpm_unit: u/min, Rpm_value: 1233.4206211566925,
+      Speed_unit: km/h, Speed_value: 46.93103360757232, Throttle Position_unit: '%',
+      Throttle Position_value: 34.19773292541504}
+    _Measurement__road: *id003
+  18: !!python/object:CarTrip.Measurement
+    _Measurement__index: 18
+    _Measurement__latitude: 51.1497022007877
+    _Measurement__longitude: 6.382231946210378
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 3.2538607639948243, Consumption_unit: l/h,
+      Consumption_value: 1.384621601699925, Engine Load_unit: '%', Engine Load_value: 22.499947869886455,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 3.000000089406967, GPS Altitude_unit: m,
+      GPS Altitude_value: 122.00000363588333, GPS Bearing_unit: deg, GPS Bearing_value: 87.05949805401497,
+      GPS HDOP_unit: precision, GPS HDOP_value: 0.7000000156462192, GPS PDOP_unit: precision,
+      GPS PDOP_value: 1.1000000245869161, GPS Speed_unit: km/h, GPS Speed_value: 54.221926591152396,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.8000000178813935, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 94.3555555343628, Intake Temperature_unit: c, Intake Temperature_value: 12.000000312924385,
+      MAF_unit: l/s, MAF_value: 4.212134297504647, Rpm_unit: u/min, Rpm_value: 1374.2438441812992,
+      Speed_unit: km/h, Speed_value: 56.00000083446503, Throttle Position_unit: '%',
+      Throttle Position_value: 17.032573223114014}
+    _Measurement__road: *id003
+  19: !!python/object:CarTrip.Measurement
+    _Measurement__index: 19
+    _Measurement__latitude: 51.14972751022728
+    _Measurement__longitude: 6.383272526653092
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 8.55248141077161, Consumption_unit: l/h,
+      Consumption_value: 3.6393537918177064, Engine Load_unit: '%', Engine Load_value: 23.186616836818985,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 3.7623966932296753, GPS Altitude_unit: m,
+      GPS Altitude_value: 123.23760330677032, GPS Bearing_unit: deg, GPS Bearing_value: 88.25248130274213,
+      GPS HDOP_unit: precision, GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 0.9,
+      GPS Speed_unit: km/h, GPS Speed_value: 50.51223662848906, GPS VDOP_unit: precision,
+      GPS VDOP_value: 0.7, Intake Pressure_unit: kPa, Intake Pressure_value: 95.99192537926137,
+      Intake Temperature_unit: c, Intake Temperature_value: 11.999999642372131, MAF_unit: l/s,
+      MAF_value: 11.071217514192114, Rpm_unit: u/min, Rpm_value: 1372.9900891780853,
+      Speed_unit: km/h, Speed_value: 52.684784173965454, Throttle Position_unit: '%',
+      Throttle Position_value: 22.738658785820007}
+    _Measurement__road: *id003
+  20: !!python/object:CarTrip.Measurement
+    _Measurement__index: 20
+    _Measurement__latitude: 51.1497539857001
+    _Measurement__longitude: 6.384321547302197
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 6.495224470794635, Consumption_unit: l/h,
+      Consumption_value: 2.763925306721121, Engine Load_unit: '%', Engine Load_value: 17.460587583934853,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 3.0, GPS Altitude_unit: m, GPS Altitude_value: 122.0,
+      GPS Bearing_unit: deg, GPS Bearing_value: 87.33140257368086, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6000000089406967, GPS PDOP_unit: precision, GPS PDOP_value: 0.9000000134110451,
+      GPS Speed_unit: km/h, GPS Speed_value: 52.95513489691166, GPS VDOP_unit: precision,
+      GPS VDOP_value: 0.7000000104308127, Intake Pressure_unit: kPa, Intake Pressure_value: 96.00000286102295,
+      Intake Temperature_unit: c, Intake Temperature_value: 12.000000178813934, MAF_unit: l/s,
+      MAF_value: 8.408091110154544, Rpm_unit: u/min, Rpm_value: 1393.9999792277813,
+      Speed_unit: km/h, Speed_value: 54.00000060349703, Throttle Position_unit: '%',
+      Throttle Position_value: 21.00000062584877}
+    _Measurement__road: *id003
+  21: !!python/object:CarTrip.Measurement
+    _Measurement__index: 21
+    _Measurement__latitude: 51.14978645223731
+    _Measurement__longitude: 6.3853582430964995
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 7.030134190672448, Consumption_unit: l/h,
+      Consumption_value: 2.991546464115935, Engine Load_unit: '%', Engine Load_value: 20.112631102415264,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 3.000000089406967, GPS Altitude_unit: m,
+      GPS Altitude_value: 123.00000366568565, GPS Bearing_unit: deg, GPS Bearing_value: 87.79805980536003,
+      GPS HDOP_unit: precision, GPS HDOP_value: 0.5999999821186066, GPS PDOP_unit: precision,
+      GPS PDOP_value: 0.9303153336048127, GPS Speed_unit: km/h, GPS Speed_value: 52.35576764226869,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.730315339565277, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 96.0, Intake Temperature_unit: c, Intake Temperature_value: 11.999999642372131,
+      MAF_unit: l/s, MAF_value: 9.10053363937935, Rpm_unit: u/min, Rpm_value: 1387.816659271717,
+      Speed_unit: km/h, Speed_value: 53.0, Throttle Position_unit: '%', Throttle Position_value: 21.995815315749496}
+    _Measurement__road: *id003
+  22: !!python/object:CarTrip.Measurement
+    _Measurement__index: 22
+    _Measurement__latitude: 51.14981733130173
+    _Measurement__longitude: 6.386417617088643
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 6.878911727755121, Consumption_unit: l/h,
+      Consumption_value: 2.927196479895796, Engine Load_unit: '%', Engine Load_value: 19.215686798095703,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 3.39462810754776, GPS Altitude_unit: m,
+      GPS Altitude_value: 123.0, GPS Bearing_unit: deg, GPS Bearing_value: 87.32644751623639,
+      GPS HDOP_unit: precision, GPS HDOP_value: 0.5999999821186065, GPS PDOP_unit: precision,
+      GPS PDOP_value: 0.9646379560232163, GPS Speed_unit: km/h, GPS Speed_value: 53.30357673765411,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.7646379619836807, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 96.00000143051147, Intake Temperature_unit: c, Intake Temperature_value: 12.000000357627869,
+      MAF_unit: l/s, MAF_value: 8.904775624883001, Rpm_unit: u/min, Rpm_value: 1396.9362484514713,
+      Speed_unit: km/h, Speed_value: 53.082568019628525, Throttle Position_unit: '%',
+      Throttle Position_value: 20.99999937415123}
+    _Measurement__road: *id003
+  23: !!python/object:CarTrip.Measurement
+    _Measurement__index: 23
+    _Measurement__latitude: 51.149878227449236
+    _Measurement__longitude: 6.387456139714934
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 2.2387848078067707, Consumption_unit: l/h,
+      Consumption_value: 0.9526743863007535, Engine Load_unit: '%', Engine Load_value: 6.274509719773832,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 3.0, GPS Altitude_unit: m, GPS Altitude_value: 125.40485829114914,
+      GPS Bearing_unit: deg, GPS Bearing_value: 83.65465497162177, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6000000178813933, GPS PDOP_unit: precision, GPS PDOP_value: 0.9000000268220901,
+      GPS Speed_unit: km/h, GPS Speed_value: 49.07470421835478, GPS VDOP_unit: precision,
+      GPS VDOP_value: 0.7000000208616257, Intake Pressure_unit: kPa, Intake Pressure_value: 95.0,
+      Intake Temperature_unit: c, Intake Temperature_value: 12.000000268220901, MAF_unit: l/s,
+      MAF_value: 2.898114872659084, Rpm_unit: u/min, Rpm_value: 1277.2669021189213,
+      Speed_unit: km/h, Speed_value: 48.82191926240921, Throttle Position_unit: '%',
+      Throttle Position_value: 15.000000223517418}
+    _Measurement__road: *id003
+  24: !!python/object:CarTrip.Measurement
+    _Measurement__index: 24
+    _Measurement__latitude: 51.149966233731234
+    _Measurement__longitude: 6.388358091043779
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 1.971445641993914, Consumption_unit: l/h,
+      Consumption_value: 0.8389130391463463, Engine Load_unit: '%', Engine Load_value: 6.326088087663372,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 3.0, GPS Altitude_unit: m, GPS Altitude_value: 127.0,
+      GPS Bearing_unit: deg, GPS Bearing_value: 80.646270185709, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6000000178813935, GPS PDOP_unit: precision, GPS PDOP_value: 0.9000000268220901,
+      GPS Speed_unit: km/h, GPS Speed_value: 41.732058405274756, GPS VDOP_unit: precision,
+      GPS VDOP_value: 0.7000000208616256, Intake Pressure_unit: kPa, Intake Pressure_value: 96.00000286102295,
+      Intake Temperature_unit: c, Intake Temperature_value: 11.999999642372131, MAF_unit: l/s,
+      MAF_value: 2.552043374503114, Rpm_unit: u/min, Rpm_value: 1083.898257136345,
+      Speed_unit: km/h, Speed_value: 41.40978384017944, Throttle Position_unit: '%',
+      Throttle Position_value: 14.999999552965164}
+    _Measurement__road: *id003
+  25: !!python/object:CarTrip.Measurement
+    _Measurement__index: 25
+    _Measurement__latitude: 51.150052474136174
+    _Measurement__longitude: 6.389169671111858
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 10.084559529041483, Consumption_unit: l/h,
+      Consumption_value: 4.291301927251695, Engine Load_unit: '%', Engine Load_value: 39.41280034483054,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 2.999999910593033, GPS Altitude_unit: m,
+      GPS Altitude_value: 126.99999621510506, GPS Bearing_unit: deg, GPS Bearing_value: 79.64458872283194,
+      GPS HDOP_unit: precision, GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 1.0,
+      GPS Speed_unit: km/h, GPS Speed_value: 46.61606919588746, GPS VDOP_unit: precision,
+      GPS VDOP_value: 0.7, Intake Pressure_unit: kPa, Intake Pressure_value: 113.19008255004883,
+      Intake Temperature_unit: c, Intake Temperature_value: 11.999999821186066, MAF_unit: l/s,
+      MAF_value: 13.054498071193592, Rpm_unit: u/min, Rpm_value: 1274.7002098560333,
+      Speed_unit: km/h, Speed_value: 49.057412184774876, Throttle Position_unit: '%',
+      Throttle Position_value: 48.4833502471447}
+    _Measurement__road: &id004 !!python/object:CarTrip.Road
+      _Road__display_name: "L 370, Pongs, Genh\xFClsen, M\xF6nchengladbach, Regierungsbezirk\
+        \ D\xFCsseldorf, Nordrhein-Westfalen, 41179, Deutschland"
+      _Road__osm_id: '148036949'
+      _Road__tags: {highway: secondary, ref: L 370}
+  26: !!python/object:CarTrip.Measurement
+    _Measurement__index: 26
+    _Measurement__latitude: 51.15017506408179
+    _Measurement__longitude: 6.390230416666526
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 8.742341723304802, Consumption_unit: l/h,
+      Consumption_value: 3.7201454141722565, Engine Load_unit: '%', Engine Load_value: 22.399312037479092,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 3.000000089406967, GPS Altitude_unit: m,
+      GPS Altitude_value: 126.00000375509262, GPS Bearing_unit: deg, GPS Bearing_value: 79.43433943973241,
+      GPS HDOP_unit: precision, GPS HDOP_value: 0.6000000178813933, GPS PDOP_unit: precision,
+      GPS PDOP_value: 1.0000000298023224, GPS Speed_unit: km/h, GPS Speed_value: 55.37526580949395,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.7000000208616257, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 95.4784482717514, Intake Temperature_unit: c, Intake Temperature_value: 12.0,
+      MAF_unit: l/s, MAF_value: 11.31699236202985, Rpm_unit: u/min, Rpm_value: 1474.475427389145,
+      Speed_unit: km/h, Speed_value: 57.0, Throttle Position_unit: '%', Throttle Position_value: 22.000000327825546}
+    _Measurement__road: *id004
+  27: !!python/object:CarTrip.Measurement
+    _Measurement__index: 27
+    _Measurement__latitude: 51.15029731516694
+    _Measurement__longitude: 6.391328727400548
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 7.330217073262266, Consumption_unit: l/h,
+      Consumption_value: 3.1192413077711767, Engine Load_unit: '%', Engine Load_value: 18.10716763498779,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 3.000000089406967, GPS Altitude_unit: m,
+      GPS Altitude_value: 124.00000369548798, GPS Bearing_unit: deg, GPS Bearing_value: 80.13846181355984,
+      GPS HDOP_unit: precision, GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 0.9,
+      GPS Speed_unit: km/h, GPS Speed_value: 57.132001672148704, GPS VDOP_unit: precision,
+      GPS VDOP_value: 0.7, Intake Pressure_unit: kPa, Intake Pressure_value: 95.99999749660492,
+      Intake Temperature_unit: c, Intake Temperature_value: 11.999999642372131, MAF_unit: l/s,
+      MAF_value: 9.488991995015567, Rpm_unit: u/min, Rpm_value: 1517.2027101814747,
+      Speed_unit: km/h, Speed_value: 58.0, Throttle Position_unit: '%', Throttle Position_value: 21.999999672174454}
+    _Measurement__road: *id004
+  28: !!python/object:CarTrip.Measurement
+    _Measurement__index: 28
+    _Measurement__latitude: 51.15042428289028
+    _Measurement__longitude: 6.392507394948839
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 12.416146522242634, Consumption_unit: l/h,
+      Consumption_value: 5.2834666052096315, Engine Load_unit: '%', Engine Load_value: 27.461747240535942,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 3.606477051973343, GPS Altitude_unit: m,
+      GPS Altitude_value: 124.00000369548798, GPS Bearing_unit: deg, GPS Bearing_value: 79.86065220082946,
+      GPS HDOP_unit: precision, GPS HDOP_value: 0.5999999821186066, GPS PDOP_unit: precision,
+      GPS PDOP_value: 0.8999999731779099, GPS Speed_unit: km/h, GPS Speed_value: 62.777006368071056,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.6999999791383743, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 97.00000144541264, Intake Temperature_unit: c, Intake Temperature_value: 12.0,
+      MAF_unit: l/s, MAF_value: 16.072745701931467, Rpm_unit: u/min, Rpm_value: 1716.1380880996585,
+      Speed_unit: km/h, Speed_value: 65.90288301557302, Throttle Position_unit: '%',
+      Throttle Position_value: 26.0411818921566}
+    _Measurement__road: *id004
+  29: !!python/object:CarTrip.Measurement
+    _Measurement__index: 29
+    _Measurement__latitude: 51.1505754938267
+    _Measurement__longitude: 6.393800217387954
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 13.82500714522251, Consumption_unit: l/h,
+      Consumption_value: 5.882981763924472, Engine Load_unit: '%', Engine Load_value: 31.660473003865718,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 3.0, GPS Altitude_unit: m, GPS Altitude_value: 126.0,
+      GPS Bearing_unit: deg, GPS Bearing_value: 80.2679539372748, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 0.9000000000000001,
+      GPS Speed_unit: km/h, GPS Speed_value: 66.13755750621067, GPS VDOP_unit: precision,
+      GPS VDOP_value: 0.7, Intake Pressure_unit: kPa, Intake Pressure_value: 98.49619978666306,
+      Intake Temperature_unit: c, Intake Temperature_value: 12.0, MAF_unit: l/s, MAF_value: 17.89652077433857,
+      Rpm_unit: u/min, Rpm_value: 1767.539875626564, Speed_unit: km/h, Speed_value: 68.00000202655792,
+      Throttle Position_unit: '%', Throttle Position_value: 28.2251086384058}
+    _Measurement__road: *id004
+  30: !!python/object:CarTrip.Measurement
+    _Measurement__index: 30
+    _Measurement__latitude: 51.15071335774876
+    _Measurement__longitude: 6.395133650125171
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 11.689239098265942, Consumption_unit: l/h,
+      Consumption_value: 4.974144297134443, Engine Load_unit: '%', Engine Load_value: 26.13569968972456,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 4.0, GPS Altitude_unit: m, GPS Altitude_value: 128.27632850408554,
+      GPS Bearing_unit: deg, GPS Bearing_value: 80.57893940520171, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 0.9, GPS Speed_unit: km/h,
+      GPS Speed_value: 66.24806702324895, GPS VDOP_unit: precision, GPS VDOP_value: 0.7,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 95.96328329667449, Intake Temperature_unit: c,
+      Intake Temperature_value: 12.000000357627869, MAF_unit: l/s, MAF_value: 15.131761463907736,
+      Rpm_unit: u/min, Rpm_value: 1784.1172505542636, Speed_unit: km/h, Speed_value: 68.99999794363976,
+      Throttle Position_unit: '%', Throttle Position_value: 25.0}
+    _Measurement__road: *id004
+  31: !!python/object:CarTrip.Measurement
+    _Measurement__index: 31
+    _Measurement__latitude: 51.150866980458986
+    _Measurement__longitude: 6.39645694
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 11.39760764346378, Consumption_unit: l/h,
+      Consumption_value: 4.850045805729268, Engine Load_unit: '%', Engine Load_value: 26.287185202345654,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 3.0, GPS Altitude_unit: m, GPS Altitude_value: 131.6845703125,
+      GPS Bearing_unit: deg, GPS Bearing_value: 79.35771179199219, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 0.8999999999999999,
+      GPS Speed_unit: km/h, GPS Speed_value: 67.54542339593172, GPS VDOP_unit: precision,
+      GPS VDOP_value: 0.7, Intake Pressure_unit: kPa, Intake Pressure_value: 95.64875620603561,
+      Intake Temperature_unit: c, Intake Temperature_value: 12.0, MAF_unit: l/s, MAF_value: 14.754243511512243,
+      Rpm_unit: u/min, Rpm_value: 1785.4466800689697, Speed_unit: km/h, Speed_value: 69.00000051409006,
+      Throttle Position_unit: '%', Throttle Position_value: 25.0}
+    _Measurement__road: *id004
+  32: !!python/object:CarTrip.Measurement
+    _Measurement__index: 32
+    _Measurement__latitude: 51.15106277510213
+    _Measurement__longitude: 6.397791807832616
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 7.261427537590952, Consumption_unit: l/h,
+      Consumption_value: 3.0899691649323198, Engine Load_unit: '%', Engine Load_value: 16.043486613668165,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 3.0000000447034836, GPS Altitude_unit: m,
+      GPS Altitude_value: 126.00000187754631, GPS Bearing_unit: deg, GPS Bearing_value: 74.85854308274622,
+      GPS HDOP_unit: precision, GPS HDOP_value: 0.5999999821186066, GPS PDOP_unit: precision,
+      GPS PDOP_value: 0.8999999731779099, GPS Speed_unit: km/h, GPS Speed_value: 68.4461556317242,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.6999999791383743, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 95.70705130696297, Intake Temperature_unit: c, Intake Temperature_value: 12.0,
+      MAF_unit: l/s, MAF_value: 9.399943697154526, Rpm_unit: u/min, Rpm_value: 1809.4326815009117,
+      Speed_unit: km/h, Speed_value: 69.43402606248856, Throttle Position_unit: '%',
+      Throttle Position_value: 21.003310876898468}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: "L 370, Pongs, Genh\xFClsen, M\xF6nchengladbach, Regierungsbezirk\
+        \ D\xFCsseldorf, Nordrhein-Westfalen, 41179, Deutschland"
+      _Road__osm_id: '148036948'
+      _Road__tags: {bridge: 'yes', highway: secondary, layer: '1', ref: L 370}
+  33: !!python/object:CarTrip.Measurement
+    _Measurement__index: 33
+    _Measurement__latitude: 51.151361029742574
+    _Measurement__longitude: 6.399047047308819
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 2.715015223688858, Consumption_unit: l/h,
+      Consumption_value: 1.1553256271016417, Engine Load_unit: '%', Engine Load_value: 6.120542189371804,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 4.000000059604645, GPS Altitude_unit: m,
+      GPS Altitude_value: 126.00000187754631, GPS Bearing_unit: deg, GPS Bearing_value: 66.31813675165176,
+      GPS HDOP_unit: precision, GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 0.9,
+      GPS Speed_unit: km/h, GPS Speed_value: 62.705397482336025, GPS VDOP_unit: precision,
+      GPS VDOP_value: 0.7, Intake Pressure_unit: kPa, Intake Pressure_value: 96.00000286102295,
+      Intake Temperature_unit: c, Intake Temperature_value: 11.999999821186066, MAF_unit: l/s,
+      MAF_value: 3.5145968347787857, Rpm_unit: u/min, Rpm_value: 1611.9559351354837,
+      Speed_unit: km/h, Speed_value: 62.0538113117218, Throttle Position_unit: '%',
+      Throttle Position_value: 16.000000476837158}
+    _Measurement__road: &id005 !!python/object:CarTrip.Road
+      _Road__display_name: "L 370, Pongs, Genh\xFClsen, M\xF6nchengladbach, Regierungsbezirk\
+        \ D\xFCsseldorf, Nordrhein-Westfalen, 41179, Deutschland"
+      _Road__osm_id: '148036950'
+      _Road__tags: {highway: secondary, ref: L 370}
+  34: !!python/object:CarTrip.Measurement
+    _Measurement__index: 34
+    _Measurement__latitude: 51.15170649626197
+    _Measurement__longitude: 6.400048437056214
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 2.4179154424663443, Consumption_unit: l/h,
+      Consumption_value: 1.0289001882835507, Engine Load_unit: '%', Engine Load_value: 6.274510047015024,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 3.8903718441724777, GPS Altitude_unit: m,
+      GPS Altitude_value: 120.10963000357151, GPS Bearing_unit: deg, GPS Bearing_value: 62.868446996614864,
+      GPS HDOP_unit: precision, GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 0.9,
+      GPS Speed_unit: km/h, GPS Speed_value: 57.11178428091273, GPS VDOP_unit: precision,
+      GPS VDOP_value: 0.7, Intake Pressure_unit: kPa, Intake Pressure_value: 94.99999858438969,
+      Intake Temperature_unit: c, Intake Temperature_value: 12.0, MAF_unit: l/s, MAF_value: 3.130000114440918,
+      Rpm_unit: u/min, Rpm_value: 1464.0696639418602, Speed_unit: km/h, Speed_value: 56.48333165049553,
+      Throttle Position_unit: '%', Throttle Position_value: 15.99999988079071}
+    _Measurement__road: *id005
+  35: !!python/object:CarTrip.Measurement
+    _Measurement__index: 35
+    _Measurement__latitude: 51.151995582003195
+    _Measurement__longitude: 6.400943188415523
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 2.3008543148200475, Consumption_unit: l/h,
+      Consumption_value: 0.979086942476616, Engine Load_unit: '%', Engine Load_value: 9.168678228804538,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 2.999999910593033, GPS Altitude_unit: m,
+      GPS Altitude_value: 120.187679708004, GPS Bearing_unit: deg, GPS Bearing_value: 59.39999975562091,
+      GPS HDOP_unit: precision, GPS HDOP_value: 0.6000000178813935, GPS PDOP_unit: precision,
+      GPS PDOP_value: 0.9000000268220901, GPS Speed_unit: km/h, GPS Speed_value: 40.78409128852468,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.7000000208616257, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 94.23231256008148, Intake Temperature_unit: c, Intake Temperature_value: 11.999999821186066,
+      MAF_unit: l/s, MAF_value: 2.9784640695924054, Rpm_unit: u/min, Rpm_value: 890.0756301879883,
+      Speed_unit: km/h, Speed_value: 38.362460404634476, Throttle Position_unit: '%',
+      Throttle Position_value: 15.0}
+    _Measurement__road: *id005
+  36: !!python/object:CarTrip.Measurement
+    _Measurement__index: 36
+    _Measurement__latitude: 51.15210895114468
+    _Measurement__longitude: 6.401268560317172
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 2.2736676542109437, Consumption_unit: l/h,
+      Consumption_value: 0.9675181507280611, Engine Load_unit: '%', Engine Load_value: 10.196078148542668,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 3.000000011175871, GPS Altitude_unit: m,
+      GPS Altitude_value: 121.94117692485452, GPS Bearing_unit: deg, GPS Bearing_value: 62.2529406903202,
+      GPS HDOP_unit: precision, GPS HDOP_value: 0.5999999910593032, GPS PDOP_unit: precision,
+      GPS PDOP_value: 0.899999986588955, GPS Speed_unit: km/h, GPS Speed_value: 8.313882241647033,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.6999999895691871, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 95.0, Intake Temperature_unit: c, Intake Temperature_value: 12.000000357627869,
+      MAF_unit: l/s, MAF_value: 2.9432708410273225, Rpm_unit: u/min, Rpm_value: 826.0925509929657,
+      Speed_unit: km/h, Speed_value: 5.769230961799622, Throttle Position_unit: '%',
+      Throttle Position_value: 15.0304736495018}
+    _Measurement__road: *id005
+  37: !!python/object:CarTrip.Measurement
+    _Measurement__index: 37
+    _Measurement__latitude: 51.15212157711963
+    _Measurement__longitude: 6.401278551471398
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 0.0, Consumption_unit: l/h,
+      Consumption_value: 0.0, Engine Load_unit: '%', Engine Load_value: 0.0, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 2.9999999441206455, GPS Altitude_unit: m, GPS Altitude_value: 123.99999769032001,
+      GPS Bearing_unit: deg, GPS Bearing_value: 62.30000295042987, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.5999999955296516, GPS PDOP_unit: precision, GPS PDOP_value: 0.8999999932944776,
+      GPS Speed_unit: km/h, GPS Speed_value: 0.022720157289312537, GPS VDOP_unit: precision,
+      GPS VDOP_value: 0.6999999947845935, Intake Pressure_unit: kPa, Intake Pressure_value: 100.00000298023224,
+      Intake Temperature_unit: c, Intake Temperature_value: 11.999999821186066, MAF_unit: l/s,
+      MAF_value: 0.0, Rpm_unit: u/min, Rpm_value: 0.0, Speed_unit: km/h, Speed_value: 0.0,
+      Throttle Position_unit: '%', Throttle Position_value: 30.00000089406967}
+    _Measurement__road: *id005
+  38: !!python/object:CarTrip.Measurement
+    _Measurement__index: 38
+    _Measurement__latitude: 51.15211944760529
+    _Measurement__longitude: 6.401296163131066
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 0.0, Consumption_unit: l/h,
+      Consumption_value: 0.0, Engine Load_unit: '%', Engine Load_value: 0.0, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.0000000558793545, GPS Altitude_unit: m, GPS Altitude_value: 126.00000234693289,
+      GPS HDOP_unit: precision, GPS HDOP_value: 0.6940476112067698, GPS PDOP_unit: precision,
+      GPS PDOP_value: 0.9999999888241291, GPS Speed_unit: km/h, GPS Speed_value: 0.0,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.7999999910593034, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 100.8874149620533, Intake Temperature_unit: c, Intake Temperature_value: 12.0,
+      MAF_unit: l/s, MAF_value: 0.0, Rpm_unit: u/min, Rpm_value: 0.0, Speed_unit: km/h,
+      Speed_value: 0.0, Throttle Position_unit: '%', Throttle Position_value: 30.000000447034836}
+    _Measurement__road: *id005
+  39: !!python/object:CarTrip.Measurement
+    _Measurement__index: 39
+    _Measurement__latitude: 51.15211739580252
+    _Measurement__longitude: 6.401297062304188
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 0.0, Consumption_unit: l/h,
+      Consumption_value: 0.0, Engine Load_unit: '%', Engine Load_value: 0.0, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.0000000670552254, GPS Altitude_unit: m, GPS Altitude_value: 127.00000283867121,
+      GPS HDOP_unit: precision, GPS HDOP_value: 0.7000000003259629, GPS PDOP_unit: precision,
+      GPS PDOP_value: 1.1000000005122275, GPS Speed_unit: km/h, GPS Speed_value: 0.0,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.800000000372529, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 100.37393769621849, Intake Temperature_unit: c, Intake Temperature_value: 12.000000044703484,
+      MAF_unit: l/s, MAF_value: 0.0, Rpm_unit: u/min, Rpm_value: 0.0, Speed_unit: km/h,
+      Speed_value: 0.0, Throttle Position_unit: '%', Throttle Position_value: 20.000000596046448}
+    _Measurement__road: *id005
+  40: !!python/object:CarTrip.Measurement
+    _Measurement__index: 40
+    _Measurement__latitude: 51.15211425473305
+    _Measurement__longitude: 6.4012979416717775
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 0.0, Consumption_unit: l/h,
+      Consumption_value: 0.0, Engine Load_unit: '%', Engine Load_value: 0.0, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 2.999999910593033, GPS Altitude_unit: m, GPS Altitude_value: 126.99999621510506,
+      GPS HDOP_unit: precision, GPS HDOP_value: 0.700000013038516, GPS PDOP_unit: precision,
+      GPS PDOP_value: 1.1000000204890967, GPS Speed_unit: km/h, GPS Speed_value: 0.0,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.8000000149011612, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 100.98766769096255, Intake Temperature_unit: c, Intake Temperature_value: 11.999999642372131,
+      MAF_unit: l/s, MAF_value: 0.0, Rpm_unit: u/min, Rpm_value: 0.0, Speed_unit: km/h,
+      Speed_value: 0.0, Throttle Position_unit: '%', Throttle Position_value: 19.999999403953552}
+    _Measurement__road: *id005
+  41: !!python/object:CarTrip.Measurement
+    _Measurement__index: 41
+    _Measurement__latitude: 51.152115336430896
+    _Measurement__longitude: 6.401298119675033
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 0.0, Consumption_unit: l/h,
+      Consumption_value: 0.0, Engine Load_unit: '%', Engine Load_value: 0.0, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 2.999999977648258, GPS Altitude_unit: m, GPS Altitude_value: 126.99999905377626,
+      GPS HDOP_unit: precision, GPS HDOP_value: 0.600000013411045, GPS PDOP_unit: precision,
+      GPS PDOP_value: 1.0000000223517418, GPS Speed_unit: km/h, GPS Speed_value: 0.0,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.7000000156462192, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 100.59730035066605, Intake Temperature_unit: c, Intake Temperature_value: 11.999999642372131,
+      MAF_unit: l/s, MAF_value: 0.0, Rpm_unit: u/min, Rpm_value: 0.0, Speed_unit: km/h,
+      Speed_value: 0.0, Throttle Position_unit: '%', Throttle Position_value: 20.000000298023224}
+    _Measurement__road: *id005
+  42: !!python/object:CarTrip.Measurement
+    _Measurement__index: 42
+    _Measurement__latitude: 51.15211579156153
+    _Measurement__longitude: 6.4012986844880935
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 4.895264439748782, Consumption_unit: l/h,
+      Consumption_value: 2.0830912509569286, Engine Load_unit: '%', Engine Load_value: 29.275434951353645,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 3.174767315387726, GPS Altitude_unit: m,
+      GPS Altitude_value: 127.0, GPS Bearing_unit: deg, GPS Bearing_value: 62.29999923706055,
+      GPS HDOP_unit: precision, GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 1.0,
+      GPS Speed_unit: km/h, GPS Speed_value: 0.1887487081189434, GPS VDOP_unit: precision,
+      GPS VDOP_value: 0.7, Intake Pressure_unit: kPa, Intake Pressure_value: 98.52574959397316,
+      Intake Temperature_unit: c, Intake Temperature_value: 12.0, MAF_unit: l/s, MAF_value: 6.336937176348556,
+      Rpm_unit: u/min, Rpm_value: 359.91057896614075, Speed_unit: km/h, Speed_value: 0.0,
+      Throttle Position_unit: '%', Throttle Position_value: 26.26963835954666}
+    _Measurement__road: *id005
+  43: !!python/object:CarTrip.Measurement
+    _Measurement__index: 43
+    _Measurement__latitude: 51.1522506048162
+    _Measurement__longitude: 6.401596835744274
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 28.210363476741268, Consumption_unit: l/h,
+      Consumption_value: 12.004409990102667, Engine Load_unit: '%', Engine Load_value: 51.242610752431574,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 3.0000000447034836, GPS Altitude_unit: m,
+      GPS Altitude_value: 127.00000189244747, GPS Bearing_unit: deg, GPS Bearing_value: 60.549413572812796,
+      GPS HDOP_unit: precision, GPS HDOP_value: 0.5999999821186066, GPS PDOP_unit: precision,
+      GPS PDOP_value: 0.8999999731779098, GPS Speed_unit: km/h, GPS Speed_value: 30.364518770190557,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.6999999791383742, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 101.17640042304993, Intake Temperature_unit: c, Intake Temperature_value: 11.999999642372131,
+      MAF_unit: l/s, MAF_value: 36.51841555739149, Rpm_unit: u/min, Rpm_value: 2318.922018766403,
+      Speed_unit: km/h, Speed_value: 34.74610245227814, Throttle Position_unit: '%',
+      Throttle Position_value: 37.868906093761325}
+    _Measurement__road: &id006 !!python/object:CarTrip.Road
+      _Road__display_name: "L 370, Pongs, Genh\xFClsen, M\xF6nchengladbach, Regierungsbezirk\
+        \ D\xFCsseldorf, Nordrhein-Westfalen, 41179, Deutschland"
+      _Road__osm_id: '148036941'
+      _Road__tags: {highway: secondary, ref: L 370}
+  44: !!python/object:CarTrip.Measurement
+    _Measurement__index: 44
+    _Measurement__latitude: 51.152537478579234
+    _Measurement__longitude: 6.402388469846674
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 26.94594546751756, Consumption_unit: l/h,
+      Consumption_value: 11.466359773411728, Engine Load_unit: '%', Engine Load_value: 41.438611370128456,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 2.999999910593033, GPS Altitude_unit: m,
+      GPS Altitude_value: 126.25154903531075, GPS Bearing_unit: deg, GPS Bearing_value: 60.525153092160735,
+      GPS HDOP_unit: precision, GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 0.9,
+      GPS Speed_unit: km/h, GPS Speed_value: 52.583699417214234, GPS VDOP_unit: precision,
+      GPS VDOP_value: 0.7, Intake Pressure_unit: kPa, Intake Pressure_value: 124.0976118594408,
+      Intake Temperature_unit: c, Intake Temperature_value: 11.999999821186066, MAF_unit: l/s,
+      MAF_value: 34.88162196069959, Rpm_unit: u/min, Rpm_value: 1783.4344645440578,
+      Speed_unit: km/h, Speed_value: 54.73019149899483, Throttle Position_unit: '%',
+      Throttle Position_value: 36.96989127993584}
+    _Measurement__road: *id006
+  45: !!python/object:CarTrip.Measurement
+    _Measurement__index: 45
+    _Measurement__latitude: 51.15288227699444
+    _Measurement__longitude: 6.403330919781301
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 2.431021626000567, Consumption_unit: l/h,
+      Consumption_value: 1.0344772876598156, Engine Load_unit: '%', Engine Load_value: 6.623093866315024,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 3.000000089406967, GPS Altitude_unit: m,
+      GPS Altitude_value: 128.00000381469727, GPS Bearing_unit: deg, GPS Bearing_value: 58.51289413967936,
+      GPS HDOP_unit: precision, GPS HDOP_value: 0.5999999821186066, GPS PDOP_unit: precision,
+      GPS PDOP_value: 0.8999999731779098, GPS Speed_unit: km/h, GPS Speed_value: 50.96317439446955,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.6999999791383743, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 96.78031665086746, Intake Temperature_unit: c, Intake Temperature_value: 12.0,
+      MAF_unit: l/s, MAF_value: 3.1469661155017974, Rpm_unit: u/min, Rpm_value: 1320.4363059401512,
+      Speed_unit: km/h, Speed_value: 50.93418109416962, Throttle Position_unit: '%',
+      Throttle Position_value: 16.337029188871384}
+    _Measurement__road: &id007 !!python/object:CarTrip.Road
+      _Road__display_name: "L 370, Pongs, Genh\xFClsen, M\xF6nchengladbach, Regierungsbezirk\
+        \ D\xFCsseldorf, Nordrhein-Westfalen, 41179, Deutschland"
+      _Road__osm_id: '147991962'
+      _Road__tags: {highway: secondary, lanes: '3', oneway: 'yes', ref: L 370, 'turn:lanes:forward': left|through|through}
+  46: !!python/object:CarTrip.Measurement
+    _Measurement__index: 46
+    _Measurement__latitude: 51.15321060485819
+    _Measurement__longitude: 6.404132130536192
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 1.9312422380204433, Consumption_unit: l/h,
+      Consumption_value: 0.8218052076682737, Engine Load_unit: '%', Engine Load_value: 6.274510093763766,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 3.0, GPS Altitude_unit: m, GPS Altitude_value: 129.66902834177017,
+      GPS Bearing_unit: deg, GPS Bearing_value: 53.53380515252047, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 0.9, GPS Speed_unit: km/h,
+      GPS Speed_value: 47.04391057375278, GPS VDOP_unit: precision, GPS VDOP_value: 0.7,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 96.72374838590622, Intake Temperature_unit: c,
+      Intake Temperature_value: 12.0, MAF_unit: l/s, MAF_value: 2.499999925494194,
+      Rpm_unit: u/min, Rpm_value: 1231.1971438676119, Speed_unit: km/h, Speed_value: 46.966735791414976,
+      Throttle Position_unit: '%', Throttle Position_value: 14.999999552965164}
+    _Measurement__road: *id007
+  47: !!python/object:CarTrip.Measurement
+    _Measurement__index: 47
+    _Measurement__latitude: 51.15353227517029
+    _Measurement__longitude: 6.4047903403003446
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 2.3914808216964447, Consumption_unit: l/h,
+      Consumption_value: 1.0176514134878487, Engine Load_unit: '%', Engine Load_value: 7.715642372227322,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 3.0, GPS Altitude_unit: m, GPS Altitude_value: 126.63179075717926,
+      GPS Bearing_unit: deg, GPS Bearing_value: 51.294969753072564, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 0.9000000000000001,
+      GPS Speed_unit: km/h, GPS Speed_value: 39.662655206857835, GPS VDOP_unit: precision,
+      GPS VDOP_value: 0.7, Intake Pressure_unit: kPa, Intake Pressure_value: 95.67573735117912,
+      Intake Temperature_unit: c, Intake Temperature_value: 12.000000357627869, MAF_unit: l/s,
+      MAF_value: 3.0957804041144925, Rpm_unit: u/min, Rpm_value: 1006.5748370289803,
+      Speed_unit: km/h, Speed_value: 39.61206895112991, Throttle Position_unit: '%',
+      Throttle Position_value: 15.156774643808603}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: "L 370, Pongs, M\xF6nchengladbach, Regierungsbezirk D\xFC\
+        sseldorf, Nordrhein-Westfalen, 41179, Deutschland"
+      _Road__osm_id: '163800579'
+      _Road__tags: {highway: primary, lanes: '2', note: "Die Dahlener Str. und im\
+          \ Bereich der Einbahnstra\xDFen-Regelung auch die Bachstr. verbinden die\
+          \ B 57 und MG-Rheydt mit der A 61 und besitzen durchg\xE4ngig 2 Fahrstreifen\
+          \ und somit f\xFCr den Fernverkehr bedeutsam und geeignet.", oneway: 'yes',
+        ref: L 370}
+  48: !!python/object:CarTrip.Measurement
+    _Measurement__index: 48
+    _Measurement__latitude: 51.153885856026406
+    _Measurement__longitude: 6.405458523417536
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 9.88381106002296, Consumption_unit: l/h,
+      Consumption_value: 4.205877046818281, Engine Load_unit: '%', Engine Load_value: 28.883961990881858,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 3.439379334449768, GPS Altitude_unit: m,
+      GPS Altitude_value: 127.00000378489494, GPS Bearing_unit: deg, GPS Bearing_value: 48.968186499122,
+      GPS HDOP_unit: precision, GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 0.9000000000000001,
+      GPS Speed_unit: km/h, GPS Speed_value: 50.078689176323564, GPS VDOP_unit: precision,
+      GPS VDOP_value: 0.7, Intake Pressure_unit: kPa, Intake Pressure_value: 93.08035471662879,
+      Intake Temperature_unit: c, Intake Temperature_value: 11.999999642372131, MAF_unit: l/s,
+      MAF_value: 12.794628466175112, Rpm_unit: u/min, Rpm_value: 1674.626530855894,
+      Speed_unit: km/h, Speed_value: 52.23934429883957, Throttle Position_unit: '%',
+      Throttle Position_value: 21.799140572547913}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: "A 61, Pongs, M\xF6nchengladbach, Regierungsbezirk D\xFC\
+        sseldorf, Nordrhein-Westfalen, 41179, Deutschland"
+      _Road__osm_id: '327986651'
+      _Road__tags: {highway: motorway, is_in: 'Germany,Europe', lanes: '3', maxspeed: '120',
+        oneway: 'yes', ref: A 61, 'turn:lanes': none|none|merge_to_left}
+  49: !!python/object:CarTrip.Measurement
+    _Measurement__index: 49
+    _Measurement__latitude: 51.15430855596288
+    _Measurement__longitude: 6.406262934692683
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 9.184461744923649, Consumption_unit: l/h,
+      Consumption_value: 3.9082815935845314, Engine Load_unit: '%', Engine Load_value: 23.42337447316868,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 3.000000089406967, GPS Altitude_unit: m,
+      GPS Altitude_value: 125.59531170129776, GPS Bearing_unit: deg, GPS Bearing_value: 48.80000069141386,
+      GPS HDOP_unit: precision, GPS HDOP_value: 0.5999999821186065, GPS PDOP_unit: precision,
+      GPS PDOP_value: 0.8999999731779098, GPS Speed_unit: km/h, GPS Speed_value: 55.74341321172528,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.6999999791383743, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 95.57286995649338, Intake Temperature_unit: c, Intake Temperature_value: 11.000000174157321,
+      MAF_unit: l/s, MAF_value: 11.889318297816942, Rpm_unit: u/min, Rpm_value: 1486.3478260040283,
+      Speed_unit: km/h, Speed_value: 57.15181517601013, Throttle Position_unit: '%',
+      Throttle Position_value: 22.999999314546585}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: "L 370, Pongs, M\xF6nchengladbach, Regierungsbezirk D\xFC\
+        sseldorf, Nordrhein-Westfalen, 41239, Deutschland"
+      _Road__osm_id: '147991960'
+      _Road__tags: {highway: primary, note: "Die Dahlener Str. und im Bereich der\
+          \ Einbahnstra\xDFen-Regelung auch die Bachstr. verbinden die B 57 und MG-Rheydt\
+          \ mit der A 61 und besitzen durchg\xE4ngig 2 Fahrstreifen und somit f\xFC\
+          r den Fernverkehr bedeutsam und geeignet.", oneway: 'yes', ref: L 370}
+  50: !!python/object:CarTrip.Measurement
+    _Measurement__index: 50
+    _Measurement__latitude: 51.1548199065561
+    _Measurement__longitude: 6.407135335827518
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 6.543048908692187, Consumption_unit: l/h,
+      Consumption_value: 2.7842761313583773, Engine Load_unit: '%', Engine Load_value: 16.862745599127287,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.546065270900726, GPS Altitude_unit: m,
+      GPS Altitude_value: 125.54606527090073, GPS Bearing_unit: deg, GPS Bearing_value: 48.026966601610184,
+      GPS HDOP_unit: precision, GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 0.9,
+      GPS Speed_unit: km/h, GPS Speed_value: 59.79485691619652, GPS VDOP_unit: precision,
+      GPS VDOP_value: 0.7, Intake Pressure_unit: kPa, Intake Pressure_value: 95.0,
+      Intake Temperature_unit: c, Intake Temperature_value: 12.0, MAF_unit: l/s, MAF_value: 8.47000001460313,
+      Rpm_unit: u/min, Rpm_value: 1519.9847328066826, Speed_unit: km/h, Speed_value: 57.9999982714653,
+      Throttle Position_unit: '%', Throttle Position_value: 20.999999530613422}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: "Dahlener Stra\xDFe, Pongs, M\xF6nchengladbach, Regierungsbezirk\
+        \ D\xFCsseldorf, Nordrhein-Westfalen, 41239, Deutschland"
+      _Road__osm_id: '17504960'
+      _Road__tags: {highway: residential, name: "Dahlener Stra\xDFe", postal_code: '41239'}
+  51: !!python/object:CarTrip.Measurement
+    _Measurement__index: 51
+    _Measurement__latitude: 51.155284837153474
+    _Measurement__longitude: 6.407970261543129
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 8.060576701964907, Consumption_unit: l/h,
+      Consumption_value: 3.430032639134003, Engine Load_unit: '%', Engine Load_value: 20.57007889463665,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 3.9999998807907104, GPS Altitude_unit: m,
+      GPS Altitude_value: 125.99999624490738, GPS Bearing_unit: deg, GPS Bearing_value: 48.48095201178876,
+      GPS HDOP_unit: precision, GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 0.9000000000000001,
+      GPS Speed_unit: km/h, GPS Speed_value: 56.72742707362386, GPS VDOP_unit: precision,
+      GPS VDOP_value: 0.7, Intake Pressure_unit: kPa, Intake Pressure_value: 95.0,
+      Intake Temperature_unit: c, Intake Temperature_value: 11.999999821186066, MAF_unit: l/s,
+      MAF_value: 10.434445124298897, Rpm_unit: u/min, Rpm_value: 1518.39080452919,
+      Speed_unit: km/h, Speed_value: 58.0, Throttle Position_unit: '%', Throttle Position_value: 21.999999672174454}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: "Dahlener Stra\xDFe, Pongs, M\xF6nchengladbach, Regierungsbezirk\
+        \ D\xFCsseldorf, Nordrhein-Westfalen, 41239, Deutschland"
+      _Road__osm_id: '82303013'
+      _Road__tags: {bicycle: 'no', cycleway: 'no', highway: primary, name: "Dahlener\
+          \ Stra\xDFe", note: "Die Dahlener Str. und im Bereich der Einbahnstra\xDF\
+          en-Regelung auch die Bachstr. verbinden die B 57 und MG-Rheydt mit der A\
+          \ 61 und besitzen durchg\xE4ngig 2 Fahrstreifen und somit f\xFCr den Fernverkehr\
+          \ bedeutsam und geeignet.", oneway: 'yes', postal_code: '41239', ref: L
+          370}
+  52: !!python/object:CarTrip.Measurement
+    _Measurement__index: 52
+    _Measurement__latitude: 51.15575926218017
+    _Measurement__longitude: 6.408825033076974
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 7.310035188571664, Consumption_unit: l/h,
+      Consumption_value: 3.1106532717326227, Engine Load_unit: '%', Engine Load_value: 18.97058892250061,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 3.3930753469467163, GPS Altitude_unit: m,
+      GPS Altitude_value: 128.0, GPS Bearing_unit: deg, GPS Bearing_value: 47.9358453713221,
+      GPS HDOP_unit: precision, GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 0.9528735637664796,
+      GPS Speed_unit: km/h, GPS Speed_value: 57.688642648629866, GPS VDOP_unit: precision,
+      GPS VDOP_value: 0.7528735637664795, Intake Pressure_unit: kPa, Intake Pressure_value: 95.00000212341547,
+      Intake Temperature_unit: c, Intake Temperature_value: 12.000000357627869, MAF_unit: l/s,
+      MAF_value: 9.462866473716616, Rpm_unit: u/min, Rpm_value: 1523.8635863661766,
+      Speed_unit: km/h, Speed_value: 58.99999824166298, Throttle Position_unit: '%',
+      Throttle Position_value: 21.27448683977127}
+    _Measurement__road: &id008 !!python/object:CarTrip.Road
+      _Road__display_name: "Dahlener Stra\xDFe, Pongs, Morr, M\xF6nchengladbach, Regierungsbezirk\
+        \ D\xFCsseldorf, Nordrhein-Westfalen, 41239, Deutschland"
+      _Road__osm_id: '471225385'
+      _Road__tags: {bicycle: designated, cycleway: lane, highway: primary, name: "Dahlener\
+          \ Stra\xDFe", note: "Die Dahlener Str. und im Bereich der Einbahnstra\xDF\
+          en-Regelung auch die Bachstr. verbinden die B 57 und MG-Rheydt mit der A\
+          \ 61 und besitzen durchg\xE4ngig 2 Fahrstreifen und somit f\xFCr den Fernverkehr\
+          \ bedeutsam und geeignet.", oneway: 'yes', postal_code: '41239', ref: L
+          370}
+  53: !!python/object:CarTrip.Measurement
+    _Measurement__index: 53
+    _Measurement__latitude: 51.15626699656703
+    _Measurement__longitude: 6.409673291613859
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 8.021697941108247, Consumption_unit: l/h,
+      Consumption_value: 3.4134884855779775, Engine Load_unit: '%', Engine Load_value: 19.607843983407122,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 3.0, GPS Altitude_unit: m, GPS Altitude_value: 128.3629782795906,
+      GPS Bearing_unit: deg, GPS Bearing_value: 48.64519186569714, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 0.8999999999999999,
+      GPS Speed_unit: km/h, GPS Speed_value: 57.573601521296496, GPS VDOP_unit: precision,
+      GPS VDOP_value: 0.7, Intake Pressure_unit: kPa, Intake Pressure_value: 94.99999716877937,
+      Intake Temperature_unit: c, Intake Temperature_value: 11.999999821186066, MAF_unit: l/s,
+      MAF_value: 10.384116430502004, Rpm_unit: u/min, Rpm_value: 1523.6518324613571,
+      Speed_unit: km/h, Speed_value: 57.99999913573265, Throttle Position_unit: '%',
+      Throttle Position_value: 22.000000327825546}
+    _Measurement__road: *id008
+  54: !!python/object:CarTrip.Measurement
+    _Measurement__index: 54
+    _Measurement__latitude: 51.15675720598202
+    _Measurement__longitude: 6.410531064555379
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 7.200928610491281, Consumption_unit: l/h,
+      Consumption_value: 3.0642249406345874, Engine Load_unit: '%', Engine Load_value: 18.039215188692594,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 3.317377746105194, GPS Altitude_unit: m,
+      GPS Altitude_value: 124.63475549221039, GPS Bearing_unit: deg, GPS Bearing_value: 48.79999923706055,
+      GPS HDOP_unit: precision, GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 0.9000000000000001,
+      GPS Speed_unit: km/h, GPS Speed_value: 57.48963781074849, GPS VDOP_unit: precision,
+      GPS VDOP_value: 0.7, Intake Pressure_unit: kPa, Intake Pressure_value: 96.0,
+      Intake Temperature_unit: c, Intake Temperature_value: 12.0, MAF_unit: l/s, MAF_value: 9.321627621488801,
+      Rpm_unit: u/min, Rpm_value: 1526.0633366405964, Speed_unit: km/h, Speed_value: 59.0,
+      Throttle Position_unit: '%', Throttle Position_value: 21.0}
+    _Measurement__road: &id009 !!python/object:CarTrip.Road
+      _Road__display_name: "Dahlener Stra\xDFe, Pongs, M\xF6nchengladbach, Regierungsbezirk\
+        \ D\xFCsseldorf, Nordrhein-Westfalen, 41239, Deutschland"
+      _Road__osm_id: '190495939'
+      _Road__tags: {highway: primary, name: "Dahlener Stra\xDFe", note: "Die Dahlener\
+          \ Str. und im Bereich der Einbahnstra\xDFen-Regelung auch die Bachstr. verbinden\
+          \ die B 57 und MG-Rheydt mit der A 61 und besitzen durchg\xE4ngig 2 Fahrstreifen\
+          \ und somit f\xFCr den Fernverkehr bedeutsam und geeignet.", oneway: 'yes',
+        postal_code: '41239', ref: L 370}
+  55: !!python/object:CarTrip.Measurement
+    _Measurement__index: 55
+    _Measurement__latitude: 51.157233494160366
+    _Measurement__longitude: 6.4113949951007605
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 7.253828263612596, Consumption_unit: l/h,
+      Consumption_value: 3.086735431324509, Engine Load_unit: '%', Engine Load_value: 17.984272296715915,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 3.7255298793315887, GPS Altitude_unit: m,
+      GPS Altitude_value: 125.274473965168, GPS Bearing_unit: deg, GPS Bearing_value: 47.774471655488014,
+      GPS HDOP_unit: precision, GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 0.8999999999999999,
+      GPS Speed_unit: km/h, GPS Speed_value: 58.09978865373955, GPS VDOP_unit: precision,
+      GPS VDOP_value: 0.7, Intake Pressure_unit: kPa, Intake Pressure_value: 96.0,
+      Intake Temperature_unit: c, Intake Temperature_value: 12.0, MAF_unit: l/s, MAF_value: 9.390106410041767,
+      Rpm_unit: u/min, Rpm_value: 1528.9895310290158, Speed_unit: km/h, Speed_value: 58.14148083329201,
+      Throttle Position_unit: '%', Throttle Position_value: 21.425238609313965}
+    _Measurement__road: *id009
+  56: !!python/object:CarTrip.Measurement
+    _Measurement__index: 56
+    _Measurement__latitude: 51.157705201399196
+    _Measurement__longitude: 6.412282687694196
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 6.37106037013053, Consumption_unit: l/h,
+      Consumption_value: 2.7110895192044806, Engine Load_unit: '%', Engine Load_value: 15.859068955685586,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 3.0000000447034836, GPS Altitude_unit: m,
+      GPS Altitude_value: 126.00000187754631, GPS Bearing_unit: deg, GPS Bearing_value: 49.08819025838312,
+      GPS HDOP_unit: precision, GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 0.9,
+      GPS Speed_unit: km/h, GPS Speed_value: 57.758773697982576, GPS VDOP_unit: precision,
+      GPS VDOP_value: 0.7, Intake Pressure_unit: kPa, Intake Pressure_value: 95.0,
+      Intake Temperature_unit: c, Intake Temperature_value: 12.000000178813934, MAF_unit: l/s,
+      MAF_value: 8.24736024154663, Rpm_unit: u/min, Rpm_value: 1529.7739309966564,
+      Speed_unit: km/h, Speed_value: 59.000001318752766, Throttle Position_unit: '%',
+      Throttle Position_value: 21.0}
+    _Measurement__road: *id008
+  57: !!python/object:CarTrip.Measurement
+    _Measurement__index: 57
+    _Measurement__latitude: 51.15818463962852
+    _Measurement__longitude: 6.413149602073005
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 2.20502409173051, Consumption_unit: l/h,
+      Consumption_value: 0.9383081241406426, Engine Load_unit: '%', Engine Load_value: 7.205456220768298,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 2.9999999329447746, GPS Altitude_unit: m,
+      GPS Altitude_value: 125.87684447318316, GPS Bearing_unit: deg, GPS Bearing_value: 48.31231371039536,
+      GPS HDOP_unit: precision, GPS HDOP_value: 0.6000000178813935, GPS PDOP_unit: precision,
+      GPS PDOP_value: 0.9000000268220901, GPS Speed_unit: km/h, GPS Speed_value: 56.26976979777751,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.7000000208616256, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 95.7616019397974, Intake Temperature_unit: c, Intake Temperature_value: 12.000000357627869,
+      MAF_unit: l/s, MAF_value: 2.854411505979513, Rpm_unit: u/min, Rpm_value: 1187.6581916809082,
+      Speed_unit: km/h, Speed_value: 54.14406776428223, Throttle Position_unit: '%',
+      Throttle Position_value: 15.999999523162842}
+    _Measurement__road: *id008
+  58: !!python/object:CarTrip.Measurement
+    _Measurement__index: 58
+    _Measurement__latitude: 51.15838069249184
+    _Measurement__longitude: 6.413482134100229
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 2.175739662773808, Consumption_unit: l/h,
+      Consumption_value: 0.925846665010131, Engine Load_unit: '%', Engine Load_value: 9.80392140734429,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 3.0000000670552254, GPS Altitude_unit: m,
+      GPS Altitude_value: 128.00000286102295, GPS Bearing_unit: deg, GPS Bearing_value: 51.560518938903186,
+      GPS HDOP_unit: precision, GPS HDOP_value: 0.5999999910593032, GPS PDOP_unit: precision,
+      GPS PDOP_value: 0.899999986588955, GPS Speed_unit: km/h, GPS Speed_value: 9.285882588406295,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.6999999895691871, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 94.99999858438969, Intake Temperature_unit: c, Intake Temperature_value: 12.000000357627869,
+      MAF_unit: l/s, MAF_value: 2.816502708849569, Rpm_unit: u/min, Rpm_value: 838.1239099167287,
+      Speed_unit: km/h, Speed_value: 8.215730458498001, Throttle Position_unit: '%',
+      Throttle Position_value: 15.000000447034836}
+    _Measurement__road: *id008
+  59: !!python/object:CarTrip.Measurement
+    _Measurement__index: 59
+    _Measurement__latitude: 51.15848790516007
+    _Measurement__longitude: 6.413663927905832
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 8.643093377225144, Consumption_unit: l/h,
+      Consumption_value: 3.6779120754149544, Engine Load_unit: '%', Engine Load_value: 24.123714963121103,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 4.000000089406967, GPS Altitude_unit: m,
+      GPS Altitude_value: 128.00000286102295, GPS Bearing_unit: deg, GPS Bearing_value: 48.759691008876814,
+      GPS HDOP_unit: precision, GPS HDOP_value: 0.6000000178813935, GPS PDOP_unit: precision,
+      GPS PDOP_value: 0.9000000268220901, GPS Speed_unit: km/h, GPS Speed_value: 19.974889064348844,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.7000000208616257, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 93.3504260033369, Intake Temperature_unit: c, Intake Temperature_value: 12.000000357627869,
+      MAF_unit: l/s, MAF_value: 11.188515026085241, Rpm_unit: u/min, Rpm_value: 1862.2556245923042,
+      Speed_unit: km/h, Speed_value: 23.43702906370163, Throttle Position_unit: '%',
+      Throttle Position_value: 17.173913151025772}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: "Bogenstra\xDFe, Pongs, Morr, M\xF6nchengladbach, Regierungsbezirk\
+        \ D\xFCsseldorf, Nordrhein-Westfalen, 41239, Deutschland"
+      _Road__osm_id: '471225386'
+      _Road__tags: {highway: primary, name: "Bogenstra\xDFe"}
+  60: !!python/object:CarTrip.Measurement
+    _Measurement__index: 60
+    _Measurement__latitude: 51.158828120646945
+    _Measurement__longitude: 6.414267923068488
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 33.88175715626251, Consumption_unit: l/h,
+      Consumption_value: 14.417769002664896, Engine Load_unit: '%', Engine Load_value: 46.855894198716925,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 3.046332001686096, GPS Altitude_unit: m,
+      GPS Altitude_value: 124.99999813735485, GPS Bearing_unit: deg, GPS Bearing_value: 48.62316377311947,
+      GPS HDOP_unit: precision, GPS HDOP_value: 0.6000000178813933, GPS PDOP_unit: precision,
+      GPS PDOP_value: 0.9000000268220902, GPS Speed_unit: km/h, GPS Speed_value: 51.11276866610427,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.7000000208616256, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 108.03929775953293, Intake Temperature_unit: c, Intake Temperature_value: 11.999999642372131,
+      MAF_unit: l/s, MAF_value: 43.860054786856836, Rpm_unit: u/min, Rpm_value: 2367.0721053108573,
+      Speed_unit: km/h, Speed_value: 54.36876356601715, Throttle Position_unit: '%',
+      Throttle Position_value: 39.88962495326996}
+    _Measurement__road: &id010 !!python/object:CarTrip.Road
+      _Road__display_name: "Dahlener Stra\xDFe, Pongs, Morr, M\xF6nchengladbach, Regierungsbezirk\
+        \ D\xFCsseldorf, Nordrhein-Westfalen, 41239, Deutschland"
+      _Road__osm_id: '234906393'
+      _Road__tags: {bicycle: designated, cycleway: lane, highway: primary, name: "Dahlener\
+          \ Stra\xDFe", note: "Die Dahlener Str. und im Bereich der Einbahnstra\xDF\
+          en-Regelung auch die Bachstr. verbinden die B 57 und MG-Rheydt mit der A\
+          \ 61 und besitzen durchg\xE4ngig 2 Fahrstreifen und somit f\xFCr den Fernverkehr\
+          \ bedeutsam und geeignet.", oneway: 'yes', postal_code: '41239', ref: L
+          370}
+  61: !!python/object:CarTrip.Measurement
+    _Measurement__index: 61
+    _Measurement__latitude: 51.15931593137103
+    _Measurement__longitude: 6.415154317099775
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 2.3515973522302995, Consumption_unit: l/h,
+      Consumption_value: 1.000679724353319, Engine Load_unit: '%', Engine Load_value: 10.364935240755145,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 3.0000000558793545, GPS Altitude_unit: m,
+      GPS Altitude_value: 126.00000234693289, GPS Bearing_unit: deg, GPS Bearing_value: 48.19724176069303,
+      GPS HDOP_unit: precision, GPS HDOP_value: 0.6000000067055224, GPS PDOP_unit: precision,
+      GPS PDOP_value: 0.9000000100582839, GPS Speed_unit: km/h, GPS Speed_value: 57.33882741897452,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.7000000078231096, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 95.94790601730347, Intake Temperature_unit: c, Intake Temperature_value: 12.000000089406967,
+      MAF_unit: l/s, MAF_value: 3.0441511114598256, Rpm_unit: u/min, Rpm_value: 1516.4694479703903,
+      Speed_unit: km/h, Speed_value: 57.763670936226845, Throttle Position_unit: '%',
+      Throttle Position_value: 16.000000476837158}
+    _Measurement__road: *id010
+  62: !!python/object:CarTrip.Measurement
+    _Measurement__index: 62
+    _Measurement__latitude: 51.15981192047323
+    _Measurement__longitude: 6.4160044789308746
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 7.496997345916674, Consumption_unit: l/h,
+      Consumption_value: 3.190211636560287, Engine Load_unit: '%', Engine Load_value: 18.431371688842773,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 3.9999999552965164, GPS Altitude_unit: m,
+      GPS Altitude_value: 126.9999985806644, GPS Bearing_unit: deg, GPS Bearing_value: 47.40156341932445,
+      GPS HDOP_unit: precision, GPS HDOP_value: 0.5999999821186065, GPS PDOP_unit: precision,
+      GPS PDOP_value: 0.8999999731779099, GPS Speed_unit: km/h, GPS Speed_value: 57.05401700344785,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.6999999791383743, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 95.99999713897705, Intake Temperature_unit: c, Intake Temperature_value: 11.999999642372131,
+      MAF_unit: l/s, MAF_value: 9.704889649386104, Rpm_unit: u/min, Rpm_value: 1518.0077067017555,
+      Speed_unit: km/h, Speed_value: 58.0, Throttle Position_unit: '%', Throttle Position_value: 22.000000655651093}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: "Sch\xFCtzenstra\xDFe, Pongs, Morr, M\xF6nchengladbach,\
+        \ Regierungsbezirk D\xFCsseldorf, Nordrhein-Westfalen, 41239, Deutschland"
+      _Road__osm_id: '17504838'
+      _Road__tags: {highway: residential, name: "Sch\xFCtzenstra\xDFe"}
+  63: !!python/object:CarTrip.Measurement
+    _Measurement__index: 63
+    _Measurement__latitude: 51.160278280213355
+    _Measurement__longitude: 6.416865452482455
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 6.675052968347834, Consumption_unit: l/h,
+      Consumption_value: 2.840448071637376, Engine Load_unit: '%', Engine Load_value: 16.882100653349426,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 3.942713536322117, GPS Altitude_unit: m,
+      GPS Altitude_value: 125.94271262735128, GPS Bearing_unit: deg, GPS Bearing_value: 48.62864132896067,
+      GPS HDOP_unit: precision, GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 0.9,
+      GPS Speed_unit: km/h, GPS Speed_value: 57.49217855166282, GPS VDOP_unit: precision,
+      GPS VDOP_value: 0.7, Intake Pressure_unit: kPa, Intake Pressure_value: 95.17589718103409,
+      Intake Temperature_unit: c, Intake Temperature_value: 12.000000357627869, MAF_unit: l/s,
+      MAF_value: 8.640879737926866, Rpm_unit: u/min, Rpm_value: 1526.1491682827473,
+      Speed_unit: km/h, Speed_value: 59.0, Throttle Position_unit: '%', Throttle Position_value: 20.999999687075615}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: "Dahlener Stra\xDFe, Pongs, Morr, M\xF6nchengladbach, Regierungsbezirk\
+        \ D\xFCsseldorf, Nordrhein-Westfalen, 41239, Deutschland"
+      _Road__osm_id: '30091022'
+      _Road__tags: {bicycle: designated, cycleway: 'no', highway: primary, name: "Dahlener\
+          \ Stra\xDFe", note: "Die Dahlener Str. und im Bereich der Einbahnstra\xDF\
+          en-Regelung auch die Bachstr. verbinden die B 57 und MG-Rheydt mit der A\
+          \ 61 und besitzen durchg\xE4ngig 2 Fahrstreifen und somit f\xFCr den Fernverkehr\
+          \ bedeutsam und geeignet.", oneway: 'yes', postal_code: '41239', ref: L
+          370}
+  64: !!python/object:CarTrip.Measurement
+    _Measurement__index: 64
+    _Measurement__latitude: 51.160763148131416
+    _Measurement__longitude: 6.417740040047374
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 6.7615067555077895, Consumption_unit: l/h,
+      Consumption_value: 2.877236917237357, Engine Load_unit: '%', Engine Load_value: 17.075365616470208,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 3.000000022351742, GPS Altitude_unit: m,
+      GPS Altitude_value: 125.00000093132257, GPS Bearing_unit: deg, GPS Bearing_value: 48.56726209328525,
+      GPS HDOP_unit: precision, GPS HDOP_value: 0.5999999821186065, GPS PDOP_unit: precision,
+      GPS PDOP_value: 0.8999999731779099, GPS Speed_unit: km/h, GPS Speed_value: 57.431783654520416,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.6999999791383743, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 95.3650615811348, Intake Temperature_unit: c, Intake Temperature_value: 12.000000089406967,
+      MAF_unit: l/s, MAF_value: 8.752794471979144, Rpm_unit: u/min, Rpm_value: 1517.0000226050615,
+      Speed_unit: km/h, Speed_value: 58.000000432133675, Throttle Position_unit: '%',
+      Throttle Position_value: 21.00000062584877}
+    _Measurement__road: *id010
+  65: !!python/object:CarTrip.Measurement
+    _Measurement__index: 65
+    _Measurement__latitude: 51.16120522845701
+    _Measurement__longitude: 6.4186186537112
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 6.465269221816103, Consumption_unit: l/h,
+      Consumption_value: 2.7511783922621715, Engine Load_unit: '%', Engine Load_value: 16.86274528503418,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 2.9999999552965164, GPS Altitude_unit: m,
+      GPS Altitude_value: 126.16958875954151, GPS Bearing_unit: deg, GPS Bearing_value: 50.14912295316219,
+      GPS HDOP_unit: precision, GPS HDOP_value: 0.5999999865889548, GPS PDOP_unit: precision,
+      GPS PDOP_value: 0.8999999798834325, GPS Speed_unit: km/h, GPS Speed_value: 57.75073597741755,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.6999999843537807, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 95.95350989326835, Intake Temperature_unit: c, Intake Temperature_value: 12.0,
+      MAF_unit: l/s, MAF_value: 8.369313934127547, Rpm_unit: u/min, Rpm_value: 1524.7629402428865,
+      Speed_unit: km/h, Speed_value: 59.00000175833702, Throttle Position_unit: '%',
+      Throttle Position_value: 20.690655827522278}
+    _Measurement__road: &id011 !!python/object:CarTrip.Road
+      _Road__display_name: "Dahlener Stra\xDFe, Rheydt-West, Morr, M\xF6nchengladbach,\
+        \ Regierungsbezirk D\xFCsseldorf, Nordrhein-Westfalen, 41239, Deutschland"
+      _Road__osm_id: '272373022'
+      _Road__tags: {bicycle: designated, cycleway: lane, highway: primary, name: "Dahlener\
+          \ Stra\xDFe", note: "Die Dahlener Str. und im Bereich der Einbahnstra\xDF\
+          en-Regelung auch die Bachstr. verbinden die B 57 und MG-Rheydt mit der A\
+          \ 61 und besitzen durchg\xE4ngig 2 Fahrstreifen und somit f\xFCr den Fernverkehr\
+          \ bedeutsam und geeignet.", oneway: 'yes', ref: L 370}
+  66: !!python/object:CarTrip.Measurement
+    _Measurement__index: 66
+    _Measurement__latitude: 51.16164934888483
+    _Measurement__longitude: 6.419519152871636
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 6.413024309641238, Consumption_unit: l/h,
+      Consumption_value: 2.728946514740952, Engine Load_unit: '%', Engine Load_value: 16.70197719666362,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 3.000000089406967, GPS Altitude_unit: m,
+      GPS Altitude_value: 126.00000375509262, GPS Bearing_unit: deg, GPS Bearing_value: 52.21151455044742,
+      GPS HDOP_unit: precision, GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 0.9,
+      GPS Speed_unit: km/h, GPS Speed_value: 57.43605850929487, GPS VDOP_unit: precision,
+      GPS VDOP_value: 0.7, Intake Pressure_unit: kPa, Intake Pressure_value: 96.0,
+      Intake Temperature_unit: c, Intake Temperature_value: 12.000000335276127, MAF_unit: l/s,
+      MAF_value: 8.301682710051537, Rpm_unit: u/min, Rpm_value: 1521.6902002096176,
+      Speed_unit: km/h, Speed_value: 58.84261417388916, Throttle Position_unit: '%',
+      Throttle Position_value: 20.738198041915894}
+    _Measurement__road: *id011
+  67: !!python/object:CarTrip.Measurement
+    _Measurement__index: 67
+    _Measurement__latitude: 51.16210302269698
+    _Measurement__longitude: 6.420435714988262
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 6.404983798657366, Consumption_unit: l/h,
+      Consumption_value: 2.7255250207052617, Engine Load_unit: '%', Engine Load_value: 16.764153494923335,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 3.0, GPS Altitude_unit: m, GPS Altitude_value: 124.0,
+      GPS Bearing_unit: deg, GPS Bearing_value: 53.27545695784852, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.5999999821186066, GPS PDOP_unit: precision, GPS PDOP_value: 0.8999999731779099,
+      GPS Speed_unit: km/h, GPS Speed_value: 57.59137915181873, GPS VDOP_unit: precision,
+      GPS VDOP_value: 0.6999999791383743, Intake Pressure_unit: kPa, Intake Pressure_value: 95.87818454951048,
+      Intake Temperature_unit: c, Intake Temperature_value: 12.000000357627869, MAF_unit: l/s,
+      MAF_value: 8.291274240070464, Rpm_unit: u/min, Rpm_value: 1528.8733863905072,
+      Speed_unit: km/h, Speed_value: 59.00000175833702, Throttle Position_unit: '%',
+      Throttle Position_value: 20.619324803352356}
+    _Measurement__road: &id012 !!python/object:CarTrip.Road
+      _Road__display_name: "Dahlener Stra\xDFe, Rheydt-West, Morr, M\xF6nchengladbach,\
+        \ Regierungsbezirk D\xFCsseldorf, Nordrhein-Westfalen, 41239, Deutschland"
+      _Road__osm_id: '8017357'
+      _Road__tags: {bicycle: designated, cycleway: 'no', highway: primary, name: "Dahlener\
+          \ Stra\xDFe", note: "Die Dahlener Str. und im Bereich der Einbahnstra\xDF\
+          en-Regelung auch die Bachstr. verbinden die B 57 und MG-Rheydt mit der A\
+          \ 61 und besitzen durchg\xE4ngig 2 Fahrstreifen und somit f\xFCr den Fernverkehr\
+          \ bedeutsam und geeignet.", oneway: 'yes', ref: L 370}
+  68: !!python/object:CarTrip.Measurement
+    _Measurement__index: 68
+    _Measurement__latitude: 51.1625463396396
+    _Measurement__longitude: 6.42134248787287
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 6.142895761204112, Consumption_unit: l/h,
+      Consumption_value: 2.613998196257069, Engine Load_unit: '%', Engine Load_value: 16.695243540345174,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 4.0, GPS Altitude_unit: m, GPS Altitude_value: 123.71007603406906,
+      GPS Bearing_unit: deg, GPS Bearing_value: 53.363879428979544, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.5999999821186066, GPS PDOP_unit: precision, GPS PDOP_value: 0.8999999731779099,
+      GPS Speed_unit: km/h, GPS Speed_value: 57.680314094877986, GPS VDOP_unit: precision,
+      GPS VDOP_value: 0.6999999791383743, Intake Pressure_unit: kPa, Intake Pressure_value: 95.0,
+      Intake Temperature_unit: c, Intake Temperature_value: 12.000000357627869, MAF_unit: l/s,
+      MAF_value: 7.952000346197025, Rpm_unit: u/min, Rpm_value: 1521.0000453293324,
+      Speed_unit: km/h, Speed_value: 58.57924282550812, Throttle Position_unit: '%',
+      Throttle Position_value: 20.97707486152649}
+    _Measurement__road: *id012
+  69: !!python/object:CarTrip.Measurement
+    _Measurement__index: 69
+    _Measurement__latitude: 51.162959166560924
+    _Measurement__longitude: 6.4222846043616135
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 5.48899009226548, Consumption_unit: l/h,
+      Consumption_value: 2.335740464793821, Engine Load_unit: '%', Engine Load_value: 14.509803771972656,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 4.0, GPS Altitude_unit: m, GPS Altitude_value: 123.80400002002716,
+      GPS Bearing_unit: deg, GPS Bearing_value: 53.41760120716094, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.5999999821186065, GPS PDOP_unit: precision, GPS PDOP_value: 0.9999999701976776,
+      GPS Speed_unit: km/h, GPS Speed_value: 57.30314211969949, GPS VDOP_unit: precision,
+      GPS VDOP_value: 0.7999999761581421, Intake Pressure_unit: kPa, Intake Pressure_value: 95.99999713897705,
+      Intake Temperature_unit: c, Intake Temperature_value: 12.0, MAF_unit: l/s, MAF_value: 7.105517138941536,
+      Rpm_unit: u/min, Rpm_value: 1521.0073159253225, Speed_unit: km/h, Speed_value: 59.00000087916851,
+      Throttle Position_unit: '%', Throttle Position_value: 20.0}
+    _Measurement__road: *id012
+  70: !!python/object:CarTrip.Measurement
+    _Measurement__index: 70
+    _Measurement__latitude: 51.16342433083943
+    _Measurement__longitude: 6.423159935524945
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 4.982368477985716, Consumption_unit: l/h,
+      Consumption_value: 2.120156799142858, Engine Load_unit: '%', Engine Load_value: 12.598970582050619,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 3.5944055914878845, GPS Altitude_unit: m,
+      GPS Altitude_value: 124.0, GPS Bearing_unit: deg, GPS Bearing_value: 46.86992884824326,
+      GPS HDOP_unit: precision, GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 0.9,
+      GPS Speed_unit: km/h, GPS Speed_value: 57.845200305428534, GPS VDOP_unit: precision,
+      GPS VDOP_value: 0.7, Intake Pressure_unit: kPa, Intake Pressure_value: 95.20860785245895,
+      Intake Temperature_unit: c, Intake Temperature_value: 12.000000357627869, MAF_unit: l/s,
+      MAF_value: 6.449693662725835, Rpm_unit: u/min, Rpm_value: 1531.5936016738415,
+      Speed_unit: km/h, Speed_value: 59.00000175833702, Throttle Position_unit: '%',
+      Throttle Position_value: 19.0}
+    _Measurement__road: &id013 !!python/object:CarTrip.Road
+      _Road__display_name: "Dahlener Stra\xDFe, Schrievers, Morr, M\xF6nchengladbach,\
+        \ Regierungsbezirk D\xFCsseldorf, Nordrhein-Westfalen, 41239, Deutschland"
+      _Road__osm_id: '30117832'
+      _Road__tags: {bicycle: designated, cycleway: lane, highway: primary, name: "Dahlener\
+          \ Stra\xDFe", note: "Die Dahlener Str. und im Bereich der Einbahnstra\xDF\
+          en-Regelung auch die Bachstr. verbinden die B 57 und MG-Rheydt mit der A\
+          \ 61 und besitzen durchg\xE4ngig 2 Fahrstreifen und somit f\xFCr den Fernverkehr\
+          \ bedeutsam und geeignet.", oneway: 'yes', ref: L 370}
+  71: !!python/object:CarTrip.Measurement
+    _Measurement__index: 71
+    _Measurement__latitude: 51.16395045764297
+    _Measurement__longitude: 6.423922063984645
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 2.335020250477133, Consumption_unit: l/h,
+      Consumption_value: 0.9936256385009076, Engine Load_unit: '%', Engine Load_value: 6.274509906768799,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 3.0, GPS Altitude_unit: m, GPS Altitude_value: 120.56910568475723,
+      GPS Bearing_unit: deg, GPS Bearing_value: 40.16748086121993, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 0.9000000000000001,
+      GPS Speed_unit: km/h, GPS Speed_value: 55.42331654898521, GPS VDOP_unit: precision,
+      GPS VDOP_value: 0.7, Intake Pressure_unit: kPa, Intake Pressure_value: 95.66770222783089,
+      Intake Temperature_unit: c, Intake Temperature_value: 11.999999821186066, MAF_unit: l/s,
+      MAF_value: 3.022691994456302, Rpm_unit: u/min, Rpm_value: 1454.3199783712626,
+      Speed_unit: km/h, Speed_value: 56.000001668930054, Throttle Position_unit: '%',
+      Throttle Position_value: 16.000000476837158}
+    _Measurement__road: *id013
+  72: !!python/object:CarTrip.Measurement
+    _Measurement__index: 72
+    _Measurement__latitude: 51.164509027277106
+    _Measurement__longitude: 6.424581377169639
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 2.24464906389418, Consumption_unit: l/h,
+      Consumption_value: 0.9551698144230553, Engine Load_unit: '%', Engine Load_value: 6.274509860020057,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 2.999999910593033, GPS Altitude_unit: m,
+      GPS Altitude_value: 119.99999642372131, GPS Bearing_unit: deg, GPS Bearing_value: 36.50514514938254,
+      GPS HDOP_unit: precision, GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 0.9,
+      GPS Speed_unit: km/h, GPS Speed_value: 51.37054286408625, GPS VDOP_unit: precision,
+      GPS VDOP_value: 0.7, Intake Pressure_unit: kPa, Intake Pressure_value: 95.90329580008984,
+      Intake Temperature_unit: c, Intake Temperature_value: 12.0, MAF_unit: l/s, MAF_value: 2.9057061729594693,
+      Rpm_unit: u/min, Rpm_value: 1348.7917108535767, Speed_unit: km/h, Speed_value: 52.000001549720764,
+      Throttle Position_unit: '%', Throttle Position_value: 15.827906742691994}
+    _Measurement__road: *id013
+  73: !!python/object:CarTrip.Measurement
+    _Measurement__index: 73
+    _Measurement__latitude: 51.16500329175165
+    _Measurement__longitude: 6.425196703336477
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 2.0064733884764148, Consumption_unit: l/h,
+      Consumption_value: 0.853818463181453, Engine Load_unit: '%', Engine Load_value: 6.274510093763766,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 3.5927020609378815, GPS Altitude_unit: m,
+      GPS Altitude_value: 118.99999645352364, GPS Bearing_unit: deg, GPS Bearing_value: 37.99999886751175,
+      GPS HDOP_unit: precision, GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 0.9000000000000001,
+      GPS Speed_unit: km/h, GPS Speed_value: 47.60140714932686, GPS VDOP_unit: precision,
+      GPS VDOP_value: 0.7, Intake Pressure_unit: kPa, Intake Pressure_value: 95.45144361257553,
+      Intake Temperature_unit: c, Intake Temperature_value: 11.999999821186066, MAF_unit: l/s,
+      MAF_value: 2.5973869165365784, Rpm_unit: u/min, Rpm_value: 1243.2414883375168,
+      Speed_unit: km/h, Speed_value: 47.833685010671616, Throttle Position_unit: '%',
+      Throttle Position_value: 14.999999552965164}
+    _Measurement__road: *id012
+  74: !!python/object:CarTrip.Measurement
+    _Measurement__index: 74
+    _Measurement__latitude: 51.1654337888768
+    _Measurement__longitude: 6.425759505386811
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 2.614729954467846, Consumption_unit: l/h,
+      Consumption_value: 1.1126510444544027, Engine Load_unit: '%', Engine Load_value: 8.323049067619635,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 3.0, GPS Altitude_unit: m, GPS Altitude_value: 117.0,
+      GPS Bearing_unit: deg, GPS Bearing_value: 39.46316208472058, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 0.9, GPS Speed_unit: km/h,
+      GPS Speed_value: 43.433044600969424, GPS VDOP_unit: precision, GPS VDOP_value: 0.7,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 94.9399265050888, Intake Temperature_unit: c,
+      Intake Temperature_value: 11.999999821186066, MAF_unit: l/s, MAF_value: 3.3847771981506636,
+      Rpm_unit: u/min, Rpm_value: 1156.5643340349197, Speed_unit: km/h, Speed_value: 44.0,
+      Throttle Position_unit: '%', Throttle Position_value: 15.882125839591026}
+    _Measurement__road: *id012
+  75: !!python/object:CarTrip.Measurement
+    _Measurement__index: 75
+    _Measurement__latitude: 51.165856295218184
+    _Measurement__longitude: 6.4262976104244665
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 2.954624965694135, Consumption_unit: l/h,
+      Consumption_value: 1.2572872194443125, Engine Load_unit: '%', Engine Load_value: 9.441165909578672,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 3.3607213497161865, GPS Altitude_unit: m,
+      GPS Altitude_value: 116.36071798205376, GPS Bearing_unit: deg, GPS Bearing_value: 40.25571119579854,
+      GPS HDOP_unit: precision, GPS HDOP_value: 0.6000000178813935, GPS PDOP_unit: precision,
+      GPS PDOP_value: 0.9409789144992828, GPS Speed_unit: km/h, GPS Speed_value: 44.17791422362393,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.7409789085388183, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 94.99999858438969, Intake Temperature_unit: c, Intake Temperature_value: 12.0,
+      MAF_unit: l/s, MAF_value: 3.8247724954845523, Rpm_unit: u/min, Rpm_value: 1165.8770100548863,
+      Speed_unit: km/h, Speed_value: 44.88532957434654, Throttle Position_unit: '%',
+      Throttle Position_value: 16.511699378490448}
+    _Measurement__road: *id012
+  76: !!python/object:CarTrip.Measurement
+    _Measurement__index: 76
+    _Measurement__latitude: 51.16623672762698
+    _Measurement__longitude: 6.426953032449326
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 2.266041984430968, Consumption_unit: l/h,
+      Consumption_value: 0.9642731848642415, Engine Load_unit: '%', Engine Load_value: 12.155620506318883,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 3.6507632434368134, GPS Altitude_unit: m,
+      GPS Altitude_value: 115.6507599055767, GPS Bearing_unit: deg, GPS Bearing_value: 59.35190877850721,
+      GPS HDOP_unit: precision, GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 0.9000000000000001,
+      GPS Speed_unit: km/h, GPS Speed_value: 45.20060961573631, GPS VDOP_unit: precision,
+      GPS VDOP_value: 0.7, Intake Pressure_unit: kPa, Intake Pressure_value: 95.34381550550461,
+      Intake Temperature_unit: c, Intake Temperature_value: 12.000000357627869, MAF_unit: l/s,
+      MAF_value: 2.933399384455761, Rpm_unit: u/min, Rpm_value: 1206.9224056601524,
+      Speed_unit: km/h, Speed_value: 46.590668082237244, Throttle Position_unit: '%',
+      Throttle Position_value: 16.121976986527443}
+    _Measurement__road: *id013
+  77: !!python/object:CarTrip.Measurement
+    _Measurement__index: 77
+    _Measurement__latitude: 51.16626097184558
+    _Measurement__longitude: 6.427866024987326
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 5.940485135119993, Consumption_unit: l/h,
+      Consumption_value: 2.527866014944678, Engine Load_unit: '%', Engine Load_value: 18.154272460566858,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 3.3015716075897217, GPS Altitude_unit: m,
+      GPS Altitude_value: 114.99999657273293, GPS Bearing_unit: deg, GPS Bearing_value: 93.19842551648617,
+      GPS HDOP_unit: precision, GPS HDOP_value: 0.6000000178813935, GPS PDOP_unit: precision,
+      GPS PDOP_value: 0.9000000268220902, GPS Speed_unit: km/h, GPS Speed_value: 47.22800255799177,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.7000000208616256, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 96.00000143051147, Intake Temperature_unit: c, Intake Temperature_value: 11.999999642372131,
+      MAF_unit: l/s, MAF_value: 7.689979072962956, Rpm_unit: u/min, Rpm_value: 1257.1079513728619,
+      Speed_unit: km/h, Speed_value: 48.0, Throttle Position_unit: '%', Throttle Position_value: 20.56296294927597}
+    _Measurement__road: &id014 !!python/object:CarTrip.Road
+      _Road__display_name: "Dahlener Stra\xDFe, Schrievers, M\xF6nchengladbach, Regierungsbezirk\
+        \ D\xFCsseldorf, Nordrhein-Westfalen, 41239, Deutschland"
+      _Road__osm_id: '15091953'
+      _Road__tags: {bicycle: designated, cycleway: lane, highway: primary, name: "Dahlener\
+          \ Stra\xDFe", note: "Die Dahlener Str. und im Bereich der Einbahnstra\xDF\
+          en-Regelung auch die Bachstr. verbinden die B 57 und MG-Rheydt mit der A\
+          \ 61 und besitzen durchg\xE4ngig 2 Fahrstreifen und somit f\xFCr den Fernverkehr\
+          \ bedeutsam und geeignet.", oneway: 'yes', postal_code: '41239', ref: L
+          370}
+  78: !!python/object:CarTrip.Measurement
+    _Measurement__index: 78
+    _Measurement__latitude: 51.16619146228372
+    _Measurement__longitude: 6.428828448612319
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 3.523806585238505, Consumption_unit: l/h,
+      Consumption_value: 1.4994921639312788, Engine Load_unit: '%', Engine Load_value: 10.653395515290867,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 2.9999999552965164, GPS Altitude_unit: m,
+      GPS Altitude_value: 114.99999828636646, GPS Bearing_unit: deg, GPS Bearing_value: 95.9296567188535,
+      GPS HDOP_unit: precision, GPS HDOP_value: 0.6742485165596008, GPS PDOP_unit: precision,
+      GPS PDOP_value: 1.0000000298023224, GPS Speed_unit: km/h, GPS Speed_value: 47.69372160216636,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.7742485195398331, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 95.69470405578613, Intake Temperature_unit: c, Intake Temperature_value: 12.000000357627869,
+      MAF_unit: l/s, MAF_value: 4.561580120359277, Rpm_unit: u/min, Rpm_value: 1265.1489738821983,
+      Speed_unit: km/h, Speed_value: 48.571430027484894, Throttle Position_unit: '%',
+      Throttle Position_value: 17.9999997317791}
+    _Measurement__road: *id014
+  79: !!python/object:CarTrip.Measurement
+    _Measurement__index: 79
+    _Measurement__latitude: 51.16614756095026
+    _Measurement__longitude: 6.429811464440083
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 3.7460234317281036, Consumption_unit: l/h,
+      Consumption_value: 1.5940525241396184, Engine Load_unit: '%', Engine Load_value: 11.764705307343434,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 3.0041840206831694, GPS Altitude_unit: m,
+      GPS Altitude_value: 115.00418104790151, GPS Bearing_unit: deg, GPS Bearing_value: 93.69873925025182,
+      GPS HDOP_unit: precision, GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 1.0,
+      GPS Speed_unit: km/h, GPS Speed_value: 47.89220061932984, GPS VDOP_unit: precision,
+      GPS VDOP_value: 0.8, Intake Pressure_unit: kPa, Intake Pressure_value: 95.23824644088745,
+      Intake Temperature_unit: c, Intake Temperature_value: 12.000000178813934, MAF_unit: l/s,
+      MAF_value: 4.849240616143064, Rpm_unit: u/min, Rpm_value: 1265.901188597083,
+      Speed_unit: km/h, Speed_value: 48.00000125169754, Throttle Position_unit: '%',
+      Throttle Position_value: 18.0}
+    _Measurement__road: *id014
+  80: !!python/object:CarTrip.Measurement
+    _Measurement__index: 80
+    _Measurement__latitude: 51.166126629780024
+    _Measurement__longitude: 6.430770537600762
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 3.8278346850012834, Consumption_unit: l/h,
+      Consumption_value: 1.6288658234048015, Engine Load_unit: '%', Engine Load_value: 11.750230210690468,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 3.004921266809106, GPS Altitude_unit: m,
+      GPS Altitude_value: 115.00000026775524, GPS Bearing_unit: deg, GPS Bearing_value: 89.20688692719023,
+      GPS HDOP_unit: precision, GPS HDOP_value: 0.6000000044703483, GPS PDOP_unit: precision,
+      GPS PDOP_value: 0.9031904354691506, GPS Speed_unit: km/h, GPS Speed_value: 47.55529120021353,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.7031904339790344, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 94.99999858438969, Intake Temperature_unit: c, Intake Temperature_value: 12.0,
+      MAF_unit: l/s, MAF_value: 4.955145573616022, Rpm_unit: u/min, Rpm_value: 1268.663275718689,
+      Speed_unit: km/h, Speed_value: 48.64263814687729, Throttle Position_unit: '%',
+      Throttle Position_value: 18.0}
+    _Measurement__road: &id015 !!python/object:CarTrip.Road
+      _Road__display_name: "Dahlener Stra\xDFe, Schrievers, M\xF6nchengladbach, Regierungsbezirk\
+        \ D\xFCsseldorf, Nordrhein-Westfalen, 41239, Deutschland"
+      _Road__osm_id: '37571474'
+      _Road__tags: {bicycle: destination, cycleway: lane, highway: primary, name: "Dahlener\
+          \ Stra\xDFe", note: "Die Dahlener Str. und im Bereich der Einbahnstra\xDF\
+          en-Regelung auch die Bachstr. verbinden die B 57 und MG-Rheydt mit der A\
+          \ 61 und besitzen durchg\xE4ngig 2 Fahrstreifen und somit f\xFCr den Fernverkehr\
+          \ bedeutsam und geeignet.", oneway: 'yes', postal_code: '41239', ref: L
+          370}
+  81: !!python/object:CarTrip.Measurement
+    _Measurement__index: 81
+    _Measurement__latitude: 51.16607646352956
+    _Measurement__longitude: 6.431736073415505
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 3.894662759187043, Consumption_unit: l/h,
+      Consumption_value: 1.6573033017817203, Engine Load_unit: '%', Engine Load_value: 12.15686321258545,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 2.9999999664723873, GPS Altitude_unit: m,
+      GPS Altitude_value: 114.98323342949152, GPS Bearing_unit: deg, GPS Bearing_value: 93.41005962764075,
+      GPS HDOP_unit: precision, GPS HDOP_value: 0.5999999879859388, GPS PDOP_unit: precision,
+      GPS PDOP_value: 0.8999999819789082, GPS Speed_unit: km/h, GPS Speed_value: 47.59622335554555,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.6999999859835953, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 95.51440206170082, Intake Temperature_unit: c, Intake Temperature_value: 11.999999910593033,
+      MAF_unit: l/s, MAF_value: 5.0416547526284745, Rpm_unit: u/min, Rpm_value: 1264.053678035736,
+      Speed_unit: km/h, Speed_value: 48.00000071525574, Throttle Position_unit: '%',
+      Throttle Position_value: 17.9999997317791}
+    _Measurement__road: *id015
+  82: !!python/object:CarTrip.Measurement
+    _Measurement__index: 82
+    _Measurement__latitude: 51.166032897362676
+    _Measurement__longitude: 6.432700248497392
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 3.9106974644470145, Consumption_unit: l/h,
+      Consumption_value: 1.6641265806157508, Engine Load_unit: '%', Engine Load_value: 12.549019439547664,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 2.9999999329447746, GPS Altitude_unit: m,
+      GPS Altitude_value: 111.89873167127371, GPS Bearing_unit: deg, GPS Bearing_value: 94.41898491845666,
+      GPS HDOP_unit: precision, GPS HDOP_value: 0.7000000156462193, GPS PDOP_unit: precision,
+      GPS PDOP_value: 1.100000024586916, GPS Speed_unit: km/h, GPS Speed_value: 47.491287667185134,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.8000000178813934, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 96.0, Intake Temperature_unit: c, Intake Temperature_value: 12.0,
+      MAF_unit: l/s, MAF_value: 5.0624117354481655, Rpm_unit: u/min, Rpm_value: 1263.1484176833183,
+      Speed_unit: km/h, Speed_value: 48.87755101919174, Throttle Position_unit: '%',
+      Throttle Position_value: 18.0}
+    _Measurement__road: *id015
+  83: !!python/object:CarTrip.Measurement
+    _Measurement__index: 83
+    _Measurement__latitude: 51.16600158570579
+    _Measurement__longitude: 6.433644539734617
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 4.120841835186253, Consumption_unit: l/h,
+      Consumption_value: 1.753549717100533, Engine Load_unit: '%', Engine Load_value: 13.326804121311323,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 4.000000029802322, GPS Altitude_unit: m,
+      GPS Altitude_value: 110.10515754669905, GPS Bearing_unit: deg, GPS Bearing_value: 93.92619150227165,
+      GPS HDOP_unit: precision, GPS HDOP_value: 0.6999999843537806, GPS PDOP_unit: precision,
+      GPS PDOP_value: 1.0999999754130843, GPS Speed_unit: km/h, GPS Speed_value: 47.24521268819737,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.7999999821186067, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 96.0, Intake Temperature_unit: c, Intake Temperature_value: 11.999999642372131,
+      MAF_unit: l/s, MAF_value: 5.334444368562913, Rpm_unit: u/min, Rpm_value: 1260.0,
+      Speed_unit: km/h, Speed_value: 48.000001430511475, Throttle Position_unit: '%',
+      Throttle Position_value: 17.9999997317791}
+    _Measurement__road: *id015
+  84: !!python/object:CarTrip.Measurement
+    _Measurement__index: 84
+    _Measurement__latitude: 51.1659482518338
+    _Measurement__longitude: 6.434597402543915
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 4.65168749455586, Consumption_unit: l/h,
+      Consumption_value: 1.9794414870450467, Engine Load_unit: '%', Engine Load_value: 14.70588207244873,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 3.0, GPS Altitude_unit: m, GPS Altitude_value: 110.19959473609924,
+      GPS Bearing_unit: deg, GPS Bearing_value: 95.25987597818676, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6999999895691871, GPS PDOP_unit: precision, GPS PDOP_value: 1.0999999836087226,
+      GPS Speed_unit: km/h, GPS Speed_value: 47.988071147088704, GPS VDOP_unit: precision,
+      GPS VDOP_value: 0.7999999880790711, Intake Pressure_unit: kPa, Intake Pressure_value: 95.99999713897705,
+      Intake Temperature_unit: c, Intake Temperature_value: 12.000000312924385, MAF_unit: l/s,
+      MAF_value: 6.021625957048286, Rpm_unit: u/min, Rpm_value: 1269.4097806364298,
+      Speed_unit: km/h, Speed_value: 49.0, Throttle Position_unit: '%', Throttle Position_value: 19.000000566244125}
+    _Measurement__road: *id015
+  85: !!python/object:CarTrip.Measurement
+    _Measurement__index: 85
+    _Measurement__latitude: 51.16588879295482
+    _Measurement__longitude: 6.435531288482384
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 4.57377907905249, Consumption_unit: l/h,
+      Consumption_value: 1.9462889698095702, Engine Load_unit: '%', Engine Load_value: 14.4794194129815,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 4.000000059604645, GPS Altitude_unit: m,
+      GPS Altitude_value: 111.00000165402889, GPS Bearing_unit: deg, GPS Bearing_value: 95.40153938742992,
+      GPS HDOP_unit: precision, GPS HDOP_value: 0.6999999947845935, GPS PDOP_unit: precision,
+      GPS PDOP_value: 1.0122211374342442, GPS Speed_unit: km/h, GPS Speed_value: 46.549514378813456,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.7999999940395356, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 96.0, Intake Temperature_unit: c, Intake Temperature_value: 12.0,
+      MAF_unit: l/s, MAF_value: 5.920773236908197, Rpm_unit: u/min, Rpm_value: 1263.0722137391567,
+      Speed_unit: km/h, Speed_value: 48.5182848572731, Throttle Position_unit: '%',
+      Throttle Position_value: 19.00000014156103}
+    _Measurement__road: *id015
+  86: !!python/object:CarTrip.Measurement
+    _Measurement__index: 86
+    _Measurement__latitude: 51.165846568064445
+    _Measurement__longitude: 6.436490210179048
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 3.6105819187791584, Consumption_unit: l/h,
+      Consumption_value: 1.5364178377783653, Engine Load_unit: '%', Engine Load_value: 11.179391405549609,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 3.9999999403953552, GPS Altitude_unit: m,
+      GPS Altitude_value: 110.99999834597111, GPS Bearing_unit: deg, GPS Bearing_value: 95.05148294537082,
+      GPS HDOP_unit: precision, GPS HDOP_value: 0.7000000104308128, GPS PDOP_unit: precision,
+      GPS PDOP_value: 1.1000000163912773, GPS Speed_unit: km/h, GPS Speed_value: 47.51572064475022,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.800000011920929, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 95.34972977638245, Intake Temperature_unit: c, Intake Temperature_value: 11.999999731779099,
+      MAF_unit: l/s, MAF_value: 4.673911097341602, Rpm_unit: u/min, Rpm_value: 1266.0511896014214,
+      Speed_unit: km/h, Speed_value: 48.9999992698431, Throttle Position_unit: '%',
+      Throttle Position_value: 17.366738259792328}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: "Dahlener Stra\xDFe, Schrievers, Rheydt, M\xF6nchengladbach,\
+        \ Regierungsbezirk D\xFCsseldorf, Nordrhein-Westfalen, 41239, Deutschland"
+      _Road__osm_id: '234906338'
+      _Road__tags: {highway: primary, name: "Dahlener Stra\xDFe", note: "Die Dahlener\
+          \ Str. und im Bereich der Einbahnstra\xDFen-Regelung auch die Bachstr. verbinden\
+          \ die B 57 und MG-Rheydt mit der A 61 und besitzen durchg\xE4ngig 2 Fahrstreifen\
+          \ und somit f\xFCr den Fernverkehr bedeutsam und geeignet.", oneway: 'yes',
+        postal_code: '41239', ref: L 370}

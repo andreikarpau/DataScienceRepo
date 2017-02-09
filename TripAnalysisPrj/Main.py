@@ -1,8 +1,9 @@
 import TripsApiService as envService
 import yaml
 import os
+import csv
 from CarTrip import TripHelper
-
+from os import path
 
 def read_trip_file(file_name):
     with open(file_name, 'r') as trip_file:
@@ -42,7 +43,19 @@ trips = read_all_trip_files()
 measures, tags = TripHelper.get_all_measures_tags_names(trips)
 
 for trip in trips:
-    keys, lines = trip.save_to_array(measures, tags)
+    print("Processing {0}".format(trip))
+
+    keys, lines, trip_id, car_name_id = trip.save_to_array(measures, tags)
+
+    file_name = './csv/{0}.csv'.format(car_name_id)
+    add_header = not path.isfile(file_name)
+
+    with open(file_name, 'a') as f:
+        writer = csv.writer(f)
+
+        if add_header:
+            writer.writerow(keys)
+
+        writer.writerows(lines)
 
 
-print(trips)

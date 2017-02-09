@@ -8,6 +8,9 @@ class Trip:
     def get_id(self):
         return self.__id
 
+    def get_car(self):
+        return self.__car
+
     def get_measurements(self):
         return self.__measurements
 
@@ -20,16 +23,37 @@ class Trip:
     def save_to_array(self, measures_keys, tags_keys):
         trip_array = [];
         all_keys = ["trip_id", "trip_length", "car_id", "car_construction_year", "car_engine_displacement", "car_fuel_type",
-                    "car_manufacturer", "car_model"];
+                    "car_manufacturer", "car_model", "measure_index", "latitude", "longitude",
+                    "road_name", "osmap_id"];
+
+        all_keys.extend(measures_keys)
+        all_keys.extend(tags_keys)
 
         for measurement in self.get_measurements().values():
             line = [];
             line.extend(self.get_simple_params())
-            line.extend(self.__car.get_all_params())
+            line.extend(self.get_car().get_all_params())
+            line.extend(measurement.get_simple_params())
+            line.extend(measurement.get_road().get_simple_params())
+
+            measures = measurement.get_measures()
+            road_tags = measurement.get_road().get_tags()
+
+            for measures_key in measures_keys:
+                if measures_key in measures:
+                    line.append(measures[measures_key])
+                else:
+                    line.append(None)
+
+            for tag_key in tags_keys:
+                if tag_key in road_tags:
+                    line.append(road_tags[tag_key])
+                else:
+                    line.append(None)
 
             trip_array.append(line)
 
-        return all_keys, trip_array
+        return all_keys, trip_array, self.get_id(), self.get_car().get_car_unique_name()
 
 
 class Car:
@@ -45,6 +69,9 @@ class Car:
         return "Car {0}: {1} {2} {3} {4} {5}".format(self.__api_id, self.__manufacturer, self.__model,
                                                      self.__engine_displacement, self.__fuel_type,
                                                      self.__construction_year)
+
+    def get_car_unique_name(self):
+        return "{0}_{1}_{2}".format(self.__manufacturer, self.__model, self.__api_id)
 
     def get_id(self):
         return self.__api_id
@@ -64,6 +91,9 @@ class Measurement:
             self.__measures[key + "_value"] = value["value"]
             self.__measures[key + "_unit"] = value["unit"]
 
+    def get_simple_params(self):
+        return self.__index, self.__latitude, self.__longitude
+
     def get_measures(self):
         return self.__measures
 
@@ -76,6 +106,9 @@ class Road:
         self.__display_name = display_name
         self.__osm_id = osm_id
         self.__tags = tags
+
+    def get_simple_params(self):
+        return self.__display_name, self.__osm_id
 
     def get_tags(self):
         return self.__tags

@@ -1,0 +1,29 @@
+!!python/object:CarTrip.Trip
+_Trip__car: !!python/object:CarTrip.Car {_Car__api_id: 574e78cbe4b09078f97bbb4a, _Car__construction_year: 2011,
+  _Car__engine_displacement: 1800, _Car__fuel_type: gasoline, _Car__manufacturer: Toyota,
+  _Car__model: Avensis}
+_Trip__id: 588e364ae4b04a0d732d734f
+_Trip__length: null
+_Trip__measurements:
+  0: !!python/object:CarTrip.Measurement
+    _Measurement__index: 0
+    _Measurement__latitude: 51.22475152850976
+    _Measurement__longitude: 6.471819761599058
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 4.192167063020096, Consumption_unit: l/h,
+      Consumption_value: 1.7839008778808918, Engine Load_unit: '%', Engine Load_value: 41.5898280470077,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 8.0, GPS Altitude_unit: m, GPS Altitude_value: 80.9885373784316,
+      GPS Bearing_unit: deg, GPS Bearing_value: 288.00243043338924, GPS HDOP_unit: precision,
+      GPS HDOP_value: 1.5000000447034836, GPS PDOP_unit: precision, GPS PDOP_value: 2.550811919569969,
+      GPS Speed_unit: km/h, GPS Speed_value: 29.355933276304313, GPS VDOP_unit: precision,
+      GPS VDOP_value: 2.050811904668808, Intake Pressure_unit: kPa, Intake Pressure_value: 39.12765845656395,
+      Intake Temperature_unit: c, Intake Temperature_value: 22.999999785795808, MAF_unit: l/s,
+      MAF_value: 5.426775128920163, O2 Lambda Voltage ER_unit: ratio, O2 Lambda Voltage ER_value: 1.1620225548977032,
+      O2 Lambda Voltage_unit: V, O2 Lambda Voltage_value: 4.343109175330028, Rpm_unit: u/min,
+      Rpm_value: 1222.8402348160744, Speed_unit: km/h, Speed_value: 30.83804924786091,
+      Throttle Position_unit: '%', Throttle Position_value: 17.00000050663948}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: "D\xFCnner Stra\xDFe, Neuwerk, D\xFCnn, M\xF6nchengladbach,\
+        \ Regierungsbezirk D\xFCsseldorf, Nordrhein-Westfalen, 41066, Deutschland"
+      _Road__osm_id: '64688500'
+      _Road__tags: {highway: tertiary, name: "D\xFCnner Stra\xDFe", ref: K 5, 'source:ref': 'http://wiki.openstreetmap.org/wiki/Import/Catalogue/Strassen_NRW'}
+    _Measurement__time: '2017-01-27T15:01:08Z'

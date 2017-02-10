@@ -71,10 +71,15 @@ class CarService:
                     return None
 
             measurements[index] = CarTrip.Measurement(index, value['geometry']['coordinates'][1],
-                                                      value['geometry']['coordinates'][0], road, value['properties']['phenomenons'])
+                                                      value['geometry']['coordinates'][0], road,
+                                                      value['properties']['time'], value['properties']['phenomenons'])
             index += 1
 
         return measurements
+
+    @staticmethod
+    def add_road_to_cache(road, latitude, longitude):
+        CarService.__roads_coordinates_cache[latitude + longitude] = road
 
     @staticmethod
     def get_road_info(latitude, longitude):
@@ -108,6 +113,6 @@ class CarService:
                 tags[key] = value
 
         road = CarTrip.Road(road_name, osm_id, tags);
-        CarService.__roads_coordinates_cache[lat_lot_hash] = road
+        CarService.add_road_to_cache(road, latitude, longitude)
         CarService.__roads_id_cache[osm_id] = road
         return road

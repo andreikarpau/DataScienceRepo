@@ -22,9 +22,9 @@ class Trip:
 
     def save_to_array(self, measures_keys, tags_keys):
         trip_array = [];
-        all_keys = ["trip_id", "trip_length", "car_id", "car_construction_year", "car_engine_displacement", "car_fuel_type",
-                    "car_manufacturer", "car_model", "measure_index", "latitude", "longitude",
-                    "road_name", "osmap_id"];
+        all_keys = ["trip_id", "trip_length", "car_id", "car_construction_year", "car_engine_displacement",
+                    "car_fuel_type", "car_manufacturer", "car_model", "measure_index", "latitude", "longitude",
+                    "time", "road_name", "osmap_id"];
 
         all_keys.extend(measures_keys)
         all_keys.extend(tags_keys)
@@ -79,12 +79,14 @@ class Car:
     def get_all_params(self):
         return self.__api_id, self.__construction_year, self.__engine_displacement, self.__fuel_type, self.__manufacturer, self.__model
 
+
 class Measurement:
-    def __init__(self, index, latitude, longitude, road, odb2_measures):
+    def __init__(self, index, latitude, longitude, road, time, odb2_measures):
         self.__index = index
         self.__latitude = latitude
         self.__longitude = longitude
         self.__road = road
+        self.__time = time
         self.__measures = {}
 
         for key, value in odb2_measures.items():
@@ -92,10 +94,16 @@ class Measurement:
             self.__measures[key + "_unit"] = value["unit"]
 
     def get_simple_params(self):
-        return self.__index, self.__latitude, self.__longitude
+        return self.__index, self.__latitude, self.__longitude, self.__time
 
     def get_measures(self):
         return self.__measures
+
+    def get_longitude(self):
+        return self.__longitude
+
+    def get_latitude(self):
+        return self.__latitude
 
     def get_road(self):
         return self.__road;
@@ -123,6 +131,12 @@ class Road:
 
 
 class TripHelper:
+    @staticmethod
+    def remove_items_from_dict(the_dict, entries):
+        for key in entries:
+            if key in the_dict:
+                del the_dict[key]
+
     @staticmethod
     def get_all_measures_tags_names(trips):
         measures = {}

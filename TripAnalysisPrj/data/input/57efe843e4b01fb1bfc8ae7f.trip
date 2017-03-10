@@ -1,0 +1,29 @@
+!!python/object:CarTrip.Trip
+_Trip__car: !!python/object:CarTrip.Car {_Car__api_id: 575442dde4b0a691927a7a1e, _Car__construction_year: 2013,
+  _Car__engine_displacement: 1998, _Car__fuel_type: gasoline, _Car__manufacturer: Mazda,
+  _Car__model: CX5}
+_Trip__id: 57efe843e4b01fb1bfc8ae7f
+_Trip__length: null
+_Trip__measurements:
+  0: !!python/object:CarTrip.Measurement
+    _Measurement__index: 0
+    _Measurement__latitude: 51.19764567067384
+    _Measurement__longitude: 6.415515439487489
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 2.085811206206399, Consumption_unit: l/h,
+      Consumption_value: 0.8875792366835741, Engine Load_unit: '%', Engine Load_value: 21.321040318786345,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 23.999999552965164, GPS Altitude_unit: m,
+      GPS Altitude_value: 96.33346471710063, GPS Bearing_unit: deg, GPS Bearing_value: 139.5839817750457,
+      GPS HDOP_unit: precision, GPS HDOP_value: 1.7279917024075986, GPS PDOP_unit: precision,
+      GPS PDOP_value: 2.8151925556361674, GPS Speed_unit: km/h, GPS Speed_value: 0.0,
+      GPS VDOP_unit: precision, GPS VDOP_value: 2.229864764586091, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 30.51445472240448, Intake Temperature_unit: c, Intake Temperature_value: 21.0,
+      MAF_unit: l/s, MAF_value: 2.7000900029278228, Rpm_unit: u/min, Rpm_value: 803.4307163953781,
+      Speed_unit: km/h, Speed_value: -2.236588716506958, Throttle Position_unit: '%',
+      Throttle Position_value: 13.000001549720764}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: "Roermonder Stra\xDFe, R\xF6nneter, Waldhausen, M\xF6nchengladbach,\
+        \ Regierungsbezirk D\xFCsseldorf, Nordrhein-Westfalen, 41068, Deutschland"
+      _Road__osm_id: '429043702'
+      _Road__tags: {highway: tertiary, maxspeed: '30', name: "Roermonder Stra\xDFe",
+        postal_code: '41068'}
+    _Measurement__time: '2016-10-01T15:43:10Z'

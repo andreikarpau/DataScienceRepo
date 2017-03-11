@@ -54,10 +54,10 @@ def read_and_save_trips_to_csvs():
                                              "source", "access", "layer", "hgv", "source:maxspeed:backward",
                                              "source:maxspeed:forward",
                                              "cycleway: segregated", "segregated", "description", "service",
-                                             "motor_vehicle",
+                                             "motor_vehicle", "abandoned:highway", "bridge_ref", "change:lanes",
                                              "oneway: psv", "tracktype", "construction", "source:maxspeed:backward",
                                              "source:maxspeed:forward", "cutting", "source:maxspeed", "hazmat",
-                                             "maxweight",
+                                             "maxweight", "strassen-nrw:abs", "cycleway:left", "cycleway:right",
                                              "name:etymology:wikidata", "name:etymology:wikipedia",
                                              "placement", "is_in", "note:name", "reg_name", "noexit", "place_numbers",
                                              "maxheight", "motorcar", "motorcycle", "motorroad", "name", "ref",
@@ -65,16 +65,21 @@ def read_and_save_trips_to_csvs():
                                              "cycleway:segregated", "smoothness", "destination", "destination:lanes",
                                              "toll:N3", "postal_code", "zone:traffic", "lanes:backward",
                                              "lanes:forward", "turn:lanes:forward", "maxspeed:backward",
-                                             "maxspeed:forward",
+                                             "maxspeed:forward", "strassen - nrw: abs", "turn", "voltage", "incline",
                                              "int_ref", "embankment", "maxspeed:variable", "vehicle", "agricultural",
                                              "emergency", "goods", "horse", "hov", "overtaking",
                                              "turn:lanes:backward", "turn:lanes", "tunnel", "sidewalk", "psv",
-                                             "junction", "bridge", "foot"])
+                                             "junction", "bridge", "foot", "opening_date", "railway", "start_date",
+                                             "cycleway: left", "cycleway: right", "electrified",
+                                             "abandoned: highway", "abutters", "alt_ref", "bicycle", "bridge_ref"
+                                                                                                     "change: lanes"])
+
+    measures_units_list = {}
 
     for trip in trips:
         print("Processing {0}".format(trip))
 
-        keys, lines, trip_id, car_name_id = trip.save_to_array(measures, tags)
+        keys, lines, trip_id, car_name_id = trip.save_to_array(measures, tags, measures_units_list)
 
         file_name = './csv/{0}.csv'.format(car_name_id)
         add_header = not path.isfile(file_name)
@@ -87,6 +92,15 @@ def read_and_save_trips_to_csvs():
 
             writer.writerows(lines)
 
+    with open("./csv/MeasuresUnits.txt", "w") as text_file:
+        for measures_units in measures_units_list:
+            units_string = measures_units + ": "
+
+            for units in measures_units_list[measures_units]:
+                units_string += units + "; "
+
+            text_file.write(units_string + "\n")
+
 
 def reread_file():
     trips = read_all_trip_files()
@@ -98,5 +112,5 @@ def reread_file():
     download_and_save([[1, 10], [2, 10], [10, 10], [11, 10], [20, 10], [25, 10]])
 
 
-#download_and_save([[130, 10]])
+# download_and_save([[130, 10]])
 read_and_save_trips_to_csvs()

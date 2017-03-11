@@ -1,3 +1,8 @@
+import dateutil.parser
+from astral import Astral
+import operator
+
+
 class Trip:
     def __init__(self, api_id, length, car, measurements):
         self.__id = api_id
@@ -20,11 +25,12 @@ class Trip:
     def get_simple_params(self):
         return self.__id, self.__length
 
-    def save_to_array(self, measures_keys, tags_keys):
+    def save_to_array(self, measures_keys, tags_keys, unitsList):
         trip_array = [];
+
         all_keys = ["trip_id", "trip_length", "car_id", "car_construction_year", "car_engine_displacement",
                     "car_fuel_type", "car_manufacturer", "car_model", "measure_index", "latitude", "longitude",
-                    "time", "road_name", "osmap_id"];
+                    "time", "time_type", "time_light_type_num", "road_name", "osmap_id"];
 
         all_keys.extend(measures_keys)
         all_keys.extend(tags_keys)
@@ -41,7 +47,14 @@ class Trip:
 
             for measures_key in measures_keys:
                 if measures_key in measures:
-                    line.append(measures[measures_key])
+                    unit_name = measures[measures_key]
+                    line.append(unit_name)
+
+                    if "_unit" in measures_key:
+                        if not (measures_key in unitsList):
+                            unitsList[measures_key] = {}
+
+                        unitsList[measures_key][unit_name] = True
                 else:
                     line.append(None)
 
@@ -94,7 +107,10 @@ class Measurement:
             self.__measures[key + "_unit"] = value["unit"]
 
     def get_simple_params(self):
-        return self.__index, self.__latitude, self.__longitude, self.__time
+        datetime = dateutil.parser.parse(self.__time)
+        time_type, time_light_type_num = TripHelper.day_time_definition(datetime)
+
+        return self.__index, self.__latitude, self.__longitude, self.__time, time_type, time_light_type_num
 
     def get_measures(self):
         return self.__measures
@@ -131,6 +147,27 @@ class Road:
 
 
 class TripHelper:
+    @staticmethod
+    def day_time_definition(datetime):
+        astral_obj = Astral()
+        astral_obj.solar_depression = 'civil'
+        city = astral_obj["Berlin"]
+        sun_info = city.sun(date=datetime, local=True)
+
+        if datetime < sun_info["dawn"]:
+            return "night", 0
+
+        if datetime < sun_info["sunrise"]:
+            return "dawn", 1
+
+        if datetime < sun_info["sunset"]:
+            return "daylight", 2
+
+        if datetime < sun_info["dusk"]:
+            return "dusk", 1
+
+        return "night", 0
+
     @staticmethod
     def remove_items_from_dict(the_dict, entries):
         for key in entries:

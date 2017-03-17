@@ -25,7 +25,7 @@ class Trip:
     def get_simple_params(self):
         return self.__id, self.__length
 
-    def save_to_array(self, measures_keys, tags_keys, unitsList):
+    def save_to_array(self, measures_keys, tags_keys, units_list, value_to_verify="CO2_value"):
         trip_array = [];
 
         all_keys = ["trip_id", "trip_length", "car_id", "car_construction_year", "car_engine_displacement",
@@ -45,16 +45,19 @@ class Trip:
             measures = measurement.get_measures()
             road_tags = measurement.get_road().get_tags()
 
+            if not (value_to_verify in measures):
+                return None, None, None, None
+
             for measures_key in measures_keys:
                 if measures_key in measures:
                     unit_name = measures[measures_key]
                     line.append(unit_name)
 
                     if "_unit" in measures_key:
-                        if not (measures_key in unitsList):
-                            unitsList[measures_key] = {}
+                        if not (measures_key in units_list):
+                            units_list[measures_key] = {}
 
-                        unitsList[measures_key][unit_name] = True
+                        units_list[measures_key][unit_name] = True
                 else:
                     line.append(None)
 

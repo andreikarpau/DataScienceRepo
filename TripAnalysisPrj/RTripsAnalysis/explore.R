@@ -4,13 +4,28 @@ library(data.table)
 create_car_trips_dataframe <- function(csv_file_name){
   car_trips = read.csv(csv_file_name)
   car_trips$time <- strptime(car_trips$time, "%Y-%m-%dT%H:%M:%S", tz="UTC")
-  car_trips <- car_trips[with(car_trips, order(time)), ] 
-  car_trips$date <- as.Date(as.POSIXct(car_trips$time, 'GMT'))
+  car_trips <- car_trips[with(car_trips, order(time, trip_id)), ] 
+  
+  car_trips$measure_index <- NULL
+  #car_trips$date <- as.Date(as.POSIXct(car_trips$time, 'GMT'))
+  
+  car_trips$Acceleration = 0
+  
+  for (i in 1:(length(car_trips$Speed_value) - 1)){
+    next_i = i + 1
+
+    if (car_trips$trip_id[next_i] == car_trips$trip_id[i]){
+      speed_diff = car_trips$Speed_value[next_i] - car_trips$Speed_value[i]
+      time_diff = as.numeric(car_trips$time[next_i] - car_trips$time[i], units="hours")
+      car_trips$Acceleration[i] = speed_diff/time_diff * 1000/3600
+    }
+  }
+  
   return(car_trips)
 } 
 
 csv_files = list.files(path = "./csv/", pattern="*.csv", full.names=TRUE)
-car_trips = create_car_trips_dataframe(csv_files[9])
+car_trips = create_car_trips_dataframe(csv_files[6])
 summary(car_trips)
 
 plot_co2_points <- function(car_data) {
@@ -28,7 +43,7 @@ plot_speed_co2 <- function(car_data) {
     geom_line(aes(y=Consumption_value, colour="Temp"))
 }
 
-car_data = car_trips[car_trips$trip_id=="5850443ae4b0a979d5501cb3",]
+car_data = car_trips[car_trips$trip_id=="586ba71de4b04a0d718a7437",]
 #plot_speed_co2(car_data)
 
 plot_osm_id <- function(car_data) {

@@ -15,38 +15,52 @@ get_highway_info <- function(car_trips){
     one_way_def <- "no"
     lanes_def <- 2
     max_speed_def <- 50
+    highway <- tr$highway
     
     if (grepl("motorway", tr$highway)){
       highway_val <- 9
       one_way_def <- "yes"
       max_speed_def <- 300
+      highway <- "motorway"
     }else if (grepl("trunk", tr$highway)) {
       highway_val <- 8  
       one_way_def <- "yes"
       max_speed_def <- 300
+      highway <- "trunk"
     }else if (grepl("primary", tr$highway)) {
       highway_val <- 7  
       max_speed_def <- 100
+      highway <- "primary"
     }else if (grepl("secondary", tr$highway)) {
       highway_val <- 6  
       max_speed_def <- 100
+      highway <- "secondary"
     }else if (grepl("tertiary", tr$highway)) {
       highway_val <- 5  
       max_speed_def <- 100
+      highway <- "tertiary"
     }else if (grepl("unclassified", tr$highway)) {
       highway_val <- 4    
       max_speed_def <- 100
+      highway <- "unclassified"
     }else if (grepl("residential", tr$highway)) {
       highway_val <- 3
+      highway <- "residential"
     }else if (grepl("service", tr$highway)) {
       highway_val <- 2
-    }else {
-      highway_val <- 4 #default value  
+      highway <- "service"
+    } else {
+      highway_val <- 1
+      max_speed_def <- 30
+      highway <- "small_street"
     }
     
     one_way <- tr$oneway
     if (nchar(one_way)==0) {
       one_way <- one_way_def
+    }
+    if (grepl("-1", one_way)){
+      one_way <- "yes"
     }
     
     lanes <- tr$lanes
@@ -67,7 +81,8 @@ get_highway_info <- function(car_trips){
       road_overview = 1
     }
     
-    return(list(index=i, highway_val=highway_val, lanes=lanes, one_way=one_way, maxspeed=maxspeed, road_overview=road_overview))
+    return(list(index=i, highway_val=highway_val, lanes=lanes, one_way=one_way, maxspeed=maxspeed, 
+                road_overview=road_overview, highway=highway))
   })
   highway_info <- do.call(rbind, highway_info)
   return(highway_info)
@@ -146,6 +161,7 @@ create_car_trips_dataframe <- function(csv_file_name){
   car_trips$cycleway <- replace_na_by_value(car_trips$cycleway, "no")
   car_trips$lit <- replace_na_by_value(car_trips$lit, "no")
   car_trips$surface <- replace_na_by_value(car_trips$surface, "asphalt")
+  
   car_trips$acceleration = 0
   car_trips$distance = 0
   car_trips$time_diff = 0
@@ -172,6 +188,8 @@ create_car_trips_dataframe <- function(csv_file_name){
   car_trips$oneway <- rapply(hi[,"one_way"],c)
   car_trips$highway_val <- rapply(hi[,"highway_val"],c)
   car_trips$road_overview <- rapply(hi[,"road_overview"],c)
+  car_trips$highway <- rapply(hi[,"highway"],c)
+  
   car_trips$co2_per_distance <- car_trips$time_diff * car_trips$CO2_value / (car_trips$distance + 0.001)
     
   return(car_trips)

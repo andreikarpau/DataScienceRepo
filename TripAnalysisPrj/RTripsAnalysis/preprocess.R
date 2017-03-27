@@ -163,21 +163,26 @@ create_car_trips_dataframe <- function(csv_file_name){
   car_trips$surface <- replace_na_by_value(car_trips$surface, "asphalt")
   
   car_trips$acceleration = 0
+  car_trips$throttle_diff = 0
   car_trips$distance = 0
   car_trips$time_diff = 0
+  car_trips$rpm_diff = 0
   
   for (i in 1:(length(car_trips$Speed_value) - 1)){
     next_i = i + 1
     
     if (car_trips$trip_id[next_i] == car_trips$trip_id[i]){
-      speed_diff = car_trips$Speed_value[next_i] - car_trips$Speed_value[i]
       time_diff = as.numeric(car_trips$time[next_i] - car_trips$time[i], units="hours")
 
       if (0 < time_diff){
+        speed_diff = car_trips$Speed_value[next_i] - car_trips$Speed_value[i]
         acceleration = speed_diff/time_diff
+        
         car_trips$time_diff[i] = time_diff
         car_trips$acceleration[i] = acceleration
         car_trips$distance[i] = car_trips$Speed_value[i] * time_diff + acceleration * time_diff * time_diff / 2 
+        car_trips$throttle_diff[i] = car_trips$Throttle.Position_value[next_i] - car_trips$Throttle.Position_value[i]
+        car_trips$rpm_diff[i] = car_trips$Rpm_value[next_i] - car_trips$Rpm_value[i]
       }
     }
   }
@@ -190,7 +195,7 @@ create_car_trips_dataframe <- function(csv_file_name){
   car_trips$road_overview <- rapply(hi[,"road_overview"],c)
   car_trips$highway <- rapply(hi[,"highway"],c)
   
-  car_trips$co2_per_distance <- car_trips$time_diff * car_trips$CO2_value / (car_trips$distance + 0.001)
+  car_trips$co2_emission <- car_trips$time_diff * car_trips$CO2_value
     
   return(car_trips)
 } 

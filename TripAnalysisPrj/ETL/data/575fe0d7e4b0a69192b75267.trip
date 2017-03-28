@@ -1,0 +1,27 @@
+!!python/object:CarTrip.Trip
+_Trip__car: !!python/object:CarTrip.Car {_Car__api_id: 5756c482e4b0a69192869ebe, _Car__construction_year: 2013,
+  _Car__engine_displacement: 998, _Car__fuel_type: gasoline, _Car__manufacturer: Ford,
+  _Car__model: Focus}
+_Trip__id: 575fe0d7e4b0a69192b75267
+_Trip__length: null
+_Trip__measurements:
+  0: !!python/object:CarTrip.Measurement
+    _Measurement__index: 0
+    _Measurement__latitude: 51.22485810188297
+    _Measurement__longitude: 6.4428203057242746
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 0.0, Consumption_unit: l/h,
+      Consumption_value: 0.0, Engine Load_unit: '%', Engine Load_value: 0.0, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 24.0, GPS Altitude_unit: m, GPS Altitude_value: 89.77321850975805,
+      GPS HDOP_unit: precision, GPS HDOP_value: 0.9999999701976776, GPS PDOP_unit: precision,
+      GPS PDOP_value: 1.8125608056783675, GPS Speed_unit: km/h, GPS Speed_value: 0.0,
+      GPS VDOP_unit: precision, GPS VDOP_value: 1.5125608146190643, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 0.0, Intake Temperature_unit: c, Intake Temperature_value: 22.99999725818634,
+      MAF_unit: l/s, MAF_value: 0.0, Rpm_unit: u/min, Rpm_value: 0.0, Speed_unit: km/h,
+      Speed_value: 255.0, Throttle Position_unit: '%', Throttle Position_value: 0.0}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: "Hackesstra\xDFe, Lockh\xFCtte, Neuwerk, Bettrath, M\xF6\
+        nchengladbach, Regierungsbezirk D\xFCsseldorf, Nordrhein-Westfalen, 41066,\
+        \ Deutschland"
+      _Road__osm_id: '147190570'
+      _Road__tags: {highway: residential, name: "Hackesstra\xDFe", postal_code: '41066'}
+    _Measurement__time: '2016-06-12T10:10:31Z'

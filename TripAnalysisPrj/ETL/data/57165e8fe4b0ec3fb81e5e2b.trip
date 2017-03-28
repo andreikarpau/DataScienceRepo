@@ -1,0 +1,1602 @@
+!!python/object:CarTrip.Trip
+_Trip__car: !!python/object:CarTrip.Car {_Car__api_id: 56ba03ebe4b0df8fa00cae20, _Car__construction_year: 2009,
+  _Car__engine_displacement: 1598, _Car__fuel_type: gasoline, _Car__manufacturer: 'Vw ',
+  _Car__model: 9N}
+_Trip__id: 57165e8fe4b0ec3fb81e5e2b
+_Trip__length: 11.095945458869076
+_Trip__measurements:
+  0: !!python/object:CarTrip.Measurement
+    _Measurement__index: 0
+    _Measurement__latitude: 48.25654997096945
+    _Measurement__longitude: 10.873731786539029
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 3.3027759103567735, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 4.275455127928156, Consumption_unit: l/h, Consumption_value: 1.405436557598627,
+      Engine Load_unit: '%', Engine Load_value: 33.30491665619684, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 4.059596035629511, GPS Altitude_unit: m, GPS Altitude_value: 531.0596058517694,
+      GPS Bearing_unit: deg, GPS Bearing_value: 19.830516202898878, GPS Speed_unit: km/h,
+      GPS Speed_value: 25.221377657586054, Intake Pressure_unit: kPa, Intake Pressure_value: 35.46216940879822,
+      Intake Temperature_unit: c, Intake Temperature_value: 35.999999195337296, Rpm_unit: u/min,
+      Rpm_value: 945.2386161088943, Speed_unit: km/h, Speed_value: 23.830053851008415,
+      Throttle Position_unit: '%', Throttle Position_value: 12.000000178813934}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: "Dornierstra\xDFe, Gewerbegebiet K\xF6nigsbrunn S\xFCd,\
+        \ K\xF6nigsbrunn, Landkreis Augsburg, Schwaben, Bayern, 86343, Deutschland"
+      _Road__osm_id: '25001539'
+      _Road__tags: {highway: residential, lanes: '3', 'lanes:backward': '2', 'lanes:forward': '1',
+        maxspeed: '50', name: "Dornierstra\xDFe", 'placement:backward': 'left_of:1',
+        'turn:lanes:backward': left|through;right}
+    _Measurement__time: '2016-04-19T16:07:01Z'
+  1: !!python/object:CarTrip.Measurement
+    _Measurement__index: 1
+    _Measurement__latitude: 48.25679861851555
+    _Measurement__longitude: 10.873416130066033
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 12.95438952365606, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 16.76950317592427, Consumption_unit: l/h, Consumption_value: 5.512506180279174,
+      Engine Load_unit: '%', Engine Load_value: 59.513185480787115, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.9999998807907104, GPS Altitude_unit: m, GPS Altitude_value: 529.1137137413025,
+      GPS Bearing_unit: deg, GPS Bearing_value: 292.65686213672143, GPS Speed_unit: km/h,
+      GPS Speed_value: 33.328709689013124, Intake Pressure_unit: kPa, Intake Pressure_value: 61.856641069054604,
+      Intake Temperature_unit: c, Intake Temperature_value: 36.69775474071503, Rpm_unit: u/min,
+      Rpm_value: 2130.2833335995674, Speed_unit: km/h, Speed_value: 34.94488883018494,
+      Throttle Position_unit: '%', Throttle Position_value: 24.189426600933075}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: "Bobinger Stra\xDFe, K\xF6nigsbrunn, Landkreis Augsburg,\
+        \ Schwaben, Bayern, 86343, Deutschland"
+      _Road__osm_id: '315664128'
+      _Road__tags: {bdouble: 'yes', bicycle: 'no', foot: 'no', highway: secondary,
+        lanes: '3', 'lanes:backward': '1', 'lanes:forward': '2', maxspeed: '60', name: "Bobinger\
+          \ Stra\xDFe", ref: St 2380, tmc: 'DE:27898/42351', 'turn:lanes:forward': left|through}
+    _Measurement__time: '2016-04-19T16:07:06Z'
+  2: !!python/object:CarTrip.Measurement
+    _Measurement__index: 2
+    _Measurement__latitude: 48.257025275835716
+    _Measurement__longitude: 10.87269812230419
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 11.150719318341634, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 14.434645699151114, Consumption_unit: l/h, Consumption_value: 4.744986943975164,
+      Engine Load_unit: '%', Engine Load_value: 59.79365482798971, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 5.000000074505806, GPS Altitude_unit: m, GPS Altitude_value: 531.0000079125166,
+      GPS Bearing_unit: deg, GPS Bearing_value: 290.1378823784921, GPS Speed_unit: km/h,
+      GPS Speed_value: 44.18721821336629, Intake Pressure_unit: kPa, Intake Pressure_value: 64.77777878940105,
+      Intake Temperature_unit: c, Intake Temperature_value: 36.000001072883606, Rpm_unit: u/min,
+      Rpm_value: 1747.0465711206198, Speed_unit: km/h, Speed_value: 44.82484428584576,
+      Throttle Position_unit: '%', Throttle Position_value: 21.999999344348907}
+    _Measurement__road: &id001 !!python/object:CarTrip.Road
+      _Road__display_name: "Bobinger Stra\xDFe, Gewerbegebiet K\xF6nigsbrunn S\xFC\
+        d, K\xF6nigsbrunn, Landkreis Augsburg, Schwaben, Bayern, 86343, Deutschland"
+      _Road__osm_id: '285071791'
+      _Road__tags: {bdouble: 'yes', bicycle: 'no', foot: 'no', highway: secondary,
+        lanes: '2', maxspeed: '60', name: "Bobinger Stra\xDFe", ref: St 2380, tmc: 'DE:27898/42351'}
+    _Measurement__time: '2016-04-19T16:07:11Z'
+  3: !!python/object:CarTrip.Measurement
+    _Measurement__index: 3
+    _Measurement__latitude: 48.25725142423036
+    _Measurement__longitude: 10.871898968857494
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 2.490868369949388, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 3.2244379377660426, Consumption_unit: l/h, Consumption_value: 1.0599439872125054,
+      Engine Load_unit: '%', Engine Load_value: 21.960784912109375, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.9999999403953552, GPS Altitude_unit: m, GPS Altitude_value: 529.9999921023846,
+      GPS Bearing_unit: deg, GPS Bearing_value: 289.22570494962747, GPS Speed_unit: km/h,
+      GPS Speed_value: 44.62107046453394, Intake Pressure_unit: kPa, Intake Pressure_value: 25.33659839630127,
+      Intake Temperature_unit: c, Intake Temperature_value: 36.0000005364418, Rpm_unit: u/min,
+      Rpm_value: 997.76925984025, Speed_unit: km/h, Speed_value: 43.65244314074516,
+      Throttle Position_unit: '%', Throttle Position_value: 12.000000145286322}
+    _Measurement__road: *id001
+    _Measurement__time: '2016-04-19T16:07:16Z'
+  4: !!python/object:CarTrip.Measurement
+    _Measurement__index: 4
+    _Measurement__latitude: 48.25745004590153
+    _Measurement__longitude: 10.87114822253247
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 2.8358706075898557, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 3.6710445578038184, Consumption_unit: l/h, Consumption_value: 1.2067534500382364,
+      Engine Load_unit: '%', Engine Load_value: 24.705883026123047, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 4.0000001192092896, GPS Altitude_unit: m, GPS Altitude_value: 532.0000158548355,
+      GPS Bearing_unit: deg, GPS Bearing_value: 288.26050045663214, GPS Speed_unit: km/h,
+      GPS Speed_value: 40.68904099466124, Intake Pressure_unit: kPa, Intake Pressure_value: 28.000000834465027,
+      Intake Temperature_unit: c, Intake Temperature_value: 36.000001072883606, Rpm_unit: u/min,
+      Rpm_value: 1027.912192159798, Speed_unit: km/h, Speed_value: 39.99999940395355,
+      Throttle Position_unit: '%', Throttle Position_value: 13.0}
+    _Measurement__road: *id001
+    _Measurement__time: '2016-04-19T16:07:21Z'
+  5: !!python/object:CarTrip.Measurement
+    _Measurement__index: 5
+    _Measurement__latitude: 48.25760361472961
+    _Measurement__longitude: 10.87048568547198
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 2.6856307151072794, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 3.4765584842195474, Consumption_unit: l/h, Consumption_value: 1.1428215808967146,
+      Engine Load_unit: '%', Engine Load_value: 19.347613211523367, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 4.000000022351742, GPS Altitude_unit: m, GPS Altitude_value: 530.021302215755,
+      GPS Bearing_unit: deg, GPS Bearing_value: 287.200972239323, GPS Speed_unit: km/h,
+      GPS Speed_value: 36.01456889132873, Intake Pressure_unit: kPa, Intake Pressure_value: 23.63093075156212,
+      Intake Temperature_unit: c, Intake Temperature_value: 37.0, Rpm_unit: u/min,
+      Rpm_value: 1157.1659637093544, Speed_unit: km/h, Speed_value: 34.999998956918716,
+      Throttle Position_unit: '%', Throttle Position_value: 12.999999878928065}
+    _Measurement__road: *id001
+    _Measurement__time: '2016-04-19T16:07:27Z'
+  6: !!python/object:CarTrip.Measurement
+    _Measurement__index: 6
+    _Measurement__latitude: 48.257723464955106
+    _Measurement__longitude: 10.869888270916533
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 2.8459082663836783, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 3.6840383427069563, Consumption_unit: l/h, Consumption_value: 1.2110247942058205,
+      Engine Load_unit: '%', Engine Load_value: 23.72697140440451, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 4.000000029802322, GPS Altitude_unit: m, GPS Altitude_value: 530.0000039488077,
+      GPS Bearing_unit: deg, GPS Bearing_value: 285.4049714306916, GPS Speed_unit: km/h,
+      GPS Speed_value: 28.808229877403335, Intake Pressure_unit: kPa, Intake Pressure_value: 27.06342351436615,
+      Intake Temperature_unit: c, Intake Temperature_value: 36.99999889731407, Rpm_unit: u/min,
+      Rpm_value: 1070.7013372778893, Speed_unit: km/h, Speed_value: 27.25066429376602,
+      Throttle Position_unit: '%', Throttle Position_value: 12.591497600078583}
+    _Measurement__road: &id002 !!python/object:CarTrip.Road
+      _Road__display_name: "Bobinger Stra\xDFe, K\xF6nigsbrunn, Landkreis Augsburg,\
+        \ Schwaben, Bayern, 86343, Deutschland"
+      _Road__osm_id: '31009937'
+      _Road__tags: {bdouble: 'yes', bicycle: 'no', foot: 'no', highway: secondary,
+        lanes: '3', 'lanes:backward': '2', 'lanes:forward': '1', maxspeed: '60', name: "Bobinger\
+          \ Stra\xDFe", ref: St 2380, tmc: 'DE:27898/42351'}
+    _Measurement__time: '2016-04-19T16:07:31Z'
+  7: !!python/object:CarTrip.Measurement
+    _Measurement__index: 7
+    _Measurement__latitude: 48.257785797791286
+    _Measurement__longitude: 10.869489220640403
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 2.2547491810377216, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 2.9187808104178012, Consumption_unit: l/h, Consumption_value: 0.9594677366117963,
+      Engine Load_unit: '%', Engine Load_value: 26.52200383138552, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.0000000670552254, GPS Altitude_unit: m, GPS Altitude_value: 529.2010168507695,
+      GPS Bearing_unit: deg, GPS Bearing_value: 281.9116220257856, GPS Speed_unit: km/h,
+      GPS Speed_value: 13.0450252517402, Intake Pressure_unit: kPa, Intake Pressure_value: 30.35517328977585,
+      Intake Temperature_unit: c, Intake Temperature_value: 37.00000027567148, Rpm_unit: u/min,
+      Rpm_value: 756.3027945160866, Speed_unit: km/h, Speed_value: 10.712305203080177,
+      Throttle Position_unit: '%', Throttle Position_value: 12.000000178813934}
+    _Measurement__road: *id002
+    _Measurement__time: '2016-04-19T16:07:36Z'
+  8: !!python/object:CarTrip.Measurement
+    _Measurement__index: 8
+    _Measurement__latitude: 48.25781822433655
+    _Measurement__longitude: 10.869310214081906
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 8.74093686607001, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 11.315173769357651, Consumption_unit: l/h, Consumption_value: 3.719547602582983,
+      Engine Load_unit: '%', Engine Load_value: 49.862059065733774, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 2.9999999161809683, GPS Altitude_unit: m, GPS Altitude_value: 530.9999851640314,
+      GPS Bearing_unit: deg, GPS Bearing_value: 276.0217850080396, GPS Speed_unit: km/h,
+      GPS Speed_value: 10.129887816426825, Intake Pressure_unit: kPa, Intake Pressure_value: 55.527753710746765,
+      Intake Temperature_unit: c, Intake Temperature_value: 37.0, Rpm_unit: u/min,
+      Rpm_value: 1602.795305237174, Speed_unit: km/h, Speed_value: 10.934973657131195,
+      Throttle Position_unit: '%', Throttle Position_value: 18.012389361858368}
+    _Measurement__road: *id002
+    _Measurement__time: '2016-04-19T16:07:42Z'
+  9: !!python/object:CarTrip.Measurement
+    _Measurement__index: 9
+    _Measurement__latitude: 48.25787933593372
+    _Measurement__longitude: 10.869015169457406
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 15.117501273360986, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 19.56965900652634, Consumption_unit: l/h, Consumption_value: 6.432979265259994,
+      Engine Load_unit: '%', Engine Load_value: 73.72548895256182, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.9877703711390495, GPS Altitude_unit: m, GPS Altitude_value: 530.9999881312251,
+      GPS Bearing_unit: deg, GPS Bearing_value: 291.4337438331231, GPS Speed_unit: km/h,
+      GPS Speed_value: 17.851800550282945, Intake Pressure_unit: kPa, Intake Pressure_value: 73.16476991772652,
+      Intake Temperature_unit: c, Intake Temperature_value: 36.99999889731407, Rpm_unit: u/min,
+      Rpm_value: 2103.818086743355, Speed_unit: km/h, Speed_value: 20.480206221342087,
+      Throttle Position_unit: '%', Throttle Position_value: 24.99999925494194}
+    _Measurement__road: &id003 !!python/object:CarTrip.Road
+      _Road__display_name: "St 2380, K\xF6nigsbrunn, Landkreis Augsburg, Schwaben,\
+        \ Bayern, 86343, Deutschland"
+      _Road__osm_id: '60707925'
+      _Road__tags: {bdouble: 'yes', bicycle: 'no', foot: 'no', highway: secondary,
+        junction: roundabout, lanes: '2', maxspeed: '70', ref: St 2380, tmc: 'DE:27898'}
+    _Measurement__time: '2016-04-19T16:07:47Z'
+  10: !!python/object:CarTrip.Measurement
+    _Measurement__index: 10
+    _Measurement__latitude: 48.25806122657814
+    _Measurement__longitude: 10.868617182089988
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 5.861947464791182, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 7.588311780219933, Consumption_unit: l/h, Consumption_value: 2.4944457296983753,
+      Engine Load_unit: '%', Engine Load_value: 31.69570602106421, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.8390242755413055, GPS Altitude_unit: m, GPS Altitude_value: 526.1609599292278,
+      GPS Bearing_unit: deg, GPS Bearing_value: 283.4136510779799, GPS Speed_unit: km/h,
+      GPS Speed_value: 29.05050402356568, Intake Pressure_unit: kPa, Intake Pressure_value: 36.131014943122864,
+      Intake Temperature_unit: c, Intake Temperature_value: 36.17983651161194, Rpm_unit: u/min,
+      Rpm_value: 1647.5627732276917, Speed_unit: km/h, Speed_value: 29.37781572341919,
+      Throttle Position_unit: '%', Throttle Position_value: 15.921099528670311}
+    _Measurement__road: *id003
+    _Measurement__time: '2016-04-19T16:07:51Z'
+  11: !!python/object:CarTrip.Measurement
+    _Measurement__index: 11
+    _Measurement__latitude: 48.25776625785458
+    _Measurement__longitude: 10.868384661949488
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 15.944060334213093, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 20.63964264185989, Consumption_unit: l/h, Consumption_value: 6.784706525197061,
+      Engine Load_unit: '%', Engine Load_value: 75.64499748562639, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.864472344517708, GPS Altitude_unit: m, GPS Altitude_value: 526.999992147088,
+      GPS Bearing_unit: deg, GPS Bearing_value: 168.17150992207462, GPS Speed_unit: km/h,
+      GPS Speed_value: 35.31438429104821, Intake Pressure_unit: kPa, Intake Pressure_value: 71.88732612133026,
+      Intake Temperature_unit: c, Intake Temperature_value: 36.32227075099945, Rpm_unit: u/min,
+      Rpm_value: 2253.340063661337, Speed_unit: km/h, Speed_value: 38.37098117172718,
+      Throttle Position_unit: '%', Throttle Position_value: 26.548301339149475}
+    _Measurement__road: &id004 !!python/object:CarTrip.Road
+      _Road__display_name: "St 2380, K\xF6nigsbrunn, Landkreis Augsburg, Schwaben,\
+        \ Bayern, 86343, Deutschland"
+      _Road__osm_id: '60707931'
+      _Road__tags: {bdouble: 'yes', bicycle: 'no', foot: 'no', highway: secondary,
+        junction: roundabout, lanes: '2', maxspeed: '70', ref: St 2380, tmc: 'DE:27898'}
+    _Measurement__time: '2016-04-19T16:07:56Z'
+  12: !!python/object:CarTrip.Measurement
+    _Measurement__index: 12
+    _Measurement__latitude: 48.25718696744872
+    _Measurement__longitude: 10.868291846553905
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 10.945490540531589, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 14.168976318514384, Consumption_unit: l/h, Consumption_value: 4.657655549162378,
+      Engine Load_unit: '%', Engine Load_value: 50.12241001073619, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 2.9999999552965164, GPS Altitude_unit: m, GPS Altitude_value: 529.936467513442,
+      GPS Bearing_unit: deg, GPS Bearing_value: 203.58571399691164, GPS Speed_unit: km/h,
+      GPS Speed_value: 52.06036399462471, Intake Pressure_unit: kPa, Intake Pressure_value: 54.30427044630051,
+      Intake Temperature_unit: c, Intake Temperature_value: 35.9999994635582, Rpm_unit: u/min,
+      Rpm_value: 2045.6385265886784, Speed_unit: km/h, Speed_value: 52.000001549720764,
+      Throttle Position_unit: '%', Throttle Position_value: 19.984766913577914}
+    _Measurement__road: *id004
+    _Measurement__time: '2016-04-19T16:08:01Z'
+  13: !!python/object:CarTrip.Measurement
+    _Measurement__index: 13
+    _Measurement__latitude: 48.25687702283499
+    _Measurement__longitude: 10.86747890598554
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 15.750140936023362, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 20.388613293245843, Consumption_unit: l/h, Consumption_value: 6.702187632350366,
+      Engine Load_unit: '%', Engine Load_value: 77.52281623647877, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.999999910593033, GPS Altitude_unit: m, GPS Altitude_value: 527.0886085629463,
+      GPS Bearing_unit: deg, GPS Bearing_value: 262.8669742837793, GPS Speed_unit: km/h,
+      GPS Speed_value: 52.3498161441164, Intake Pressure_unit: kPa, Intake Pressure_value: 79.08996480703354,
+      Intake Temperature_unit: c, Intake Temperature_value: 36.000001072883606, Rpm_unit: u/min,
+      Rpm_value: 2021.113543143496, Speed_unit: km/h, Speed_value: 52.00000077486038,
+      Throttle Position_unit: '%', Throttle Position_value: 25.455752968788147}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: "B 17, K\xF6nigsbrunn, Landkreis Augsburg, Schwaben, Bayern,\
+        \ 86343, Deutschland"
+      _Road__osm_id: '285071762'
+      _Road__tags: {bdouble: 'yes', highway: trunk, lanes: '2', maxspeed: none, motorroad: 'yes',
+        oneway: 'yes', ref: B 17, tmc: 'DE:21053', 'toll:N3': 'yes'}
+    _Measurement__time: '2016-04-19T16:08:06Z'
+  14: !!python/object:CarTrip.Measurement
+    _Measurement__index: 14
+    _Measurement__latitude: 48.25742458775537
+    _Measurement__longitude: 10.866932748376044
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 22.480928810144214, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 29.10164206433739, Consumption_unit: l/h, Consumption_value: 9.56635268516775,
+      Engine Load_unit: '%', Engine Load_value: 93.59697271079244, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 523.880905508995,
+      GPS Bearing_unit: deg, GPS Bearing_value: 347.3205722683997, GPS Speed_unit: km/h,
+      GPS Speed_value: 59.581361651543375, Intake Pressure_unit: kPa, Intake Pressure_value: 94.0000028014183,
+      Intake Temperature_unit: c, Intake Temperature_value: 34.99999908730388, Rpm_unit: u/min,
+      Rpm_value: 2419.3959673941135, Speed_unit: km/h, Speed_value: 62.59377592802048,
+      Throttle Position_unit: '%', Throttle Position_value: 55.84734998643398}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: "B 17, K\xF6nigsbrunn, Landkreis Augsburg, Schwaben, Bayern,\
+        \ 86343, Deutschland"
+      _Road__osm_id: '285071755'
+      _Road__tags: {bdouble: 'yes', highway: trunk, lanes: '3', maxspeed: none, motorroad: 'yes',
+        oneway: 'yes', placement: 'left_of:2', ref: B 17, tmc: 'DE:21053/21054', 'toll:N3': 'yes',
+        'turn:lanes': none|none|merge_to_left}
+    _Measurement__time: '2016-04-19T16:08:11Z'
+  15: !!python/object:CarTrip.Measurement
+    _Measurement__index: 15
+    _Measurement__latitude: 48.258368376044466
+    _Measurement__longitude: 10.86678567892498
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 28.473953771351848, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 36.85963412848224, Consumption_unit: l/h, Consumption_value: 12.116576072915679,
+      Engine Load_unit: '%', Engine Load_value: 96.31504497790422, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.0, GPS Altitude_unit: m, GPS Altitude_value: 525.9624746441841,
+      GPS Bearing_unit: deg, GPS Bearing_value: 353.79376130954006, GPS Speed_unit: km/h,
+      GPS Speed_value: 78.46565119415573, Intake Pressure_unit: kPa, Intake Pressure_value: 92.94774584285915,
+      Intake Temperature_unit: c, Intake Temperature_value: 33.0, Rpm_unit: u/min,
+      Rpm_value: 3078.9424789249897, Speed_unit: km/h, Speed_value: 79.91006237268448,
+      Throttle Position_unit: '%', Throttle Position_value: 56.575729966163635}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: "B 17, K\xF6nigsbrunn, Landkreis Augsburg, Schwaben, Bayern,\
+        \ 86343, Deutschland"
+      _Road__osm_id: '25482842'
+      _Road__tags: {bdouble: 'yes', highway: trunk, lanes: '3', maxspeed: none, motorroad: 'yes',
+        oneway: 'yes', placement: 'left_of:2', ref: B 17, tmc: 'DE:21053/21054', 'toll:N3': 'yes',
+        'turn:lanes': none|none|merge_to_left}
+    _Measurement__time: '2016-04-19T16:08:16Z'
+  16: !!python/object:CarTrip.Measurement
+    _Measurement__index: 16
+    _Measurement__latitude: 48.25949664046416
+    _Measurement__longitude: 10.866595431039116
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 31.1143353468213, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 40.277617440982674, Consumption_unit: l/h, Consumption_value: 13.24014270077502,
+      Engine Load_unit: '%', Engine Load_value: 95.98803738215656, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.0000000279396772, GPS Altitude_unit: m, GPS Altitude_value: 525.0000048894435,
+      GPS Bearing_unit: deg, GPS Bearing_value: 354.22296637294653, GPS Speed_unit: km/h,
+      GPS Speed_value: 96.25512430398837, Intake Pressure_unit: kPa, Intake Pressure_value: 86.4485514163971,
+      Intake Temperature_unit: c, Intake Temperature_value: 32.99999975413084, Rpm_unit: u/min,
+      Rpm_value: 3617.3911278247833, Speed_unit: km/h, Speed_value: 98.48563969135284,
+      Throttle Position_unit: '%', Throttle Position_value: 56.177639186382294}
+    _Measurement__road: &id005 !!python/object:CarTrip.Road
+      _Road__display_name: "B 17, K\xF6nigsbrunn, Landkreis Augsburg, Schwaben, Bayern,\
+        \ 86343, Deutschland"
+      _Road__osm_id: '285071772'
+      _Road__tags: {bdouble: 'yes', highway: trunk, lanes: '2', maxspeed: none, motorroad: 'yes',
+        oneway: 'yes', ref: B 17, tmc: 'DE:21053/21054', 'toll:N3': 'yes'}
+    _Measurement__time: '2016-04-19T16:08:22Z'
+  17: !!python/object:CarTrip.Measurement
+    _Measurement__index: 17
+    _Measurement__latitude: 48.26078878309447
+    _Measurement__longitude: 10.866495751302512
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 26.89988669830791, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 34.821998720628734, Consumption_unit: l/h, Consumption_value: 11.446760297152302,
+      Engine Load_unit: '%', Engine Load_value: 85.09803771972656, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.0000000670552254, GPS Altitude_unit: m, GPS Altitude_value: 524.9950661361217,
+      GPS Bearing_unit: deg, GPS Bearing_value: 357.60199230573016, GPS Speed_unit: km/h,
+      GPS Speed_value: 107.14508409327016, Intake Pressure_unit: kPa, Intake Pressure_value: 87.09668755531311,
+      Intake Temperature_unit: c, Intake Temperature_value: 31.606660664081573, Rpm_unit: u/min,
+      Rpm_value: 3090.0137822926044, Speed_unit: km/h, Speed_value: 108.19030523300171,
+      Throttle Position_unit: '%', Throttle Position_value: 34.267202854156494}
+    _Measurement__road: *id005
+    _Measurement__time: '2016-04-19T16:08:27Z'
+  18: !!python/object:CarTrip.Measurement
+    _Measurement__index: 18
+    _Measurement__latitude: 48.262169637766505
+    _Measurement__longitude: 10.866448222686419
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 31.281929043178522, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 40.49456807522099, Consumption_unit: l/h, Consumption_value: 13.311459167310009,
+      Engine Load_unit: '%', Engine Load_value: 97.0588264465332, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 2.9999999329447746, GPS Altitude_unit: m, GPS Altitude_value: 523.9999882876873,
+      GPS Bearing_unit: deg, GPS Bearing_value: 358.2839605139784, GPS Speed_unit: km/h,
+      GPS Speed_value: 116.46267485974795, Intake Pressure_unit: kPa, Intake Pressure_value: 93.0,
+      Intake Temperature_unit: c, Intake Temperature_value: 31.0, Rpm_unit: u/min,
+      Rpm_value: 3358.5885006040335, Speed_unit: km/h, Speed_value: 116.98928533261642,
+      Throttle Position_unit: '%', Throttle Position_value: 77.95979022979736}
+    _Measurement__road: *id005
+    _Measurement__time: '2016-04-19T16:08:32Z'
+  19: !!python/object:CarTrip.Measurement
+    _Measurement__index: 19
+    _Measurement__latitude: 48.26369996413099
+    _Measurement__longitude: 10.866468126739655
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 15.437826948605228, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 19.98432172903666, Consumption_unit: l/h, Consumption_value: 6.569288063236267,
+      Engine Load_unit: '%', Engine Load_value: 45.50489825524298, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.0000000447034836, GPS Altitude_unit: m, GPS Altitude_value: 524.0000078082085,
+      GPS Bearing_unit: deg, GPS Bearing_value: 1.9544103369116783, GPS Speed_unit: km/h,
+      GPS Speed_value: 123.76165025778732, Intake Pressure_unit: kPa, Intake Pressure_value: 50.288119077682495,
+      Intake Temperature_unit: c, Intake Temperature_value: 30.188181817531586, Rpm_unit: u/min,
+      Rpm_value: 3057.076126098633, Speed_unit: km/h, Speed_value: 122.61796140670776,
+      Throttle Position_unit: '%', Throttle Position_value: 23.163370423018932}
+    _Measurement__road: *id005
+    _Measurement__time: '2016-04-19T16:08:36Z'
+  20: !!python/object:CarTrip.Measurement
+    _Measurement__index: 20
+    _Measurement__latitude: 48.265260134124375
+    _Measurement__longitude: 10.866618130667291
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 20.818932370166362, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 26.95018177918167, Consumption_unit: l/h, Consumption_value: 8.8591201575176,
+      Engine Load_unit: '%', Engine Load_value: 68.48043588093105, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.9999999403953552, GPS Altitude_unit: m, GPS Altitude_value: 525.9259180873632,
+      GPS Bearing_unit: deg, GPS Bearing_value: 4.652962950021028, GPS Speed_unit: km/h,
+      GPS Speed_value: 123.98266162417337, Intake Pressure_unit: kPa, Intake Pressure_value: 73.84484194219112,
+      Intake Temperature_unit: c, Intake Temperature_value: 31.0, Rpm_unit: u/min,
+      Rpm_value: 2815.0395948290825, Speed_unit: km/h, Speed_value: 122.99999816715717,
+      Throttle Position_unit: '%', Throttle Position_value: 27.000000804662704}
+    _Measurement__road: *id005
+    _Measurement__time: '2016-04-19T16:08:41Z'
+  21: !!python/object:CarTrip.Measurement
+    _Measurement__index: 21
+    _Measurement__latitude: 48.266806491085845
+    _Measurement__longitude: 10.866864466001228
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 20.015857082019473, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 25.910597970890805, Consumption_unit: l/h, Consumption_value: 8.51738599234871,
+      Engine Load_unit: '%', Engine Load_value: 65.52923989962187, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.1034825444221497, GPS Altitude_unit: m, GPS Altitude_value: 523.9999921917915,
+      GPS Bearing_unit: deg, GPS Bearing_value: 7.248258787393567, GPS Speed_unit: km/h,
+      GPS Speed_value: 123.9997785489627, Intake Pressure_unit: kPa, Intake Pressure_value: 71.0,
+      Intake Temperature_unit: c, Intake Temperature_value: 30.999999307096004, Rpm_unit: u/min,
+      Rpm_value: 2814.8940972089767, Speed_unit: km/h, Speed_value: 122.99999633431435,
+      Throttle Position_unit: '%', Throttle Position_value: 26.000000290572643}
+    _Measurement__road: *id005
+    _Measurement__time: '2016-04-19T16:08:46Z'
+  22: !!python/object:CarTrip.Measurement
+    _Measurement__index: 22
+    _Measurement__latitude: 48.268324888876805
+    _Measurement__longitude: 10.867230715811536
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 19.477790256744637, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 25.21406855753415, Consumption_unit: l/h, Consumption_value: 8.288421385848782,
+      Engine Load_unit: '%', Engine Load_value: 62.69784156219089, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 2.9999999552965164, GPS Altitude_unit: m, GPS Altitude_value: 522.9999922066927,
+      GPS Bearing_unit: deg, GPS Bearing_value: 10.242406069676733, GPS Speed_unit: km/h,
+      GPS Speed_value: 123.9939870032548, Intake Pressure_unit: kPa, Intake Pressure_value: 69.06028458662331,
+      Intake Temperature_unit: c, Intake Temperature_value: 31.0, Rpm_unit: u/min,
+      Rpm_value: 2816.1613894850016, Speed_unit: km/h, Speed_value: 123.0, Throttle Position_unit: '%',
+      Throttle Position_value: 25.667853951454163}
+    _Measurement__road: *id005
+    _Measurement__time: '2016-04-19T16:08:51Z'
+  23: !!python/object:CarTrip.Measurement
+    _Measurement__index: 23
+    _Measurement__latitude: 48.26987506569918
+    _Measurement__longitude: 10.867674141232834
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 19.13797877076376, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 24.77418138392663, Consumption_unit: l/h, Consumption_value: 8.143820753516493,
+      Engine Load_unit: '%', Engine Load_value: 61.00929088860357, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 2.9999999441206455, GPS Altitude_unit: m, GPS Altitude_value: 523.9601098820567,
+      GPS Bearing_unit: deg, GPS Bearing_value: 10.503788430034884, GPS Speed_unit: km/h,
+      GPS Speed_value: 124.05031460365626, Intake Pressure_unit: kPa, Intake Pressure_value: 67.89145705103874,
+      Intake Temperature_unit: c, Intake Temperature_value: 30.999999538064003, Rpm_unit: u/min,
+      Rpm_value: 2814.6678798794746, Speed_unit: km/h, Speed_value: 122.99999816715717,
+      Throttle Position_unit: '%', Throttle Position_value: 25.83786231279373}
+    _Measurement__road: &id006 !!python/object:CarTrip.Road
+      _Road__display_name: "B 17, K\xF6nigsbrunn, Landkreis Augsburg, Schwaben, Bayern,\
+        \ 86343, Deutschland"
+      _Road__osm_id: '25482835'
+      _Road__tags: {bdouble: 'yes', highway: trunk, lanes: '2', maxspeed: none, motorroad: 'yes',
+        oneway: 'yes', ref: B 17, tmc: 'DE:21053/21054', 'toll:N3': 'yes'}
+    _Measurement__time: '2016-04-19T16:08:57Z'
+  24: !!python/object:CarTrip.Measurement
+    _Measurement__index: 24
+    _Measurement__latitude: 48.27139639236276
+    _Measurement__longitude: 10.868141441471302
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 20.248587443253413, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 26.21186824879311, Consumption_unit: l/h, Consumption_value: 8.616420188618473,
+      Engine Load_unit: '%', Engine Load_value: 66.79414179954637, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.9999998956918716, GPS Altitude_unit: m, GPS Altitude_value: 525.9999862834811,
+      GPS Bearing_unit: deg, GPS Bearing_value: 11.889191648632636, GPS Speed_unit: km/h,
+      GPS Speed_value: 123.15530410158482, Intake Pressure_unit: kPa, Intake Pressure_value: 71.88596598803997,
+      Intake Temperature_unit: c, Intake Temperature_value: 31.0, Rpm_unit: u/min,
+      Rpm_value: 2812.5278882086277, Speed_unit: km/h, Speed_value: 123.0, Throttle Position_unit: '%',
+      Throttle Position_value: 25.999999225139618}
+    _Measurement__road: *id006
+    _Measurement__time: '2016-04-19T16:09:02Z'
+  25: !!python/object:CarTrip.Measurement
+    _Measurement__index: 25
+    _Measurement__latitude: 48.272918784937474
+    _Measurement__longitude: 10.868651672829461
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 23.906008692032703, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 30.946413024916797, Consumption_unit: l/h, Consumption_value: 10.172769656184128,
+      Engine Load_unit: '%', Engine Load_value: 76.73202304607867, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 4.000000014901161, GPS Altitude_unit: m, GPS Altitude_value: 526.0425551496446,
+      GPS Bearing_unit: deg, GPS Bearing_value: 12.386170595873228, GPS Speed_unit: km/h,
+      GPS Speed_value: 125.78936181469325, Intake Pressure_unit: kPa, Intake Pressure_value: 83.1060982644558,
+      Intake Temperature_unit: c, Intake Temperature_value: 30.00000089406967, Rpm_unit: u/min,
+      Rpm_value: 2862.7943512797356, Speed_unit: km/h, Speed_value: 124.99999860301614,
+      Throttle Position_unit: '%', Throttle Position_value: 29.911052018404007}
+    _Measurement__road: *id006
+    _Measurement__time: '2016-04-19T16:09:07Z'
+  26: !!python/object:CarTrip.Measurement
+    _Measurement__index: 26
+    _Measurement__latitude: 48.274424649488076
+    _Measurement__longitude: 10.86917810981742
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 21.155014510748547, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 27.385241301945943, Consumption_unit: l/h, Consumption_value: 9.002133834361084,
+      Engine Load_unit: '%', Engine Load_value: 67.52524760249753, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.9999999701976776, GPS Altitude_unit: m, GPS Altitude_value: 524.9999960884452,
+      GPS Bearing_unit: deg, GPS Bearing_value: 12.88568455560462, GPS Speed_unit: km/h,
+      GPS Speed_value: 126.14409650244653, Intake Pressure_unit: kPa, Intake Pressure_value: 73.71758437156677,
+      Intake Temperature_unit: c, Intake Temperature_value: 30.000000447034836, Rpm_unit: u/min,
+      Rpm_value: 2856.0, Speed_unit: km/h, Speed_value: 124.9999962747097, Throttle Position_unit: '%',
+      Throttle Position_value: 26.999999798834324}
+    _Measurement__road: *id006
+    _Measurement__time: '2016-04-19T16:09:11Z'
+  27: !!python/object:CarTrip.Measurement
+    _Measurement__index: 27
+    _Measurement__latitude: 48.2759303220718
+    _Measurement__longitude: 10.869701554912059
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 21.2372984744933, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 27.49175818480063, Consumption_unit: l/h, Consumption_value: 9.037148287018425,
+      Engine Load_unit: '%', Engine Load_value: 69.44421302156206, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.9999999552965164, GPS Altitude_unit: m, GPS Altitude_value: 524.9999941326678,
+      GPS Bearing_unit: deg, GPS Bearing_value: 13.186804195100656, GPS Speed_unit: km/h,
+      GPS Speed_value: 123.96205596561177, Intake Pressure_unit: kPa, Intake Pressure_value: 74.00000110268593,
+      Intake Temperature_unit: c, Intake Temperature_value: 30.0, Rpm_unit: u/min,
+      Rpm_value: 2856.166460506618, Speed_unit: km/h, Speed_value: 124.9999962747097,
+      Throttle Position_unit: '%', Throttle Position_value: 27.0}
+    _Measurement__road: &id007 !!python/object:CarTrip.Road
+      _Road__display_name: "B 17, K\xF6nigsbrunn, Landkreis Augsburg, Schwaben, Bayern,\
+        \ 86343, Deutschland"
+      _Road__osm_id: '129102755'
+      _Road__tags: {bdouble: 'yes', highway: trunk, lanes: '2', maxspeed: '120', motorroad: 'yes',
+        oneway: 'yes', ref: B 17, tmc: 'DE:21053/21054', 'toll:N3': 'yes'}
+    _Measurement__time: '2016-04-19T16:09:17Z'
+  28: !!python/object:CarTrip.Measurement
+    _Measurement__index: 28
+    _Measurement__latitude: 48.27746565098486
+    _Measurement__longitude: 10.87024182504232
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 21.03249416811304, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 27.22663828393498, Consumption_unit: l/h, Consumption_value: 8.949997518345974,
+      Engine Load_unit: '%', Engine Load_value: 67.53533678063741, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.120379149913788, GPS Altitude_unit: m, GPS Altitude_value: 525.1203791499138,
+      GPS Bearing_unit: deg, GPS Bearing_value: 13.486758334838385, GPS Speed_unit: km/h,
+      GPS Speed_value: 125.84249471307021, Intake Pressure_unit: kPa, Intake Pressure_value: 72.99999782443047,
+      Intake Temperature_unit: c, Intake Temperature_value: 29.000000432133675, Rpm_unit: u/min,
+      Rpm_value: 2857.9124939143658, Speed_unit: km/h, Speed_value: 124.9999962747097,
+      Throttle Position_unit: '%', Throttle Position_value: 26.999999597668648}
+    _Measurement__road: *id007
+    _Measurement__time: '2016-04-19T16:09:21Z'
+  29: !!python/object:CarTrip.Measurement
+    _Measurement__index: 29
+    _Measurement__latitude: 48.27900084435978
+    _Measurement__longitude: 10.87080993110019
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 20.17924008808091, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 26.122097851609702, Consumption_unit: l/h, Consumption_value: 8.58691067577911,
+      Engine Load_unit: '%', Engine Load_value: 63.64891415139948, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 2.9999999329447746, GPS Altitude_unit: m, GPS Altitude_value: 526.0664439424872,
+      GPS Bearing_unit: deg, GPS Bearing_value: 13.792689714774106, GPS Speed_unit: km/h,
+      GPS Speed_value: 125.87524871384574, Intake Pressure_unit: kPa, Intake Pressure_value: 69.98738543130457,
+      Intake Temperature_unit: c, Intake Temperature_value: 28.99999913573265, Rpm_unit: u/min,
+      Rpm_value: 2860.0, Speed_unit: km/h, Speed_value: 125.0, Throttle Position_unit: '%',
+      Throttle Position_value: 27.0}
+    _Measurement__road: *id007
+    _Measurement__time: '2016-04-19T16:09:26Z'
+  30: !!python/object:CarTrip.Measurement
+    _Measurement__index: 30
+    _Measurement__latitude: 48.28052706450026
+    _Measurement__longitude: 10.871370671606456
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 20.506268482008544, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 26.545437267224177, Consumption_unit: l/h, Consumption_value: 8.72607169447172,
+      Engine Load_unit: '%', Engine Load_value: 64.58399448131968, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 2.9999999664723873, GPS Altitude_unit: m, GPS Altitude_value: 525.0324484929442,
+      GPS Bearing_unit: deg, GPS Bearing_value: 13.996429875049717, GPS Speed_unit: km/h,
+      GPS Speed_value: 125.8523926974938, Intake Pressure_unit: kPa, Intake Pressure_value: 71.04090511798859,
+      Intake Temperature_unit: c, Intake Temperature_value: 28.062446534633636, Rpm_unit: u/min,
+      Rpm_value: 2854.3647178709507, Speed_unit: km/h, Speed_value: 125.0, Throttle Position_unit: '%',
+      Throttle Position_value: 27.000000402331352}
+    _Measurement__road: &id008 !!python/object:CarTrip.Road
+      _Road__display_name: "B 17, K\xF6nigsbrunn, Landkreis Augsburg, Schwaben, Bayern,\
+        \ 86343, Deutschland"
+      _Road__osm_id: '403431443'
+      _Road__tags: {bdouble: 'yes', highway: trunk, lanes: '2', maxspeed: '120', motorroad: 'yes',
+        oneway: 'yes', ref: B 17, tmc: 'DE:21053/21054', 'toll:N3': 'yes'}
+    _Measurement__time: '2016-04-19T16:09:32Z'
+  31: !!python/object:CarTrip.Measurement
+    _Measurement__index: 31
+    _Measurement__latitude: 48.28204009382038
+    _Measurement__longitude: 10.871940861380152
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 21.070073853108543, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 27.27528531942295, Consumption_unit: l/h, Consumption_value: 8.965988873663209,
+      Engine Load_unit: '%', Engine Load_value: 67.37883620516402, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 4.000000014901161, GPS Altitude_unit: m, GPS Altitude_value: 522.0439579896629,
+      GPS Bearing_unit: deg, GPS Bearing_value: 14.000000052154064, GPS Speed_unit: km/h,
+      GPS Speed_value: 125.65898883428318, Intake Pressure_unit: kPa, Intake Pressure_value: 72.89725583791733,
+      Intake Temperature_unit: c, Intake Temperature_value: 28.000000834465027, Rpm_unit: u/min,
+      Rpm_value: 2857.565174818039, Speed_unit: km/h, Speed_value: 124.9999962747097,
+      Throttle Position_unit: '%', Throttle Position_value: 26.999999195337296}
+    _Measurement__road: *id008
+    _Measurement__time: '2016-04-19T16:09:37Z'
+  32: !!python/object:CarTrip.Measurement
+    _Measurement__index: 32
+    _Measurement__latitude: 48.28357156754682
+    _Measurement__longitude: 10.872544123862534
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 20.224792063327303, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 26.181065045097988, Consumption_unit: l/h, Consumption_value: 8.606294495032895,
+      Engine Load_unit: '%', Engine Load_value: 63.688144171382646, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 2.9999999217689037, GPS Altitude_unit: m, GPS Altitude_value: 521.9999863877892,
+      GPS Bearing_unit: deg, GPS Bearing_value: 14.499999621883035, GPS Speed_unit: km/h,
+      GPS Speed_value: 125.85507924841349, Intake Pressure_unit: kPa, Intake Pressure_value: 69.93767148256302,
+      Intake Temperature_unit: c, Intake Temperature_value: 28.0, Rpm_unit: u/min,
+      Rpm_value: 2859.00004260242, Speed_unit: km/h, Speed_value: 125.00000325962901,
+      Throttle Position_unit: '%', Throttle Position_value: 26.719051003456116}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: "B 17, K\xF6nigsbrunn, Landkreis Augsburg, Schwaben, Bayern,\
+        \ 86343, Deutschland"
+      _Road__osm_id: '161890771'
+      _Road__tags: {bdouble: 'yes', highway: trunk, lanes: '2', maxspeed: '120', motorroad: 'yes',
+        oneway: 'yes', ref: B 17, tmc: 'DE:21054', 'toll:N3': 'yes'}
+    _Measurement__time: '2016-04-19T16:09:42Z'
+  33: !!python/object:CarTrip.Measurement
+    _Measurement__index: 33
+    _Measurement__latitude: 48.28509152405627
+    _Measurement__longitude: 10.873141242493075
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 20.831089449287184, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 26.965919161213776, Consumption_unit: l/h, Consumption_value: 8.864293382675397,
+      Engine Load_unit: '%', Engine Load_value: 65.07762625429763, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.0, GPS Altitude_unit: m, GPS Altitude_value: 522.0, GPS Bearing_unit: deg,
+      GPS Bearing_value: 14.68421823223565, GPS Speed_unit: km/h, GPS Speed_value: 125.7618766772539,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 72.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 28.0, Rpm_unit: u/min, Rpm_value: 2860.360372751951,
+      Speed_unit: km/h, Speed_value: 124.9999962747097, Throttle Position_unit: '%',
+      Throttle Position_value: 26.839721649885178}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: "B 17, K\xF6nigsbrunn, Landkreis Augsburg, Schwaben, Bayern,\
+        \ 86343, Deutschland"
+      _Road__osm_id: '26445639'
+      _Road__tags: {bdouble: 'yes', bicycle: 'no', foot: 'no', highway: trunk, lanes: '2',
+        maxspeed: '120', motorroad: 'yes', oneway: 'yes', ref: B 17, tmc: 'DE:21054',
+        'toll:N3': 'yes'}
+    _Measurement__time: '2016-04-19T16:09:47Z'
+  34: !!python/object:CarTrip.Measurement
+    _Measurement__index: 34
+    _Measurement__latitude: 48.28662249279417
+    _Measurement__longitude: 10.873697221763974
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 21.40471490633474, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 27.708479349494667, Consumption_unit: l/h, Consumption_value: 9.10838932184457,
+      Engine Load_unit: '%', Engine Load_value: 68.39778895639824, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 2.999999977648258, GPS Altitude_unit: m, GPS Altitude_value: 521.0412851423025,
+      GPS Bearing_unit: deg, GPS Bearing_value: 13.689999478384856, GPS Speed_unit: km/h,
+      GPS Speed_value: 125.74636462849674, Intake Pressure_unit: kPa, Intake Pressure_value: 74.0,
+      Intake Temperature_unit: c, Intake Temperature_value: 27.329196870326996, Rpm_unit: u/min,
+      Rpm_value: 2853.3203621953726, Speed_unit: km/h, Speed_value: 125.0, Throttle Position_unit: '%',
+      Throttle Position_value: 27.0}
+    _Measurement__road: &id009 !!python/object:CarTrip.Road
+      _Road__display_name: B 17, Haunstetten, Haunstetten-Siebenbrunn, Fuchssiedlung,
+        Augsburg, Schwaben, Bayern, 86179, Deutschland
+      _Road__osm_id: '48089048'
+      _Road__tags: {bdouble: 'yes', bicycle: 'no', foot: 'no', highway: trunk, lanes: '2',
+        maxspeed: '120', 'maxspeed:wet': '100', motorroad: 'yes', oneway: 'yes', ref: B
+          17, tmc: 'DE:21054/21055', 'toll:N3': 'yes'}
+    _Measurement__time: '2016-04-19T16:09:52Z'
+  35: !!python/object:CarTrip.Measurement
+    _Measurement__index: 35
+    _Measurement__latitude: 48.2881184868732
+    _Measurement__longitude: 10.874283797351849
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 5.51383090577397, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 7.137673660116268, Consumption_unit: l/h, Consumption_value: 2.346311023733604,
+      Engine Load_unit: '%', Engine Load_value: 13.047866011435872, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.0000000558793545, GPS Altitude_unit: m, GPS Altitude_value: 520.9230086915195,
+      GPS Bearing_unit: deg, GPS Bearing_value: 15.186534848582546, GPS Speed_unit: km/h,
+      GPS Speed_value: 119.04920120440889, Intake Pressure_unit: kPa, Intake Pressure_value: 20.342561155557632,
+      Intake Temperature_unit: c, Intake Temperature_value: 28.000000834465027, Rpm_unit: u/min,
+      Rpm_value: 2679.717914521694, Speed_unit: km/h, Speed_value: 117.33632743358612,
+      Throttle Position_unit: '%', Throttle Position_value: 14.035714090801775}
+    _Measurement__road: *id009
+    _Measurement__time: '2016-04-19T16:09:57Z'
+  36: !!python/object:CarTrip.Measurement
+    _Measurement__index: 36
+    _Measurement__latitude: 48.289487215167156
+    _Measurement__longitude: 10.874856432301693
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 21.785193113043157, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 28.201009737292214, Consumption_unit: l/h, Consumption_value: 9.270294941720492,
+      Engine Load_unit: '%', Engine Load_value: 77.74680652820871, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.000000089406967, GPS Altitude_unit: m, GPS Altitude_value: 518.000015437603,
+      GPS Bearing_unit: deg, GPS Bearing_value: 15.489822923417961, GPS Speed_unit: km/h,
+      GPS Speed_value: 114.25669838468548, Intake Pressure_unit: kPa, Intake Pressure_value: 82.99999938160181,
+      Intake Temperature_unit: c, Intake Temperature_value: 29.45055890083313, Rpm_unit: u/min,
+      Rpm_value: 2607.4227387681603, Speed_unit: km/h, Speed_value: 114.0, Throttle Position_unit: '%',
+      Throttle Position_value: 29.418848156929016}
+    _Measurement__road: *id009
+    _Measurement__time: '2016-04-19T16:10:01Z'
+  37: !!python/object:CarTrip.Measurement
+    _Measurement__index: 37
+    _Measurement__latitude: 48.29091172928579
+    _Measurement__longitude: 10.87543649513449
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 22.572317521247957, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 29.219945074934632, Consumption_unit: l/h, Consumption_value: 9.605241498403386,
+      Engine Load_unit: '%', Engine Load_value: 77.3927819067926, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 2.9999999329447746, GPS Altitude_unit: m, GPS Altitude_value: 517.9999884217978,
+      GPS Bearing_unit: deg, GPS Bearing_value: 15.499999653548002, GPS Speed_unit: km/h,
+      GPS Speed_value: 118.17319763366078, Intake Pressure_unit: kPa, Intake Pressure_value: 82.51027703285217,
+      Intake Temperature_unit: c, Intake Temperature_value: 26.999999698251486, Rpm_unit: u/min,
+      Rpm_value: 2695.6583631038666, Speed_unit: km/h, Speed_value: 118.00000351667404,
+      Throttle Position_unit: '%', Throttle Position_value: 29.999999552965164}
+    _Measurement__road: *id009
+    _Measurement__time: '2016-04-19T16:10:06Z'
+  38: !!python/object:CarTrip.Measurement
+    _Measurement__index: 38
+    _Measurement__latitude: 48.29235322275443
+    _Measurement__longitude: 10.87605383065666
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 23.37816531526809, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 30.263117901909983, Consumption_unit: l/h, Consumption_value: 9.94815545330557,
+      Engine Load_unit: '%', Engine Load_value: 77.31900612878121, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.9570200107991695, GPS Altitude_unit: m, GPS Altitude_value: 516.9999942220747,
+      GPS Bearing_unit: deg, GPS Bearing_value: 16.17808075937049, GPS Speed_unit: km/h,
+      GPS Speed_value: 120.95638902906637, Intake Pressure_unit: kPa, Intake Pressure_value: 82.99999845400453,
+      Intake Temperature_unit: c, Intake Temperature_value: 26.533334136009216, Rpm_unit: u/min,
+      Rpm_value: 2771.1072254776955, Speed_unit: km/h, Speed_value: 121.0, Throttle Position_unit: '%',
+      Throttle Position_value: 30.0}
+    _Measurement__road: *id009
+    _Measurement__time: '2016-04-19T16:10:12Z'
+  39: !!python/object:CarTrip.Measurement
+    _Measurement__index: 39
+    _Measurement__latitude: 48.29381737341325
+    _Measurement__longitude: 10.876726645804991
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 24.674665649842265, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 31.941442182535173, Consumption_unit: l/h, Consumption_value: 10.499857723337133,
+      Engine Load_unit: '%', Engine Load_value: 80.87879164575952, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 4.000000037252903, GPS Altitude_unit: m, GPS Altitude_value: 514.000004786998,
+      GPS Bearing_unit: deg, GPS Bearing_value: 17.793085611203963, GPS Speed_unit: km/h,
+      GPS Speed_value: 124.78729809937506, Intake Pressure_unit: kPa, Intake Pressure_value: 85.23126143217087,
+      Intake Temperature_unit: c, Intake Temperature_value: 26.000000581145287, Rpm_unit: u/min,
+      Rpm_value: 2843.1499564647675, Speed_unit: km/h, Speed_value: 124.08781454712152,
+      Throttle Position_unit: '%', Throttle Position_value: 31.79448303580284}
+    _Measurement__road: *id009
+    _Measurement__time: '2016-04-19T16:10:17Z'
+  40: !!python/object:CarTrip.Measurement
+    _Measurement__index: 40
+    _Measurement__latitude: 48.29531197638891
+    _Measurement__longitude: 10.877391266014532
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 22.495651090074343, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 29.12070010791361, Consumption_unit: l/h, Consumption_value: 9.572617485138018,
+      Engine Load_unit: '%', Engine Load_value: 73.33767409582973, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.9999999701976776, GPS Altitude_unit: m, GPS Altitude_value: 514.9069030731916,
+      GPS Bearing_unit: deg, GPS Bearing_value: 16.227928498143456, GPS Speed_unit: km/h,
+      GPS Speed_value: 125.74962068835947, Intake Pressure_unit: kPa, Intake Pressure_value: 76.95578670501709,
+      Intake Temperature_unit: c, Intake Temperature_value: 26.0, Rpm_unit: u/min,
+      Rpm_value: 2870.81158554554, Speed_unit: km/h, Speed_value: 125.51644444465637,
+      Throttle Position_unit: '%', Throttle Position_value: 28.184188082814217}
+    _Measurement__road: *id009
+    _Measurement__time: '2016-04-19T16:10:21Z'
+  41: !!python/object:CarTrip.Measurement
+    _Measurement__index: 41
+    _Measurement__latitude: 48.29686441646276
+    _Measurement__longitude: 10.878077076800505
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 23.592257134765884, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 30.540260521440732, Consumption_unit: l/h, Consumption_value: 10.039258355219525,
+      Engine Load_unit: '%', Engine Load_value: 74.70288468954936, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.0000000782310963, GPS Altitude_unit: m, GPS Altitude_value: 514.0000134035945,
+      GPS Bearing_unit: deg, GPS Bearing_value: 16.87928006328177, GPS Speed_unit: km/h,
+      GPS Speed_value: 127.93587879492813, Intake Pressure_unit: kPa, Intake Pressure_value: 79.65251752734184,
+      Intake Temperature_unit: c, Intake Temperature_value: 26.0, Rpm_unit: u/min,
+      Rpm_value: 2908.823640882969, Speed_unit: km/h, Speed_value: 127.9914531102404,
+      Throttle Position_unit: '%', Throttle Position_value: 29.0}
+    _Measurement__road: *id009
+    _Measurement__time: '2016-04-19T16:10:27Z'
+  42: !!python/object:CarTrip.Measurement
+    _Measurement__index: 42
+    _Measurement__latitude: 48.29841508891197
+    _Measurement__longitude: 10.87874369760625
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 24.440343177007772, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 31.638110910520165, Consumption_unit: l/h, Consumption_value: 10.400146032769264,
+      Engine Load_unit: '%', Engine Load_value: 76.4705898235826, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.9999999701976776, GPS Altitude_unit: m, GPS Altitude_value: 511.99999618530273,
+      GPS Bearing_unit: deg, GPS Bearing_value: 16.299717465447884, GPS Speed_unit: km/h,
+      GPS Speed_value: 129.93490224283187, Intake Pressure_unit: kPa, Intake Pressure_value: 81.0,
+      Intake Temperature_unit: c, Intake Temperature_value: 25.00000074505806, Rpm_unit: u/min,
+      Rpm_value: 2953.353913128376, Speed_unit: km/h, Speed_value: 129.0000038444996,
+      Throttle Position_unit: '%', Throttle Position_value: 29.6023131608963}
+    _Measurement__road: *id009
+    _Measurement__time: '2016-04-19T16:10:32Z'
+  43: !!python/object:CarTrip.Measurement
+    _Measurement__index: 43
+    _Measurement__latitude: 48.29997269701133
+    _Measurement__longitude: 10.879386501945405
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 6.613895883768299, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 8.561711675069564, Consumption_unit: l/h, Consumption_value: 2.8144237803269356,
+      Engine Load_unit: '%', Engine Load_value: 17.120040674861627, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.9999999031424522, GPS Altitude_unit: m, GPS Altitude_value: 512.9999875780195,
+      GPS Bearing_unit: deg, GPS Bearing_value: 16.282867102156615, GPS Speed_unit: km/h,
+      GPS Speed_value: 124.83181570274209, Intake Pressure_unit: kPa, Intake Pressure_value: 23.18087889254093,
+      Intake Temperature_unit: c, Intake Temperature_value: 26.360069751739502, Rpm_unit: u/min,
+      Rpm_value: 2805.4160807803273, Speed_unit: km/h, Speed_value: 122.37889091670513,
+      Throttle Position_unit: '%', Throttle Position_value: 16.66181454062462}
+    _Measurement__road: *id009
+    _Measurement__time: '2016-04-19T16:10:37Z'
+  44: !!python/object:CarTrip.Measurement
+    _Measurement__index: 44
+    _Measurement__latitude: 48.30142842419644
+    _Measurement__longitude: 10.880069660569024
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 17.925466852010224, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 23.204580405412525, Consumption_unit: l/h, Consumption_value: 7.6278582348979675,
+      Engine Load_unit: '%', Engine Load_value: 57.19490704653492, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.9999999906867743, GPS Altitude_unit: m, GPS Altitude_value: 511.99515384668484,
+      GPS Bearing_unit: deg, GPS Bearing_value: 17.099515843685253, GPS Speed_unit: km/h,
+      GPS Speed_value: 120.49078318908377, Intake Pressure_unit: kPa, Intake Pressure_value: 64.62912786006927,
+      Intake Temperature_unit: c, Intake Temperature_value: 27.000000402331352, Rpm_unit: u/min,
+      Rpm_value: 2732.9955593943596, Speed_unit: km/h, Speed_value: 120.0, Throttle Position_unit: '%',
+      Throttle Position_value: 23.98107897117734}
+    _Measurement__road: *id009
+    _Measurement__time: '2016-04-19T16:10:42Z'
+  45: !!python/object:CarTrip.Measurement
+    _Measurement__index: 45
+    _Measurement__latitude: 48.30287197201959
+    _Measurement__longitude: 10.880729733030948
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 18.558348519229426, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 24.023847967889015, Consumption_unit: l/h, Consumption_value: 7.89716958265082,
+      Engine Load_unit: '%', Engine Load_value: 60.89307547194335, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 4.000000111758709, GPS Altitude_unit: m, GPS Altitude_value: 511.00001427717507,
+      GPS Bearing_unit: deg, GPS Bearing_value: 17.001589358884882, GPS Speed_unit: km/h,
+      GPS Speed_value: 120.0953747646754, Intake Pressure_unit: kPa, Intake Pressure_value: 67.10618103668094,
+      Intake Temperature_unit: c, Intake Temperature_value: 26.999999195337296, Rpm_unit: u/min,
+      Rpm_value: 2725.0441730692983, Speed_unit: km/h, Speed_value: 119.0, Throttle Position_unit: '%',
+      Throttle Position_value: 25.0}
+    _Measurement__road: *id009
+    _Measurement__time: '2016-04-19T16:10:47Z'
+  46: !!python/object:CarTrip.Measurement
+    _Measurement__index: 46
+    _Measurement__latitude: 48.30431126274536
+    _Measurement__longitude: 10.881363333880188
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 18.641223503051435, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 24.131129928329525, Consumption_unit: l/h, Consumption_value: 7.9324355332133765,
+      Engine Load_unit: '%', Engine Load_value: 63.76041064043375, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 4.000000094994903, GPS Altitude_unit: m, GPS Altitude_value: 510.0000121118501,
+      GPS Bearing_unit: deg, GPS Bearing_value: 16.789470861483707, GPS Speed_unit: km/h,
+      GPS Speed_value: 119.37685698781902, Intake Pressure_unit: kPa, Intake Pressure_value: 67.77894547581673,
+      Intake Temperature_unit: c, Intake Temperature_value: 26.986288772895932, Rpm_unit: u/min,
+      Rpm_value: 2709.92026001215, Speed_unit: km/h, Speed_value: 119.0, Throttle Position_unit: '%',
+      Throttle Position_value: 26.877115171402693}
+    _Measurement__road: *id009
+    _Measurement__time: '2016-04-19T16:10:52Z'
+  47: !!python/object:CarTrip.Measurement
+    _Measurement__index: 47
+    _Measurement__latitude: 48.30574482107427
+    _Measurement__longitude: 10.882064380740104
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 16.538217715180934, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 21.408781478463826, Consumption_unit: l/h, Consumption_value: 7.037539453268482,
+      Engine Load_unit: '%', Engine Load_value: 53.205856281453975, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.999999985098839, GPS Altitude_unit: m, GPS Altitude_value: 509.99999810010195,
+      GPS Bearing_unit: deg, GPS Bearing_value: 17.887985224314036, GPS Speed_unit: km/h,
+      GPS Speed_value: 120.30811944957253, Intake Pressure_unit: kPa, Intake Pressure_value: 59.234862606972456,
+      Intake Temperature_unit: c, Intake Temperature_value: 25.0, Rpm_unit: u/min,
+      Rpm_value: 2732.779120951891, Speed_unit: km/h, Speed_value: 119.34206289052963,
+      Throttle Position_unit: '%', Throttle Position_value: 23.708369344472885}
+    _Measurement__road: &id010 !!python/object:CarTrip.Road
+      _Road__display_name: B 17, Haunstetten-West, Haunstetten-Siebenbrunn, Fuchssiedlung,
+        Augsburg, Schwaben, Bayern, 86179, Deutschland
+      _Road__osm_id: '80679397'
+      _Road__tags: {bdouble: 'yes', bicycle: 'no', foot: 'no', highway: trunk, lanes: '2',
+        maxspeed: '120', 'maxspeed:wet': '100', motorroad: 'yes', oneway: 'yes', ref: B
+          17, tmc: 'DE:21054/21055', 'toll:N3': 'yes'}
+    _Measurement__time: '2016-04-19T16:10:57Z'
+  48: !!python/object:CarTrip.Measurement
+    _Measurement__index: 48
+    _Measurement__latitude: 48.307228527886515
+    _Measurement__longitude: 10.882727467398999
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 19.220251067498513, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 24.880683163795503, Consumption_unit: l/h, Consumption_value: 8.178830241488729,
+      Engine Load_unit: '%', Engine Load_value: 61.96078675868466, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 4.865938425064087, GPS Altitude_unit: m, GPS Altitude_value: 507.8659384250641,
+      GPS Bearing_unit: deg, GPS Bearing_value: 15.82681248015183, GPS Speed_unit: km/h,
+      GPS Speed_value: 120.0572960725276, Intake Pressure_unit: kPa, Intake Pressure_value: 68.99999794363976,
+      Intake Temperature_unit: c, Intake Temperature_value: 26.0, Rpm_unit: u/min,
+      Rpm_value: 2735.6301632225513, Speed_unit: km/h, Speed_value: 120.00000357627869,
+      Throttle Position_unit: '%', Throttle Position_value: 24.99999962747097}
+    _Measurement__road: *id010
+    _Measurement__time: '2016-04-19T16:11:02Z'
+  49: !!python/object:CarTrip.Measurement
+    _Measurement__index: 49
+    _Measurement__latitude: 48.30867811626642
+    _Measurement__longitude: 10.883354357113852
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 17.418965456258224, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 22.548912552507318, Consumption_unit: l/h, Consumption_value: 7.412325726067329,
+      Engine Load_unit: '%', Engine Load_value: 55.686276726862985, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 2.999999910593033, GPS Altitude_unit: m, GPS Altitude_value: 507.9999848604202,
+      GPS Bearing_unit: deg, GPS Bearing_value: 15.86285828458935, GPS Speed_unit: km/h,
+      GPS Speed_value: 119.49556674156952, Intake Pressure_unit: kPa, Intake Pressure_value: 63.0323013626039,
+      Intake Temperature_unit: c, Intake Temperature_value: 26.0, Rpm_unit: u/min,
+      Rpm_value: 2713.979725986719, Speed_unit: km/h, Speed_value: 118.36924061179161,
+      Throttle Position_unit: '%', Throttle Position_value: 23.438858807086945}
+    _Measurement__road: *id010
+    _Measurement__time: '2016-04-19T16:11:07Z'
+  50: !!python/object:CarTrip.Measurement
+    _Measurement__index: 50
+    _Measurement__latitude: 48.310109707713195
+    _Measurement__longitude: 10.883957646539269
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 19.2508109549343, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 24.920243046449524, Consumption_unit: l/h, Consumption_value: 8.191834448908212,
+      Engine Load_unit: '%', Engine Load_value: 65.05861200644085, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.0000000447034836, GPS Altitude_unit: m, GPS Altitude_value: 509.00000758469105,
+      GPS Bearing_unit: deg, GPS Bearing_value: 15.342145252268438, GPS Speed_unit: km/h,
+      GPS Speed_value: 119.05301776934232, Intake Pressure_unit: kPa, Intake Pressure_value: 69.61443765461445,
+      Intake Temperature_unit: c, Intake Temperature_value: 25.000000558793545, Rpm_unit: u/min,
+      Rpm_value: 2706.7174468040466, Speed_unit: km/h, Speed_value: 118.88563792407513,
+      Throttle Position_unit: '%', Throttle Position_value: 27.000000402331352}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: B 17, Haunstetten-West, Haunstetten-Siebenbrunn, Fuchssiedlung,
+        Augsburg, Schwaben, Bayern, 86179, Deutschland
+      _Road__osm_id: '27473236'
+      _Road__tags: {bdouble: 'yes', bicycle: 'no', bridge: 'yes', foot: 'no', highway: trunk,
+        lanes: '2', layer: '1', maxspeed: '120', 'maxspeed:wet': '100', motorroad: 'yes',
+        oneway: 'yes', ref: B 17, tmc: 'DE:21054/21055', 'toll:N3': 'yes'}
+    _Measurement__time: '2016-04-19T16:11:12Z'
+  51: !!python/object:CarTrip.Measurement
+    _Measurement__index: 51
+    _Measurement__latitude: 48.311494825152266
+    _Measurement__longitude: 10.884518480397976
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 14.674959782767614, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 18.99678747765715, Consumption_unit: l/h, Consumption_value: 6.244663737347921,
+      Engine Load_unit: '%', Engine Load_value: 51.24276976772717, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 2.999999910593033, GPS Altitude_unit: m, GPS Altitude_value: 507.9999848604202,
+      GPS Bearing_unit: deg, GPS Bearing_value: 14.340436330359893, GPS Speed_unit: km/h,
+      GPS Speed_value: 115.72141673467831, Intake Pressure_unit: kPa, Intake Pressure_value: 55.11111104488373,
+      Intake Temperature_unit: c, Intake Temperature_value: 26.00000038743019, Rpm_unit: u/min,
+      Rpm_value: 2615.081081032753, Speed_unit: km/h, Speed_value: 114.5854058265686,
+      Throttle Position_unit: '%', Throttle Position_value: 19.345983535051346}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: B 17, Haunstetten-Nord, Haunstetten-Siebenbrunn, Fuchssiedlung,
+        Augsburg, Schwaben, Bayern, 86179, Deutschland
+      _Road__osm_id: '289247207'
+      _Road__tags: {bdouble: 'yes', bicycle: 'no', foot: 'no', highway: trunk, lanes: '2',
+        maxspeed: '120', 'maxspeed:wet': '100', motorroad: 'yes', oneway: 'yes', ref: B
+          17, tmc: 'DE:21055', 'toll:N3': 'yes'}
+    _Measurement__time: '2016-04-19T16:11:17Z'
+  52: !!python/object:CarTrip.Measurement
+    _Measurement__index: 52
+    _Measurement__latitude: 48.31290126285896
+    _Measurement__longitude: 10.885025268592681
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 21.101974400228524, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 27.31658069079228, Consumption_unit: l/h, Consumption_value: 8.97956357456533,
+      Engine Load_unit: '%', Engine Load_value: 72.29886080919096, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.000000022351742, GPS Altitude_unit: m, GPS Altitude_value: 506.9540707617998,
+      GPS Bearing_unit: deg, GPS Bearing_value: 14.399646385574172, GPS Speed_unit: km/h,
+      GPS Speed_value: 116.4552495266991, Intake Pressure_unit: kPa, Intake Pressure_value: 77.99999767541885,
+      Intake Temperature_unit: c, Intake Temperature_value: 25.342978715896606, Rpm_unit: u/min,
+      Rpm_value: 2651.0689297765493, Speed_unit: km/h, Speed_value: 115.85334822535515,
+      Throttle Position_unit: '%', Throttle Position_value: 28.000000834465027}
+    _Measurement__road: &id011 !!python/object:CarTrip.Road
+      _Road__display_name: B 17, Haunstetten-Nord, Haunstetten-Siebenbrunn, Fuchssiedlung,
+        Augsburg, Schwaben, Bayern, 86179, Deutschland
+      _Road__osm_id: '48092214'
+      _Road__tags: {bdouble: 'yes', bicycle: 'no', foot: 'no', highway: trunk, lanes: '2',
+        maxspeed: '120', 'maxspeed:wet': '100', motorroad: 'yes', oneway: 'yes', ref: B
+          17, tmc: 'DE:21055/21056', 'toll:N3': 'yes'}
+    _Measurement__time: '2016-04-19T16:11:22Z'
+  53: !!python/object:CarTrip.Measurement
+    _Measurement__index: 53
+    _Measurement__latitude: 48.314343386015054
+    _Measurement__longitude: 10.885589077682758
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 17.004320481810474, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 22.01215316271246, Consumption_unit: l/h, Consumption_value: 7.235881056089563,
+      Engine Load_unit: '%', Engine Load_value: 54.2416086305808, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.9083666503429413, GPS Altitude_unit: m, GPS Altitude_value: 507.00001510977745,
+      GPS Bearing_unit: deg, GPS Bearing_value: 14.590837434741616, GPS Speed_unit: km/h,
+      GPS Speed_value: 118.07639664639214, Intake Pressure_unit: kPa, Intake Pressure_value: 61.82911944389343,
+      Intake Temperature_unit: c, Intake Temperature_value: 23.99999964237213, Rpm_unit: u/min,
+      Rpm_value: 2682.8744655251503, Speed_unit: km/h, Speed_value: 116.99999651312828,
+      Throttle Position_unit: '%', Throttle Position_value: 20.441281735897064}
+    _Measurement__road: *id011
+    _Measurement__time: '2016-04-19T16:11:27Z'
+  54: !!python/object:CarTrip.Measurement
+    _Measurement__index: 54
+    _Measurement__latitude: 48.31575101056412
+    _Measurement__longitude: 10.886119848190418
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 20.671116031259317, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 26.758833004295084, Consumption_unit: l/h, Consumption_value: 8.796219587769922,
+      Engine Load_unit: '%', Engine Load_value: 69.80392456054688, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 2.9999999329447746, GPS Altitude_unit: m, GPS Altitude_value: 506.9258383065462,
+      GPS Bearing_unit: deg, GPS Bearing_value: 14.183325790112079, GPS Speed_unit: km/h,
+      GPS Speed_value: 116.93470658498279, Intake Pressure_unit: kPa, Intake Pressure_value: 75.99999943375587,
+      Intake Temperature_unit: c, Intake Temperature_value: 25.00000074505806, Rpm_unit: u/min,
+      Rpm_value: 2662.217588365078, Speed_unit: km/h, Speed_value: 116.76829093694687,
+      Throttle Position_unit: '%', Throttle Position_value: 26.999999195337296}
+    _Measurement__road: *id011
+    _Measurement__time: '2016-04-19T16:11:32Z'
+  55: !!python/object:CarTrip.Measurement
+    _Measurement__index: 55
+    _Measurement__latitude: 48.31720240178298
+    _Measurement__longitude: 10.886669879902582
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 21.801322828411323, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 28.221889711033878, Consumption_unit: l/h, Consumption_value: 9.277158650387797,
+      Engine Load_unit: '%', Engine Load_value: 71.76470947265625, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 4.0000001192092896, GPS Altitude_unit: m, GPS Altitude_value: 506.90910601615906,
+      GPS Bearing_unit: deg, GPS Bearing_value: 13.890000757277022, GPS Speed_unit: km/h,
+      GPS Speed_value: 119.6672738799723, Intake Pressure_unit: kPa, Intake Pressure_value: 77.99999767541885,
+      Intake Temperature_unit: c, Intake Temperature_value: 23.999999329447746, Rpm_unit: u/min,
+      Rpm_value: 2726.6060096919537, Speed_unit: km/h, Speed_value: 119.14811998605728,
+      Throttle Position_unit: '%', Throttle Position_value: 28.000000417232513}
+    _Measurement__road: *id011
+    _Measurement__time: '2016-04-19T16:11:37Z'
+  56: !!python/object:CarTrip.Measurement
+    _Measurement__index: 56
+    _Measurement__latitude: 48.31864934236977
+    _Measurement__longitude: 10.887209534917199
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 20.353524583004383, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 26.34770974831826, Consumption_unit: l/h, Consumption_value: 8.661074290640162,
+      Engine Load_unit: '%', Engine Load_value: 64.96916553392148, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 2.999999988824129, GPS Altitude_unit: m, GPS Altitude_value: 506.9520059451461,
+      GPS Bearing_unit: deg, GPS Bearing_value: 13.671282613884795, GPS Speed_unit: km/h,
+      GPS Speed_value: 121.89945137439287, Intake Pressure_unit: kPa, Intake Pressure_value: 71.73394329845905,
+      Intake Temperature_unit: c, Intake Temperature_value: 24.0, Rpm_unit: u/min,
+      Rpm_value: 2767.8914449214935, Speed_unit: km/h, Speed_value: 121.00000360608101,
+      Throttle Position_unit: '%', Throttle Position_value: 24.54726728796959}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: "Kopernikusstra\xDFe, Haunstetten-Nord, Haunstetten-Siebenbrunn,\
+        \ Fuchssiedlung, Augsburg, Schwaben, Bayern, 86179, Deutschland"
+      _Road__osm_id: '381554253'
+      _Road__tags: {highway: unclassified, motor_vehicle: 'no', name: "Kopernikusstra\xDF\
+          e"}
+    _Measurement__time: '2016-04-19T16:11:42Z'
+  57: !!python/object:CarTrip.Measurement
+    _Measurement__index: 57
+    _Measurement__latitude: 48.32013916655129
+    _Measurement__longitude: 10.887650534696936
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 17.113482092095982, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 22.153463254324958, Consumption_unit: l/h, Consumption_value: 7.2823328051472265,
+      Engine Load_unit: '%', Engine Load_value: 54.96620265215495, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.048523262143135, GPS Altitude_unit: m, GPS Altitude_value: 506.00000942498446,
+      GPS Bearing_unit: deg, GPS Bearing_value: 9.44177233868982, GPS Speed_unit: km/h,
+      GPS Speed_value: 120.94958053425009, Intake Pressure_unit: kPa, Intake Pressure_value: 60.78178711235523,
+      Intake Temperature_unit: c, Intake Temperature_value: 24.159686222672462, Rpm_unit: u/min,
+      Rpm_value: 2748.0990124046803, Speed_unit: km/h, Speed_value: 120.00000268220901,
+      Throttle Position_unit: '%', Throttle Position_value: 23.792760908603668}
+    _Measurement__road: &id012 !!python/object:CarTrip.Road
+      _Road__display_name: B 17, Haunstetten-Nord, Haunstetten-Siebenbrunn, Fuchssiedlung,
+        Augsburg, Schwaben, Bayern, 86179, Deutschland
+      _Road__osm_id: '48092227'
+      _Road__tags: {bdouble: 'yes', bicycle: 'no', foot: 'no', highway: trunk, lanes: '2',
+        maxspeed: '120', 'maxspeed:wet': '100', motorroad: 'yes', oneway: 'yes', ref: B
+          17, tmc: 'DE:21055/21056', 'toll:N3': 'yes'}
+    _Measurement__time: '2016-04-19T16:11:47Z'
+  58: !!python/object:CarTrip.Measurement
+    _Measurement__index: 58
+    _Measurement__latitude: 48.32165097299098
+    _Measurement__longitude: 10.887872998786712
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 19.533816007379265, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 25.28659409040354, Consumption_unit: l/h, Consumption_value: 8.312262130799686,
+      Engine Load_unit: '%', Engine Load_value: 57.8249023517908, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.9999999701976776, GPS Altitude_unit: m, GPS Altitude_value: 504.9999962374568,
+      GPS Bearing_unit: deg, GPS Bearing_value: 4.018615490389557, GPS Speed_unit: km/h,
+      GPS Speed_value: 120.81948485521764, Intake Pressure_unit: kPa, Intake Pressure_value: 69.69006419181824,
+      Intake Temperature_unit: c, Intake Temperature_value: 23.999999284744263, Rpm_unit: u/min,
+      Rpm_value: 2734.3264248371124, Speed_unit: km/h, Speed_value: 120.00000357627869,
+      Throttle Position_unit: '%', Throttle Position_value: 24.99999962747097}
+    _Measurement__road: *id012
+    _Measurement__time: '2016-04-19T16:11:52Z'
+  59: !!python/object:CarTrip.Measurement
+    _Measurement__index: 59
+    _Measurement__latitude: 48.32318388210152
+    _Measurement__longitude: 10.887904947399473
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 20.179988353889307, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 26.1230664843521, Consumption_unit: l/h, Consumption_value: 8.587229086761408,
+      Engine Load_unit: '%', Engine Load_value: 53.33333206176758, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.000000089406967, GPS Altitude_unit: m, GPS Altitude_value: 505.8301658332348,
+      GPS Bearing_unit: deg, GPS Bearing_value: 358.6048841807569, GPS Speed_unit: km/h,
+      GPS Speed_value: 119.18239764900932, Intake Pressure_unit: kPa, Intake Pressure_value: 73.0,
+      Intake Temperature_unit: c, Intake Temperature_value: 24.00000035762787, Rpm_unit: u/min,
+      Rpm_value: 2696.697199359536, Speed_unit: km/h, Speed_value: 118.0000015385449,
+      Throttle Position_unit: '%', Throttle Position_value: 25.0}
+    _Measurement__road: *id012
+    _Measurement__time: '2016-04-19T16:11:57Z'
+  60: !!python/object:CarTrip.Measurement
+    _Measurement__index: 60
+    _Measurement__latitude: 48.324653999471344
+    _Measurement__longitude: 10.88774122266846
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 20.587950377629124, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 26.65117477075713, Consumption_unit: l/h, Consumption_value: 8.760829947927286,
+      Engine Load_unit: '%', Engine Load_value: 67.7797762354163, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 4.000000059604645, GPS Altitude_unit: m, GPS Altitude_value: 505.0000075250864,
+      GPS Bearing_unit: deg, GPS Bearing_value: 353.66515274955464, GPS Speed_unit: km/h,
+      GPS Speed_value: 119.59395037357399, Intake Pressure_unit: kPa, Intake Pressure_value: 73.99999779462814,
+      Intake Temperature_unit: c, Intake Temperature_value: 23.99999964237213, Rpm_unit: u/min,
+      Rpm_value: 2714.0355871915817, Speed_unit: km/h, Speed_value: 119.0, Throttle Position_unit: '%',
+      Throttle Position_value: 27.00000060349703}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: B 17, Haunstetten-Nord, Haunstetten-Siebenbrunn, Fuchssiedlung,
+        Augsburg, Schwaben, Bayern, 86199, Deutschland
+      _Road__osm_id: '289247209'
+      _Road__tags: {bdouble: 'yes', bicycle: 'no', foot: 'no', highway: trunk, lanes: '3',
+        maxspeed: '120', 'maxspeed:wet': '100', motorroad: 'yes', oneway: 'yes', ref: B
+          17, tmc: 'DE:21055/21056', 'toll:N3': 'yes', 'turn:lanes': none|none|slight_right}
+    _Measurement__time: '2016-04-19T16:12:02Z'
+  61: !!python/object:CarTrip.Measurement
+    _Measurement__index: 61
+    _Measurement__latitude: 48.32615937590836
+    _Measurement__longitude: 10.887397461446739
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 19.33545287554739, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 25.02981231283182, Consumption_unit: l/h, Consumption_value: 8.227852287466973,
+      Engine Load_unit: '%', Engine Load_value: 52.625150406464854, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.9999998807907104, GPS Altitude_unit: m, GPS Altitude_value: 505.85643497109413,
+      GPS Bearing_unit: deg, GPS Bearing_value: 349.25742090347285, GPS Speed_unit: km/h,
+      GPS Speed_value: 120.41709403563436, Intake Pressure_unit: kPa, Intake Pressure_value: 68.43713909387589,
+      Intake Temperature_unit: c, Intake Temperature_value: 24.0, Rpm_unit: u/min,
+      Rpm_value: 2756.110558003187, Speed_unit: km/h, Speed_value: 120.85980659723282,
+      Throttle Position_unit: '%', Throttle Position_value: 27.0}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: "B 17, Universit\xE4tsviertel, Fuchssiedlung, Augsburg,\
+        \ Schwaben, Bayern, 86159, Deutschland"
+      _Road__osm_id: '27743426'
+      _Road__tags: {bdouble: 'yes', bicycle: 'no', foot: 'no', highway: trunk, lanes: '3',
+        maxspeed: '120', 'maxspeed:wet': '100', motorroad: 'yes', oneway: 'yes', ref: B
+          17, tmc: 'DE:21055/21056', 'toll:N3': 'yes', 'turn:lanes': none|none|slight_right}
+    _Measurement__time: '2016-04-19T16:12:07Z'
+  62: !!python/object:CarTrip.Measurement
+    _Measurement__index: 62
+    _Measurement__latitude: 48.327648068873394
+    _Measurement__longitude: 10.887040262385975
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 20.119680620067914, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 26.04499790906309, Consumption_unit: l/h, Consumption_value: 8.561566221305496,
+      Engine Load_unit: '%', Engine Load_value: 55.804132907137614, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 4.0000001192092896, GPS Altitude_unit: m, GPS Altitude_value: 504.15245404839516,
+      GPS Bearing_unit: deg, GPS Bearing_value: 351.2051998686138, GPS Speed_unit: km/h,
+      GPS Speed_value: 121.63796359388266, Intake Pressure_unit: kPa, Intake Pressure_value: 71.06103911995888,
+      Intake Temperature_unit: c, Intake Temperature_value: 24.000000178813934, Rpm_unit: u/min,
+      Rpm_value: 2761.9999176859856, Speed_unit: km/h, Speed_value: 120.99999639391899,
+      Throttle Position_unit: '%', Throttle Position_value: 23.086881574243307}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: "B 17, Universit\xE4tsviertel, Fuchssiedlung, Augsburg,\
+        \ Schwaben, Bayern, 86159, Deutschland"
+      _Road__osm_id: '161827061'
+      _Road__tags: {bdouble: 'yes', bicycle: 'no', foot: 'no', highway: trunk, lanes: '2',
+        maxspeed: '120', 'maxspeed:wet': '100', motorroad: 'yes', oneway: 'yes', ref: B
+          17, tmc: 'DE:21056', 'toll:N3': 'yes'}
+    _Measurement__time: '2016-04-19T16:12:12Z'
+  63: !!python/object:CarTrip.Measurement
+    _Measurement__index: 63
+    _Measurement__latitude: 48.32914099662133
+    _Measurement__longitude: 10.88679330517128
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 24.98366220358039, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 32.34143931708163, Consumption_unit: l/h, Consumption_value: 10.631345618544847,
+      Engine Load_unit: '%', Engine Load_value: 76.44341704655835, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.902538038790226, GPS Altitude_unit: m, GPS Altitude_value: 504.9999962374568,
+      GPS Bearing_unit: deg, GPS Bearing_value: 356.8647204514318, GPS Speed_unit: km/h,
+      GPS Speed_value: 122.36751257655601, Intake Pressure_unit: kPa, Intake Pressure_value: 87.4363462626934,
+      Intake Temperature_unit: c, Intake Temperature_value: 23.999999284744263, Rpm_unit: u/min,
+      Rpm_value: 2787.3931563198566, Speed_unit: km/h, Speed_value: 121.74250441789627,
+      Throttle Position_unit: '%', Throttle Position_value: 30.72296690940857}
+    _Measurement__road: &id013 !!python/object:CarTrip.Road
+      _Road__display_name: "B 17, Universit\xE4tsviertel, Fuchssiedlung, Augsburg,\
+        \ Schwaben, Bayern, 86159, Deutschland"
+      _Road__osm_id: '289247212'
+      _Road__tags: {bdouble: 'yes', bicycle: 'no', foot: 'no', highway: trunk, lanes: '2',
+        maxheight: default, maxspeed: '120', 'maxspeed:wet': '100', motorroad: 'yes',
+        oneway: 'yes', ref: B 17, tmc: 'DE:21056/21057', 'toll:N3': 'yes'}
+    _Measurement__time: '2016-04-19T16:12:17Z'
+  64: !!python/object:CarTrip.Measurement
+    _Measurement__index: 64
+    _Measurement__latitude: 48.33066692355469
+    _Measurement__longitude: 10.886877768955078
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 15.779101302168568, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 20.426102589917146, Consumption_unit: l/h, Consumption_value: 6.714511192412156,
+      Engine Load_unit: '%', Engine Load_value: 46.806017600324935, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.1591796875, GPS Altitude_unit: m, GPS Altitude_value: 502.0,
+      GPS Bearing_unit: deg, GPS Bearing_value: 4.530244149733335, GPS Speed_unit: km/h,
+      GPS Speed_value: 121.1996603757143, Intake Pressure_unit: kPa, Intake Pressure_value: 55.999998331069946,
+      Intake Temperature_unit: c, Intake Temperature_value: 24.000000044703484, Rpm_unit: u/min,
+      Rpm_value: 2748.7065846025944, Speed_unit: km/h, Speed_value: 120.0, Throttle Position_unit: '%',
+      Throttle Position_value: 22.000000327825546}
+    _Measurement__road: *id013
+    _Measurement__time: '2016-04-19T16:12:22Z'
+  65: !!python/object:CarTrip.Measurement
+    _Measurement__index: 65
+    _Measurement__latitude: 48.33216275641982
+    _Measurement__longitude: 10.887170755864217
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 5.681976120219527, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 7.355338236475668, Consumption_unit: l/h, Consumption_value: 2.41786217881682,
+      Engine Load_unit: '%', Engine Load_value: 13.333332717418678, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 4.0, GPS Altitude_unit: m, GPS Altitude_value: 500.0, GPS Bearing_unit: deg,
+      GPS Bearing_value: 9.879424173988923, GPS Speed_unit: km/h, GPS Speed_value: 118.66444329395608,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 20.953025728464127, Intake Temperature_unit: c,
+      Intake Temperature_value: 24.000000715255737, Rpm_unit: u/min, Rpm_value: 2645.3722373247147,
+      Speed_unit: km/h, Speed_value: 115.7749511897564, Throttle Position_unit: '%',
+      Throttle Position_value: 14.000000417232513}
+    _Measurement__road: *id013
+    _Measurement__time: '2016-04-19T16:12:27Z'
+  66: !!python/object:CarTrip.Measurement
+    _Measurement__index: 66
+    _Measurement__latitude: 48.33351470846665
+    _Measurement__longitude: 10.887633037897587
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 5.389583195080007, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 6.976834558028214, Consumption_unit: l/h, Consumption_value: 2.293439657480854,
+      Engine Load_unit: '%', Engine Load_value: 14.509803771972656, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 5.000000149011612, GPS Altitude_unit: m, GPS Altitude_value: 500.0000149011612,
+      GPS Bearing_unit: deg, GPS Bearing_value: 14.817530384361731, GPS Speed_unit: km/h,
+      GPS Speed_value: 109.80116833028183, Intake Pressure_unit: kPa, Intake Pressure_value: 21.69059893488884,
+      Intake Temperature_unit: c, Intake Temperature_value: 25.999999225139618, Rpm_unit: u/min,
+      Rpm_value: 2440.2315614819527, Speed_unit: km/h, Speed_value: 107.0178408138454,
+      Throttle Position_unit: '%', Throttle Position_value: 14.000000417232513}
+    _Measurement__road: &id014 !!python/object:CarTrip.Road
+      _Road__display_name: "B 17, Universit\xE4tsviertel, Fuchssiedlung, Augsburg,\
+        \ Schwaben, Bayern, 86159, Deutschland"
+      _Road__osm_id: '80679392'
+      _Road__tags: {bdouble: 'yes', bicycle: 'no', foot: 'no', highway: trunk, lanes: '3',
+        maxspeed: '120', 'maxspeed:wet': '100', motorroad: 'yes', oneway: 'yes', ref: B
+          17, tmc: 'DE:21056/21057', 'toll:N3': 'yes', 'turn:lanes': none|none|slight_right}
+    _Measurement__time: '2016-04-19T16:12:32Z'
+  67: !!python/object:CarTrip.Measurement
+    _Measurement__index: 67
+    _Measurement__latitude: 48.33479399759758
+    _Measurement__longitude: 10.888158955542705
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 4.572807593240865, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 5.919515645080063, Consumption_unit: l/h, Consumption_value: 1.9458755715918576,
+      Engine Load_unit: '%', Engine Load_value: 14.156550532788117, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 8.0, GPS Altitude_unit: m, GPS Altitude_value: 499.6902002096176,
+      GPS Bearing_unit: deg, GPS Bearing_value: 15.282107516218161, GPS Speed_unit: km/h,
+      GPS Speed_value: 105.15573967550426, Intake Pressure_unit: kPa, Intake Pressure_value: 19.999999403953552,
+      Intake Temperature_unit: c, Intake Temperature_value: 27.0, Rpm_unit: u/min,
+      Rpm_value: 2252.9403386712074, Speed_unit: km/h, Speed_value: 98.20992028713226,
+      Throttle Position_unit: '%', Throttle Position_value: 13.999999582767487}
+    _Measurement__road: *id014
+    _Measurement__time: '2016-04-19T16:12:37Z'
+  68: !!python/object:CarTrip.Measurement
+    _Measurement__index: 68
+    _Measurement__latitude: 48.33593656456505
+    _Measurement__longitude: 10.888692028627455
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 3.9930722726557497, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 5.169046216783622, Consumption_unit: l/h, Consumption_value: 1.6991796904918084,
+      Engine Load_unit: '%', Engine Load_value: 14.117647171020508, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 5.999999821186066, GPS Altitude_unit: m, GPS Altitude_value: 494.9999852478504,
+      GPS Bearing_unit: deg, GPS Bearing_value: 17.98343173131434, GPS Speed_unit: km/h,
+      GPS Speed_value: 92.75884860136603, Intake Pressure_unit: kPa, Intake Pressure_value: 19.000000283122063,
+      Intake Temperature_unit: c, Intake Temperature_value: 27.0, Rpm_unit: u/min,
+      Rpm_value: 2070.8579467236996, Speed_unit: km/h, Speed_value: 90.25929284095764,
+      Throttle Position_unit: '%', Throttle Position_value: 14.000000417232513}
+    _Measurement__road: &id015 !!python/object:CarTrip.Road
+      _Road__display_name: "B 17, Universit\xE4tsviertel, Fuchssiedlung, Augsburg,\
+        \ Schwaben, Bayern, 86159, Deutschland"
+      _Road__osm_id: '27304519'
+      _Road__tags: {bdouble: 'yes', highway: trunk, lanes: '2', maxheight: default,
+        maxspeed: '70', motorroad: 'yes', oneway: 'yes', ref: B 17, tmc: 'DE:21057',
+        'toll:N3': 'yes'}
+    _Measurement__time: '2016-04-19T16:12:42Z'
+  69: !!python/object:CarTrip.Measurement
+    _Measurement__index: 69
+    _Measurement__latitude: 48.33683570615924
+    _Measurement__longitude: 10.889410895498353
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 3.3362341994134437, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 4.318767001758431, Consumption_unit: l/h, Consumption_value: 1.419674127409976,
+      Engine Load_unit: '%', Engine Load_value: 13.037193040234385, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 5.000000111758709, GPS Altitude_unit: m, GPS Altitude_value: 496.0000110864639,
+      GPS Bearing_unit: deg, GPS Bearing_value: 29.867890218907235, GPS Speed_unit: km/h,
+      GPS Speed_value: 83.78255633287102, Intake Pressure_unit: kPa, Intake Pressure_value: 18.000000536441803,
+      Intake Temperature_unit: c, Intake Temperature_value: 27.000000804662704, Rpm_unit: u/min,
+      Rpm_value: 1826.336331307888, Speed_unit: km/h, Speed_value: 80.00454254448414,
+      Throttle Position_unit: '%', Throttle Position_value: 13.0}
+    _Measurement__road: *id015
+    _Measurement__time: '2016-04-19T16:12:47Z'
+  70: !!python/object:CarTrip.Measurement
+    _Measurement__index: 70
+    _Measurement__latitude: 48.3375657437404
+    _Measurement__longitude: 10.890267922945352
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 2.947849649024337, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 3.816001824029554, Consumption_unit: l/h, Consumption_value: 1.254404105967803,
+      Engine Load_unit: '%', Engine Load_value: 13.787170046414275, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 6.974386320449412, GPS Altitude_unit: m, GPS Altitude_value: 498.0384190985933,
+      GPS Bearing_unit: deg, GPS Bearing_value: 43.2014194629354, GPS Speed_unit: km/h,
+      GPS Speed_value: 69.47187166219459, Intake Pressure_unit: kPa, Intake Pressure_value: 19.000000194646418,
+      Intake Temperature_unit: c, Intake Temperature_value: 27.999999165534973, Rpm_unit: u/min,
+      Rpm_value: 1533.8856620788574, Speed_unit: km/h, Speed_value: 66.6709303855896,
+      Throttle Position_unit: '%', Throttle Position_value: 12.0}
+    _Measurement__road: &id016 !!python/object:CarTrip.Road
+      _Road__display_name: "Friedrich-Ebert-Stra\xDFe, Universit\xE4tsviertel, Fuchssiedlung,\
+        \ Augsburg, Schwaben, Bayern, 86159, Deutschland"
+      _Road__osm_id: '27303103'
+      _Road__tags: {bicycle: 'no', 'class:bicycle': '-3', foot: 'no', highway: primary,
+        lanes: '2', lit: 'yes', maxspeed: '50', motorroad: 'no', name: "Friedrich-Ebert-Stra\xDF\
+          e", oneway: 'yes', ref: B 300}
+    _Measurement__time: '2016-04-19T16:12:52Z'
+  71: !!python/object:CarTrip.Measurement
+    _Measurement__index: 71
+    _Measurement__latitude: 48.33780316367749
+    _Measurement__longitude: 10.891408321268765
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 2.5905944787972213, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 3.353533739308247, Consumption_unit: l/h, Consumption_value: 1.1023806292754132,
+      Engine Load_unit: '%', Engine Load_value: 13.72549057006836, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 4.244353249669075, GPS Altitude_unit: m, GPS Altitude_value: 501.7556542903185,
+      GPS Bearing_unit: deg, GPS Bearing_value: 87.13228241063916, GPS Speed_unit: km/h,
+      GPS Speed_value: 59.73414196128715, Intake Pressure_unit: kPa, Intake Pressure_value: 19.000000566244125,
+      Intake Temperature_unit: c, Intake Temperature_value: 28.000000208616257, Rpm_unit: u/min,
+      Rpm_value: 1347.991294145584, Speed_unit: km/h, Speed_value: 58.71254354715347,
+      Throttle Position_unit: '%', Throttle Position_value: 11.999999731779099}
+    _Measurement__road: *id016
+    _Measurement__time: '2016-04-19T16:12:57Z'
+  72: !!python/object:CarTrip.Measurement
+    _Measurement__index: 72
+    _Measurement__latitude: 48.33780248058582
+    _Measurement__longitude: 10.89247366092579
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 2.303124895017867, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 2.9814033437101854, Consumption_unit: l/h, Consumption_value: 0.9800531468161136,
+      Engine Load_unit: '%', Engine Load_value: 13.380693006743371, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 4.0, GPS Altitude_unit: m, GPS Altitude_value: 500.1572456359863,
+      GPS Bearing_unit: deg, GPS Bearing_value: 89.83145169907948, GPS Speed_unit: km/h,
+      GPS Speed_value: 56.2868945805094, Intake Pressure_unit: kPa, Intake Pressure_value: 18.000000335276127,
+      Intake Temperature_unit: c, Intake Temperature_value: 28.000000834465027, Rpm_unit: u/min,
+      Rpm_value: 1264.9875264167786, Speed_unit: km/h, Speed_value: 55.36574321985245,
+      Throttle Position_unit: '%', Throttle Position_value: 12.0}
+    _Measurement__road: &id017 !!python/object:CarTrip.Road
+      _Road__display_name: "Friedrich-Ebert-Stra\xDFe, Universit\xE4tsviertel, Fuchssiedlung,\
+        \ Augsburg, Schwaben, Bayern, 86159, Deutschland"
+      _Road__osm_id: '289207706'
+      _Road__tags: {bicycle: 'no', 'class:bicycle': '-3', foot: 'no', highway: primary,
+        lanes: '4', lit: 'yes', maxspeed: '50', motorroad: 'no', name: "Friedrich-Ebert-Stra\xDF\
+          e", oneway: 'yes', ref: B 300, tmc: 'DE:22811/33287', 'turn:lanes': left|through|through|right}
+    _Measurement__time: '2016-04-19T16:13:02Z'
+  73: !!python/object:CarTrip.Measurement
+    _Measurement__index: 73
+    _Measurement__latitude: 48.3377964881902
+    _Measurement__longitude: 10.893471189874088
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 2.2262539228827376, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 2.8818935976891606, Consumption_unit: l/h, Consumption_value: 0.9473420948437181,
+      Engine Load_unit: '%', Engine Load_value: 19.91541780480418, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 4.0000001192092896, GPS Altitude_unit: m, GPS Altitude_value: 499.2194323539734,
+      GPS Bearing_unit: deg, GPS Bearing_value: 90.3438885698215, GPS Speed_unit: km/h,
+      GPS Speed_value: 49.18550761350889, Intake Pressure_unit: kPa, Intake Pressure_value: 23.844919800758362,
+      Intake Temperature_unit: c, Intake Temperature_value: 28.000000417232513, Rpm_unit: u/min,
+      Rpm_value: 923.0390988588333, Speed_unit: km/h, Speed_value: 45.13978597521782,
+      Throttle Position_unit: '%', Throttle Position_value: 11.999999642372131}
+    _Measurement__road: *id017
+    _Measurement__time: '2016-04-19T16:13:07Z'
+  74: !!python/object:CarTrip.Measurement
+    _Measurement__index: 74
+    _Measurement__latitude: 48.337658709567606
+    _Measurement__longitude: 10.893922259788697
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 12.045203801730215, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 15.592559034828424, Consumption_unit: l/h, Consumption_value: 5.125618639034134,
+      Engine Load_unit: '%', Engine Load_value: 64.97774579275239, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 4.182516813278198, GPS Altitude_unit: m, GPS Altitude_value: 500.1825168132782,
+      GPS Bearing_unit: deg, GPS Bearing_value: 155.1241168943743, GPS Speed_unit: km/h,
+      GPS Speed_value: 22.671942250643042, Intake Pressure_unit: kPa, Intake Pressure_value: 64.49319815635681,
+      Intake Temperature_unit: c, Intake Temperature_value: 29.43744456768036, Rpm_unit: u/min,
+      Rpm_value: 1855.280330747366, Speed_unit: km/h, Speed_value: 25.03169012069702,
+      Throttle Position_unit: '%', Throttle Position_value: 22.359334588050842}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: "Universit\xE4tsstra\xDFe, Universit\xE4tsviertel, Augsburg,\
+        \ Schwaben, Bayern, 86159, Deutschland"
+      _Road__osm_id: '121928954'
+      _Road__tags: {highway: residential, lanes: '2', maxspeed: '50', name: "Universit\xE4\
+          tsstra\xDFe", oneway: 'yes'}
+    _Measurement__time: '2016-04-19T16:13:12Z'
+  75: !!python/object:CarTrip.Measurement
+    _Measurement__index: 75
+    _Measurement__latitude: 48.337282424803234
+    _Measurement__longitude: 10.893878204992024
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 12.22804111815775, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 15.829242589303144, Consumption_unit: l/h, Consumption_value: 5.203421752407553,
+      Engine Load_unit: '%', Engine Load_value: 66.11596437063622, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.9999999403953552, GPS Altitude_unit: m, GPS Altitude_value: 504.9999924749136,
+      GPS Bearing_unit: deg, GPS Bearing_value: 185.32587092667814, GPS Speed_unit: km/h,
+      GPS Speed_value: 38.302673032984046, Intake Pressure_unit: kPa, Intake Pressure_value: 67.30287100374699,
+      Intake Temperature_unit: c, Intake Temperature_value: 26.999999195337296, Rpm_unit: u/min,
+      Rpm_value: 1790.2762242555618, Speed_unit: km/h, Speed_value: 38.81045202165842,
+      Throttle Position_unit: '%', Throttle Position_value: 22.601967811584473}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: "Universit\xE4tsstra\xDFe, Universit\xE4tsviertel, Augsburg,\
+        \ Schwaben, Bayern, 86159, Deutschland"
+      _Road__osm_id: '314256558'
+      _Road__tags: {highway: residential, lanes: '3', maxspeed: '50', name: "Universit\xE4\
+          tsstra\xDFe", oneway: 'yes', 'turn:lanes': left|through|through;right}
+    _Measurement__time: '2016-04-19T16:13:17Z'
+  76: !!python/object:CarTrip.Measurement
+    _Measurement__index: 76
+    _Measurement__latitude: 48.33675748489992
+    _Measurement__longitude: 10.893639117861692
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 12.156945713492753, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 15.73720933585294, Consumption_unit: l/h, Consumption_value: 5.17316838872032,
+      Engine Load_unit: '%', Engine Load_value: 63.78867637140934, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 2.9999999552965164, GPS Altitude_unit: m, GPS Altitude_value: 506.12932999432087,
+      GPS Bearing_unit: deg, GPS Bearing_value: 204.3225208496201, GPS Speed_unit: km/h,
+      GPS Speed_value: 45.694708178450696, Intake Pressure_unit: kPa, Intake Pressure_value: 67.05391305685043,
+      Intake Temperature_unit: c, Intake Temperature_value: 26.0, Rpm_unit: u/min,
+      Rpm_value: 1780.5236860513687, Speed_unit: km/h, Speed_value: 46.35645440220833,
+      Throttle Position_unit: '%', Throttle Position_value: 21.970323741436005}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: "Universit\xE4tsstra\xDFe, Universit\xE4tsviertel, Augsburg,\
+        \ Schwaben, Bayern, 86159, Deutschland"
+      _Road__osm_id: '314256556'
+      _Road__tags: {highway: residential, maxspeed: '50', name: "Universit\xE4tsstra\xDF\
+          e", oneway: 'yes'}
+    _Measurement__time: '2016-04-19T16:13:22Z'
+  77: !!python/object:CarTrip.Measurement
+    _Measurement__index: 77
+    _Measurement__latitude: 48.33629857772705
+    _Measurement__longitude: 10.893021634515062
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 7.462693765824557, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 9.660483543312958, Consumption_unit: l/h, Consumption_value: 3.1756143684359817,
+      Engine Load_unit: '%', Engine Load_value: 46.12544948580671, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.000000089406967, GPS Altitude_unit: m, GPS Altitude_value: 503.7406431734562,
+      GPS Bearing_unit: deg, GPS Bearing_value: 225.40009971535983, GPS Speed_unit: km/h,
+      GPS Speed_value: 47.26260192253653, Intake Pressure_unit: kPa, Intake Pressure_value: 52.19887429475784,
+      Intake Temperature_unit: c, Intake Temperature_value: 26.693131923675537, Rpm_unit: u/min,
+      Rpm_value: 1407.3009690120816, Speed_unit: km/h, Speed_value: 46.99999859929085,
+      Throttle Position_unit: '%', Throttle Position_value: 16.99999949336052}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: "Universit\xE4tsstra\xDFe, Universit\xE4tsviertel, Fuchssiedlung,\
+        \ Augsburg, Schwaben, Bayern, 86159, Deutschland"
+      _Road__osm_id: '314256555'
+      _Road__tags: {highway: residential, lanes: '4', 'lanes:backward': '2', 'lanes:forward': '2',
+        maxspeed: '50', name: "Universit\xE4tsstra\xDFe", 'turn:lanes:backward': none|right}
+    _Measurement__time: '2016-04-19T16:13:27Z'
+  78: !!python/object:CarTrip.Measurement
+    _Measurement__index: 78
+    _Measurement__latitude: 48.33586327489371
+    _Measurement__longitude: 10.89245791893626
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 6.5896152124981064, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 8.530280260008631, Consumption_unit: l/h, Consumption_value: 2.8040915797864283,
+      Engine Load_unit: '%', Engine Load_value: 42.15686321258545, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.000000089406967, GPS Altitude_unit: m, GPS Altitude_value: 503.79279068112373,
+      GPS Bearing_unit: deg, GPS Bearing_value: 213.0431670892376, GPS Speed_unit: km/h,
+      GPS Speed_value: 46.261300845324286, Intake Pressure_unit: kPa, Intake Pressure_value: 48.0,
+      Intake Temperature_unit: c, Intake Temperature_value: 27.000000402331352, Rpm_unit: u/min,
+      Rpm_value: 1352.7438380122185, Speed_unit: km/h, Speed_value: 46.000000685453415,
+      Throttle Position_unit: '%', Throttle Position_value: 16.131672352552414}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: "Forschungsallee, Universit\xE4tsviertel, Fuchssiedlung,\
+        \ Augsburg, Schwaben, Bayern, 86159, Deutschland"
+      _Road__osm_id: '375772138'
+      _Road__tags: {highway: proposed, name: Forschungsallee, proposed: residential,
+        source: 'Geodatenamt Augsburg, mit Genehmigung zur Nutzung in OpenStreetMap:
+          http://www.augsburg.de/fileadmin/user_upload/footer/amtsblatt/2015/Amtsblatt-2015-33.pdf'}
+    _Measurement__time: '2016-04-19T16:13:32Z'
+  79: !!python/object:CarTrip.Measurement
+    _Measurement__index: 79
+    _Measurement__latitude: 48.33530661814238
+    _Measurement__longitude: 10.892181039800171
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 7.173803288277834, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 9.286513795694407, Consumption_unit: l/h, Consumption_value: 3.052682250330993,
+      Engine Load_unit: '%', Engine Load_value: 43.196422553504135, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.9999999403953552, GPS Altitude_unit: m, GPS Altitude_value: 503.99999248981476,
+      GPS Bearing_unit: deg, GPS Bearing_value: 189.4244244648437, GPS Speed_unit: km/h,
+      GPS Speed_value: 48.71992461473178, Intake Pressure_unit: kPa, Intake Pressure_value: 49.00787419825792,
+      Intake Temperature_unit: c, Intake Temperature_value: 26.999999195337296, Rpm_unit: u/min,
+      Rpm_value: 1442.3821643590927, Speed_unit: km/h, Speed_value: 48.0, Throttle Position_unit: '%',
+      Throttle Position_value: 17.0}
+    _Measurement__road: &id018 !!python/object:CarTrip.Road
+      _Road__display_name: "Universit\xE4tsstra\xDFe, Universit\xE4tsviertel, Fuchssiedlung,\
+        \ Augsburg, Schwaben, Bayern, 86159, Deutschland"
+      _Road__osm_id: '30136251'
+      _Road__tags: {highway: residential, maxspeed: '50', name: "Universit\xE4tsstra\xDF\
+          e"}
+    _Measurement__time: '2016-04-19T16:13:37Z'
+  80: !!python/object:CarTrip.Measurement
+    _Measurement__index: 80
+    _Measurement__latitude: 48.33467110324733
+    _Measurement__longitude: 10.892174728904585
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 6.628745795268387, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 8.58093493816569, Consumption_unit: l/h, Consumption_value: 2.820742891603569,
+      Engine Load_unit: '%', Engine Load_value: 42.027006696295416, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.9999998807907104, GPS Altitude_unit: m, GPS Altitude_value: 502.99998500943184,
+      GPS Bearing_unit: deg, GPS Bearing_value: 177.32675391876273, GPS Speed_unit: km/h,
+      GPS Speed_value: 51.51252692731953, Intake Pressure_unit: kPa, Intake Pressure_value: 43.50348746776581,
+      Intake Temperature_unit: c, Intake Temperature_value: 26.999999195337296, Rpm_unit: u/min,
+      Rpm_value: 1501.4263565540314, Speed_unit: km/h, Speed_value: 50.99999924004078,
+      Throttle Position_unit: '%', Throttle Position_value: 17.00000025331974}
+    _Measurement__road: *id018
+    _Measurement__time: '2016-04-19T16:13:42Z'
+  81: !!python/object:CarTrip.Measurement
+    _Measurement__index: 81
+    _Measurement__latitude: 48.334048138174154
+    _Measurement__longitude: 10.892229728556842
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 4.491652527023782, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 5.814460124078126, Consumption_unit: l/h, Consumption_value: 1.9113415008611838,
+      Engine Load_unit: '%', Engine Load_value: 25.242225692139584, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.9999999403953552, GPS Altitude_unit: m, GPS Altitude_value: 503.99999248981476,
+      GPS Bearing_unit: deg, GPS Bearing_value: 177.47502375056388, GPS Speed_unit: km/h,
+      GPS Speed_value: 49.828083116891776, Intake Pressure_unit: kPa, Intake Pressure_value: 31.133621603250504,
+      Intake Temperature_unit: c, Intake Temperature_value: 27.0, Rpm_unit: u/min,
+      Rpm_value: 1421.586382985115, Speed_unit: km/h, Speed_value: 49.0, Throttle Position_unit: '%',
+      Throttle Position_value: 14.083333648741245}
+    _Measurement__road: *id018
+    _Measurement__time: '2016-04-19T16:13:47Z'
+  82: !!python/object:CarTrip.Measurement
+    _Measurement__index: 82
+    _Measurement__latitude: 48.33343413511089
+    _Measurement__longitude: 10.892309554314316
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 5.596207905578559, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 7.244310978480329, Consumption_unit: l/h, Consumption_value: 2.3813650662036423,
+      Engine Load_unit: '%', Engine Load_value: 31.381203049605233, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 4.000000059604645, GPS Altitude_unit: m, GPS Altitude_value: 503.8323120325804,
+      GPS Bearing_unit: deg, GPS Bearing_value: 169.90042636014186, GPS Speed_unit: km/h,
+      GPS Speed_value: 49.53166887281242, Intake Pressure_unit: kPa, Intake Pressure_value: 37.55221128463745,
+      Intake Temperature_unit: c, Intake Temperature_value: 26.999999195337296, Rpm_unit: u/min,
+      Rpm_value: 1468.4361561462283, Speed_unit: km/h, Speed_value: 48.11743772029877,
+      Throttle Position_unit: '%', Throttle Position_value: 15.272927701473236}
+    _Measurement__road: *id018
+    _Measurement__time: '2016-04-19T16:13:52Z'
+  83: !!python/object:CarTrip.Measurement
+    _Measurement__index: 83
+    _Measurement__latitude: 48.332936895433974
+    _Measurement__longitude: 10.892787545049197
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 2.68274506151349, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 3.4728229954095724, Consumption_unit: l/h, Consumption_value: 1.1415936431972298,
+      Engine Load_unit: '%', Engine Load_value: 15.796680962107416, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.9999998807907104, GPS Altitude_unit: m, GPS Altitude_value: 505.22073966264725,
+      GPS Bearing_unit: deg, GPS Bearing_value: 132.98075548676934, GPS Speed_unit: km/h,
+      GPS Speed_value: 45.24642789657298, Intake Pressure_unit: kPa, Intake Pressure_value: 21.0,
+      Intake Temperature_unit: c, Intake Temperature_value: 27.000000402331352, Rpm_unit: u/min,
+      Rpm_value: 1258.8003513813019, Speed_unit: km/h, Speed_value: 44.036379754543304,
+      Throttle Position_unit: '%', Throttle Position_value: 12.075268551707268}
+    _Measurement__road: *id018
+    _Measurement__time: '2016-04-19T16:13:57Z'
+  84: !!python/object:CarTrip.Measurement
+    _Measurement__index: 84
+    _Measurement__latitude: 48.332706991269454
+    _Measurement__longitude: 10.893505807624267
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 6.4303325804337925, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 8.324088327969347, Consumption_unit: l/h, Consumption_value: 2.7363117363548053,
+      Engine Load_unit: '%', Engine Load_value: 33.75733983494149, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.9999999403953552, GPS Altitude_unit: m, GPS Altitude_value: 503.78255762159824,
+      GPS Bearing_unit: deg, GPS Bearing_value: 108.29990057005489, GPS Speed_unit: km/h,
+      GPS Speed_value: 40.814904538712824, Intake Pressure_unit: kPa, Intake Pressure_value: 40.6631193459034,
+      Intake Temperature_unit: c, Intake Temperature_value: 27.35294198989868, Rpm_unit: u/min,
+      Rpm_value: 1560.0548585392535, Speed_unit: km/h, Speed_value: 40.00000059604645,
+      Throttle Position_unit: '%', Throttle Position_value: 15.732072621583939}
+    _Measurement__road: *id018
+    _Measurement__time: '2016-04-19T16:14:02Z'
+  85: !!python/object:CarTrip.Measurement
+    _Measurement__index: 85
+    _Measurement__latitude: 48.33259483630659
+    _Measurement__longitude: 10.894238352985571
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 2.7159737289927897, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 3.5158376232936797, Consumption_unit: l/h, Consumption_value: 1.1557335016990593,
+      Engine Load_unit: '%', Engine Load_value: 13.818693706524527, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.0, GPS Altitude_unit: m, GPS Altitude_value: 504.0, GPS Bearing_unit: deg,
+      GPS Bearing_value: 102.48488828539848, GPS Speed_unit: km/h, GPS Speed_value: 37.442264667789686,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 19.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 27.00000060349703, Rpm_unit: u/min, Rpm_value: 1408.5384613275528,
+      Speed_unit: km/h, Speed_value: 36.52166120707989, Throttle Position_unit: '%',
+      Throttle Position_value: 11.99999986588955}
+    _Measurement__road: &id019 !!python/object:CarTrip.Road
+      _Road__display_name: "Universit\xE4tsstra\xDFe, Universit\xE4tsviertel, Augsburg,\
+        \ Schwaben, Bayern, 86159, Deutschland"
+      _Road__osm_id: '8059402'
+      _Road__tags: {highway: residential, maxspeed: '30', name: "Universit\xE4tsstra\xDF\
+          e"}
+    _Measurement__time: '2016-04-19T16:14:07Z'
+  86: !!python/object:CarTrip.Measurement
+    _Measurement__index: 86
+    _Measurement__latitude: 48.33255406447077
+    _Measurement__longitude: 10.894886567021537
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 2.4137805083279167, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 3.124647427535836, Consumption_unit: l/h, Consumption_value: 1.0271406418416666,
+      Engine Load_unit: '%', Engine Load_value: 12.941176607328302, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.0000000447034836, GPS Altitude_unit: m, GPS Altitude_value: 503.1977762579918,
+      GPS Bearing_unit: deg, GPS Bearing_value: 86.91004492789511, GPS Speed_unit: km/h,
+      GPS Speed_value: 34.771999559502376, Intake Pressure_unit: kPa, Intake Pressure_value: 18.000000067055225,
+      Intake Temperature_unit: c, Intake Temperature_value: 28.000000834465027, Rpm_unit: u/min,
+      Rpm_value: 1325.7649581432343, Speed_unit: km/h, Speed_value: 34.0, Throttle Position_unit: '%',
+      Throttle Position_value: 12.000000357627869}
+    _Measurement__road: *id019
+    _Measurement__time: '2016-04-19T16:14:12Z'
+  87: !!python/object:CarTrip.Measurement
+    _Measurement__index: 87
+    _Measurement__latitude: 48.33264738197608
+    _Measurement__longitude: 10.89553494365528
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 2.461247510056809, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 3.186093629596589, Consumption_unit: l/h, Consumption_value: 1.0473393659816208,
+      Engine Load_unit: '%', Engine Load_value: 12.941176414489746, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.0000000447034836, GPS Altitude_unit: m, GPS Altitude_value: 500.78564631938934,
+      GPS Bearing_unit: deg, GPS Bearing_value: 76.52783418599597, GPS Speed_unit: km/h,
+      GPS Speed_value: 35.75752932782905, Intake Pressure_unit: kPa, Intake Pressure_value: 17.999999463558197,
+      Intake Temperature_unit: c, Intake Temperature_value: 27.999999165534973, Rpm_unit: u/min,
+      Rpm_value: 1351.8361682891846, Speed_unit: km/h, Speed_value: 34.999998956918716,
+      Throttle Position_unit: '%', Throttle Position_value: 11.999999821186066}
+    _Measurement__road: *id019
+    _Measurement__time: '2016-04-19T16:14:17Z'
+  88: !!python/object:CarTrip.Measurement
+    _Measurement__index: 88
+    _Measurement__latitude: 48.33276006603915
+    _Measurement__longitude: 10.89618076651077
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 2.645690724386176, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 3.424856024599906, Consumption_unit: l/h, Consumption_value: 1.1258258401643302,
+      Engine Load_unit: '%', Engine Load_value: 15.013111706485844, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.0000000447034836, GPS Altitude_unit: m, GPS Altitude_value: 500.0000074505806,
+      GPS Bearing_unit: deg, GPS Bearing_value: 76.7825877070427, GPS Speed_unit: km/h,
+      GPS Speed_value: 35.78348626249033, Intake Pressure_unit: kPa, Intake Pressure_value: 19.534528866410255,
+      Intake Temperature_unit: c, Intake Temperature_value: 28.0, Rpm_unit: u/min,
+      Rpm_value: 1338.9902007877827, Speed_unit: km/h, Speed_value: 35.0, Throttle Position_unit: '%',
+      Throttle Position_value: 12.222019836306572}
+    _Measurement__road: *id019
+    _Measurement__time: '2016-04-19T16:14:22Z'
+  89: !!python/object:CarTrip.Measurement
+    _Measurement__index: 89
+    _Measurement__latitude: 48.33282148298457
+    _Measurement__longitude: 10.896815966037819
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 3.292260712225096, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 4.261843166658763, Consumption_unit: l/h, Consumption_value: 1.4009620052021685,
+      Engine Load_unit: '%', Engine Load_value: 20.193094119960847, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.26647287607193, GPS Altitude_unit: m, GPS Altitude_value: 499.0,
+      GPS Bearing_unit: deg, GPS Bearing_value: 83.81739355183845, GPS Speed_unit: km/h,
+      GPS Speed_value: 33.45122103273593, Intake Pressure_unit: kPa, Intake Pressure_value: 25.31321084499359,
+      Intake Temperature_unit: c, Intake Temperature_value: 28.999999567866325, Rpm_unit: u/min,
+      Rpm_value: 1290.113674879074, Speed_unit: km/h, Speed_value: 32.999999231658876,
+      Throttle Position_unit: '%', Throttle Position_value: 13.0}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: "Emmy-Noether-Weg, Universit\xE4tsviertel, Augsburg, Schwaben,\
+        \ Bayern, 86159, Deutschland"
+      _Road__osm_id: '38212760'
+      _Road__tags: {highway: service, name: Emmy-Noether-Weg, sidewalk: right, surface: asphalt}
+    _Measurement__time: '2016-04-19T16:14:27Z'
+  90: !!python/object:CarTrip.Measurement
+    _Measurement__index: 90
+    _Measurement__latitude: 48.332857019612675
+    _Measurement__longitude: 10.897465687000128
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 4.140148587181754, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 5.3594370274847485, Consumption_unit: l/h, Consumption_value: 1.7617653562475548,
+      Engine Load_unit: '%', Engine Load_value: 24.391332604136082, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.0, GPS Altitude_unit: m, GPS Altitude_value: 501.0, GPS Bearing_unit: deg,
+      GPS Bearing_value: 87.10208578905258, GPS Speed_unit: km/h, GPS Speed_value: 33.855953691479044,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 31.15531426668167, Intake Temperature_unit: c,
+      Intake Temperature_value: 29.00000086426735, Rpm_unit: u/min, Rpm_value: 1318.1498641967773,
+      Speed_unit: km/h, Speed_value: 33.00000098347664, Throttle Position_unit: '%',
+      Throttle Position_value: 14.000000208616257}
+    _Measurement__road: &id020 !!python/object:CarTrip.Road
+      _Road__display_name: "Universit\xE4tsstra\xDFe, Universit\xE4tsviertel, Augsburg,\
+        \ Schwaben, Bayern, 86159, Deutschland"
+      _Road__osm_id: '8059401'
+      _Road__tags: {highway: residential, maxspeed: '30', name: "Universit\xE4tsstra\xDF\
+          e"}
+    _Measurement__time: '2016-04-19T16:14:32Z'
+  91: !!python/object:CarTrip.Measurement
+    _Measurement__index: 91
+    _Measurement__latitude: 48.33286036456036
+    _Measurement__longitude: 10.898089573128777
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 2.676213830093043, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 3.4643682931754087, Consumption_unit: l/h, Consumption_value: 1.1388143957842736,
+      Engine Load_unit: '%', Engine Load_value: 16.86274478248521, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.1940298080444336, GPS Altitude_unit: m, GPS Altitude_value: 502.9999925047159,
+      GPS Bearing_unit: deg, GPS Bearing_value: 89.74283499891408, GPS Speed_unit: km/h,
+      GPS Speed_value: 32.40644804688708, Intake Pressure_unit: kPa, Intake Pressure_value: 21.83905902504921,
+      Intake Temperature_unit: c, Intake Temperature_value: 29.0, Rpm_unit: u/min,
+      Rpm_value: 1215.5361662134528, Speed_unit: km/h, Speed_value: 31.170495629310608,
+      Throttle Position_unit: '%', Throttle Position_value: 12.0}
+    _Measurement__road: *id020
+    _Measurement__time: '2016-04-19T16:14:37Z'

@@ -56,7 +56,7 @@ get_highway_info <- function(car_trips){
     }
     
     one_way <- tr$oneway
-    if (nchar(one_way)==0) {
+    if (is.na(one_way) || nchar(one_way)==0) {
       one_way <- one_way_def
     }
     if (grepl("-1", one_way)){
@@ -102,61 +102,26 @@ create_car_trips_dataframe <- function(csv_file_name){
   car_trips$measure_index <- NULL
   #car_trips$date <- as.Date(as.POSIXct(car_trips$time, 'GMT'))
   
-  car_trips$Throttle.Position_unit <- NULL
-  car_trips$Speed_unit <- NULL
-  car_trips$Rpm_unit <- NULL
-  car_trips$Voltage_unit <- NULL
-  car_trips$ER_unit <- NULL
-  car_trips$MAF_unit <- NULL
-  car_trips$Intake.Temperature_unit <- NULL
-  car_trips$Intake.Pressure_unit <- NULL
-  car_trips$GPS.VDOP_value <- NULL
-  car_trips$GPS.VDOP_unit <- NULL
-  car_trips$GPS.Speed_unit <- NULL
-  car_trips$GPS.PDOP_value <- NULL
-  car_trips$GPS.PDOP_unit <- NULL
-  car_trips$GPS.HDOP_value <- NULL
-  car_trips$GPS.HDOP_unit <- NULL
-  car_trips$GPS.Bearing_value <- NULL
-  car_trips$GPS.Bearing_unit <- NULL
-  car_trips$GPS.Altitude_value <- NULL
-  car_trips$GPS.Altitude_unit <- NULL
-  car_trips$GPS.Accuracy_value <- NULL
-  car_trips$GPS.Accuracy_unit <- NULL
-  car_trips$O2.Lambda.Voltage_unit <- NULL
-  car_trips$O2.Lambda.Voltage.ER_unit <- NULL
-  car_trips$Engine.Load_unit <- NULL
-  car_trips$Calculated.MAF_unit <- NULL
-  car_trips$Consumption_unit <- NULL
-  car_trips$CO2_unit <- NULL
-  car_trips$FIXME <- NULL
-  car_trips$access.lanes <- NULL
-  car_trips$access.lanes.forward <- NULL
-  car_trips$alt_name <- NULL
-  car_trips$area <- NULL
-  car_trips$bridge.structure <- NULL
-  car_trips$bus <- NULL
-  car_trips$bus.lanes <- NULL
-  car_trips$bus.lanes.forward <- NULL
-  car_trips$cycleway.both <- NULL
-  car_trips$fixed <- NULL
-  car_trips$frequency <- NULL
-  car_trips$gauge <- NULL
-  car_trips$lit_by_gaslight <- NULL
-  car_trips$loc_name <- NULL
-  car_trips$local_ref <- NULL
-  car_trips$maxaxleload <- NULL
-  car_trips$maxspeed.conditional <- NULL
-  car_trips$name.de <- NULL
-  car_trips$old_name <- NULL
-  car_trips$psv.lanes <- NULL
-  car_trips$psv.lanes.forward <- NULL
-  car_trips$public_transport <- NULL
-  car_trips$ref.IFOPT <- NULL
-  car_trips$ref_old <- NULL
-  car_trips$wheelchair <- NULL
-  car_trips$width <- NULL
-  car_trips$road_name <- NULL
+  car_trips <- car_trips[, !(names(car_trips) %in% c("Throttle.Position_unit", "Speed_unit", "Rpm_unit",
+    "Voltage_unit", "ER_unit", "MAF_unit", "Intake.Temperature_unit", "Intake.Pressure_unit", "GPS.VDOP_value", 
+    "GPS.VDOP_unit", "GPS.Speed_unit", "GPS.PDOP_value", "GPS.PDOP_unit", "GPS.HDOP_value", "GPS.HDOP_unit", 
+    "GPS.Bearing_value", "GPS.Bearing_unit", "GPS.Altitude_value", "GPS.Altitude_unit", "GPS.Accuracy_value", "GPS.Accuracy_unit",
+    "O2.Lambda.Voltage_unit", "O2.Lambda.Voltage.ER_unit", "Engine.Load_unit", "Calculated.MAF_unit", "Consumption_unit",
+    "CO2_unit", "FIXME", "access.lanes", "access.lanes.forward", "alt_name", "bridge.structure", "area", "bus",
+    "bus.lanes", "bus.lanes.forward", "cycleway.both", "fixed", "frequency", "gauge", "lit_by_gaslight", "loc_name",
+    "local_ref", "maxaxleload", "maxspeed.conditional", "name.de", "old_name", "psv.lanes", "psv.lanes.forward", "public_transport",
+    "ref.IFOPT", "ref_old", "wheelchair", "width", "road_name", "tmc", "right.sloped_curb", "proposed",
+    "placement.backward", "parking.lane.right", "wikidata", "wikipedia", "traffic_calming", "parking.lane.both",
+    "parking.lane.left", "parking.condition.both.1", "parking.condition.both.1.residents", "parking.condition.both.2",
+    "parking.condition.both.2.ticket", "parking.condition.left.1", "parking.condition.left.1.maxstay", "parking.condition.left.1.residents",
+    "parking.condition.left.1.ticket", "parking.condition.left.1.time_interval", "parking.condition.left.2", "parking.condition.left.2.ticket",
+    "parking.condition.left.2.time_interval", "parking.condition.left.3", "parking.condition.left.3.time_interval",
+    "parking.condition.left.3.residents", "footway", "footway.left.sloped_curb.end", "footway.left.sloped_curb.start",
+    "footway.left.wheelchair", "footway.left.wheelchair.end", "footway.left.wheelchair.start", "footway.left.incline",
+    "footway.left.smoothness", "footway.left.surface", "footway.left.width", "footway.right.sloped_curb.end",
+    "footway.right.sloped_curb.start", "footway.right.incline", "footway.right.smoothness", "footway.right.surface", 
+    "history", "left.sloped_curb", "maxspeed.wet", "destination.lanes.forward", "destination.ref", "destination.ref.lanes",
+    "destination.symbol.lanes", "fixme", "class.bicycle", "bicycle.left", "bdouble"))]
   
   car_trips$cycleway <- replace_na_by_value(car_trips$cycleway, "no")
   car_trips$lit <- replace_na_by_value(car_trips$lit, "no")

@@ -1,0 +1,1770 @@
+!!python/object:CarTrip.Trip
+_Trip__car: !!python/object:CarTrip.Car {_Car__api_id: 56ba03ebe4b0df8fa00cae20, _Car__construction_year: 2009,
+  _Car__engine_displacement: 1598, _Car__fuel_type: gasoline, _Car__manufacturer: 'Vw ',
+  _Car__model: 9N}
+_Trip__id: 570be620e4b0ec3fb815d765
+_Trip__length: 70.29239147072822
+_Trip__measurements:
+  0: !!python/object:CarTrip.Measurement
+    _Measurement__index: 0
+    _Measurement__latitude: 48.09321462656475
+    _Measurement__longitude: 11.284119805785728
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 23.042237862196316, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 29.82825862267647, Consumption_unit: l/h, Consumption_value: 9.805207600934603,
+      Engine Load_unit: '%', Engine Load_value: 96.72901218057791, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 567.0, GPS Bearing_unit: deg,
+      GPS Bearing_value: 276.76650797532784, GPS Speed_unit: km/h, GPS Speed_value: 46.935086539248914,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 92.52636480331421, Intake Temperature_unit: c,
+      Intake Temperature_value: 20.99999980442226, Rpm_unit: u/min, Rpm_value: 2404.8412123918533,
+      Speed_unit: km/h, Speed_value: 46.90605729818344, Throttle Position_unit: '%',
+      Throttle Position_value: 76.56817951798439}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: A 96, Neugilching, Gilching, Landkreis Starnberg, OB, Bayern,
+        82205, Deutschland
+      _Road__osm_id: '289432078'
+      _Road__tags: {bdouble: 'yes', highway: motorway, int_ref: E 54, lanes: '2',
+        maxspeed: '120', 'note:name': "Der reg_name, sowie ggf. der loc_name sind\
+          \ dem zugeh\xF6rigen Wikipediaartikel entnommen.", oneway: 'yes', ref: A
+          96, reg_name: Ammerseeautobahn, tmc: 'DE:12955'}
+    _Measurement__time: '2016-04-11T17:03:00Z'
+  1: !!python/object:CarTrip.Measurement
+    _Measurement__index: 1
+    _Measurement__latitude: 48.0933545735505
+    _Measurement__longitude: 11.283004949352847
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 31.661896665398746, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 40.98643750958799, Consumption_unit: l/h, Consumption_value: 13.473147517190956,
+      Engine Load_unit: '%', Engine Load_value: 96.33833941540223, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 5.819169864058495, GPS Altitude_unit: m, GPS Altitude_value: 565.1808216273785,
+      GPS Bearing_unit: deg, GPS Bearing_value: 279.8900104777513, GPS Speed_unit: km/h,
+      GPS Speed_value: 69.22439472042925, Intake Pressure_unit: kPa, Intake Pressure_value: 87.33892321586609,
+      Intake Temperature_unit: c, Intake Temperature_value: 21.0, Rpm_unit: u/min,
+      Rpm_value: 3500.7116870582104, Speed_unit: km/h, Speed_value: 75.14653640985489,
+      Throttle Position_unit: '%', Throttle Position_value: 58.52757257223129}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: A 96, Neugilching, Gilching, Landkreis Starnberg, OB, Bayern,
+        82205, Deutschland
+      _Road__osm_id: '327079688'
+      _Road__tags: {bdouble: 'yes', highway: motorway, int_ref: E 54, lanes: '3',
+        maxspeed: '120', 'note:name': "Der reg_name, sowie ggf. der loc_name sind\
+          \ dem zugeh\xF6rigen Wikipediaartikel entnommen.", oneway: 'yes', placement: 'right_of:1',
+        ref: A 96, reg_name: Ammerseeautobahn, tmc: 'DE:12953/12955', 'turn:lanes': none|none|merge_to_left}
+    _Measurement__time: '2016-04-11T17:03:05Z'
+  2: !!python/object:CarTrip.Measurement
+    _Measurement__index: 2
+    _Measurement__latitude: 48.093572140703124
+    _Measurement__longitude: 11.281448856210936
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 21.68640772439576, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 28.073131701385364, Consumption_unit: l/h, Consumption_value: 9.228258606125856,
+      Engine Load_unit: '%', Engine Load_value: 66.90754743615526, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 5.18359375, GPS Altitude_unit: m, GPS Altitude_value: 566.81640625,
+      GPS Bearing_unit: deg, GPS Bearing_value: 281.7734485864639, GPS Speed_unit: km/h,
+      GPS Speed_value: 87.79374715685844, Intake Pressure_unit: kPa, Intake Pressure_value: 64.1899642944336,
+      Intake Temperature_unit: c, Intake Temperature_value: 21.00000062584877, Rpm_unit: u/min,
+      Rpm_value: 3262.47908385098, Speed_unit: km/h, Speed_value: 88.99738439545035,
+      Throttle Position_unit: '%', Throttle Position_value: 27.19419240951538}
+    _Measurement__road: &id001 !!python/object:CarTrip.Road
+      _Road__display_name: A 96, Neugilching, Gilching, Landkreis Starnberg, OB, Bayern,
+        82205, Deutschland
+      _Road__osm_id: '135399878'
+      _Road__tags: {bdouble: 'yes', highway: motorway, int_ref: E 54, lanes: '2',
+        maxspeed: '120', 'note:name': "Der reg_name, sowie ggf. der loc_name sind\
+          \ dem zugeh\xF6rigen Wikipediaartikel entnommen.", oneway: 'yes', ref: A
+          96, reg_name: Ammerseeautobahn, tmc: 'DE:12953/12955'}
+    _Measurement__time: '2016-04-11T17:03:10Z'
+  3: !!python/object:CarTrip.Measurement
+    _Measurement__index: 3
+    _Measurement__latitude: 48.093868237482496
+    _Measurement__longitude: 11.279781513750631
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 21.022461912995098, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 27.213651494109428, Consumption_unit: l/h, Consumption_value: 8.945728473614935,
+      Engine Load_unit: '%', Engine Load_value: 72.78375196239222, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 5.210191160440445, GPS Altitude_unit: m, GPS Altitude_value: 571.7898174375296,
+      GPS Bearing_unit: deg, GPS Bearing_value: 284.8689985021315, GPS Speed_unit: km/h,
+      GPS Speed_value: 93.08689329034223, Intake Pressure_unit: kPa, Intake Pressure_value: 76.1080601811409,
+      Intake Temperature_unit: c, Intake Temperature_value: 20.999999687075615, Rpm_unit: u/min,
+      Rpm_value: 2667.3510167598724, Speed_unit: km/h, Speed_value: 93.0, Throttle Position_unit: '%',
+      Throttle Position_value: 27.927808113396168}
+    _Measurement__road: *id001
+    _Measurement__time: '2016-04-11T17:03:15Z'
+  4: !!python/object:CarTrip.Measurement
+    _Measurement__index: 4
+    _Measurement__latitude: 48.094186753831494
+    _Measurement__longitude: 11.278096277473795
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 13.206624227942127, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 17.09602189507189, Consumption_unit: l/h, Consumption_value: 5.61984009699665,
+      Engine Load_unit: '%', Engine Load_value: 60.701361451001276, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.9999998807907104, GPS Altitude_unit: m, GPS Altitude_value: 574.9999828636646,
+      GPS Bearing_unit: deg, GPS Bearing_value: 282.03279942019435, GPS Speed_unit: km/h,
+      GPS Speed_value: 93.57580097992377, Intake Pressure_unit: kPa, Intake Pressure_value: 60.01991042494774,
+      Intake Temperature_unit: c, Intake Temperature_value: 21.000000312924385, Rpm_unit: u/min,
+      Rpm_value: 2124.8277472816408, Speed_unit: km/h, Speed_value: 93.00000138580799,
+      Throttle Position_unit: '%', Throttle Position_value: 22.543613016605377}
+    _Measurement__road: *id001
+    _Measurement__time: '2016-04-11T17:03:20Z'
+  5: !!python/object:CarTrip.Measurement
+    _Measurement__index: 5
+    _Measurement__latitude: 48.094325097121136
+    _Measurement__longitude: 11.276370021211301
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 12.207898589203166, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 15.803168014144028, Consumption_unit: l/h, Consumption_value: 5.194850463490709,
+      Engine Load_unit: '%', Engine Load_value: 61.59874214705178, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.9999999403953552, GPS Altitude_unit: m, GPS Altitude_value: 576.162666067481,
+      GPS Bearing_unit: deg, GPS Bearing_value: 273.80745339700115, GPS Speed_unit: km/h,
+      GPS Speed_value: 92.6832912583576, Intake Pressure_unit: kPa, Intake Pressure_value: 56.43461212515831,
+      Intake Temperature_unit: c, Intake Temperature_value: 20.999999687075615, Rpm_unit: u/min,
+      Rpm_value: 2088.923898845911, Speed_unit: km/h, Speed_value: 90.99999728798866,
+      Throttle Position_unit: '%', Throttle Position_value: 20.4434777200222}
+    _Measurement__road: *id001
+    _Measurement__time: '2016-04-11T17:03:25Z'
+  6: !!python/object:CarTrip.Measurement
+    _Measurement__index: 6
+    _Measurement__latitude: 48.09425742377044
+    _Measurement__longitude: 11.274723594262017
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 12.85699340641003, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 16.643423556772984, Consumption_unit: l/h, Consumption_value: 5.471061024004268,
+      Engine Load_unit: '%', Engine Load_value: 61.96078675868466, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.785000115633011, GPS Altitude_unit: m, GPS Altitude_value: 577.7850172221661,
+      GPS Bearing_unit: deg, GPS Bearing_value: 263.15766454563163, GPS Speed_unit: km/h,
+      GPS Speed_value: 89.38206294272186, Intake Pressure_unit: kPa, Intake Pressure_value: 61.00000113621354,
+      Intake Temperature_unit: c, Intake Temperature_value: 21.0, Rpm_unit: u/min,
+      Rpm_value: 2035.3393480926752, Speed_unit: km/h, Speed_value: 88.99999867379665,
+      Throttle Position_unit: '%', Throttle Position_value: 21.999999344348907}
+    _Measurement__road: *id001
+    _Measurement__time: '2016-04-11T17:03:30Z'
+  7: !!python/object:CarTrip.Measurement
+    _Measurement__index: 7
+    _Measurement__latitude: 48.09399981880189
+    _Measurement__longitude: 11.2731104985175
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 12.692485821700725, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 16.43046790500656, Consumption_unit: l/h, Consumption_value: 5.401057796468393,
+      Engine Load_unit: '%', Engine Load_value: 60.671793009885505, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.227732837200165, GPS Altitude_unit: m, GPS Altitude_value: 580.0000086426735,
+      GPS Bearing_unit: deg, GPS Bearing_value: 253.0759705698847, GPS Speed_unit: km/h,
+      GPS Speed_value: 88.99242733023266, Intake Pressure_unit: kPa, Intake Pressure_value: 60.49709352850914,
+      Intake Temperature_unit: c, Intake Temperature_value: 21.000000567175448, Rpm_unit: u/min,
+      Rpm_value: 2025.9999396204948, Speed_unit: km/h, Speed_value: 88.99999734759331,
+      Throttle Position_unit: '%', Throttle Position_value: 21.999999672174454}
+    _Measurement__road: &id002 !!python/object:CarTrip.Road
+      _Road__display_name: "A 96, We\xDFling, Landkreis Starnberg, OB, Bayern, 82234,\
+        \ Deutschland"
+      _Road__osm_id: '29264287'
+      _Road__tags: {bdouble: 'yes', highway: motorway, int_ref: E 54, lanes: '2',
+        maxspeed: '120', 'note:name': "Der reg_name, sowie ggf. der loc_name sind\
+          \ dem zugeh\xF6rigen Wikipediaartikel entnommen.", oneway: 'yes', ref: A
+          96, reg_name: Ammerseeautobahn, tmc: 'DE:12953/12955'}
+    _Measurement__time: '2016-04-11T17:03:35Z'
+  8: !!python/object:CarTrip.Measurement
+    _Measurement__index: 8
+    _Measurement__latitude: 48.09354954263241
+    _Measurement__longitude: 11.271528286932515
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 13.900062375065584, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 17.993680035523727, Consumption_unit: l/h, Consumption_value: 5.914920159602376,
+      Engine Load_unit: '%', Engine Load_value: 65.5724941365911, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.0, GPS Altitude_unit: m, GPS Altitude_value: 581.0, GPS Bearing_unit: deg,
+      GPS Bearing_value: 243.62879375173816, GPS Speed_unit: km/h, GPS Speed_value: 89.40441509714492,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 65.89267015457153, Intake Temperature_unit: c,
+      Intake Temperature_value: 21.0, Rpm_unit: u/min, Rpm_value: 2037.0744091272354,
+      Speed_unit: km/h, Speed_value: 89.00000265240669, Throttle Position_unit: '%',
+      Throttle Position_value: 23.166815400123596}
+    _Measurement__road: *id002
+    _Measurement__time: '2016-04-11T17:03:40Z'
+  9: !!python/object:CarTrip.Measurement
+    _Measurement__index: 9
+    _Measurement__latitude: 48.09300422780007
+    _Measurement__longitude: 11.270038612883157
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 11.819858611873824, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 15.300848887462907, Consumption_unit: l/h, Consumption_value: 5.029727068882479,
+      Engine Load_unit: '%', Engine Load_value: 51.668954742451206, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 2.999999910593033, GPS Altitude_unit: m, GPS Altitude_value: 579.999982714653,
+      GPS Bearing_unit: deg, GPS Bearing_value: 240.7369457499044, GPS Speed_unit: km/h,
+      GPS Speed_value: 92.0902375267276, Intake Pressure_unit: kPa, Intake Pressure_value: 54.45207953453064,
+      Intake Temperature_unit: c, Intake Temperature_value: 21.00000062584877, Rpm_unit: u/min,
+      Rpm_value: 2096.163058102131, Speed_unit: km/h, Speed_value: 92.00000137090683,
+      Throttle Position_unit: '%', Throttle Position_value: 20.231991916894913}
+    _Measurement__road: *id002
+    _Measurement__time: '2016-04-11T17:03:45Z'
+  10: !!python/object:CarTrip.Measurement
+    _Measurement__index: 10
+    _Measurement__latitude: 48.09246546099665
+    _Measurement__longitude: 11.268470668235022
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 8.17096953327536, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 10.577349035894219, Consumption_unit: l/h, Consumption_value: 3.4770083120320674,
+      Engine Load_unit: '%', Engine Load_value: 31.38039226666385, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 4.8679434061050415, GPS Altitude_unit: m, GPS Altitude_value: 578.132039219141,
+      GPS Bearing_unit: deg, GPS Bearing_value: 245.88626487813644, GPS Speed_unit: km/h,
+      GPS Speed_value: 94.85418279740361, Intake Pressure_unit: kPa, Intake Pressure_value: 37.265956342220306,
+      Intake Temperature_unit: c, Intake Temperature_value: 21.0, Rpm_unit: u/min,
+      Rpm_value: 2117.330097079277, Speed_unit: km/h, Speed_value: 92.51080656051636,
+      Throttle Position_unit: '%', Throttle Position_value: 17.143250435590744}
+    _Measurement__road: *id002
+    _Measurement__time: '2016-04-11T17:03:50Z'
+  11: !!python/object:CarTrip.Measurement
+    _Measurement__index: 11
+    _Measurement__latitude: 48.09206391279104
+    _Measurement__longitude: 11.266824954741585
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 10.813387367461566, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 13.997968292524272, Consumption_unit: l/h, Consumption_value: 4.6014414329623685,
+      Engine Load_unit: '%', Engine Load_value: 47.01540505732453, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 4.1544633358716965, GPS Altitude_unit: m, GPS Altitude_value: 575.308918222785,
+      GPS Bearing_unit: deg, GPS Bearing_value: 255.4960498453538, GPS Speed_unit: km/h,
+      GPS Speed_value: 92.31541008044735, Intake Pressure_unit: kPa, Intake Pressure_value: 49.68145447969437,
+      Intake Temperature_unit: c, Intake Temperature_value: 21.00000062584877, Rpm_unit: u/min,
+      Rpm_value: 2101.8160818219185, Speed_unit: km/h, Speed_value: 92.0, Throttle Position_unit: '%',
+      Throttle Position_value: 19.6010879278183}
+    _Measurement__road: &id003 !!python/object:CarTrip.Road
+      _Road__display_name: "A 96, Gr\xFCnsink, We\xDFling, Landkreis Starnberg, OB,\
+        \ Bayern, 82234, Deutschland"
+      _Road__osm_id: '12816796'
+      _Road__tags: {bdouble: 'yes', highway: motorway, int_ref: E 54, lanes: '2',
+        maxspeed: '120', 'note:name': "Der reg_name, sowie ggf. der loc_name sind\
+          \ dem zugeh\xF6rigen Wikipediaartikel entnommen.", oneway: 'yes', ref: A
+          96, reg_name: Ammerseeautobahn, tmc: 'DE:12953/12955'}
+    _Measurement__time: '2016-04-11T17:03:55Z'
+  12: !!python/object:CarTrip.Measurement
+    _Measurement__index: 12
+    _Measurement__latitude: 48.09187030941793
+    _Measurement__longitude: 11.265153992745029
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 19.239909350067677, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 24.906130880291503, Consumption_unit: l/h, Consumption_value: 8.187195468113904,
+      Engine Load_unit: '%', Engine Load_value: 91.19104501587663, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 579.3419958353043,
+      GPS Bearing_unit: deg, GPS Bearing_value: 265.9323406815529, GPS Speed_unit: km/h,
+      GPS Speed_value: 92.26907729164122, Intake Pressure_unit: kPa, Intake Pressure_value: 82.93179541826248,
+      Intake Temperature_unit: c, Intake Temperature_value: 20.999999687075615, Rpm_unit: u/min,
+      Rpm_value: 2240.3156048059464, Speed_unit: km/h, Speed_value: 91.99999725818634,
+      Throttle Position_unit: '%', Throttle Position_value: 31.830582343041897}
+    _Measurement__road: *id003
+    _Measurement__time: '2016-04-11T17:04:00Z'
+  13: !!python/object:CarTrip.Measurement
+    _Measurement__index: 13
+    _Measurement__latitude: 48.09193156125
+    _Measurement__longitude: 11.263373986875001
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 15.528460452885954, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 20.101647121723467, Consumption_unit: l/h, Consumption_value: 6.607855511866363,
+      Engine Load_unit: '%', Engine Load_value: 73.48484584439461, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 4.0, GPS Altitude_unit: m, GPS Altitude_value: 581.0, GPS Bearing_unit: deg,
+      GPS Bearing_value: 276.4933651685715, GPS Speed_unit: km/h, GPS Speed_value: 91.92005163431168,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 71.72078613936901, Intake Temperature_unit: c,
+      Intake Temperature_value: 21.0, Rpm_unit: u/min, Rpm_value: 2090.790940761566,
+      Speed_unit: km/h, Speed_value: 91.0000020340085, Throttle Position_unit: '%',
+      Throttle Position_value: 27.0}
+    _Measurement__road: *id003
+    _Measurement__time: '2016-04-11T17:04:05Z'
+  14: !!python/object:CarTrip.Measurement
+    _Measurement__index: 14
+    _Measurement__latitude: 48.0920781889448
+    _Measurement__longitude: 11.26170151864176
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 25.87958765191651, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 33.50121798699334, Consumption_unit: l/h, Consumption_value: 11.012590490177237,
+      Engine Load_unit: '%', Engine Load_value: 94.60233367022556, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 582.0, GPS Bearing_unit: deg,
+      GPS Bearing_value: 277.01764672994614, GPS Speed_unit: km/h, GPS Speed_value: 94.59064845860303,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 91.99999725818634, Intake Temperature_unit: c,
+      Intake Temperature_value: 20.99999976530671, Rpm_unit: u/min, Rpm_value: 2716.4191791415215,
+      Speed_unit: km/h, Speed_value: 94.49107003211975, Throttle Position_unit: '%',
+      Throttle Position_value: 82.42142047733068}
+    _Measurement__road: *id003
+    _Measurement__time: '2016-04-11T17:04:10Z'
+  15: !!python/object:CarTrip.Measurement
+    _Measurement__index: 15
+    _Measurement__latitude: 48.09215363834607
+    _Measurement__longitude: 11.259856150208194
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 21.612191226743732, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 27.977058181995737, Consumption_unit: l/h, Consumption_value: 9.19667711776329,
+      Engine Load_unit: '%', Engine Load_value: 69.75193882536837, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 4.000000059604645, GPS Altitude_unit: m, GPS Altitude_value: 583.1616248488426,
+      GPS Bearing_unit: deg, GPS Bearing_value: 270.94244048297423, GPS Speed_unit: km/h,
+      GPS Speed_value: 101.54400100507098, Intake Pressure_unit: kPa, Intake Pressure_value: 72.41304185986519,
+      Intake Temperature_unit: c, Intake Temperature_value: 21.0, Rpm_unit: u/min,
+      Rpm_value: 2882.10142955184, Speed_unit: km/h, Speed_value: 100.65955555438995,
+      Throttle Position_unit: '%', Throttle Position_value: 28.369369387626648}
+    _Measurement__road: *id003
+    _Measurement__time: '2016-04-11T17:04:15Z'
+  16: !!python/object:CarTrip.Measurement
+    _Measurement__index: 16
+    _Measurement__latitude: 48.09208330126718
+    _Measurement__longitude: 11.257974870622304
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 16.867995713163243, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 21.835680266277453, Consumption_unit: l/h, Consumption_value: 7.177870516239678,
+      Engine Load_unit: '%', Engine Load_value: 68.78239583910272, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 4.170476123690605, GPS Altitude_unit: m, GPS Altitude_value: 585.8295150846243,
+      GPS Bearing_unit: deg, GPS Bearing_value: 265.37276508699415, GPS Speed_unit: km/h,
+      GPS Speed_value: 101.5453711774752, Intake Pressure_unit: kPa, Intake Pressure_value: 70.38809737563133,
+      Intake Temperature_unit: c, Intake Temperature_value: 20.999999687075615, Rpm_unit: u/min,
+      Rpm_value: 2314.1500000953674, Speed_unit: km/h, Speed_value: 101.08207033574581,
+      Throttle Position_unit: '%', Throttle Position_value: 25.00000037252903}
+    _Measurement__road: *id003
+    _Measurement__time: '2016-04-11T17:04:20Z'
+  17: !!python/object:CarTrip.Measurement
+    _Measurement__index: 17
+    _Measurement__latitude: 48.09195754082351
+    _Measurement__longitude: 11.256082449682186
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 22.96152035625271, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 29.72376952500018, Consumption_unit: l/h, Consumption_value: 9.770859726064982,
+      Engine Load_unit: '%', Engine Load_value: 92.54902023895113, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 5.667991876602173, GPS Altitude_unit: m, GPS Altitude_value: 586.9999825060368,
+      GPS Bearing_unit: deg, GPS Bearing_value: 264.7900006535647, GPS Speed_unit: km/h,
+      GPS Speed_value: 105.06303673468983, Intake Pressure_unit: kPa, Intake Pressure_value: 91.99999725818634,
+      Intake Temperature_unit: c, Intake Temperature_value: 21.0, Rpm_unit: u/min,
+      Rpm_value: 2410.1278260946274, Speed_unit: km/h, Speed_value: 105.49735915660858,
+      Throttle Position_unit: '%', Throttle Position_value: 49.83634868264198}
+    _Measurement__road: &id004 !!python/object:CarTrip.Road
+      _Road__display_name: "A 96, Gr\xFCnsink, We\xDFling, Landkreis Starnberg, OB,\
+        \ Bayern, 82234, Deutschland"
+      _Road__osm_id: '12816195'
+      _Road__tags: {bdouble: 'yes', highway: motorway, int_ref: E 54, lanes: '2',
+        maxspeed: '120', 'note:name': "Der reg_name, sowie ggf. der loc_name sind\
+          \ dem zugeh\xF6rigen Wikipediaartikel entnommen.", oneway: 'yes', ref: A
+          96, reg_name: Ammerseeautobahn, tmc: 'DE:12953/12955'}
+    _Measurement__time: '2016-04-11T17:04:25Z'
+  18: !!python/object:CarTrip.Measurement
+    _Measurement__index: 18
+    _Measurement__latitude: 48.091975966790876
+    _Measurement__longitude: 11.254019430599328
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 16.868711437931744, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 21.836606774528306, Consumption_unit: l/h, Consumption_value: 7.178175079970955,
+      Engine Load_unit: '%', Engine Load_value: 55.02774723646826, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 4.000000059604645, GPS Altitude_unit: m, GPS Altitude_value: 584.1214078813791,
+      GPS Bearing_unit: deg, GPS Bearing_value: 273.95130788512324, GPS Speed_unit: km/h,
+      GPS Speed_value: 113.00541666963181, Intake Pressure_unit: kPa, Intake Pressure_value: 63.66517448425293,
+      Intake Temperature_unit: c, Intake Temperature_value: 21.0, Rpm_unit: u/min,
+      Rpm_value: 2558.628458291292, Speed_unit: km/h, Speed_value: 111.99817403685302,
+      Throttle Position_unit: '%', Throttle Position_value: 22.6566104888916}
+    _Measurement__road: *id003
+    _Measurement__time: '2016-04-11T17:04:30Z'
+  19: !!python/object:CarTrip.Measurement
+    _Measurement__index: 19
+    _Measurement__latitude: 48.0922001740625
+    _Measurement__longitude: 11.251933693544922
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 16.65776043037615, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 21.563529947194375, Consumption_unit: l/h, Consumption_value: 7.088408693777085,
+      Engine Load_unit: '%', Engine Load_value: 55.15727208213866, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 4.0, GPS Altitude_unit: m, GPS Altitude_value: 583.0, GPS Bearing_unit: deg,
+      GPS Bearing_value: 282.85730916261673, GPS Speed_unit: km/h, GPS Speed_value: 114.68076655268669,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 61.714476585388184, Intake Temperature_unit: c,
+      Intake Temperature_value: 21.0, Rpm_unit: u/min, Rpm_value: 2606.494497358799,
+      Speed_unit: km/h, Speed_value: 113.99999660253525, Throttle Position_unit: '%',
+      Throttle Position_value: 23.04886652715504}
+    _Measurement__road: *id003
+    _Measurement__time: '2016-04-11T17:04:35Z'
+  20: !!python/object:CarTrip.Measurement
+    _Measurement__index: 20
+    _Measurement__latitude: 48.09259000746878
+    _Measurement__longitude: 11.249874514544349
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 19.61638560816318, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 25.39348073141833, Consumption_unit: l/h, Consumption_value: 8.347398131133268,
+      Engine Load_unit: '%', Engine Load_value: 66.53794015698077, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.819941982626915, GPS Altitude_unit: m, GPS Altitude_value: 580.0000086426735,
+      GPS Bearing_unit: deg, GPS Bearing_value: 287.2502876412018, GPS Speed_unit: km/h,
+      GPS Speed_value: 117.07269664283308, Intake Pressure_unit: kPa, Intake Pressure_value: 71.00000105798244,
+      Intake Temperature_unit: c, Intake Temperature_value: 21.0, Rpm_unit: u/min,
+      Rpm_value: 2668.012656364357, Speed_unit: km/h, Speed_value: 116.81692224740982,
+      Throttle Position_unit: '%', Throttle Position_value: 25.999999225139618}
+    _Measurement__road: *id004
+    _Measurement__time: '2016-04-11T17:04:40Z'
+  21: !!python/object:CarTrip.Measurement
+    _Measurement__index: 21
+    _Measurement__latitude: 48.09300066244509
+    _Measurement__longitude: 11.247723076238568
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 21.079768529245857, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 27.287835112060986, Consumption_unit: l/h, Consumption_value: 8.970114267764194,
+      Engine Load_unit: '%', Engine Load_value: 70.43578647885397, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 5.836990594863892, GPS Altitude_unit: m, GPS Altitude_value: 581.0,
+      GPS Bearing_unit: deg, GPS Bearing_value: 284.2124829910317, GPS Speed_unit: km/h,
+      GPS Speed_value: 119.55140064236184, Intake Pressure_unit: kPa, Intake Pressure_value: 74.67066675424576,
+      Intake Temperature_unit: c, Intake Temperature_value: 21.000000312924385, Rpm_unit: u/min,
+      Rpm_value: 2726.1080139279366, Speed_unit: km/h, Speed_value: 119.23213064670563,
+      Throttle Position_unit: '%', Throttle Position_value: 27.160104990005493}
+    _Measurement__road: *id003
+    _Measurement__time: '2016-04-11T17:04:45Z'
+  22: !!python/object:CarTrip.Measurement
+    _Measurement__index: 22
+    _Measurement__latitude: 48.093108412109515
+    _Measurement__longitude: 11.245503406661163
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 22.695207807395946, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 29.37902698613436, Consumption_unit: l/h, Consumption_value: 9.657535237189764,
+      Engine Load_unit: '%', Engine Load_value: 76.4052859936769, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 582.0, GPS Bearing_unit: deg,
+      GPS Bearing_value: 271.5220818036905, GPS Speed_unit: km/h, GPS Speed_value: 122.01114043048801,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 79.99999858438969, Intake Temperature_unit: c,
+      Intake Temperature_value: 21.0, Rpm_unit: u/min, Rpm_value: 2739.5008212178946,
+      Speed_unit: km/h, Speed_value: 119.99999642372131, Throttle Position_unit: '%',
+      Throttle Position_value: 29.64152616262436}
+    _Measurement__road: *id003
+    _Measurement__time: '2016-04-11T17:04:50Z'
+  23: !!python/object:CarTrip.Measurement
+    _Measurement__index: 23
+    _Measurement__latitude: 48.092927842744444
+    _Measurement__longitude: 11.24326909275528
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 19.809097462437965, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 25.642946910152407, Consumption_unit: l/h, Consumption_value: 8.429403175505517,
+      Engine Load_unit: '%', Engine Load_value: 65.74255221505041, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 4.000000059604645, GPS Altitude_unit: m, GPS Altitude_value: 585.0000087171793,
+      GPS Bearing_unit: deg, GPS Bearing_value: 259.88996886895256, GPS Speed_unit: km/h,
+      GPS Speed_value: 119.56886842854715, Intake Pressure_unit: kPa, Intake Pressure_value: 70.4942016005516,
+      Intake Temperature_unit: c, Intake Temperature_value: 20.99999980442226, Rpm_unit: u/min,
+      Rpm_value: 2713.5544645786285, Speed_unit: km/h, Speed_value: 118.82794937491417,
+      Throttle Position_unit: '%', Throttle Position_value: 26.1714785695076}
+    _Measurement__road: &id005 !!python/object:CarTrip.Road
+      _Road__display_name: "A 96, Gr\xFCnsink, We\xDFling, Landkreis Starnberg, OB,\
+        \ Bayern, 82234, Deutschland"
+      _Road__osm_id: '12816197'
+      _Road__tags: {bdouble: 'yes', highway: motorway, int_ref: E 54, lanes: '2',
+        maxspeed: '120', 'note:name': "Der reg_name, sowie ggf. der loc_name sind\
+          \ dem zugeh\xF6rigen Wikipediaartikel entnommen.", oneway: 'yes', ref: A
+          96, reg_name: Ammerseeautobahn, tmc: 'DE:12953/12955'}
+    _Measurement__time: '2016-04-11T17:04:55Z'
+  24: !!python/object:CarTrip.Measurement
+    _Measurement__index: 24
+    _Measurement__latitude: 48.09256300541915
+    _Measurement__longitude: 11.2411616274312
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 21.529841465232533, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 27.87045612369906, Consumption_unit: l/h, Consumption_value: 9.161634666056397,
+      Engine Load_unit: '%', Engine Load_value: 77.31229024730703, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.1687631011009216, GPS Altitude_unit: m, GPS Altitude_value: 587.8312368988991,
+      GPS Bearing_unit: deg, GPS Bearing_value: 252.83752620220184, GPS Speed_unit: km/h,
+      GPS Speed_value: 115.38337910574137, Intake Pressure_unit: kPa, Intake Pressure_value: 79.27933332324028,
+      Intake Temperature_unit: c, Intake Temperature_value: 21.0, Rpm_unit: u/min,
+      Rpm_value: 2622.4552923440933, Speed_unit: km/h, Speed_value: 115.00000342726707,
+      Throttle Position_unit: '%', Throttle Position_value: 36.519469916820526}
+    _Measurement__road: *id005
+    _Measurement__time: '2016-04-11T17:05:00Z'
+  25: !!python/object:CarTrip.Measurement
+    _Measurement__index: 25
+    _Measurement__latitude: 48.092042367446936
+    _Measurement__longitude: 11.239115176000594
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 20.638486867500006, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 26.7165944361024, Consumption_unit: l/h, Consumption_value: 8.782334837234044,
+      Engine Load_unit: '%', Engine Load_value: 69.757578076149, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 2.999999910593033, GPS Altitude_unit: m, GPS Altitude_value: 591.9999823570251,
+      GPS Bearing_unit: deg, GPS Bearing_value: 246.93546715200773, GPS Speed_unit: km/h,
+      GPS Speed_value: 117.42290771445914, Intake Pressure_unit: kPa, Intake Pressure_value: 74.688405752182,
+      Intake Temperature_unit: c, Intake Temperature_value: 20.999999687075615, Rpm_unit: u/min,
+      Rpm_value: 2668.406034320593, Speed_unit: km/h, Speed_value: 117.00000032689422,
+      Throttle Position_unit: '%', Throttle Position_value: 27.578662663698196}
+    _Measurement__road: *id005
+    _Measurement__time: '2016-04-11T17:05:05Z'
+  26: !!python/object:CarTrip.Measurement
+    _Measurement__index: 26
+    _Measurement__latitude: 48.091385898731616
+    _Measurement__longitude: 11.237128872726478
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 21.182970351401345, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 27.42143023680518, Consumption_unit: l/h, Consumption_value: 9.01402993676653,
+      Engine Load_unit: '%', Engine Load_value: 68.2839650397506, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.0000000447034836, GPS Altitude_unit: m, GPS Altitude_value: 593.0000088363886,
+      GPS Bearing_unit: deg, GPS Bearing_value: 241.99515587104906, GPS Speed_unit: km/h,
+      GPS Speed_value: 119.69108242200525, Intake Pressure_unit: kPa, Intake Pressure_value: 75.12340262532234,
+      Intake Temperature_unit: c, Intake Temperature_value: 21.00000062584877, Rpm_unit: u/min,
+      Rpm_value: 2722.9449377059937, Speed_unit: km/h, Speed_value: 119.0, Throttle Position_unit: '%',
+      Throttle Position_value: 26.605194807052612}
+    _Measurement__road: &id006 !!python/object:CarTrip.Road
+      _Road__display_name: "A 96, W\xF6rthsee, Landkreis Starnberg, OB, Bayern, 82237,\
+        \ Deutschland"
+      _Road__osm_id: '29264288'
+      _Road__tags: {bdouble: 'yes', highway: motorway, int_ref: E 54, lanes: '2',
+        'note:name': "Der reg_name, sowie ggf. der loc_name sind dem zugeh\xF6rigen\
+          \ Wikipediaartikel entnommen.", oneway: 'yes', ref: A 96, reg_name: Ammerseeautobahn,
+        tmc: 'DE:12953/12955'}
+    _Measurement__time: '2016-04-11T17:05:10Z'
+  27: !!python/object:CarTrip.Measurement
+    _Measurement__index: 27
+    _Measurement__latitude: 48.09063042175232
+    _Measurement__longitude: 11.235182375339715
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 17.106266505287127, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 22.144122651613706, Consumption_unit: l/h, Consumption_value: 7.2792623426753735,
+      Engine Load_unit: '%', Engine Load_value: 52.5108880507114, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 4.861746430397034, GPS Altitude_unit: m, GPS Altitude_value: 592.0000088214874,
+      GPS Bearing_unit: deg, GPS Bearing_value: 239.60000967383394, GPS Speed_unit: km/h,
+      GPS Speed_value: 120.20039546788325, Intake Pressure_unit: kPa, Intake Pressure_value: 60.596802830696106,
+      Intake Temperature_unit: c, Intake Temperature_value: 21.0, Rpm_unit: u/min,
+      Rpm_value: 2726.0434490703046, Speed_unit: km/h, Speed_value: 119.0}
+    _Measurement__road: *id006
+    _Measurement__time: '2016-04-11T17:05:15Z'
+  28: !!python/object:CarTrip.Measurement
+    _Measurement__index: 28
+    _Measurement__latitude: 48.0898221669035
+    _Measurement__longitude: 11.233281295858891
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 15.361209747550397, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 19.885140490578976, Consumption_unit: l/h, Consumption_value: 6.5366849989576155,
+      Engine Load_unit: '%', Engine Load_value: 44.44982729151866, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.8153988271951675, GPS Altitude_unit: m, GPS Altitude_value: 590.9999911934137,
+      GPS Bearing_unit: deg, GPS Bearing_value: 237.3719938371887, GPS Speed_unit: km/h,
+      GPS Speed_value: 120.72987662765195, Intake Pressure_unit: kPa, Intake Pressure_value: 54.33779999613762,
+      Intake Temperature_unit: c, Intake Temperature_value: 21.0, Rpm_unit: u/min,
+      Rpm_value: 2729.9243912398815, Speed_unit: km/h, Speed_value: 119.0, Throttle Position_unit: '%',
+      Throttle Position_value: 21.971995936706662}
+    _Measurement__road: *id006
+    _Measurement__time: '2016-04-11T17:05:20Z'
+  29: !!python/object:CarTrip.Measurement
+    _Measurement__index: 29
+    _Measurement__latitude: 48.0890081820916
+    _Measurement__longitude: 11.231375540569385
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 15.004892951821148, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 19.42388713497273, Consumption_unit: l/h, Consumption_value: 6.385060830562191,
+      Engine Load_unit: '%', Engine Load_value: 45.05536754656987, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.9999999701976776, GPS Altitude_unit: m, GPS Altitude_value: 588.8962695300579,
+      GPS Bearing_unit: deg, GPS Bearing_value: 236.95327059773535, GPS Speed_unit: km/h,
+      GPS Speed_value: 120.68572064520788, Intake Pressure_unit: kPa, Intake Pressure_value: 53.19667723029852,
+      Intake Temperature_unit: c, Intake Temperature_value: 21.0, Rpm_unit: u/min,
+      Rpm_value: 2723.802698135376, Speed_unit: km/h, Speed_value: 118.99999645352364,
+      Throttle Position_unit: '%', Throttle Position_value: 22.4731183052063}
+    _Measurement__road: *id006
+    _Measurement__time: '2016-04-11T17:05:25Z'
+  30: !!python/object:CarTrip.Measurement
+    _Measurement__index: 30
+    _Measurement__latitude: 48.08824856114248
+    _Measurement__longitude: 11.229503819380525
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 5.617941919018923, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 7.272445735949849, Consumption_unit: l/h, Consumption_value: 2.390613582561244,
+      Engine Load_unit: '%', Engine Load_value: 13.33333281675975, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 4.000000029802322, GPS Altitude_unit: m, GPS Altitude_value: 587.0000043734908,
+      GPS Bearing_unit: deg, GPS Bearing_value: 239.87314457481887, GPS Speed_unit: km/h,
+      GPS Speed_value: 114.97155433193632, Intake Pressure_unit: kPa, Intake Pressure_value: 21.0,
+      Intake Temperature_unit: c, Intake Temperature_value: 21.000000312924385, Rpm_unit: u/min,
+      Rpm_value: 2583.3616087138653, Speed_unit: km/h, Speed_value: 112.7308344244957,
+      Throttle Position_unit: '%', Throttle Position_value: 14.00000036507845}
+    _Measurement__road: *id006
+    _Measurement__time: '2016-04-11T17:05:30Z'
+  31: !!python/object:CarTrip.Measurement
+    _Measurement__index: 31
+    _Measurement__latitude: 48.08761349650607
+    _Measurement__longitude: 11.227641390870824
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 5.2618037284827075, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 6.811423585399334, Consumption_unit: l/h, Consumption_value: 2.2390654163756203,
+      Engine Load_unit: '%', Engine Load_value: 14.509803988185581, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 5.089783132076263, GPS Altitude_unit: m, GPS Altitude_value: 586.089765816927,
+      GPS Bearing_unit: deg, GPS Bearing_value: 245.82167004979783, GPS Speed_unit: km/h,
+      GPS Speed_value: 107.93052522413791, Intake Pressure_unit: kPa, Intake Pressure_value: 20.9999994719401,
+      Intake Temperature_unit: c, Intake Temperature_value: 21.00000062584877, Rpm_unit: u/min,
+      Rpm_value: 2419.5946303755045, Speed_unit: km/h, Speed_value: 106.30714917182922,
+      Throttle Position_unit: '%', Throttle Position_value: 14.0}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: "A 96, W\xF6rthsee, Landkreis Starnberg, OB, Bayern, 82237,\
+        \ Deutschland"
+      _Road__osm_id: '289430482'
+      _Road__tags: {bdouble: 'yes', 'destination:lanes': "Inning am Ammersee|Inning\
+          \ am Ammersee|W\xF6rthsee", highway: motorway, int_ref: E 54, lanes: '3',
+        'note:name': "Der reg_name, sowie ggf. der loc_name sind dem zugeh\xF6rigen\
+          \ Wikipediaartikel entnommen.", oneway: 'yes', placement: 'right_of:1',
+        ref: A 96, reg_name: Ammerseeautobahn, tmc: 'DE:12953/12955', 'turn:lanes': none|none|slight_right}
+    _Measurement__time: '2016-04-11T17:05:35Z'
+  32: !!python/object:CarTrip.Measurement
+    _Measurement__index: 32
+    _Measurement__latitude: 48.087191144760084
+    _Measurement__longitude: 11.22588039522723
+    _Measurement__measures: {Engine Load_unit: '%', Engine Load_value: 13.916077556722769,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.000000074505806, GPS Altitude_unit: m,
+      GPS Altitude_value: 585.7948805242777, GPS Bearing_unit: deg, GPS Bearing_value: 251.87436757951218,
+      GPS Speed_unit: km/h, GPS Speed_value: 99.3888024671761, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 20.0, Rpm_unit: u/min, Rpm_value: 2268.660716086626,
+      Speed_unit: km/h, Speed_value: 98.99290109332651, Throttle Position_unit: '%',
+      Throttle Position_value: 14.0}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: "A 96, W\xF6rthsee, Landkreis Starnberg, OB, Bayern, 82237,\
+        \ Deutschland"
+      _Road__osm_id: '135399881'
+      _Road__tags: {bdouble: 'yes', highway: motorway, int_ref: E 54, lanes: '2',
+        'note:name': "Der reg_name, sowie ggf. der loc_name sind dem zugeh\xF6rigen\
+          \ Wikipediaartikel entnommen.", oneway: 'yes', ref: A 96, reg_name: Ammerseeautobahn,
+        tmc: 'DE:12953'}
+    _Measurement__time: '2016-04-11T17:05:40Z'
+  33: !!python/object:CarTrip.Measurement
+    _Measurement__index: 33
+    _Measurement__latitude: 48.08685186121056
+    _Measurement__longitude: 11.22409527459811
+    _Measurement__measures: {Engine Load_unit: '%', Engine Load_value: 55.6653683108088,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 6.219735503196716, GPS Altitude_unit: m,
+      GPS Altitude_value: 583.4394710063934, GPS Bearing_unit: deg, GPS Bearing_value: 257.6153192222282,
+      GPS Speed_unit: km/h, GPS Speed_value: 96.60772872713187, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 55.270717173814774, Rpm_unit: u/min, Rpm_value: 2185.0,
+      Speed_unit: km/h, Speed_value: 96.0, Throttle Position_unit: '%', Throttle Position_value: 19.206604778766632}
+    _Measurement__road: &id007 !!python/object:CarTrip.Road
+      _Road__display_name: "A 96, W\xF6rthsee, Landkreis Starnberg, OB, Bayern, 82237,\
+        \ Deutschland"
+      _Road__osm_id: '29265078'
+      _Road__tags: {bdouble: 'yes', highway: motorway, int_ref: E 54, lanes: '2',
+        maxspeed: none, 'note:name': "Der reg_name, sowie ggf. der loc_name sind dem\
+          \ zugeh\xF6rigen Wikipediaartikel entnommen.", oneway: 'yes', ref: A 96,
+        reg_name: Ammerseeautobahn, 'source:maxspeed': 'DE:motorway', tmc: 'DE:32246/12953',
+        'zone:traffic': 'DE:rural'}
+    _Measurement__time: '2016-04-11T17:05:45Z'
+  34: !!python/object:CarTrip.Measurement
+    _Measurement__index: 34
+    _Measurement__latitude: 48.08669109845678
+    _Measurement__longitude: 11.222314007613083
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 13.14212798819122, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 17.01253128400427, Consumption_unit: l/h, Consumption_value: 5.5923948885920085,
+      Engine Load_unit: '%', Engine Load_value: 54.90196228027344, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 5.8991769552230835, GPS Altitude_unit: m, GPS Altitude_value: 582.0,
+      GPS Bearing_unit: deg, GPS Bearing_value: 264.5, GPS Speed_unit: km/h, GPS Speed_value: 96.12000274658203,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 57.9999982714653, Intake Temperature_unit: c,
+      Intake Temperature_value: 21.0, Rpm_unit: u/min, Rpm_value: 2188.0888966172934,
+      Speed_unit: km/h, Speed_value: 96.00000205636024, Throttle Position_unit: '%',
+      Throttle Position_value: 22.0}
+    _Measurement__road: *id007
+    _Measurement__time: '2016-04-11T17:05:50Z'
+  35: !!python/object:CarTrip.Measurement
+    _Measurement__index: 35
+    _Measurement__latitude: 48.0866880637013
+    _Measurement__longitude: 11.220499335072773
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 11.811445030088587, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 15.289957476006517, Consumption_unit: l/h, Consumption_value: 5.026146821314292,
+      Engine Load_unit: '%', Engine Load_value: 48.23529362327912, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 4.0000001192092896, GPS Altitude_unit: m, GPS Altitude_value: 582.1262598931789,
+      GPS Bearing_unit: deg, GPS Bearing_value: 270.0366194643457, GPS Speed_unit: km/h,
+      GPS Speed_value: 96.23848763940441, Intake Pressure_unit: kPa, Intake Pressure_value: 52.28686326742172,
+      Intake Temperature_unit: c, Intake Temperature_value: 21.000000312924385, Rpm_unit: u/min,
+      Rpm_value: 2181.411986708641, Speed_unit: km/h, Speed_value: 95.00000283122063,
+      Throttle Position_unit: '%', Throttle Position_value: 20.843971468508244}
+    _Measurement__road: *id007
+    _Measurement__time: '2016-04-11T17:05:55Z'
+  36: !!python/object:CarTrip.Measurement
+    _Measurement__index: 36
+    _Measurement__latitude: 48.0866828466021
+    _Measurement__longitude: 11.218723299891177
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 15.931960136571355, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 20.62397889310416, Consumption_unit: l/h, Consumption_value: 6.7795575049239805,
+      Engine Load_unit: '%', Engine Load_value: 71.7237166602365, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 4.918345630168915, GPS Altitude_unit: m, GPS Altitude_value: 582.999991312623,
+      GPS Bearing_unit: deg, GPS Bearing_value: 268.99999599158764, GPS Speed_unit: km/h,
+      GPS Speed_value: 94.35239269804367, Intake Pressure_unit: kPa, Intake Pressure_value: 71.04929687082767,
+      Intake Temperature_unit: c, Intake Temperature_value: 21.0, Rpm_unit: u/min,
+      Rpm_value: 2165.392744705081, Speed_unit: km/h, Speed_value: 94.84790733456612,
+      Throttle Position_unit: '%', Throttle Position_value: 25.860814809799194}
+    _Measurement__road: &id008 !!python/object:CarTrip.Road
+      _Road__display_name: "A 96, W\xF6rthsee, Landkreis Starnberg, OB, Bayern, 82237,\
+        \ Deutschland"
+      _Road__osm_id: '29264384'
+      _Road__tags: {bdouble: 'yes', highway: motorway, int_ref: E 54, lanes: '2',
+        maxspeed: '120', 'note:name': "Der reg_name, sowie ggf. der loc_name sind\
+          \ dem zugeh\xF6rigen Wikipediaartikel entnommen.", oneway: 'yes', ref: A
+          96, reg_name: Ammerseeautobahn, tmc: 'DE:32246/12953'}
+    _Measurement__time: '2016-04-11T17:06:00Z'
+  37: !!python/object:CarTrip.Measurement
+    _Measurement__index: 37
+    _Measurement__latitude: 48.08668430516889
+    _Measurement__longitude: 11.216904480390031
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 4.2854720240809225, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 5.547558731882059, Consumption_unit: l/h, Consumption_value: 1.8236051166301797,
+      Engine Load_unit: '%', Engine Load_value: 14.515288997772018, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.999999910593033, GPS Altitude_unit: m, GPS Altitude_value: 580.9053654968739,
+      GPS Bearing_unit: deg, GPS Bearing_value: 267.64731088057147, GPS Speed_unit: km/h,
+      GPS Speed_value: 96.71871701791389, Intake Pressure_unit: kPa, Intake Pressure_value: 19.000000566244125,
+      Intake Temperature_unit: c, Intake Temperature_value: 21.000000312924385, Rpm_unit: u/min,
+      Rpm_value: 2178.0723483264446, Speed_unit: km/h, Speed_value: 95.53004199266434,
+      Throttle Position_unit: '%', Throttle Position_value: 13.999999687075615}
+    _Measurement__road: *id008
+    _Measurement__time: '2016-04-11T17:06:05Z'
+  38: !!python/object:CarTrip.Measurement
+    _Measurement__index: 38
+    _Measurement__latitude: 48.08654824550179
+    _Measurement__longitude: 11.215237102374688
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 3.513389279182396, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 4.548094880728843, Consumption_unit: l/h, Consumption_value: 1.4950592677371897,
+      Engine Load_unit: '%', Engine Load_value: 13.468147786522792, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.999999910593033, GPS Altitude_unit: m, GPS Altitude_value: 579.9329075738788,
+      GPS Bearing_unit: deg, GPS Bearing_value: 264.1670796625315, GPS Speed_unit: km/h,
+      GPS Speed_value: 88.16372174216161, Intake Pressure_unit: kPa, Intake Pressure_value: 17.008749207481742,
+      Intake Temperature_unit: c, Intake Temperature_value: 21.0, Rpm_unit: u/min,
+      Rpm_value: 1994.7163376808167, Speed_unit: km/h, Speed_value: 87.62478184700012,
+      Throttle Position_unit: '%', Throttle Position_value: 13.349693238735199}
+    _Measurement__road: *id007
+    _Measurement__time: '2016-04-11T17:06:10Z'
+  39: !!python/object:CarTrip.Measurement
+    _Measurement__index: 39
+    _Measurement__latitude: 48.08644194768424
+    _Measurement__longitude: 11.213624859494104
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 5.847354658688324, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 7.5694213409722435, Consumption_unit: l/h, Consumption_value: 2.4882360249737547,
+      Engine Load_unit: '%', Engine Load_value: 25.229893439756438, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 5.000000037252903, GPS Altitude_unit: m, GPS Altitude_value: 583.0000043436885,
+      GPS Bearing_unit: deg, GPS Bearing_value: 262.85803448825254, GPS Speed_unit: km/h,
+      GPS Speed_value: 82.62674783070463, Intake Pressure_unit: kPa, Intake Pressure_value: 29.99999910593033,
+      Intake Temperature_unit: c, Intake Temperature_value: 21.0, Rpm_unit: u/min,
+      Rpm_value: 1882.1985938549042, Speed_unit: km/h, Speed_value: 81.83243727684021,
+      Throttle Position_unit: '%', Throttle Position_value: 16.00000023841858}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: "A 96, W\xF6rthsee, Landkreis Starnberg, OB, Bayern, 82237,\
+        \ Deutschland"
+      _Road__osm_id: '29264383'
+      _Road__tags: {bdouble: 'yes', highway: motorway, int_ref: E 54, lanes: '2',
+        maxheight: '4.3', maxspeed: signals, 'note:name': "Der reg_name, sowie ggf.\
+          \ der loc_name sind dem zugeh\xF6rigen Wikipediaartikel entnommen.", oneway: 'yes',
+        ref: A 96, reg_name: Ammerseeautobahn, tmc: 'DE:32246/12953'}
+    _Measurement__time: '2016-04-11T17:06:16Z'
+  40: !!python/object:CarTrip.Measurement
+    _Measurement__index: 40
+    _Measurement__latitude: 48.08624022432191
+    _Measurement__longitude: 11.212151878366642
+    _Measurement__measures: {Engine Load_unit: '%', Engine Load_value: 19.637614450027854,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 4.046396795660257, GPS Altitude_unit: m,
+      GPS Altitude_value: 582.9999934844673, GPS Bearing_unit: deg, GPS Bearing_value: 258.8853717878959,
+      GPS Speed_unit: km/h, GPS Speed_value: 79.8320393201954, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 24.91719228029251, Rpm_unit: u/min, Rpm_value: 1790.4388551712036,
+      Speed_unit: km/h, Speed_value: 78.39487865567207, Throttle Position_unit: '%',
+      Throttle Position_value: 14.000000417232513}
+    _Measurement__road: *id007
+    _Measurement__time: '2016-04-11T17:06:21Z'
+  41: !!python/object:CarTrip.Measurement
+    _Measurement__index: 41
+    _Measurement__latitude: 48.08604315092489
+    _Measurement__longitude: 11.210741525995202
+    _Measurement__measures: {Engine Load_unit: '%', Engine Load_value: 12.549019439547664,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 4.836163759231567, GPS Altitude_unit: m,
+      GPS Altitude_value: 582.999991312623, GPS Bearing_unit: deg, GPS Bearing_value: 256.647516168061,
+      GPS Speed_unit: km/h, GPS Speed_value: 75.64191539659134, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 17.9999997317791, Rpm_unit: u/min, Rpm_value: 1707.8247979283333,
+      Speed_unit: km/h, Speed_value: 75.0919871032238, Throttle Position_unit: '%',
+      Throttle Position_value: 13.0}
+    _Measurement__road: *id007
+    _Measurement__time: '2016-04-11T17:06:25Z'
+  42: !!python/object:CarTrip.Measurement
+    _Measurement__index: 42
+    _Measurement__latitude: 48.085830257787656
+    _Measurement__longitude: 11.209436659800538
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 3.2669014835827856, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 4.22901555525495, Consumption_unit: l/h, Consumption_value: 1.3901708440777811,
+      Engine Load_unit: '%', Engine Load_value: 12.890951096647768, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.9999999701976776, GPS Altitude_unit: m, GPS Altitude_value: 583.0971497297287,
+      GPS Bearing_unit: deg, GPS Bearing_value: 257.33171969370073, GPS Speed_unit: km/h,
+      GPS Speed_value: 69.40245196218268, Intake Pressure_unit: kPa, Intake Pressure_value: 20.152465760707855,
+      Intake Temperature_unit: c, Intake Temperature_value: 23.0, Rpm_unit: u/min,
+      Rpm_value: 1576.0789947509766, Speed_unit: km/h, Speed_value: 68.60414582490921,
+      Throttle Position_unit: '%', Throttle Position_value: 12.083626940846443}
+    _Measurement__road: *id007
+    _Measurement__time: '2016-04-11T17:06:30Z'
+  43: !!python/object:CarTrip.Measurement
+    _Measurement__index: 43
+    _Measurement__latitude: 48.08562648967897
+    _Measurement__longitude: 11.208150096497356
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 8.571074756651702, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 11.095286666367745, Consumption_unit: l/h, Consumption_value: 3.6472658538943414,
+      Engine Load_unit: '%', Engine Load_value: 47.315531320860714, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 4.000000074505806, GPS Altitude_unit: m, GPS Altitude_value: 584.0000108778477,
+      GPS Bearing_unit: deg, GPS Bearing_value: 255.83166994527937, GPS Speed_unit: km/h,
+      GPS Speed_value: 69.66682882003224, Intake Pressure_unit: kPa, Intake Pressure_value: 52.568698823451996,
+      Intake Temperature_unit: c, Intake Temperature_value: 23.000000685453415, Rpm_unit: u/min,
+      Rpm_value: 1585.1785657927394, Speed_unit: km/h, Speed_value: 69.0, Throttle Position_unit: '%',
+      Throttle Position_value: 18.0}
+    _Measurement__road: *id007
+    _Measurement__time: '2016-04-11T17:06:35Z'
+  44: !!python/object:CarTrip.Measurement
+    _Measurement__index: 44
+    _Measurement__latitude: 48.085394725916075
+    _Measurement__longitude: 11.206851267587473
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 6.042761129254972, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 7.822375710051515, Consumption_unit: l/h, Consumption_value: 2.5713877145765838,
+      Engine Load_unit: '%', Engine Load_value: 30.765920108730498, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 4.040040977299213, GPS Altitude_unit: m, GPS Altitude_value: 583.9999869465828,
+      GPS Bearing_unit: deg, GPS Bearing_value: 256.7900028052179, GPS Speed_unit: km/h,
+      GPS Speed_value: 71.3483947065086, Intake Pressure_unit: kPa, Intake Pressure_value: 37.15357032418251,
+      Intake Temperature_unit: c, Intake Temperature_value: 23.0, Rpm_unit: u/min,
+      Rpm_value: 1581.266271442175, Speed_unit: km/h, Speed_value: 69.00000205636024,
+      Throttle Position_unit: '%', Throttle Position_value: 15.544893890619278}
+    _Measurement__road: &id009 !!python/object:CarTrip.Road
+      _Road__display_name: "A 96, W\xF6rthsee, Landkreis Starnberg, OB, Bayern, 82237,\
+        \ Deutschland"
+      _Road__osm_id: '10580406'
+      _Road__tags: {bdouble: 'yes', highway: motorway, int_ref: E 54, lanes: '2',
+        maxheight: '4.3', maxspeed: signals, 'note:name': "Der reg_name, sowie ggf.\
+          \ der loc_name sind dem zugeh\xF6rigen Wikipediaartikel entnommen.", oneway: 'yes',
+        ref: A 96, reg_name: Ammerseeautobahn, tmc: 'DE:32246/12953'}
+    _Measurement__time: '2016-04-11T17:06:41Z'
+  45: !!python/object:CarTrip.Measurement
+    _Measurement__index: 45
+    _Measurement__latitude: 48.08520253188959
+    _Measurement__longitude: 11.205641497118922
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 3.935688177974654, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 5.0947623027292455, Consumption_unit: l/h, Consumption_value: 1.674760926797725,
+      Engine Load_unit: '%', Engine Load_value: 21.038368132782296, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 7.032868683338165, GPS Altitude_unit: m, GPS Altitude_value: 582.0328815355897,
+      GPS Bearing_unit: deg, GPS Bearing_value: 255.9429234575673, GPS Speed_unit: km/h,
+      GPS Speed_value: 67.7468295405468, Intake Pressure_unit: kPa, Intake Pressure_value: 24.4451217725873,
+      Intake Temperature_unit: c, Intake Temperature_value: 23.0, Rpm_unit: u/min,
+      Rpm_value: 1565.3037008680403, Speed_unit: km/h, Speed_value: 68.23839488625526,
+      Throttle Position_unit: '%', Throttle Position_value: 14.865148425102234}
+    _Measurement__road: *id009
+    _Measurement__time: '2016-04-11T17:06:46Z'
+  46: !!python/object:CarTrip.Measurement
+    _Measurement__index: 46
+    _Measurement__latitude: 48.085060945097105
+    _Measurement__longitude: 11.20435830819183
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 3.863681075302306, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 5.001548852975556, Consumption_unit: l/h, Consumption_value: 1.6441196065116195,
+      Engine Load_unit: '%', Engine Load_value: 19.69844619126792, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 11.969022376462817, GPS Altitude_unit: m, GPS Altitude_value: 580.0000054016709,
+      GPS Bearing_unit: deg, GPS Bearing_value: 257.3305916987302, GPS Speed_unit: km/h,
+      GPS Speed_value: 67.35271148010425, Intake Pressure_unit: kPa, Intake Pressure_value: 24.53482297062874,
+      Intake Temperature_unit: c, Intake Temperature_value: 23.00000032130629, Rpm_unit: u/min,
+      Rpm_value: 1531.046839416027, Speed_unit: km/h, Speed_value: 66.8270412683487,
+      Throttle Position_unit: '%', Throttle Position_value: 13.120657846331596}
+    _Measurement__road: &id010 !!python/object:CarTrip.Road
+      _Road__display_name: "Tunnel Etterschlag, W\xF6rthsee, Landkreis Starnberg,\
+        \ OB, Bayern, 82237, Deutschland"
+      _Road__osm_id: '10580405'
+      _Road__tags: {bdouble: 'yes', highway: motorway, int_ref: E 54, lanes: '2',
+        layer: '-1', length: '500', maxheight: '4.3', maxspeed: signals, name: Tunnel
+          Etterschlag, 'note:name': "Der reg_name, sowie ggf. der loc_name sind dem\
+          \ zugeh\xF6rigen Wikipediaartikel entnommen.", oneway: 'yes', ref: A 96,
+        reg_name: Ammerseeautobahn, tmc: 'DE:32246', tunnel: 'yes'}
+    _Measurement__time: '2016-04-11T17:06:51Z'
+  47: !!python/object:CarTrip.Measurement
+    _Measurement__index: 47
+    _Measurement__latitude: 48.08493923513835
+    _Measurement__longitude: 11.20310388260104
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 3.766909951559396, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 4.876278290130346, Consumption_unit: l/h, Consumption_value: 1.6029404049188918,
+      Engine Load_unit: '%', Engine Load_value: 18.3159101522117, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 35.07263733446598, GPS Altitude_unit: m, GPS Altitude_value: 580.0000086426735,
+      GPS Bearing_unit: deg, GPS Bearing_value: 261.0000038892031, GPS Speed_unit: km/h,
+      GPS Speed_value: 67.56848885175646, Intake Pressure_unit: kPa, Intake Pressure_value: 25.01090917829424,
+      Intake Temperature_unit: c, Intake Temperature_value: 23.000000685453415, Rpm_unit: u/min,
+      Rpm_value: 1464.2859494537115, Speed_unit: km/h, Speed_value: 64.0, Throttle Position_unit: '%',
+      Throttle Position_value: 13.643051356077194}
+    _Measurement__road: *id010
+    _Measurement__time: '2016-04-11T17:06:56Z'
+  48: !!python/object:CarTrip.Measurement
+    _Measurement__index: 48
+    _Measurement__latitude: 48.08464726501158
+    _Measurement__longitude: 11.197356112591782
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 11.603349333525703, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 15.020576858877863, Consumption_unit: l/h, Consumption_value: 4.937595461074767,
+      Engine Load_unit: '%', Engine Load_value: 73.77188913436134, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 18.970000089146197, GPS Altitude_unit: m, GPS Altitude_value: 580.0050027007237,
+      GPS Bearing_unit: deg, GPS Bearing_value: 268.2965597818911, GPS Speed_unit: km/h,
+      GPS Speed_value: 63.79345702299904, Intake Pressure_unit: kPa, Intake Pressure_value: 76.32298135757446,
+      Intake Temperature_unit: c, Intake Temperature_value: 23.0, Rpm_unit: u/min,
+      Rpm_value: 1478.0808000862598, Speed_unit: km/h, Speed_value: 64.73730105161667,
+      Throttle Position_unit: '%', Throttle Position_value: 23.283505141735077}
+    _Measurement__road: &id011 !!python/object:CarTrip.Road
+      _Road__display_name: "A 96, W\xF6rthsee, Landkreis Starnberg, OB, Bayern, 82237,\
+        \ Deutschland"
+      _Road__osm_id: '10580404'
+      _Road__tags: {bdouble: 'yes', highway: motorway, int_ref: E 54, lanes: '2',
+        maxheight: '4.3', maxspeed: signals, 'note:name': "Der reg_name, sowie ggf.\
+          \ der loc_name sind dem zugeh\xF6rigen Wikipediaartikel entnommen.", oneway: 'yes',
+        ref: A 96, reg_name: Ammerseeautobahn, tmc: 'DE:60814/32246'}
+    _Measurement__time: '2016-04-11T17:07:21Z'
+  49: !!python/object:CarTrip.Measurement
+    _Measurement__index: 49
+    _Measurement__latitude: 48.084618240721234
+    _Measurement__longitude: 11.196103054134403
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 11.70961700338864, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 15.158140734351145, Consumption_unit: l/h, Consumption_value: 4.982815746122825,
+      Engine Load_unit: '%', Engine Load_value: 70.58197198190464, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 6.9579998049885035, GPS Altitude_unit: m, GPS Altitude_value: 575.0419839341193,
+      GPS Bearing_unit: deg, GPS Bearing_value: 272.19139452506255, GPS Speed_unit: km/h,
+      GPS Speed_value: 66.68484719709124, Intake Pressure_unit: kPa, Intake Pressure_value: 74.4453125,
+      Intake Temperature_unit: c, Intake Temperature_value: 23.0, Rpm_unit: u/min,
+      Rpm_value: 1529.2393617630005, Speed_unit: km/h, Speed_value: 67.0000019967556,
+      Throttle Position_unit: '%', Throttle Position_value: 21.862162485718727}
+    _Measurement__road: *id011
+    _Measurement__time: '2016-04-11T17:07:26Z'
+  50: !!python/object:CarTrip.Measurement
+    _Measurement__index: 50
+    _Measurement__latitude: 48.08460509701926
+    _Measurement__longitude: 11.194803633379944
+    _Measurement__measures: {Engine Load_unit: '%', Engine Load_value: 79.06035743605867,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 4.946153715252876, GPS Altitude_unit: m,
+      GPS Altitude_value: 578.0538310818374, GPS Bearing_unit: deg, GPS Bearing_value: 269.833616763172,
+      GPS Speed_unit: km/h, GPS Speed_value: 68.83235711207138, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 80.99094084068201, Rpm_unit: u/min, Rpm_value: 2017.8960092067719,
+      Speed_unit: km/h, Speed_value: 69.66724345088005, Throttle Position_unit: '%',
+      Throttle Position_value: 26.999999195337296}
+    _Measurement__road: *id011
+    _Measurement__time: '2016-04-11T17:07:31Z'
+  51: !!python/object:CarTrip.Measurement
+    _Measurement__index: 51
+    _Measurement__latitude: 48.084613863998094
+    _Measurement__longitude: 11.193512857616428
+    _Measurement__measures: {Engine Load_unit: '%', Engine Load_value: 49.40760332104469,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 3.9999999403953552, GPS Altitude_unit: m,
+      GPS Altitude_value: 584.9191089272499, GPS Bearing_unit: deg, GPS Bearing_value: 270.8819218826379,
+      GPS Speed_unit: km/h, GPS Speed_value: 72.66623489621213, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 53.88840460777283, Rpm_unit: u/min, Rpm_value: 2078.849940523505,
+      Speed_unit: km/h, Speed_value: 71.99999882653356, Throttle Position_unit: '%',
+      Throttle Position_value: 19.608774095773697}
+    _Measurement__road: &id012 !!python/object:CarTrip.Road
+      _Road__display_name: "A 96, W\xF6rthsee, Landkreis Starnberg, OB, Bayern, 82237,\
+        \ Deutschland"
+      _Road__osm_id: '29264382'
+      _Road__tags: {bdouble: 'yes', highway: motorway, int_ref: E 54, lanes: '2',
+        maxspeed: none, 'note:name': "Der reg_name, sowie ggf. der loc_name sind dem\
+          \ zugeh\xF6rigen Wikipediaartikel entnommen.", oneway: 'yes', ref: A 96,
+        reg_name: Ammerseeautobahn, 'source:maxspeed': 'DE:motorway', tmc: 'DE:60814/32246',
+        'zone:traffic': 'DE:rural'}
+    _Measurement__time: '2016-04-11T17:07:35Z'
+  52: !!python/object:CarTrip.Measurement
+    _Measurement__index: 52
+    _Measurement__latitude: 48.08464916091239
+    _Measurement__longitude: 11.192122416499048
+    _Measurement__measures: {Engine Load_unit: '%', Engine Load_value: 47.45098189140361,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 3.999999933876097, GPS Altitude_unit: m,
+      GPS Altitude_value: 587.0020248843357, GPS Bearing_unit: deg, GPS Bearing_value: 271.09979815074803,
+      GPS Speed_unit: km/h, GPS Speed_value: 73.11232179563589, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 52.15135212242603, Rpm_unit: u/min, Rpm_value: 1662.4543812274933,
+      Speed_unit: km/h, Speed_value: 72.46276810765266, Throttle Position_unit: '%',
+      Throttle Position_value: 18.0}
+    _Measurement__road: *id012
+    _Measurement__time: '2016-04-11T17:07:41Z'
+  53: !!python/object:CarTrip.Measurement
+    _Measurement__index: 53
+    _Measurement__latitude: 48.08468162624591
+    _Measurement__longitude: 11.190779417511118
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 7.479131972335813, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 9.681762859933292, Consumption_unit: l/h, Consumption_value: 3.182609349930133,
+      Engine Load_unit: '%', Engine Load_value: 39.411057944693994, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.9519038535654545, GPS Altitude_unit: m, GPS Altitude_value: 588.9519103914499,
+      GPS Bearing_unit: deg, GPS Bearing_value: 270.7808731774975, GPS Speed_unit: km/h,
+      GPS Speed_value: 73.59385838414784, Intake Pressure_unit: kPa, Intake Pressure_value: 43.39819949865341,
+      Intake Temperature_unit: c, Intake Temperature_value: 23.0, Rpm_unit: u/min,
+      Rpm_value: 1675.5200127959251, Speed_unit: km/h, Speed_value: 73.0, Throttle Position_unit: '%',
+      Throttle Position_value: 17.17349660396576}
+    _Measurement__road: *id012
+    _Measurement__time: '2016-04-11T17:07:45Z'
+  54: !!python/object:CarTrip.Measurement
+    _Measurement__index: 54
+    _Measurement__latitude: 48.08468137575012
+    _Measurement__longitude: 11.18938276210281
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 14.544230284412803, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 18.82755767845707, Consumption_unit: l/h, Consumption_value: 6.189034163579916,
+      Engine Load_unit: '%', Engine Load_value: 60.72261549610562, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.0000000782310963, GPS Altitude_unit: m, GPS Altitude_value: 591.000015411526,
+      GPS Bearing_unit: deg, GPS Bearing_value: 268.5763758793473, GPS Speed_unit: km/h,
+      GPS Speed_value: 77.08568729341579, Intake Pressure_unit: kPa, Intake Pressure_value: 63.00626677274704,
+      Intake Temperature_unit: c, Intake Temperature_value: 23.0, Rpm_unit: u/min,
+      Rpm_value: 2244.2804659605026, Speed_unit: km/h, Speed_value: 77.34470146894455,
+      Throttle Position_unit: '%', Throttle Position_value: 23.508343905210495}
+    _Measurement__road: *id012
+    _Measurement__time: '2016-04-11T17:07:50Z'
+  55: !!python/object:CarTrip.Measurement
+    _Measurement__index: 55
+    _Measurement__latitude: 48.08466304234392
+    _Measurement__longitude: 11.187818789251063
+    _Measurement__measures: {Engine Load_unit: '%', Engine Load_value: 71.57932463062002,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 3.0000000447034836, GPS Altitude_unit: m,
+      GPS Altitude_value: 587.0000087469816, GPS Bearing_unit: deg, GPS Bearing_value: 269.66943127389413,
+      GPS Speed_unit: km/h, GPS Speed_value: 85.72507260456007, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 71.60632795095444, Rpm_unit: u/min, Rpm_value: 2467.9822288379073,
+      Speed_unit: km/h, Speed_value: 85.7060341835022, Throttle Position_unit: '%',
+      Throttle Position_value: 27.603707015514374}
+    _Measurement__road: *id012
+    _Measurement__time: '2016-04-11T17:07:56Z'
+  56: !!python/object:CarTrip.Measurement
+    _Measurement__index: 56
+    _Measurement__latitude: 48.0846269970212
+    _Measurement__longitude: 11.186026661941543
+    _Measurement__measures: {Engine Load_unit: '%', Engine Load_value: 86.99186797658353,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 3.1819117069244385, GPS Altitude_unit: m,
+      GPS Altitude_value: 581.6361941099167, GPS Bearing_unit: deg, GPS Bearing_value: 268.5618142231615,
+      GPS Speed_unit: km/h, GPS Speed_value: 98.34532525735176, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 89.59521698951721, Rpm_unit: u/min, Rpm_value: 2846.1312053203583,
+      Speed_unit: km/h, Speed_value: 99.175202190876, Throttle Position_unit: '%',
+      Throttle Position_value: 46.76129102706909}
+    _Measurement__road: *id012
+    _Measurement__time: '2016-04-11T17:08:01Z'
+  57: !!python/object:CarTrip.Measurement
+    _Measurement__index: 57
+    _Measurement__latitude: 48.08453719833519
+    _Measurement__longitude: 11.184099777585505
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 29.624129008658056, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 38.348540051810716, Consumption_unit: l/h, Consumption_value: 12.60601234410981,
+      Engine Load_unit: '%', Engine Load_value: 95.39600479577348, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 2.999999977648258, GPS Altitude_unit: m, GPS Altitude_value: 579.9216037169099,
+      GPS Bearing_unit: deg, GPS Bearing_value: 266.3359220186808, GPS Speed_unit: km/h,
+      GPS Speed_value: 110.18950523128791, Intake Pressure_unit: kPa, Intake Pressure_value: 91.00000135600567,
+      Intake Temperature_unit: c, Intake Temperature_value: 21.00000062584877, Rpm_unit: u/min,
+      Rpm_value: 3143.630133189261, Speed_unit: km/h, Speed_value: 109.49509692192078,
+      Throttle Position_unit: '%', Throttle Position_value: 87.00000259280205}
+    _Measurement__road: *id012
+    _Measurement__time: '2016-04-11T17:08:06Z'
+  58: !!python/object:CarTrip.Measurement
+    _Measurement__index: 58
+    _Measurement__latitude: 48.0843932877777
+    _Measurement__longitude: 11.1819568756994
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 30.05431875793049, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 38.905422207739456, Consumption_unit: l/h, Consumption_value: 12.789071811885314,
+      Engine Load_unit: '%', Engine Load_value: 88.88028177999672, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.068052887916565, GPS Altitude_unit: m, GPS Altitude_value: 576.99999140203,
+      GPS Bearing_unit: deg, GPS Bearing_value: 263.0136074982429, GPS Speed_unit: km/h,
+      GPS Speed_value: 118.97094768642535, Intake Pressure_unit: kPa, Intake Pressure_value: 85.52799999713898,
+      Intake Temperature_unit: c, Intake Temperature_value: 20.999999980442226, Rpm_unit: u/min,
+      Rpm_value: 3393.327856063843, Speed_unit: km/h, Speed_value: 118.34530937671661,
+      Throttle Position_unit: '%', Throttle Position_value: 37.25919495522976}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: "A 96, W\xF6rthsee, Landkreis Starnberg, OB, Bayern, 82237,\
+        \ Deutschland"
+      _Road__osm_id: '289428364'
+      _Road__tags: {bdouble: 'yes', 'destination:symbol:lanes': '||parking;toilets',
+        highway: motorway, int_ref: E 54, lanes: '3', maxspeed: none, 'note:name': "Der\
+          \ reg_name, sowie ggf. der loc_name sind dem zugeh\xF6rigen Wikipediaartikel\
+          \ entnommen.", oneway: 'yes', placement: 'right_of:1', ref: A 96, reg_name: Ammerseeautobahn,
+        'source:maxspeed': 'DE:motorway', tmc: 'DE:60814/32246', 'turn:lanes': none|none|slight_right,
+        'zone:traffic': 'DE:rural'}
+    _Measurement__time: '2016-04-11T17:08:11Z'
+  59: !!python/object:CarTrip.Measurement
+    _Measurement__index: 59
+    _Measurement__latitude: 48.084203669642875
+    _Measurement__longitude: 11.179699671449768
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 20.97885716850605, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 27.157204997741605, Consumption_unit: l/h, Consumption_value: 8.927173263194064,
+      Engine Load_unit: '%', Engine Load_value: 69.8631781297263, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 8.86679893732071, GPS Altitude_unit: m, GPS Altitude_value: 579.2663843333721,
+      GPS Bearing_unit: deg, GPS Bearing_value: 261.87898999042136, GPS Speed_unit: km/h,
+      GPS Speed_value: 119.60026981352235, Intake Pressure_unit: kPa, Intake Pressure_value: 73.98628864157945,
+      Intake Temperature_unit: c, Intake Temperature_value: 21.00000062584877, Rpm_unit: u/min,
+      Rpm_value: 2738.1537793278694, Speed_unit: km/h, Speed_value: 120.0, Throttle Position_unit: '%',
+      Throttle Position_value: 27.0}
+    _Measurement__road: &id013 !!python/object:CarTrip.Road
+      _Road__display_name: "A 96, W\xF6rthsee, Landkreis Starnberg, OB, Bayern, 82237,\
+        \ Deutschland"
+      _Road__osm_id: '289428363'
+      _Road__tags: {bdouble: 'yes', highway: motorway, int_ref: E 54, lanes: '2',
+        maxspeed: none, 'note:name': "Der reg_name, sowie ggf. der loc_name sind dem\
+          \ zugeh\xF6rigen Wikipediaartikel entnommen.", oneway: 'yes', ref: A 96,
+        reg_name: Ammerseeautobahn, 'source:maxspeed': 'DE:motorway', tmc: 'DE:60814',
+        'zone:traffic': 'DE:rural'}
+    _Measurement__time: '2016-04-11T17:08:16Z'
+  60: !!python/object:CarTrip.Measurement
+    _Measurement__index: 60
+    _Measurement__latitude: 48.083889467709525
+    _Measurement__longitude: 11.177555059612759
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 25.84265727984226, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 33.45341148938446, Consumption_unit: l/h, Consumption_value: 10.996875438230749,
+      Engine Load_unit: '%', Engine Load_value: 86.68841182633832, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 5.999999955296516, GPS Altitude_unit: m, GPS Altitude_value: 582.0681101754308,
+      GPS Bearing_unit: deg, GPS Bearing_value: 257.5659469284117, GPS Speed_unit: km/h,
+      GPS Speed_value: 121.7353738225836, Intake Pressure_unit: kPa, Intake Pressure_value: 89.75158655643463,
+      Intake Temperature_unit: c, Intake Temperature_value: 21.0, Rpm_unit: u/min,
+      Rpm_value: 2780.496061474085, Speed_unit: km/h, Speed_value: 121.99999818205833,
+      Throttle Position_unit: '%', Throttle Position_value: 39.909564048051834}
+    _Measurement__road: *id013
+    _Measurement__time: '2016-04-11T17:08:21Z'
+  61: !!python/object:CarTrip.Measurement
+    _Measurement__index: 61
+    _Measurement__latitude: 48.08352322508274
+    _Measurement__longitude: 11.17533294940779
+    _Measurement__measures: {Engine Load_unit: '%', Engine Load_value: 67.07319341907784,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.955761294811964, GPS Altitude_unit: m,
+      GPS Altitude_value: 587.0442364960909, GPS Bearing_unit: deg, GPS Bearing_value: 256.20001125261183,
+      GPS Speed_unit: km/h, GPS Speed_value: 121.20217822886158, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 72.51855312287807, Rpm_unit: u/min, Rpm_value: 2748.910730302334,
+      Speed_unit: km/h, Speed_value: 119.99999642372131, Throttle Position_unit: '%',
+      Throttle Position_value: 27.000000402331352}
+    _Measurement__road: *id013
+    _Measurement__time: '2016-04-11T17:08:26Z'
+  62: !!python/object:CarTrip.Measurement
+    _Measurement__index: 62
+    _Measurement__latitude: 48.083183188678845
+    _Measurement__longitude: 11.173133629290572
+    _Measurement__measures: {Engine Load_unit: '%', Engine Load_value: 66.03762540570483,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 6.013902781531215, GPS Altitude_unit: m,
+      GPS Altitude_value: 591.0000099074095, GPS Bearing_unit: deg, GPS Bearing_value: 256.6040423013808,
+      GPS Speed_unit: km/h, GPS Speed_value: 121.3889473408869, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 70.79082083702087, Rpm_unit: u/min, Rpm_value: 2747.1426638886333,
+      Speed_unit: km/h, Speed_value: 120.0, Throttle Position_unit: '%', Throttle Position_value: 26.591151237487793}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: A 96, Inning am Ammersee, Landkreis Starnberg, OB, Bayern,
+        82266, Deutschland
+      _Road__osm_id: '289428361'
+      _Road__tags: {bdouble: 'yes', highway: motorway, int_ref: E 54, lanes: '3',
+        maxspeed: none, 'note:name': "Der reg_name, sowie ggf. der loc_name sind dem\
+          \ zugeh\xF6rigen Wikipediaartikel entnommen.", oneway: 'yes', placement: 'right_of:1',
+        ref: A 96, reg_name: Ammerseeautobahn, 'source:maxspeed': 'DE:motorway', tmc: 'DE:12952/60814',
+        'turn:lanes': none|none|merge_to_left, 'zone:traffic': 'DE:rural'}
+    _Measurement__time: '2016-04-11T17:08:31Z'
+  63: !!python/object:CarTrip.Measurement
+    _Measurement__index: 63
+    _Measurement__latitude: 48.08290766094214
+    _Measurement__longitude: 11.170909821481857
+    _Measurement__measures: {Engine Load_unit: '%', Engine Load_value: 54.53980850180818,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.950681988149881, GPS Altitude_unit: m,
+      GPS Altitude_value: 593.9999933615327, GPS Bearing_unit: deg, GPS Bearing_value: 259.5493150446564,
+      GPS Speed_unit: km/h, GPS Speed_value: 121.08202513400627, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 61.83208602666855, Rpm_unit: u/min, Rpm_value: 2754.185333877802,
+      Speed_unit: km/h, Speed_value: 120.99999639391899, Throttle Position_unit: '%',
+      Throttle Position_value: 23.930403105914593}
+    _Measurement__road: &id014 !!python/object:CarTrip.Road
+      _Road__display_name: A 96, Inning am Ammersee, Landkreis Starnberg, OB, Bayern,
+        82266, Deutschland
+      _Road__osm_id: '289428365'
+      _Road__tags: {bdouble: 'yes', highway: motorway, int_ref: E 54, lanes: '2',
+        maxspeed: none, 'note:name': "Der reg_name, sowie ggf. der loc_name sind dem\
+          \ zugeh\xF6rigen Wikipediaartikel entnommen.", oneway: 'yes', ref: A 96,
+        reg_name: Ammerseeautobahn, 'source:maxspeed': 'DE:motorway', tmc: 'DE:12952/60814',
+        'zone:traffic': 'DE:rural'}
+    _Measurement__time: '2016-04-11T17:08:36Z'
+  64: !!python/object:CarTrip.Measurement
+    _Measurement__index: 64
+    _Measurement__latitude: 48.08277790517707
+    _Measurement__longitude: 11.16865948220752
+    _Measurement__measures: {Engine Load_unit: '%', Engine Load_value: 39.50918883803388,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 2.9999999217689037, GPS Altitude_unit: m,
+      GPS Altitude_value: 594.9999844841659, GPS Bearing_unit: deg, GPS Bearing_value: 268.20995935676865,
+      GPS Speed_unit: km/h, GPS Speed_value: 122.08344956213824, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 48.45278024673462, Rpm_unit: u/min, Rpm_value: 2763.007302504033,
+      Speed_unit: km/h, Speed_value: 121.0000018030405, Throttle Position_unit: '%',
+      Throttle Position_value: 20.99999937415123}
+    _Measurement__road: *id014
+    _Measurement__time: '2016-04-11T17:08:41Z'
+  65: !!python/object:CarTrip.Measurement
+    _Measurement__index: 65
+    _Measurement__latitude: 48.08284650437345
+    _Measurement__longitude: 11.166364736003844
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 10.377497874942032, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 13.433707798750312, Consumption_unit: l/h, Consumption_value: 4.415956542528524,
+      Engine Load_unit: '%', Engine Load_value: 28.696907184238256, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 2.999999910593033, GPS Altitude_unit: m, GPS Altitude_value: 587.8777720630169,
+      GPS Bearing_unit: deg, GPS Bearing_value: 276.94442478716337, GPS Speed_unit: km/h,
+      GPS Speed_value: 122.01155348659609, Intake Pressure_unit: kPa, Intake Pressure_value: 36.42421415448189,
+      Intake Temperature_unit: c, Intake Temperature_value: 23.000000342726707, Rpm_unit: u/min,
+      Rpm_value: 2769.9542604386806, Speed_unit: km/h, Speed_value: 121.0, Throttle Position_unit: '%',
+      Throttle Position_value: 17.999999564141035}
+    _Measurement__road: &id015 !!python/object:CarTrip.Road
+      _Road__display_name: A 96, Inning am Ammersee, Landkreis Starnberg, OB, Bayern,
+        82266, Deutschland
+      _Road__osm_id: '55933648'
+      _Road__tags: {bdouble: 'yes', highway: motorway, int_ref: E 54, lanes: '2',
+        maxspeed: none, 'note:name': "Der reg_name, sowie ggf. der loc_name sind dem\
+          \ zugeh\xF6rigen Wikipediaartikel entnommen.", oneway: 'yes', ref: A 96,
+        reg_name: Ammerseeautobahn, 'source:maxspeed': 'DE:motorway', tmc: 'DE:12952/60814',
+        'zone:traffic': 'DE:rural'}
+    _Measurement__time: '2016-04-11T17:08:46Z'
+  66: !!python/object:CarTrip.Measurement
+    _Measurement__index: 66
+    _Measurement__latitude: 48.083183888116906
+    _Measurement__longitude: 11.164159023791273
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 10.840128482961019, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 14.032584761364966, Consumption_unit: l/h, Consumption_value: 4.612820631047242,
+      Engine Load_unit: '%', Engine Load_value: 32.457118576815446, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.0000000447034836, GPS Altitude_unit: m, GPS Altitude_value: 580.7567654103041,
+      GPS Bearing_unit: deg, GPS Bearing_value: 285.91893390219775, GPS Speed_unit: km/h,
+      GPS Speed_value: 122.05094318285046, Intake Pressure_unit: kPa, Intake Pressure_value: 38.14083245024085,
+      Intake Temperature_unit: c, Intake Temperature_value: 23.000000685453415, Rpm_unit: u/min,
+      Rpm_value: 2763.2132196575403, Speed_unit: km/h, Speed_value: 120.9999981969595,
+      Throttle Position_unit: '%', Throttle Position_value: 18.417631894350052}
+    _Measurement__road: *id015
+    _Measurement__time: '2016-04-11T17:08:51Z'
+  67: !!python/object:CarTrip.Measurement
+    _Measurement__index: 67
+    _Measurement__latitude: 48.08370263727035
+    _Measurement__longitude: 11.162036788694596
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 12.893995767100224, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 16.69132324390048, Consumption_unit: l/h, Consumption_value: 5.48680670940435,
+      Engine Load_unit: '%', Engine Load_value: 40.35558299709237, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 2.999999977648258, GPS Altitude_unit: m, GPS Altitude_value: 573.8058412373066,
+      GPS Bearing_unit: deg, GPS Bearing_value: 293.10678337682543, GPS Speed_unit: km/h,
+      GPS Speed_value: 121.55336251999427, Intake Pressure_unit: kPa, Intake Pressure_value: 45.662901878356934,
+      Intake Temperature_unit: c, Intake Temperature_value: 24.0, Rpm_unit: u/min,
+      Rpm_value: 2754.5974955558777, Speed_unit: km/h, Speed_value: 120.99999639391899,
+      Throttle Position_unit: '%', Throttle Position_value: 20.831858098506927}
+    _Measurement__road: &id016 !!python/object:CarTrip.Road
+      _Road__display_name: A 96, Inning am Ammersee, Landkreis Starnberg, OB, Bayern,
+        82266, Deutschland
+      _Road__osm_id: '97467311'
+      _Road__tags: {bdouble: 'yes', highway: motorway, int_ref: E 54, lanes: '2',
+        maxspeed: none, 'note:name': "Der reg_name, sowie ggf. der loc_name sind dem\
+          \ zugeh\xF6rigen Wikipediaartikel entnommen.", oneway: 'yes', ref: A 96,
+        reg_name: Ammerseeautobahn, 'source:maxspeed': 'DE:motorway', tmc: 'DE:12952/60814',
+        'zone:traffic': 'DE:rural'}
+    _Measurement__time: '2016-04-11T17:08:56Z'
+  68: !!python/object:CarTrip.Measurement
+    _Measurement__index: 68
+    _Measurement__latitude: 48.08429860023196
+    _Measurement__longitude: 11.159948671946344
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 16.09775438914517, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 20.838600140983843, Consumption_unit: l/h, Consumption_value: 6.850108250700072,
+      Engine Load_unit: '%', Engine Load_value: 48.98368516625035, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.0000000670552254, GPS Altitude_unit: m, GPS Altitude_value: 567.9291054978967,
+      GPS Bearing_unit: deg, GPS Bearing_value: 291.6552918237239, GPS Speed_unit: km/h,
+      GPS Speed_value: 121.49745037687205, Intake Pressure_unit: kPa, Intake Pressure_value: 56.840788811445236,
+      Intake Temperature_unit: c, Intake Temperature_value: 23.000000685453415, Rpm_unit: u/min,
+      Rpm_value: 2753.438219860196, Speed_unit: km/h, Speed_value: 121.0, Throttle Position_unit: '%',
+      Throttle Position_value: 21.999999344348907}
+    _Measurement__road: *id016
+    _Measurement__time: '2016-04-11T17:09:01Z'
+  69: !!python/object:CarTrip.Measurement
+    _Measurement__index: 69
+    _Measurement__latitude: 48.08472183100763
+    _Measurement__longitude: 11.15775331745204
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 16.264268907106597, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 21.054153774961925, Consumption_unit: l/h, Consumption_value: 6.920965492385786,
+      Engine Load_unit: '%', Engine Load_value: 51.43447006056306, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.0000000447034836, GPS Altitude_unit: m, GPS Altitude_value: 563.9052167385817,
+      GPS Bearing_unit: deg, GPS Bearing_value: 282.37677620132763, GPS Speed_unit: km/h,
+      GPS Speed_value: 121.65251364846824, Intake Pressure_unit: kPa, Intake Pressure_value: 57.35226434469223,
+      Intake Temperature_unit: c, Intake Temperature_value: 22.999999657273293, Rpm_unit: u/min,
+      Rpm_value: 2757.1101138442755, Speed_unit: km/h, Speed_value: 120.99999729543924,
+      Throttle Position_unit: '%', Throttle Position_value: 22.141588985919952}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: A 96, Inning am Ammersee, Landkreis Starnberg, OB, Bayern,
+        82266, Deutschland
+      _Road__osm_id: '289426687'
+      _Road__tags: {bdouble: 'yes', highway: motorway, int_ref: E 54, lanes: '2',
+        maxspeed: none, 'note:name': "Der reg_name, sowie ggf. der loc_name sind dem\
+          \ zugeh\xF6rigen Wikipediaartikel entnommen.", oneway: 'yes', ref: A 96,
+        reg_name: Ammerseeautobahn, 'source:maxspeed': 'DE:motorway', tmc: 'DE:12952/60814',
+        'zone:traffic': 'DE:rural'}
+    _Measurement__time: '2016-04-11T17:09:06Z'
+  70: !!python/object:CarTrip.Measurement
+    _Measurement__index: 70
+    _Measurement__latitude: 48.08490237056858
+    _Measurement__longitude: 11.155537648392059
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 15.054584869790597, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 19.488213498996657, Consumption_unit: l/h, Consumption_value: 6.406206327570467,
+      Engine Load_unit: '%', Engine Load_value: 45.2052574962467, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 2.999999988824129, GPS Altitude_unit: m, GPS Altitude_value: 558.9528091624379,
+      GPS Bearing_unit: deg, GPS Bearing_value: 272.0339411207067, GPS Speed_unit: km/h,
+      GPS Speed_value: 121.51359000389888, Intake Pressure_unit: kPa, Intake Pressure_value: 53.0,
+      Intake Temperature_unit: c, Intake Temperature_value: 23.000000342726707, Rpm_unit: u/min,
+      Rpm_value: 2761.6144729554653, Speed_unit: km/h, Speed_value: 121.0, Throttle Position_unit: '%',
+      Throttle Position_value: 21.000000312924385}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: A 96, Inning am Ammersee, Landkreis Starnberg, OB, Bayern,
+        82266, Deutschland
+      _Road__osm_id: '289426686'
+      _Road__tags: {bdouble: 'yes', highway: motorway, int_ref: E 54, lanes: '3',
+        maxspeed: none, 'note:name': "Der reg_name, sowie ggf. der loc_name sind dem\
+          \ zugeh\xF6rigen Wikipediaartikel entnommen.", oneway: 'yes', placement: 'right_of:1',
+        ref: A 96, reg_name: Ammerseeautobahn, 'source:maxspeed': 'DE:motorway', tmc: 'DE:12952/60814',
+        'turn:lanes': none|none|merge_to_left, 'zone:traffic': 'DE:rural'}
+    _Measurement__time: '2016-04-11T17:09:11Z'
+  71: !!python/object:CarTrip.Measurement
+    _Measurement__index: 71
+    _Measurement__latitude: 48.084832278549875
+    _Measurement__longitude: 11.153257328515958
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 13.568108984660562, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 17.563965194504743, Consumption_unit: l/h, Consumption_value: 5.773663397727899,
+      Engine Load_unit: '%', Engine Load_value: 40.855995195818764, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 4.061224609613419, GPS Altitude_unit: m, GPS Altitude_value: 555.877567589283,
+      GPS Bearing_unit: deg, GPS Bearing_value: 264.0000078678131, GPS Speed_unit: km/h,
+      GPS Speed_value: 120.30839897121177, Intake Pressure_unit: kPa, Intake Pressure_value: 47.77877151966095,
+      Intake Temperature_unit: c, Intake Temperature_value: 23.0, Rpm_unit: u/min,
+      Rpm_value: 2760.924172732979, Speed_unit: km/h, Speed_value: 121.0000018030405,
+      Throttle Position_unit: '%', Throttle Position_value: 20.55251544713974}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: A 96, Schorn, Inning am Ammersee, Landkreis Starnberg,
+        OB, Bayern, 82266, Deutschland
+      _Road__osm_id: '10580256'
+      _Road__tags: {bdouble: 'yes', highway: motorway, int_ref: E 54, lanes: '2',
+        maxspeed: none, 'note:name': "Der reg_name, sowie ggf. der loc_name sind dem\
+          \ zugeh\xF6rigen Wikipediaartikel entnommen.", oneway: 'yes', ref: A 96,
+        reg_name: Ammerseeautobahn, 'source:maxspeed': 'DE:motorway', tmc: 'DE:12952',
+        'zone:traffic': 'DE:rural'}
+    _Measurement__time: '2016-04-11T17:09:16Z'
+  72: !!python/object:CarTrip.Measurement
+    _Measurement__index: 72
+    _Measurement__latitude: 48.0845916816848
+    _Measurement__longitude: 11.150976447906292
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 14.141877048083577, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 18.306709987244357, Consumption_unit: l/h, Consumption_value: 6.017820020461096,
+      Engine Load_unit: '%', Engine Load_value: 42.45098066329956, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.999999910593033, GPS Altitude_unit: m, GPS Altitude_value: 550.898683771491,
+      GPS Bearing_unit: deg, GPS Bearing_value: 258.59870251193615, GPS Speed_unit: km/h,
+      GPS Speed_value: 121.8090424926657, Intake Pressure_unit: kPa, Intake Pressure_value: 49.99999850988388,
+      Intake Temperature_unit: c, Intake Temperature_value: 23.999999284744263, Rpm_unit: u/min,
+      Rpm_value: 2759.123861551285, Speed_unit: km/h, Speed_value: 121.00000360608101,
+      Throttle Position_unit: '%', Throttle Position_value: 21.966222304850817}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: A 96, Schorn, Inning am Ammersee, Landkreis Starnberg,
+        OB, Bayern, 82266, Deutschland
+      _Road__osm_id: '289426684'
+      _Road__tags: {bdouble: 'yes', 'destination:lanes': "W\xF6rthsee|W\xF6rthsee|Inning\
+          \ am Ammersee;F\xFCrstenfeldbruck;Grafrath;Eching am Ammersee", 'destination:ref:lanes': '||B
+          471', highway: motorway, int_ref: E 54, lanes: '3', maxspeed: none, 'note:name': "Der\
+          \ reg_name, sowie ggf. der loc_name sind dem zugeh\xF6rigen Wikipediaartikel\
+          \ entnommen.", oneway: 'yes', placement: 'right_of:1', ref: A 96, reg_name: Ammerseeautobahn,
+        'source:maxspeed': 'DE:motorway', tmc: 'DE:32245/12952', 'turn:lanes': none|none|slight_right,
+        'zone:traffic': 'DE:rural'}
+    _Measurement__time: '2016-04-11T17:09:21Z'
+  73: !!python/object:CarTrip.Measurement
+    _Measurement__index: 73
+    _Measurement__latitude: 48.08422470363586
+    _Measurement__longitude: 11.148828738661281
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 14.984929998923214, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 19.39804502165574, Consumption_unit: l/h, Consumption_value: 6.3765659569886015,
+      Engine Load_unit: '%', Engine Load_value: 46.49260912154523, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 4.974945589900017, GPS Altitude_unit: m, GPS Altitude_value: 547.0000061132014,
+      GPS Bearing_unit: deg, GPS Bearing_value: 252.03962756619035, GPS Speed_unit: km/h,
+      GPS Speed_value: 121.72313010077494, Intake Pressure_unit: kPa, Intake Pressure_value: 53.03831958770752,
+      Intake Temperature_unit: c, Intake Temperature_value: 24.000000715255737, Rpm_unit: u/min,
+      Rpm_value: 2756.1261782497168, Speed_unit: km/h, Speed_value: 121.0000018030405,
+      Throttle Position_unit: '%', Throttle Position_value: 21.57488724589348}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: A 96, Schorn, Inning am Ammersee, Landkreis Starnberg,
+        OB, Bayern, 82266, Deutschland
+      _Road__osm_id: '10580253'
+      _Road__tags: {bdouble: 'yes', highway: motorway, int_ref: E 54, lanes: '2',
+        'note:name': "Der reg_name, sowie ggf. der loc_name sind dem zugeh\xF6rigen\
+          \ Wikipediaartikel entnommen.", oneway: 'yes', ref: A 96, reg_name: Ammerseeautobahn,
+        tmc: 'DE:12952'}
+    _Measurement__time: '2016-04-11T17:09:26Z'
+  74: !!python/object:CarTrip.Measurement
+    _Measurement__index: 74
+    _Measurement__latitude: 48.083628421177806
+    _Measurement__longitude: 11.146706775865091
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 16.428223436346624, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 21.26639349446218, Consumption_unit: l/h, Consumption_value: 6.990733377168776,
+      Engine Load_unit: '%', Engine Load_value: 50.324496321406855, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.0000000670552254, GPS Altitude_unit: m, GPS Altitude_value: 546.9273378103971,
+      GPS Bearing_unit: deg, GPS Bearing_value: 244.28898745829974, GPS Speed_unit: km/h,
+      GPS Speed_value: 121.394355803569, Intake Pressure_unit: kPa, Intake Pressure_value: 58.0000017285347,
+      Intake Temperature_unit: c, Intake Temperature_value: 23.045166432857513, Rpm_unit: u/min,
+      Rpm_value: 2754.2221037447453, Speed_unit: km/h, Speed_value: 121.0000018030405,
+      Throttle Position_unit: '%', Throttle Position_value: 23.0}
+    _Measurement__road: &id017 !!python/object:CarTrip.Road
+      _Road__display_name: A 96, Schorn, Inning am Ammersee, Landkreis Starnberg,
+        OB, Bayern, 82266, Deutschland
+      _Road__osm_id: '289426681'
+      _Road__tags: {bdouble: 'yes', highway: motorway, int_ref: E 54, lanes: '2',
+        maxspeed: none, 'note:name': "Der reg_name, sowie ggf. der loc_name sind dem\
+          \ zugeh\xF6rigen Wikipediaartikel entnommen.", oneway: 'yes', ref: A 96,
+        reg_name: Ammerseeautobahn, tmc: 'DE:32245/12952'}
+    _Measurement__time: '2016-04-11T17:09:31Z'
+  75: !!python/object:CarTrip.Measurement
+    _Measurement__index: 75
+    _Measurement__latitude: 48.08289662248413
+    _Measurement__longitude: 11.144723964997945
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 15.872416707842218, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 20.54689971346738, Consumption_unit: l/h, Consumption_value: 6.754219875677539,
+      Engine Load_unit: '%', Engine Load_value: 49.68898684797546, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.0000000447034836, GPS Altitude_unit: m, GPS Altitude_value: 543.1353386640549,
+      GPS Bearing_unit: deg, GPS Bearing_value: 236.76994197093995, GPS Speed_unit: km/h,
+      GPS Speed_value: 121.83217658528372, Intake Pressure_unit: kPa, Intake Pressure_value: 55.985454936511815,
+      Intake Temperature_unit: c, Intake Temperature_value: 23.0, Rpm_unit: u/min,
+      Rpm_value: 2756.3729543685913, Speed_unit: km/h, Speed_value: 121.00000360608101,
+      Throttle Position_unit: '%', Throttle Position_value: 22.347708880901337}
+    _Measurement__road: *id017
+    _Measurement__time: '2016-04-11T17:09:36Z'
+  76: !!python/object:CarTrip.Measurement
+    _Measurement__index: 76
+    _Measurement__latitude: 48.0819973264353
+    _Measurement__longitude: 11.14290406264173
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 16.560517379141682, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 21.437648472537838, Consumption_unit: l/h, Consumption_value: 7.047028671975183,
+      Engine Load_unit: '%', Engine Load_value: 50.98039245605469, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 4.859228432178497, GPS Altitude_unit: m, GPS Altitude_value: 544.0000081062317,
+      GPS Bearing_unit: deg, GPS Bearing_value: 232.8351020053924, GPS Speed_unit: km/h,
+      GPS Speed_value: 120.96246110341156, Intake Pressure_unit: kPa, Intake Pressure_value: 58.401909708976746,
+      Intake Temperature_unit: c, Intake Temperature_value: 22.999999828636646, Rpm_unit: u/min,
+      Rpm_value: 2756.8744394779205, Speed_unit: km/h, Speed_value: 121.00000360608101,
+      Throttle Position_unit: '%', Throttle Position_value: 22.795756310224533}
+    _Measurement__road: *id017
+    _Measurement__time: '2016-04-11T17:09:41Z'
+  77: !!python/object:CarTrip.Measurement
+    _Measurement__index: 77
+    _Measurement__latitude: 48.08108772089144
+    _Measurement__longitude: 11.141113391079006
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 16.97604400721203, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 21.97554916607359, Consumption_unit: l/h, Consumption_value: 7.223848513707248,
+      Engine Load_unit: '%', Engine Load_value: 56.04242717987117, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 5.13561075925827, GPS Altitude_unit: m, GPS Altitude_value: 543.1356107592583,
+      GPS Bearing_unit: deg, GPS Bearing_value: 233.32561320066452, GPS Speed_unit: km/h,
+      GPS Speed_value: 121.76310265707161, Intake Pressure_unit: kPa, Intake Pressure_value: 59.873820781707764,
+      Intake Temperature_unit: c, Intake Temperature_value: 23.0, Rpm_unit: u/min,
+      Rpm_value: 2756.573991060257, Speed_unit: km/h, Speed_value: 120.0, Throttle Position_unit: '%',
+      Throttle Position_value: 23.0}
+    _Measurement__road: *id017
+    _Measurement__time: '2016-04-11T17:09:46Z'
+  78: !!python/object:CarTrip.Measurement
+    _Measurement__index: 78
+    _Measurement__latitude: 48.08028260435721
+    _Measurement__longitude: 11.139274519401559
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 16.51692234171564, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 21.381214541997497, Consumption_unit: l/h, Consumption_value: 7.028477592219422,
+      Engine Load_unit: '%', Engine Load_value: 50.8401129013497, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 5.899295151233673, GPS Altitude_unit: m, GPS Altitude_value: 538.8993030935526,
+      GPS Bearing_unit: deg, GPS Bearing_value: 238.98063754740633, GPS Speed_unit: km/h,
+      GPS Speed_value: 121.48376400048812, Intake Pressure_unit: kPa, Intake Pressure_value: 58.22232222557068,
+      Intake Temperature_unit: c, Intake Temperature_value: 23.0, Rpm_unit: u/min,
+      Rpm_value: 2758.0982847437263, Speed_unit: km/h, Speed_value: 121.00000270456076,
+      Throttle Position_unit: '%', Throttle Position_value: 23.0}
+    _Measurement__road: *id017
+    _Measurement__time: '2016-04-11T17:09:51Z'
+  79: !!python/object:CarTrip.Measurement
+    _Measurement__index: 79
+    _Measurement__latitude: 48.07962206279094
+    _Measurement__longitude: 11.137182944360154
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 16.55588223691297, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 21.431648264486096, Consumption_unit: l/h, Consumption_value: 7.045056271026795,
+      Engine Load_unit: '%', Engine Load_value: 53.151642044129034, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 4.0000001192092896, GPS Altitude_unit: m, GPS Altitude_value: 535.9167693555355,
+      GPS Bearing_unit: deg, GPS Bearing_value: 247.43237224044378, GPS Speed_unit: km/h,
+      GPS Speed_value: 121.88666478418781, Intake Pressure_unit: kPa, Intake Pressure_value: 58.66516041755676,
+      Intake Temperature_unit: c, Intake Temperature_value: 24.0, Rpm_unit: u/min,
+      Rpm_value: 2752.9999179542065, Speed_unit: km/h, Speed_value: 119.99999642372131,
+      Throttle Position_unit: '%', Throttle Position_value: 22.53321200609207}
+    _Measurement__road: *id017
+    _Measurement__time: '2016-04-11T17:09:56Z'
+  80: !!python/object:CarTrip.Measurement
+    _Measurement__index: 80
+    _Measurement__latitude: 48.07912848459108
+    _Measurement__longitude: 11.134977932256334
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 5.3266131841689655, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 6.89531965560596, Consumption_unit: l/h, Consumption_value: 2.2666439081570067,
+      Engine Load_unit: '%', Engine Load_value: 12.872715780670433, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 5.000000074505806, GPS Altitude_unit: m, GPS Altitude_value: 535.0000079721212,
+      GPS Bearing_unit: deg, GPS Bearing_value: 256.5497510857804, GPS Speed_unit: km/h,
+      GPS Speed_value: 117.86169616830568, Intake Pressure_unit: kPa, Intake Pressure_value: 19.225863873958588,
+      Intake Temperature_unit: c, Intake Temperature_value: 23.000000685453415, Rpm_unit: u/min,
+      Rpm_value: 2693.6144458279014, Speed_unit: km/h, Speed_value: 118.14568608999252,
+      Throttle Position_unit: '%', Throttle Position_value: 13.999999582767487}
+    _Measurement__road: *id017
+    _Measurement__time: '2016-04-11T17:10:01Z'
+  81: !!python/object:CarTrip.Measurement
+    _Measurement__index: 81
+    _Measurement__latitude: 48.07889680155844
+    _Measurement__longitude: 11.132913676279909
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 5.288556130214644, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 6.846054664307999, Consumption_unit: l/h, Consumption_value: 2.2504494171126144,
+      Engine Load_unit: '%', Engine Load_value: 14.024860325981592, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 5.000000149011612, GPS Altitude_unit: m, GPS Altitude_value: 536.884073972702,
+      GPS Bearing_unit: deg, GPS Bearing_value: 262.9303052436444, GPS Speed_unit: km/h,
+      GPS Speed_value: 110.6452213086011, Intake Pressure_unit: kPa, Intake Pressure_value: 21.00000062584877,
+      Intake Temperature_unit: c, Intake Temperature_value: 23.999999910593033, Rpm_unit: u/min,
+      Rpm_value: 2456.698964327574, Speed_unit: km/h, Speed_value: 107.4959527850151,
+      Throttle Position_unit: '%', Throttle Position_value: 14.000000104308128}
+    _Measurement__road: &id018 !!python/object:CarTrip.Road
+      _Road__display_name: A 96, Schorn, Inning am Ammersee, Landkreis Starnberg,
+        OB, Bayern, 82266, Deutschland
+      _Road__osm_id: '29264438'
+      _Road__tags: {bdouble: 'yes', highway: motorway, int_ref: E 54, lanes: '2',
+        maxspeed: '120', 'note:name': "Der reg_name, sowie ggf. der loc_name sind\
+          \ dem zugeh\xF6rigen Wikipediaartikel entnommen.", oneway: 'yes', ref: A
+          96, reg_name: Ammerseeautobahn, tmc: 'DE:32245/12952'}
+    _Measurement__time: '2016-04-11T17:10:06Z'
+  82: !!python/object:CarTrip.Measurement
+    _Measurement__index: 82
+    _Measurement__latitude: 48.07877158492174
+    _Measurement__longitude: 11.131040782389514
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 4.32612050595595, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 5.600178335812835, Consumption_unit: l/h, Consumption_value: 1.8409023429599787,
+      Engine Load_unit: '%', Engine Load_value: 14.051366972992412, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 4.087613321840763, GPS Altitude_unit: m, GPS Altitude_value: 537.0000040009618,
+      GPS Bearing_unit: deg, GPS Bearing_value: 266.00000198185444, GPS Speed_unit: km/h,
+      GPS Speed_value: 98.17199780175088, Intake Pressure_unit: kPa, Intake Pressure_value: 19.00180019112304,
+      Intake Temperature_unit: c, Intake Temperature_value: 23.999999284744263, Rpm_unit: u/min,
+      Rpm_value: 2220.9459888339043, Speed_unit: km/h, Speed_value: 96.64578181505203,
+      Throttle Position_unit: '%', Throttle Position_value: 14.0}
+    _Measurement__road: *id018
+    _Measurement__time: '2016-04-11T17:10:11Z'
+  83: !!python/object:CarTrip.Measurement
+    _Measurement__index: 83
+    _Measurement__latitude: 48.078667731762664
+    _Measurement__longitude: 11.129314352896138
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 3.6994067292010135, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 4.788895129414291, Consumption_unit: l/h, Consumption_value: 1.5742156294472398,
+      Engine Load_unit: '%', Engine Load_value: 13.463580286527304, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 5.876059144735336, GPS Altitude_unit: m, GPS Altitude_value: 537.1239246726036,
+      GPS Bearing_unit: deg, GPS Bearing_value: 265.8970695102262, GPS Speed_unit: km/h,
+      GPS Speed_value: 89.82675584755862, Intake Pressure_unit: kPa, Intake Pressure_value: 18.000000536441803,
+      Intake Temperature_unit: c, Intake Temperature_value: 23.999999910593033, Rpm_unit: u/min,
+      Rpm_value: 2004.9045270383358, Speed_unit: km/h, Speed_value: 87.69454807043076,
+      Throttle Position_unit: '%', Throttle Position_value: 12.999999806284904}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: A 96, Schorn, Inning am Ammersee, Landkreis Starnberg,
+        OB, Bayern, 82266, Deutschland
+      _Road__osm_id: '10578655'
+      _Road__tags: {bdouble: 'yes', highway: motorway, int_ref: E 54, lanes: '2',
+        maxspeed: none, 'note:name': "Der reg_name, sowie ggf. der loc_name sind dem\
+          \ zugeh\xF6rigen Wikipediaartikel entnommen.", oneway: 'yes', ref: A 96,
+        reg_name: Ammerseeautobahn, 'source:maxspeed': 'DE:motorway', tmc: 'DE:32245/12952',
+        'zone:traffic': 'DE:rural'}
+    _Measurement__time: '2016-04-11T17:10:16Z'
+  84: !!python/object:CarTrip.Measurement
+    _Measurement__index: 84
+    _Measurement__latitude: 48.07860533530177
+    _Measurement__longitude: 11.127762914457204
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 3.1926893603274062, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 4.132947698537302, Consumption_unit: l/h, Consumption_value: 1.3585912171605983,
+      Engine Load_unit: '%', Engine Load_value: 12.15686303143407, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 6.8025539219379425, GPS Altitude_unit: m, GPS Altitude_value: 536.3948839604855,
+      GPS Bearing_unit: deg, GPS Bearing_value: 266.20000824034196, GPS Speed_unit: km/h,
+      GPS Speed_value: 82.31000093749572, Intake Pressure_unit: kPa, Intake Pressure_value: 17.0,
+      Intake Temperature_unit: c, Intake Temperature_value: 24.0, Rpm_unit: u/min,
+      Rpm_value: 1832.0692102909088, Speed_unit: km/h, Speed_value: 80.3538485467434,
+      Throttle Position_unit: '%', Throttle Position_value: 13.0}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: A 96, Eching am Ammersee, Schondorf a.Ammersee (VGem),
+        Landkreis Landsberg am Lech, OB, Bayern, 82279, Deutschland
+      _Road__osm_id: '4885486'
+      _Road__tags: {bdouble: 'yes', highway: motorway, int_ref: E 54, lanes: '2',
+        maxspeed: '120', 'note:name': "Der reg_name, sowie ggf. der loc_name sind\
+          \ dem zugeh\xF6rigen Wikipediaartikel entnommen.", oneway: 'yes', ref: A
+          96, reg_name: Ammerseeautobahn, tmc: 'DE:32245/12952'}
+    _Measurement__time: '2016-04-11T17:10:21Z'
+  85: !!python/object:CarTrip.Measurement
+    _Measurement__index: 85
+    _Measurement__latitude: 48.07853508999521
+    _Measurement__longitude: 11.126300460640277
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 2.922877356580545, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 3.7836751029068356, Consumption_unit: l/h, Consumption_value: 1.2437775985449127,
+      Engine Load_unit: '%', Engine Load_value: 12.15686321258545, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 5.779575422406197, GPS Altitude_unit: m, GPS Altitude_value: 541.5591587424278,
+      GPS Bearing_unit: deg, GPS Bearing_value: 265.1559285346884, GPS Speed_unit: km/h,
+      GPS Speed_value: 75.1517381247661, Intake Pressure_unit: kPa, Intake Pressure_value: 17.0,
+      Intake Temperature_unit: c, Intake Temperature_value: 24.00000035762787, Rpm_unit: u/min,
+      Rpm_value: 1677.2422909140587, Speed_unit: km/h, Speed_value: 73.78771764039993,
+      Throttle Position_unit: '%', Throttle Position_value: 12.222615018486977}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: A 96, Eching am Ammersee, Schondorf a.Ammersee (VGem),
+        Landkreis Landsberg am Lech, OB, Bayern, 82279, Deutschland
+      _Road__osm_id: '29264439'
+      _Road__tags: {bdouble: 'yes', bicycle: 'no', foot: 'no', highway: motorway,
+        horse: 'no', int_ref: E 54, lanes: '2', maxheight: '4.3', maxspeed: signals,
+        'note:name': "Der reg_name, sowie ggf. der loc_name sind dem zugeh\xF6rigen\
+          \ Wikipediaartikel entnommen.", oneway: 'yes', ref: A 96, reg_name: Ammerseeautobahn,
+        tmc: 'DE:32245/12952'}
+    _Measurement__time: '2016-04-11T17:10:26Z'
+  86: !!python/object:CarTrip.Measurement
+    _Measurement__index: 86
+    _Measurement__latitude: 48.07844323422123
+    _Measurement__longitude: 11.125011354404243
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 7.768442101047775, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 10.056275847473369, Consumption_unit: l/h, Consumption_value: 3.305720042999053,
+      Engine Load_unit: '%', Engine Load_value: 46.998813200119415, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 5.170081973075867, GPS Altitude_unit: m, GPS Altitude_value: 541.0,
+      GPS Bearing_unit: deg, GPS Bearing_value: 264.7153189617493, GPS Speed_unit: km/h,
+      GPS Speed_value: 68.71024144495277, Intake Pressure_unit: kPa, Intake Pressure_value: 48.552091747522354,
+      Intake Temperature_unit: c, Intake Temperature_value: 25.00000074505806, Rpm_unit: u/min,
+      Rpm_value: 1566.0989583730698, Speed_unit: km/h, Speed_value: 68.00000202655792,
+      Throttle Position_unit: '%', Throttle Position_value: 17.391496896743774}
+    _Measurement__road: &id019 !!python/object:CarTrip.Road
+      _Road__display_name: A 96, Eching am Ammersee, Schondorf a.Ammersee (VGem),
+        Landkreis Landsberg am Lech, OB, Bayern, 82279, Deutschland
+      _Road__osm_id: '29264910'
+      _Road__tags: {bdouble: 'yes', highway: motorway, int_ref: E 54, lanes: '2',
+        maxspeed: none, 'note:name': "Der reg_name, sowie ggf. der loc_name sind dem\
+          \ zugeh\xF6rigen Wikipediaartikel entnommen.", oneway: 'yes', ref: A 96,
+        reg_name: Ammerseeautobahn, 'source:maxspeed': 'DE:motorway', tmc: 'DE:32245/12952',
+        'zone:traffic': 'DE:rural'}
+    _Measurement__time: '2016-04-11T17:10:31Z'
+  87: !!python/object:CarTrip.Measurement
+    _Measurement__index: 87
+    _Measurement__latitude: 48.0783506893187
+    _Measurement__longitude: 11.123773597275346
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 4.833176725265948, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 6.256564409781326, Consumption_unit: l/h, Consumption_value: 2.0566709469216797,
+      Engine Load_unit: '%', Engine Load_value: 26.346063262257417, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 5.16633266210556, GPS Altitude_unit: m, GPS Altitude_value: 538.0,
+      GPS Bearing_unit: deg, GPS Bearing_value: 263.7900085449219, GPS Speed_unit: km/h,
+      GPS Speed_value: 65.91239929199219, Intake Pressure_unit: kPa, Intake Pressure_value: 31.41607141494751,
+      Intake Temperature_unit: c, Intake Temperature_value: 25.00000074505806, Rpm_unit: u/min,
+      Rpm_value: 1505.8232990652323, Speed_unit: km/h, Speed_value: 66.00000049173832,
+      Throttle Position_unit: '%', Throttle Position_value: 14.581271648406982}
+    _Measurement__road: *id019
+    _Measurement__time: '2016-04-11T17:10:36Z'
+  88: !!python/object:CarTrip.Measurement
+    _Measurement__index: 88
+    _Measurement__latitude: 48.078252023298134
+    _Measurement__longitude: 11.12255346206414
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 5.185920499840892, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 6.71319247683304, Consumption_unit: l/h, Consumption_value: 2.206774680783358,
+      Engine Load_unit: '%', Engine Load_value: 29.575881661451945, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 7.188976168632507, GPS Altitude_unit: m, GPS Altitude_value: 536.9999839961529,
+      GPS Bearing_unit: deg, GPS Bearing_value: 265.08764338218043, GPS Speed_unit: km/h,
+      GPS Speed_value: 65.3071164423884, Intake Pressure_unit: kPa, Intake Pressure_value: 34.63908451795578,
+      Intake Temperature_unit: c, Intake Temperature_value: 24.99999962747097, Rpm_unit: u/min,
+      Rpm_value: 1465.3880994915962, Speed_unit: km/h, Speed_value: 63.99999809265137,
+      Throttle Position_unit: '%', Throttle Position_value: 14.999999748542905}
+    _Measurement__road: *id019
+    _Measurement__time: '2016-04-11T17:10:41Z'
+  89: !!python/object:CarTrip.Measurement
+    _Measurement__index: 89
+    _Measurement__latitude: 48.07819679418764
+    _Measurement__longitude: 11.12135899100512
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 4.707171240453684, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 6.093449862863891, Consumption_unit: l/h, Consumption_value: 2.0030515916824188,
+      Engine Load_unit: '%', Engine Load_value: 27.156431118515684, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 5.999999910593033, GPS Altitude_unit: m, GPS Altitude_value: 533.9999920427799,
+      GPS Bearing_unit: deg, GPS Bearing_value: 264.5794125960765, GPS Speed_unit: km/h,
+      GPS Speed_value: 63.74289616061378, Intake Pressure_unit: kPa, Intake Pressure_value: 32.22636670619249,
+      Intake Temperature_unit: c, Intake Temperature_value: 25.0, Rpm_unit: u/min,
+      Rpm_value: 1429.68995064497, Speed_unit: km/h, Speed_value: 63.0, Throttle Position_unit: '%',
+      Throttle Position_value: 13.999999582767487}
+    _Measurement__road: &id020 !!python/object:CarTrip.Road
+      _Road__display_name: A 96, Eching am Ammersee, Schondorf a.Ammersee (VGem),
+        Landkreis Landsberg am Lech, OB, Bayern, 82279, Deutschland
+      _Road__osm_id: '4885487'
+      _Road__tags: {bdouble: 'yes', bicycle: 'no', foot: 'no', highway: motorway,
+        horse: 'no', int_ref: E 54, lanes: '2', maxheight: '4.3', maxspeed: signals,
+        'note:name': "Der reg_name, sowie ggf. der loc_name sind dem zugeh\xF6rigen\
+          \ Wikipediaartikel entnommen.", oneway: 'yes', ref: A 96, reg_name: Ammerseeautobahn,
+        tmc: 'DE:32245/12952'}
+    _Measurement__time: '2016-04-11T17:10:46Z'
+  90: !!python/object:CarTrip.Measurement
+    _Measurement__index: 90
+    _Measurement__latitude: 48.07810068168574
+    _Measurement__longitude: 11.120134704220826
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 5.2285510785352365, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 6.768377912125135, Consumption_unit: l/h, Consumption_value: 2.2249153525681855,
+      Engine Load_unit: '%', Engine Load_value: 26.704030574789613, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 4.999999850988388, GPS Altitude_unit: m, GPS Altitude_value: 537.9999839663506,
+      GPS Bearing_unit: deg, GPS Bearing_value: 261.72179105945634, GPS Speed_unit: km/h,
+      GPS Speed_value: 63.56066436128879, Intake Pressure_unit: kPa, Intake Pressure_value: 35.61827927827835,
+      Intake Temperature_unit: c, Intake Temperature_value: 24.943362832069397, Rpm_unit: u/min,
+      Rpm_value: 1436.5446348190308, Speed_unit: km/h, Speed_value: 62.999999061226845,
+      Throttle Position_unit: '%', Throttle Position_value: 12.452612854540348}
+    _Measurement__road: *id020
+    _Measurement__time: '2016-04-11T17:10:51Z'
+  91: !!python/object:CarTrip.Measurement
+    _Measurement__index: 91
+    _Measurement__latitude: 48.07787653535377
+    _Measurement__longitude: 11.11779174928818
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 4.992681035642046, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 6.463043305181307, Consumption_unit: l/h, Consumption_value: 2.1245451215498066,
+      Engine Load_unit: '%', Engine Load_value: 28.439029707190798, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 6.336283087730408, GPS Altitude_unit: m, GPS Altitude_value: 538.9999919682741,
+      GPS Bearing_unit: deg, GPS Bearing_value: 260.7900046588479, GPS Speed_unit: km/h,
+      GPS Speed_value: 63.899996758997474, Intake Pressure_unit: kPa, Intake Pressure_value: 34.0,
+      Intake Temperature_unit: c, Intake Temperature_value: 25.0, Rpm_unit: u/min,
+      Rpm_value: 1437.3022847175598, Speed_unit: km/h, Speed_value: 62.999999295920134,
+      Throttle Position_unit: '%', Throttle Position_value: 15.0}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: A 96, Eching am Ammersee, Schondorf a.Ammersee (VGem),
+        Landkreis Landsberg am Lech, OB, Bayern, 82279, Deutschland
+      _Road__osm_id: '180802320'
+      _Road__tags: {bdouble: 'yes', bicycle: 'no', foot: 'no', highway: motorway,
+        horse: 'no', int_ref: E 54, lanes: '2', maxheight: '4.3', maxspeed: signals,
+        'note:name': "Der reg_name, sowie ggf. der loc_name sind dem zugeh\xF6rigen\
+          \ Wikipediaartikel entnommen.", oneway: 'yes', ref: A 96, reg_name: Ammerseeautobahn,
+        tmc: 'DE:32245/12952'}
+    _Measurement__time: '2016-04-11T17:11:01Z'
+  92: !!python/object:CarTrip.Measurement
+    _Measurement__index: 92
+    _Measurement__latitude: 48.07771305548645
+    _Measurement__longitude: 11.116652826377797
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 5.491408374603541, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 7.108647614003625, Consumption_unit: l/h, Consumption_value: 2.3367695211078896,
+      Engine Load_unit: '%', Engine Load_value: 31.345598387827863, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 13.572580829262733, GPS Altitude_unit: m, GPS Altitude_value: 539.0000080317259,
+      GPS Bearing_unit: deg, GPS Bearing_value: 257.3757030942702, GPS Speed_unit: km/h,
+      GPS Speed_value: 61.25316552449925, Intake Pressure_unit: kPa, Intake Pressure_value: 36.74061244726181,
+      Intake Temperature_unit: c, Intake Temperature_value: 25.00000074505806, Rpm_unit: u/min,
+      Rpm_value: 1462.9536365270615, Speed_unit: km/h, Speed_value: 64.0, Throttle Position_unit: '%',
+      Throttle Position_value: 14.999999776482582}
+    _Measurement__road: &id021 !!python/object:CarTrip.Road
+      _Road__display_name: A 96, Eching am Ammersee, Schondorf a.Ammersee (VGem),
+        Landkreis Landsberg am Lech, OB, Bayern, 82279, Deutschland
+      _Road__osm_id: '151824858'
+      _Road__tags: {bdouble: 'yes', highway: motorway, int_ref: E 54, lanes: '2',
+        layer: '-1', maxheight: '4.3', maxspeed: signals, oneway: 'yes', ref: A 96,
+        tmc: 'DE:32245', tunnel: 'yes'}
+    _Measurement__time: '2016-04-11T17:11:06Z'
+  93: !!python/object:CarTrip.Measurement
+    _Measurement__index: 93
+    _Measurement__latitude: 48.07756789790215
+    _Measurement__longitude: 11.115625823699082
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 4.624933952905208, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 5.986993402510801, Consumption_unit: l/h, Consumption_value: 1.9680570012362584,
+      Engine Load_unit: '%', Engine Load_value: 26.696224897419256, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 38.81573706865311, GPS Altitude_unit: m, GPS Altitude_value: 538.9999678730965,
+      GPS Bearing_unit: deg, GPS Bearing_value: 257.59999074935877, GPS Speed_unit: km/h,
+      GPS Speed_value: 58.64150197970616, Intake Pressure_unit: kPa, Intake Pressure_value: 31.428943276405334,
+      Intake Temperature_unit: c, Intake Temperature_value: 25.595897287130356, Rpm_unit: u/min,
+      Rpm_value: 1443.2318468615413, Speed_unit: km/h, Speed_value: 63.0, Throttle Position_unit: '%',
+      Throttle Position_value: 14.468275249004364}
+    _Measurement__road: *id021
+    _Measurement__time: '2016-04-11T17:11:11Z'
+  94: !!python/object:CarTrip.Measurement
+    _Measurement__index: 94
+    _Measurement__latitude: 48.07689091938154
+    _Measurement__longitude: 11.111114062203196
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 10.181633863991987, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 13.18016114202225, Consumption_unit: l/h, Consumption_value: 4.332610154890207,
+      Engine Load_unit: '%', Engine Load_value: 58.08148593115311, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 11.322766408324242, GPS Altitude_unit: m, GPS Altitude_value: 537.3227585703135,
+      GPS Bearing_unit: deg, GPS Bearing_value: 248.62031857477177, GPS Speed_unit: km/h,
+      GPS Speed_value: 56.601593935290396, Intake Pressure_unit: kPa, Intake Pressure_value: 61.128456961363554,
+      Intake Temperature_unit: c, Intake Temperature_value: 25.00000074505806, Rpm_unit: u/min,
+      Rpm_value: 1630.2989729642868, Speed_unit: km/h, Speed_value: 56.65237057209015,
+      Throttle Position_unit: '%', Throttle Position_value: 20.32566311955452}
+    _Measurement__road: &id022 !!python/object:CarTrip.Road
+      _Road__display_name: A 96, Eching am Ammersee, Schondorf a.Ammersee (VGem),
+        Landkreis Landsberg am Lech, OB, Bayern, 82279, Deutschland
+      _Road__osm_id: '3532061'
+      _Road__tags: {bdouble: 'yes', highway: motorway, int_ref: E 54, lanes: '2',
+        maxheight: '4.3', maxspeed: signals, oneway: 'yes', ref: A 96, reg_name: Ammerseeautobahn,
+        tmc: 'DE:12951/32245'}
+    _Measurement__time: '2016-04-11T17:11:31Z'
+  95: !!python/object:CarTrip.Measurement
+    _Measurement__index: 95
+    _Measurement__latitude: 48.076527413721124
+    _Measurement__longitude: 11.11014723775234
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 16.367216212363424, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 21.187419426678254, Consumption_unit: l/h, Consumption_value: 6.964772856324861,
+      Engine Load_unit: '%', Engine Load_value: 61.37358597387629, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 6.000000178813934, GPS Altitude_unit: m, GPS Altitude_value: 538.0000160336494,
+      GPS Bearing_unit: deg, GPS Bearing_value: 249.0014377192515, GPS Speed_unit: km/h,
+      GPS Speed_value: 63.84067659374432, Intake Pressure_unit: kPa, Intake Pressure_value: 64.41082519292831,
+      Intake Temperature_unit: c, Intake Temperature_value: 24.00000035762787, Rpm_unit: u/min,
+      Rpm_value: 2478.8490971028805, Speed_unit: km/h, Speed_value: 64.18547776341438,
+      Throttle Position_unit: '%', Throttle Position_value: 25.832679748535156}
+    _Measurement__road: *id022
+    _Measurement__time: '2016-04-11T17:11:36Z'
+  96: !!python/object:CarTrip.Measurement
+    _Measurement__index: 96
+    _Measurement__latitude: 48.07617694004842
+    _Measurement__longitude: 11.108999578052263
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 12.15582987225973, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 15.735764875419909, Consumption_unit: l/h, Consumption_value: 5.1726935626637145,
+      Engine Load_unit: '%', Engine Load_value: 57.766274602565105, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 4.999999925494194, GPS Altitude_unit: m, GPS Altitude_value: 538.1867824941874,
+      GPS Bearing_unit: deg, GPS Bearing_value: 252.22227740904327, GPS Speed_unit: km/h,
+      GPS Speed_value: 69.96653934240669, Intake Pressure_unit: kPa, Intake Pressure_value: 59.0,
+      Intake Temperature_unit: c, Intake Temperature_value: 23.999999284744263, Rpm_unit: u/min,
+      Rpm_value: 2009.8642854690552, Speed_unit: km/h, Speed_value: 69.50847458839417,
+      Throttle Position_unit: '%', Throttle Position_value: 20.80513697862625}
+    _Measurement__road: *id022
+    _Measurement__time: '2016-04-11T17:11:41Z'
+  97: !!python/object:CarTrip.Measurement
+    _Measurement__index: 97
+    _Measurement__latitude: 48.07594284651196
+    _Measurement__longitude: 11.107738359795768
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 8.999222262343354, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 11.649525130739153, Consumption_unit: l/h, Consumption_value: 3.829456281848236,
+      Engine Load_unit: '%', Engine Load_value: 49.36866143283328, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 5.000000074505806, GPS Altitude_unit: m, GPS Altitude_value: 536.0000079870224,
+      GPS Bearing_unit: deg, GPS Bearing_value: 255.59627807471998, GPS Speed_unit: km/h,
+      GPS Speed_value: 70.56450818408848, Intake Pressure_unit: kPa, Intake Pressure_value: 54.153846979141235,
+      Intake Temperature_unit: c, Intake Temperature_value: 23.999999284744263, Rpm_unit: u/min,
+      Rpm_value: 1621.0999637693167, Speed_unit: km/h, Speed_value: 70.93655101954937,
+      Throttle Position_unit: '%', Throttle Position_value: 18.614480197429657}
+    _Measurement__road: &id023 !!python/object:CarTrip.Road
+      _Road__display_name: A 96, Eching am Ammersee, Schondorf a.Ammersee (VGem),
+        Landkreis Landsberg am Lech, OB, Bayern, 82279, Deutschland
+      _Road__osm_id: '32953793'
+      _Road__tags: {bdouble: 'yes', highway: motorway, int_ref: E 54, lanes: '2',
+        maxspeed: none, oneway: 'yes', ref: A 96, reg_name: Ammerseeautobahn, tmc: 'DE:12951/32245',
+        'zone:traffic': 'DE:rural'}
+    _Measurement__time: '2016-04-11T17:11:46Z'
+  98: !!python/object:CarTrip.Measurement
+    _Measurement__index: 98
+    _Measurement__latitude: 48.07579526567295
+    _Measurement__longitude: 11.106463598136243
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 6.851631085912537, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 8.869460737277912, Consumption_unit: l/h, Consumption_value: 2.9155876961329943,
+      Engine Load_unit: '%', Engine Load_value: 43.85557909867407, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 4.000000059604645, GPS Altitude_unit: m, GPS Altitude_value: 536.0000079870224,
+      GPS Bearing_unit: deg, GPS Bearing_value: 259.99341624239605, GPS Speed_unit: km/h,
+      GPS Speed_value: 68.57578323757934, Intake Pressure_unit: kPa, Intake Pressure_value: 43.07016009092331,
+      Intake Temperature_unit: c, Intake Temperature_value: 24.13141278922558, Rpm_unit: u/min,
+      Rpm_value: 1552.5430061221123, Speed_unit: km/h, Speed_value: 68.00000202655792,
+      Throttle Position_unit: '%', Throttle Position_value: 18.014084942638874}
+    _Measurement__road: *id023
+    _Measurement__time: '2016-04-11T17:11:51Z'
+  99: !!python/object:CarTrip.Measurement
+    _Measurement__index: 99
+    _Measurement__latitude: 48.07562040069703
+    _Measurement__longitude: 11.105210107637992
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 26.191753166970436, Calculated MAF_unit: g/s,
+      Calculated MAF_value: 33.90531735320055, Consumption_unit: l/h, Consumption_value: 11.145426879561887,
+      Engine Load_unit: '%', Engine Load_value: 96.07843017578125, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 5.000000074505806, GPS Altitude_unit: m, GPS Altitude_value: 530.0000078976154,
+      GPS Bearing_unit: deg, GPS Bearing_value: 262.5594040902274, GPS Speed_unit: km/h,
+      GPS Speed_value: 70.2909892688458, Intake Pressure_unit: kPa, Intake Pressure_value: 91.99999725818634,
+      Intake Temperature_unit: c, Intake Temperature_value: 25.325158953666687, Rpm_unit: u/min,
+      Rpm_value: 2789.6090600676835, Speed_unit: km/h, Speed_value: 72.42049685120583,
+      Throttle Position_unit: '%', Throttle Position_value: 87.0}
+    _Measurement__road: *id023
+    _Measurement__time: '2016-04-11T17:11:56Z'

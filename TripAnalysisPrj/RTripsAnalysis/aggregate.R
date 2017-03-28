@@ -1,6 +1,14 @@
 car_trips <- read.csv("./csv/output/all_trips.csv", stringsAsFactors=FALSE)
 car_trips$time <- strptime(car_trips$time, "%Y-%m-%d %H:%M:%S", tz="UTC")
 
+get_non_na_value <- function (value, default_value){
+  if (!is.na(value)){
+    return(value)
+  }else{
+    return(default_value)
+  }
+}
+
 prev_tripid <- car_trips[1,]$trip_id
 prev_highway_val <- car_trips[1,]$highway_val
 car_trips_length <- length(car_trips[,1])
@@ -17,6 +25,8 @@ acc_sum <- 0
 decc_sum <- 0
 distance_sum <- 0
 co2_sum <- 0
+intake_temp_sum <- 0
+engine_load_sum <- 0
 
 index_v = c()
 trip_id_v = c()
@@ -38,6 +48,9 @@ acceleration_avg_v = c()
 decceleration_avg_v = c()
 distance_v = c()
 co2_emission_v = c()
+cycleway_v = c()
+intake_temp_avg_v = c()
+engine_load_avg_v = c()
 
 for (i in 2:car_trips_length){
   tr <- car_trips[i,]
@@ -66,6 +79,9 @@ for (i in 2:car_trips_length){
     decceleration_avg_v = c(decceleration_avg_v, decc_sum/trip_items)
     distance_v = c(distance_v, distance_sum)
     co2_emission_v = c(co2_emission_v, co2_sum)
+    cycleway_v = c(cycleway_v, prev_tr$cycleway)
+    intake_temp_avg_v = c(intake_temp_avg_v, intake_temp_sum/trip_items)
+    engine_load_avg_v = c(engine_load_avg_v, engine_load_sum/trip_items)
     
     prev_tripid <- tr$trip_id
     prev_highway_val <- tr$highway_val
@@ -80,21 +96,23 @@ for (i in 2:car_trips_length){
     decc_sum <- 0
     distance_sum <- 0
     co2_sum <- 0
+    intake_temp_sum <- 0
+    engine_load_sum <- 0
   }
   
   trip_items <- trip_items + 1
   time_diff <- time_diff + tr$time_diff
   
-  thr_position = if (!is.na(tr$Throttle.Position_value)) tr$Throttle.Position_value else 0
-  throttle_position_sum <- throttle_position_sum + thr_position
-  
-  throttle_position_diff_sum <- throttle_position_diff_sum + abs(tr$throttle_diff)
-  speed_sum <- speed_sum + tr$Speed_value
-  rmp_sum <- rmp_sum + tr$Rpm_value
-  rmp_diff_sum <- rmp_diff_sum + abs(tr$rpm_diff)
-  distance_sum <- distance_sum + tr$distance
-  co2_sum <- co2_sum + tr$co2_emission
-  
+  throttle_position_sum <- throttle_position_sum + get_non_na_value(tr$Throttle.Position_value, 0)
+  throttle_position_diff_sum <- throttle_position_diff_sum + abs(get_non_na_value(tr$throttle_diff, 0))
+  speed_sum <- speed_sum + get_non_na_value(tr$Speed_value, 0)
+  rmp_sum <- rmp_sum + get_non_na_value(tr$Rpm_value, 0)
+  rmp_diff_sum <- rmp_diff_sum + get_non_na_value(abs(tr$rpm_diff), 0)
+  distance_sum <- distance_sum + get_non_na_value(tr$distance, 0)
+  co2_sum <- co2_sum + get_non_na_value(tr$co2_emission, 0)
+  intake_temp_sum <- intake_temp_sum + get_non_na_value(tr$Intake.Temperature_value, 12)
+  engine_load_sum <- engine_load_sum + get_non_na_value(tr$Engine.Load_value, 32)
+    
   if (0 < tr$acceleration){
     acc_sum <- acc_sum + tr$acceleration
   }else{
@@ -122,6 +140,9 @@ trips_aggregated <- data.frame(
   acceleration_avg = acceleration_avg_v,
   decceleration_avg = decceleration_avg_v,
   distance = distance_v,
+  cycleway = cycleway_v,
+  intake_temp_avg = intake_temp_avg_v,
+  engine_load_avg = engine_load_avg_v,
   co2_emission = co2_emission_v
 )
 write.csv(file="./csv/output/all_aggregated_trips.csv", x=trips_aggregated)

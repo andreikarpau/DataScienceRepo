@@ -1,0 +1,1739 @@
+!!python/object:CarTrip.Trip
+_Trip__car: !!python/object:CarTrip.Car {_Car__api_id: 52b346f2e4b0f9afbd19f82f, _Car__construction_year: 2004,
+  _Car__engine_displacement: 1600, _Car__fuel_type: gasoline, _Car__manufacturer: skoda,
+  _Car__model: oktavia}
+_Trip__id: 52e568cce4b0d8e8c22bd6ec
+_Trip__length: 10.864347614466183
+_Trip__measurements:
+  0: !!python/object:CarTrip.Measurement
+    _Measurement__index: 0
+    _Measurement__latitude: 48.40598543174565
+    _Measurement__longitude: 11.611565379425883
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 16.415559512395564, Consumption_unit: l/h,
+      Consumption_value: 6.985344473359815, Engine Load_unit: '%', Engine Load_value: 72.1568603515625,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 488.6,
+      GPS Bearing_unit: deg, GPS Bearing_value: 69.31999969482422, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.8, GPS PDOP_unit: precision, GPS PDOP_value: 1.5, GPS Speed_unit: km/h,
+      GPS Speed_value: 43.2, GPS VDOP_unit: precision, GPS VDOP_value: 1.2, Intake Temperature_unit: c,
+      Intake Temperature_value: 3.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 4.6875,
+      MAF_unit: l/s, MAF_value: 21.25, Rpm_unit: u/min, Rpm_value: 1969.0, Short-Term Fuel Trim 1_unit: '%',
+      Short-Term Fuel Trim 1_value: -5.46875, Speed_unit: km/h, Speed_value: 35.0,
+      Throttle Position_unit: '%', Throttle Position_value: 18.0}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: "Untere Dorfstra\xDFe, Kranzberg, Landkreis Freising, OB,\
+        \ Bayern, 85402, Deutschland"
+      _Road__osm_id: '34547801'
+      _Road__tags: {highway: tertiary, maxspeed: '50', name: "Untere Dorfstra\xDFe",
+        ref: FS 24}
+    _Measurement__time: '2014-01-21T16:00:01Z'
+  1: !!python/object:CarTrip.Measurement
+    _Measurement__index: 1
+    _Measurement__latitude: 48.406159188598394
+    _Measurement__longitude: 11.612543044611812
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 9.100013490474938, Consumption_unit: l/h,
+      Consumption_value: 3.8723461661595477, Engine Load_unit: '%', Engine Load_value: 59.60784149169922,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 490.20000000000005,
+      GPS Bearing_unit: deg, GPS Bearing_value: 76.80000305175781, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.8, GPS PDOP_unit: precision, GPS PDOP_value: 1.3, GPS Speed_unit: km/h,
+      GPS Speed_value: 44.325, GPS VDOP_unit: precision, GPS VDOP_value: 1.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 3.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 7.03125,
+      MAF_unit: l/s, MAF_value: 11.779999732971191, O2 Lambda Voltage ER_unit: ratio,
+      O2 Lambda Voltage ER_value: 1.0498046875, O2 Lambda Voltage_unit: V, O2 Lambda Voltage_value: 1.5087890625,
+      Rpm_unit: u/min, Rpm_value: 1675.0, Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: -5.46875,
+      Speed_unit: km/h, Speed_value: 44.0, Throttle Position_unit: '%', Throttle Position_value: 12.0}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: Am Herzog, Kranzberg, Landkreis Freising, OB, Bayern, 85402,
+        Deutschland
+      _Road__osm_id: '23899606'
+      _Road__tags: {highway: track, name: Am Herzog, tracktype: grade1}
+    _Measurement__time: '2014-01-21T16:00:07Z'
+  2: !!python/object:CarTrip.Measurement
+    _Measurement__index: 2
+    _Measurement__latitude: 48.40616995934397
+    _Measurement__longitude: 11.613519452512264
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 8.605615934302197, Consumption_unit: l/h,
+      Consumption_value: 3.6619642273626365, Engine Load_unit: '%', Engine Load_value: 61.17647171020508,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 493.0,
+      GPS Bearing_unit: deg, GPS Bearing_value: 101.18000030517578, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 1.2, GPS Speed_unit: km/h,
+      GPS Speed_value: 43.425000000000004, GPS VDOP_unit: precision, GPS VDOP_value: 1.0,
+      Intake Temperature_unit: c, Intake Temperature_value: 3.0, Long-Term Fuel Trim 1_unit: '%',
+      Long-Term Fuel Trim 1_value: 5.46875, MAF_unit: l/s, MAF_value: 11.140000343322754,
+      Rpm_unit: u/min, Rpm_value: 1678.0, Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: -0.78125,
+      Speed_unit: km/h, Speed_value: 45.0, Throttle Position_unit: '%', Throttle Position_value: 12.0}
+    _Measurement__road: &id001 !!python/object:CarTrip.Road
+      _Road__display_name: "Obere Dorfstra\xDFe, Kranzberg, Landkreis Freising, OB,\
+        \ Bayern, 85402, Deutschland"
+      _Road__osm_id: '37273854'
+      _Road__tags: {highway: tertiary, maxspeed: '50', name: "Obere Dorfstra\xDFe",
+        ref: FS 24}
+    _Measurement__time: '2014-01-21T16:00:13Z'
+  3: !!python/object:CarTrip.Measurement
+    _Measurement__index: 3
+    _Measurement__latitude: 48.40601564850658
+    _Measurement__longitude: 11.614403994753957
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 6.929297562805435, Consumption_unit: l/h,
+      Consumption_value: 2.9486372607682703, Engine Load_unit: '%', Engine Load_value: 28.235294342041016,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 495.4,
+      GPS Bearing_unit: deg, GPS Bearing_value: 87.01000213623047, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.8, GPS PDOP_unit: precision, GPS PDOP_value: 1.4, GPS Speed_unit: km/h,
+      GPS Speed_value: 37.575, GPS VDOP_unit: precision, GPS VDOP_value: 1.1, Intake Temperature_unit: c,
+      Intake Temperature_value: 3.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 5.46875,
+      MAF_unit: l/s, MAF_value: 8.970000267028809, Rpm_unit: u/min, Rpm_value: 1485.0,
+      Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: 1.5625, Speed_unit: km/h,
+      Speed_value: 42.0, Throttle Position_unit: '%', Throttle Position_value: 10.0}
+    _Measurement__road: *id001
+    _Measurement__time: '2014-01-21T16:00:19Z'
+  4: !!python/object:CarTrip.Measurement
+    _Measurement__index: 4
+    _Measurement__latitude: 48.406134587712586
+    _Measurement__longitude: 11.615346623584628
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 15.94433592078033, Consumption_unit: l/h,
+      Consumption_value: 6.784823796076736, Engine Load_unit: '%', Engine Load_value: 100.0,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 498.0,
+      GPS Bearing_unit: deg, GPS Bearing_value: 85.2300033569336, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.8, GPS PDOP_unit: precision, GPS PDOP_value: 1.5, GPS Speed_unit: km/h,
+      GPS Speed_value: 44.1, GPS VDOP_unit: precision, GPS VDOP_value: 1.2, Intake Temperature_unit: c,
+      Intake Temperature_value: 3.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 6.25,
+      MAF_unit: l/s, MAF_value: 20.639999389648438, Rpm_unit: u/min, Rpm_value: 1645.0,
+      Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: -5.46875, Speed_unit: km/h,
+      Speed_value: 39.0, Throttle Position_unit: '%', Throttle Position_value: 31.0}
+    _Measurement__road: *id001
+    _Measurement__time: '2014-01-21T16:00:25Z'
+  5: !!python/object:CarTrip.Measurement
+    _Measurement__index: 5
+    _Measurement__latitude: 48.40610558632761
+    _Measurement__longitude: 11.616341890767217
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 14.020818771197199, Consumption_unit: l/h,
+      Consumption_value: 5.9663058600839145, Engine Load_unit: '%', Engine Load_value: 81.5686264038086,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 502.6,
+      GPS Bearing_unit: deg, GPS Bearing_value: 90.7699966430664, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.8, GPS PDOP_unit: precision, GPS PDOP_value: 1.4, GPS Speed_unit: km/h,
+      GPS Speed_value: 40.725, GPS VDOP_unit: precision, GPS VDOP_value: 1.1, Intake Temperature_unit: c,
+      Intake Temperature_value: 3.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 5.46875,
+      MAF_unit: l/s, MAF_value: 18.149999618530273, Rpm_unit: u/min, Rpm_value: 1737.0,
+      Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: -5.46875, Speed_unit: km/h,
+      Speed_value: 45.0, Throttle Position_unit: '%', Throttle Position_value: 11.0}
+    _Measurement__road: *id001
+    _Measurement__time: '2014-01-21T16:00:31Z'
+  6: !!python/object:CarTrip.Measurement
+    _Measurement__index: 6
+    _Measurement__latitude: 48.40626991353929
+    _Measurement__longitude: 11.61712777800858
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 5.9868511162854405, Consumption_unit: l/h,
+      Consumption_value: 2.547596219695932, Engine Load_unit: '%', Engine Load_value: 81.5686264038086,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 504.70000000000005,
+      GPS Bearing_unit: deg, GPS Bearing_value: 66.7699966430664, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 1.1, GPS Speed_unit: km/h,
+      GPS Speed_value: 37.800000000000004, GPS VDOP_unit: precision, GPS VDOP_value: 0.9,
+      Intake Temperature_unit: c, Intake Temperature_value: 3.0, Long-Term Fuel Trim 1_unit: '%',
+      Long-Term Fuel Trim 1_value: 5.46875, MAF_unit: l/s, MAF_value: 7.75, O2 Lambda Voltage ER_unit: ratio,
+      O2 Lambda Voltage ER_value: 0.986328125, O2 Lambda Voltage_unit: V, O2 Lambda Voltage_value: 1.4453125,
+      Rpm_unit: u/min, Rpm_value: 1381.0, Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: -5.46875,
+      Speed_unit: km/h, Speed_value: 37.0, Throttle Position_unit: '%', Throttle Position_value: 9.0}
+    _Measurement__road: &id002 !!python/object:CarTrip.Road
+      _Road__display_name: "Obere Dorfstra\xDFe, Kranzberg, Landkreis Freising, OB,\
+        \ Bayern, 85402, Deutschland"
+      _Road__osm_id: '230195875'
+      _Road__tags: {highway: tertiary, maxspeed: '50', name: "Obere Dorfstra\xDFe",
+        ref: FS 24}
+    _Measurement__time: '2014-01-21T16:00:37Z'
+  7: !!python/object:CarTrip.Measurement
+    _Measurement__index: 7
+    _Measurement__latitude: 48.40664668008685
+    _Measurement__longitude: 11.617973931133747
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 15.54263864310045, Consumption_unit: l/h,
+      Consumption_value: 6.613888784298063, Engine Load_unit: '%', Engine Load_value: 100.0,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 506.0,
+      GPS Bearing_unit: deg, GPS Bearing_value: 47.5, GPS HDOP_unit: precision, GPS HDOP_value: 0.6,
+      GPS PDOP_unit: precision, GPS PDOP_value: 1.1, GPS Speed_unit: km/h, GPS Speed_value: 49.275,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.9, Intake Temperature_unit: c, Intake Temperature_value: 3.0,
+      Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 4.6875, MAF_unit: l/s,
+      MAF_value: 20.1200008392334, Rpm_unit: u/min, Rpm_value: 1624.0, Short-Term Fuel Trim 1_unit: '%',
+      Short-Term Fuel Trim 1_value: -5.46875, Speed_unit: km/h, Speed_value: 39.0,
+      Throttle Position_unit: '%', Throttle Position_value: 32.0}
+    _Measurement__road: *id002
+    _Measurement__time: '2014-01-21T16:00:43Z'
+  8: !!python/object:CarTrip.Measurement
+    _Measurement__index: 8
+    _Measurement__latitude: 48.40715336613357
+    _Measurement__longitude: 11.61874515004456
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 10.706807021457289, Consumption_unit: l/h,
+      Consumption_value: 4.556088094237144, Engine Load_unit: '%', Engine Load_value: 65.88235473632812,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 508.6,
+      GPS Bearing_unit: deg, GPS Bearing_value: 46.18000030517578, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 1.2, GPS Speed_unit: km/h,
+      GPS Speed_value: 47.475, GPS VDOP_unit: precision, GPS VDOP_value: 0.9, Intake Temperature_unit: c,
+      Intake Temperature_value: 3.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 6.25,
+      MAF_unit: l/s, MAF_value: 13.859999656677246, Rpm_unit: u/min, Rpm_value: 1808.0,
+      Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: -3.90625, Speed_unit: km/h,
+      Speed_value: 48.0, Throttle Position_unit: '%', Throttle Position_value: 14.0}
+    _Measurement__road: *id002
+    _Measurement__time: '2014-01-21T16:00:49Z'
+  9: !!python/object:CarTrip.Measurement
+    _Measurement__index: 9
+    _Measurement__latitude: 48.40765674132854
+    _Measurement__longitude: 11.61950253881514
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 13.0242985128589, Consumption_unit: l/h,
+      Consumption_value: 5.542254686322936, Engine Load_unit: '%', Engine Load_value: 75.29412078857422,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 511.1,
+      GPS Bearing_unit: deg, GPS Bearing_value: 44.68000030517578, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.8, GPS PDOP_unit: precision, GPS PDOP_value: 1.4, GPS Speed_unit: km/h,
+      GPS Speed_value: 47.925000000000004, GPS VDOP_unit: precision, GPS VDOP_value: 1.1,
+      Intake Temperature_unit: c, Intake Temperature_value: 3.0, Long-Term Fuel Trim 1_unit: '%',
+      Long-Term Fuel Trim 1_value: 5.46875, MAF_unit: l/s, MAF_value: 16.860000610351562,
+      Rpm_unit: u/min, Rpm_value: 1825.0, Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: -4.6875,
+      Speed_unit: km/h, Speed_value: 48.0, Throttle Position_unit: '%', Throttle Position_value: 16.0}
+    _Measurement__road: *id002
+    _Measurement__time: '2014-01-21T16:00:55Z'
+  10: !!python/object:CarTrip.Measurement
+    _Measurement__index: 10
+    _Measurement__latitude: 48.40818555559963
+    _Measurement__longitude: 11.620272332802415
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 14.275742695276385, Consumption_unit: l/h,
+      Consumption_value: 6.074784125649526, Engine Load_unit: '%', Engine Load_value: 84.70587921142578,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 514.3,
+      GPS Bearing_unit: deg, GPS Bearing_value: 42.720001220703125, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.8, GPS PDOP_unit: precision, GPS PDOP_value: 1.4, GPS Speed_unit: km/h,
+      GPS Speed_value: 49.050000000000004, GPS VDOP_unit: precision, GPS VDOP_value: 1.1,
+      Intake Temperature_unit: c, Intake Temperature_value: 2.0, Long-Term Fuel Trim 1_unit: '%',
+      Long-Term Fuel Trim 1_value: 5.46875, MAF_unit: l/s, MAF_value: 18.479999542236328,
+      Rpm_unit: u/min, Rpm_value: 1855.0, Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: -4.6875,
+      Speed_unit: km/h, Speed_value: 48.0, Throttle Position_unit: '%', Throttle Position_value: 19.0}
+    _Measurement__road: *id002
+    _Measurement__time: '2014-01-21T16:01:01Z'
+  11: !!python/object:CarTrip.Measurement
+    _Measurement__index: 11
+    _Measurement__latitude: 48.40876348782331
+    _Measurement__longitude: 11.620989656075835
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 16.840432228053896, Consumption_unit: l/h,
+      Consumption_value: 7.166141373639955, Engine Load_unit: '%', Engine Load_value: 87.8431396484375,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 518.8,
+      GPS Bearing_unit: deg, GPS Bearing_value: 39.599998474121094, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.8, GPS PDOP_unit: precision, GPS PDOP_value: 1.4, GPS Speed_unit: km/h,
+      GPS Speed_value: 49.5, GPS VDOP_unit: precision, GPS VDOP_value: 1.1, Intake Temperature_unit: c,
+      Intake Temperature_value: 3.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 5.46875,
+      MAF_unit: l/s, MAF_value: 21.799999237060547, Rpm_unit: u/min, Rpm_value: 1937.0,
+      Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: -3.125, Speed_unit: km/h,
+      Speed_value: 51.0, Throttle Position_unit: '%', Throttle Position_value: 22.0}
+    _Measurement__road: &id003 !!python/object:CarTrip.Road
+      _Road__display_name: FS 24, Kranzberg, Landkreis Freising, OB, Bayern, 85402,
+        Deutschland
+      _Road__osm_id: '23909532'
+      _Road__tags: {highway: tertiary, ref: FS 24, width: '6.0'}
+    _Measurement__time: '2014-01-21T16:01:07Z'
+  12: !!python/object:CarTrip.Measurement
+    _Measurement__index: 12
+    _Measurement__latitude: 48.409374905750155
+    _Measurement__longitude: 11.621577395126224
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 17.19578157661876, Consumption_unit: l/h,
+      Consumption_value: 7.317353862390961, Engine Load_unit: '%', Engine Load_value: 100.0,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 522.1,
+      GPS Bearing_unit: deg, GPS Bearing_value: 26.979999542236328, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.8, GPS PDOP_unit: precision, GPS PDOP_value: 1.6, GPS Speed_unit: km/h,
+      GPS Speed_value: 46.35, GPS VDOP_unit: precision, GPS VDOP_value: 1.3, Intake Temperature_unit: c,
+      Intake Temperature_value: 2.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 4.6875,
+      MAF_unit: l/s, MAF_value: 22.260000228881836, O2 Lambda Voltage ER_unit: ratio,
+      O2 Lambda Voltage ER_value: 0.9873046875, O2 Lambda Voltage_unit: V, O2 Lambda Voltage_value: 1.4453125,
+      Rpm_unit: u/min, Rpm_value: 1913.0, Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: -3.125,
+      Speed_unit: km/h, Speed_value: 50.0, Throttle Position_unit: '%', Throttle Position_value: 25.0}
+    _Measurement__road: *id003
+    _Measurement__time: '2014-01-21T16:01:13Z'
+  13: !!python/object:CarTrip.Measurement
+    _Measurement__index: 13
+    _Measurement__latitude: 48.41008875053376
+    _Measurement__longitude: 11.621965980157256
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 20.146719568511458, Consumption_unit: l/h,
+      Consumption_value: 8.573072156813385, Engine Load_unit: '%', Engine Load_value: 100.0,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 524.0,
+      GPS Bearing_unit: deg, GPS Bearing_value: 15.9399995803833, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 1.3, GPS Speed_unit: km/h,
+      GPS Speed_value: 52.65, GPS VDOP_unit: precision, GPS VDOP_value: 1.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 2.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 3.90625,
+      MAF_unit: l/s, MAF_value: 26.079999923706055, Rpm_unit: u/min, Rpm_value: 2077.0,
+      Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: -3.90625, Speed_unit: km/h,
+      Speed_value: 54.0, Throttle Position_unit: '%', Throttle Position_value: 29.0}
+    _Measurement__road: *id003
+    _Measurement__time: '2014-01-21T16:01:19Z'
+  14: !!python/object:CarTrip.Measurement
+    _Measurement__index: 14
+    _Measurement__latitude: 48.41092128306627
+    _Measurement__longitude: 11.622204529121518
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 19.443747490795488, Consumption_unit: l/h,
+      Consumption_value: 8.273935102466165, Engine Load_unit: '%', Engine Load_value: 94.11764526367188,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 534.8,
+      GPS Bearing_unit: deg, GPS Bearing_value: 11.100000381469727, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 1.1, GPS Speed_unit: km/h,
+      GPS Speed_value: 56.025, GPS VDOP_unit: precision, GPS VDOP_value: 0.9, Intake Temperature_unit: c,
+      Intake Temperature_value: 2.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 3.90625,
+      MAF_unit: l/s, MAF_value: 25.170000076293945, Rpm_unit: u/min, Rpm_value: 2106.0,
+      Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: -2.34375, Speed_unit: km/h,
+      Speed_value: 55.0, Throttle Position_unit: '%', Throttle Position_value: 24.0}
+    _Measurement__road: *id003
+    _Measurement__time: '2014-01-21T16:01:25Z'
+  15: !!python/object:CarTrip.Measurement
+    _Measurement__index: 15
+    _Measurement__latitude: 48.411738937720656
+    _Measurement__longitude: 11.622399827465415
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 17.51250519521954, Consumption_unit: l/h,
+      Consumption_value: 7.4521298703061865, Engine Load_unit: '%', Engine Load_value: 81.5686264038086,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 543.5999999999999,
+      GPS Bearing_unit: deg, GPS Bearing_value: 7.03000020980835, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 1.1, GPS Speed_unit: km/h,
+      GPS Speed_value: 55.125, GPS VDOP_unit: precision, GPS VDOP_value: 0.9, Intake Temperature_unit: c,
+      Intake Temperature_value: 2.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 3.90625,
+      MAF_unit: l/s, MAF_value: 22.670000076293945, Rpm_unit: u/min, Rpm_value: 2063.0,
+      Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: -2.34375, Speed_unit: km/h,
+      Speed_value: 55.0, Throttle Position_unit: '%', Throttle Position_value: 21.0}
+    _Measurement__road: *id003
+    _Measurement__time: '2014-01-21T16:01:31Z'
+  16: !!python/object:CarTrip.Measurement
+    _Measurement__index: 16
+    _Measurement__latitude: 48.41254858765751
+    _Measurement__longitude: 11.622512144967914
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 11.541103634209263, Consumption_unit: l/h,
+      Consumption_value: 4.91110792945075, Engine Load_unit: '%', Engine Load_value: 67.45098114013672,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 549.5999999999999,
+      GPS Bearing_unit: deg, GPS Bearing_value: 4.909999847412109, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 1.1, GPS Speed_unit: km/h,
+      GPS Speed_value: 52.65, GPS VDOP_unit: precision, GPS VDOP_value: 0.9, Intake Temperature_unit: c,
+      Intake Temperature_value: 2.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 4.6875,
+      MAF_unit: l/s, MAF_value: 14.9399995803833, Rpm_unit: u/min, Rpm_value: 2023.0,
+      Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: -3.125, Speed_unit: km/h,
+      Speed_value: 55.0, Throttle Position_unit: '%', Throttle Position_value: 16.0}
+    _Measurement__road: *id003
+    _Measurement__time: '2014-01-21T16:01:37Z'
+  17: !!python/object:CarTrip.Measurement
+    _Measurement__index: 17
+    _Measurement__latitude: 48.413288039155304
+    _Measurement__longitude: 11.62257601507008
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 10.830407147210945, Consumption_unit: l/h,
+      Consumption_value: 4.608683892430189, Engine Load_unit: '%', Engine Load_value: 21.960784912109375,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 552.7,
+      GPS Bearing_unit: deg, GPS Bearing_value: 0.09000000357627869, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 1.2, GPS Speed_unit: km/h,
+      GPS Speed_value: 46.575, GPS VDOP_unit: precision, GPS VDOP_value: 0.9, Intake Temperature_unit: c,
+      Intake Temperature_value: 2.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 7.8125,
+      MAF_unit: l/s, MAF_value: 14.020000457763672, Rpm_unit: u/min, Rpm_value: 1941.0,
+      Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: 0.0, Speed_unit: km/h,
+      Speed_value: 53.0, Throttle Position_unit: '%', Throttle Position_value: 6.0}
+    _Measurement__road: *id003
+    _Measurement__time: '2014-01-21T16:01:43Z'
+  18: !!python/object:CarTrip.Measurement
+    _Measurement__index: 18
+    _Measurement__latitude: 48.41408440377563
+    _Measurement__longitude: 11.62254173308611
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 10.6141074796749, Consumption_unit: l/h,
+      Consumption_value: 4.516641480712723, Engine Load_unit: '%', Engine Load_value: 95.68627166748047,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 555.4000000000001,
+      GPS Bearing_unit: deg, GPS Bearing_value: 356.2099914550781, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 1.1, GPS Speed_unit: km/h,
+      GPS Speed_value: 59.4, GPS VDOP_unit: precision, GPS VDOP_value: 0.9, Intake Temperature_unit: c,
+      Intake Temperature_value: 2.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 3.90625,
+      MAF_unit: l/s, MAF_value: 13.739999771118164, O2 Lambda Voltage ER_unit: ratio,
+      O2 Lambda Voltage ER_value: 0.9912109375, O2 Lambda Voltage_unit: V, O2 Lambda Voltage_value: 1.455078125,
+      Rpm_unit: u/min, Rpm_value: 1835.0, Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: -1.5625,
+      Speed_unit: km/h, Speed_value: 47.0, Throttle Position_unit: '%', Throttle Position_value: 18.0}
+    _Measurement__road: *id003
+    _Measurement__time: '2014-01-21T16:01:49Z'
+  19: !!python/object:CarTrip.Measurement
+    _Measurement__index: 19
+    _Measurement__latitude: 48.41500712558627
+    _Measurement__longitude: 11.622428577393293
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 9.424462255068535, Consumption_unit: l/h,
+      Consumption_value: 4.01040947024193, Engine Load_unit: '%', Engine Load_value: 40.7843132019043,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 554.0,
+      GPS Bearing_unit: deg, GPS Bearing_value: 356.57000732421875, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 1.1, GPS Speed_unit: km/h,
+      GPS Speed_value: 63.45, GPS VDOP_unit: precision, GPS VDOP_value: 0.8, Intake Temperature_unit: c,
+      Intake Temperature_value: 2.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 5.46875,
+      MAF_unit: l/s, MAF_value: 12.199999809265137, Rpm_unit: u/min, Rpm_value: 2375.0,
+      Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: -6.25, Speed_unit: km/h,
+      Speed_value: 62.0, Throttle Position_unit: '%', Throttle Position_value: 12.0}
+    _Measurement__road: *id003
+    _Measurement__time: '2014-01-21T16:01:55Z'
+  20: !!python/object:CarTrip.Measurement
+    _Measurement__index: 20
+    _Measurement__latitude: 48.41598131228238
+    _Measurement__longitude: 11.622571991756558
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 9.200438178250144, Consumption_unit: l/h,
+      Consumption_value: 3.9150800758511246, Engine Load_unit: '%', Engine Load_value: 39.2156867980957,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 551.8,
+      GPS Bearing_unit: deg, GPS Bearing_value: 17.209999084472656, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 1.1, GPS Speed_unit: km/h,
+      GPS Speed_value: 66.375, GPS VDOP_unit: precision, GPS VDOP_value: 0.9, Intake Temperature_unit: c,
+      Intake Temperature_value: 2.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 4.6875,
+      MAF_unit: l/s, MAF_value: 11.90999984741211, Rpm_unit: u/min, Rpm_value: 2470.0,
+      Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: -2.34375, Speed_unit: km/h,
+      Speed_value: 64.0, Throttle Position_unit: '%', Throttle Position_value: 12.0}
+    _Measurement__road: *id003
+    _Measurement__time: '2014-01-21T16:02:01Z'
+  21: !!python/object:CarTrip.Measurement
+    _Measurement__index: 21
+    _Measurement__latitude: 48.416873440146446
+    _Measurement__longitude: 11.623242711648345
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 8.922339552902978, Consumption_unit: l/h,
+      Consumption_value: 3.7967402352778623, Engine Load_unit: '%', Engine Load_value: 34.509803771972656,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 549.7,
+      GPS Bearing_unit: deg, GPS Bearing_value: 31.170000076293945, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 1.1, GPS Speed_unit: km/h,
+      GPS Speed_value: 65.025, GPS VDOP_unit: precision, GPS VDOP_value: 0.9, Intake Temperature_unit: c,
+      Intake Temperature_value: 2.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 14.84375,
+      MAF_unit: l/s, MAF_value: 11.550000190734863, Rpm_unit: u/min, Rpm_value: 2570.0,
+      Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: 0.0, Speed_unit: km/h,
+      Speed_value: 67.0, Throttle Position_unit: '%', Throttle Position_value: 11.0}
+    _Measurement__road: *id003
+    _Measurement__time: '2014-01-21T16:02:07Z'
+  22: !!python/object:CarTrip.Measurement
+    _Measurement__index: 22
+    _Measurement__latitude: 48.41769583057612
+    _Measurement__longitude: 11.624000100418925
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 5.500177969395045, Consumption_unit: l/h,
+      Consumption_value: 2.3405012635723597, Engine Load_unit: '%', Engine Load_value: 42.35293960571289,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 549.0999999999999,
+      GPS Bearing_unit: deg, GPS Bearing_value: 31.469999313354492, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 1.1, GPS Speed_unit: km/h,
+      GPS Speed_value: 63.9, GPS VDOP_unit: precision, GPS VDOP_value: 0.8, Intake Temperature_unit: c,
+      Intake Temperature_value: 2.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 7.03125,
+      MAF_unit: l/s, MAF_value: 7.119999885559082, Rpm_unit: u/min, Rpm_value: 2002.0,
+      Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: 0.0, Speed_unit: km/h,
+      Speed_value: 65.0, Throttle Position_unit: '%', Throttle Position_value: 10.0}
+    _Measurement__road: *id003
+    _Measurement__time: '2014-01-21T16:02:13Z'
+  23: !!python/object:CarTrip.Measurement
+    _Measurement__index: 23
+    _Measurement__latitude: 48.41849433258176
+    _Measurement__longitude: 11.62473569624126
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 8.590165642316563, Consumption_unit: l/h,
+      Consumption_value: 3.655389635028325, Engine Load_unit: '%', Engine Load_value: 40.7843132019043,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 549.5999999999999,
+      GPS Bearing_unit: deg, GPS Bearing_value: 31.3700008392334, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 1.1, GPS Speed_unit: km/h,
+      GPS Speed_value: 61.2, GPS VDOP_unit: precision, GPS VDOP_value: 0.9, Intake Temperature_unit: c,
+      Intake Temperature_value: 2.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 7.8125,
+      MAF_unit: l/s, MAF_value: 11.119999885559082, Rpm_unit: u/min, Rpm_value: 1975.0,
+      Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: -3.125, Speed_unit: km/h,
+      Speed_value: 64.0, Throttle Position_unit: '%', Throttle Position_value: 12.0}
+    _Measurement__road: *id003
+    _Measurement__time: '2014-01-21T16:02:19Z'
+  24: !!python/object:CarTrip.Measurement
+    _Measurement__index: 24
+    _Measurement__latitude: 48.41927368193865
+    _Measurement__longitude: 11.625456288456917
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 9.23133802551094, Consumption_unit: l/h,
+      Consumption_value: 3.9282289470259317, Engine Load_unit: '%', Engine Load_value: 53.33333206176758,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 550.7,
+      GPS Bearing_unit: deg, GPS Bearing_value: 31.209999084472656, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 1.1, GPS Speed_unit: km/h,
+      GPS Speed_value: 60.975, GPS VDOP_unit: precision, GPS VDOP_value: 0.9, Intake Temperature_unit: c,
+      Intake Temperature_value: 2.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 7.8125,
+      MAF_unit: l/s, MAF_value: 11.949999809265137, O2 Lambda Voltage ER_unit: ratio,
+      O2 Lambda Voltage ER_value: 1.005859375, O2 Lambda Voltage_unit: V, O2 Lambda Voltage_value: 1.5087890625,
+      Rpm_unit: u/min, Rpm_value: 1924.0, Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: -7.8125,
+      Speed_unit: km/h, Speed_value: 62.0, Throttle Position_unit: '%', Throttle Position_value: 12.0}
+    _Measurement__road: *id003
+    _Measurement__time: '2014-01-21T16:02:25Z'
+  25: !!python/object:CarTrip.Measurement
+    _Measurement__index: 25
+    _Measurement__latitude: 48.42000969685614
+    _Measurement__longitude: 11.626151399686933
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 5.762827039467049, Consumption_unit: l/h,
+      Consumption_value: 2.452266825305127, Engine Load_unit: '%', Engine Load_value: 32.94117736816406,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 551.4000000000001,
+      GPS Bearing_unit: deg, GPS Bearing_value: 31.170000076293945, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 1.1, GPS Speed_unit: km/h,
+      GPS Speed_value: 54.0, GPS VDOP_unit: precision, GPS VDOP_value: 0.9, Intake Temperature_unit: c,
+      Intake Temperature_value: 2.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 11.71875,
+      MAF_unit: l/s, MAF_value: 7.460000038146973, Rpm_unit: u/min, Rpm_value: 1868.0,
+      Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: 0.0, Speed_unit: km/h,
+      Speed_value: 61.0, Throttle Position_unit: '%', Throttle Position_value: 9.0}
+    _Measurement__road: *id003
+    _Measurement__time: '2014-01-21T16:02:31Z'
+  26: !!python/object:CarTrip.Measurement
+    _Measurement__index: 26
+    _Measurement__latitude: 48.420461313799024
+    _Measurement__longitude: 11.62657585926354
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 3.7234352784783136, Consumption_unit: l/h,
+      Consumption_value: 1.584440544033325, Engine Load_unit: '%', Engine Load_value: 20.39215660095215,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 550.8,
+      GPS Bearing_unit: deg, GPS Bearing_value: 48.939998626708984, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 1.1, GPS Speed_unit: km/h,
+      GPS Speed_value: 24.975, GPS VDOP_unit: precision, GPS VDOP_value: 0.9, Intake Temperature_unit: c,
+      Intake Temperature_value: 2.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 11.71875,
+      MAF_unit: l/s, MAF_value: 4.820000171661377, Rpm_unit: u/min, Rpm_value: 1763.0,
+      Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: 0.0, Speed_unit: km/h,
+      Speed_value: 56.0, Throttle Position_unit: '%', Throttle Position_value: 4.0}
+    _Measurement__road: &id004 !!python/object:CarTrip.Road
+      _Road__display_name: St 2084, Kranzberg, Landkreis Freising, OB, Bayern, 85402,
+        Deutschland
+      _Road__osm_id: '230229161'
+      _Road__tags: {highway: secondary, maxspeed: '70', ref: St 2084, width: '7.0'}
+    _Measurement__time: '2014-01-21T16:02:37Z'
+  27: !!python/object:CarTrip.Measurement
+    _Measurement__index: 27
+    _Measurement__latitude: 48.420649194158614
+    _Measurement__longitude: 11.627398626878858
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 19.32787324774512, Consumption_unit: l/h,
+      Consumption_value: 8.224626913934094, Engine Load_unit: '%', Engine Load_value: 100.0,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 551.9000000000001,
+      GPS Bearing_unit: deg, GPS Bearing_value: 64.47000122070312, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 1.0, GPS Speed_unit: km/h,
+      GPS Speed_value: 46.575, GPS VDOP_unit: precision, GPS VDOP_value: 0.8, Intake Temperature_unit: c,
+      Intake Temperature_value: 2.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 8.59375,
+      MAF_unit: l/s, MAF_value: 25.020000457763672, Rpm_unit: u/min, Rpm_value: 2149.0,
+      Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: 0.0, Speed_unit: km/h,
+      Speed_value: 33.0, Throttle Position_unit: '%', Throttle Position_value: 58.0}
+    _Measurement__road: *id004
+    _Measurement__time: '2014-01-21T16:02:43Z'
+  28: !!python/object:CarTrip.Measurement
+    _Measurement__index: 28
+    _Measurement__latitude: 48.42108618468046
+    _Measurement__longitude: 11.628448124974966
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 19.644596866345896, Consumption_unit: l/h,
+      Consumption_value: 8.359402921849318, Engine Load_unit: '%', Engine Load_value: 100.0,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 551.7,
+      GPS Bearing_unit: deg, GPS Bearing_value: 56.459999084472656, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 1.1, GPS Speed_unit: km/h,
+      GPS Speed_value: 56.475, GPS VDOP_unit: precision, GPS VDOP_value: 0.9, Intake Temperature_unit: c,
+      Intake Temperature_value: 2.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 4.6875,
+      MAF_unit: l/s, MAF_value: 25.43000030517578, Rpm_unit: u/min, Rpm_value: 2003.0,
+      Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: 0.0, Speed_unit: km/h,
+      Speed_value: 47.0, Throttle Position_unit: '%', Throttle Position_value: 44.0}
+    _Measurement__road: *id004
+    _Measurement__time: '2014-01-21T16:02:49Z'
+  29: !!python/object:CarTrip.Measurement
+    _Measurement__index: 29
+    _Measurement__latitude: 48.42146642971784
+    _Measurement__longitude: 11.629374828189611
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 3.7311600561158955, Consumption_unit: l/h,
+      Consumption_value: 1.5877276834535725, Engine Load_unit: '%', Engine Load_value: 23.52941131591797,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 549.5,
+      GPS Bearing_unit: deg, GPS Bearing_value: 62.43000030517578, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 1.1, GPS Speed_unit: km/h,
+      GPS Speed_value: 59.4, GPS VDOP_unit: precision, GPS VDOP_value: 0.9, Intake Temperature_unit: c,
+      Intake Temperature_value: 2.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 5.46875,
+      MAF_unit: l/s, MAF_value: 4.829999923706055, Rpm_unit: u/min, Rpm_value: 1051.0,
+      Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: -0.78125, Speed_unit: km/h,
+      Speed_value: 58.0, Throttle Position_unit: '%', Throttle Position_value: 4.0}
+    _Measurement__road: *id004
+    _Measurement__time: '2014-01-21T16:02:54Z'
+  30: !!python/object:CarTrip.Measurement
+    _Measurement__index: 30
+    _Measurement__latitude: 48.421772914007306
+    _Measurement__longitude: 11.630696738138795
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 8.435666406012581, Consumption_unit: l/h,
+      Consumption_value: 3.5896452791542894, Engine Load_unit: '%', Engine Load_value: 45.490196228027344,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 548.5,
+      GPS Bearing_unit: deg, GPS Bearing_value: 74.55999755859375, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 1.1, GPS Speed_unit: km/h,
+      GPS Speed_value: 63.0, GPS VDOP_unit: precision, GPS VDOP_value: 0.9, Intake Temperature_unit: c,
+      Intake Temperature_value: 2.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 7.8125,
+      MAF_unit: l/s, MAF_value: 10.920000076293945, O2 Lambda Voltage ER_unit: ratio,
+      O2 Lambda Voltage ER_value: 1.01171875, O2 Lambda Voltage_unit: V, O2 Lambda Voltage_value: 1.533203125,
+      Rpm_unit: u/min, Rpm_value: 1961.0, Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: 0.0,
+      Speed_unit: km/h, Speed_value: 61.0, Throttle Position_unit: '%', Throttle Position_value: 11.0}
+    _Measurement__road: &id005 !!python/object:CarTrip.Road
+      _Road__display_name: St 2084, Kranzberg, Landkreis Freising, OB, Bayern, 85402,
+        Deutschland
+      _Road__osm_id: '135451909'
+      _Road__tags: {highway: secondary, maxspeed: '100', ref: St 2084, width: '7.0'}
+    _Measurement__time: '2014-01-21T16:03:00Z'
+  31: !!python/object:CarTrip.Measurement
+    _Measurement__index: 31
+    _Measurement__latitude: 48.42195802833885
+    _Measurement__longitude: 11.632168935611844
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 7.701794481035814, Consumption_unit: l/h,
+      Consumption_value: 3.2773593536322614, Engine Load_unit: '%', Engine Load_value: 39.2156867980957,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 546.5999999999999,
+      GPS Bearing_unit: deg, GPS Bearing_value: 81.94000244140625, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 1.1, GPS Speed_unit: km/h,
+      GPS Speed_value: 67.05, GPS VDOP_unit: precision, GPS VDOP_value: 0.9, Intake Temperature_unit: c,
+      Intake Temperature_value: 2.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 5.46875,
+      MAF_unit: l/s, MAF_value: 9.970000267028809, Rpm_unit: u/min, Rpm_value: 2089.0,
+      Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: 0.0, Speed_unit: km/h,
+      Speed_value: 66.0, Throttle Position_unit: '%', Throttle Position_value: 10.0}
+    _Measurement__road: *id005
+    _Measurement__time: '2014-01-21T16:03:06Z'
+  32: !!python/object:CarTrip.Measurement
+    _Measurement__index: 32
+    _Measurement__latitude: 48.42204071581364
+    _Measurement__longitude: 11.633700644597411
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 7.624544494528589, Consumption_unit: l/h,
+      Consumption_value: 3.2444870189483357, Engine Load_unit: '%', Engine Load_value: 37.64706039428711,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 543.9000000000001,
+      GPS Bearing_unit: deg, GPS Bearing_value: 88.55000305175781, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 1.0, GPS Speed_unit: km/h,
+      GPS Speed_value: 68.85000000000001, GPS VDOP_unit: precision, GPS VDOP_value: 0.8,
+      Intake Temperature_unit: c, Intake Temperature_value: 2.0, Long-Term Fuel Trim 1_unit: '%',
+      Long-Term Fuel Trim 1_value: 5.46875, MAF_unit: l/s, MAF_value: 9.869999885559082,
+      Rpm_unit: u/min, Rpm_value: 2120.0, Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: 0.78125,
+      Speed_unit: km/h, Speed_value: 68.0, Throttle Position_unit: '%', Throttle Position_value: 10.0}
+    _Measurement__road: *id005
+    _Measurement__time: '2014-01-21T16:03:12Z'
+  33: !!python/object:CarTrip.Measurement
+    _Measurement__index: 33
+    _Measurement__latitude: 48.42201883904636
+    _Measurement__longitude: 11.635298989713192
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 10.814956855225313, Consumption_unit: l/h,
+      Consumption_value: 4.6021093000958775, Engine Load_unit: '%', Engine Load_value: 56.47058868408203,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 542.0999999999999,
+      GPS Bearing_unit: deg, GPS Bearing_value: 91.16999816894531, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 1.1, GPS Speed_unit: km/h,
+      GPS Speed_value: 72.22500000000001, GPS VDOP_unit: precision, GPS VDOP_value: 0.9,
+      Intake Temperature_unit: c, Intake Temperature_value: 2.0, Long-Term Fuel Trim 1_unit: '%',
+      Long-Term Fuel Trim 1_value: 4.6875, MAF_unit: l/s, MAF_value: 14.0, Rpm_unit: u/min,
+      Rpm_value: 2212.0, Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: -3.90625,
+      Speed_unit: km/h, Speed_value: 70.0, Throttle Position_unit: '%', Throttle Position_value: 13.0}
+    _Measurement__road: *id005
+    _Measurement__time: '2014-01-21T16:03:18Z'
+  34: !!python/object:CarTrip.Measurement
+    _Measurement__index: 34
+    _Measurement__latitude: 48.422072902321815
+    _Measurement__longitude: 11.636936226859689
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 7.354171015174238, Consumption_unit: l/h,
+      Consumption_value: 3.129434474542229, Engine Load_unit: '%', Engine Load_value: 36.07843017578125,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 540.3,
+      GPS Bearing_unit: deg, GPS Bearing_value: 83.27999877929688, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 1.0, GPS Speed_unit: km/h,
+      GPS Speed_value: 72.675, GPS VDOP_unit: precision, GPS VDOP_value: 0.8, Intake Temperature_unit: c,
+      Intake Temperature_value: 2.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 5.46875,
+      MAF_unit: l/s, MAF_value: 9.520000457763672, O2 Lambda Voltage ER_unit: ratio,
+      O2 Lambda Voltage ER_value: 1.0068359375, O2 Lambda Voltage_unit: V, O2 Lambda Voltage_value: 1.5185546875,
+      Rpm_unit: u/min, Rpm_value: 2276.0, Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: -2.34375,
+      Speed_unit: km/h, Speed_value: 73.0, Throttle Position_unit: '%', Throttle Position_value: 10.0}
+    _Measurement__road: *id005
+    _Measurement__time: '2014-01-21T16:03:24Z'
+  35: !!python/object:CarTrip.Measurement
+    _Measurement__index: 35
+    _Measurement__latitude: 48.42228651512414
+    _Measurement__longitude: 11.638559298589826
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 7.779043730832569, Consumption_unit: l/h,
+      Consumption_value: 3.31023137482237, Engine Load_unit: '%', Engine Load_value: 36.07843017578125,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 539.2,
+      GPS Bearing_unit: deg, GPS Bearing_value: 74.81999969482422, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 1.0, GPS Speed_unit: km/h,
+      GPS Speed_value: 73.8, GPS VDOP_unit: precision, GPS VDOP_value: 0.8, Intake Temperature_unit: c,
+      Intake Temperature_value: 2.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 6.25,
+      MAF_unit: l/s, MAF_value: 10.069999694824219, Rpm_unit: u/min, Rpm_value: 2307.0,
+      Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: -0.78125, Speed_unit: km/h,
+      Speed_value: 73.0, Throttle Position_unit: '%', Throttle Position_value: 10.0}
+    _Measurement__road: *id005
+    _Measurement__time: '2014-01-21T16:03:30Z'
+  36: !!python/object:CarTrip.Measurement
+    _Measurement__index: 36
+    _Measurement__latitude: 48.42253969050944
+    _Measurement__longitude: 11.640174323692918
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 4.9748801976062715, Consumption_unit: l/h,
+      Consumption_value: 2.1169702968537325, Engine Load_unit: '%', Engine Load_value: 23.52941131591797,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 537.7,
+      GPS Bearing_unit: deg, GPS Bearing_value: 79.11000061035156, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 1.0, GPS Speed_unit: km/h,
+      GPS Speed_value: 72.675, GPS VDOP_unit: precision, GPS VDOP_value: 0.8, Intake Temperature_unit: c,
+      Intake Temperature_value: 2.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 7.03125,
+      MAF_unit: l/s, MAF_value: 6.440000057220459, Rpm_unit: u/min, Rpm_value: 2288.0,
+      Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: 0.0, Speed_unit: km/h,
+      Speed_value: 74.0, Throttle Position_unit: '%', Throttle Position_value: 8.0}
+    _Measurement__road: *id005
+    _Measurement__time: '2014-01-21T16:03:36Z'
+  37: !!python/object:CarTrip.Measurement
+    _Measurement__index: 37
+    _Measurement__latitude: 48.42266395222396
+    _Measurement__longitude: 11.641803849488497
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 5.028955114490283, Consumption_unit: l/h,
+      Consumption_value: 2.139980899783099, Engine Load_unit: '%', Engine Load_value: 23.52941131591797,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 534.9000000000001,
+      GPS Bearing_unit: deg, GPS Bearing_value: 87.52999877929688, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 1.0, GPS Speed_unit: km/h,
+      GPS Speed_value: 72.675, GPS VDOP_unit: precision, GPS VDOP_value: 0.8, Intake Temperature_unit: c,
+      Intake Temperature_value: 2.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 7.03125,
+      MAF_unit: l/s, MAF_value: 6.510000228881836, Rpm_unit: u/min, Rpm_value: 2287.0,
+      Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: 2.34375, Speed_unit: km/h,
+      Speed_value: 74.0, Throttle Position_unit: '%', Throttle Position_value: 8.0}
+    _Measurement__road: *id005
+    _Measurement__time: '2014-01-21T16:03:42Z'
+  38: !!python/object:CarTrip.Measurement
+    _Measurement__index: 38
+    _Measurement__latitude: 48.42265125364065
+    _Measurement__longitude: 11.643443265929818
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 5.036679892127864, Consumption_unit: l/h,
+      Consumption_value: 2.1432680392033463, Engine Load_unit: '%', Engine Load_value: 23.52941131591797,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 530.5,
+      GPS Bearing_unit: deg, GPS Bearing_value: 90.81999969482422, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 1.0, GPS Speed_unit: km/h,
+      GPS Speed_value: 72.675, GPS VDOP_unit: precision, GPS VDOP_value: 0.8, Intake Temperature_unit: c,
+      Intake Temperature_value: 2.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 7.03125,
+      MAF_unit: l/s, MAF_value: 6.519999980926514, Rpm_unit: u/min, Rpm_value: 2291.0,
+      Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: 3.90625, Speed_unit: km/h,
+      Speed_value: 74.0, Throttle Position_unit: '%', Throttle Position_value: 8.0}
+    _Measurement__road: *id005
+    _Measurement__time: '2014-01-21T16:03:48Z'
+  39: !!python/object:CarTrip.Measurement
+    _Measurement__index: 39
+    _Measurement__latitude: 48.42266919091344
+    _Measurement__longitude: 11.645088884979486
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 5.631502504431047, Consumption_unit: l/h,
+      Consumption_value: 2.3963840444387436, Engine Load_unit: '%', Engine Load_value: 25.098039627075195,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 526.8,
+      GPS Bearing_unit: deg, GPS Bearing_value: 84.5199966430664, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 1.0, GPS Speed_unit: km/h,
+      GPS Speed_value: 72.9, GPS VDOP_unit: precision, GPS VDOP_value: 0.8, Intake Temperature_unit: c,
+      Intake Temperature_value: 2.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 6.25,
+      MAF_unit: l/s, MAF_value: 7.289999961853027, O2 Lambda Voltage ER_unit: ratio,
+      O2 Lambda Voltage ER_value: 0.994140625, O2 Lambda Voltage_unit: V, O2 Lambda Voltage_value: 1.4794921875,
+      Rpm_unit: u/min, Rpm_value: 2293.0, Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: 4.6875,
+      Speed_unit: km/h, Speed_value: 73.0, Throttle Position_unit: '%', Throttle Position_value: 9.0}
+    _Measurement__road: &id006 !!python/object:CarTrip.Road
+      _Road__display_name: St 2084, Kranzberg, Landkreis Freising, OB, Bayern, 85402,
+        Deutschland
+      _Road__osm_id: '135431536'
+      _Road__tags: {highway: secondary, maxspeed: '70', ref: St 2084, width: '7.0'}
+    _Measurement__time: '2014-01-21T16:03:54Z'
+  40: !!python/object:CarTrip.Measurement
+    _Measurement__index: 40
+    _Measurement__latitude: 48.422908200882375
+    _Measurement__longitude: 11.646670885384083
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 6.2031500471110155, Consumption_unit: l/h,
+      Consumption_value: 2.639638317919581, Engine Load_unit: '%', Engine Load_value: 29.80392074584961,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 525.8,
+      GPS Bearing_unit: deg, GPS Bearing_value: 73.7300033569336, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 1.1, GPS Speed_unit: km/h,
+      GPS Speed_value: 71.10000000000001, GPS VDOP_unit: precision, GPS VDOP_value: 0.9,
+      Intake Temperature_unit: c, Intake Temperature_value: 2.0, Long-Term Fuel Trim 1_unit: '%',
+      Long-Term Fuel Trim 1_value: 6.25, MAF_unit: l/s, MAF_value: 8.029999732971191,
+      Rpm_unit: u/min, Rpm_value: 2247.0, Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: 3.125,
+      Speed_unit: km/h, Speed_value: 73.0, Throttle Position_unit: '%', Throttle Position_value: 10.0}
+    _Measurement__road: *id006
+    _Measurement__time: '2014-01-21T16:04:00Z'
+  41: !!python/object:CarTrip.Measurement
+    _Measurement__index: 41
+    _Measurement__latitude: 48.42319704126567
+    _Measurement__longitude: 11.648188764229417
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 6.156800276219822, Consumption_unit: l/h,
+      Consumption_value: 2.619915011157371, Engine Load_unit: '%', Engine Load_value: 29.80392074584961,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 526.3,
+      GPS Bearing_unit: deg, GPS Bearing_value: 73.3499984741211, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 1.0, GPS Speed_unit: km/h,
+      GPS Speed_value: 68.625, GPS VDOP_unit: precision, GPS VDOP_value: 0.8, Intake Temperature_unit: c,
+      Intake Temperature_value: 2.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 6.25,
+      MAF_unit: l/s, MAF_value: 7.96999979019165, Rpm_unit: u/min, Rpm_value: 2207.0,
+      Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: 3.125, Speed_unit: km/h,
+      Speed_value: 72.0, Throttle Position_unit: '%', Throttle Position_value: 9.0}
+    _Measurement__road: *id006
+    _Measurement__time: '2014-01-21T16:04:06Z'
+  42: !!python/object:CarTrip.Measurement
+    _Measurement__index: 42
+    _Measurement__latitude: 48.423478128388524
+    _Measurement__longitude: 11.649671774357557
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 8.559265795055767, Consumption_unit: l/h,
+      Consumption_value: 3.642240763853518, Engine Load_unit: '%', Engine Load_value: 42.35293960571289,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 527.3,
+      GPS Bearing_unit: deg, GPS Bearing_value: 74.4000015258789, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 1.1, GPS Speed_unit: km/h,
+      GPS Speed_value: 68.625, GPS VDOP_unit: precision, GPS VDOP_value: 0.9, Intake Temperature_unit: c,
+      Intake Temperature_value: 2.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 5.46875,
+      MAF_unit: l/s, MAF_value: 11.079999923706055, Rpm_unit: u/min, Rpm_value: 2155.0,
+      Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: -0.78125, Speed_unit: km/h,
+      Speed_value: 69.0, Throttle Position_unit: '%', Throttle Position_value: 11.0}
+    _Measurement__road: *id006
+    _Measurement__time: '2014-01-21T16:04:12Z'
+  43: !!python/object:CarTrip.Measurement
+    _Measurement__index: 43
+    _Measurement__latitude: 48.42376810032874
+    _Measurement__longitude: 11.651192754507065
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 11.123955327833276, Consumption_unit: l/h,
+      Consumption_value: 4.733598011843947, Engine Load_unit: '%', Engine Load_value: 54.90196228027344,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 528.5,
+      GPS Bearing_unit: deg, GPS Bearing_value: 74.01000213623047, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 1.1, GPS Speed_unit: km/h,
+      GPS Speed_value: 71.325, GPS VDOP_unit: precision, GPS VDOP_value: 0.9, Intake Temperature_unit: c,
+      Intake Temperature_value: 2.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 4.6875,
+      MAF_unit: l/s, MAF_value: 14.399999618530273, Rpm_unit: u/min, Rpm_value: 2243.0,
+      Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: -4.6875, Speed_unit: km/h,
+      Speed_value: 71.0, Throttle Position_unit: '%', Throttle Position_value: 14.0}
+    _Measurement__road: *id006
+    _Measurement__time: '2014-01-21T16:04:18Z'
+  44: !!python/object:CarTrip.Measurement
+    _Measurement__index: 44
+    _Measurement__latitude: 48.424063813872635
+    _Measurement__longitude: 11.652754386886954
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 7.87174327261496, Consumption_unit: l/h,
+      Consumption_value: 3.3496779883467913, Engine Load_unit: '%', Engine Load_value: 42.35293960571289,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 528.3,
+      GPS Bearing_unit: deg, GPS Bearing_value: 74.91999816894531, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 1.1, GPS Speed_unit: km/h,
+      GPS Speed_value: 72.675, GPS VDOP_unit: precision, GPS VDOP_value: 0.9, Intake Temperature_unit: c,
+      Intake Temperature_value: 2.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 5.46875,
+      MAF_unit: l/s, MAF_value: 10.1899995803833, O2 Lambda Voltage ER_unit: ratio,
+      O2 Lambda Voltage ER_value: 1.0087890625, O2 Lambda Voltage_unit: V, O2 Lambda Voltage_value: 1.5087890625,
+      Rpm_unit: u/min, Rpm_value: 2249.0, Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: -2.34375,
+      Speed_unit: km/h, Speed_value: 72.0, Throttle Position_unit: '%', Throttle Position_value: 11.0}
+    _Measurement__road: *id006
+    _Measurement__time: '2014-01-21T16:04:24Z'
+  45: !!python/object:CarTrip.Measurement
+    _Measurement__index: 45
+    _Measurement__latitude: 48.42425538226962
+    _Measurement__longitude: 11.654402017593384
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 11.865552398802858, Consumption_unit: l/h,
+      Consumption_value: 5.049171233533131, Engine Load_unit: '%', Engine Load_value: 56.47058868408203,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 528.4000000000001,
+      GPS Bearing_unit: deg, GPS Bearing_value: 86.75, GPS HDOP_unit: precision, GPS HDOP_value: 0.6,
+      GPS PDOP_unit: precision, GPS PDOP_value: 1.1, GPS Speed_unit: km/h, GPS Speed_value: 74.7,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.9, Intake Temperature_unit: c, Intake Temperature_value: 2.0,
+      Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 4.6875, MAF_unit: l/s,
+      MAF_value: 15.359999656677246, Rpm_unit: u/min, Rpm_value: 2335.0, Short-Term Fuel Trim 1_unit: '%',
+      Short-Term Fuel Trim 1_value: -0.78125, Speed_unit: km/h, Speed_value: 74.0,
+      Throttle Position_unit: '%', Throttle Position_value: 14.0}
+    _Measurement__road: *id006
+    _Measurement__time: '2014-01-21T16:04:30Z'
+  46: !!python/object:CarTrip.Measurement
+    _Measurement__index: 46
+    _Measurement__latitude: 48.424207395873964
+    _Measurement__longitude: 11.656085439026356
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 4.24100790427427, Consumption_unit: l/h,
+      Consumption_value: 1.8046842145847959, Engine Load_unit: '%', Engine Load_value: 21.960784912109375,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 528.3,
+      GPS Bearing_unit: deg, GPS Bearing_value: 96.27999877929688, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 1.0, GPS Speed_unit: km/h,
+      GPS Speed_value: 72.675, GPS VDOP_unit: precision, GPS VDOP_value: 0.8, Intake Temperature_unit: c,
+      Intake Temperature_value: 2.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 7.03125,
+      MAF_unit: l/s, MAF_value: 5.489999771118164, Rpm_unit: u/min, Rpm_value: 2312.0,
+      Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: 0.0, Speed_unit: km/h,
+      Speed_value: 76.0, Throttle Position_unit: '%', Throttle Position_value: 7.0}
+    _Measurement__road: *id006
+    _Measurement__time: '2014-01-21T16:04:36Z'
+  47: !!python/object:CarTrip.Measurement
+    _Measurement__index: 47
+    _Measurement__latitude: 48.42401067260653
+    _Measurement__longitude: 11.657654028385878
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 5.778276963097447, Consumption_unit: l/h,
+      Consumption_value: 2.4588412608925307, Engine Load_unit: '%', Engine Load_value: 28.235294342041016,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 527.9000000000001,
+      GPS Bearing_unit: deg, GPS Bearing_value: 102.5999984741211, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 1.2, GPS Speed_unit: km/h,
+      GPS Speed_value: 70.875, GPS VDOP_unit: precision, GPS VDOP_value: 0.9, Intake Temperature_unit: c,
+      Intake Temperature_value: 2.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 7.03125,
+      MAF_unit: l/s, MAF_value: 7.480000019073486, Rpm_unit: u/min, Rpm_value: 2251.0,
+      Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: 0.78125, Speed_unit: km/h,
+      Speed_value: 73.0, Throttle Position_unit: '%', Throttle Position_value: 9.0}
+    _Measurement__road: &id007 !!python/object:CarTrip.Road
+      _Road__display_name: An der Lahn, Kranzberg, Landkreis Freising, OB, Bayern,
+        85402, Deutschland
+      _Road__osm_id: '68195675'
+      _Road__tags: {highway: secondary, maxspeed: '70', name: An der Lahn, ref: St
+          2084}
+    _Measurement__time: '2014-01-21T16:04:42Z'
+  48: !!python/object:CarTrip.Measurement
+    _Measurement__index: 48
+    _Measurement__latitude: 48.42375640757382
+    _Measurement__longitude: 11.659139720723033
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 4.31053274478868, Consumption_unit: l/h,
+      Consumption_value: 1.8342692531015659, Engine Load_unit: '%', Engine Load_value: 23.52941131591797,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 526.9000000000001,
+      GPS Bearing_unit: deg, GPS Bearing_value: 105.58999633789062, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 1.1, GPS Speed_unit: km/h,
+      GPS Speed_value: 67.05, GPS VDOP_unit: precision, GPS VDOP_value: 0.8, Intake Temperature_unit: c,
+      Intake Temperature_value: 2.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 7.8125,
+      MAF_unit: l/s, MAF_value: 5.579999923706055, Rpm_unit: u/min, Rpm_value: 2100.0,
+      Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: 0.0, Speed_unit: km/h,
+      Speed_value: 69.0, Throttle Position_unit: '%', Throttle Position_value: 7.0}
+    _Measurement__road: *id007
+    _Measurement__time: '2014-01-21T16:04:48Z'
+  49: !!python/object:CarTrip.Measurement
+    _Measurement__index: 49
+    _Measurement__latitude: 48.423445858061314
+    _Measurement__longitude: 11.660555675625801
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 5.971401192655043, Consumption_unit: l/h,
+      Consumption_value: 2.541021784108529, Engine Load_unit: '%', Engine Load_value: 34.509803771972656,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 525.5,
+      GPS Bearing_unit: deg, GPS Bearing_value: 111.33000183105469, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 1.2, GPS Speed_unit: km/h,
+      GPS Speed_value: 66.375, GPS VDOP_unit: precision, GPS VDOP_value: 1.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 2.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 5.46875,
+      MAF_unit: l/s, MAF_value: 7.730000019073486, O2 Lambda Voltage ER_unit: ratio,
+      O2 Lambda Voltage ER_value: 1.0009765625, O2 Lambda Voltage_unit: V, O2 Lambda Voltage_value: 1.4990234375,
+      Rpm_unit: u/min, Rpm_value: 2086.0, Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: 0.0,
+      Speed_unit: km/h, Speed_value: 67.0, Throttle Position_unit: '%', Throttle Position_value: 10.0}
+    _Measurement__road: *id007
+    _Measurement__time: '2014-01-21T16:04:54Z'
+  50: !!python/object:CarTrip.Measurement
+    _Measurement__index: 50
+    _Measurement__latitude: 48.423099517822266
+    _Measurement__longitude: 11.661663260310888
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 7.840843425354164, Consumption_unit: l/h,
+      Consumption_value: 3.3365291171719846, Engine Load_unit: '%', Engine Load_value: 29.80392074584961,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 524.9000000000001,
+      GPS Bearing_unit: deg, GPS Bearing_value: 117.37999725341797, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 1.2, GPS Speed_unit: km/h,
+      GPS Speed_value: 63.675000000000004, GPS VDOP_unit: precision, GPS VDOP_value: 1.0,
+      Intake Temperature_unit: c, Intake Temperature_value: 2.0, Long-Term Fuel Trim 1_unit: '%',
+      Long-Term Fuel Trim 1_value: 7.8125, MAF_unit: l/s, MAF_value: 10.149999618530273,
+      Rpm_unit: u/min, Rpm_value: 2107.0, Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: 0.0,
+      Speed_unit: km/h, Speed_value: 67.0, Throttle Position_unit: '%', Throttle Position_value: 11.0}
+    _Measurement__road: *id007
+    _Measurement__time: '2014-01-21T16:04:59Z'
+  51: !!python/object:CarTrip.Measurement
+    _Measurement__index: 51
+    _Measurement__latitude: 48.42273867689073
+    _Measurement__longitude: 11.662618713453412
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 3.159512513435927, Consumption_unit: l/h,
+      Consumption_value: 1.344473409972735, Engine Load_unit: '%', Engine Load_value: 18.823530197143555,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 524.8,
+      GPS Bearing_unit: deg, GPS Bearing_value: 127.66000366210938, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 1.2, GPS Speed_unit: km/h,
+      GPS Speed_value: 37.35, GPS VDOP_unit: precision, GPS VDOP_value: 1.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 3.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 17.96875,
+      MAF_unit: l/s, MAF_value: 4.090000152587891, Rpm_unit: u/min, Rpm_value: 1300.0,
+      Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: 0.0, Speed_unit: km/h,
+      Speed_value: 54.0, Throttle Position_unit: '%', Throttle Position_value: 4.0}
+    _Measurement__road: *id007
+    _Measurement__time: '2014-01-21T16:05:05Z'
+  52: !!python/object:CarTrip.Measurement
+    _Measurement__index: 52
+    _Measurement__latitude: 48.422484579496086
+    _Measurement__longitude: 11.663348777219653
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 1.9389672573911476, Consumption_unit: l/h,
+      Consumption_value: 0.8250924499536798, Engine Load_unit: '%', Engine Load_value: 97.2549057006836,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 523.5,
+      GPS Bearing_unit: deg, GPS Bearing_value: 120.4000015258789, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 1.1, GPS Speed_unit: km/h,
+      GPS Speed_value: 42.75, GPS VDOP_unit: precision, GPS VDOP_value: 0.9, Intake Temperature_unit: c,
+      Intake Temperature_value: 3.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 6.25,
+      MAF_unit: l/s, MAF_value: 2.509999990463257, Rpm_unit: u/min, Rpm_value: 1079.0,
+      Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: -3.125, Speed_unit: km/h,
+      Speed_value: 36.0, Throttle Position_unit: '%', Throttle Position_value: 3.0}
+    _Measurement__road: &id008 !!python/object:CarTrip.Road
+      _Road__display_name: St 2084, Kranzberg, Landkreis Freising, OB, Bayern, 85402,
+        Deutschland
+      _Road__osm_id: '135490729'
+      _Road__tags: {highway: secondary, maxspeed: '70', ref: St 2084}
+    _Measurement__time: '2014-01-21T16:05:11Z'
+  53: !!python/object:CarTrip.Measurement
+    _Measurement__index: 53
+    _Measurement__latitude: 48.42206690926105
+    _Measurement__longitude: 11.664362652227283
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 16.477359206917154, Consumption_unit: l/h,
+      Consumption_value: 7.011642215709427, Engine Load_unit: '%', Engine Load_value: 100.0,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 521.6,
+      GPS Bearing_unit: deg, GPS Bearing_value: 125.05000305175781, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 1.2, GPS Speed_unit: km/h,
+      GPS Speed_value: 60.075, GPS VDOP_unit: precision, GPS VDOP_value: 1.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 2.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 5.46875,
+      MAF_unit: l/s, MAF_value: 21.329999923706055, Rpm_unit: u/min, Rpm_value: 1699.0,
+      Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: 3.125, Speed_unit: km/h,
+      Speed_value: 48.0, Throttle Position_unit: '%', Throttle Position_value: 52.0}
+    _Measurement__road: *id008
+    _Measurement__time: '2014-01-21T16:05:17Z'
+  54: !!python/object:CarTrip.Measurement
+    _Measurement__index: 54
+    _Measurement__latitude: 48.421426909044385
+    _Measurement__longitude: 11.665587164461613
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 21.313190091849844, Consumption_unit: l/h,
+      Consumption_value: 9.069442592276529, Engine Load_unit: '%', Engine Load_value: 100.0,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 522.4,
+      GPS Bearing_unit: deg, GPS Bearing_value: 130.77999877929688, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 1.1, GPS Speed_unit: km/h,
+      GPS Speed_value: 74.25, GPS VDOP_unit: precision, GPS VDOP_value: 0.9, Intake Temperature_unit: c,
+      Intake Temperature_value: 2.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 3.90625,
+      MAF_unit: l/s, MAF_value: 27.59000015258789, O2 Lambda Voltage ER_unit: ratio,
+      O2 Lambda Voltage ER_value: 1.0, O2 Lambda Voltage_unit: V, O2 Lambda Voltage_value: 1.4892578125,
+      Rpm_unit: u/min, Rpm_value: 2289.0, Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: -2.34375,
+      Speed_unit: km/h, Speed_value: 69.0, Throttle Position_unit: '%', Throttle Position_value: 30.0}
+    _Measurement__road: *id008
+    _Measurement__time: '2014-01-21T16:05:23Z'
+  55: !!python/object:CarTrip.Measurement
+    _Measurement__index: 55
+    _Measurement__latitude: 48.4206724120304
+    _Measurement__longitude: 11.666939165443182
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 18.694426010543562, Consumption_unit: l/h,
+      Consumption_value: 7.955074898103643, Engine Load_unit: '%', Engine Load_value: 75.29412078857422,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 522.0,
+      GPS Bearing_unit: deg, GPS Bearing_value: 127.5999984741211, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 1.1, GPS Speed_unit: km/h,
+      GPS Speed_value: 79.65, GPS VDOP_unit: precision, GPS VDOP_value: 0.9, Intake Temperature_unit: c,
+      Intake Temperature_value: 2.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 3.90625,
+      MAF_unit: l/s, MAF_value: 24.200000762939453, Rpm_unit: u/min, Rpm_value: 2446.0,
+      Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: -1.5625, Speed_unit: km/h,
+      Speed_value: 76.0, Throttle Position_unit: '%', Throttle Position_value: 21.0}
+    _Measurement__road: &id009 !!python/object:CarTrip.Road
+      _Road__display_name: St 2084, Kranzberg, Landkreis Freising, OB, Bayern, 85402,
+        Deutschland
+      _Road__osm_id: '164688559'
+      _Road__tags: {highway: secondary, 'maxspeed:backward': '70', note: check maxspeed
+          in direction to Allershausen, ref: St 2084}
+    _Measurement__time: '2014-01-21T16:05:29Z'
+  56: !!python/object:CarTrip.Measurement
+    _Measurement__index: 56
+    _Measurement__latitude: 48.41996103990823
+    _Measurement__longitude: 11.668442627415061
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 10.876756549746904, Consumption_unit: l/h,
+      Consumption_value: 4.628407042445491, Engine Load_unit: '%', Engine Load_value: 47.05882263183594,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 522.7,
+      GPS Bearing_unit: deg, GPS Bearing_value: 123.69000244140625, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 1.0, GPS Speed_unit: km/h,
+      GPS Speed_value: 81.22500000000001, GPS VDOP_unit: precision, GPS VDOP_value: 0.8,
+      Intake Temperature_unit: c, Intake Temperature_value: 2.0, Long-Term Fuel Trim 1_unit: '%',
+      Long-Term Fuel Trim 1_value: 5.46875, MAF_unit: l/s, MAF_value: 14.079999923706055,
+      Rpm_unit: u/min, Rpm_value: 2521.0, Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: -4.6875,
+      Speed_unit: km/h, Speed_value: 81.0, Throttle Position_unit: '%', Throttle Position_value: 14.0}
+    _Measurement__road: *id009
+    _Measurement__time: '2014-01-21T16:05:35Z'
+  57: !!python/object:CarTrip.Measurement
+    _Measurement__index: 57
+    _Measurement__latitude: 48.41916178353131
+    _Measurement__longitude: 11.669812062755227
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 9.200438178250144, Consumption_unit: l/h,
+      Consumption_value: 3.9150800758511246, Engine Load_unit: '%', Engine Load_value: 39.2156867980957,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 520.7,
+      GPS Bearing_unit: deg, GPS Bearing_value: 138.25, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 1.1, GPS Speed_unit: km/h,
+      GPS Speed_value: 81.0, GPS VDOP_unit: precision, GPS VDOP_value: 0.9, Intake Temperature_unit: c,
+      Intake Temperature_value: 3.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 4.6875,
+      MAF_unit: l/s, MAF_value: 11.90999984741211, Rpm_unit: u/min, Rpm_value: 2530.0,
+      Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: -0.78125, Speed_unit: km/h,
+      Speed_value: 81.0, Throttle Position_unit: '%', Throttle Position_value: 12.0}
+    _Measurement__road: *id009
+    _Measurement__time: '2014-01-21T16:05:41Z'
+  58: !!python/object:CarTrip.Measurement
+    _Measurement__index: 58
+    _Measurement__latitude: 48.41819300316274
+    _Measurement__longitude: 11.67088377289474
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 9.100013490474938, Consumption_unit: l/h,
+      Consumption_value: 3.8723461661595477, Engine Load_unit: '%', Engine Load_value: 37.64706039428711,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 518.9,
+      GPS Bearing_unit: deg, GPS Bearing_value: 145.61000061035156, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 1.2, GPS Speed_unit: km/h,
+      GPS Speed_value: 79.2, GPS VDOP_unit: precision, GPS VDOP_value: 0.9, Intake Temperature_unit: c,
+      Intake Temperature_value: 2.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 4.6875,
+      MAF_unit: l/s, MAF_value: 11.779999732971191, Rpm_unit: u/min, Rpm_value: 2532.0,
+      Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: -0.78125, Speed_unit: km/h,
+      Speed_value: 81.0, Throttle Position_unit: '%', Throttle Position_value: 12.0}
+    _Measurement__road: *id009
+    _Measurement__time: '2014-01-21T16:05:47Z'
+  59: !!python/object:CarTrip.Measurement
+    _Measurement__index: 59
+    _Measurement__latitude: 48.41733431909233
+    _Measurement__longitude: 11.672064699232578
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 9.633036776611766, Consumption_unit: l/h,
+      Consumption_value: 4.0991645857922405, Engine Load_unit: '%', Engine Load_value: 53.33333206176758,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 518.6,
+      GPS Bearing_unit: deg, GPS Bearing_value: 129.13999938964844, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 1.1, GPS Speed_unit: km/h,
+      GPS Speed_value: 77.625, GPS VDOP_unit: precision, GPS VDOP_value: 0.9, Intake Temperature_unit: c,
+      Intake Temperature_value: 2.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 4.6875,
+      MAF_unit: l/s, MAF_value: 12.470000267028809, O2 Lambda Voltage ER_unit: ratio,
+      O2 Lambda Voltage ER_value: 0.9970703125, O2 Lambda Voltage_unit: V, O2 Lambda Voltage_value: 1.484375,
+      Rpm_unit: u/min, Rpm_value: 2435.0, Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: -2.34375,
+      Speed_unit: km/h, Speed_value: 79.0, Throttle Position_unit: '%', Throttle Position_value: 14.0}
+    _Measurement__road: &id010 !!python/object:CarTrip.Road
+      _Road__display_name: St 2084, Kranzberg, Landkreis Freising, OB, Bayern, 85402,
+        Deutschland
+      _Road__osm_id: '164688560'
+      _Road__tags: {highway: secondary, maxspeed: '70', ref: St 2084}
+    _Measurement__time: '2014-01-21T16:05:53Z'
+  60: !!python/object:CarTrip.Measurement
+    _Measurement__index: 60
+    _Measurement__latitude: 48.41658158227801
+    _Measurement__longitude: 11.673420639708638
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 11.84237769753488, Consumption_unit: l/h,
+      Consumption_value: 5.039309658525481, Engine Load_unit: '%', Engine Load_value: 51.764705657958984,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 519.2,
+      GPS Bearing_unit: deg, GPS Bearing_value: 132.77999877929688, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 1.3, GPS Speed_unit: km/h,
+      GPS Speed_value: 78.97500000000001, GPS VDOP_unit: precision, GPS VDOP_value: 1.0,
+      Intake Temperature_unit: c, Intake Temperature_value: 2.0, Long-Term Fuel Trim 1_unit: '%',
+      Long-Term Fuel Trim 1_value: 4.6875, MAF_unit: l/s, MAF_value: 15.329999923706055,
+      Rpm_unit: u/min, Rpm_value: 2475.0, Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: 0.0,
+      Speed_unit: km/h, Speed_value: 79.0, Throttle Position_unit: '%', Throttle Position_value: 14.0}
+    _Measurement__road: *id010
+    _Measurement__time: '2014-01-21T16:05:59Z'
+  61: !!python/object:CarTrip.Measurement
+    _Measurement__index: 61
+    _Measurement__latitude: 48.41575135476887
+    _Measurement__longitude: 11.674686390906572
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 8.196192037208556, Consumption_unit: l/h,
+      Consumption_value: 3.487741292429173, Engine Load_unit: '%', Engine Load_value: 34.509803771972656,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 518.3,
+      GPS Bearing_unit: deg, GPS Bearing_value: 132.3800048828125, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 1.3, GPS Speed_unit: km/h,
+      GPS Speed_value: 78.75, GPS VDOP_unit: precision, GPS VDOP_value: 1.1, Intake Temperature_unit: c,
+      Intake Temperature_value: 2.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 5.46875,
+      MAF_unit: l/s, MAF_value: 10.609999656677246, Rpm_unit: u/min, Rpm_value: 2496.0,
+      Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: -3.125, Speed_unit: km/h,
+      Speed_value: 80.0, Throttle Position_unit: '%', Throttle Position_value: 10.0}
+    _Measurement__road: &id011 !!python/object:CarTrip.Road
+      _Road__display_name: "St 2084, V\xF6tting, Freising, Landkreis Freising, OB,\
+        \ Bayern, 85354, Deutschland"
+      _Road__osm_id: '135490728'
+      _Road__tags: {highway: secondary, ref: St 2084}
+    _Measurement__time: '2014-01-21T16:06:05Z'
+  62: !!python/object:CarTrip.Measurement
+    _Measurement__index: 62
+    _Measurement__latitude: 48.4149736398831
+    _Measurement__longitude: 11.676046689972281
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 8.373866711490988, Consumption_unit: l/h,
+      Consumption_value: 3.5633475368046756, Engine Load_unit: '%', Engine Load_value: 37.64706039428711,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 518.1,
+      GPS Bearing_unit: deg, GPS Bearing_value: 129.4199981689453, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 1.3, GPS Speed_unit: km/h,
+      GPS Speed_value: 79.65, GPS VDOP_unit: precision, GPS VDOP_value: 1.1, Intake Temperature_unit: c,
+      Intake Temperature_value: 2.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 4.6875,
+      MAF_unit: l/s, MAF_value: 10.84000015258789, Rpm_unit: u/min, Rpm_value: 2506.0,
+      Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: 0.0, Speed_unit: km/h,
+      Speed_value: 81.0, Throttle Position_unit: '%', Throttle Position_value: 11.0}
+    _Measurement__road: *id011
+    _Measurement__time: '2014-01-21T16:06:11Z'
+  63: !!python/object:CarTrip.Measurement
+    _Measurement__index: 63
+    _Measurement__latitude: 48.414203259162605
+    _Measurement__longitude: 11.677422747015953
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 10.853581848478926, Consumption_unit: l/h,
+      Consumption_value: 4.618545467437841, Engine Load_unit: '%', Engine Load_value: 47.05882263183594,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 519.0,
+      GPS Bearing_unit: deg, GPS Bearing_value: 130.0800018310547, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 1.3, GPS Speed_unit: km/h,
+      GPS Speed_value: 79.875, GPS VDOP_unit: precision, GPS VDOP_value: 1.1, Intake Temperature_unit: c,
+      Intake Temperature_value: 2.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 4.6875,
+      MAF_unit: l/s, MAF_value: 14.050000190734863, O2 Lambda Voltage ER_unit: ratio,
+      O2 Lambda Voltage ER_value: 0.9755859375, O2 Lambda Voltage_unit: V, O2 Lambda Voltage_value: 1.4013671875,
+      Rpm_unit: u/min, Rpm_value: 2511.0, Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: -4.6875,
+      Speed_unit: km/h, Speed_value: 81.0, Throttle Position_unit: '%', Throttle Position_value: 13.0}
+    _Measurement__road: *id011
+    _Measurement__time: '2014-01-21T16:06:17Z'
+  64: !!python/object:CarTrip.Measurement
+    _Measurement__index: 64
+    _Measurement__latitude: 48.413454252295196
+    _Measurement__longitude: 11.678824033588171
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 9.972935096480523, Consumption_unit: l/h,
+      Consumption_value: 4.243802168715116, Engine Load_unit: '%', Engine Load_value: 40.7843132019043,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 517.9,
+      GPS Bearing_unit: deg, GPS Bearing_value: 129.07000732421875, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 1.3, GPS Speed_unit: km/h,
+      GPS Speed_value: 79.2, GPS VDOP_unit: precision, GPS VDOP_value: 1.1, Intake Temperature_unit: c,
+      Intake Temperature_value: 2.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 4.6875,
+      MAF_unit: l/s, MAF_value: 12.90999984741211, Rpm_unit: u/min, Rpm_value: 2506.0,
+      Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: -3.125, Speed_unit: km/h,
+      Speed_value: 81.0, Throttle Position_unit: '%', Throttle Position_value: 12.0}
+    _Measurement__road: *id011
+    _Measurement__time: '2014-01-21T16:06:23Z'
+  65: !!python/object:CarTrip.Measurement
+    _Measurement__index: 65
+    _Measurement__latitude: 48.41279224958271
+    _Measurement__longitude: 11.680274102836847
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 10.003834943741321, Consumption_unit: l/h,
+      Consumption_value: 4.256951039889923, Engine Load_unit: '%', Engine Load_value: 47.05882263183594,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 519.1,
+      GPS Bearing_unit: deg, GPS Bearing_value: 116.83999633789062, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 1.3, GPS Speed_unit: km/h,
+      GPS Speed_value: 77.625, GPS VDOP_unit: precision, GPS VDOP_value: 1.1, Intake Temperature_unit: c,
+      Intake Temperature_value: 2.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 4.6875,
+      MAF_unit: l/s, MAF_value: 12.949999809265137, Rpm_unit: u/min, Rpm_value: 2470.0,
+      Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: 1.5625, Speed_unit: km/h,
+      Speed_value: 80.0, Throttle Position_unit: '%', Throttle Position_value: 13.0}
+    _Measurement__road: *id011
+    _Measurement__time: '2014-01-21T16:06:29Z'
+  66: !!python/object:CarTrip.Measurement
+    _Measurement__index: 66
+    _Measurement__latitude: 48.412334262393415
+    _Measurement__longitude: 11.68192533776164
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 11.270730154854911, Consumption_unit: l/h,
+      Consumption_value: 4.796055385044643, Engine Load_unit: '%', Engine Load_value: 48.6274528503418,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 516.7,
+      GPS Bearing_unit: deg, GPS Bearing_value: 118.72000122070312, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 1.3, GPS Speed_unit: km/h,
+      GPS Speed_value: 79.2, GPS VDOP_unit: precision, GPS VDOP_value: 1.1, Intake Temperature_unit: c,
+      Intake Temperature_value: 2.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 4.6875,
+      MAF_unit: l/s, MAF_value: 14.59000015258789, Rpm_unit: u/min, Rpm_value: 2490.0,
+      Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: -0.78125, Speed_unit: km/h,
+      Speed_value: 80.0, Throttle Position_unit: '%', Throttle Position_value: 14.0}
+    _Measurement__road: *id011
+    _Measurement__time: '2014-01-21T16:06:35Z'
+  67: !!python/object:CarTrip.Measurement
+    _Measurement__index: 67
+    _Measurement__latitude: 48.411642923019826
+    _Measurement__longitude: 11.68338580057025
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 11.015806230775723, Consumption_unit: l/h,
+      Consumption_value: 4.687577119479031, Engine Load_unit: '%', Engine Load_value: 36.07843017578125,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 515.6,
+      GPS Bearing_unit: deg, GPS Bearing_value: 128.5500030517578, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 1.3, GPS Speed_unit: km/h,
+      GPS Speed_value: 78.75, GPS VDOP_unit: precision, GPS VDOP_value: 1.1, Intake Temperature_unit: c,
+      Intake Temperature_value: 2.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 6.25,
+      MAF_unit: l/s, MAF_value: 14.260000228881836, Rpm_unit: u/min, Rpm_value: 2470.0,
+      Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: -4.6875, Speed_unit: km/h,
+      Speed_value: 80.0, Throttle Position_unit: '%', Throttle Position_value: 12.0}
+    _Measurement__road: *id011
+    _Measurement__time: '2014-01-21T16:06:41Z'
+  68: !!python/object:CarTrip.Measurement
+    _Measurement__index: 68
+    _Measurement__latitude: 48.41103624086827
+    _Measurement__longitude: 11.684520542621613
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 8.134392342686963, Consumption_unit: l/h,
+      Consumption_value: 3.461443550079559, Engine Load_unit: '%', Engine Load_value: 37.64706039428711,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 515.6,
+      GPS Bearing_unit: deg, GPS Bearing_value: 127.63999938964844, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 1.3, GPS Speed_unit: km/h,
+      GPS Speed_value: 76.5, GPS VDOP_unit: precision, GPS VDOP_value: 1.1, Intake Temperature_unit: c,
+      Intake Temperature_value: 2.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 5.46875,
+      MAF_unit: l/s, MAF_value: 10.529999732971191, O2 Lambda Voltage ER_unit: ratio,
+      O2 Lambda Voltage ER_value: 1.0087890625, O2 Lambda Voltage_unit: V, O2 Lambda Voltage_value: 1.5185546875,
+      Rpm_unit: u/min, Rpm_value: 2425.0, Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: -0.78125,
+      Speed_unit: km/h, Speed_value: 79.0, Throttle Position_unit: '%', Throttle Position_value: 11.0}
+    _Measurement__road: *id011
+    _Measurement__time: '2014-01-21T16:06:46Z'
+  69: !!python/object:CarTrip.Measurement
+    _Measurement__index: 69
+    _Measurement__latitude: 48.410313595086336
+    _Measurement__longitude: 11.685872878879309
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 10.0270096450093, Consumption_unit: l/h,
+      Consumption_value: 4.2668126148975745, Engine Load_unit: '%', Engine Load_value: 42.35293960571289,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 516.1,
+      GPS Bearing_unit: deg, GPS Bearing_value: 127.7699966430664, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 1.3, GPS Speed_unit: km/h,
+      GPS Speed_value: 77.4, GPS VDOP_unit: precision, GPS VDOP_value: 1.1, Intake Temperature_unit: c,
+      Intake Temperature_value: 2.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 5.46875,
+      MAF_unit: l/s, MAF_value: 12.979999542236328, Rpm_unit: u/min, Rpm_value: 2428.0,
+      Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: -2.34375, Speed_unit: km/h,
+      Speed_value: 78.0, Throttle Position_unit: '%', Throttle Position_value: 13.0}
+    _Measurement__road: *id011
+    _Measurement__time: '2014-01-21T16:06:52Z'
+  70: !!python/object:CarTrip.Measurement
+    _Measurement__index: 70
+    _Measurement__latitude: 48.409729208797216
+    _Measurement__longitude: 11.68737307190895
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 10.281934305798956, Consumption_unit: l/h,
+      Consumption_value: 4.375291193957002, Engine Load_unit: '%', Engine Load_value: 45.490196228027344,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 518.0,
+      GPS Bearing_unit: deg, GPS Bearing_value: 114.45999908447266, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.8, GPS PDOP_unit: precision, GPS PDOP_value: 1.5, GPS Speed_unit: km/h,
+      GPS Speed_value: 76.5, GPS VDOP_unit: precision, GPS VDOP_value: 1.3, Intake Temperature_unit: c,
+      Intake Temperature_value: 2.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 5.46875,
+      MAF_unit: l/s, MAF_value: 13.3100004196167, Rpm_unit: u/min, Rpm_value: 2439.0,
+      Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: 1.5625, Speed_unit: km/h,
+      Speed_value: 78.0, Throttle Position_unit: '%', Throttle Position_value: 12.0}
+    _Measurement__road: *id011
+    _Measurement__time: '2014-01-21T16:06:58Z'
+  71: !!python/object:CarTrip.Measurement
+    _Measurement__index: 71
+    _Measurement__latitude: 48.409366817213595
+    _Measurement__longitude: 11.689040064811707
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 9.478537540307782, Consumption_unit: l/h,
+      Consumption_value: 4.033420229918205, Engine Load_unit: '%', Engine Load_value: 43.92156982421875,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 515.8,
+      GPS Bearing_unit: deg, GPS Bearing_value: 103.16000366210938, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.8, GPS PDOP_unit: precision, GPS PDOP_value: 1.5, GPS Speed_unit: km/h,
+      GPS Speed_value: 78.3, GPS VDOP_unit: precision, GPS VDOP_value: 1.3, Intake Temperature_unit: c,
+      Intake Temperature_value: 2.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 5.46875,
+      MAF_unit: l/s, MAF_value: 12.270000457763672, Rpm_unit: u/min, Rpm_value: 2463.0,
+      Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: -1.5625, Speed_unit: km/h,
+      Speed_value: 79.0, Throttle Position_unit: '%', Throttle Position_value: 12.0}
+    _Measurement__road: *id011
+    _Measurement__time: '2014-01-21T16:07:04Z'
+  72: !!python/object:CarTrip.Measurement
+    _Measurement__index: 72
+    _Measurement__latitude: 48.40914499014616
+    _Measurement__longitude: 11.69075039215386
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 7.748143883571775, Consumption_unit: l/h,
+      Consumption_value: 3.2970825036475637, Engine Load_unit: '%', Engine Load_value: 36.07843017578125,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 516.1,
+      GPS Bearing_unit: deg, GPS Bearing_value: 102.66000366210938, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.8, GPS PDOP_unit: precision, GPS PDOP_value: 1.6, GPS Speed_unit: km/h,
+      GPS Speed_value: 75.825, GPS VDOP_unit: precision, GPS VDOP_value: 1.4, Intake Temperature_unit: c,
+      Intake Temperature_value: 2.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 5.46875,
+      MAF_unit: l/s, MAF_value: 10.029999732971191, Rpm_unit: u/min, Rpm_value: 2434.0,
+      Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: -2.34375, Speed_unit: km/h,
+      Speed_value: 79.0, Throttle Position_unit: '%', Throttle Position_value: 11.0}
+    _Measurement__road: *id011
+    _Measurement__time: '2014-01-21T16:07:10Z'
+  73: !!python/object:CarTrip.Measurement
+    _Measurement__index: 73
+    _Measurement__latitude: 48.40878624469042
+    _Measurement__longitude: 11.692340103909373
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 9.64076118589411, Consumption_unit: l/h,
+      Consumption_value: 4.102451568465579, Engine Load_unit: '%', Engine Load_value: 45.490196228027344,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 519.4,
+      GPS Bearing_unit: deg, GPS Bearing_value: 110.20999908447266, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.8, GPS PDOP_unit: precision, GPS PDOP_value: 1.5, GPS Speed_unit: km/h,
+      GPS Speed_value: 74.25, GPS VDOP_unit: precision, GPS VDOP_value: 1.3, Intake Temperature_unit: c,
+      Intake Temperature_value: 2.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 5.46875,
+      MAF_unit: l/s, MAF_value: 12.479999542236328, O2 Lambda Voltage ER_unit: ratio,
+      O2 Lambda Voltage ER_value: 0.9853515625, O2 Lambda Voltage_unit: V, O2 Lambda Voltage_value: 1.4501953125,
+      Rpm_unit: u/min, Rpm_value: 2398.0, Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: -3.125,
+      Speed_unit: km/h, Speed_value: 77.0, Throttle Position_unit: '%', Throttle Position_value: 12.0}
+    _Measurement__road: *id011
+    _Measurement__time: '2014-01-21T16:07:16Z'
+  74: !!python/object:CarTrip.Measurement
+    _Measurement__index: 74
+    _Measurement__latitude: 48.408368825912476
+    _Measurement__longitude: 11.693860329687595
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 6.349924874132651, Consumption_unit: l/h,
+      Consumption_value: 2.702095691120277, Engine Load_unit: '%', Engine Load_value: 28.235294342041016,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 520.9,
+      GPS Bearing_unit: deg, GPS Bearing_value: 112.83000183105469, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.8, GPS PDOP_unit: precision, GPS PDOP_value: 1.5, GPS Speed_unit: km/h,
+      GPS Speed_value: 72.45, GPS VDOP_unit: precision, GPS VDOP_value: 1.3, Intake Temperature_unit: c,
+      Intake Temperature_value: 3.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 6.25,
+      MAF_unit: l/s, MAF_value: 8.220000267028809, Rpm_unit: u/min, Rpm_value: 2301.0,
+      Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: 2.34375, Speed_unit: km/h,
+      Speed_value: 75.0, Throttle Position_unit: '%', Throttle Position_value: 9.0}
+    _Measurement__road: *id011
+    _Measurement__time: '2014-01-21T16:07:22Z'
+  75: !!python/object:CarTrip.Measurement
+    _Measurement__index: 75
+    _Measurement__latitude: 48.40796259697527
+    _Measurement__longitude: 11.695346860215068
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 6.566223804958225, Consumption_unit: l/h,
+      Consumption_value: 2.7941377893439254, Engine Load_unit: '%', Engine Load_value: 31.372549057006836,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 519.9,
+      GPS Bearing_unit: deg, GPS Bearing_value: 111.22000122070312, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.8, GPS PDOP_unit: precision, GPS PDOP_value: 1.5, GPS Speed_unit: km/h,
+      GPS Speed_value: 72.22500000000001, GPS VDOP_unit: precision, GPS VDOP_value: 1.3,
+      Intake Temperature_unit: c, Intake Temperature_value: 2.0, Long-Term Fuel Trim 1_unit: '%',
+      Long-Term Fuel Trim 1_value: 6.25, MAF_unit: l/s, MAF_value: 8.5, Rpm_unit: u/min,
+      Rpm_value: 2244.0, Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: 6.25,
+      Speed_unit: km/h, Speed_value: 73.0, Throttle Position_unit: '%', Throttle Position_value: 9.0}
+    _Measurement__road: *id011
+    _Measurement__time: '2014-01-21T16:07:28Z'
+  76: !!python/object:CarTrip.Measurement
+    _Measurement__index: 76
+    _Measurement__latitude: 48.4075490757823
+    _Measurement__longitude: 11.696867169812322
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 8.75239002461336, Consumption_unit: l/h,
+      Consumption_value: 3.7244212870695153, Engine Load_unit: '%', Engine Load_value: 45.490196228027344,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 514.3,
+      GPS Bearing_unit: deg, GPS Bearing_value: 111.91999816894531, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 1.3, GPS Speed_unit: km/h,
+      GPS Speed_value: 72.675, GPS VDOP_unit: precision, GPS VDOP_value: 1.1, Intake Temperature_unit: c,
+      Intake Temperature_value: 2.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 5.46875,
+      MAF_unit: l/s, MAF_value: 11.329999923706055, Rpm_unit: u/min, Rpm_value: 2241.0,
+      Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: -0.78125, Speed_unit: km/h,
+      Speed_value: 72.0, Throttle Position_unit: '%', Throttle Position_value: 11.0}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: "St 2084, V\xF6tting, Freising, Landkreis Freising, OB,\
+        \ Bayern, 85354, Deutschland"
+      _Road__osm_id: '164688565'
+      _Road__tags: {highway: secondary, 'maxspeed:forward': '80', ref: St 2084}
+    _Measurement__time: '2014-01-21T16:07:34Z'
+  77: !!python/object:CarTrip.Measurement
+    _Measurement__index: 77
+    _Measurement__latitude: 48.40712696313858
+    _Measurement__longitude: 11.698390077799559
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 11.68015331523808, Consumption_unit: l/h,
+      Consumption_value: 4.970278006484289, Engine Load_unit: '%', Engine Load_value: 51.764705657958984,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 511.4,
+      GPS Bearing_unit: deg, GPS Bearing_value: 113.22000122070312, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.8, GPS PDOP_unit: precision, GPS PDOP_value: 1.5, GPS Speed_unit: km/h,
+      GPS Speed_value: 72.9, GPS VDOP_unit: precision, GPS VDOP_value: 1.2, Intake Temperature_unit: c,
+      Intake Temperature_value: 2.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 7.03125,
+      MAF_unit: l/s, MAF_value: 15.119999885559082, Rpm_unit: u/min, Rpm_value: 2302.0,
+      Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: 1.5625, Speed_unit: km/h,
+      Speed_value: 73.0, Throttle Position_unit: '%', Throttle Position_value: 14.0}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: "St 2084, V\xF6tting, Freising, Landkreis Freising, OB,\
+        \ Bayern, 85354, Deutschland"
+      _Road__osm_id: '164688561'
+      _Road__tags: {highway: secondary, 'maxspeed:forward': '60', ref: St 2084}
+    _Measurement__time: '2014-01-21T16:07:40Z'
+  78: !!python/object:CarTrip.Measurement
+    _Measurement__index: 78
+    _Measurement__latitude: 48.40670145582408
+    _Measurement__longitude: 11.699786251410842
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 4.797205891679075, Consumption_unit: l/h,
+      Consumption_value: 2.0413642092251383, Engine Load_unit: '%', Engine Load_value: 18.823530197143555,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 508.20000000000005,
+      GPS Bearing_unit: deg, GPS Bearing_value: 115.62000274658203, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 1.3, GPS Speed_unit: km/h,
+      GPS Speed_value: 65.47500000000001, GPS VDOP_unit: precision, GPS VDOP_value: 1.1,
+      Intake Temperature_unit: c, Intake Temperature_value: 3.0, Long-Term Fuel Trim 1_unit: '%',
+      Long-Term Fuel Trim 1_value: 6.25, MAF_unit: l/s, MAF_value: 6.210000038146973,
+      O2 Lambda Voltage ER_unit: ratio, O2 Lambda Voltage ER_value: 1.9990234375,
+      O2 Lambda Voltage_unit: V, O2 Lambda Voltage_value: 3.6083984375, Rpm_unit: u/min,
+      Rpm_value: 2608.0, Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: 0.0,
+      Speed_unit: km/h, Speed_value: 68.0, Throttle Position_unit: '%', Throttle Position_value: 7.0}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: "St 2084, V\xF6tting, Freising, Landkreis Freising, OB,\
+        \ Bayern, 85354, Deutschland"
+      _Road__osm_id: '481201285'
+      _Road__tags: {highway: secondary, maxspeed: '60', ref: St 2084, width: '6.5'}
+    _Measurement__time: '2014-01-21T16:07:46Z'
+  79: !!python/object:CarTrip.Measurement
+    _Measurement__index: 79
+    _Measurement__latitude: 48.406289191916585
+    _Measurement__longitude: 11.701069604605436
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 5.677852275322243, Consumption_unit: l/h,
+      Consumption_value: 2.4161073512009543, Engine Load_unit: '%', Engine Load_value: 25.098039627075195,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 508.4,
+      GPS Bearing_unit: deg, GPS Bearing_value: 115.23999786376953, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.8, GPS PDOP_unit: precision, GPS PDOP_value: 1.5, GPS Speed_unit: km/h,
+      GPS Speed_value: 62.550000000000004, GPS VDOP_unit: precision, GPS VDOP_value: 1.2,
+      Intake Temperature_unit: c, Intake Temperature_value: 3.0, Long-Term Fuel Trim 1_unit: '%',
+      Long-Term Fuel Trim 1_value: 6.25, MAF_unit: l/s, MAF_value: 7.349999904632568,
+      Rpm_unit: u/min, Rpm_value: 2422.0, Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: 4.6875,
+      Speed_unit: km/h, Speed_value: 65.0, Throttle Position_unit: '%', Throttle Position_value: 9.0}
+    _Measurement__road: &id012 !!python/object:CarTrip.Road
+      _Road__display_name: "St 2084, V\xF6tting, Freising, Landkreis Freising, OB,\
+        \ Bayern, 85354, Deutschland"
+      _Road__osm_id: '199170892'
+      _Road__tags: {highway: secondary, maxspeed: '60', ref: St 2084, width: '6.5'}
+    _Measurement__time: '2014-01-21T16:07:52Z'
+  80: !!python/object:CarTrip.Measurement
+    _Measurement__index: 80
+    _Measurement__latitude: 48.40588157996535
+    _Measurement__longitude: 11.702342228963971
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 8.474291399266194, Consumption_unit: l/h,
+      Consumption_value: 3.606081446496253, Engine Load_unit: '%', Engine Load_value: 39.2156867980957,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 508.1,
+      GPS Bearing_unit: deg, GPS Bearing_value: 116.38999938964844, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.8, GPS PDOP_unit: precision, GPS PDOP_value: 1.5, GPS Speed_unit: km/h,
+      GPS Speed_value: 63.225, GPS VDOP_unit: precision, GPS VDOP_value: 1.2, Intake Temperature_unit: c,
+      Intake Temperature_value: 3.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 5.46875,
+      MAF_unit: l/s, MAF_value: 10.970000267028809, Rpm_unit: u/min, Rpm_value: 2404.0,
+      Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: 0.78125, Speed_unit: km/h,
+      Speed_value: 63.0, Throttle Position_unit: '%', Throttle Position_value: 11.0}
+    _Measurement__road: *id012
+    _Measurement__time: '2014-01-21T16:07:58Z'
+  81: !!python/object:CarTrip.Measurement
+    _Measurement__index: 81
+    _Measurement__latitude: 48.405396435409784
+    _Measurement__longitude: 11.703573111444712
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 8.420216114026948, Consumption_unit: l/h,
+      Consumption_value: 3.5830706868199775, Engine Load_unit: '%', Engine Load_value: 37.64706039428711,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 507.79999999999995,
+      GPS Bearing_unit: deg, GPS Bearing_value: 125.58999633789062, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 1.3, GPS Speed_unit: km/h,
+      GPS Speed_value: 63.225, GPS VDOP_unit: precision, GPS VDOP_value: 1.1, Intake Temperature_unit: c,
+      Intake Temperature_value: 3.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 5.46875,
+      MAF_unit: l/s, MAF_value: 10.899999618530273, Rpm_unit: u/min, Rpm_value: 2455.0,
+      Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: 1.5625, Speed_unit: km/h,
+      Speed_value: 65.0, Throttle Position_unit: '%', Throttle Position_value: 11.0}
+    _Measurement__road: &id013 !!python/object:CarTrip.Road
+      _Road__display_name: "St 2084, V\xF6tting, Freising, Landkreis Freising, OB,\
+        \ Bayern, 85354, Deutschland"
+      _Road__osm_id: '164688563'
+      _Road__tags: {highway: secondary, 'maxspeed:backward': '80', ref: St 2084, width: '6.5'}
+    _Measurement__time: '2014-01-21T16:08:04Z'
+  82: !!python/object:CarTrip.Measurement
+    _Measurement__index: 82
+    _Measurement__latitude: 48.40481221675873
+    _Measurement__longitude: 11.704697962850332
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 6.319025026871854, Consumption_unit: l/h,
+      Consumption_value: 2.68894681994547, Engine Load_unit: '%', Engine Load_value: 29.80392074584961,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 508.1,
+      GPS Bearing_unit: deg, GPS Bearing_value: 126.4800033569336, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 1.3, GPS Speed_unit: km/h,
+      GPS Speed_value: 62.550000000000004, GPS VDOP_unit: precision, GPS VDOP_value: 1.1,
+      Intake Temperature_unit: c, Intake Temperature_value: 3.0, Long-Term Fuel Trim 1_unit: '%',
+      Long-Term Fuel Trim 1_value: 6.25, MAF_unit: l/s, MAF_value: 8.180000305175781,
+      Rpm_unit: u/min, Rpm_value: 2448.0, Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: 2.34375,
+      Speed_unit: km/h, Speed_value: 65.0, Throttle Position_unit: '%', Throttle Position_value: 10.0}
+    _Measurement__road: *id013
+    _Measurement__time: '2014-01-21T16:08:10Z'
+  83: !!python/object:CarTrip.Measurement
+    _Measurement__index: 83
+    _Measurement__latitude: 48.40431374497712
+    _Measurement__longitude: 11.705902107059956
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 7.5936446472677925, Consumption_unit: l/h,
+      Consumption_value: 3.2313381477735286, Engine Load_unit: '%', Engine Load_value: 36.07843017578125,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 508.70000000000005,
+      GPS Bearing_unit: deg, GPS Bearing_value: 114.93000030517578, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 1.3, GPS Speed_unit: km/h,
+      GPS Speed_value: 63.0, GPS VDOP_unit: precision, GPS VDOP_value: 1.1, Intake Temperature_unit: c,
+      Intake Temperature_value: 3.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 5.46875,
+      MAF_unit: l/s, MAF_value: 9.829999923706055, O2 Lambda Voltage ER_unit: ratio,
+      O2 Lambda Voltage ER_value: 0.994140625, O2 Lambda Voltage_unit: V, O2 Lambda Voltage_value: 1.4453125,
+      Rpm_unit: u/min, Rpm_value: 2398.0, Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: 1.5625,
+      Speed_unit: km/h, Speed_value: 63.0, Throttle Position_unit: '%', Throttle Position_value: 10.0}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: "St 2084, V\xF6tting, Freising, Landkreis Freising, OB,\
+        \ Bayern, 85354, Deutschland"
+      _Road__osm_id: '199170891'
+      _Road__tags: {highway: secondary, ref: St 2084, width: '6.5'}
+    _Measurement__time: '2014-01-21T16:08:16Z'
+  84: !!python/object:CarTrip.Measurement
+    _Measurement__index: 84
+    _Measurement__latitude: 48.40396321378648
+    _Measurement__longitude: 11.707237511873245
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 7.269195882674197, Consumption_unit: l/h,
+      Consumption_value: 3.0932748436911472, Engine Load_unit: '%', Engine Load_value: 28.235294342041016,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 507.20000000000005,
+      GPS Bearing_unit: deg, GPS Bearing_value: 109.55999755859375, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 1.3, GPS Speed_unit: km/h,
+      GPS Speed_value: 63.9, GPS VDOP_unit: precision, GPS VDOP_value: 1.1, Intake Temperature_unit: c,
+      Intake Temperature_value: 2.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 6.25,
+      MAF_unit: l/s, MAF_value: 9.40999984741211, Rpm_unit: u/min, Rpm_value: 2419.0,
+      Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: 1.5625, Speed_unit: km/h,
+      Speed_value: 64.0, Throttle Position_unit: '%', Throttle Position_value: 10.0}
+    _Measurement__road: &id014 !!python/object:CarTrip.Road
+      _Road__display_name: "St 2084, V\xF6tting, Freising, Landkreis Freising, OB,\
+        \ Bayern, 85354, Deutschland"
+      _Road__osm_id: '164688562'
+      _Road__tags: {highway: secondary, 'maxspeed:forward': '80', ref: St 2084, width: '6.5'}
+    _Measurement__time: '2014-01-21T16:08:22Z'
+  85: !!python/object:CarTrip.Measurement
+    _Measurement__index: 85
+    _Measurement__latitude: 48.403639337047935
+    _Measurement__longitude: 11.708563109859824
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 6.550773512972592, Consumption_unit: l/h,
+      Consumption_value: 2.7875631970096135, Engine Load_unit: '%', Engine Load_value: 25.098039627075195,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 505.5,
+      GPS Bearing_unit: deg, GPS Bearing_value: 109.72000122070312, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 1.4, GPS Speed_unit: km/h,
+      GPS Speed_value: 61.65, GPS VDOP_unit: precision, GPS VDOP_value: 1.2, Intake Temperature_unit: c,
+      Intake Temperature_value: 2.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 6.25,
+      MAF_unit: l/s, MAF_value: 8.479999542236328, Rpm_unit: u/min, Rpm_value: 2374.0,
+      Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: 1.5625, Speed_unit: km/h,
+      Speed_value: 64.0, Throttle Position_unit: '%', Throttle Position_value: 9.0}
+    _Measurement__road: *id014
+    _Measurement__time: '2014-01-21T16:08:28Z'
+  86: !!python/object:CarTrip.Measurement
+    _Measurement__index: 86
+    _Measurement__latitude: 48.403329122811556
+    _Measurement__longitude: 11.70985040254891
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 5.994576262278258, Consumption_unit: l/h,
+      Consumption_value: 2.5508835158630885, Engine Load_unit: '%', Engine Load_value: 28.235294342041016,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 505.70000000000005,
+      GPS Bearing_unit: deg, GPS Bearing_value: 109.30000305175781, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.8, GPS PDOP_unit: precision, GPS PDOP_value: 1.5, GPS Speed_unit: km/h,
+      GPS Speed_value: 59.85, GPS VDOP_unit: precision, GPS VDOP_value: 1.2, Intake Temperature_unit: c,
+      Intake Temperature_value: 3.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 6.25,
+      MAF_unit: l/s, MAF_value: 7.760000228881836, Rpm_unit: u/min, Rpm_value: 2302.0,
+      Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: 2.34375, Speed_unit: km/h,
+      Speed_value: 61.0, Throttle Position_unit: '%', Throttle Position_value: 9.0}
+    _Measurement__road: &id015 !!python/object:CarTrip.Road
+      _Road__display_name: St 2084, Am Vogelherd, Freising, Landkreis Freising, OB,
+        Bayern, 85354, Deutschland
+      _Road__osm_id: '164688564'
+      _Road__tags: {highway: secondary, lanes: '2', 'maxspeed:forward': '60', ref: St
+          2084, width: '6.5'}
+    _Measurement__time: '2014-01-21T16:08:34Z'
+  87: !!python/object:CarTrip.Measurement
+    _Measurement__index: 87
+    _Measurement__latitude: 48.40309660881758
+    _Measurement__longitude: 11.711126379668713
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 6.133625574951841, Consumption_unit: l/h,
+      Consumption_value: 2.6100534361497196, Engine Load_unit: '%', Engine Load_value: 29.80392074584961,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 505.29999999999995,
+      GPS Bearing_unit: deg, GPS Bearing_value: 102.3499984741211, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 1.3, GPS Speed_unit: km/h,
+      GPS Speed_value: 58.725, GPS VDOP_unit: precision, GPS VDOP_value: 1.1, Intake Temperature_unit: c,
+      Intake Temperature_value: 3.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 6.25,
+      MAF_unit: l/s, MAF_value: 7.940000057220459, O2 Lambda Voltage ER_unit: ratio,
+      O2 Lambda Voltage ER_value: 0.9970703125, O2 Lambda Voltage_unit: V, O2 Lambda Voltage_value: 1.4892578125,
+      Rpm_unit: u/min, Rpm_value: 2256.0, Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: 2.34375,
+      Speed_unit: km/h, Speed_value: 60.0, Throttle Position_unit: '%', Throttle Position_value: 9.0}
+    _Measurement__road: *id015
+    _Measurement__time: '2014-01-21T16:08:40Z'
+  88: !!python/object:CarTrip.Measurement
+    _Measurement__index: 88
+    _Measurement__latitude: 48.4029090218246
+    _Measurement__longitude: 11.712440242990851
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 7.12242179236303, Consumption_unit: l/h,
+      Consumption_value: 3.030817783984268, Engine Load_unit: '%', Engine Load_value: 26.66666603088379,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 506.20000000000005,
+      GPS Bearing_unit: deg, GPS Bearing_value: 103.81999969482422, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 1.3, GPS Speed_unit: km/h,
+      GPS Speed_value: 57.825, GPS VDOP_unit: precision, GPS VDOP_value: 1.1, Intake Temperature_unit: c,
+      Intake Temperature_value: 3.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 7.03125,
+      MAF_unit: l/s, MAF_value: 9.220000267028809, Rpm_unit: u/min, Rpm_value: 2256.0,
+      Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: 2.34375, Speed_unit: km/h,
+      Speed_value: 60.0, Throttle Position_unit: '%', Throttle Position_value: 9.0}
+    _Measurement__road: *id015
+    _Measurement__time: '2014-01-21T16:08:46Z'
+  89: !!python/object:CarTrip.Measurement
+    _Measurement__index: 89
+    _Measurement__latitude: 48.402665024623275
+    _Measurement__longitude: 11.713639525696635
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 4.495932196708694, Consumption_unit: l/h,
+      Consumption_value: 1.9131626368973162, Engine Load_unit: '%', Engine Load_value: 20.39215660095215,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 505.9,
+      GPS Bearing_unit: deg, GPS Bearing_value: 110.1500015258789, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 1.3, GPS Speed_unit: km/h,
+      GPS Speed_value: 54.225, GPS VDOP_unit: precision, GPS VDOP_value: 1.1, Intake Temperature_unit: c,
+      Intake Temperature_value: 2.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 7.8125,
+      MAF_unit: l/s, MAF_value: 5.820000171661377, Rpm_unit: u/min, Rpm_value: 2083.0,
+      Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: 0.0, Speed_unit: km/h,
+      Speed_value: 57.0, Throttle Position_unit: '%', Throttle Position_value: 6.0}
+    _Measurement__road: *id015
+    _Measurement__time: '2014-01-21T16:08:52Z'
+  90: !!python/object:CarTrip.Measurement
+    _Measurement__index: 90
+    _Measurement__latitude: 48.40236650314182
+    _Measurement__longitude: 11.71470545232296
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 3.9011095844055106, Consumption_unit: l/h,
+      Consumption_value: 1.6600466316619193, Engine Load_unit: '%', Engine Load_value: 20.39215660095215,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 504.6,
+      GPS Bearing_unit: deg, GPS Bearing_value: 114.12999725341797, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 1.4, GPS Speed_unit: km/h,
+      GPS Speed_value: 48.15, GPS VDOP_unit: precision, GPS VDOP_value: 1.2, Intake Temperature_unit: c,
+      Intake Temperature_value: 3.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 12.5,
+      MAF_unit: l/s, MAF_value: 5.050000190734863, Rpm_unit: u/min, Rpm_value: 1238.0,
+      Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: 0.0, Speed_unit: km/h,
+      Speed_value: 52.0, Throttle Position_unit: '%', Throttle Position_value: 6.0}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: St 2084, Am Vogelherd, Freising, Landkreis Freising, OB,
+        Bayern, 85354, Deutschland
+      _Road__osm_id: '199170890'
+      _Road__tags: {highway: secondary, lanes: '3', 'lanes:backward': '1', 'lanes:forward': '2',
+        'maxspeed:backward': '50', 'maxspeed:forward': '60', ref: St 2084, 'turn:lanes:forward': left|through;right}
+    _Measurement__time: '2014-01-21T16:08:58Z'
+  91: !!python/object:CarTrip.Measurement
+    _Measurement__index: 91
+    _Measurement__latitude: 48.402148112654686
+    _Measurement__longitude: 11.715391930192709
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 4.441857279824681, Consumption_unit: l/h,
+      Consumption_value: 1.8901520339679496, Engine Load_unit: '%', Engine Load_value: 20.39215660095215,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 503.79999999999995,
+      GPS Bearing_unit: deg, GPS Bearing_value: 145.2899932861328, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 1.4, GPS Speed_unit: km/h,
+      GPS Speed_value: 21.375, GPS VDOP_unit: precision, GPS VDOP_value: 1.2, Intake Temperature_unit: c,
+      Intake Temperature_value: 3.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 14.0625,
+      MAF_unit: l/s, MAF_value: 5.75, Rpm_unit: u/min, Rpm_value: 1935.0, Short-Term Fuel Trim 1_unit: '%',
+      Short-Term Fuel Trim 1_value: 0.0, Speed_unit: km/h, Speed_value: 47.0, Throttle Position_unit: '%',
+      Throttle Position_value: 7.0}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: St 2084, Am Vogelherd, Freising, Landkreis Freising, OB,
+        Bayern, 85354, Deutschland
+      _Road__osm_id: '227935284'
+      _Road__tags: {construction: secondary, highway: construction, junction: roundabout,
+        oneway: 'yes', ref: St 2084, start_date: 07.05.2015}
+    _Measurement__time: '2014-01-21T16:09:04Z'
+  92: !!python/object:CarTrip.Measurement
+    _Measurement__index: 92
+    _Measurement__latitude: 48.40164373163134
+    _Measurement__longitude: 11.715421350672841
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 15.233638697071544, Consumption_unit: l/h,
+      Consumption_value: 6.4823994455623595, Engine Load_unit: '%', Engine Load_value: 100.0,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 503.29999999999995,
+      GPS Bearing_unit: deg, GPS Bearing_value: 172.2100067138672, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 1.4, GPS Speed_unit: km/h,
+      GPS Speed_value: 42.300000000000004, GPS VDOP_unit: precision, GPS VDOP_value: 1.2,
+      Intake Temperature_unit: c, Intake Temperature_value: 3.0, Long-Term Fuel Trim 1_unit: '%',
+      Long-Term Fuel Trim 1_value: 4.6875, MAF_unit: l/s, MAF_value: 19.719999313354492,
+      O2 Lambda Voltage ER_unit: ratio, O2 Lambda Voltage ER_value: 0.986328125, O2 Lambda Voltage_unit: V,
+      O2 Lambda Voltage_value: 1.4501953125, Rpm_unit: u/min, Rpm_value: 1900.0, Short-Term Fuel Trim 1_unit: '%',
+      Short-Term Fuel Trim 1_value: 6.25, Speed_unit: km/h, Speed_value: 26.0, Throttle Position_unit: '%',
+      Throttle Position_value: 36.0}
+    _Measurement__road: &id016 !!python/object:CarTrip.Road
+      _Road__display_name: "Griesfeldstra\xDFe, Am Vogelherd, Freising, Landkreis\
+        \ Freising, OB, Bayern, 85354, Deutschland"
+      _Road__osm_id: '4438701'
+      _Road__tags: {highway: tertiary, lanes: '2', maxspeed: '50', name: "Griesfeldstra\xDF\
+          e"}
+    _Measurement__time: '2014-01-21T16:09:10Z'
+  93: !!python/object:CarTrip.Measurement
+    _Measurement__index: 93
+    _Measurement__latitude: 48.40094396844506
+    _Measurement__longitude: 11.715568201616406
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 17.543404305769865, Consumption_unit: l/h,
+      Consumption_value: 7.465278427987177, Engine Load_unit: '%', Engine Load_value: 89.4117660522461,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 507.6,
+      GPS Bearing_unit: deg, GPS Bearing_value: 175.41000366210938, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 1.1, GPS Speed_unit: km/h,
+      GPS Speed_value: 47.7, GPS VDOP_unit: precision, GPS VDOP_value: 0.9, Intake Temperature_unit: c,
+      Intake Temperature_value: 2.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 5.46875,
+      MAF_unit: l/s, MAF_value: 22.709999084472656, Rpm_unit: u/min, Rpm_value: 1820.0,
+      Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: -3.125, Speed_unit: km/h,
+      Speed_value: 48.0, Throttle Position_unit: '%', Throttle Position_value: 24.0}
+    _Measurement__road: *id016
+    _Measurement__time: '2014-01-21T16:09:16Z'
+  94: !!python/object:CarTrip.Measurement
+    _Measurement__index: 94
+    _Measurement__latitude: 48.40024739038199
+    _Measurement__longitude: 11.715690325945616
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 11.911902538049288, Consumption_unit: l/h,
+      Consumption_value: 5.06889469704225, Engine Load_unit: '%', Engine Load_value: 76.86274719238281,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 511.4,
+      GPS Bearing_unit: deg, GPS Bearing_value: 168.0800018310547, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 1.2, GPS Speed_unit: km/h,
+      GPS Speed_value: 45.9, GPS VDOP_unit: precision, GPS VDOP_value: 0.9, Intake Temperature_unit: c,
+      Intake Temperature_value: 2.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 6.25,
+      MAF_unit: l/s, MAF_value: 15.420000076293945, Rpm_unit: u/min, Rpm_value: 1834.0,
+      Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: 0.0, Speed_unit: km/h,
+      Speed_value: 48.0, Throttle Position_unit: '%', Throttle Position_value: 14.0}
+    _Measurement__road: *id016
+    _Measurement__time: '2014-01-21T16:09:22Z'
+  95: !!python/object:CarTrip.Measurement
+    _Measurement__index: 95
+    _Measurement__latitude: 48.399607222527266
+    _Measurement__longitude: 11.716035660356283
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 15.094590489463666, Consumption_unit: l/h,
+      Consumption_value: 6.423229995516453, Engine Load_unit: '%', Engine Load_value: 32.94117736816406,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 513.8,
+      GPS Bearing_unit: deg, GPS Bearing_value: 146.52999877929688, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 1.1, GPS Speed_unit: km/h,
+      GPS Speed_value: 41.85, GPS VDOP_unit: precision, GPS VDOP_value: 0.8, Intake Temperature_unit: c,
+      Intake Temperature_value: 2.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 12.5,
+      MAF_unit: l/s, MAF_value: 19.540000915527344, Rpm_unit: u/min, Rpm_value: 1797.0,
+      Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: -8.59375, Speed_unit: km/h,
+      Speed_value: 46.0, Throttle Position_unit: '%', Throttle Position_value: 20.0}
+    _Measurement__road: *id016
+    _Measurement__time: '2014-01-21T16:09:28Z'
+  96: !!python/object:CarTrip.Measurement
+    _Measurement__index: 96
+    _Measurement__latitude: 48.399106403812766
+    _Measurement__longitude: 11.716554835438728
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 2.7732638701431203, Consumption_unit: l/h,
+      Consumption_value: 1.1801122851672852, Engine Load_unit: '%', Engine Load_value: 100.0,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 516.4,
+      GPS Bearing_unit: deg, GPS Bearing_value: 163.0399932861328, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 1.3, GPS Speed_unit: km/h,
+      GPS Speed_value: 44.775, GPS VDOP_unit: precision, GPS VDOP_value: 1.1, Intake Temperature_unit: c,
+      Intake Temperature_value: 3.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 5.46875,
+      MAF_unit: l/s, MAF_value: 3.5899999141693115, Rpm_unit: u/min, Rpm_value: 1613.0,
+      Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: 0.78125, Speed_unit: km/h,
+      Speed_value: 42.0, Throttle Position_unit: '%', Throttle Position_value: 5.0}
+    _Measurement__road: &id017 !!python/object:CarTrip.Road
+      _Road__display_name: "Gregor-Mendel-Stra\xDFe, V\xF6tting, Freising, Landkreis\
+        \ Freising, OB, Bayern, 85354, Deutschland"
+      _Road__osm_id: '20303653'
+      _Road__tags: {highway: tertiary, lanes: '2', maxspeed: '50', name: "Gregor-Mendel-Stra\xDF\
+          e"}
+    _Measurement__time: '2014-01-21T16:09:34Z'
+  97: !!python/object:CarTrip.Measurement
+    _Measurement__index: 97
+    _Measurement__latitude: 48.398525579832494
+    _Measurement__longitude: 11.716990107670426
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 3.677085507587119, Consumption_unit: l/h,
+      Consumption_value: 1.5647172372711144, Engine Load_unit: '%', Engine Load_value: 20.39215660095215,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 517.4,
+      GPS Bearing_unit: deg, GPS Bearing_value: 117.37000274658203, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 1.1, GPS Speed_unit: km/h,
+      GPS Speed_value: 39.15, GPS VDOP_unit: precision, GPS VDOP_value: 0.9, Intake Temperature_unit: c,
+      Intake Temperature_value: 3.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 13.28125,
+      MAF_unit: l/s, MAF_value: 4.760000228881836, O2 Lambda Voltage ER_unit: ratio,
+      O2 Lambda Voltage ER_value: 1.0791015625, O2 Lambda Voltage_unit: V, O2 Lambda Voltage_value: 1.6943359375,
+      Rpm_unit: u/min, Rpm_value: 1816.0, Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: 0.0,
+      Speed_unit: km/h, Speed_value: 48.0, Throttle Position_unit: '%', Throttle Position_value: 5.0}
+    _Measurement__road: *id017
+    _Measurement__time: '2014-01-21T16:09:40Z'
+  98: !!python/object:CarTrip.Measurement
+    _Measurement__index: 98
+    _Measurement__latitude: 48.39838438667357
+    _Measurement__longitude: 11.717977160587907
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 8.497466100534176, Consumption_unit: l/h,
+      Consumption_value: 3.615943021503904, Engine Load_unit: '%', Engine Load_value: 20.39215660095215,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 517.1,
+      GPS Bearing_unit: deg, GPS Bearing_value: 97.97000122070312, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 1.1, GPS Speed_unit: km/h,
+      GPS Speed_value: 44.325, GPS VDOP_unit: precision, GPS VDOP_value: 0.9, Intake Temperature_unit: c,
+      Intake Temperature_value: 2.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 12.5,
+      MAF_unit: l/s, MAF_value: 11.0, Rpm_unit: u/min, Rpm_value: 1755.0, Short-Term Fuel Trim 1_unit: '%',
+      Short-Term Fuel Trim 1_value: -5.46875, Speed_unit: km/h, Speed_value: 45.0,
+      Throttle Position_unit: '%', Throttle Position_value: 5.0}
+    _Measurement__road: *id017
+    _Measurement__time: '2014-01-21T16:09:46Z'
+  99: !!python/object:CarTrip.Measurement
+    _Measurement__index: 99
+    _Measurement__latitude: 48.39840634725988
+    _Measurement__longitude: 11.718981396406889
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 3.4221612151526966, Consumption_unit: l/h,
+      Consumption_value: 1.4562388149585943, Engine Load_unit: '%', Engine Load_value: 20.39215660095215,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 516.0,
+      GPS Bearing_unit: deg, GPS Bearing_value: 85.47000122070312, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 1.0, GPS Speed_unit: km/h,
+      GPS Speed_value: 45.45, GPS VDOP_unit: precision, GPS VDOP_value: 0.8, Intake Temperature_unit: c,
+      Intake Temperature_value: 3.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 12.5,
+      MAF_unit: l/s, MAF_value: 4.429999828338623, Rpm_unit: u/min, Rpm_value: 1680.0,
+      Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: 0.0, Speed_unit: km/h,
+      Speed_value: 44.0, Throttle Position_unit: '%', Throttle Position_value: 5.0}
+    _Measurement__road: *id017
+    _Measurement__time: '2014-01-21T16:09:52Z'

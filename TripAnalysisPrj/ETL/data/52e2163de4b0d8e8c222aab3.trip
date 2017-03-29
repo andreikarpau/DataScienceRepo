@@ -1,0 +1,735 @@
+!!python/object:CarTrip.Trip
+_Trip__car: !!python/object:CarTrip.Car {_Car__api_id: 5256385de4b000fe057ac7c0, _Car__construction_year: 2008,
+  _Car__engine_displacement: 1600, _Car__fuel_type: gasoline, _Car__manufacturer: BMW,
+  _Car__model: '1'}
+_Trip__id: 52e2163de4b0d8e8c222aab3
+_Trip__length: 3.272797761802797
+_Trip__measurements:
+  0: !!python/object:CarTrip.Measurement
+    _Measurement__index: 0
+    _Measurement__latitude: 52.08389798
+    _Measurement__longitude: 7.31202996
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 9.154088775714184, Consumption_unit: l/h,
+      Consumption_value: 3.8953569258358227, GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0,
+      GPS Altitude_unit: m, GPS Altitude_value: 113.4000015258789, GPS Bearing_unit: deg,
+      GPS Bearing_value: 273.1000061035156, GPS HDOP_unit: precision, GPS HDOP_value: 0.9,
+      GPS PDOP_unit: precision, GPS PDOP_value: 1.1, GPS Speed_unit: km/h, GPS Speed_value: 36.9,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.7, Intake Pressure_unit: kPa, Intake Pressure_value: 52.0,
+      MAF_unit: l/s, MAF_value: 11.850000381469727, Rpm_unit: u/min, Rpm_value: 1495.0,
+      Speed_unit: km/h, Speed_value: 37.0}
+    _Measurement__road: &id001 !!python/object:CarTrip.Road
+      _Road__display_name: "Warnsveldallee, Horstmar, Kreis Steinfurt, Regierungsbezirk\
+        \ M\xFCnster, Nordrhein-Westfalen, 48612, Deutschland"
+      _Road__osm_id: '53375806'
+      _Road__tags: {highway: residential, name: Warnsveldallee, surface: asphalt}
+    _Measurement__time: '2014-01-07T06:37:36Z'
+  1: !!python/object:CarTrip.Measurement
+    _Measurement__index: 1
+    _Measurement__latitude: 52.08393824
+    _Measurement__longitude: 7.31117098
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 4.387782362940671, Consumption_unit: l/h,
+      Consumption_value: 1.8671414310385832, GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0,
+      GPS Altitude_unit: m, GPS Altitude_value: 113.0, GPS Bearing_unit: deg, GPS Bearing_value: 274.20001220703125,
+      GPS HDOP_unit: precision, GPS HDOP_value: 1.0, GPS PDOP_unit: precision, GPS PDOP_value: 1.2,
+      GPS Speed_unit: km/h, GPS Speed_value: 33.300000000000004, GPS VDOP_unit: precision,
+      GPS VDOP_value: 0.7, Intake Pressure_unit: kPa, Intake Pressure_value: 52.0,
+      MAF_unit: l/s, MAF_value: 5.679999828338623, Rpm_unit: u/min, Rpm_value: 1344.0,
+      Speed_unit: km/h, Speed_value: 34.0}
+    _Measurement__road: *id001
+    _Measurement__time: '2014-01-07T06:37:42Z'
+  2: !!python/object:CarTrip.Measurement
+    _Measurement__index: 2
+    _Measurement__latitude: 52.08398982
+    _Measurement__longitude: 7.31084554
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 3.0899876729215183, Consumption_unit: l/h,
+      Consumption_value: 1.3148883714559652, GPS Accuracy_unit: '%', GPS Accuracy_value: 4.0,
+      GPS Altitude_unit: m, GPS Altitude_value: 112.30000305175781, GPS Bearing_unit: deg,
+      GPS Bearing_value: 303.29998779296875, GPS HDOP_unit: precision, GPS HDOP_value: 1.0,
+      GPS PDOP_unit: precision, GPS PDOP_value: 1.4, GPS Speed_unit: km/h, GPS Speed_value: 4.5,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.9, Intake Pressure_unit: kPa, Intake Pressure_value: 52.0,
+      MAF_unit: l/s, MAF_value: 4.0, Rpm_unit: u/min, Rpm_value: 841.0, Speed_unit: km/h,
+      Speed_value: 4.0}
+    _Measurement__road: *id001
+    _Measurement__time: '2014-01-07T06:37:48Z'
+  3: !!python/object:CarTrip.Measurement
+    _Measurement__index: 3
+    _Measurement__latitude: 52.08402933
+    _Measurement__longitude: 7.31084322
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 2.9509381760703173, Consumption_unit: l/h,
+      Consumption_value: 1.2557183727958796, GPS Accuracy_unit: '%', GPS Accuracy_value: 3.0,
+      GPS Altitude_unit: m, GPS Altitude_value: 113.4000015258789, GPS Bearing_unit: deg,
+      GPS Bearing_value: 303.6000061035156, GPS HDOP_unit: precision, GPS HDOP_value: 0.8,
+      GPS PDOP_unit: precision, GPS PDOP_value: 1.2, GPS Speed_unit: km/h, GPS Speed_value: 0.0,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.8, Intake Pressure_unit: kPa, Intake Pressure_value: 52.0,
+      MAF_unit: l/s, MAF_value: 3.819999933242798, Rpm_unit: u/min, Rpm_value: 838.0,
+      Speed_unit: km/h, Speed_value: 0.0}
+    _Measurement__road: *id001
+    _Measurement__time: '2014-01-07T06:37:54Z'
+  4: !!python/object:CarTrip.Measurement
+    _Measurement__index: 4
+    _Measurement__latitude: 52.08403567
+    _Measurement__longitude: 7.31085715
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 2.9277632906247195, Consumption_unit: l/h,
+      Consumption_value: 1.2458567194147743, GPS Accuracy_unit: '%', GPS Accuracy_value: 3.0,
+      GPS Altitude_unit: m, GPS Altitude_value: 113.5, GPS HDOP_unit: precision, GPS HDOP_value: 0.9,
+      GPS PDOP_unit: precision, GPS PDOP_value: 1.2, GPS Speed_unit: km/h, GPS Speed_value: 0.0,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.8, Intake Pressure_unit: kPa, Intake Pressure_value: 52.0,
+      MAF_unit: l/s, MAF_value: 3.7899999618530273, Rpm_unit: u/min, Rpm_value: 818.0,
+      Speed_unit: km/h, Speed_value: 0.0}
+    _Measurement__road: *id001
+    _Measurement__time: '2014-01-07T06:38:00Z'
+  5: !!python/object:CarTrip.Measurement
+    _Measurement__index: 5
+    _Measurement__latitude: 52.08399989
+    _Measurement__longitude: 7.31059403
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 18.454950905029065, Consumption_unit: l/h,
+      Consumption_value: 7.853170597884708, GPS Accuracy_unit: '%', GPS Accuracy_value: 4.0,
+      GPS Altitude_unit: m, GPS Altitude_value: 114.69999694824219, GPS Bearing_unit: deg,
+      GPS Bearing_value: 248.39999389648438, GPS HDOP_unit: precision, GPS HDOP_value: 0.9,
+      GPS PDOP_unit: precision, GPS PDOP_value: 1.1, GPS Speed_unit: km/h, GPS Speed_value: 17.1,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.7, Intake Pressure_unit: kPa, Intake Pressure_value: 52.0,
+      MAF_unit: l/s, MAF_value: 23.889999389648438, Rpm_unit: u/min, Rpm_value: 1549.0,
+      Speed_unit: km/h, Speed_value: 20.0}
+    _Measurement__road: &id002 !!python/object:CarTrip.Road
+      _Road__display_name: "Koppelstra\xDFe, Horstmar, Kreis Steinfurt, Regierungsbezirk\
+        \ M\xFCnster, Nordrhein-Westfalen, 48612, Deutschland"
+      _Road__osm_id: '303332031'
+      _Road__tags: {highway: secondary, maxspeed: '50', name: "Koppelstra\xDFe", ref: L
+          580}
+    _Measurement__time: '2014-01-07T06:38:06Z'
+  6: !!python/object:CarTrip.Measurement
+    _Measurement__index: 6
+    _Measurement__latitude: 52.08348946
+    _Measurement__longitude: 7.31022935
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 7.740419474289429, Consumption_unit: l/h,
+      Consumption_value: 3.293795520974225, GPS Accuracy_unit: '%', GPS Accuracy_value: 4.0,
+      GPS Altitude_unit: m, GPS Altitude_value: 118.80000305175781, GPS Bearing_unit: deg,
+      GPS Bearing_value: 210.60000610351562, GPS HDOP_unit: precision, GPS HDOP_value: 0.7,
+      GPS PDOP_unit: precision, GPS PDOP_value: 1.0, GPS Speed_unit: km/h, GPS Speed_value: 32.4,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.7, Intake Pressure_unit: kPa, Intake Pressure_value: 52.0,
+      MAF_unit: l/s, MAF_value: 10.020000457763672, Rpm_unit: u/min, Rpm_value: 1759.0,
+      Speed_unit: km/h, Speed_value: 32.0}
+    _Measurement__road: *id002
+    _Measurement__time: '2014-01-07T06:38:12Z'
+  7: !!python/object:CarTrip.Measurement
+    _Measurement__index: 7
+    _Measurement__latitude: 52.08313775
+    _Measurement__longitude: 7.30986166
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 1.9080674101303512, Consumption_unit: l/h,
+      Consumption_value: 0.8119435787788728, GPS Accuracy_unit: '%', GPS Accuracy_value: 4.0,
+      GPS Altitude_unit: m, GPS Altitude_value: 122.0, GPS Bearing_unit: deg, GPS Bearing_value: 219.8000030517578,
+      GPS HDOP_unit: precision, GPS HDOP_value: 0.8, GPS PDOP_unit: precision, GPS PDOP_value: 1.1,
+      GPS Speed_unit: km/h, GPS Speed_value: 25.2, GPS VDOP_unit: precision, GPS VDOP_value: 0.7,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 52.0, MAF_unit: l/s, MAF_value: 2.4700000286102295,
+      Rpm_unit: u/min, Rpm_value: 1291.0, Speed_unit: km/h, Speed_value: 23.0}
+    _Measurement__road: *id002
+    _Measurement__time: '2014-01-07T06:38:18Z'
+  8: !!python/object:CarTrip.Measurement
+    _Measurement__index: 8
+    _Measurement__latitude: 52.08290839
+    _Measurement__longitude: 7.30951669
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 5.144829357540653, Consumption_unit: l/h,
+      Consumption_value: 2.189289088315171, GPS Accuracy_unit: '%', GPS Accuracy_value: 4.0,
+      GPS Altitude_unit: m, GPS Altitude_value: 125.0, GPS Bearing_unit: deg, GPS Bearing_value: 188.3000030517578,
+      GPS HDOP_unit: precision, GPS HDOP_value: 0.7, GPS PDOP_unit: precision, GPS PDOP_value: 1.0,
+      GPS Speed_unit: km/h, GPS Speed_value: 23.400000000000002, GPS VDOP_unit: precision,
+      GPS VDOP_value: 0.7, Intake Pressure_unit: kPa, Intake Pressure_value: 52.0,
+      MAF_unit: l/s, MAF_value: 6.659999847412109, Rpm_unit: u/min, Rpm_value: 1227.0,
+      Speed_unit: km/h, Speed_value: 23.0}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: "L 580, Horstmar, Kreis Steinfurt, Regierungsbezirk M\xFC\
+        nster, Nordrhein-Westfalen, 48612, Deutschland"
+      _Road__osm_id: '8751902'
+      _Road__tags: {highway: secondary, junction: roundabout, maxspeed: '50', oneway: 'yes',
+        ref: L 580}
+    _Measurement__time: '2014-01-07T06:38:24Z'
+  9: !!python/object:CarTrip.Measurement
+    _Measurement__index: 9
+    _Measurement__latitude: 52.08260068
+    _Measurement__longitude: 7.30897649
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 23.414381179004938, Consumption_unit: l/h,
+      Consumption_value: 9.963566459151037, GPS Accuracy_unit: '%', GPS Accuracy_value: 4.0,
+      GPS Altitude_unit: m, GPS Altitude_value: 125.5999984741211, GPS Bearing_unit: deg,
+      GPS Bearing_value: 230.8000030517578, GPS HDOP_unit: precision, GPS HDOP_value: 0.7,
+      GPS PDOP_unit: precision, GPS PDOP_value: 1.0, GPS Speed_unit: km/h, GPS Speed_value: 39.6,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.7, Intake Pressure_unit: kPa, Intake Pressure_value: 52.0,
+      MAF_unit: l/s, MAF_value: 30.309999465942383, Rpm_unit: u/min, Rpm_value: 1982.0,
+      Speed_unit: km/h, Speed_value: 37.0}
+    _Measurement__road: &id003 !!python/object:CarTrip.Road
+      _Road__display_name: "Koppelstra\xDFe, Horstmar, Kreis Steinfurt, Regierungsbezirk\
+        \ M\xFCnster, Nordrhein-Westfalen, 48612, Deutschland"
+      _Road__osm_id: '38220848'
+      _Road__tags: {highway: secondary, maxspeed: '50', name: "Koppelstra\xDFe", oneway: 'no',
+        ref: L 580}
+    _Measurement__time: '2014-01-07T06:38:30Z'
+  10: !!python/object:CarTrip.Measurement
+    _Measurement__index: 10
+    _Measurement__latitude: 52.0822574
+    _Measurement__longitude: 7.30809663
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 10.992630792797275, Consumption_unit: l/h,
+      Consumption_value: 4.677715230977563, GPS Accuracy_unit: '%', GPS Accuracy_value: 4.0,
+      GPS Altitude_unit: m, GPS Altitude_value: 127.0999984741211, GPS Bearing_unit: deg,
+      GPS Bearing_value: 236.8000030517578, GPS HDOP_unit: precision, GPS HDOP_value: 0.7,
+      GPS PDOP_unit: precision, GPS PDOP_value: 1.0, GPS Speed_unit: km/h, GPS Speed_value: 45.0,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.7, Intake Pressure_unit: kPa, Intake Pressure_value: 52.0,
+      MAF_unit: l/s, MAF_value: 14.229999542236328, Rpm_unit: u/min, Rpm_value: 1757.0,
+      Speed_unit: km/h, Speed_value: 44.0}
+    _Measurement__road: *id003
+    _Measurement__time: '2014-01-07T06:38:36Z'
+  11: !!python/object:CarTrip.Measurement
+    _Measurement__index: 11
+    _Measurement__latitude: 52.08190447
+    _Measurement__longitude: 7.30725333
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 8.466566253273378, Consumption_unit: l/h,
+      Consumption_value: 3.6027941503290966, GPS Accuracy_unit: '%', GPS Accuracy_value: 4.0,
+      GPS Altitude_unit: m, GPS Altitude_value: 129.1999969482422, GPS Bearing_unit: deg,
+      GPS Bearing_value: 236.3000030517578, GPS HDOP_unit: precision, GPS HDOP_value: 0.7,
+      GPS PDOP_unit: precision, GPS PDOP_value: 1.0, GPS Speed_unit: km/h, GPS Speed_value: 43.2,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.7, Intake Pressure_unit: kPa, Intake Pressure_value: 52.0,
+      MAF_unit: l/s, MAF_value: 10.960000038146973, Rpm_unit: u/min, Rpm_value: 1681.0,
+      Speed_unit: km/h, Speed_value: 42.0}
+    _Measurement__road: *id003
+    _Measurement__time: '2014-01-07T06:38:42Z'
+  12: !!python/object:CarTrip.Measurement
+    _Measurement__index: 12
+    _Measurement__latitude: 52.08158791
+    _Measurement__longitude: 7.30647745
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 10.505958382617349, Consumption_unit: l/h,
+      Consumption_value: 4.470620588347808, GPS Accuracy_unit: '%', GPS Accuracy_value: 4.0,
+      GPS Altitude_unit: m, GPS Altitude_value: 132.10000610351562, GPS Bearing_unit: deg,
+      GPS Bearing_value: 237.3000030517578, GPS HDOP_unit: precision, GPS HDOP_value: 0.7,
+      GPS PDOP_unit: precision, GPS PDOP_value: 1.0, GPS Speed_unit: km/h, GPS Speed_value: 38.7,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.7, Intake Pressure_unit: kPa, Intake Pressure_value: 52.0,
+      MAF_unit: l/s, MAF_value: 13.600000381469727, Rpm_unit: u/min, Rpm_value: 1514.0,
+      Speed_unit: km/h, Speed_value: 38.0}
+    _Measurement__road: *id003
+    _Measurement__time: '2014-01-07T06:38:48Z'
+  13: !!python/object:CarTrip.Measurement
+    _Measurement__index: 13
+    _Measurement__latitude: 52.0812764
+    _Measurement__longitude: 7.3057131
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 2.533789869694331, Consumption_unit: l/h,
+      Consumption_value: 1.078208455189077, GPS Accuracy_unit: '%', GPS Accuracy_value: 4.0,
+      GPS Altitude_unit: m, GPS Altitude_value: 135.89999389648438, GPS Bearing_unit: deg,
+      GPS Bearing_value: 235.3000030517578, GPS HDOP_unit: precision, GPS HDOP_value: 0.7,
+      GPS PDOP_unit: precision, GPS PDOP_value: 1.1, GPS Speed_unit: km/h, GPS Speed_value: 34.2,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.8, Intake Pressure_unit: kPa, Intake Pressure_value: 52.0,
+      MAF_unit: l/s, MAF_value: 3.2799999713897705, Rpm_unit: u/min, Rpm_value: 1381.0,
+      Speed_unit: km/h, Speed_value: 34.0}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: "Bischofsweg, Horstmar, Kreis Steinfurt, Regierungsbezirk\
+        \ M\xFCnster, Nordrhein-Westfalen, 48612, Deutschland"
+      _Road__osm_id: '25885024'
+      _Road__tags: {highway: residential, name: Bischofsweg}
+    _Measurement__time: '2014-01-07T06:38:54Z'
+  14: !!python/object:CarTrip.Measurement
+    _Measurement__index: 14
+    _Measurement__latitude: 52.08101309
+    _Measurement__longitude: 7.30531727
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 8.62106548957736, Consumption_unit: l/h,
+      Consumption_value: 3.6685385062031317, GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0,
+      GPS Altitude_unit: m, GPS Altitude_value: 138.3000030517578, GPS Bearing_unit: deg,
+      GPS Bearing_value: 190.89999389648438, GPS HDOP_unit: precision, GPS HDOP_value: 0.7,
+      GPS PDOP_unit: precision, GPS PDOP_value: 1.1, GPS Speed_unit: km/h, GPS Speed_value: 18.900000000000002,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.8, Intake Pressure_unit: kPa, Intake Pressure_value: 52.0,
+      MAF_unit: l/s, MAF_value: 11.15999984741211, Rpm_unit: u/min, Rpm_value: 1347.0,
+      Speed_unit: km/h, Speed_value: 26.0}
+    _Measurement__road: *id003
+    _Measurement__time: '2014-01-07T06:39:00Z'
+  15: !!python/object:CarTrip.Measurement
+    _Measurement__index: 15
+    _Measurement__latitude: 52.08054393
+    _Measurement__longitude: 7.30560434
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 9.478537540307782, Consumption_unit: l/h,
+      Consumption_value: 4.033420229918205, GPS Accuracy_unit: '%', GPS Accuracy_value: 9.0,
+      GPS Altitude_unit: m, GPS Altitude_value: 138.39999389648438, GPS Bearing_unit: deg,
+      GPS Bearing_value: 162.39999389648438, GPS HDOP_unit: precision, GPS HDOP_value: 0.9,
+      GPS PDOP_unit: precision, GPS PDOP_value: 1.2, GPS Speed_unit: km/h, GPS Speed_value: 34.2,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.8, Intake Pressure_unit: kPa, Intake Pressure_value: 52.0,
+      MAF_unit: l/s, MAF_value: 12.270000457763672, Rpm_unit: u/min, Rpm_value: 1777.0,
+      Speed_unit: km/h, Speed_value: 33.0}
+    _Measurement__road: &id004 !!python/object:CarTrip.Road
+      _Road__display_name: "Bahnhofstra\xDFe, Horstmar, Kreis Steinfurt, Regierungsbezirk\
+        \ M\xFCnster, Nordrhein-Westfalen, 48612, Deutschland"
+      _Road__osm_id: '38220849'
+      _Road__tags: {highway: secondary, maxspeed: '50', name: "Bahnhofstra\xDFe",
+        ref: L 580}
+    _Measurement__time: '2014-01-07T06:39:06Z'
+  16: !!python/object:CarTrip.Measurement
+    _Measurement__index: 16
+    _Measurement__latitude: 52.08001738
+    _Measurement__longitude: 7.30579342
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 6.473524263175836, Consumption_unit: l/h,
+      Consumption_value: 2.7546911758195045, GPS Accuracy_unit: '%', GPS Accuracy_value: 10.0,
+      GPS Altitude_unit: m, GPS Altitude_value: 139.6999969482422, GPS Bearing_unit: deg,
+      GPS Bearing_value: 167.3000030517578, GPS HDOP_unit: precision, GPS HDOP_value: 1.0,
+      GPS PDOP_unit: precision, GPS PDOP_value: 1.3, GPS Speed_unit: km/h, GPS Speed_value: 35.1,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.9, Intake Pressure_unit: kPa, Intake Pressure_value: 52.0,
+      MAF_unit: l/s, MAF_value: 8.380000114440918, Rpm_unit: u/min, Rpm_value: 1866.0,
+      Speed_unit: km/h, Speed_value: 35.0}
+    _Measurement__road: *id004
+    _Measurement__time: '2014-01-07T06:39:12Z'
+  17: !!python/object:CarTrip.Measurement
+    _Measurement__index: 17
+    _Measurement__latitude: 52.07947553
+    _Measurement__longitude: 7.30597552
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 4.001533903825481, Consumption_unit: l/h,
+      Consumption_value: 1.7027803846065876, GPS Accuracy_unit: '%', GPS Accuracy_value: 9.0,
+      GPS Altitude_unit: m, GPS Altitude_value: 139.39999389648438, GPS Bearing_unit: deg,
+      GPS Bearing_value: 166.8000030517578, GPS HDOP_unit: precision, GPS HDOP_value: 0.9,
+      GPS PDOP_unit: precision, GPS PDOP_value: 1.3, GPS Speed_unit: km/h, GPS Speed_value: 36.0,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.9, Intake Pressure_unit: kPa, Intake Pressure_value: 52.0,
+      MAF_unit: l/s, MAF_value: 5.179999828338623, Rpm_unit: u/min, Rpm_value: 1897.0,
+      Speed_unit: km/h, Speed_value: 36.0}
+    _Measurement__road: *id004
+    _Measurement__time: '2014-01-07T06:39:18Z'
+  18: !!python/object:CarTrip.Measurement
+    _Measurement__index: 18
+    _Measurement__latitude: 52.07901077
+    _Measurement__longitude: 7.30634433
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 6.8056981737622495, Consumption_unit: l/h,
+      Consumption_value: 2.8960417760690422, GPS Accuracy_unit: '%', GPS Accuracy_value: 9.0,
+      GPS Altitude_unit: m, GPS Altitude_value: 139.3000030517578, GPS Bearing_unit: deg,
+      GPS Bearing_value: 137.89999389648438, GPS HDOP_unit: precision, GPS HDOP_value: 0.8,
+      GPS PDOP_unit: precision, GPS PDOP_value: 1.2, GPS Speed_unit: km/h, GPS Speed_value: 34.2,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.8, Intake Pressure_unit: kPa, Intake Pressure_value: 52.0,
+      MAF_unit: l/s, MAF_value: 8.8100004196167, Rpm_unit: u/min, Rpm_value: 1783.0,
+      Speed_unit: km/h, Speed_value: 33.0}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: "Stadtstiege, Horstmar, Kreis Steinfurt, Regierungsbezirk\
+        \ M\xFCnster, Nordrhein-Westfalen, 48612, Deutschland"
+      _Road__osm_id: '43582386'
+      _Road__tags: {highway: residential, maxspeed: '20', name: Stadtstiege}
+    _Measurement__time: '2014-01-07T06:39:24Z'
+  19: !!python/object:CarTrip.Measurement
+    _Measurement__index: 19
+    _Measurement__latitude: 52.07871513
+    _Measurement__longitude: 7.3070837
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 5.8478018036118575, Consumption_unit: l/h,
+      Consumption_value: 2.488426299409301, GPS Accuracy_unit: '%', GPS Accuracy_value: 9.0,
+      GPS Altitude_unit: m, GPS Altitude_value: 139.0, GPS Bearing_unit: deg, GPS Bearing_value: 119.30000305175781,
+      GPS HDOP_unit: precision, GPS HDOP_value: 0.8, GPS PDOP_unit: precision, GPS PDOP_value: 1.1,
+      GPS Speed_unit: km/h, GPS Speed_value: 36.9, GPS VDOP_unit: precision, GPS VDOP_value: 0.8,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 52.0, MAF_unit: l/s, MAF_value: 7.570000171661377,
+      Rpm_unit: u/min, Rpm_value: 1917.0, Speed_unit: km/h, Speed_value: 35.0}
+    _Measurement__road: *id004
+    _Measurement__time: '2014-01-07T06:39:30Z'
+  20: !!python/object:CarTrip.Measurement
+    _Measurement__index: 20
+    _Measurement__latitude: 52.07842615
+    _Measurement__longitude: 7.30792517
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 6.75934803451582, Consumption_unit: l/h,
+      Consumption_value: 2.876318312559923, GPS Accuracy_unit: '%', GPS Accuracy_value: 10.0,
+      GPS Altitude_unit: m, GPS Altitude_value: 139.3000030517578, GPS Bearing_unit: deg,
+      GPS Bearing_value: 118.5999984741211, GPS HDOP_unit: precision, GPS HDOP_value: 0.7,
+      GPS PDOP_unit: precision, GPS PDOP_value: 1.0, GPS Speed_unit: km/h, GPS Speed_value: 39.6,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.7, Intake Pressure_unit: kPa, Intake Pressure_value: 52.0,
+      MAF_unit: l/s, MAF_value: 8.75, Rpm_unit: u/min, Rpm_value: 2129.0, Speed_unit: km/h,
+      Speed_value: 40.0}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: "Textilstra\xDFe, Gewerbegebiet Horstmar, Horstmar, Kreis\
+        \ Steinfurt, Regierungsbezirk M\xFCnster, Nordrhein-Westfalen, 48612, Deutschland"
+      _Road__osm_id: '80201882'
+      _Road__tags: {highway: residential, name: "Textilstra\xDFe"}
+    _Measurement__time: '2014-01-07T06:39:36Z'
+  21: !!python/object:CarTrip.Measurement
+    _Measurement__index: 21
+    _Measurement__latitude: 52.07812221
+    _Measurement__longitude: 7.3088047
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 6.473524263175836, Consumption_unit: l/h,
+      Consumption_value: 2.7546911758195045, GPS Accuracy_unit: '%', GPS Accuracy_value: 9.0,
+      GPS Altitude_unit: m, GPS Altitude_value: 138.8000030517578, GPS Bearing_unit: deg,
+      GPS Bearing_value: 119.69999694824219, GPS HDOP_unit: precision, GPS HDOP_value: 0.7,
+      GPS PDOP_unit: precision, GPS PDOP_value: 1.0, GPS Speed_unit: km/h, GPS Speed_value: 41.4,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.7, Intake Pressure_unit: kPa, Intake Pressure_value: 52.0,
+      MAF_unit: l/s, MAF_value: 8.380000114440918, Rpm_unit: u/min, Rpm_value: 2197.0,
+      Speed_unit: km/h, Speed_value: 41.0}
+    _Measurement__road: &id005 !!python/object:CarTrip.Road
+      _Road__display_name: "Bahnhofstra\xDFe, Horstmar, Kreis Steinfurt, Regierungsbezirk\
+        \ M\xFCnster, Nordrhein-Westfalen, 48612, Deutschland"
+      _Road__osm_id: '186940370'
+      _Road__tags: {highway: secondary, name: "Bahnhofstra\xDFe", ref: L 580}
+    _Measurement__time: '2014-01-07T06:39:42Z'
+  22: !!python/object:CarTrip.Measurement
+    _Measurement__index: 22
+    _Measurement__latitude: 52.07783578
+    _Measurement__longitude: 7.30966382
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 6.488973818451, Consumption_unit: l/h,
+      Consumption_value: 2.7612654546599997, GPS Accuracy_unit: '%', GPS Accuracy_value: 10.0,
+      GPS Altitude_unit: m, GPS Altitude_value: 137.10000610351562, GPS Bearing_unit: deg,
+      GPS Bearing_value: 119.19999694824219, GPS HDOP_unit: precision, GPS HDOP_value: 0.7,
+      GPS PDOP_unit: precision, GPS PDOP_value: 1.1, GPS Speed_unit: km/h, GPS Speed_value: 40.5,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.8, Intake Pressure_unit: kPa, Intake Pressure_value: 52.0,
+      MAF_unit: l/s, MAF_value: 8.399999618530273, Rpm_unit: u/min, Rpm_value: 2167.0,
+      Speed_unit: km/h, Speed_value: 40.0}
+    _Measurement__road: *id005
+    _Measurement__time: '2014-01-07T06:39:48Z'
+  23: !!python/object:CarTrip.Measurement
+    _Measurement__index: 23
+    _Measurement__latitude: 52.07754304
+    _Measurement__longitude: 7.31049868
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 5.654677574054261, Consumption_unit: l/h,
+      Consumption_value: 2.4062457761933027, GPS Accuracy_unit: '%', GPS Accuracy_value: 9.0,
+      GPS Altitude_unit: m, GPS Altitude_value: 131.6999969482422, GPS Bearing_unit: deg,
+      GPS Bearing_value: 119.4000015258789, GPS HDOP_unit: precision, GPS HDOP_value: 0.9,
+      GPS PDOP_unit: precision, GPS PDOP_value: 1.2, GPS Speed_unit: km/h, GPS Speed_value: 40.5,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.8, Intake Pressure_unit: kPa, Intake Pressure_value: 52.0,
+      MAF_unit: l/s, MAF_value: 7.320000171661377, Rpm_unit: u/min, Rpm_value: 2151.0,
+      Speed_unit: km/h, Speed_value: 40.0}
+    _Measurement__road: *id005
+    _Measurement__time: '2014-01-07T06:39:54Z'
+  24: !!python/object:CarTrip.Measurement
+    _Measurement__index: 24
+    _Measurement__latitude: 52.07710447
+    _Measurement__longitude: 7.31121089
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 20.61021801413387, Consumption_unit: l/h,
+      Consumption_value: 8.770305537929307, GPS Accuracy_unit: '%', GPS Accuracy_value: 10.0,
+      GPS Altitude_unit: m, GPS Altitude_value: 131.5, GPS Bearing_unit: deg, GPS Bearing_value: 151.89999389648438,
+      GPS HDOP_unit: precision, GPS HDOP_value: 0.7, GPS PDOP_unit: precision, GPS PDOP_value: 1.0,
+      GPS Speed_unit: km/h, GPS Speed_value: 45.0, GPS VDOP_unit: precision, GPS VDOP_value: 0.7,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 52.0, MAF_unit: l/s, MAF_value: 26.68000030517578,
+      Rpm_unit: u/min, Rpm_value: 1750.0, Speed_unit: km/h, Speed_value: 43.0}
+    _Measurement__road: *id005
+    _Measurement__time: '2014-01-07T06:40:00Z'
+  25: !!python/object:CarTrip.Measurement
+    _Measurement__index: 25
+    _Measurement__latitude: 52.07634028
+    _Measurement__longitude: 7.31138101
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 10.660457618921331, Consumption_unit: l/h,
+      Consumption_value: 4.536364944221843, GPS Accuracy_unit: '%', GPS Accuracy_value: 10.0,
+      GPS Altitude_unit: m, GPS Altitude_value: 129.5, GPS Bearing_unit: deg, GPS Bearing_value: 175.10000610351562,
+      GPS HDOP_unit: precision, GPS HDOP_value: 0.7, GPS PDOP_unit: precision, GPS PDOP_value: 1.0,
+      GPS Speed_unit: km/h, GPS Speed_value: 51.300000000000004, GPS VDOP_unit: precision,
+      GPS VDOP_value: 0.7, Intake Pressure_unit: kPa, Intake Pressure_value: 52.0,
+      MAF_unit: l/s, MAF_value: 13.800000190734863, Rpm_unit: u/min, Rpm_value: 2007.0,
+      Speed_unit: km/h, Speed_value: 50.0}
+    _Measurement__road: *id005
+    _Measurement__time: '2014-01-07T06:40:06Z'
+  26: !!python/object:CarTrip.Measurement
+    _Measurement__index: 26
+    _Measurement__latitude: 52.07555745
+    _Measurement__longitude: 7.31147788
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 8.528365947794972, Consumption_unit: l/h,
+      Consumption_value: 3.6290918926787112, GPS Accuracy_unit: '%', GPS Accuracy_value: 9.0,
+      GPS Altitude_unit: m, GPS Altitude_value: 131.0, GPS Bearing_unit: deg, GPS Bearing_value: 174.8000030517578,
+      GPS HDOP_unit: precision, GPS HDOP_value: 0.9, GPS PDOP_unit: precision, GPS PDOP_value: 1.2,
+      GPS Speed_unit: km/h, GPS Speed_value: 54.0, GPS VDOP_unit: precision, GPS VDOP_value: 0.8,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 52.0, MAF_unit: l/s, MAF_value: 11.039999961853027,
+      Rpm_unit: u/min, Rpm_value: 2094.0, Speed_unit: km/h, Speed_value: 53.0}
+    _Measurement__road: *id005
+    _Measurement__time: '2014-01-07T06:40:12Z'
+  27: !!python/object:CarTrip.Measurement
+    _Measurement__index: 27
+    _Measurement__latitude: 52.07477011
+    _Measurement__longitude: 7.31158887
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 9.64076118589411, Consumption_unit: l/h,
+      Consumption_value: 4.102451568465579, GPS Accuracy_unit: '%', GPS Accuracy_value: 9.0,
+      GPS Altitude_unit: m, GPS Altitude_value: 131.39999389648438, GPS Bearing_unit: deg,
+      GPS Bearing_value: 176.1999969482422, GPS HDOP_unit: precision, GPS HDOP_value: 0.7,
+      GPS PDOP_unit: precision, GPS PDOP_value: 1.0, GPS Speed_unit: km/h, GPS Speed_value: 51.300000000000004,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.7, Intake Pressure_unit: kPa, Intake Pressure_value: 52.0,
+      MAF_unit: l/s, MAF_value: 12.479999542236328, Rpm_unit: u/min, Rpm_value: 2036.0,
+      Speed_unit: km/h, Speed_value: 51.0}
+    _Measurement__road: *id005
+    _Measurement__time: '2014-01-07T06:40:18Z'
+  28: !!python/object:CarTrip.Measurement
+    _Measurement__index: 28
+    _Measurement__latitude: 52.07406007
+    _Measurement__longitude: 7.31166452
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 8.883714559649363, Consumption_unit: l/h,
+      Consumption_value: 3.7803040679358992, GPS Accuracy_unit: '%', GPS Accuracy_value: 9.0,
+      GPS Altitude_unit: m, GPS Altitude_value: 130.60000610351562, GPS Bearing_unit: deg,
+      GPS Bearing_value: 176.3000030517578, GPS HDOP_unit: precision, GPS HDOP_value: 0.8,
+      GPS PDOP_unit: precision, GPS PDOP_value: 1.1, GPS Speed_unit: km/h, GPS Speed_value: 45.0,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.7, Intake Pressure_unit: kPa, Intake Pressure_value: 52.0,
+      MAF_unit: l/s, MAF_value: 11.5, Rpm_unit: u/min, Rpm_value: 1801.0, Speed_unit: km/h,
+      Speed_value: 45.0}
+    _Measurement__road: *id005
+    _Measurement__time: '2014-01-07T06:40:24Z'
+  29: !!python/object:CarTrip.Measurement
+    _Measurement__index: 29
+    _Measurement__latitude: 52.07345561
+    _Measurement__longitude: 7.31202522
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 16.15291044232356, Consumption_unit: l/h,
+      Consumption_value: 6.873578911627046, GPS Accuracy_unit: '%', GPS Accuracy_value: 4.0,
+      GPS Altitude_unit: m, GPS Altitude_value: 131.89999389648438, GPS Bearing_unit: deg,
+      GPS Bearing_value: 142.3000030517578, GPS HDOP_unit: precision, GPS HDOP_value: 0.7,
+      GPS PDOP_unit: precision, GPS PDOP_value: 1.1, GPS Speed_unit: km/h, GPS Speed_value: 44.1,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.8, Intake Pressure_unit: kPa, Intake Pressure_value: 52.0,
+      MAF_unit: l/s, MAF_value: 20.90999984741211, Rpm_unit: u/min, Rpm_value: 1745.0,
+      Speed_unit: km/h, Speed_value: 44.0}
+    _Measurement__road: *id005
+    _Measurement__time: '2014-01-07T06:40:30Z'
+  30: !!python/object:CarTrip.Measurement
+    _Measurement__index: 30
+    _Measurement__latitude: 52.07263321
+    _Measurement__longitude: 7.31281719
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 7.771319321550225, Consumption_unit: l/h,
+      Consumption_value: 3.3069443921490316, GPS Accuracy_unit: '%', GPS Accuracy_value: 3.0,
+      GPS Altitude_unit: m, GPS Altitude_value: 134.6999969482422, GPS Bearing_unit: deg,
+      GPS Bearing_value: 172.3000030517578, GPS HDOP_unit: precision, GPS HDOP_value: 0.7,
+      GPS PDOP_unit: precision, GPS PDOP_value: 1.0, GPS Speed_unit: km/h, GPS Speed_value: 45.9,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.7, Intake Pressure_unit: kPa, Intake Pressure_value: 52.0,
+      MAF_unit: l/s, MAF_value: 10.0600004196167, Rpm_unit: u/min, Rpm_value: 1836.0,
+      Speed_unit: km/h, Speed_value: 46.0}
+    _Measurement__road: *id005
+    _Measurement__time: '2014-01-07T06:40:39Z'
+  31: !!python/object:CarTrip.Measurement
+    _Measurement__index: 31
+    _Measurement__latitude: 52.0720125
+    _Measurement__longitude: 7.31261445
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 1.62224345461275, Consumption_unit: l/h,
+      Consumption_value: 0.6903163636649999, GPS Accuracy_unit: '%', GPS Accuracy_value: 4.0,
+      GPS Altitude_unit: m, GPS Altitude_value: 136.1999969482422, GPS Bearing_unit: deg,
+      GPS Bearing_value: 208.60000610351562, GPS HDOP_unit: precision, GPS HDOP_value: 0.7,
+      GPS PDOP_unit: precision, GPS PDOP_value: 1.0, GPS Speed_unit: km/h, GPS Speed_value: 31.5,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.8, Intake Pressure_unit: kPa, Intake Pressure_value: 52.0,
+      MAF_unit: l/s, MAF_value: 2.0999999046325684, Rpm_unit: u/min, Rpm_value: 1362.0,
+      Speed_unit: km/h, Speed_value: 33.0}
+    _Measurement__road: &id006 !!python/object:CarTrip.Road
+      _Road__display_name: "Bahnhofstra\xDFe, Horstmar, Kreis Steinfurt, Regierungsbezirk\
+        \ M\xFCnster, Nordrhein-Westfalen, 48612, Deutschland"
+      _Road__osm_id: '8751888'
+      _Road__tags: {highway: secondary, name: "Bahnhofstra\xDFe", oneway: 'yes', ref: L
+          580}
+    _Measurement__time: '2014-01-07T06:40:45Z'
+  32: !!python/object:CarTrip.Measurement
+    _Measurement__index: 32
+    _Measurement__latitude: 52.07191587
+    _Measurement__longitude: 7.31249068
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 3.6693603615943027, Consumption_unit: l/h,
+      Consumption_value: 1.5614299411039585, GPS Accuracy_unit: '%', GPS Accuracy_value: 3.0,
+      GPS Altitude_unit: m, GPS Altitude_value: 137.89999389648438, GPS Bearing_unit: deg,
+      GPS Bearing_value: 212.60000610351562, GPS HDOP_unit: precision, GPS HDOP_value: 0.7,
+      GPS PDOP_unit: precision, GPS PDOP_value: 1.0, GPS Speed_unit: km/h, GPS Speed_value: 0.0,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.7, Intake Pressure_unit: kPa, Intake Pressure_value: 52.0,
+      MAF_unit: l/s, MAF_value: 4.75, Rpm_unit: u/min, Rpm_value: 827.0, Speed_unit: km/h,
+      Speed_value: 0.0}
+    _Measurement__road: *id006
+    _Measurement__time: '2014-01-07T06:40:51Z'
+  33: !!python/object:CarTrip.Measurement
+    _Measurement__index: 33
+    _Measurement__latitude: 52.0718615
+    _Measurement__longitude: 7.31244931
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 2.9509381760703173, Consumption_unit: l/h,
+      Consumption_value: 1.2557183727958796, GPS Accuracy_unit: '%', GPS Accuracy_value: 4.0,
+      GPS Altitude_unit: m, GPS Altitude_value: 137.0, GPS Bearing_unit: deg, GPS Bearing_value: 195.8000030517578,
+      GPS HDOP_unit: precision, GPS HDOP_value: 0.7, GPS PDOP_unit: precision, GPS PDOP_value: 0.9,
+      GPS Speed_unit: km/h, GPS Speed_value: 4.5, GPS VDOP_unit: precision, GPS VDOP_value: 0.7,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 52.0, MAF_unit: l/s, MAF_value: 3.819999933242798,
+      Rpm_unit: u/min, Rpm_value: 968.0, Speed_unit: km/h, Speed_value: 7.0}
+    _Measurement__road: &id007 !!python/object:CarTrip.Road
+      _Road__display_name: "L 579, Horstmar, Kreis Steinfurt, Regierungsbezirk M\xFC\
+        nster, Nordrhein-Westfalen, 48612, Deutschland"
+      _Road__osm_id: '472825724'
+      _Road__tags: {highway: secondary, maxspeed: '70', ref: L 579}
+    _Measurement__time: '2014-01-07T06:40:57Z'
+  34: !!python/object:CarTrip.Measurement
+    _Measurement__index: 34
+    _Measurement__latitude: 52.07183691
+    _Measurement__longitude: 7.31245042
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 3.398986513884717, Consumption_unit: l/h,
+      Consumption_value: 1.4463772399509434, GPS Accuracy_unit: '%', GPS Accuracy_value: 3.0,
+      GPS Altitude_unit: m, GPS Altitude_value: 137.6999969482422, GPS Bearing_unit: deg,
+      GPS Bearing_value: 195.8000030517578, GPS HDOP_unit: precision, GPS HDOP_value: 0.7,
+      GPS PDOP_unit: precision, GPS PDOP_value: 1.0, GPS Speed_unit: km/h, GPS Speed_value: 0.0,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.7, Intake Pressure_unit: kPa, Intake Pressure_value: 52.0,
+      MAF_unit: l/s, MAF_value: 4.400000095367432, Rpm_unit: u/min, Rpm_value: 759.0,
+      Speed_unit: km/h, Speed_value: 0.0}
+    _Measurement__road: *id007
+    _Measurement__time: '2014-01-07T06:41:03Z'
+  35: !!python/object:CarTrip.Measurement
+    _Measurement__index: 35
+    _Measurement__latitude: 52.0718087
+    _Measurement__longitude: 7.31243933
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 8.466566253273378, Consumption_unit: l/h,
+      Consumption_value: 3.6027941503290966, GPS Accuracy_unit: '%', GPS Accuracy_value: 4.0,
+      GPS Altitude_unit: m, GPS Altitude_value: 138.0, GPS Bearing_unit: deg, GPS Bearing_value: 196.6999969482422,
+      GPS HDOP_unit: precision, GPS HDOP_value: 0.7, GPS PDOP_unit: precision, GPS PDOP_value: 0.9,
+      GPS Speed_unit: km/h, GPS Speed_value: 4.5, GPS VDOP_unit: precision, GPS VDOP_value: 0.7,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 52.0, MAF_unit: l/s, MAF_value: 10.960000038146973,
+      Rpm_unit: u/min, Rpm_value: 1229.0, Speed_unit: km/h, Speed_value: 5.0}
+    _Measurement__road: *id007
+    _Measurement__time: '2014-01-07T06:41:09Z'
+  36: !!python/object:CarTrip.Measurement
+    _Measurement__index: 36
+    _Measurement__latitude: 52.07155878
+    _Measurement__longitude: 7.31297755
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 29.03815927415364, Consumption_unit: l/h,
+      Consumption_value: 12.356663520916442, GPS Accuracy_unit: '%', GPS Accuracy_value: 4.0,
+      GPS Altitude_unit: m, GPS Altitude_value: 137.60000610351562, GPS Bearing_unit: deg,
+      GPS Bearing_value: 113.69999694824219, GPS HDOP_unit: precision, GPS HDOP_value: 0.6,
+      GPS PDOP_unit: precision, GPS PDOP_value: 0.9, GPS Speed_unit: km/h, GPS Speed_value: 43.2,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.7, Intake Pressure_unit: kPa, Intake Pressure_value: 52.0,
+      MAF_unit: l/s, MAF_value: 37.59000015258789, Rpm_unit: u/min, Rpm_value: 2152.0,
+      Speed_unit: km/h, Speed_value: 40.0}
+    _Measurement__road: &id008 !!python/object:CarTrip.Road
+      _Road__display_name: "L 579, Horstmar, Kreis Steinfurt, Regierungsbezirk M\xFC\
+        nster, Nordrhein-Westfalen, 48612, Deutschland"
+      _Road__osm_id: '157451087'
+      _Road__tags: {highway: secondary, maxspeed: '70', ref: L 579}
+    _Measurement__time: '2014-01-07T06:41:15Z'
+  37: !!python/object:CarTrip.Measurement
+    _Measurement__index: 37
+    _Measurement__latitude: 52.0711802
+    _Measurement__longitude: 7.31426163
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 32.28264692008961, Consumption_unit: l/h,
+      Consumption_value: 13.737296561740258, GPS Accuracy_unit: '%', GPS Accuracy_value: 4.0,
+      GPS Altitude_unit: m, GPS Altitude_value: 138.39999389648438, GPS Bearing_unit: deg,
+      GPS Bearing_value: 116.80000305175781, GPS HDOP_unit: precision, GPS HDOP_value: 0.7,
+      GPS PDOP_unit: precision, GPS PDOP_value: 1.0, GPS Speed_unit: km/h, GPS Speed_value: 67.5,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.7, Intake Pressure_unit: kPa, Intake Pressure_value: 52.0,
+      MAF_unit: l/s, MAF_value: 41.790000915527344, Rpm_unit: u/min, Rpm_value: 2630.0,
+      Speed_unit: km/h, Speed_value: 66.0}
+    _Measurement__road: *id008
+    _Measurement__time: '2014-01-07T06:41:21Z'
+  38: !!python/object:CarTrip.Measurement
+    _Measurement__index: 38
+    _Measurement__latitude: 52.0706587
+    _Measurement__longitude: 7.31583367
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 21.127791008285065, Consumption_unit: l/h,
+      Consumption_value: 8.990549365227688, GPS Accuracy_unit: '%', GPS Accuracy_value: 4.0,
+      GPS Altitude_unit: m, GPS Altitude_value: 136.5, GPS Bearing_unit: deg, GPS Bearing_value: 119.5999984741211,
+      GPS HDOP_unit: precision, GPS HDOP_value: 0.8, GPS PDOP_unit: precision, GPS PDOP_value: 1.1,
+      GPS Speed_unit: km/h, GPS Speed_value: 74.7, GPS VDOP_unit: precision, GPS VDOP_value: 0.7,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 52.0, MAF_unit: l/s, MAF_value: 27.350000381469727,
+      Rpm_unit: u/min, Rpm_value: 2388.0, Speed_unit: km/h, Speed_value: 74.0}
+    _Measurement__road: &id009 !!python/object:CarTrip.Road
+      _Road__display_name: "L 579, Horstmar, Kreis Steinfurt, Regierungsbezirk M\xFC\
+        nster, Nordrhein-Westfalen, 48612, Deutschland"
+      _Road__osm_id: '472825723'
+      _Road__tags: {highway: secondary, maxspeed: '70', ref: L 579}
+    _Measurement__time: '2014-01-07T06:41:27Z'
+  39: !!python/object:CarTrip.Measurement
+    _Measurement__index: 39
+    _Measurement__latitude: 52.07010759
+    _Measurement__longitude: 7.31738016
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 14.237118438733244, Consumption_unit: l/h,
+      Consumption_value: 6.05834827180138, GPS Accuracy_unit: '%', GPS Accuracy_value: 3.0,
+      GPS Altitude_unit: m, GPS Altitude_value: 137.89999389648438, GPS Bearing_unit: deg,
+      GPS Bearing_value: 120.80000305175781, GPS HDOP_unit: precision, GPS HDOP_value: 0.8,
+      GPS PDOP_unit: precision, GPS PDOP_value: 1.1, GPS Speed_unit: km/h, GPS Speed_value: 72.0,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.7, Intake Pressure_unit: kPa, Intake Pressure_value: 52.0,
+      MAF_unit: l/s, MAF_value: 18.43000030517578, Rpm_unit: u/min, Rpm_value: 1960.0,
+      Speed_unit: km/h, Speed_value: 72.0}
+    _Measurement__road: *id009
+    _Measurement__time: '2014-01-07T06:41:33Z'
+  40: !!python/object:CarTrip.Measurement
+    _Measurement__index: 40
+    _Measurement__latitude: 52.0695355
+    _Measurement__longitude: 7.3188141
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 12.985672782894815, Consumption_unit: l/h,
+      Consumption_value: 5.525818205487155, GPS Accuracy_unit: '%', GPS Accuracy_value: 3.0,
+      GPS Altitude_unit: m, GPS Altitude_value: 136.89999389648438, GPS Bearing_unit: deg,
+      GPS Bearing_value: 122.5999984741211, GPS HDOP_unit: precision, GPS HDOP_value: 0.6,
+      GPS PDOP_unit: precision, GPS PDOP_value: 0.9, GPS Speed_unit: km/h, GPS Speed_value: 69.3,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.7, Intake Pressure_unit: kPa, Intake Pressure_value: 52.0,
+      MAF_unit: l/s, MAF_value: 16.809999465942383, Rpm_unit: u/min, Rpm_value: 1892.0,
+      Speed_unit: km/h, Speed_value: 69.0}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: "Horstmarer Stra\xDFe, Horstmar, Kreis Steinfurt, Regierungsbezirk\
+        \ M\xFCnster, Nordrhein-Westfalen, 48612, Deutschland"
+      _Road__osm_id: '24709151'
+      _Road__tags: {highway: secondary, maxspeed: '70', name: "Horstmarer Stra\xDF\
+          e", ref: L 579}
+    _Measurement__time: '2014-01-07T06:41:39Z'
+  41: !!python/object:CarTrip.Measurement
+    _Measurement__index: 41
+    _Measurement__latitude: 52.06898278
+    _Measurement__longitude: 7.320267
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 10.243309312545344, Consumption_unit: l/h,
+      Consumption_value: 4.35885502661504, GPS Accuracy_unit: '%', GPS Accuracy_value: 3.0,
+      GPS Altitude_unit: m, GPS Altitude_value: 136.60000610351562, GPS Bearing_unit: deg,
+      GPS Bearing_value: 122.80000305175781, GPS HDOP_unit: precision, GPS HDOP_value: 0.6,
+      GPS PDOP_unit: precision, GPS PDOP_value: 0.9, GPS Speed_unit: km/h, GPS Speed_value: 69.3,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.7, Intake Pressure_unit: kPa, Intake Pressure_value: 52.0,
+      MAF_unit: l/s, MAF_value: 13.260000228881836, Rpm_unit: u/min, Rpm_value: 1901.0,
+      Speed_unit: km/h, Speed_value: 70.0}
+    _Measurement__road: &id010 !!python/object:CarTrip.Road
+      _Road__display_name: "Horstmarer Stra\xDFe, Laer, Kreis Steinfurt, Regierungsbezirk\
+        \ M\xFCnster, Nordrhein-Westfalen, 48366, Deutschland"
+      _Road__osm_id: '27750595'
+      _Road__tags: {highway: secondary, maxspeed: '70', name: "Horstmarer Stra\xDF\
+          e", ref: L 579}
+    _Measurement__time: '2014-01-07T06:41:45Z'
+  42: !!python/object:CarTrip.Measurement
+    _Measurement__index: 42
+    _Measurement__latitude: 52.06836715
+    _Measurement__longitude: 7.32179705
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 6.550773512972592, Consumption_unit: l/h,
+      Consumption_value: 2.7875631970096135, GPS Accuracy_unit: '%', GPS Accuracy_value: 3.0,
+      GPS Altitude_unit: m, GPS Altitude_value: 135.39999389648438, GPS Bearing_unit: deg,
+      GPS Bearing_value: 122.9000015258789, GPS HDOP_unit: precision, GPS HDOP_value: 0.7,
+      GPS PDOP_unit: precision, GPS PDOP_value: 1.0, GPS Speed_unit: km/h, GPS Speed_value: 77.4,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.7, Intake Pressure_unit: kPa, Intake Pressure_value: 52.0,
+      MAF_unit: l/s, MAF_value: 8.479999542236328, Rpm_unit: u/min, Rpm_value: 2104.0,
+      Speed_unit: km/h, Speed_value: 77.0}
+    _Measurement__road: *id010
+    _Measurement__time: '2014-01-07T06:41:51Z'
+  43: !!python/object:CarTrip.Measurement
+    _Measurement__index: 43
+    _Measurement__latitude: 52.06775101
+    _Measurement__longitude: 7.32335362
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 11.00808108478291, Consumption_unit: l/h,
+      Consumption_value: 4.684289823311876, GPS Accuracy_unit: '%', GPS Accuracy_value: 3.0,
+      GPS Altitude_unit: m, GPS Altitude_value: 133.1999969482422, GPS Bearing_unit: deg,
+      GPS Bearing_value: 123.0999984741211, GPS HDOP_unit: precision, GPS HDOP_value: 0.9,
+      GPS PDOP_unit: precision, GPS PDOP_value: 1.2, GPS Speed_unit: km/h, GPS Speed_value: 75.60000000000001,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.8, Intake Pressure_unit: kPa, Intake Pressure_value: 52.0,
+      MAF_unit: l/s, MAF_value: 14.25, Rpm_unit: u/min, Rpm_value: 2056.0, Speed_unit: km/h,
+      Speed_value: 75.0}
+    _Measurement__road: *id010
+    _Measurement__time: '2014-01-07T06:41:57Z'
+  44: !!python/object:CarTrip.Measurement
+    _Measurement__index: 44
+    _Measurement__latitude: 52.06709626
+    _Measurement__longitude: 7.32494689
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 13.109272171938, Consumption_unit: l/h,
+      Consumption_value: 5.578413690186383, GPS Accuracy_unit: '%', GPS Accuracy_value: 3.0,
+      GPS Altitude_unit: m, GPS Altitude_value: 131.0, GPS Bearing_unit: deg, GPS Bearing_value: 123.0999984741211,
+      GPS HDOP_unit: precision, GPS HDOP_value: 0.9, GPS PDOP_unit: precision, GPS PDOP_value: 1.2,
+      GPS Speed_unit: km/h, GPS Speed_value: 81.9, GPS VDOP_unit: precision, GPS VDOP_value: 0.8,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 52.0, MAF_unit: l/s, MAF_value: 16.969999313354492,
+      Rpm_unit: u/min, Rpm_value: 2241.0, Speed_unit: km/h, Speed_value: 82.0}
+    _Measurement__road: *id010
+    _Measurement__time: '2014-01-07T06:42:03Z'
+  45: !!python/object:CarTrip.Measurement
+    _Measurement__index: 45
+    _Measurement__latitude: 52.06642732
+    _Measurement__longitude: 7.32662044
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 3.2444869092255, Consumption_unit: l/h,
+      Consumption_value: 1.3806327273299999, GPS Accuracy_unit: '%', GPS Accuracy_value: 3.0,
+      GPS Altitude_unit: m, GPS Altitude_value: 133.0, GPS Bearing_unit: deg, GPS Bearing_value: 122.9000015258789,
+      GPS HDOP_unit: precision, GPS HDOP_value: 0.9, GPS PDOP_unit: precision, GPS PDOP_value: 1.2,
+      GPS Speed_unit: km/h, GPS Speed_value: 78.3, GPS VDOP_unit: precision, GPS VDOP_value: 0.8,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 52.0, MAF_unit: l/s, MAF_value: 4.199999809265137,
+      Rpm_unit: u/min, Rpm_value: 2162.0, Speed_unit: km/h, Speed_value: 79.0}
+    _Measurement__road: *id010
+    _Measurement__time: '2014-01-07T06:42:09Z'
+  46: !!python/object:CarTrip.Measurement
+    _Measurement__index: 46
+    _Measurement__latitude: 52.06578141
+    _Measurement__longitude: 7.32828616
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 16.438734950374016, Consumption_unit: l/h,
+      Consumption_value: 6.995206361861283, GPS Accuracy_unit: '%', GPS Accuracy_value: 3.0,
+      GPS Altitude_unit: m, GPS Altitude_value: 133.8000030517578, GPS Bearing_unit: deg,
+      GPS Bearing_value: 120.4000015258789, GPS HDOP_unit: precision, GPS HDOP_value: 0.9,
+      GPS PDOP_unit: precision, GPS PDOP_value: 1.2, GPS Speed_unit: km/h, GPS Speed_value: 82.8,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.8, Intake Pressure_unit: kPa, Intake Pressure_value: 52.0,
+      MAF_unit: l/s, MAF_value: 21.280000686645508, Rpm_unit: u/min, Rpm_value: 2251.0,
+      Speed_unit: km/h, Speed_value: 82.0}
+    _Measurement__road: *id010
+    _Measurement__time: '2014-01-07T06:42:15Z'
+  47: !!python/object:CarTrip.Measurement
+    _Measurement__index: 47
+    _Measurement__latitude: 52.06521202
+    _Measurement__longitude: 7.33009452
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 3.0899876729215183, Consumption_unit: l/h,
+      Consumption_value: 1.3148883714559652, GPS Accuracy_unit: '%', GPS Accuracy_value: 3.0,
+      GPS Altitude_unit: m, GPS Altitude_value: 136.0, GPS Bearing_unit: deg, GPS Bearing_value: 114.0999984741211,
+      GPS HDOP_unit: precision, GPS HDOP_value: 0.9, GPS PDOP_unit: precision, GPS PDOP_value: 1.2,
+      GPS Speed_unit: km/h, GPS Speed_value: 81.0, GPS VDOP_unit: precision, GPS VDOP_value: 0.8,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 52.0, MAF_unit: l/s, MAF_value: 4.0,
+      Rpm_unit: u/min, Rpm_value: 2231.0, Speed_unit: km/h, Speed_value: 82.0}
+    _Measurement__road: *id010
+    _Measurement__time: '2014-01-07T06:42:21Z'

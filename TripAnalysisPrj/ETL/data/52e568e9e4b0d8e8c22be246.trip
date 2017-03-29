@@ -1,0 +1,806 @@
+!!python/object:CarTrip.Trip
+_Trip__car: !!python/object:CarTrip.Car {_Car__api_id: 52b346f2e4b0f9afbd19f82f, _Car__construction_year: 2004,
+  _Car__engine_displacement: 1600, _Car__fuel_type: gasoline, _Car__manufacturer: skoda,
+  _Car__model: oktavia}
+_Trip__id: 52e568e9e4b0d8e8c22be246
+_Trip__length: 5.75719190737124
+_Trip__measurements:
+  0: !!python/object:CarTrip.Measurement
+    _Measurement__index: 0
+    _Measurement__latitude: 48.19028540980071
+    _Measurement__longitude: 11.614151112735271
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 4.959430273975874, Consumption_unit: l/h,
+      Consumption_value: 2.1103958612663294, Engine Load_unit: '%', Engine Load_value: 21.960784912109375,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 561.7,
+      GPS Bearing_unit: deg, GPS Bearing_value: 19.770000457763672, GPS HDOP_unit: precision,
+      GPS HDOP_value: 1.4, GPS PDOP_unit: precision, GPS PDOP_value: 2.7, GPS Speed_unit: km/h,
+      GPS Speed_value: 72.675, GPS VDOP_unit: precision, GPS VDOP_value: 2.3, Intake Temperature_unit: c,
+      Intake Temperature_value: 1.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 5.46875,
+      MAF_unit: l/s, MAF_value: 6.420000076293945, Rpm_unit: u/min, Rpm_value: 2306.0,
+      Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: 0.0, Speed_unit: km/h,
+      Speed_value: 75.0, Throttle Position_unit: '%', Throttle Position_value: 8.0}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: "A 9, Obere Isarau, Bezirksteil Obere Isarau, Stadtbezirk\
+        \ 12 Schwabing-Freimann, M\xFCnchen, OB, Bayern, 80939, Deutschland"
+      _Road__osm_id: '264645322'
+      _Road__tags: {bdouble: 'yes', bridge: 'yes', highway: motorway, lanes: '3',
+        layer: '2', lit: 'no', maxspeed: '80', oneway: 'yes', ref: A 9, surface: asphalt,
+        tmc: 'DE:12723/12724'}
+    _Measurement__time: '2014-01-26T19:18:12Z'
+  1: !!python/object:CarTrip.Measurement
+    _Measurement__index: 1
+    _Measurement__latitude: 48.19145891815424
+    _Measurement__longitude: 11.614448754116893
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 10.784057007964515, Consumption_unit: l/h,
+      Consumption_value: 4.58896042892107, Engine Load_unit: '%', Engine Load_value: 53.33333206176758,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 10.0, GPS Altitude_unit: m, GPS Altitude_value: 561.0,
+      GPS Bearing_unit: deg, GPS Bearing_value: 18.5, GPS HDOP_unit: precision, GPS HDOP_value: 1.4,
+      GPS PDOP_unit: precision, GPS PDOP_value: 2.7, GPS Speed_unit: km/h, GPS Speed_value: 82.35000000000001,
+      GPS VDOP_unit: precision, GPS VDOP_value: 2.3, Intake Temperature_unit: c, Intake Temperature_value: 1.0,
+      Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 3.125, MAF_unit: l/s,
+      MAF_value: 13.960000038146973, Rpm_unit: u/min, Rpm_value: 2368.0, Short-Term Fuel Trim 1_unit: '%',
+      Short-Term Fuel Trim 1_value: 0.0, Speed_unit: km/h, Speed_value: 73.0, Throttle Position_unit: '%',
+      Throttle Position_value: 14.0}
+    _Measurement__road: &id001 !!python/object:CarTrip.Road
+      _Road__display_name: "A 9, Bezirksteil Freimann, Stadtbezirk 12 Schwabing-Freimann,\
+        \ M\xFCnchen, OB, Bayern, 80939, Deutschland"
+      _Road__osm_id: '35052909'
+      _Road__tags: {bdouble: 'yes', 'destination:lanes': "M\xFCnchen-Schwabing|M\xFC\
+          nchen-Schwabing|Frankfurter Ring;F\xF6hringer Ring", highway: motorway,
+        lanes: '3', lit: 'no', maxspeed: '80', oneway: 'yes', ref: A 9, surface: asphalt,
+        tmc: 'DE:12723/12724'}
+    _Measurement__time: '2014-01-26T19:18:18Z'
+  2: !!python/object:CarTrip.Measurement
+    _Measurement__index: 2
+    _Measurement__latitude: 48.19267186336219
+    _Measurement__longitude: 11.614913363009691
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 13.642295458074827, Consumption_unit: l/h,
+      Consumption_value: 5.805232109819075, Engine Load_unit: '%', Engine Load_value: 62.74509811401367,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 10.0, GPS Altitude_unit: m, GPS Altitude_value: 561.4000000000001,
+      GPS Bearing_unit: deg, GPS Bearing_value: 18.540000915527344, GPS HDOP_unit: precision,
+      GPS HDOP_value: 1.4, GPS PDOP_unit: precision, GPS PDOP_value: 2.7, GPS Speed_unit: km/h,
+      GPS Speed_value: 83.7, GPS VDOP_unit: precision, GPS VDOP_value: 2.3, Intake Temperature_unit: c,
+      Intake Temperature_value: 1.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 3.125,
+      MAF_unit: l/s, MAF_value: 17.65999984741211, Rpm_unit: u/min, Rpm_value: 2535.0,
+      Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: 5.46875, Speed_unit: km/h,
+      Speed_value: 79.0, Throttle Position_unit: '%', Throttle Position_value: 16.0}
+    _Measurement__road: *id001
+    _Measurement__time: '2014-01-26T19:18:24Z'
+  3: !!python/object:CarTrip.Measurement
+    _Measurement__index: 3
+    _Measurement__latitude: 48.1938450364396
+    _Measurement__longitude: 11.615489954128861
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 5.222079344047878, Consumption_unit: l/h,
+      Consumption_value: 2.222161422999097, Engine Load_unit: '%', Engine Load_value: 23.52941131591797,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 10.0, GPS Altitude_unit: m, GPS Altitude_value: 563.2,
+      GPS Bearing_unit: deg, GPS Bearing_value: 18.489999771118164, GPS HDOP_unit: precision,
+      GPS HDOP_value: 1.2, GPS PDOP_unit: precision, GPS PDOP_value: 2.7, GPS Speed_unit: km/h,
+      GPS Speed_value: 77.4, GPS VDOP_unit: precision, GPS VDOP_value: 2.3, Intake Temperature_unit: c,
+      Intake Temperature_value: 1.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 5.46875,
+      MAF_unit: l/s, MAF_value: 6.760000228881836, O2 Lambda Voltage ER_unit: ratio,
+      O2 Lambda Voltage ER_value: 1.9990234375, O2 Lambda Voltage_unit: V, O2 Lambda Voltage_value: 3.8916015625,
+      Rpm_unit: u/min, Rpm_value: 2522.0, Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: 0.0,
+      Speed_unit: km/h, Speed_value: 83.0, Throttle Position_unit: '%', Throttle Position_value: 8.0}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: "A 9, Bezirksteil Freimann, Stadtbezirk 12 Schwabing-Freimann,\
+        \ M\xFCnchen, OB, Bayern, 80939, Deutschland"
+      _Road__osm_id: '365480198'
+      _Road__tags: {bdouble: 'yes', highway: motorway, lanes: '3', lit: 'no', maxspeed: '80',
+        oneway: 'yes', placement: transition, ref: A 9, surface: asphalt, tmc: 'DE:12723/12724'}
+    _Measurement__time: '2014-01-26T19:18:30Z'
+  4: !!python/object:CarTrip.Measurement
+    _Measurement__index: 4
+    _Measurement__latitude: 48.19477442186326
+    _Measurement__longitude: 11.616095965728164
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 4.882180655823882, Consumption_unit: l/h,
+      Consumption_value: 2.0775236833293116, Engine Load_unit: '%', Engine Load_value: 21.960784912109375,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 559.2,
+      GPS Bearing_unit: deg, GPS Bearing_value: 18.479999542236328, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.8, GPS PDOP_unit: precision, GPS PDOP_value: 1.6, GPS Speed_unit: km/h,
+      GPS Speed_value: 70.2, GPS VDOP_unit: precision, GPS VDOP_value: 1.3, Intake Temperature_unit: c,
+      Intake Temperature_value: 1.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 5.46875,
+      MAF_unit: l/s, MAF_value: 6.320000171661377, Rpm_unit: u/min, Rpm_value: 2319.0,
+      Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: 0.0, Speed_unit: km/h,
+      Speed_value: 78.0, Throttle Position_unit: '%', Throttle Position_value: 8.0}
+    _Measurement__road: &id002 !!python/object:CarTrip.Road
+      _Road__display_name: "A 9, Bezirksteil Freimann, Stadtbezirk 12 Schwabing-Freimann,\
+        \ M\xFCnchen, OB, Bayern, 80939, Deutschland"
+      _Road__osm_id: '249673481'
+      _Road__tags: {bdouble: 'yes', highway: motorway, lanes: '4', lit: 'no', maxspeed: '80',
+        oneway: 'yes', ref: A 9, surface: asphalt, tmc: 'DE:12723/12724', 'turn:lanes': none|none|none|merge_to_left}
+    _Measurement__time: '2014-01-26T19:18:36Z'
+  5: !!python/object:CarTrip.Measurement
+    _Measurement__index: 5
+    _Measurement__latitude: 48.19580933544785
+    _Measurement__longitude: 11.616606591269374
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 16.392384074417112, Consumption_unit: l/h,
+      Consumption_value: 6.975482584858346, Engine Load_unit: '%', Engine Load_value: 76.86274719238281,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 561.9000000000001,
+      GPS Bearing_unit: deg, GPS Bearing_value: 18.219999313354492, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.8, GPS PDOP_unit: precision, GPS PDOP_value: 1.6, GPS Speed_unit: km/h,
+      GPS Speed_value: 74.025, GPS VDOP_unit: precision, GPS VDOP_value: 1.3, Intake Temperature_unit: c,
+      Intake Temperature_value: 1.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 3.125,
+      MAF_unit: l/s, MAF_value: 21.219999313354492, Rpm_unit: u/min, Rpm_value: 2307.0,
+      Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: 6.25, Speed_unit: km/h,
+      Speed_value: 72.0, Throttle Position_unit: '%', Throttle Position_value: 20.0}
+    _Measurement__road: *id002
+    _Measurement__time: '2014-01-26T19:18:42Z'
+  6: !!python/object:CarTrip.Measurement
+    _Measurement__index: 6
+    _Measurement__latitude: 48.196946047246456
+    _Measurement__longitude: 11.617078827694058
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 17.63610458426273, Consumption_unit: l/h,
+      Consumption_value: 7.504725355005416, Engine Load_unit: '%', Engine Load_value: 75.29412078857422,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 562.0,
+      GPS Bearing_unit: deg, GPS Bearing_value: 17.8799991607666, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.8, GPS PDOP_unit: precision, GPS PDOP_value: 1.6, GPS Speed_unit: km/h,
+      GPS Speed_value: 84.375, GPS VDOP_unit: precision, GPS VDOP_value: 1.3, Intake Temperature_unit: c,
+      Intake Temperature_value: 1.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 3.125,
+      MAF_unit: l/s, MAF_value: 22.829999923706055, Rpm_unit: u/min, Rpm_value: 2579.0,
+      Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: 2.34375, Speed_unit: km/h,
+      Speed_value: 80.0, Throttle Position_unit: '%', Throttle Position_value: 20.0}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: "A 9, Bezirksteil Freimann, Stadtbezirk 12 Schwabing-Freimann,\
+        \ M\xFCnchen, OB, Bayern, 80939, Deutschland"
+      _Road__osm_id: '278109119'
+      _Road__tags: {bdouble: 'yes', highway: motorway, lanes: '3', lit: 'no', maxspeed: '80',
+        oneway: 'yes', placement: 'right_of:2', ref: A 9, surface: asphalt, tmc: 'DE:12724'}
+    _Measurement__time: '2014-01-26T19:18:48Z'
+  7: !!python/object:CarTrip.Measurement
+    _Measurement__index: 7
+    _Measurement__latitude: 48.1981542147696
+    _Measurement__longitude: 11.617822051048279
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 12.259526003910864, Consumption_unit: l/h,
+      Consumption_value: 5.216819576132282, Engine Load_unit: '%', Engine Load_value: 62.74509811401367,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 562.0,
+      GPS Bearing_unit: deg, GPS Bearing_value: 18.049999237060547, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 1.4, GPS Speed_unit: km/h,
+      GPS Speed_value: 84.15, GPS VDOP_unit: precision, GPS VDOP_value: 1.2, Intake Temperature_unit: c,
+      Intake Temperature_value: 1.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 2.34375,
+      MAF_unit: l/s, MAF_value: 15.869999885559082, Rpm_unit: u/min, Rpm_value: 2635.0,
+      Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: 9.375, Speed_unit: km/h,
+      Speed_value: 84.0, Throttle Position_unit: '%', Throttle Position_value: 16.0}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: "A 9, Kleinlappen, Bezirksteil Obere Isarau, Stadtbezirk\
+        \ 12 Schwabing-Freimann, M\xFCnchen, OB, Bayern, 80939, Deutschland"
+      _Road__osm_id: '146053668'
+      _Road__tags: {bdouble: 'yes', 'destination:symbol': none;park_and_ride, highway: motorway,
+        lanes: '4', lit: 'no', maxspeed: '80', oneway: 'yes', placement: 'middle_of:2',
+        ref: A 9, surface: asphalt, tmc: 'DE:12724/12725'}
+    _Measurement__time: '2014-01-26T19:18:54Z'
+  8: !!python/object:CarTrip.Measurement
+    _Measurement__index: 8
+    _Measurement__latitude: 48.19937876891345
+    _Measurement__longitude: 11.618427895009518
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 7.55501965401418, Consumption_unit: l/h,
+      Consumption_value: 3.214901980431566, Engine Load_unit: '%', Engine Load_value: 29.80392074584961,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 557.5,
+      GPS Bearing_unit: deg, GPS Bearing_value: 18.649999618530273, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 1.4, GPS Speed_unit: km/h,
+      GPS Speed_value: 83.925, GPS VDOP_unit: precision, GPS VDOP_value: 1.2, Intake Temperature_unit: c,
+      Intake Temperature_value: 1.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 3.125,
+      MAF_unit: l/s, MAF_value: 9.779999732971191, O2 Lambda Voltage ER_unit: ratio,
+      O2 Lambda Voltage ER_value: 1.0068359375, O2 Lambda Voltage_unit: V, O2 Lambda Voltage_value: 1.5185546875,
+      Rpm_unit: u/min, Rpm_value: 2576.0, Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: 7.03125,
+      Speed_unit: km/h, Speed_value: 84.0, Throttle Position_unit: '%', Throttle Position_value: 10.0}
+    _Measurement__road: &id003 !!python/object:CarTrip.Road
+      _Road__display_name: "A 9, Kleinlappen, Bezirksteil Obere Isarau, Stadtbezirk\
+        \ 12 Schwabing-Freimann, M\xFCnchen, OB, Bayern, 80939, Deutschland"
+      _Road__osm_id: '278109118'
+      _Road__tags: {bdouble: 'yes', 'destination:colour:lanes': '|||none;white;none',
+        'destination:lanes': "Berlin;N\xFCrnberg;Kreuz M\xFCnchen-Nord|Berlin;N\xFC\
+          rnberg;Kreuz M\xFCnchen-Nord|Berlin;N\xFCrnberg;Kreuz M\xFCnchen-Nord|M\xFC\
+          nchen-Fr\xF6ttmaning-S\xFCd;Arena", 'destination:symbol': none;park_and_ride,
+        'destination:symbol:lanes': none;interchange|none;interchange|none;interchange|none;soccer_stadium;park_and_ride,
+        highway: motorway, lanes: '4', lit: 'no', maxspeed: '80', oneway: 'yes', placement: 'middle_of:2',
+        ref: A 9, surface: asphalt, tmc: 'DE:12724/12725', 'turn:lanes': none|none|none|slight_right}
+    _Measurement__time: '2014-01-26T19:19:00Z'
+  9: !!python/object:CarTrip.Measurement
+    _Measurement__index: 9
+    _Measurement__latitude: 48.20058132056147
+    _Measurement__longitude: 11.619042037054896
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 10.899931251014884, Consumption_unit: l/h,
+      Consumption_value: 4.638268617453142, Engine Load_unit: '%', Engine Load_value: 51.764705657958984,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 555.0,
+      GPS Bearing_unit: deg, GPS Bearing_value: 19.049999237060547, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 1.4, GPS Speed_unit: km/h,
+      GPS Speed_value: 84.825, GPS VDOP_unit: precision, GPS VDOP_value: 1.2, Intake Temperature_unit: c,
+      Intake Temperature_value: 1.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 2.34375,
+      MAF_unit: l/s, MAF_value: 14.109999656677246, Rpm_unit: u/min, Rpm_value: 2645.0,
+      Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: 7.8125, Speed_unit: km/h,
+      Speed_value: 85.0, Throttle Position_unit: '%', Throttle Position_value: 14.0}
+    _Measurement__road: *id003
+    _Measurement__time: '2014-01-26T19:19:06Z'
+  10: !!python/object:CarTrip.Measurement
+    _Measurement__index: 10
+    _Measurement__latitude: 48.20178697351366
+    _Measurement__longitude: 11.619678642600775
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 13.989919660646873, Consumption_unit: l/h,
+      Consumption_value: 5.953157302402924, Engine Load_unit: '%', Engine Load_value: 51.764705657958984,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 553.5,
+      GPS Bearing_unit: deg, GPS Bearing_value: 18.68000030517578, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 1.2, GPS Speed_unit: km/h,
+      GPS Speed_value: 84.375, GPS VDOP_unit: precision, GPS VDOP_value: 1.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 1.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 3.90625,
+      MAF_unit: l/s, MAF_value: 18.110000610351562, Rpm_unit: u/min, Rpm_value: 2704.0,
+      Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: 0.0, Speed_unit: km/h,
+      Speed_value: 86.0, Throttle Position_unit: '%', Throttle Position_value: 16.0}
+    _Measurement__road: *id003
+    _Measurement__time: '2014-01-26T19:19:12Z'
+  11: !!python/object:CarTrip.Measurement
+    _Measurement__index: 11
+    _Measurement__latitude: 48.20296588819474
+    _Measurement__longitude: 11.620277278125286
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 10.096534485523708, Consumption_unit: l/h,
+      Consumption_value: 4.296397653414344, Engine Load_unit: '%', Engine Load_value: 39.2156867980957,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 552.5,
+      GPS Bearing_unit: deg, GPS Bearing_value: 18.3799991607666, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 1.2, GPS Speed_unit: km/h,
+      GPS Speed_value: 82.35000000000001, GPS VDOP_unit: precision, GPS VDOP_value: 1.0,
+      Intake Temperature_unit: c, Intake Temperature_value: 1.0, Long-Term Fuel Trim 1_unit: '%',
+      Long-Term Fuel Trim 1_value: 3.90625, MAF_unit: l/s, MAF_value: 13.069999694824219,
+      Rpm_unit: u/min, Rpm_value: 2601.0, Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: 6.25,
+      Speed_unit: km/h, Speed_value: 84.0, Throttle Position_unit: '%', Throttle Position_value: 12.0}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: "A 9, Kleinlappen, Bezirksteil Obere Isarau, Stadtbezirk\
+        \ 12 Schwabing-Freimann, M\xFCnchen, OB, Bayern, 80939, Deutschland"
+      _Road__osm_id: '152567074'
+      _Road__tags: {bdouble: 'yes', 'destination:colour:lanes': '|||none;white;none',
+        'destination:lanes': "Berlin;N\xFCrnberg;Kreuz M\xFCnchen-Nord|Berlin;N\xFC\
+          rnberg;Kreuz M\xFCnchen-Nord|Berlin;N\xFCrnberg;Kreuz M\xFCnchen-Nord|M\xFC\
+          nchen-Fr\xF6ttmaning-S\xFCd;Arena", 'destination:symbol:lanes': none;interchange|none;interchange|none;interchange|none;soccer_stadium;park_and_ride,
+        highway: motorway, lanes: '4', lit: 'no', maxspeed: signals, oneway: 'yes',
+        placement: 'middle_of:2', ref: A 9, surface: asphalt, tmc: 'DE:12724/12725',
+        'turn:lanes': none|none|none|slight_right}
+    _Measurement__time: '2014-01-26T19:19:18Z'
+  12: !!python/object:CarTrip.Measurement
+    _Measurement__index: 12
+    _Measurement__latitude: 48.204154525883496
+    _Measurement__longitude: 11.62087650038302
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 12.977947636902, Consumption_unit: l/h,
+      Consumption_value: 5.5225309093199995, Engine Load_unit: '%', Engine Load_value: 54.90196228027344,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 552.2,
+      GPS Bearing_unit: deg, GPS Bearing_value: 18.700000762939453, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.4, GPS PDOP_unit: precision, GPS PDOP_value: 1.1, GPS Speed_unit: km/h,
+      GPS Speed_value: 85.05, GPS VDOP_unit: precision, GPS VDOP_value: 1.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 1.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 2.34375,
+      MAF_unit: l/s, MAF_value: 16.799999237060547, Rpm_unit: u/min, Rpm_value: 2643.0,
+      Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: 7.03125, Speed_unit: km/h,
+      Speed_value: 84.0, Throttle Position_unit: '%', Throttle Position_value: 16.0}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: "A 9, Kleinlappen, Bezirksteil Obere Isarau, Stadtbezirk\
+        \ 12 Schwabing-Freimann, M\xFCnchen, OB, Bayern, 80939, Deutschland"
+      _Road__osm_id: '145631460'
+      _Road__tags: {bdouble: 'yes', highway: motorway, lanes: '3', lit: 'no', maxspeed: signals,
+        oneway: 'yes', ref: A 9, 'source:lit': 'http://www.autobahn-bilder.de', surface: asphalt,
+        tmc: 'DE:12725'}
+    _Measurement__time: '2014-01-26T19:19:24Z'
+  13: !!python/object:CarTrip.Measurement
+    _Measurement__index: 13
+    _Measurement__latitude: 48.20540640503168
+    _Measurement__longitude: 11.621508076786995
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 16.523708609453116, Consumption_unit: l/h,
+      Consumption_value: 7.03136536572473, Engine Load_unit: '%', Engine Load_value: 65.88235473632812,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 550.4000000000001,
+      GPS Bearing_unit: deg, GPS Bearing_value: 18.360000610351562, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.4, GPS PDOP_unit: precision, GPS PDOP_value: 1.1, GPS Speed_unit: km/h,
+      GPS Speed_value: 89.55, GPS VDOP_unit: precision, GPS VDOP_value: 1.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 1.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 3.125,
+      MAF_unit: l/s, MAF_value: 21.389999389648438, O2 Lambda Voltage ER_unit: ratio,
+      O2 Lambda Voltage ER_value: 1.0009765625, O2 Lambda Voltage_unit: V, O2 Lambda Voltage_value: 1.484375,
+      Rpm_unit: u/min, Rpm_value: 2739.0, Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: 9.375,
+      Speed_unit: km/h, Speed_value: 86.0, Throttle Position_unit: '%', Throttle Position_value: 18.0}
+    _Measurement__road: &id004 !!python/object:CarTrip.Road
+      _Road__display_name: "A 9, Kleinlappen, Bezirksteil Obere Isarau, Stadtbezirk\
+        \ 12 Schwabing-Freimann, M\xFCnchen, OB, Bayern, 80939, Deutschland"
+      _Road__osm_id: '145337517'
+      _Road__tags: {bdouble: 'yes', 'change:lanes': yes|yes|not_right|yes|yes, highway: motorway,
+        lanes: '4', lit: 'no', maxspeed: signals, oneway: 'yes', placement: 'middle_of:2',
+        ref: A 9, 'source:lit': 'http://www.autobahn-bilder.de', surface: asphalt,
+        tmc: 'DE:12725/12726'}
+    _Measurement__time: '2014-01-26T19:19:30Z'
+  14: !!python/object:CarTrip.Measurement
+    _Measurement__index: 14
+    _Measurement__latitude: 48.20669902022928
+    _Measurement__longitude: 11.62216211669147
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 12.815723991315673, Consumption_unit: l/h,
+      Consumption_value: 5.453499570772626, Engine Load_unit: '%', Engine Load_value: 59.60784149169922,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 550.0,
+      GPS Bearing_unit: deg, GPS Bearing_value: 19.489999771118164, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.4, GPS PDOP_unit: precision, GPS PDOP_value: 1.1, GPS Speed_unit: km/h,
+      GPS Speed_value: 91.35000000000001, GPS VDOP_unit: precision, GPS VDOP_value: 1.0,
+      Intake Temperature_unit: c, Intake Temperature_value: 1.0, Long-Term Fuel Trim 1_unit: '%',
+      Long-Term Fuel Trim 1_value: 3.125, MAF_unit: l/s, MAF_value: 16.59000015258789,
+      Rpm_unit: u/min, Rpm_value: 2861.0, Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: 3.125,
+      Speed_unit: km/h, Speed_value: 91.0, Throttle Position_unit: '%', Throttle Position_value: 17.0}
+    _Measurement__road: *id004
+    _Measurement__time: '2014-01-26T19:19:36Z'
+  15: !!python/object:CarTrip.Measurement
+    _Measurement__index: 15
+    _Measurement__latitude: 48.20798555854708
+    _Measurement__longitude: 11.622841218486428
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 10.899931251014884, Consumption_unit: l/h,
+      Consumption_value: 4.638268617453142, Engine Load_unit: '%', Engine Load_value: 48.6274528503418,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 549.2,
+      GPS Bearing_unit: deg, GPS Bearing_value: 18.969999313354492, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.4, GPS PDOP_unit: precision, GPS PDOP_value: 1.2, GPS Speed_unit: km/h,
+      GPS Speed_value: 91.125, GPS VDOP_unit: precision, GPS VDOP_value: 1.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 1.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 2.34375,
+      MAF_unit: l/s, MAF_value: 14.109999656677246, Rpm_unit: u/min, Rpm_value: 2841.0,
+      Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: 11.71875, Speed_unit: km/h,
+      Speed_value: 91.0, Throttle Position_unit: '%', Throttle Position_value: 15.0}
+    _Measurement__road: &id005 !!python/object:CarTrip.Road
+      _Road__display_name: "A 9, Kleinlappen, Bezirksteil Obere Isarau, Stadtbezirk\
+        \ 12 Schwabing-Freimann, M\xFCnchen, OB, Bayern, 80939, Deutschland"
+      _Road__osm_id: '290420128'
+      _Road__tags: {bdouble: 'yes', 'destination:colour:lanes': none;none;none;white|none;none;none;white|none;none;none;white||,
+        'destination:country:lanes': '|||;A;I|;A;I', 'destination:lanes': "Berlin;N\xFC\
+          rnberg;Deggendorf;M\xFCnchen-Franz Josef Strau\xDF|Berlin;N\xFCrnberg;Deggendorf;M\xFC\
+          nchen-Franz Josef Strau\xDF|Berlin;N\xFCrnberg;Deggendorf;M\xFCnchen-Franz\
+          \ Josef Strau\xDF|Stuttgart;Lindau;Salzburg;Innsbruck|Stuttgart;Lindau;Salzburg;Innsbruck",
+        'destination:ref:lanes': A 9|A 9|A 9|A 99|A 99, 'destination:symbol:lanes': none;none;none;airport|none;none;none;airport|none;none;none;airport||,
+        highway: motorway, lanes: '5', lit: 'no', maxspeed: signals, oneway: 'yes',
+        placement: 'middle_of:2', ref: A 9, 'source:lit': 'http://www.autobahn-bilder.de',
+        surface: asphalt, tmc: 'DE:12725/12726', 'turn:lanes': through|through|through|slight_right|slight_right}
+    _Measurement__time: '2014-01-26T19:19:42Z'
+  16: !!python/object:CarTrip.Measurement
+    _Measurement__index: 16
+    _Measurement__latitude: 48.209296027198434
+    _Measurement__longitude: 11.623520655557513
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 12.190001163396456, Consumption_unit: l/h,
+      Consumption_value: 5.187234537615513, Engine Load_unit: '%', Engine Load_value: 62.74509811401367,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 550.3,
+      GPS Bearing_unit: deg, GPS Bearing_value: 18.520000457763672, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.4, GPS PDOP_unit: precision, GPS PDOP_value: 1.1, GPS Speed_unit: km/h,
+      GPS Speed_value: 93.60000000000001, GPS VDOP_unit: precision, GPS VDOP_value: 1.0,
+      Intake Temperature_unit: c, Intake Temperature_value: 1.0, Long-Term Fuel Trim 1_unit: '%',
+      Long-Term Fuel Trim 1_value: 2.34375, MAF_unit: l/s, MAF_value: 15.779999732971191,
+      Rpm_unit: u/min, Rpm_value: 2877.0, Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: 8.59375,
+      Speed_unit: km/h, Speed_value: 92.0, Throttle Position_unit: '%', Throttle Position_value: 15.0}
+    _Measurement__road: *id005
+    _Measurement__time: '2014-01-26T19:19:48Z'
+  17: !!python/object:CarTrip.Measurement
+    _Measurement__index: 17
+    _Measurement__latitude: 48.21064576506615
+    _Measurement__longitude: 11.624203026294708
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 15.334064121557219, Consumption_unit: l/h,
+      Consumption_value: 6.525133668747753, Engine Load_unit: '%', Engine Load_value: 50.19607925415039,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 550.2,
+      GPS Bearing_unit: deg, GPS Bearing_value: 18.860000610351562, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.4, GPS PDOP_unit: precision, GPS PDOP_value: 1.2, GPS Speed_unit: km/h,
+      GPS Speed_value: 95.4, GPS VDOP_unit: precision, GPS VDOP_value: 1.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 1.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 3.125,
+      MAF_unit: l/s, MAF_value: 19.850000381469727, Rpm_unit: u/min, Rpm_value: 2975.0,
+      Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: 6.25, Speed_unit: km/h,
+      Speed_value: 95.0, Throttle Position_unit: '%', Throttle Position_value: 15.0}
+    _Measurement__road: *id005
+    _Measurement__time: '2014-01-26T19:19:54Z'
+  18: !!python/object:CarTrip.Measurement
+    _Measurement__index: 18
+    _Measurement__latitude: 48.2119961315766
+    _Measurement__longitude: 11.624890426173806
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 8.767840316598996, Consumption_unit: l/h,
+      Consumption_value: 3.7309958794038276, Engine Load_unit: '%', Engine Load_value: 56.47058868408203,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 549.0999999999999,
+      GPS Bearing_unit: deg, GPS Bearing_value: 18.639999389648438, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.4, GPS PDOP_unit: precision, GPS PDOP_value: 1.2, GPS Speed_unit: km/h,
+      GPS Speed_value: 94.95, GPS VDOP_unit: precision, GPS VDOP_value: 1.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 1.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 2.34375,
+      MAF_unit: l/s, MAF_value: 11.350000381469727, O2 Lambda Voltage ER_unit: ratio,
+      O2 Lambda Voltage ER_value: 0.9990234375, O2 Lambda Voltage_unit: V, O2 Lambda Voltage_value: 1.4990234375,
+      Rpm_unit: u/min, Rpm_value: 2965.0, Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: 9.375,
+      Speed_unit: km/h, Speed_value: 96.0, Throttle Position_unit: '%', Throttle Position_value: 13.0}
+    _Measurement__road: *id005
+    _Measurement__time: '2014-01-26T19:20:00Z'
+  19: !!python/object:CarTrip.Measurement
+    _Measurement__index: 19
+    _Measurement__latitude: 48.21336468681693
+    _Measurement__longitude: 11.625578831881285
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 16.191534698866704, Consumption_unit: l/h,
+      Consumption_value: 6.890014765475192, Engine Load_unit: '%', Engine Load_value: 37.64706039428711,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 547.7,
+      GPS Bearing_unit: deg, GPS Bearing_value: 18.479999542236328, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.4, GPS PDOP_unit: precision, GPS PDOP_value: 1.2, GPS Speed_unit: km/h,
+      GPS Speed_value: 96.525, GPS VDOP_unit: precision, GPS VDOP_value: 1.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 1.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 2.34375,
+      MAF_unit: l/s, MAF_value: 20.959999084472656, Rpm_unit: u/min, Rpm_value: 3000.0,
+      Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: 7.8125, Speed_unit: km/h,
+      Speed_value: 96.0, Throttle Position_unit: '%', Throttle Position_value: 18.0}
+    _Measurement__road: &id006 !!python/object:CarTrip.Road
+      _Road__display_name: "A 9, Auensiedlung, Bezirksteil Obere Isarau, Stadtbezirk\
+        \ 12 Schwabing-Freimann, M\xFCnchen, OB, Bayern, 80939, Deutschland"
+      _Road__osm_id: '144458616'
+      _Road__tags: {bdouble: 'yes', destination: "Berlin;N\xFCrnberg;Deggendorf;M\xFC\
+          nchen-Franz Josef Strau\xDF", 'destination:colour': none;none;none;white,
+        'destination:symbol': none;none;none;airport, highway: motorway, lanes: '3',
+        lit: 'no', maxspeed: signals, oneway: 'yes', ref: A 9, smoothness: good, 'source:lit': 'http://www.autobahn-bilder.de',
+        surface: asphalt, tmc: 'DE:12726'}
+    _Measurement__time: '2014-01-26T19:20:06Z'
+  20: !!python/object:CarTrip.Measurement
+    _Measurement__index: 20
+    _Measurement__latitude: 48.21473500225693
+    _Measurement__longitude: 11.626270674169064
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 15.774387129201187, Consumption_unit: l/h,
+      Consumption_value: 6.712505161362207, Engine Load_unit: '%', Engine Load_value: 50.19607925415039,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 546.9000000000001,
+      GPS Bearing_unit: deg, GPS Bearing_value: 18.520000457763672, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.4, GPS PDOP_unit: precision, GPS PDOP_value: 1.2, GPS Speed_unit: km/h,
+      GPS Speed_value: 96.3, GPS VDOP_unit: precision, GPS VDOP_value: 1.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 1.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 2.34375,
+      MAF_unit: l/s, MAF_value: 20.420000076293945, Rpm_unit: u/min, Rpm_value: 3019.0,
+      Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: 7.03125, Speed_unit: km/h,
+      Speed_value: 97.0, Throttle Position_unit: '%', Throttle Position_value: 17.0}
+    _Measurement__road: *id006
+    _Measurement__time: '2014-01-26T19:20:12Z'
+  21: !!python/object:CarTrip.Measurement
+    _Measurement__index: 21
+    _Measurement__latitude: 48.216103641316295
+    _Measurement__longitude: 11.626962097361684
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 13.843144833625237, Consumption_unit: l/h,
+      Consumption_value: 5.890699929202229, Engine Load_unit: '%', Engine Load_value: 58.039215087890625,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 546.0,
+      GPS Bearing_unit: deg, GPS Bearing_value: 18.510000228881836, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.4, GPS PDOP_unit: precision, GPS PDOP_value: 1.2, GPS Speed_unit: km/h,
+      GPS Speed_value: 96.75, GPS VDOP_unit: precision, GPS VDOP_value: 1.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 1.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 2.34375,
+      MAF_unit: l/s, MAF_value: 17.920000076293945, Rpm_unit: u/min, Rpm_value: 3029.0,
+      Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: 9.375, Speed_unit: km/h,
+      Speed_value: 97.0, Throttle Position_unit: '%', Throttle Position_value: 18.0}
+    _Measurement__road: *id006
+    _Measurement__time: '2014-01-26T19:20:18Z'
+  22: !!python/object:CarTrip.Measurement
+    _Measurement__index: 22
+    _Measurement__latitude: 48.21747018489987
+    _Measurement__longitude: 11.62764698266983
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 11.131680473826094, Consumption_unit: l/h,
+      Consumption_value: 4.736885308011104, Engine Load_unit: '%', Engine Load_value: 40.7843132019043,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 545.0999999999999,
+      GPS Bearing_unit: deg, GPS Bearing_value: 18.299999237060547, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.4, GPS PDOP_unit: precision, GPS PDOP_value: 1.1, GPS Speed_unit: km/h,
+      GPS Speed_value: 95.625, GPS VDOP_unit: precision, GPS VDOP_value: 1.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 1.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 2.34375,
+      MAF_unit: l/s, MAF_value: 14.40999984741211, Rpm_unit: u/min, Rpm_value: 3024.0,
+      Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: 5.46875, Speed_unit: km/h,
+      Speed_value: 98.0, Throttle Position_unit: '%', Throttle Position_value: 14.0}
+    _Measurement__road: *id006
+    _Measurement__time: '2014-01-26T19:20:24Z'
+  23: !!python/object:CarTrip.Measurement
+    _Measurement__index: 23
+    _Measurement__latitude: 48.21884582284838
+    _Measurement__longitude: 11.6283271741122
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 15.063689905492403, Consumption_unit: l/h,
+      Consumption_value: 6.41008081084783, Engine Load_unit: '%', Engine Load_value: 53.33333206176758,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 544.0999999999999,
+      GPS Bearing_unit: deg, GPS Bearing_value: 18.579999923706055, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.4, GPS PDOP_unit: precision, GPS PDOP_value: 1.1, GPS Speed_unit: km/h,
+      GPS Speed_value: 97.2, GPS VDOP_unit: precision, GPS VDOP_value: 1.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 1.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 2.34375,
+      MAF_unit: l/s, MAF_value: 19.5, O2 Lambda Voltage ER_unit: ratio, O2 Lambda Voltage ER_value: 1.0439453125,
+      O2 Lambda Voltage_unit: V, O2 Lambda Voltage_value: 1.6162109375, Rpm_unit: u/min,
+      Rpm_value: 3024.0, Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: 7.03125,
+      Speed_unit: km/h, Speed_value: 97.0, Throttle Position_unit: '%', Throttle Position_value: 17.0}
+    _Measurement__road: *id006
+    _Measurement__time: '2014-01-26T19:20:30Z'
+  24: !!python/object:CarTrip.Measurement
+    _Measurement__index: 24
+    _Measurement__latitude: 48.220255114138126
+    _Measurement__longitude: 11.629030499607325
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 18.084152737899508, Consumption_unit: l/h,
+      Consumption_value: 7.695384143787024, Engine Load_unit: '%', Engine Load_value: 62.74509811401367,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 543.4000000000001,
+      GPS Bearing_unit: deg, GPS Bearing_value: 18.25, GPS HDOP_unit: precision, GPS HDOP_value: 0.4,
+      GPS PDOP_unit: precision, GPS PDOP_value: 1.1, GPS Speed_unit: km/h, GPS Speed_value: 100.125,
+      GPS VDOP_unit: precision, GPS VDOP_value: 1.0, Intake Temperature_unit: c, Intake Temperature_value: 1.0,
+      Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 2.34375, MAF_unit: l/s,
+      MAF_value: 23.40999984741211, Rpm_unit: u/min, Rpm_value: 3128.0, Short-Term Fuel Trim 1_unit: '%',
+      Short-Term Fuel Trim 1_value: 3.90625, Speed_unit: km/h, Speed_value: 99.0,
+      Throttle Position_unit: '%', Throttle Position_value: 20.0}
+    _Measurement__road: *id006
+    _Measurement__time: '2014-01-26T19:20:36Z'
+  25: !!python/object:CarTrip.Measurement
+    _Measurement__index: 25
+    _Measurement__latitude: 48.22167454753071
+    _Measurement__longitude: 11.629733489826322
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 16.338309525888338, Consumption_unit: l/h,
+      Consumption_value: 6.952472138675888, Engine Load_unit: '%', Engine Load_value: 39.2156867980957,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 544.0999999999999,
+      GPS Bearing_unit: deg, GPS Bearing_value: 18.780000686645508, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.4, GPS PDOP_unit: precision, GPS PDOP_value: 1.1, GPS Speed_unit: km/h,
+      GPS Speed_value: 99.45, GPS VDOP_unit: precision, GPS VDOP_value: 1.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 1.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 2.34375,
+      MAF_unit: l/s, MAF_value: 21.149999618530273, Rpm_unit: u/min, Rpm_value: 3132.0,
+      Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: 3.90625, Speed_unit: km/h,
+      Speed_value: 101.0, Throttle Position_unit: '%', Throttle Position_value: 14.0}
+    _Measurement__road: &id007 !!python/object:CarTrip.Road
+      _Road__display_name: "A 9, Auensiedlung, Bezirksteil Obere Isarau, Stadtbezirk\
+        \ 12 Schwabing-Freimann, M\xFCnchen, OB, Bayern, 80939, Deutschland"
+      _Road__osm_id: '286339721'
+      _Road__tags: {bdouble: 'yes', highway: motorway, lanes: '4', lit: 'no', maxspeed: signals,
+        oneway: 'yes', placement: 'middle_of:2', ref: A 9, smoothness: good, 'source:lit': 'http://www.autobahn-bilder.de',
+        surface: asphalt, tmc: 'DE:12726', 'turn:lanes': none|none|none|merge_to_left}
+    _Measurement__time: '2014-01-26T19:20:42Z'
+  26: !!python/object:CarTrip.Measurement
+    _Measurement__index: 26
+    _Measurement__latitude: 48.22307968977839
+    _Measurement__longitude: 11.630448885262012
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 12.892973977822896, Consumption_unit: l/h,
+      Consumption_value: 5.486371905456552, Engine Load_unit: '%', Engine Load_value: 43.92156982421875,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 543.2,
+      GPS Bearing_unit: deg, GPS Bearing_value: 18.420000076293945, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 1.3, GPS Speed_unit: km/h,
+      GPS Speed_value: 98.775, GPS VDOP_unit: precision, GPS VDOP_value: 1.1, Intake Temperature_unit: c,
+      Intake Temperature_value: 1.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 2.34375,
+      MAF_unit: l/s, MAF_value: 16.690000534057617, Rpm_unit: u/min, Rpm_value: 3097.0,
+      Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: 11.71875, Speed_unit: km/h,
+      Speed_value: 100.0, Throttle Position_unit: '%', Throttle Position_value: 15.0}
+    _Measurement__road: *id007
+    _Measurement__time: '2014-01-26T19:20:48Z'
+  27: !!python/object:CarTrip.Measurement
+    _Measurement__index: 27
+    _Measurement__latitude: 48.224455998279154
+    _Measurement__longitude: 11.631139386445284
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 9.532612088836556, Consumption_unit: l/h,
+      Consumption_value: 4.056430676100662, Engine Load_unit: '%', Engine Load_value: 32.94117736816406,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 542.8,
+      GPS Bearing_unit: deg, GPS Bearing_value: 18.489999771118164, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.4, GPS PDOP_unit: precision, GPS PDOP_value: 1.2, GPS Speed_unit: km/h,
+      GPS Speed_value: 95.4, GPS VDOP_unit: precision, GPS VDOP_value: 1.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 1.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 3.125,
+      MAF_unit: l/s, MAF_value: 12.34000015258789, O2 Lambda Voltage ER_unit: ratio,
+      O2 Lambda Voltage ER_value: 1.009765625, O2 Lambda Voltage_unit: V, O2 Lambda Voltage_value: 1.5283203125,
+      Rpm_unit: u/min, Rpm_value: 3016.0, Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: 5.46875,
+      Speed_unit: km/h, Speed_value: 98.0, Throttle Position_unit: '%', Throttle Position_value: 12.0}
+    _Measurement__road: &id008 !!python/object:CarTrip.Road
+      _Road__display_name: "A 9, Auensiedlung, Bezirksteil Obere Isarau, Stadtbezirk\
+        \ 12 Schwabing-Freimann, M\xFCnchen, OB, Bayern, 80939, Deutschland"
+      _Road__osm_id: '290420126'
+      _Road__tags: {bdouble: 'yes', highway: motorway, lanes: '3', lit: 'no', maxspeed: signals,
+        oneway: 'yes', ref: A 9, 'source:lit': 'http://www.autobahn-bilder.de', surface: asphalt,
+        tmc: 'DE:12726'}
+    _Measurement__time: '2014-01-26T19:20:54Z'
+  28: !!python/object:CarTrip.Measurement
+    _Measurement__index: 28
+    _Measurement__latitude: 48.22580066509545
+    _Measurement__longitude: 11.631817566230893
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 9.378112852532576, Consumption_unit: l/h,
+      Consumption_value: 3.990686320226628, Engine Load_unit: '%', Engine Load_value: 36.07843017578125,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 542.7,
+      GPS Bearing_unit: deg, GPS Bearing_value: 18.5, GPS HDOP_unit: precision, GPS HDOP_value: 0.4,
+      GPS PDOP_unit: precision, GPS PDOP_value: 1.1, GPS Speed_unit: km/h, GPS Speed_value: 93.375,
+      GPS VDOP_unit: precision, GPS VDOP_value: 1.0, Intake Temperature_unit: c, Intake Temperature_value: 1.0,
+      Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 3.125, MAF_unit: l/s,
+      MAF_value: 12.140000343322754, Rpm_unit: u/min, Rpm_value: 2979.0, Short-Term Fuel Trim 1_unit: '%',
+      Short-Term Fuel Trim 1_value: 5.46875, Speed_unit: km/h, Speed_value: 97.0,
+      Throttle Position_unit: '%', Throttle Position_value: 12.0}
+    _Measurement__road: *id008
+    _Measurement__time: '2014-01-26T19:21:00Z'
+  29: !!python/object:CarTrip.Measurement
+    _Measurement__index: 29
+    _Measurement__latitude: 48.22708058170974
+    _Measurement__longitude: 11.632455764338374
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 5.716477268575854, Consumption_unit: l/h,
+      Consumption_value: 2.4325435185429165, Engine Load_unit: '%', Engine Load_value: 21.960784912109375,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 542.5999999999999,
+      GPS Bearing_unit: deg, GPS Bearing_value: 18.280000686645508, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.4, GPS PDOP_unit: precision, GPS PDOP_value: 1.2, GPS Speed_unit: km/h,
+      GPS Speed_value: 87.75, GPS VDOP_unit: precision, GPS VDOP_value: 1.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 1.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 3.90625,
+      MAF_unit: l/s, MAF_value: 7.400000095367432, Rpm_unit: u/min, Rpm_value: 2803.0,
+      Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: 0.0, Speed_unit: km/h,
+      Speed_value: 93.0, Throttle Position_unit: '%', Throttle Position_value: 8.0}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: "A 9, Hochbr\xFCck, Garching, Landkreis M\xFCnchen, OB,\
+        \ Bayern, 85748, Deutschland"
+      _Road__osm_id: '133659787'
+      _Road__tags: {bdouble: 'yes', 'change:lanes': yes|yes|not_right|not_left|yes,
+        highway: motorway, int_ref: E 45, jams: 'yes', lanes: '5', lit: 'no', maxspeed: signals,
+        'maxspeed:variable': peak_traffic, oneway: 'yes', placement: 'middle_of:2',
+        ref: A 9, surface: asphalt, tmc: 'DE:12726/12727', 'turn:lanes': none|none|none|none|merge_to_left}
+    _Measurement__time: '2014-01-26T19:21:06Z'
+  30: !!python/object:CarTrip.Measurement
+    _Measurement__index: 30
+    _Measurement__latitude: 48.228308404795825
+    _Measurement__longitude: 11.633073426783085
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 9.100013490474938, Consumption_unit: l/h,
+      Consumption_value: 3.8723461661595477, Engine Load_unit: '%', Engine Load_value: 42.35293960571289,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 542.7,
+      GPS Bearing_unit: deg, GPS Bearing_value: 18.84000015258789, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.4, GPS PDOP_unit: precision, GPS PDOP_value: 1.1, GPS Speed_unit: km/h,
+      GPS Speed_value: 86.175, GPS VDOP_unit: precision, GPS VDOP_value: 1.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 1.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 3.90625,
+      MAF_unit: l/s, MAF_value: 11.779999732971191, Rpm_unit: u/min, Rpm_value: 2717.0,
+      Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: 3.90625, Speed_unit: km/h,
+      Speed_value: 87.0, Throttle Position_unit: '%', Throttle Position_value: 12.0}
+    _Measurement__road: &id009 !!python/object:CarTrip.Road
+      _Road__display_name: "A 9, Hochbr\xFCck, Garching, Landkreis M\xFCnchen, OB,\
+        \ Bayern, 85748, Deutschland"
+      _Road__osm_id: '325781636'
+      _Road__tags: {bdouble: 'yes', 'change:lanes': yes|yes|not_right|yes|yes, highway: motorway,
+        int_ref: E 45, jams: 'yes', lanes: '5', lit: 'no', maxspeed: signals, 'maxspeed:variable': peak_traffic,
+        oneway: 'yes', placement: 'middle_of:2', ref: A 9, surface: asphalt, tmc: 'DE:12726/12727',
+        'turn:lanes': none|none|none|none|merge_to_left}
+    _Measurement__time: '2014-01-26T19:21:12Z'
+  31: !!python/object:CarTrip.Measurement
+    _Measurement__index: 31
+    _Measurement__latitude: 48.22951091453433
+    _Measurement__longitude: 11.633679941296577
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 6.419449714647061, Consumption_unit: l/h,
+      Consumption_value: 2.731680729637047, Engine Load_unit: '%', Engine Load_value: 28.235294342041016,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 542.5999999999999,
+      GPS Bearing_unit: deg, GPS Bearing_value: 18.510000228881836, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.4, GPS PDOP_unit: precision, GPS PDOP_value: 1.1, GPS Speed_unit: km/h,
+      GPS Speed_value: 83.47500000000001, GPS VDOP_unit: precision, GPS VDOP_value: 1.0,
+      Intake Temperature_unit: c, Intake Temperature_value: 1.0, Long-Term Fuel Trim 1_unit: '%',
+      Long-Term Fuel Trim 1_value: 3.125, MAF_unit: l/s, MAF_value: 8.3100004196167,
+      Rpm_unit: u/min, Rpm_value: 2624.0, Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: 7.8125,
+      Speed_unit: km/h, Speed_value: 85.0, Throttle Position_unit: '%', Throttle Position_value: 9.0}
+    _Measurement__road: *id009
+    _Measurement__time: '2014-01-26T19:21:18Z'
+  32: !!python/object:CarTrip.Measurement
+    _Measurement__index: 32
+    _Measurement__latitude: 48.23069385252893
+    _Measurement__longitude: 11.634278828278184
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 9.486261949590126, Consumption_unit: l/h,
+      Consumption_value: 4.036707212591543, Engine Load_unit: '%', Engine Load_value: 42.35293960571289,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 541.5999999999999,
+      GPS Bearing_unit: deg, GPS Bearing_value: 18.719999313354492, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.4, GPS PDOP_unit: precision, GPS PDOP_value: 1.2, GPS Speed_unit: km/h,
+      GPS Speed_value: 83.47500000000001, GPS VDOP_unit: precision, GPS VDOP_value: 1.0,
+      Intake Temperature_unit: c, Intake Temperature_value: 1.0, Long-Term Fuel Trim 1_unit: '%',
+      Long-Term Fuel Trim 1_value: 3.125, MAF_unit: l/s, MAF_value: 12.279999732971191,
+      O2 Lambda Voltage ER_unit: ratio, O2 Lambda Voltage ER_value: 0.9873046875,
+      O2 Lambda Voltage_unit: V, O2 Lambda Voltage_value: 1.4404296875, Rpm_unit: u/min,
+      Rpm_value: 2615.0, Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: 5.46875,
+      Speed_unit: km/h, Speed_value: 84.0, Throttle Position_unit: '%', Throttle Position_value: 13.0}
+    _Measurement__road: *id009
+    _Measurement__time: '2014-01-26T19:21:24Z'
+  33: !!python/object:CarTrip.Measurement
+    _Measurement__index: 33
+    _Measurement__latitude: 48.23188274167478
+    _Measurement__longitude: 11.634874446317554
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 9.331762713286148, Consumption_unit: l/h,
+      Consumption_value: 3.9709628567175095, Engine Load_unit: '%', Engine Load_value: 40.7843132019043,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 540.5999999999999,
+      GPS Bearing_unit: deg, GPS Bearing_value: 18.920000076293945, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.4, GPS PDOP_unit: precision, GPS PDOP_value: 1.1, GPS Speed_unit: km/h,
+      GPS Speed_value: 83.7, GPS VDOP_unit: precision, GPS VDOP_value: 1.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 1.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 3.125,
+      MAF_unit: l/s, MAF_value: 12.079999923706055, Rpm_unit: u/min, Rpm_value: 2614.0,
+      Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: 7.03125, Speed_unit: km/h,
+      Speed_value: 84.0, Throttle Position_unit: '%', Throttle Position_value: 12.0}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: "A 9, Hochbr\xFCck, Garching, Landkreis M\xFCnchen, OB,\
+        \ Bayern, 85748, Deutschland"
+      _Road__osm_id: '325781637'
+      _Road__tags: {bdouble: 'yes', highway: motorway, int_ref: E 45, jams: 'yes',
+        lanes: '5', lit: 'no', maxspeed: signals, 'maxspeed:variable': peak_traffic,
+        oneway: 'yes', placement: 'middle_of:2', ref: A 9, surface: asphalt, tmc: 'DE:12726/12727',
+        'turn:lanes': none|none|none|none|merge_to_left}
+    _Measurement__time: '2014-01-26T19:21:30Z'
+  34: !!python/object:CarTrip.Measurement
+    _Measurement__index: 34
+    _Measurement__latitude: 48.23308814316988
+    _Measurement__longitude: 11.63551147095859
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 13.13244760991645, Consumption_unit: l/h,
+      Consumption_value: 5.588275578687851, Engine Load_unit: '%', Engine Load_value: 54.90196228027344,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 539.8,
+      GPS Bearing_unit: deg, GPS Bearing_value: 18.950000762939453, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.4, GPS PDOP_unit: precision, GPS PDOP_value: 1.2, GPS Speed_unit: km/h,
+      GPS Speed_value: 85.275, GPS VDOP_unit: precision, GPS VDOP_value: 1.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 1.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 3.125,
+      MAF_unit: l/s, MAF_value: 17.0, Rpm_unit: u/min, Rpm_value: 2665.0, Short-Term Fuel Trim 1_unit: '%',
+      Short-Term Fuel Trim 1_value: 2.34375, Speed_unit: km/h, Speed_value: 85.0,
+      Throttle Position_unit: '%', Throttle Position_value: 16.0}
+    _Measurement__road: &id010 !!python/object:CarTrip.Road
+      _Road__display_name: "A 9, Hochbr\xFCck, Garching, Landkreis M\xFCnchen, OB,\
+        \ Bayern, 85748, Deutschland"
+      _Road__osm_id: '290420131'
+      _Road__tags: {bdouble: 'yes', highway: motorway, int_ref: E 45, jams: 'yes',
+        lanes: '4', lit: 'no', maxspeed: signals, 'maxspeed:variable': peak_traffic,
+        oneway: 'yes', ref: A 9, surface: asphalt, tmc: 'DE:12726/12727'}
+    _Measurement__time: '2014-01-26T19:21:36Z'
+  35: !!python/object:CarTrip.Measurement
+    _Measurement__index: 35
+    _Measurement__latitude: 48.2342986157164
+    _Measurement__longitude: 11.636130139231682
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 9.061388497221325, Consumption_unit: l/h,
+      Consumption_value: 3.855909998817585, Engine Load_unit: '%', Engine Load_value: 39.2156867980957,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 539.4000000000001,
+      GPS Bearing_unit: deg, GPS Bearing_value: 18.989999771118164, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.4, GPS PDOP_unit: precision, GPS PDOP_value: 1.2, GPS Speed_unit: km/h,
+      GPS Speed_value: 85.5, GPS VDOP_unit: precision, GPS VDOP_value: 1.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 1.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 3.125,
+      MAF_unit: l/s, MAF_value: 11.729999542236328, Rpm_unit: u/min, Rpm_value: 2660.0,
+      Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: 6.25, Speed_unit: km/h,
+      Speed_value: 86.0, Throttle Position_unit: '%', Throttle Position_value: 12.0}
+    _Measurement__road: *id010
+    _Measurement__time: '2014-01-26T19:21:42Z'
+  36: !!python/object:CarTrip.Measurement
+    _Measurement__index: 36
+    _Measurement__latitude: 48.235523169860244
+    _Measurement__longitude: 11.636748472228646
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 12.375400983671703, Consumption_unit: l/h,
+      Consumption_value: 5.266128078158172, Engine Load_unit: '%', Engine Load_value: 48.6274528503418,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 538.5,
+      GPS Bearing_unit: deg, GPS Bearing_value: 18.1200008392334, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.4, GPS PDOP_unit: precision, GPS PDOP_value: 1.2, GPS Speed_unit: km/h,
+      GPS Speed_value: 86.85000000000001, GPS VDOP_unit: precision, GPS VDOP_value: 1.0,
+      Intake Temperature_unit: c, Intake Temperature_value: 1.0, Long-Term Fuel Trim 1_unit: '%',
+      Long-Term Fuel Trim 1_value: 3.125, MAF_unit: l/s, MAF_value: 16.020000457763672,
+      Rpm_unit: u/min, Rpm_value: 2713.0, Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: 9.375,
+      Speed_unit: km/h, Speed_value: 87.0, Throttle Position_unit: '%', Throttle Position_value: 15.0}
+    _Measurement__road: *id010
+    _Measurement__time: '2014-01-26T19:21:48Z'
+  37: !!python/object:CarTrip.Measurement
+    _Measurement__index: 37
+    _Measurement__latitude: 48.23677856940776
+    _Measurement__longitude: 11.637374768033624
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 12.468099788743626, Consumption_unit: l/h,
+      Consumption_value: 5.305574378188776, Engine Load_unit: '%', Engine Load_value: 48.6274528503418,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 537.5,
+      GPS Bearing_unit: deg, GPS Bearing_value: 18.6299991607666, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.4, GPS PDOP_unit: precision, GPS PDOP_value: 1.2, GPS Speed_unit: km/h,
+      GPS Speed_value: 89.325, GPS VDOP_unit: precision, GPS VDOP_value: 1.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 1.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 3.125,
+      MAF_unit: l/s, MAF_value: 16.139999389648438, O2 Lambda Voltage ER_unit: ratio,
+      O2 Lambda Voltage ER_value: 1.0087890625, O2 Lambda Voltage_unit: V, O2 Lambda Voltage_value: 1.494140625,
+      Rpm_unit: u/min, Rpm_value: 2741.0, Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: 7.8125,
+      Speed_unit: km/h, Speed_value: 88.0, Throttle Position_unit: '%', Throttle Position_value: 15.0}
+    _Measurement__road: *id010
+    _Measurement__time: '2014-01-26T19:21:54Z'
+  38: !!python/object:CarTrip.Measurement
+    _Measurement__index: 38
+    _Measurement__latitude: 48.23806741274893
+    _Measurement__longitude: 11.638026544824243
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 14.777865397441944, Consumption_unit: l/h,
+      Consumption_value: 6.288453360613593, Engine Load_unit: '%', Engine Load_value: 54.90196228027344,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 537.5,
+      GPS Bearing_unit: deg, GPS Bearing_value: 18.139999389648438, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.4, GPS PDOP_unit: precision, GPS PDOP_value: 1.1, GPS Speed_unit: km/h,
+      GPS Speed_value: 91.575, GPS VDOP_unit: precision, GPS VDOP_value: 1.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 1.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 3.125,
+      MAF_unit: l/s, MAF_value: 19.1299991607666, Rpm_unit: u/min, Rpm_value: 2844.0,
+      Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: 7.03125, Speed_unit: km/h,
+      Speed_value: 91.0, Throttle Position_unit: '%', Throttle Position_value: 17.0}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: "A 9, Hochbr\xFCck, Garching, Landkreis M\xFCnchen, OB,\
+        \ Bayern, 85748, Deutschland"
+      _Road__osm_id: '325707993'
+      _Road__tags: {bdouble: 'yes', 'destination:colour:lanes': none;none;none;white;none|none;none;none;white;none|none;none;none;white;none|none;none;none;white;none|none;white;none;none,
+        'destination:lanes': "Berlin;N\xFCrnberg;Deggendorf;M\xFCnchen;Garching-Nord|Berlin;N\xFC\
+          rnberg;Deggendorf;M\xFCnchen;Garching-Nord|Berlin;N\xFCrnberg;Deggendorf;M\xFC\
+          nchen;Garching-Nord|Berlin;N\xFCrnberg;Deggendorf;M\xFCnchen;Garching-Nord|Garching-S\xFC\
+          d;Hochbr\xFCck;Ismaning;Oberschlei\xDFheim", 'destination:ref:lanes': '||||B
+          471', 'destination:symbol:lanes': none;none;none;airport;none|none;none;none;airport;none|none;none;none;airport;none|none;none;none;airport;none|none;industrial;none;none,
+        highway: motorway, int_ref: E 45, jams: 'yes', lanes: '5', lit: 'no', maxspeed: signals,
+        'maxspeed:variable': peak_traffic, oneway: 'yes', placement: 'right_of:2',
+        ref: A 9, surface: asphalt, tmc: 'DE:12726/12727', 'turn:lanes': none|none|none|none|slight_right}
+    _Measurement__time: '2014-01-26T19:22:00Z'
+  39: !!python/object:CarTrip.Measurement
+    _Measurement__index: 39
+    _Measurement__latitude: 48.239370002411306
+    _Measurement__longitude: 11.638676561415195
+    _Measurement__measures: {CO2_unit: kg/h, CO2_value: 11.131680473826094, Consumption_unit: l/h,
+      Consumption_value: 4.736885308011104, Engine Load_unit: '%', Engine Load_value: 47.05882263183594,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 537.0,
+      GPS Bearing_unit: deg, GPS Bearing_value: 19.030000686645508, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.4, GPS PDOP_unit: precision, GPS PDOP_value: 1.2, GPS Speed_unit: km/h,
+      GPS Speed_value: 91.8, GPS VDOP_unit: precision, GPS VDOP_value: 1.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 1.0, Long-Term Fuel Trim 1_unit: '%', Long-Term Fuel Trim 1_value: 3.125,
+      MAF_unit: l/s, MAF_value: 14.40999984741211, Rpm_unit: u/min, Rpm_value: 2868.0,
+      Short-Term Fuel Trim 1_unit: '%', Short-Term Fuel Trim 1_value: 6.25, Speed_unit: km/h,
+      Speed_value: 92.0, Throttle Position_unit: '%', Throttle Position_value: 14.0}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: "A 9, Hochbr\xFCck, Garching, Landkreis M\xFCnchen, OB,\
+        \ Bayern, 85748, Deutschland"
+      _Road__osm_id: '290415787'
+      _Road__tags: {bdouble: 'yes', 'destination:colour:lanes': none;none;none;white;none|none;none;none;white;none|none;none;none;white;none|none;none;none;white;none|none;white;none;none|,
+        'destination:lanes': "Berlin;N\xFCrnberg;Deggendorf;M\xFCnchen;Garching-Nord|Berlin;N\xFC\
+          rnberg;Deggendorf;M\xFCnchen;Garching-Nord|Berlin;N\xFCrnberg;Deggendorf;M\xFC\
+          nchen;Garching-Nord|Berlin;N\xFCrnberg;Deggendorf;M\xFCnchen;Garching-Nord|Garching-S\xFC\
+          d;Hochbr\xFCck;Ismaning;Oberschlei\xDFheim|", 'destination:ref:lanes': '||||B
+          471|', 'destination:symbol:lanes': none;none;none;airport;none|none;none;none;airport;none|none;none;none;airport;none|none;none;none;airport;none|none;industrial;none;none|,
+        highway: motorway, int_ref: E 45, jams: 'yes', lanes: '6', lit: 'no', maxspeed: signals,
+        'maxspeed:variable': peak_traffic, oneway: 'yes', placement: 'right_of:2',
+        ref: A 9, smoothness: good, surface: asphalt, tmc: 'DE:12726/12727', 'turn:lanes': none|none|none|none|slight_right|slight_right}
+    _Measurement__time: '2014-01-26T19:22:06Z'

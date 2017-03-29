@@ -1,0 +1,1740 @@
+!!python/object:CarTrip.Trip
+_Trip__car: !!python/object:CarTrip.Car {_Car__api_id: 52d68a6ce4b0f9afbe37de3e, _Car__construction_year: 2007,
+  _Car__engine_displacement: 1896, _Car__fuel_type: diesel, _Car__manufacturer: Skoda,
+  _Car__model: Fabia}
+_Trip__id: 52e26533e4b0d8e8c225434a
+_Trip__length: 59.96978103923275
+_Trip__measurements:
+  0: !!python/object:CarTrip.Measurement
+    _Measurement__index: 0
+    _Measurement__latitude: 50.81031963
+    _Measurement__longitude: 6.03586474
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 43.01588447077493,
+      Engine Load_unit: '%', Engine Load_value: 43.13725662231445, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.0, GPS Altitude_unit: m, GPS Altitude_value: 240.8000030517578,
+      GPS Bearing_unit: deg, GPS Bearing_value: 305.6000061035156, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 0.8, GPS Speed_unit: km/h,
+      GPS Speed_value: 101.95454635620118, GPS VDOP_unit: precision, GPS VDOP_value: 0.6,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 125.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 8.0, MAF_unit: l/s, MAF_value: 28.739999771118164,
+      O2 Lambda Voltage ER_unit: ratio, O2 Lambda Voltage ER_value: 0.126220703125,
+      O2 Lambda Voltage_unit: V, O2 Lambda Voltage_value: 0.5833740234375, Rpm_unit: u/min,
+      Rpm_value: 2068.0, Speed_unit: km/h, Speed_value: 102.0, Throttle Position_unit: '%',
+      Throttle Position_value: 94.0}
+    _Measurement__road: &id001 !!python/object:CarTrip.Road
+      _Road__display_name: "A 4, Laurensberg, Aachen, St\xE4dteregion Aachen, Regierungsbezirk\
+        \ K\xF6ln, Nordrhein-Westfalen, 52072, Deutschland"
+      _Road__osm_id: '34406732'
+      _Road__tags: {highway: motorway, int_ref: E 314, lanes: '2', lit: 'no', maxspeed: none,
+        oneway: 'yes', ref: A 4, 'source:maxspeed': 'DE:motorway'}
+    _Measurement__time: '2014-01-23T06:06:05Z'
+  1: !!python/object:CarTrip.Measurement
+    _Measurement__index: 1
+    _Measurement__latitude: 50.81123037
+    _Measurement__longitude: 6.03400391
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 40.04403041376264,
+      Engine Load_unit: '%', Engine Load_value: 42.74509811401367, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.0, GPS Altitude_unit: m, GPS Altitude_value: 240.5, GPS Bearing_unit: deg,
+      GPS Bearing_value: 309.5, GPS HDOP_unit: precision, GPS HDOP_value: 0.6, GPS PDOP_unit: precision,
+      GPS PDOP_value: 0.8, GPS Speed_unit: km/h, GPS Speed_value: 98.36386413574219,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.6, Intake Pressure_unit: kPa, Intake Pressure_value: 119.0,
+      Intake Temperature_unit: c, Intake Temperature_value: 7.0, MAF_unit: l/s, MAF_value: 25.940000534057617,
+      Rpm_unit: u/min, Rpm_value: 2015.0, Speed_unit: km/h, Speed_value: 99.0, Throttle Position_unit: '%',
+      Throttle Position_value: 94.0}
+    _Measurement__road: *id001
+    _Measurement__time: '2014-01-23T06:06:10Z'
+  2: !!python/object:CarTrip.Measurement
+    _Measurement__index: 2
+    _Measurement__latitude: 50.81220692
+    _Measurement__longitude: 6.03230839
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 38.771444995576225,
+      Engine Load_unit: '%', Engine Load_value: 45.490196228027344, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 4.0, GPS Altitude_unit: m, GPS Altitude_value: 240.3000030517578,
+      GPS Bearing_unit: deg, GPS Bearing_value: 314.3999938964844, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 0.8, GPS Speed_unit: km/h,
+      GPS Speed_value: 95.67131423950195, GPS VDOP_unit: precision, GPS VDOP_value: 0.6,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 119.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 6.0, MAF_unit: l/s, MAF_value: 26.770000457763672,
+      Rpm_unit: u/min, Rpm_value: 1944.0, Speed_unit: km/h, Speed_value: 95.0, Throttle Position_unit: '%',
+      Throttle Position_value: 94.0}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: "A 4, Laurensberg, Aachen, St\xE4dteregion Aachen, Regierungsbezirk\
+        \ K\xF6ln, Nordrhein-Westfalen, 52072, Deutschland"
+      _Road__osm_id: '276279099'
+      _Road__tags: {highway: motorway, int_ref: E 314, lanes: '2', lit: 'no', maxspeed: none,
+        oneway: 'yes', ref: A 4, 'source:maxspeed': 'DE:motorway'}
+    _Measurement__time: '2014-01-23T06:06:16Z'
+  3: !!python/object:CarTrip.Measurement
+    _Measurement__index: 3
+    _Measurement__latitude: 50.81325058
+    _Measurement__longitude: 6.03077102
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 39.605747711919456,
+      Engine Load_unit: '%', Engine Load_value: 45.882354736328125, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 4.0, GPS Altitude_unit: m, GPS Altitude_value: 238.60000610351562,
+      GPS Bearing_unit: deg, GPS Bearing_value: 319.0, GPS HDOP_unit: precision, GPS HDOP_value: 0.6,
+      GPS PDOP_unit: precision, GPS PDOP_value: 0.9, GPS Speed_unit: km/h, GPS Speed_value: 95.67131423950195,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.6, Intake Pressure_unit: kPa, Intake Pressure_value: 122.0,
+      Intake Temperature_unit: c, Intake Temperature_value: 6.0, MAF_unit: l/s, MAF_value: 27.239999771118164,
+      O2 Lambda Voltage ER_unit: ratio, O2 Lambda Voltage ER_value: 0.131805419921875,
+      O2 Lambda Voltage_unit: V, O2 Lambda Voltage_value: 0.6136474609375, Rpm_unit: u/min,
+      Rpm_value: 1937.0, Speed_unit: km/h, Speed_value: 94.0, Throttle Position_unit: '%',
+      Throttle Position_value: 94.0}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: "A 4, Laurensberg, Aachen, St\xE4dteregion Aachen, Regierungsbezirk\
+        \ K\xF6ln, Nordrhein-Westfalen, 52072, Deutschland"
+      _Road__osm_id: '139098203'
+      _Road__tags: {bridge: 'yes', highway: motorway, int_ref: E 314, lanes: '2',
+        layer: '1', lit: 'no', maxspeed: none, oneway: 'yes', ref: A 4, 'source:maxspeed': 'DE:motorway'}
+    _Measurement__time: '2014-01-23T06:06:22Z'
+  4: !!python/object:CarTrip.Measurement
+    _Measurement__index: 4
+    _Measurement__latitude: 50.81436791
+    _Measurement__longitude: 6.02935099
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 40.26021780177889,
+      Engine Load_unit: '%', Engine Load_value: 42.35293960571289, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.0, GPS Altitude_unit: m, GPS Altitude_value: 236.3000030517578,
+      GPS Bearing_unit: deg, GPS Bearing_value: 322.6000061035156, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.7, GPS PDOP_unit: precision, GPS PDOP_value: 0.9, GPS Speed_unit: km/h,
+      GPS Speed_value: 96.56878051757813, GPS VDOP_unit: precision, GPS VDOP_value: 0.7,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 123.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 6.0, MAF_unit: l/s, MAF_value: 27.219999313354492,
+      Rpm_unit: u/min, Rpm_value: 1953.0, Speed_unit: km/h, Speed_value: 95.0, Throttle Position_unit: '%',
+      Throttle Position_value: 94.0}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: "A 4, Laurensberg, Aachen, St\xE4dteregion Aachen, Regierungsbezirk\
+        \ K\xF6ln, Nordrhein-Westfalen, 52072, Deutschland"
+      _Road__osm_id: '139098205'
+      _Road__tags: {highway: motorway, int_ref: E 314, lanes: '2', lit: 'no', maxspeed: none,
+        oneway: 'yes', ref: A 4, 'source:maxspeed': 'DE:motorway'}
+    _Measurement__time: '2014-01-23T06:06:28Z'
+  5: !!python/object:CarTrip.Measurement
+    _Measurement__index: 5
+    _Measurement__latitude: 50.8155638
+    _Measurement__longitude: 6.02804856
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 38.94004855777817,
+      Engine Load_unit: '%', Engine Load_value: 43.13725662231445, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 4.0, GPS Altitude_unit: m, GPS Altitude_value: 235.60000610351562,
+      GPS Bearing_unit: deg, GPS Bearing_value: 327.20001220703125, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 0.9, GPS Speed_unit: km/h,
+      GPS Speed_value: 97.46630172729492, GPS VDOP_unit: precision, GPS VDOP_value: 0.6,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 118.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 6.0, MAF_unit: l/s, MAF_value: 25.770000457763672,
+      Rpm_unit: u/min, Rpm_value: 1969.0, Speed_unit: km/h, Speed_value: 96.0, Throttle Position_unit: '%',
+      Throttle Position_value: 94.0}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: "A 4, Laurensberg, Aachen, St\xE4dteregion Aachen, Regierungsbezirk\
+        \ K\xF6ln, Nordrhein-Westfalen, 52072, Deutschland"
+      _Road__osm_id: '34325570'
+      _Road__tags: {bridge: viaduct, highway: motorway, int_ref: E 314, lanes: '3',
+        layer: '1', lit: 'no', maxspeed: none, oneway: 'yes', ref: A 4, 'turn:lanes': none|none|slight_right}
+    _Measurement__time: '2014-01-23T06:06:34Z'
+  6: !!python/object:CarTrip.Measurement
+    _Measurement__index: 6
+    _Measurement__latitude: 50.81679942
+    _Measurement__longitude: 6.02679917
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 38.959825118752164,
+      Engine Load_unit: '%', Engine Load_value: 42.35293960571289, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 4.0, GPS Altitude_unit: m, GPS Altitude_value: 233.5, GPS Bearing_unit: deg,
+      GPS Bearing_value: 327.20001220703125, GPS HDOP_unit: precision, GPS HDOP_value: 0.6,
+      GPS PDOP_unit: precision, GPS PDOP_value: 0.9, GPS Speed_unit: km/h, GPS Speed_value: 97.46630172729492,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.7, Intake Pressure_unit: kPa, Intake Pressure_value: 118.0,
+      Intake Temperature_unit: c, Intake Temperature_value: 6.0, MAF_unit: l/s, MAF_value: 25.860000610351562,
+      O2 Lambda Voltage ER_unit: ratio, O2 Lambda Voltage ER_value: 0.134674072265625,
+      O2 Lambda Voltage_unit: V, O2 Lambda Voltage_value: 0.6265869140625, Rpm_unit: u/min,
+      Rpm_value: 1970.0, Speed_unit: km/h, Speed_value: 96.0, Throttle Position_unit: '%',
+      Throttle Position_value: 94.0}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: "A 4, Laurensberg, Aachen, St\xE4dteregion Aachen, Regierungsbezirk\
+        \ K\xF6ln, Nordrhein-Westfalen, 52072, Deutschland"
+      _Road__osm_id: '34325571'
+      _Road__tags: {highway: motorway, int_ref: E 314, lanes: '3', lit: 'no', maxspeed: none,
+        oneway: 'yes', ref: A 4, 'turn:lanes': none|none|slight_right}
+    _Measurement__time: '2014-01-23T06:06:40Z'
+  7: !!python/object:CarTrip.Measurement
+    _Measurement__index: 7
+    _Measurement__latitude: 50.81801237
+    _Measurement__longitude: 6.02557875
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 38.74263489474628,
+      Engine Load_unit: '%', Engine Load_value: 42.74509811401367, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.0, GPS Altitude_unit: m, GPS Altitude_value: 230.8000030517578,
+      GPS Bearing_unit: deg, GPS Bearing_value: 327.3999938964844, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 0.9, GPS Speed_unit: km/h,
+      GPS Speed_value: 95.67131423950195, GPS VDOP_unit: precision, GPS VDOP_value: 0.7,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 118.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 5.0, MAF_unit: l/s, MAF_value: 26.1299991607666, Rpm_unit: u/min,
+      Rpm_value: 1952.0, Speed_unit: km/h, Speed_value: 95.0, Throttle Position_unit: '%',
+      Throttle Position_value: 94.0}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: "A 4, Laurensberg, Aachen, St\xE4dteregion Aachen, Regierungsbezirk\
+        \ K\xF6ln, Nordrhein-Westfalen, 52072, Deutschland"
+      _Road__osm_id: '328464028'
+      _Road__tags: {highway: motorway, int_ref: E 314, lanes: '2', lit: 'no', maxspeed: none,
+        oneway: 'yes', ref: A 4}
+    _Measurement__time: '2014-01-23T06:06:46Z'
+  8: !!python/object:CarTrip.Measurement
+    _Measurement__index: 8
+    _Measurement__latitude: 50.81921128
+    _Measurement__longitude: 6.02439212
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 45.98938608346731,
+      Engine Load_unit: '%', Engine Load_value: 48.235294342041016, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.0, GPS Altitude_unit: m, GPS Altitude_value: 230.89999389648438,
+      GPS Bearing_unit: deg, GPS Bearing_value: 327.20001220703125, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 0.9, GPS Speed_unit: km/h,
+      GPS Speed_value: 96.56878051757813, GPS VDOP_unit: precision, GPS VDOP_value: 0.7,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 140.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 5.0, MAF_unit: l/s, MAF_value: 35.2400016784668, Rpm_unit: u/min,
+      Rpm_value: 1953.0, Speed_unit: km/h, Speed_value: 94.0, Throttle Position_unit: '%',
+      Throttle Position_value: 94.0}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: A76, Gracht, Bocholtz, 6422PW, Nederland
+      _Road__osm_id: '141697885'
+      _Road__tags: {highway: motorway, int_ref: E 314, lanes: '2', maxspeed: '120',
+        oneway: 'yes', ref: A76}
+    _Measurement__time: '2014-01-23T06:06:52Z'
+  9: !!python/object:CarTrip.Measurement
+    _Measurement__index: 9
+    _Measurement__latitude: 50.8204272
+    _Measurement__longitude: 6.0231679399999996
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 50.05313504136338,
+      Engine Load_unit: '%', Engine Load_value: 52.94117736816406, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.0, GPS Altitude_unit: m, GPS Altitude_value: 229.8000030517578,
+      GPS Bearing_unit: deg, GPS Bearing_value: 327.20001220703125, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 0.9, GPS Speed_unit: km/h,
+      GPS Speed_value: 98.10000000000001, GPS VDOP_unit: precision, GPS VDOP_value: 0.7,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 150.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 6.0, MAF_unit: l/s, MAF_value: 41.970001220703125,
+      Rpm_unit: u/min, Rpm_value: 1991.0, Speed_unit: km/h, Speed_value: 96.0, Throttle Position_unit: '%',
+      Throttle Position_value: 94.0}
+    _Measurement__road: &id002 !!python/object:CarTrip.Road
+      _Road__display_name: A76, Heerlen, Parkstad Limburg, Limburg, Nederland, 6422PW,
+        Nederland
+      _Road__osm_id: '432978759'
+      _Road__tags: {highway: motorway, int_ref: E 314, lanes: '2', maxspeed: '120',
+        oneway: 'yes', ref: A76}
+    _Measurement__time: '2014-01-23T06:06:58Z'
+  10: !!python/object:CarTrip.Measurement
+    _Measurement__index: 10
+    _Measurement__latitude: 50.82168195
+    _Measurement__longitude: 6.02191834
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 47.29766371451865,
+      Engine Load_unit: '%', Engine Load_value: 45.490196228027344, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.0, GPS Altitude_unit: m, GPS Altitude_value: 228.1999969482422,
+      GPS Bearing_unit: deg, GPS Bearing_value: 327.20001220703125, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 0.9, GPS Speed_unit: km/h,
+      GPS Speed_value: 99.0, GPS VDOP_unit: precision, GPS VDOP_value: 0.7, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 140.0, Intake Temperature_unit: c, Intake Temperature_value: 7.0,
+      MAF_unit: l/s, MAF_value: 31.8799991607666, O2 Lambda Voltage ER_unit: ratio,
+      O2 Lambda Voltage ER_value: 0.119659423828125, O2 Lambda Voltage_unit: V, O2 Lambda Voltage_value: 0.545166015625,
+      Rpm_unit: u/min, Rpm_value: 2023.0, Speed_unit: km/h, Speed_value: 99.0, Throttle Position_unit: '%',
+      Throttle Position_value: 94.0}
+    _Measurement__road: *id002
+    _Measurement__time: '2014-01-23T06:07:04Z'
+  11: !!python/object:CarTrip.Measurement
+    _Measurement__index: 11
+    _Measurement__latitude: 50.82292932
+    _Measurement__longitude: 6.02065474
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 44.62182703032356,
+      Engine Load_unit: '%', Engine Load_value: 44.70588302612305, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.0, GPS Altitude_unit: m, GPS Altitude_value: 227.10000610351562,
+      GPS Bearing_unit: deg, GPS Bearing_value: 327.1000061035156, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 0.9, GPS Speed_unit: km/h,
+      GPS Speed_value: 99.0, GPS VDOP_unit: precision, GPS VDOP_value: 0.7, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 133.0, Intake Temperature_unit: c, Intake Temperature_value: 7.0,
+      MAF_unit: l/s, MAF_value: 30.299999237060547, Rpm_unit: u/min, Rpm_value: 2009.0,
+      Speed_unit: km/h, Speed_value: 98.0, Throttle Position_unit: '%', Throttle Position_value: 94.0}
+    _Measurement__road: &id003 !!python/object:CarTrip.Road
+      _Road__display_name: A76, Heerlen, Parkstad Limburg, Limburg, Nederland, 6422PW,
+        Nederland
+      _Road__osm_id: '414001805'
+      _Road__tags: {highway: motorway, int_ref: E 314, lanes: '2', maxspeed: '120',
+        oneway: 'yes', ref: A76}
+    _Measurement__time: '2014-01-23T06:07:10Z'
+  12: !!python/object:CarTrip.Measurement
+    _Measurement__index: 12
+    _Measurement__latitude: 50.82422927
+    _Measurement__longitude: 6.01933822
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 61.82389353193291,
+      Engine Load_unit: '%', Engine Load_value: 52.156864166259766, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.0, GPS Altitude_unit: m, GPS Altitude_value: 225.8000030517578,
+      GPS Bearing_unit: deg, GPS Bearing_value: 327.29998779296875, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 0.9, GPS Speed_unit: km/h,
+      GPS Speed_value: 104.4, GPS VDOP_unit: precision, GPS VDOP_value: 0.7, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 175.0, Intake Temperature_unit: c, Intake Temperature_value: 8.0,
+      MAF_unit: l/s, MAF_value: 46.61000061035156, Rpm_unit: u/min, Rpm_value: 2123.0,
+      Speed_unit: km/h, Speed_value: 102.0, Throttle Position_unit: '%', Throttle Position_value: 94.0}
+    _Measurement__road: *id003
+    _Measurement__time: '2014-01-23T06:07:16Z'
+  13: !!python/object:CarTrip.Measurement
+    _Measurement__index: 13
+    _Measurement__latitude: 50.82555877
+    _Measurement__longitude: 6.01798964
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 48.12377264331221,
+      Engine Load_unit: '%', Engine Load_value: 44.70588302612305, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.0, GPS Altitude_unit: m, GPS Altitude_value: 224.6999969482422,
+      GPS Bearing_unit: deg, GPS Bearing_value: 327.0, GPS HDOP_unit: precision, GPS HDOP_value: 0.6,
+      GPS PDOP_unit: precision, GPS PDOP_value: 0.9, GPS Speed_unit: km/h, GPS Speed_value: 105.3,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.6, Intake Pressure_unit: kPa, Intake Pressure_value: 136.0,
+      Intake Temperature_unit: c, Intake Temperature_value: 9.0, MAF_unit: l/s, MAF_value: 32.470001220703125,
+      O2 Lambda Voltage ER_unit: ratio, O2 Lambda Voltage ER_value: 0.121795654296875,
+      O2 Lambda Voltage_unit: V, O2 Lambda Voltage_value: 0.5570068359375, Rpm_unit: u/min,
+      Rpm_value: 2134.0, Speed_unit: km/h, Speed_value: 104.0, Throttle Position_unit: '%',
+      Throttle Position_value: 94.0}
+    _Measurement__road: &id004 !!python/object:CarTrip.Road
+      _Road__display_name: A76, Heerlen, Parkstad Limburg, Limburg, Nederland, 6422PX,
+        Nederland
+      _Road__osm_id: '6744810'
+      _Road__tags: {highway: motorway, int_ref: E 314, lanes: '3', maxspeed: '120',
+        oneway: 'yes', ref: A76, 'turn:lanes': none|none|slight_right}
+    _Measurement__time: '2014-01-23T06:07:22Z'
+  14: !!python/object:CarTrip.Measurement
+    _Measurement__index: 14
+    _Measurement__latitude: 50.82687962
+    _Measurement__longitude: 6.01664235
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 49.383400212648056,
+      Engine Load_unit: '%', Engine Load_value: 44.70588302612305, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.0, GPS Altitude_unit: m, GPS Altitude_value: 224.1999969482422,
+      GPS Bearing_unit: deg, GPS Bearing_value: 327.3999938964844, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 0.9, GPS Speed_unit: km/h,
+      GPS Speed_value: 105.3, GPS VDOP_unit: precision, GPS VDOP_value: 0.6, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 139.0, Intake Temperature_unit: c, Intake Temperature_value: 8.0,
+      MAF_unit: l/s, MAF_value: 33.880001068115234, Rpm_unit: u/min, Rpm_value: 2135.0,
+      Speed_unit: km/h, Speed_value: 104.0, Throttle Position_unit: '%', Throttle Position_value: 94.0}
+    _Measurement__road: *id004
+    _Measurement__time: '2014-01-23T06:07:28Z'
+  15: !!python/object:CarTrip.Measurement
+    _Measurement__index: 15
+    _Measurement__latitude: 50.82820725
+    _Measurement__longitude: 6.01529537
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 48.31757143108011,
+      Engine Load_unit: '%', Engine Load_value: 45.09803771972656, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.0, GPS Altitude_unit: m, GPS Altitude_value: 225.60000610351562,
+      GPS Bearing_unit: deg, GPS Bearing_value: 327.3999938964844, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.7, GPS PDOP_unit: precision, GPS PDOP_value: 0.9, GPS Speed_unit: km/h,
+      GPS Speed_value: 105.3, GPS VDOP_unit: precision, GPS VDOP_value: 0.7, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 136.0, Intake Temperature_unit: c, Intake Temperature_value: 8.0,
+      MAF_unit: l/s, MAF_value: 32.83000183105469, O2 Lambda Voltage ER_unit: ratio,
+      O2 Lambda Voltage ER_value: 0.11810302734375, O2 Lambda Voltage_unit: V, O2 Lambda Voltage_value: 0.5338134765625,
+      Rpm_unit: u/min, Rpm_value: 2135.0, Speed_unit: km/h, Speed_value: 104.0, Throttle Position_unit: '%',
+      Throttle Position_value: 94.0}
+    _Measurement__road: *id004
+    _Measurement__time: '2014-01-23T06:07:34Z'
+  16: !!python/object:CarTrip.Measurement
+    _Measurement__index: 16
+    _Measurement__latitude: 50.82953663
+    _Measurement__longitude: 6.01395083
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 50.140879153116025,
+      Engine Load_unit: '%', Engine Load_value: 44.313724517822266, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.0, GPS Altitude_unit: m, GPS Altitude_value: 225.89999389648438,
+      GPS Bearing_unit: deg, GPS Bearing_value: 327.20001220703125, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 0.9, GPS Speed_unit: km/h,
+      GPS Speed_value: 105.3, GPS VDOP_unit: precision, GPS VDOP_value: 0.6, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 141.0, Intake Temperature_unit: c, Intake Temperature_value: 8.0,
+      MAF_unit: l/s, MAF_value: 34.02000045776367, Rpm_unit: u/min, Rpm_value: 2137.0,
+      Speed_unit: km/h, Speed_value: 104.0, Throttle Position_unit: '%', Throttle Position_value: 94.0}
+    _Measurement__road: &id005 !!python/object:CarTrip.Road
+      _Road__display_name: A76, Heerlen, Parkstad Limburg, Limburg, Nederland, 6422PJ,
+        Nederland
+      _Road__osm_id: '379201256'
+      _Road__tags: {destination: Eindhoven;Antwerpen;Maastricht, 'destination:int_ref': E
+          314, 'destination:ref': A76, highway: motorway, int_ref: E 314, lanes: '2',
+        maxspeed: '120', oneway: 'yes', ref: A76}
+    _Measurement__time: '2014-01-23T06:07:40Z'
+  17: !!python/object:CarTrip.Measurement
+    _Measurement__index: 17
+    _Measurement__latitude: 50.83086139
+    _Measurement__longitude: 6.0126019
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 48.86946517939065,
+      Engine Load_unit: '%', Engine Load_value: 43.92156982421875, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.0, GPS Altitude_unit: m, GPS Altitude_value: 225.3000030517578,
+      GPS Bearing_unit: deg, GPS Bearing_value: 327.20001220703125, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 0.9, GPS Speed_unit: km/h,
+      GPS Speed_value: 105.3, GPS VDOP_unit: precision, GPS VDOP_value: 0.6, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 137.0, Intake Temperature_unit: c, Intake Temperature_value: 7.0,
+      MAF_unit: l/s, MAF_value: 33.130001068115234, Rpm_unit: u/min, Rpm_value: 2136.0,
+      Speed_unit: km/h, Speed_value: 104.0, Throttle Position_unit: '%', Throttle Position_value: 94.0}
+    _Measurement__road: *id005
+    _Measurement__time: '2014-01-23T06:07:46Z'
+  18: !!python/object:CarTrip.Measurement
+    _Measurement__index: 18
+    _Measurement__latitude: 50.83218859
+    _Measurement__longitude: 6.01126296
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 50.272763916037434,
+      Engine Load_unit: '%', Engine Load_value: 43.92156982421875, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.0, GPS Altitude_unit: m, GPS Altitude_value: 224.6999969482422,
+      GPS Bearing_unit: deg, GPS Bearing_value: 327.20001220703125, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 0.9, GPS Speed_unit: km/h,
+      GPS Speed_value: 105.3, GPS VDOP_unit: precision, GPS VDOP_value: 0.6, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 141.0, Intake Temperature_unit: c, Intake Temperature_value: 7.0,
+      MAF_unit: l/s, MAF_value: 33.720001220703125, O2 Lambda Voltage ER_unit: ratio,
+      O2 Lambda Voltage ER_value: 0.116363525390625, O2 Lambda Voltage_unit: V, O2 Lambda Voltage_value: 0.5213623046875,
+      Rpm_unit: u/min, Rpm_value: 2135.0, Speed_unit: km/h, Speed_value: 104.0, Throttle Position_unit: '%',
+      Throttle Position_value: 94.0}
+    _Measurement__road: *id005
+    _Measurement__time: '2014-01-23T06:07:52Z'
+  19: !!python/object:CarTrip.Measurement
+    _Measurement__index: 19
+    _Measurement__latitude: 50.83350939
+    _Measurement__longitude: 6.0099195
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 49.24922256688736,
+      Engine Load_unit: '%', Engine Load_value: 43.52941131591797, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.0, GPS Altitude_unit: m, GPS Altitude_value: 224.3000030517578,
+      GPS Bearing_unit: deg, GPS Bearing_value: 327.20001220703125, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 0.9, GPS Speed_unit: km/h,
+      GPS Speed_value: 105.3, GPS VDOP_unit: precision, GPS VDOP_value: 0.6, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 138.0, Intake Temperature_unit: c, Intake Temperature_value: 7.0,
+      MAF_unit: l/s, MAF_value: 33.54999923706055, Rpm_unit: u/min, Rpm_value: 2137.0,
+      Speed_unit: km/h, Speed_value: 104.0, Throttle Position_unit: '%', Throttle Position_value: 94.0}
+    _Measurement__road: *id005
+    _Measurement__time: '2014-01-23T06:07:58Z'
+  20: !!python/object:CarTrip.Measurement
+    _Measurement__index: 20
+    _Measurement__latitude: 50.83483777
+    _Measurement__longitude: 6.00857572
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 47.041820127163795,
+      Engine Load_unit: '%', Engine Load_value: 42.74509811401367, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.0, GPS Altitude_unit: m, GPS Altitude_value: 224.3000030517578,
+      GPS Bearing_unit: deg, GPS Bearing_value: 327.29998779296875, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 0.9, GPS Speed_unit: km/h,
+      GPS Speed_value: 105.3, GPS VDOP_unit: precision, GPS VDOP_value: 0.6, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 132.0, Intake Temperature_unit: c, Intake Temperature_value: 7.0,
+      MAF_unit: l/s, MAF_value: 31.190000534057617, O2 Lambda Voltage ER_unit: ratio,
+      O2 Lambda Voltage ER_value: 0.12017822265625, O2 Lambda Voltage_unit: V, O2 Lambda Voltage_value: 0.5460205078125,
+      Rpm_unit: u/min, Rpm_value: 2134.0, Speed_unit: km/h, Speed_value: 104.0, Throttle Position_unit: '%',
+      Throttle Position_value: 94.0}
+    _Measurement__road: *id005
+    _Measurement__time: '2014-01-23T06:08:04Z'
+  21: !!python/object:CarTrip.Measurement
+    _Measurement__index: 21
+    _Measurement__latitude: 50.8361576
+    _Measurement__longitude: 6.00720892
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 47.041820127163795,
+      Engine Load_unit: '%', Engine Load_value: 43.92156982421875, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 4.0, GPS Altitude_unit: m, GPS Altitude_value: 224.89999389648438,
+      GPS Bearing_unit: deg, GPS Bearing_value: 326.3999938964844, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 0.9, GPS Speed_unit: km/h,
+      GPS Speed_value: 105.3, GPS VDOP_unit: precision, GPS VDOP_value: 0.6, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 132.0, Intake Temperature_unit: c, Intake Temperature_value: 7.0,
+      MAF_unit: l/s, MAF_value: 31.739999771118164, Rpm_unit: u/min, Rpm_value: 2134.0,
+      Speed_unit: km/h, Speed_value: 104.0, Throttle Position_unit: '%', Throttle Position_value: 94.0}
+    _Measurement__road: *id005
+    _Measurement__time: '2014-01-23T06:08:10Z'
+  22: !!python/object:CarTrip.Measurement
+    _Measurement__index: 22
+    _Measurement__latitude: 50.8372112
+    _Measurement__longitude: 6.00598936
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 47.821708869296415,
+      Engine Load_unit: '%', Engine Load_value: 43.13725662231445, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 4.0, GPS Altitude_unit: m, GPS Altitude_value: 224.10000610351562,
+      GPS Bearing_unit: deg, GPS Bearing_value: 321.70001220703125, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 0.9, GPS Speed_unit: km/h,
+      GPS Speed_value: 105.3, GPS VDOP_unit: precision, GPS VDOP_value: 0.6, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 134.0, Intake Temperature_unit: c, Intake Temperature_value: 7.0,
+      MAF_unit: l/s, MAF_value: 30.610000610351562, Rpm_unit: u/min, Rpm_value: 2137.0,
+      Speed_unit: km/h, Speed_value: 104.0, Throttle Position_unit: '%', Throttle Position_value: 94.0}
+    _Measurement__road: *id005
+    _Measurement__time: '2014-01-23T06:08:15Z'
+  23: !!python/object:CarTrip.Measurement
+    _Measurement__index: 23
+    _Measurement__latitude: 50.83839066
+    _Measurement__longitude: 6.0043513
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 47.420408516545955,
+      Engine Load_unit: '%', Engine Load_value: 44.70588302612305, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 4.0, GPS Altitude_unit: m, GPS Altitude_value: 223.0, GPS Bearing_unit: deg,
+      GPS Bearing_value: 316.20001220703125, GPS HDOP_unit: precision, GPS HDOP_value: 0.6,
+      GPS PDOP_unit: precision, GPS PDOP_value: 0.9, GPS Speed_unit: km/h, GPS Speed_value: 105.3,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.6, Intake Pressure_unit: kPa, Intake Pressure_value: 133.0,
+      Intake Temperature_unit: c, Intake Temperature_value: 7.0, MAF_unit: l/s, MAF_value: 32.11000061035156,
+      O2 Lambda Voltage ER_unit: ratio, O2 Lambda Voltage ER_value: 0.12103271484375,
+      O2 Lambda Voltage_unit: V, O2 Lambda Voltage_value: 0.5535888671875, Rpm_unit: u/min,
+      Rpm_value: 2135.0, Speed_unit: km/h, Speed_value: 104.0, Throttle Position_unit: '%',
+      Throttle Position_value: 94.0}
+    _Measurement__road: *id005
+    _Measurement__time: '2014-01-23T06:08:21Z'
+  24: !!python/object:CarTrip.Measurement
+    _Measurement__index: 24
+    _Measurement__latitude: 50.83947262
+    _Measurement__longitude: 6.00254481
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 50.0798792271374,
+      Engine Load_unit: '%', Engine Load_value: 45.09803771972656, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.0, GPS Altitude_unit: m, GPS Altitude_value: 222.5, GPS Bearing_unit: deg,
+      GPS Bearing_value: 311.8999938964844, GPS HDOP_unit: precision, GPS HDOP_value: 0.6,
+      GPS PDOP_unit: precision, GPS PDOP_value: 0.9, GPS Speed_unit: km/h, GPS Speed_value: 105.3,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.6, Intake Pressure_unit: kPa, Intake Pressure_value: 140.0,
+      Intake Temperature_unit: c, Intake Temperature_value: 7.0, MAF_unit: l/s, MAF_value: 33.630001068115234,
+      Rpm_unit: u/min, Rpm_value: 2142.0, Speed_unit: km/h, Speed_value: 104.0, Throttle Position_unit: '%',
+      Throttle Position_value: 94.0}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: A76, Heerlen, Parkstad Limburg, Limburg, Nederland, 6422PJ,
+        Nederland
+      _Road__osm_id: '6744776'
+      _Road__tags: {bridge: 'yes', highway: motorway, int_ref: E 314, lanes: '2',
+        layer: '1', maxspeed: '120', oneway: 'yes', ref: A76}
+    _Measurement__time: '2014-01-23T06:08:27Z'
+  25: !!python/object:CarTrip.Measurement
+    _Measurement__index: 25
+    _Measurement__latitude: 50.84045369
+    _Measurement__longitude: 6.00062045
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 50.77159211148714,
+      Engine Load_unit: '%', Engine Load_value: 44.313724517822266, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 4.0, GPS Altitude_unit: m, GPS Altitude_value: 221.6999969482422,
+      GPS Bearing_unit: deg, GPS Bearing_value: 308.0, GPS HDOP_unit: precision, GPS HDOP_value: 0.6,
+      GPS PDOP_unit: precision, GPS PDOP_value: 0.9, GPS Speed_unit: km/h, GPS Speed_value: 105.3,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.6, Intake Pressure_unit: kPa, Intake Pressure_value: 142.0,
+      Intake Temperature_unit: c, Intake Temperature_value: 7.0, MAF_unit: l/s, MAF_value: 34.61000061035156,
+      Rpm_unit: u/min, Rpm_value: 2141.0, Speed_unit: km/h, Speed_value: 104.0, Throttle Position_unit: '%',
+      Throttle Position_value: 94.0}
+    _Measurement__road: &id006 !!python/object:CarTrip.Road
+      _Road__display_name: A76, Heerlen, Parkstad Limburg, Limburg, Nederland, 6422PT,
+        Nederland
+      _Road__osm_id: '6744734'
+      _Road__tags: {highway: motorway, int_ref: E 314, lanes: '2', layer: '1', maxspeed: '120',
+        oneway: 'yes', ref: A76}
+    _Measurement__time: '2014-01-23T06:08:33Z'
+  26: !!python/object:CarTrip.Measurement
+    _Measurement__index: 26
+    _Measurement__latitude: 50.84136713
+    _Measurement__longitude: 5.9986141
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 50.05649926484647,
+      Engine Load_unit: '%', Engine Load_value: 45.09803771972656, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.0, GPS Altitude_unit: m, GPS Altitude_value: 221.89999389648438,
+      GPS Bearing_unit: deg, GPS Bearing_value: 303.3999938964844, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 0.9, GPS Speed_unit: km/h,
+      GPS Speed_value: 105.3, GPS VDOP_unit: precision, GPS VDOP_value: 0.6, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 140.0, Intake Temperature_unit: c, Intake Temperature_value: 7.0,
+      MAF_unit: l/s, MAF_value: 33.54999923706055, O2 Lambda Voltage ER_unit: ratio,
+      O2 Lambda Voltage ER_value: 0.11767578125, O2 Lambda Voltage_unit: V, O2 Lambda Voltage_value: 0.5301513671875,
+      Rpm_unit: u/min, Rpm_value: 2141.0, Speed_unit: km/h, Speed_value: 104.0, Throttle Position_unit: '%',
+      Throttle Position_value: 94.0}
+    _Measurement__road: *id006
+    _Measurement__time: '2014-01-23T06:08:39Z'
+  27: !!python/object:CarTrip.Measurement
+    _Measurement__index: 27
+    _Measurement__latitude: 50.84221984
+    _Measurement__longitude: 5.99654508
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 50.2256699919943,
+      Engine Load_unit: '%', Engine Load_value: 44.70588302612305, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.0, GPS Altitude_unit: m, GPS Altitude_value: 221.10000610351562,
+      GPS Bearing_unit: deg, GPS Bearing_value: 302.6000061035156, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 0.9, GPS Speed_unit: km/h,
+      GPS Speed_value: 105.3, GPS VDOP_unit: precision, GPS VDOP_value: 0.6, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 141.0, Intake Temperature_unit: c, Intake Temperature_value: 7.0,
+      MAF_unit: l/s, MAF_value: 34.27000045776367, Rpm_unit: u/min, Rpm_value: 2133.0,
+      Speed_unit: km/h, Speed_value: 104.0, Throttle Position_unit: '%', Throttle Position_value: 94.0}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: A76, Heerlen, Parkstad Limburg, Limburg, Nederland, 6422PT,
+        Nederland
+      _Road__osm_id: '6747468'
+      _Road__tags: {bridge: 'yes', highway: motorway, int_ref: E 314, lanes: '2',
+        layer: '1', maxspeed: '120', oneway: 'yes', ref: A76}
+    _Measurement__time: '2014-01-23T06:08:45Z'
+  28: !!python/object:CarTrip.Measurement
+    _Measurement__index: 28
+    _Measurement__latitude: 50.84308552
+    _Measurement__longitude: 5.99447464
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 52.05548604071961,
+      Engine Load_unit: '%', Engine Load_value: 46.27450942993164, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.0, GPS Altitude_unit: m, GPS Altitude_value: 221.10000610351562,
+      GPS Bearing_unit: deg, GPS Bearing_value: 303.5, GPS HDOP_unit: precision, GPS HDOP_value: 0.6,
+      GPS PDOP_unit: precision, GPS PDOP_value: 0.8, GPS Speed_unit: km/h, GPS Speed_value: 105.3,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.6, Intake Pressure_unit: kPa, Intake Pressure_value: 146.0,
+      Intake Temperature_unit: c, Intake Temperature_value: 7.0, MAF_unit: l/s, MAF_value: 35.79999923706055,
+      O2 Lambda Voltage ER_unit: ratio, O2 Lambda Voltage ER_value: 0.116790771484375,
+      O2 Lambda Voltage_unit: V, O2 Lambda Voltage_value: 0.525634765625, Rpm_unit: u/min,
+      Rpm_value: 2135.0, Speed_unit: km/h, Speed_value: 104.0, Throttle Position_unit: '%',
+      Throttle Position_value: 94.0}
+    _Measurement__road: &id007 !!python/object:CarTrip.Road
+      _Road__display_name: A76, Heerlen, Parkstad Limburg, Limburg, Nederland, 6419PG,
+        Nederland
+      _Road__osm_id: '6747465'
+      _Road__tags: {highway: motorway, int_ref: E 314, lanes: '2', maxspeed: '120',
+        oneway: 'yes', ref: A76, surface: asphalt}
+    _Measurement__time: '2014-01-23T06:08:51Z'
+  29: !!python/object:CarTrip.Measurement
+    _Measurement__index: 29
+    _Measurement__latitude: 50.84394395
+    _Measurement__longitude: 5.99238815
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 52.768574890592475,
+      Engine Load_unit: '%', Engine Load_value: 45.490196228027344, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.0, GPS Altitude_unit: m, GPS Altitude_value: 221.89999389648438,
+      GPS Bearing_unit: deg, GPS Bearing_value: 302.8999938964844, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 0.8, GPS Speed_unit: km/h,
+      GPS Speed_value: 105.3, GPS VDOP_unit: precision, GPS VDOP_value: 0.6, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 148.0, Intake Temperature_unit: c, Intake Temperature_value: 7.0,
+      MAF_unit: l/s, MAF_value: 36.29999923706055, Rpm_unit: u/min, Rpm_value: 2135.0,
+      Speed_unit: km/h, Speed_value: 104.0, Throttle Position_unit: '%', Throttle Position_value: 94.0}
+    _Measurement__road: *id007
+    _Measurement__time: '2014-01-23T06:08:57Z'
+  30: !!python/object:CarTrip.Measurement
+    _Measurement__index: 30
+    _Measurement__latitude: 50.84480221
+    _Measurement__longitude: 5.99031277
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 53.976697926562174,
+      Engine Load_unit: '%', Engine Load_value: 45.490196228027344, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.0, GPS Altitude_unit: m, GPS Altitude_value: 223.10000610351562,
+      GPS Bearing_unit: deg, GPS Bearing_value: 303.0, GPS HDOP_unit: precision, GPS HDOP_value: 0.6,
+      GPS PDOP_unit: precision, GPS PDOP_value: 0.8, GPS Speed_unit: km/h, GPS Speed_value: 105.3,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.6, Intake Pressure_unit: kPa, Intake Pressure_value: 152.0,
+      Intake Temperature_unit: c, Intake Temperature_value: 8.0, MAF_unit: l/s, MAF_value: 38.04999923706055,
+      Rpm_unit: u/min, Rpm_value: 2134.0, Speed_unit: km/h, Speed_value: 104.0, Throttle Position_unit: '%',
+      Throttle Position_value: 94.0}
+    _Measurement__road: *id007
+    _Measurement__time: '2014-01-23T06:09:03Z'
+  31: !!python/object:CarTrip.Measurement
+    _Measurement__index: 31
+    _Measurement__latitude: 50.84565559
+    _Measurement__longitude: 5.98823626
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 55.752247200462236,
+      Engine Load_unit: '%', Engine Load_value: 46.66666793823242, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.0, GPS Altitude_unit: m, GPS Altitude_value: 223.89999389648438,
+      GPS Bearing_unit: deg, GPS Bearing_value: 303.20001220703125, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 0.8, GPS Speed_unit: km/h,
+      GPS Speed_value: 105.3, GPS VDOP_unit: precision, GPS VDOP_value: 0.6, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 157.0, Intake Temperature_unit: c, Intake Temperature_value: 8.0,
+      MAF_unit: l/s, MAF_value: 40.54999923706055, O2 Lambda Voltage ER_unit: ratio,
+      O2 Lambda Voltage ER_value: 0.1185302734375, O2 Lambda Voltage_unit: V, O2 Lambda Voltage_value: 0.538330078125,
+      Rpm_unit: u/min, Rpm_value: 2134.0, Speed_unit: km/h, Speed_value: 104.0, Throttle Position_unit: '%',
+      Throttle Position_value: 94.0}
+    _Measurement__road: *id007
+    _Measurement__time: '2014-01-23T06:09:09Z'
+  32: !!python/object:CarTrip.Measurement
+    _Measurement__index: 32
+    _Measurement__latitude: 50.84651923
+    _Measurement__longitude: 5.98615685
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 58.085995824062934,
+      Engine Load_unit: '%', Engine Load_value: 49.01960754394531, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.0, GPS Altitude_unit: m, GPS Altitude_value: 225.39999389648438,
+      GPS Bearing_unit: deg, GPS Bearing_value: 303.29998779296875, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 0.8, GPS Speed_unit: km/h,
+      GPS Speed_value: 105.3, GPS VDOP_unit: precision, GPS VDOP_value: 0.6, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 164.0, Intake Temperature_unit: c, Intake Temperature_value: 9.0,
+      MAF_unit: l/s, MAF_value: 41.90999984741211, Rpm_unit: u/min, Rpm_value: 2136.0,
+      Speed_unit: km/h, Speed_value: 104.0, Throttle Position_unit: '%', Throttle Position_value: 94.0}
+    _Measurement__road: *id007
+    _Measurement__time: '2014-01-23T06:09:15Z'
+  33: !!python/object:CarTrip.Measurement
+    _Measurement__index: 33
+    _Measurement__latitude: 50.84724931
+    _Measurement__longitude: 5.98442345
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 57.37763002133047,
+      Engine Load_unit: '%', Engine Load_value: 47.843135833740234, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.0, GPS Altitude_unit: m, GPS Altitude_value: 227.60000610351562,
+      GPS Bearing_unit: deg, GPS Bearing_value: 304.6000061035156, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 0.8, GPS Speed_unit: km/h,
+      GPS Speed_value: 105.3, GPS VDOP_unit: precision, GPS VDOP_value: 0.6, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 162.0, Intake Temperature_unit: c, Intake Temperature_value: 9.0,
+      MAF_unit: l/s, MAF_value: 41.29999923706055, O2 Lambda Voltage ER_unit: ratio,
+      O2 Lambda Voltage ER_value: 0.116119384765625, O2 Lambda Voltage_unit: V, O2 Lambda Voltage_value: 0.5223388671875,
+      Rpm_unit: u/min, Rpm_value: 2136.0, Speed_unit: km/h, Speed_value: 104.0, Throttle Position_unit: '%',
+      Throttle Position_value: 94.0}
+    _Measurement__road: *id007
+    _Measurement__time: '2014-01-23T06:09:20Z'
+  34: !!python/object:CarTrip.Measurement
+    _Measurement__index: 34
+    _Measurement__latitude: 50.84823619
+    _Measurement__longitude: 5.98246412
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 55.488152941638646,
+      Engine Load_unit: '%', Engine Load_value: 43.92156982421875, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.0, GPS Altitude_unit: m, GPS Altitude_value: 229.8000030517578,
+      GPS Bearing_unit: deg, GPS Bearing_value: 310.1000061035156, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 0.8, GPS Speed_unit: km/h,
+      GPS Speed_value: 105.3, GPS VDOP_unit: precision, GPS VDOP_value: 0.6, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 157.0, Intake Temperature_unit: c, Intake Temperature_value: 10.0,
+      MAF_unit: l/s, MAF_value: 39.220001220703125, Rpm_unit: u/min, Rpm_value: 2139.0,
+      Speed_unit: km/h, Speed_value: 104.0, Throttle Position_unit: '%', Throttle Position_value: 94.0}
+    _Measurement__road: *id007
+    _Measurement__time: '2014-01-23T06:09:26Z'
+  35: !!python/object:CarTrip.Measurement
+    _Measurement__index: 35
+    _Measurement__latitude: 50.84929313
+    _Measurement__longitude: 5.98063865
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 46.34224591471724,
+      Engine Load_unit: '%', Engine Load_value: 21.176469802856445, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.0, GPS Altitude_unit: m, GPS Altitude_value: 230.5, GPS Bearing_unit: deg,
+      GPS Bearing_value: 314.8999938964844, GPS HDOP_unit: precision, GPS HDOP_value: 0.7,
+      GPS PDOP_unit: precision, GPS PDOP_value: 0.9, GPS Speed_unit: km/h, GPS Speed_value: 102.60000000000001,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.6, Intake Pressure_unit: kPa, Intake Pressure_value: 136.0,
+      Intake Temperature_unit: c, Intake Temperature_value: 9.0, MAF_unit: l/s, MAF_value: 30.829999923706055,
+      Rpm_unit: u/min, Rpm_value: 2055.0, Speed_unit: km/h, Speed_value: 104.0, Throttle Position_unit: '%',
+      Throttle Position_value: 94.0}
+    _Measurement__road: *id007
+    _Measurement__time: '2014-01-23T06:09:32Z'
+  36: !!python/object:CarTrip.Measurement
+    _Measurement__index: 36
+    _Measurement__latitude: 50.85037583
+    _Measurement__longitude: 5.97906787
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 38.26054159370177,
+      Engine Load_unit: '%', Engine Load_value: 49.01960754394531, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.0, GPS Altitude_unit: m, GPS Altitude_value: 231.89999389648438,
+      GPS Bearing_unit: deg, GPS Bearing_value: 317.79998779296875, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.7, GPS PDOP_unit: precision, GPS PDOP_value: 1.0, GPS Speed_unit: km/h,
+      GPS Speed_value: 95.4, GPS VDOP_unit: precision, GPS VDOP_value: 0.7, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 119.0, Intake Temperature_unit: c, Intake Temperature_value: 9.0,
+      MAF_unit: l/s, MAF_value: 25.579999923706055, O2 Lambda Voltage ER_unit: ratio,
+      O2 Lambda Voltage ER_value: 1.999969482421875, O2 Lambda Voltage_unit: V, O2 Lambda Voltage_value: 1.26220703125,
+      Rpm_unit: u/min, Rpm_value: 1939.0, Speed_unit: km/h, Speed_value: 94.0, Throttle Position_unit: '%',
+      Throttle Position_value: 94.0}
+    _Measurement__road: *id007
+    _Measurement__time: '2014-01-23T06:09:38Z'
+  37: !!python/object:CarTrip.Measurement
+    _Measurement__index: 37
+    _Measurement__latitude: 50.8515487
+    _Measurement__longitude: 5.97759615
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 47.58766359783415,
+      Engine Load_unit: '%', Engine Load_value: 42.74509811401367, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 4.0, GPS Altitude_unit: m, GPS Altitude_value: 230.10000610351562,
+      GPS Bearing_unit: deg, GPS Bearing_value: 324.0, GPS HDOP_unit: precision, GPS HDOP_value: 0.7,
+      GPS PDOP_unit: precision, GPS PDOP_value: 1.0, GPS Speed_unit: km/h, GPS Speed_value: 101.7,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.7, Intake Pressure_unit: kPa, Intake Pressure_value: 139.0,
+      Intake Temperature_unit: c, Intake Temperature_value: 10.0, MAF_unit: l/s, MAF_value: 31.440000534057617,
+      Rpm_unit: u/min, Rpm_value: 2072.0, Speed_unit: km/h, Speed_value: 100.0, Throttle Position_unit: '%',
+      Throttle Position_value: 94.0}
+    _Measurement__road: *id007
+    _Measurement__time: '2014-01-23T06:09:44Z'
+  38: !!python/object:CarTrip.Measurement
+    _Measurement__index: 38
+    _Measurement__latitude: 50.8528625
+    _Measurement__longitude: 5.97629249
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 42.08409193199955,
+      Engine Load_unit: '%', Engine Load_value: 37.64706039428711, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 4.0, GPS Altitude_unit: m, GPS Altitude_value: 227.1999969482422,
+      GPS Bearing_unit: deg, GPS Bearing_value: 330.20001220703125, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.7, GPS PDOP_unit: precision, GPS PDOP_value: 1.1, GPS Speed_unit: km/h,
+      GPS Speed_value: 104.4, GPS VDOP_unit: precision, GPS VDOP_value: 0.8, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 120.0, Intake Temperature_unit: c, Intake Temperature_value: 9.0,
+      MAF_unit: l/s, MAF_value: 26.270000457763672, O2 Lambda Voltage ER_unit: ratio,
+      O2 Lambda Voltage ER_value: 0.131805419921875, O2 Lambda Voltage_unit: V, O2 Lambda Voltage_value: 0.612548828125,
+      Rpm_unit: u/min, Rpm_value: 2115.0, Speed_unit: km/h, Speed_value: 102.0, Throttle Position_unit: '%',
+      Throttle Position_value: 94.0}
+    _Measurement__road: *id007
+    _Measurement__time: '2014-01-23T06:09:50Z'
+  39: !!python/object:CarTrip.Measurement
+    _Measurement__index: 39
+    _Measurement__latitude: 50.85430028
+    _Measurement__longitude: 5.97514293
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 40.73013518996037,
+      Engine Load_unit: '%', Engine Load_value: 0.0, GPS Accuracy_unit: '%', GPS Accuracy_value: 7.0,
+      GPS Altitude_unit: m, GPS Altitude_value: 226.6999969482422, GPS Bearing_unit: deg,
+      GPS Bearing_value: 333.1000061035156, GPS HDOP_unit: precision, GPS HDOP_value: 0.7,
+      GPS PDOP_unit: precision, GPS PDOP_value: 1.0, GPS Speed_unit: km/h, GPS Speed_value: 107.10000000000001,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.7, Intake Pressure_unit: kPa, Intake Pressure_value: 117.0,
+      Intake Temperature_unit: c, Intake Temperature_value: 8.0, MAF_unit: l/s, MAF_value: 43.27000045776367,
+      Rpm_unit: u/min, Rpm_value: 2092.0, Speed_unit: km/h, Speed_value: 103.0, Throttle Position_unit: '%',
+      Throttle Position_value: 94.0}
+    _Measurement__road: *id007
+    _Measurement__time: '2014-01-23T06:09:56Z'
+  40: !!python/object:CarTrip.Measurement
+    _Measurement__index: 40
+    _Measurement__latitude: 50.85574372
+    _Measurement__longitude: 5.97408216
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 40.33908169477151,
+      Engine Load_unit: '%', Engine Load_value: 0.0, GPS Accuracy_unit: '%', GPS Accuracy_value: 7.0,
+      GPS Altitude_unit: m, GPS Altitude_value: 226.8000030517578, GPS Bearing_unit: deg,
+      GPS Bearing_value: 335.6000061035156, GPS HDOP_unit: precision, GPS HDOP_value: 0.8,
+      GPS PDOP_unit: precision, GPS PDOP_value: 1.1, GPS Speed_unit: km/h, GPS Speed_value: 103.5,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.8, Intake Pressure_unit: kPa, Intake Pressure_value: 122.0,
+      Intake Temperature_unit: c, Intake Temperature_value: 8.0, MAF_unit: l/s, MAF_value: 41.470001220703125,
+      Rpm_unit: u/min, Rpm_value: 1987.0, Speed_unit: km/h, Speed_value: 98.0, Throttle Position_unit: '%',
+      Throttle Position_value: 94.0}
+    _Measurement__road: *id007
+    _Measurement__time: '2014-01-23T06:10:02Z'
+  41: !!python/object:CarTrip.Measurement
+    _Measurement__index: 41
+    _Measurement__latitude: 50.85701796
+    _Measurement__longitude: 5.97314618
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 40.01475690237871,
+      Engine Load_unit: '%', Engine Load_value: 38.431373596191406, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 8.0, GPS Altitude_unit: m, GPS Altitude_value: 224.3000030517578,
+      GPS Bearing_unit: deg, GPS Bearing_value: 335.20001220703125, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.9, GPS PDOP_unit: precision, GPS PDOP_value: 1.2, GPS Speed_unit: km/h,
+      GPS Speed_value: 96.3, GPS VDOP_unit: precision, GPS VDOP_value: 0.8, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 123.0, Intake Temperature_unit: c, Intake Temperature_value: 8.0,
+      MAF_unit: l/s, MAF_value: 26.65999984741211, O2 Lambda Voltage ER_unit: ratio,
+      O2 Lambda Voltage ER_value: 1.999969482421875, O2 Lambda Voltage_unit: V, O2 Lambda Voltage_value: 1.23779296875,
+      Rpm_unit: u/min, Rpm_value: 1955.0, Speed_unit: km/h, Speed_value: 94.0, Throttle Position_unit: '%',
+      Throttle Position_value: 94.0}
+    _Measurement__road: *id007
+    _Measurement__time: '2014-01-23T06:10:08Z'
+  42: !!python/object:CarTrip.Measurement
+    _Measurement__index: 42
+    _Measurement__latitude: 50.85811881
+    _Measurement__longitude: 5.97232784
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 37.74082242929113,
+      Engine Load_unit: '%', Engine Load_value: 32.94117736816406, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 9.0, GPS Altitude_unit: m, GPS Altitude_value: 221.89999389648438,
+      GPS Bearing_unit: deg, GPS Bearing_value: 334.8999938964844, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.9, GPS PDOP_unit: precision, GPS PDOP_value: 1.2, GPS Speed_unit: km/h,
+      GPS Speed_value: 99.9, GPS VDOP_unit: precision, GPS VDOP_value: 0.8, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 112.0, Intake Temperature_unit: c, Intake Temperature_value: 8.0,
+      MAF_unit: l/s, MAF_value: 22.940000534057617, Rpm_unit: u/min, Rpm_value: 2025.0,
+      Speed_unit: km/h, Speed_value: 98.0, Throttle Position_unit: '%', Throttle Position_value: 94.0}
+    _Measurement__road: *id007
+    _Measurement__time: '2014-01-23T06:10:14Z'
+  43: !!python/object:CarTrip.Measurement
+    _Measurement__index: 43
+    _Measurement__latitude: 50.85943148
+    _Measurement__longitude: 5.97131475
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 40.623018479924056,
+      Engine Load_unit: '%', Engine Load_value: 27.058822631835938, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 212.89999389648438,
+      GPS Bearing_unit: deg, GPS Bearing_value: 335.0, GPS HDOP_unit: precision, GPS HDOP_value: 0.7,
+      GPS PDOP_unit: precision, GPS PDOP_value: 0.9, GPS Speed_unit: km/h, GPS Speed_value: 103.5,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.7, Intake Pressure_unit: kPa, Intake Pressure_value: 116.0,
+      Intake Temperature_unit: c, Intake Temperature_value: 7.0, MAF_unit: l/s, MAF_value: 24.65999984741211,
+      Rpm_unit: u/min, Rpm_value: 2097.0, Speed_unit: km/h, Speed_value: 102.0, Throttle Position_unit: '%',
+      Throttle Position_value: 94.0}
+    _Measurement__road: *id007
+    _Measurement__time: '2014-01-23T06:10:19Z'
+  44: !!python/object:CarTrip.Measurement
+    _Measurement__index: 44
+    _Measurement__latitude: 50.86082117
+    _Measurement__longitude: 5.97031651
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 41.099045663429735,
+      Engine Load_unit: '%', Engine Load_value: 30.980392456054688, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 4.0, GPS Altitude_unit: m, GPS Altitude_value: 200.6999969482422,
+      GPS Bearing_unit: deg, GPS Bearing_value: 335.20001220703125, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.7, GPS PDOP_unit: precision, GPS PDOP_value: 0.9, GPS Speed_unit: km/h,
+      GPS Speed_value: 103.5, GPS VDOP_unit: precision, GPS VDOP_value: 0.7, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 116.0, Intake Temperature_unit: c, Intake Temperature_value: 6.0,
+      MAF_unit: l/s, MAF_value: 24.90999984741211, O2 Lambda Voltage ER_unit: ratio,
+      O2 Lambda Voltage ER_value: 0.241302490234375, O2 Lambda Voltage_unit: V, O2 Lambda Voltage_value: 0.8624267578125,
+      Rpm_unit: u/min, Rpm_value: 2114.0, Speed_unit: km/h, Speed_value: 103.0, Throttle Position_unit: '%',
+      Throttle Position_value: 94.0}
+    _Measurement__road: *id007
+    _Measurement__time: '2014-01-23T06:10:25Z'
+  45: !!python/object:CarTrip.Measurement
+    _Measurement__index: 45
+    _Measurement__latitude: 50.86225779
+    _Measurement__longitude: 5.96927919
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 41.37122477378359,
+      Engine Load_unit: '%', Engine Load_value: 30.980392456054688, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.0, GPS Altitude_unit: m, GPS Altitude_value: 194.0, GPS Bearing_unit: deg,
+      GPS Bearing_value: 333.5, GPS HDOP_unit: precision, GPS HDOP_value: 0.7, GPS PDOP_unit: precision,
+      GPS PDOP_value: 0.9, GPS Speed_unit: km/h, GPS Speed_value: 104.4, GPS VDOP_unit: precision,
+      GPS VDOP_value: 0.7, Intake Pressure_unit: kPa, Intake Pressure_value: 116.0,
+      Intake Temperature_unit: c, Intake Temperature_value: 6.0, MAF_unit: l/s, MAF_value: 24.90999984741211,
+      Rpm_unit: u/min, Rpm_value: 2128.0, Speed_unit: km/h, Speed_value: 103.0, Throttle Position_unit: '%',
+      Throttle Position_value: 94.0}
+    _Measurement__road: *id007
+    _Measurement__time: '2014-01-23T06:10:31Z'
+  46: !!python/object:CarTrip.Measurement
+    _Measurement__index: 46
+    _Measurement__latitude: 50.86366346
+    _Measurement__longitude: 5.96814969
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 41.8847449672098,
+      Engine Load_unit: '%', Engine Load_value: 32.54901885986328, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.0, GPS Altitude_unit: m, GPS Altitude_value: 187.60000610351562,
+      GPS Bearing_unit: deg, GPS Bearing_value: 332.0, GPS HDOP_unit: precision, GPS HDOP_value: 0.8,
+      GPS PDOP_unit: precision, GPS PDOP_value: 1.1, GPS Speed_unit: km/h, GPS Speed_value: 105.3,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.7, Intake Pressure_unit: kPa, Intake Pressure_value: 117.0,
+      Intake Temperature_unit: c, Intake Temperature_value: 6.0, MAF_unit: l/s, MAF_value: 25.65999984741211,
+      O2 Lambda Voltage ER_unit: ratio, O2 Lambda Voltage ER_value: 0.140106201171875,
+      O2 Lambda Voltage_unit: V, O2 Lambda Voltage_value: 0.658203125, Rpm_unit: u/min,
+      Rpm_value: 2136.0, Speed_unit: km/h, Speed_value: 104.0, Throttle Position_unit: '%',
+      Throttle Position_value: 94.0}
+    _Measurement__road: *id007
+    _Measurement__time: '2014-01-23T06:10:37Z'
+  47: !!python/object:CarTrip.Measurement
+    _Measurement__index: 47
+    _Measurement__latitude: 50.86504059
+    _Measurement__longitude: 5.96693262
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 42.33506159349068,
+      Engine Load_unit: '%', Engine Load_value: 32.94117736816406, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.0, GPS Altitude_unit: m, GPS Altitude_value: 183.1999969482422,
+      GPS Bearing_unit: deg, GPS Bearing_value: 329.70001220703125, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.7, GPS PDOP_unit: precision, GPS PDOP_value: 1.0, GPS Speed_unit: km/h,
+      GPS Speed_value: 105.3, GPS VDOP_unit: precision, GPS VDOP_value: 0.7, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 118.0, Intake Temperature_unit: c, Intake Temperature_value: 5.0,
+      MAF_unit: l/s, MAF_value: 25.219999313354492, Rpm_unit: u/min, Rpm_value: 2133.0,
+      Speed_unit: km/h, Speed_value: 104.0, Throttle Position_unit: '%', Throttle Position_value: 94.0}
+    _Measurement__road: *id007
+    _Measurement__time: '2014-01-23T06:10:44Z'
+  48: !!python/object:CarTrip.Measurement
+    _Measurement__index: 48
+    _Measurement__latitude: 50.8663709
+    _Measurement__longitude: 5.96564294
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 41.81902239919591,
+      Engine Load_unit: '%', Engine Load_value: 33.33333206176758, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.0, GPS Altitude_unit: m, GPS Altitude_value: 180.10000610351562,
+      GPS Bearing_unit: deg, GPS Bearing_value: 327.79998779296875, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.7, GPS PDOP_unit: precision, GPS PDOP_value: 1.0, GPS Speed_unit: km/h,
+      GPS Speed_value: 103.5, GPS VDOP_unit: precision, GPS VDOP_value: 0.7, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 118.0, Intake Temperature_unit: c, Intake Temperature_value: 5.0,
+      MAF_unit: l/s, MAF_value: 25.690000534057617, Rpm_unit: u/min, Rpm_value: 2107.0,
+      Speed_unit: km/h, Speed_value: 103.0, Throttle Position_unit: '%', Throttle Position_value: 94.0}
+    _Measurement__road: *id007
+    _Measurement__time: '2014-01-23T06:10:50Z'
+  49: !!python/object:CarTrip.Measurement
+    _Measurement__index: 49
+    _Measurement__latitude: 50.86765932
+    _Measurement__longitude: 5.96429816
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 41.4816121567724,
+      Engine Load_unit: '%', Engine Load_value: 33.33333206176758, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.0, GPS Altitude_unit: m, GPS Altitude_value: 178.0, GPS Bearing_unit: deg,
+      GPS Bearing_value: 325.70001220703125, GPS HDOP_unit: precision, GPS HDOP_value: 0.7,
+      GPS PDOP_unit: precision, GPS PDOP_value: 0.9, GPS Speed_unit: km/h, GPS Speed_value: 102.60000000000001,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.7, Intake Pressure_unit: kPa, Intake Pressure_value: 118.0,
+      Intake Temperature_unit: c, Intake Temperature_value: 5.0, MAF_unit: l/s, MAF_value: 24.989999771118164,
+      O2 Lambda Voltage ER_unit: ratio, O2 Lambda Voltage ER_value: 0.13885498046875,
+      O2 Lambda Voltage_unit: V, O2 Lambda Voltage_value: 0.6510009765625, Rpm_unit: u/min,
+      Rpm_value: 2090.0, Speed_unit: km/h, Speed_value: 102.0, Throttle Position_unit: '%',
+      Throttle Position_value: 94.0}
+    _Measurement__road: *id007
+    _Measurement__time: '2014-01-23T06:10:55Z'
+  50: !!python/object:CarTrip.Measurement
+    _Measurement__index: 50
+    _Measurement__latitude: 50.8689194
+    _Measurement__longitude: 5.96287431
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 52.343833515430276,
+      Engine Load_unit: '%', Engine Load_value: 45.09803771972656, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.0, GPS Altitude_unit: m, GPS Altitude_value: 177.10000610351562,
+      GPS Bearing_unit: deg, GPS Bearing_value: 323.79998779296875, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.7, GPS PDOP_unit: precision, GPS PDOP_value: 0.9, GPS Speed_unit: km/h,
+      GPS Speed_value: 104.4, GPS VDOP_unit: precision, GPS VDOP_value: 0.7, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 147.0, Intake Temperature_unit: c, Intake Temperature_value: 5.0,
+      MAF_unit: l/s, MAF_value: 36.11000061035156, Rpm_unit: u/min, Rpm_value: 2117.0,
+      Speed_unit: km/h, Speed_value: 103.0, Throttle Position_unit: '%', Throttle Position_value: 94.0}
+    _Measurement__road: *id007
+    _Measurement__time: '2014-01-23T06:11:01Z'
+  51: !!python/object:CarTrip.Measurement
+    _Measurement__index: 51
+    _Measurement__latitude: 50.87017487
+    _Measurement__longitude: 5.96139959
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 46.037487575798124,
+      Engine Load_unit: '%', Engine Load_value: 39.60784149169922, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.0, GPS Altitude_unit: m, GPS Altitude_value: 175.6999969482422,
+      GPS Bearing_unit: deg, GPS Bearing_value: 323.29998779296875, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.7, GPS PDOP_unit: precision, GPS PDOP_value: 0.9, GPS Speed_unit: km/h,
+      GPS Speed_value: 104.4, GPS VDOP_unit: precision, GPS VDOP_value: 0.7, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 130.0, Intake Temperature_unit: c, Intake Temperature_value: 6.0,
+      MAF_unit: l/s, MAF_value: 29.770000457763672, O2 Lambda Voltage ER_unit: ratio,
+      O2 Lambda Voltage ER_value: 0.12548828125, O2 Lambda Voltage_unit: V, O2 Lambda Voltage_value: 0.581787109375,
+      Rpm_unit: u/min, Rpm_value: 2113.0, Speed_unit: km/h, Speed_value: 103.0, Throttle Position_unit: '%',
+      Throttle Position_value: 94.0}
+    _Measurement__road: *id007
+    _Measurement__time: '2014-01-23T06:11:07Z'
+  52: !!python/object:CarTrip.Measurement
+    _Measurement__index: 52
+    _Measurement__latitude: 50.87143029
+    _Measurement__longitude: 5.9599447
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 44.57871480700512,
+      Engine Load_unit: '%', Engine Load_value: 40.7843132019043, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.0, GPS Altitude_unit: m, GPS Altitude_value: 174.0, GPS Bearing_unit: deg,
+      GPS Bearing_value: 324.3999938964844, GPS HDOP_unit: precision, GPS HDOP_value: 0.7,
+      GPS PDOP_unit: precision, GPS PDOP_value: 1.0, GPS Speed_unit: km/h, GPS Speed_value: 104.4,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.7, Intake Pressure_unit: kPa, Intake Pressure_value: 126.0,
+      Intake Temperature_unit: c, Intake Temperature_value: 6.0, MAF_unit: l/s, MAF_value: 28.989999771118164,
+      Rpm_unit: u/min, Rpm_value: 2111.0, Speed_unit: km/h, Speed_value: 103.0, Throttle Position_unit: '%',
+      Throttle Position_value: 94.0}
+    _Measurement__road: *id007
+    _Measurement__time: '2014-01-23T06:11:13Z'
+  53: !!python/object:CarTrip.Measurement
+    _Measurement__index: 53
+    _Measurement__latitude: 50.87270638
+    _Measurement__longitude: 5.95853666
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 43.352400428643634,
+      Engine Load_unit: '%', Engine Load_value: 40.39215850830078, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.0, GPS Altitude_unit: m, GPS Altitude_value: 173.1999969482422,
+      GPS Bearing_unit: deg, GPS Bearing_value: 325.6000061035156, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.7, GPS PDOP_unit: precision, GPS PDOP_value: 0.9, GPS Speed_unit: km/h,
+      GPS Speed_value: 103.5, GPS VDOP_unit: precision, GPS VDOP_value: 0.7, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 123.0, Intake Temperature_unit: c, Intake Temperature_value: 6.0,
+      MAF_unit: l/s, MAF_value: 28.299999237060547, Rpm_unit: u/min, Rpm_value: 2103.0,
+      Speed_unit: km/h, Speed_value: 103.0, Throttle Position_unit: '%', Throttle Position_value: 94.0}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: A76, Heerlen, Parkstad Limburg, Limburg, Nederland, 6419EP,
+        Nederland
+      _Road__osm_id: '435561954'
+      _Road__tags: {highway: motorway, int_ref: E 314, lanes: '3', maxspeed: '120',
+        oneway: 'yes', ref: A76, surface: asphalt, 'turn:lanes': none|none|slight_right}
+    _Measurement__time: '2014-01-23T06:11:19Z'
+  54: !!python/object:CarTrip.Measurement
+    _Measurement__index: 54
+    _Measurement__latitude: 50.87399605
+    _Measurement__longitude: 5.95720799
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 41.942481580621056,
+      Engine Load_unit: '%', Engine Load_value: 39.2156867980957, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.0, GPS Altitude_unit: m, GPS Altitude_value: 171.1999969482422,
+      GPS Bearing_unit: deg, GPS Bearing_value: 327.29998779296875, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 0.9, GPS Speed_unit: km/h,
+      GPS Speed_value: 102.60000000000001, GPS VDOP_unit: precision, GPS VDOP_value: 0.6,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 120.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 5.0, MAF_unit: l/s, MAF_value: 26.549999237060547,
+      O2 Lambda Voltage ER_unit: ratio, O2 Lambda Voltage ER_value: 0.1285400390625,
+      O2 Lambda Voltage_unit: V, O2 Lambda Voltage_value: 0.599853515625, Rpm_unit: u/min,
+      Rpm_value: 2078.0, Speed_unit: km/h, Speed_value: 101.0, Throttle Position_unit: '%',
+      Throttle Position_value: 94.0}
+    _Measurement__road: &id008 !!python/object:CarTrip.Road
+      _Road__display_name: A76, Heerlen, Parkstad Limburg, Limburg, Nederland, 6419SG,
+        Nederland
+      _Road__osm_id: '272890653'
+      _Road__tags: {destination: Antwerpen;Eindhoven, 'destination:int_ref': E 314,
+        'destination:ref': A76, highway: motorway, int_ref: E 314, lanes: '2', maxspeed: '120',
+        oneway: 'yes', ref: A76, surface: asphalt}
+    _Measurement__time: '2014-01-23T06:11:25Z'
+  55: !!python/object:CarTrip.Measurement
+    _Measurement__index: 55
+    _Measurement__latitude: 50.8752974
+    _Measurement__longitude: 5.95597584
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 39.09753799121367,
+      Engine Load_unit: '%', Engine Load_value: 25.882352828979492, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.0, GPS Altitude_unit: m, GPS Altitude_value: 169.1999969482422,
+      GPS Bearing_unit: deg, GPS Bearing_value: 329.1000061035156, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 0.8, GPS Speed_unit: km/h,
+      GPS Speed_value: 99.9, GPS VDOP_unit: precision, GPS VDOP_value: 0.6, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 114.0, Intake Temperature_unit: c, Intake Temperature_value: 5.0,
+      MAF_unit: l/s, MAF_value: 22.739999771118164, Rpm_unit: u/min, Rpm_value: 2039.0,
+      Speed_unit: km/h, Speed_value: 100.0, Throttle Position_unit: '%', Throttle Position_value: 94.0}
+    _Measurement__road: *id008
+    _Measurement__time: '2014-01-23T06:11:31Z'
+  56: !!python/object:CarTrip.Measurement
+    _Measurement__index: 56
+    _Measurement__latitude: 50.87657906
+    _Measurement__longitude: 5.9547835
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 37.33782415460613,
+      Engine Load_unit: '%', Engine Load_value: 26.27450942993164, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 4.0, GPS Altitude_unit: m, GPS Altitude_value: 166.5, GPS Bearing_unit: deg,
+      GPS Bearing_value: 329.8999938964844, GPS HDOP_unit: precision, GPS HDOP_value: 0.6,
+      GPS PDOP_unit: precision, GPS PDOP_value: 0.8, GPS Speed_unit: km/h, GPS Speed_value: 98.10000000000001,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.6, Intake Pressure_unit: kPa, Intake Pressure_value: 112.0,
+      Intake Temperature_unit: c, Intake Temperature_value: 5.0, MAF_unit: l/s, MAF_value: 22.579999923706055,
+      O2 Lambda Voltage ER_unit: ratio, O2 Lambda Voltage ER_value: 0.17022705078125,
+      O2 Lambda Voltage_unit: V, O2 Lambda Voltage_value: 0.7509765625, Rpm_unit: u/min,
+      Rpm_value: 1982.0, Speed_unit: km/h, Speed_value: 98.0, Throttle Position_unit: '%',
+      Throttle Position_value: 94.0}
+    _Measurement__road: &id009 !!python/object:CarTrip.Road
+      _Road__display_name: A76, Heerlen, Parkstad Limburg, Limburg, Nederland, 6411RX,
+        Nederland
+      _Road__osm_id: '6749262'
+      _Road__tags: {highway: motorway, int_ref: E 314, lanes: '2', maxspeed: '120',
+        oneway: 'yes', ref: A76, surface: asphalt}
+    _Measurement__time: '2014-01-23T06:11:37Z'
+  57: !!python/object:CarTrip.Measurement
+    _Measurement__index: 57
+    _Measurement__latitude: 50.87782858
+    _Measurement__longitude: 5.9536448
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 36.86686269957831,
+      Engine Load_unit: '%', Engine Load_value: 26.66666603088379, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.0, GPS Altitude_unit: m, GPS Altitude_value: 164.1999969482422,
+      GPS Bearing_unit: deg, GPS Bearing_value: 329.8999938964844, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 0.9, GPS Speed_unit: km/h,
+      GPS Speed_value: 96.3, GPS VDOP_unit: precision, GPS VDOP_value: 0.6, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 112.0, Intake Temperature_unit: c, Intake Temperature_value: 5.0,
+      MAF_unit: l/s, MAF_value: 22.3799991607666, Rpm_unit: u/min, Rpm_value: 1957.0,
+      Speed_unit: km/h, Speed_value: 96.0, Throttle Position_unit: '%', Throttle Position_value: 94.0}
+    _Measurement__road: *id009
+    _Measurement__time: '2014-01-23T06:11:43Z'
+  58: !!python/object:CarTrip.Measurement
+    _Measurement__index: 58
+    _Measurement__latitude: 50.87907225
+    _Measurement__longitude: 5.95250135
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 38.57174316677904,
+      Engine Load_unit: '%', Engine Load_value: 42.35293960571289, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.0, GPS Altitude_unit: m, GPS Altitude_value: 161.10000610351562,
+      GPS Bearing_unit: deg, GPS Bearing_value: 329.79998779296875, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 0.9, GPS Speed_unit: km/h,
+      GPS Speed_value: 96.3, GPS VDOP_unit: precision, GPS VDOP_value: 0.6, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 117.0, Intake Temperature_unit: c, Intake Temperature_value: 5.0,
+      MAF_unit: l/s, MAF_value: 25.8799991607666, Rpm_unit: u/min, Rpm_value: 1960.0,
+      Speed_unit: km/h, Speed_value: 95.0, Throttle Position_unit: '%', Throttle Position_value: 94.0}
+    _Measurement__road: &id010 !!python/object:CarTrip.Road
+      _Road__display_name: A76, Heerlen, Parkstad Limburg, Limburg, Nederland, 6411RN,
+        Nederland
+      _Road__osm_id: '435719590'
+      _Road__tags: {highway: motorway, int_ref: E 314, lanes: '2', maxspeed: '120',
+        oneway: 'yes', ref: A76, surface: asphalt}
+    _Measurement__time: '2014-01-23T06:11:49Z'
+  59: !!python/object:CarTrip.Measurement
+    _Measurement__index: 59
+    _Measurement__latitude: 50.88030138
+    _Measurement__longitude: 5.95129868
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 40.36812471667089,
+      Engine Load_unit: '%', Engine Load_value: 56.07843017578125, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.0, GPS Altitude_unit: m, GPS Altitude_value: 157.10000610351562,
+      GPS Bearing_unit: deg, GPS Bearing_value: 327.0, GPS HDOP_unit: precision, GPS HDOP_value: 0.6,
+      GPS PDOP_unit: precision, GPS PDOP_value: 0.9, GPS Speed_unit: km/h, GPS Speed_value: 99.0,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.6, Intake Pressure_unit: kPa, Intake Pressure_value: 120.0,
+      Intake Temperature_unit: c, Intake Temperature_value: 5.0, MAF_unit: l/s, MAF_value: 26.8799991607666,
+      O2 Lambda Voltage ER_unit: ratio, O2 Lambda Voltage ER_value: 0.1287841796875,
+      O2 Lambda Voltage_unit: V, O2 Lambda Voltage_value: 0.600341796875, Rpm_unit: u/min,
+      Rpm_value: 2000.0, Speed_unit: km/h, Speed_value: 96.0, Throttle Position_unit: '%',
+      Throttle Position_value: 94.0}
+    _Measurement__road: *id010
+    _Measurement__time: '2014-01-23T06:11:55Z'
+  60: !!python/object:CarTrip.Measurement
+    _Measurement__index: 60
+    _Measurement__latitude: 50.88156589
+    _Measurement__longitude: 5.94999543
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 45.743140522695626,
+      Engine Load_unit: '%', Engine Load_value: 40.39215850830078, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.0, GPS Altitude_unit: m, GPS Altitude_value: 154.1999969482422,
+      GPS Bearing_unit: deg, GPS Bearing_value: 326.8999938964844, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 0.9, GPS Speed_unit: km/h,
+      GPS Speed_value: 101.7, GPS VDOP_unit: precision, GPS VDOP_value: 0.6, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 131.0, Intake Temperature_unit: c, Intake Temperature_value: 5.0,
+      MAF_unit: l/s, MAF_value: 28.989999771118164, Rpm_unit: u/min, Rpm_value: 2076.0,
+      Speed_unit: km/h, Speed_value: 101.0, Throttle Position_unit: '%', Throttle Position_value: 94.0}
+    _Measurement__road: *id010
+    _Measurement__time: '2014-01-23T06:12:01Z'
+  61: !!python/object:CarTrip.Measurement
+    _Measurement__index: 61
+    _Measurement__latitude: 50.88285481
+    _Measurement__longitude: 5.94865504
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 44.38391212338138,
+      Engine Load_unit: '%', Engine Load_value: 40.0, GPS Accuracy_unit: '%', GPS Accuracy_value: 3.0,
+      GPS Altitude_unit: m, GPS Altitude_value: 150.6999969482422, GPS Bearing_unit: deg,
+      GPS Bearing_value: 326.8999938964844, GPS HDOP_unit: precision, GPS HDOP_value: 0.6,
+      GPS PDOP_unit: precision, GPS PDOP_value: 0.8, GPS Speed_unit: km/h, GPS Speed_value: 103.5,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.6, Intake Pressure_unit: kPa, Intake Pressure_value: 125.0,
+      Intake Temperature_unit: c, Intake Temperature_value: 5.0, MAF_unit: l/s, MAF_value: 28.860000610351562,
+      O2 Lambda Voltage ER_unit: ratio, O2 Lambda Voltage ER_value: 0.1259765625,
+      O2 Lambda Voltage_unit: V, O2 Lambda Voltage_value: 0.5848388671875, Rpm_unit: u/min,
+      Rpm_value: 2111.0, Speed_unit: km/h, Speed_value: 102.0, Throttle Position_unit: '%',
+      Throttle Position_value: 94.0}
+    _Measurement__road: *id010
+    _Measurement__time: '2014-01-23T06:12:07Z'
+  62: !!python/object:CarTrip.Measurement
+    _Measurement__index: 62
+    _Measurement__latitude: 50.88415792
+    _Measurement__longitude: 5.94726916
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 41.97780368974815,
+      Engine Load_unit: '%', Engine Load_value: 31.372549057006836, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.0, GPS Altitude_unit: m, GPS Altitude_value: 146.8000030517578,
+      GPS Bearing_unit: deg, GPS Bearing_value: 324.70001220703125, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 0.8, GPS Speed_unit: km/h,
+      GPS Speed_value: 104.4, GPS VDOP_unit: precision, GPS VDOP_value: 0.6, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 118.0, Intake Temperature_unit: c, Intake Temperature_value: 5.0,
+      MAF_unit: l/s, MAF_value: 24.969999313354492, Rpm_unit: u/min, Rpm_value: 2115.0,
+      Speed_unit: km/h, Speed_value: 103.0, Throttle Position_unit: '%', Throttle Position_value: 94.0}
+    _Measurement__road: *id010
+    _Measurement__time: '2014-01-23T06:12:13Z'
+  63: !!python/object:CarTrip.Measurement
+    _Measurement__index: 63
+    _Measurement__latitude: 50.88541673
+    _Measurement__longitude: 5.94580592
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 41.2678292962937,
+      Engine Load_unit: '%', Engine Load_value: 29.80392074584961, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.0, GPS Altitude_unit: m, GPS Altitude_value: 143.5, GPS Bearing_unit: deg,
+      GPS Bearing_value: 323.20001220703125, GPS HDOP_unit: precision, GPS HDOP_value: 0.6,
+      GPS PDOP_unit: precision, GPS PDOP_value: 0.8, GPS Speed_unit: km/h, GPS Speed_value: 103.5,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.6, Intake Pressure_unit: kPa, Intake Pressure_value: 117.0,
+      Intake Temperature_unit: c, Intake Temperature_value: 5.0, MAF_unit: l/s, MAF_value: 24.65999984741211,
+      Rpm_unit: u/min, Rpm_value: 2097.0, Speed_unit: km/h, Speed_value: 103.0, Throttle Position_unit: '%',
+      Throttle Position_value: 94.0}
+    _Measurement__road: *id010
+    _Measurement__time: '2014-01-23T06:12:19Z'
+  64: !!python/object:CarTrip.Measurement
+    _Measurement__index: 64
+    _Measurement__latitude: 50.88663918
+    _Measurement__longitude: 5.94433413
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 40.1368490021483,
+      Engine Load_unit: '%', Engine Load_value: 34.509803771972656, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.0, GPS Altitude_unit: m, GPS Altitude_value: 140.1999969482422,
+      GPS Bearing_unit: deg, GPS Bearing_value: 322.5, GPS HDOP_unit: precision, GPS HDOP_value: 0.6,
+      GPS PDOP_unit: precision, GPS PDOP_value: 0.8, GPS Speed_unit: km/h, GPS Speed_value: 101.7,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.6, Intake Pressure_unit: kPa, Intake Pressure_value: 115.0,
+      Intake Temperature_unit: c, Intake Temperature_value: 5.0, MAF_unit: l/s, MAF_value: 23.8799991607666,
+      O2 Lambda Voltage ER_unit: ratio, O2 Lambda Voltage ER_value: 0.150177001953125,
+      O2 Lambda Voltage_unit: V, O2 Lambda Voltage_value: 0.703369140625, Rpm_unit: u/min,
+      Rpm_value: 2075.0, Speed_unit: km/h, Speed_value: 101.0, Throttle Position_unit: '%',
+      Throttle Position_value: 94.0}
+    _Measurement__road: *id010
+    _Measurement__time: '2014-01-23T06:12:25Z'
+  65: !!python/object:CarTrip.Measurement
+    _Measurement__index: 65
+    _Measurement__latitude: 50.88783864
+    _Measurement__longitude: 5.94280817
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 48.767722267092196,
+      Engine Load_unit: '%', Engine Load_value: 43.52941131591797, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.0, GPS Altitude_unit: m, GPS Altitude_value: 137.8000030517578,
+      GPS Bearing_unit: deg, GPS Bearing_value: 321.3999938964844, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 0.9, GPS Speed_unit: km/h,
+      GPS Speed_value: 103.5, GPS VDOP_unit: precision, GPS VDOP_value: 0.6, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 138.0, Intake Temperature_unit: c, Intake Temperature_value: 5.0,
+      MAF_unit: l/s, MAF_value: 32.61000061035156, Rpm_unit: u/min, Rpm_value: 2101.0,
+      Speed_unit: km/h, Speed_value: 102.0, Throttle Position_unit: '%', Throttle Position_value: 94.0}
+    _Measurement__road: *id010
+    _Measurement__time: '2014-01-23T06:12:31Z'
+  66: !!python/object:CarTrip.Measurement
+    _Measurement__index: 66
+    _Measurement__latitude: 50.88907134
+    _Measurement__longitude: 5.94129462
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 50.01610652395523,
+      Engine Load_unit: '%', Engine Load_value: 43.13725662231445, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.0, GPS Altitude_unit: m, GPS Altitude_value: 136.8000030517578,
+      GPS Bearing_unit: deg, GPS Bearing_value: 322.3999938964844, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 0.9, GPS Speed_unit: km/h,
+      GPS Speed_value: 104.4, GPS VDOP_unit: precision, GPS VDOP_value: 0.6, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 140.0, Intake Temperature_unit: c, Intake Temperature_value: 5.0,
+      MAF_unit: l/s, MAF_value: 32.58000183105469, Rpm_unit: u/min, Rpm_value: 2124.0,
+      Speed_unit: km/h, Speed_value: 103.0, Throttle Position_unit: '%', Throttle Position_value: 94.0}
+    _Measurement__road: *id010
+    _Measurement__time: '2014-01-23T06:12:37Z'
+  67: !!python/object:CarTrip.Measurement
+    _Measurement__index: 67
+    _Measurement__latitude: 50.89032381
+    _Measurement__longitude: 5.93983872
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 45.52212503987185,
+      Engine Load_unit: '%', Engine Load_value: 39.60784149169922, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.0, GPS Altitude_unit: m, GPS Altitude_value: 136.60000610351562,
+      GPS Bearing_unit: deg, GPS Bearing_value: 324.6000061035156, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 0.8, GPS Speed_unit: km/h,
+      GPS Speed_value: 102.60000000000001, GPS VDOP_unit: precision, GPS VDOP_value: 0.6,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 129.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 5.0, MAF_unit: l/s, MAF_value: 29.270000457763672,
+      O2 Lambda Voltage ER_unit: ratio, O2 Lambda Voltage ER_value: 0.1185302734375,
+      O2 Lambda Voltage_unit: V, O2 Lambda Voltage_value: 0.539794921875, Rpm_unit: u/min,
+      Rpm_value: 2098.0, Speed_unit: km/h, Speed_value: 103.0, Throttle Position_unit: '%',
+      Throttle Position_value: 94.0}
+    _Measurement__road: *id010
+    _Measurement__time: '2014-01-23T06:12:43Z'
+  68: !!python/object:CarTrip.Measurement
+    _Measurement__index: 68
+    _Measurement__latitude: 50.89154929
+    _Measurement__longitude: 5.93844356
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 42.7148583668667,
+      Engine Load_unit: '%', Engine Load_value: 42.35293960571289, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.0, GPS Altitude_unit: m, GPS Altitude_value: 136.6999969482422,
+      GPS Bearing_unit: deg, GPS Bearing_value: 324.5, GPS HDOP_unit: precision, GPS HDOP_value: 0.6,
+      GPS PDOP_unit: precision, GPS PDOP_value: 0.8, GPS Speed_unit: km/h, GPS Speed_value: 99.9,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.6, Intake Pressure_unit: kPa, Intake Pressure_value: 124.0,
+      Intake Temperature_unit: c, Intake Temperature_value: 5.0, MAF_unit: l/s, MAF_value: 28.520000457763672,
+      Rpm_unit: u/min, Rpm_value: 2048.0, Speed_unit: km/h, Speed_value: 100.0, Throttle Position_unit: '%',
+      Throttle Position_value: 94.0}
+    _Measurement__road: *id010
+    _Measurement__time: '2014-01-23T06:12:49Z'
+  69: !!python/object:CarTrip.Measurement
+    _Measurement__index: 69
+    _Measurement__latitude: 50.89276859
+    _Measurement__longitude: 5.93711151
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 41.484303365086845,
+      Engine Load_unit: '%', Engine Load_value: 44.313724517822266, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.0, GPS Altitude_unit: m, GPS Altitude_value: 137.3000030517578,
+      GPS Bearing_unit: deg, GPS Bearing_value: 325.79998779296875, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 0.8, GPS Speed_unit: km/h,
+      GPS Speed_value: 98.10000000000001, GPS VDOP_unit: precision, GPS VDOP_value: 0.6,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 124.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 5.0, MAF_unit: l/s, MAF_value: 27.8799991607666, O2 Lambda Voltage ER_unit: ratio,
+      O2 Lambda Voltage ER_value: 0.1280517578125, O2 Lambda Voltage_unit: V, O2 Lambda Voltage_value: 0.5977783203125,
+      Rpm_unit: u/min, Rpm_value: 1989.0, Speed_unit: km/h, Speed_value: 97.0, Throttle Position_unit: '%',
+      Throttle Position_value: 94.0}
+    _Measurement__road: *id010
+    _Measurement__time: '2014-01-23T06:12:55Z'
+  70: !!python/object:CarTrip.Measurement
+    _Measurement__index: 70
+    _Measurement__latitude: 50.89377798
+    _Measurement__longitude: 5.9360445
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 41.27220250980467,
+      Engine Load_unit: '%', Engine Load_value: 45.490196228027344, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.0, GPS Altitude_unit: m, GPS Altitude_value: 137.1999969482422,
+      GPS Bearing_unit: deg, GPS Bearing_value: 326.5, GPS HDOP_unit: precision, GPS HDOP_value: 0.6,
+      GPS PDOP_unit: precision, GPS PDOP_value: 0.9, GPS Speed_unit: km/h, GPS Speed_value: 96.3,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.6, Intake Pressure_unit: kPa, Intake Pressure_value: 125.0,
+      Intake Temperature_unit: c, Intake Temperature_value: 5.0, MAF_unit: l/s, MAF_value: 28.219999313354492,
+      Rpm_unit: u/min, Rpm_value: 1963.0, Speed_unit: km/h, Speed_value: 96.0, Throttle Position_unit: '%',
+      Throttle Position_value: 94.0}
+    _Measurement__road: *id010
+    _Measurement__time: '2014-01-23T06:13:01Z'
+  71: !!python/object:CarTrip.Measurement
+    _Measurement__index: 71
+    _Measurement__latitude: 50.8949972
+    _Measurement__longitude: 5.93480962
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 48.770749876445926,
+      Engine Load_unit: '%', Engine Load_value: 46.66666793823242, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.0, GPS Altitude_unit: m, GPS Altitude_value: 136.8000030517578,
+      GPS Bearing_unit: deg, GPS Bearing_value: 327.5, GPS HDOP_unit: precision, GPS HDOP_value: 0.6,
+      GPS PDOP_unit: precision, GPS PDOP_value: 0.8, GPS Speed_unit: km/h, GPS Speed_value: 97.2,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.6, Intake Pressure_unit: kPa, Intake Pressure_value: 146.0,
+      Intake Temperature_unit: c, Intake Temperature_value: 5.0, MAF_unit: l/s, MAF_value: 34.470001220703125,
+      Rpm_unit: u/min, Rpm_value: 1986.0, Speed_unit: km/h, Speed_value: 96.0, Throttle Position_unit: '%',
+      Throttle Position_value: 94.0}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: A76, Heerlen, Parkstad Limburg, Limburg, Nederland, 6412PS,
+        Nederland
+      _Road__osm_id: '435719598'
+      _Road__tags: {highway: motorway, int_ref: E 314, lanes: '3', maxspeed: '120',
+        oneway: 'yes', ref: A76, surface: asphalt, 'turn:lanes': none|none|slight_right}
+    _Measurement__time: '2014-01-23T06:13:06Z'
+  72: !!python/object:CarTrip.Measurement
+    _Measurement__index: 72
+    _Measurement__latitude: 50.89623944
+    _Measurement__longitude: 5.93360301
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 46.35927568656128,
+      Engine Load_unit: '%', Engine Load_value: 45.882354736328125, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.0, GPS Altitude_unit: m, GPS Altitude_value: 136.60000610351562,
+      GPS Bearing_unit: deg, GPS Bearing_value: 328.70001220703125, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 0.8, GPS Speed_unit: km/h,
+      GPS Speed_value: 98.10000000000001, GPS VDOP_unit: precision, GPS VDOP_value: 0.6,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 139.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 6.0, MAF_unit: l/s, MAF_value: 31.719999313354492,
+      O2 Lambda Voltage ER_unit: ratio, O2 Lambda Voltage ER_value: 0.116546630859375,
+      O2 Lambda Voltage_unit: V, O2 Lambda Voltage_value: 0.5272216796875, Rpm_unit: u/min,
+      Rpm_value: 1990.0, Speed_unit: km/h, Speed_value: 97.0, Throttle Position_unit: '%',
+      Throttle Position_value: 94.0}
+    _Measurement__road: &id011 !!python/object:CarTrip.Road
+      _Road__display_name: A76, Heerlen, Parkstad Limburg, Limburg, Nederland, 6412PW,
+        Nederland
+      _Road__osm_id: '6749239'
+      _Road__tags: {highway: motorway, int_ref: E 314, lanes: '2', maxspeed: '120',
+        oneway: 'yes', ref: A76, surface: asphalt}
+    _Measurement__time: '2014-01-23T06:13:12Z'
+  73: !!python/object:CarTrip.Measurement
+    _Measurement__index: 73
+    _Measurement__latitude: 50.89750203
+    _Measurement__longitude: 5.9323908
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 46.03664958592634,
+      Engine Load_unit: '%', Engine Load_value: 45.490196228027344, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.0, GPS Altitude_unit: m, GPS Altitude_value: 136.0, GPS Bearing_unit: deg,
+      GPS Bearing_value: 328.70001220703125, GPS HDOP_unit: precision, GPS HDOP_value: 0.6,
+      GPS PDOP_unit: precision, GPS PDOP_value: 0.8, GPS Speed_unit: km/h, GPS Speed_value: 99.0,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.6, Intake Pressure_unit: kPa, Intake Pressure_value: 137.0,
+      Intake Temperature_unit: c, Intake Temperature_value: 6.0, MAF_unit: l/s, MAF_value: 31.690000534057617,
+      Rpm_unit: u/min, Rpm_value: 2005.0, Speed_unit: km/h, Speed_value: 98.0, Throttle Position_unit: '%',
+      Throttle Position_value: 94.0}
+    _Measurement__road: *id011
+    _Measurement__time: '2014-01-23T06:13:18Z'
+  74: !!python/object:CarTrip.Measurement
+    _Measurement__index: 74
+    _Measurement__latitude: 50.89876823
+    _Measurement__longitude: 5.93117663
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 46.065308839541174,
+      Engine Load_unit: '%', Engine Load_value: 45.09803771972656, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.0, GPS Altitude_unit: m, GPS Altitude_value: 135.39999389648438,
+      GPS Bearing_unit: deg, GPS Bearing_value: 328.70001220703125, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.7, GPS PDOP_unit: precision, GPS PDOP_value: 1.0, GPS Speed_unit: km/h,
+      GPS Speed_value: 99.0, GPS VDOP_unit: precision, GPS VDOP_value: 0.7, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 136.0, Intake Temperature_unit: c, Intake Temperature_value: 6.0,
+      MAF_unit: l/s, MAF_value: 31.719999313354492, O2 Lambda Voltage ER_unit: ratio,
+      O2 Lambda Voltage ER_value: 0.118988037109375, O2 Lambda Voltage_unit: V, O2 Lambda Voltage_value: 0.5428466796875,
+      Rpm_unit: u/min, Rpm_value: 2021.0, Speed_unit: km/h, Speed_value: 98.0, Throttle Position_unit: '%',
+      Throttle Position_value: 94.0}
+    _Measurement__road: *id011
+    _Measurement__time: '2014-01-23T06:13:24Z'
+  75: !!python/object:CarTrip.Measurement
+    _Measurement__index: 75
+    _Measurement__latitude: 50.9000474
+    _Measurement__longitude: 5.92994543
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 45.975476325286465,
+      Engine Load_unit: '%', Engine Load_value: 42.74509811401367, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.0, GPS Altitude_unit: m, GPS Altitude_value: 136.5, GPS Bearing_unit: deg,
+      GPS Bearing_value: 328.70001220703125, GPS HDOP_unit: precision, GPS HDOP_value: 0.7,
+      GPS PDOP_unit: precision, GPS PDOP_value: 1.0, GPS Speed_unit: km/h, GPS Speed_value: 99.9,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.7, Intake Pressure_unit: kPa, Intake Pressure_value: 135.0,
+      Intake Temperature_unit: c, Intake Temperature_value: 6.0, MAF_unit: l/s, MAF_value: 28.8799991607666,
+      Rpm_unit: u/min, Rpm_value: 2032.0, Speed_unit: km/h, Speed_value: 99.0, Throttle Position_unit: '%',
+      Throttle Position_value: 94.0}
+    _Measurement__road: *id011
+    _Measurement__time: '2014-01-23T06:13:30Z'
+  76: !!python/object:CarTrip.Measurement
+    _Measurement__index: 76
+    _Measurement__latitude: 50.90111292
+    _Measurement__longitude: 5.92892468
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 41.979940616643894,
+      Engine Load_unit: '%', Engine Load_value: 44.70588302612305, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.0, GPS Altitude_unit: m, GPS Altitude_value: 136.6999969482422,
+      GPS Bearing_unit: deg, GPS Bearing_value: 328.79998779296875, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.7, GPS PDOP_unit: precision, GPS PDOP_value: 1.0, GPS Speed_unit: km/h,
+      GPS Speed_value: 99.0, GPS VDOP_unit: precision, GPS VDOP_value: 0.7, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 124.0, Intake Temperature_unit: c, Intake Temperature_value: 6.0,
+      MAF_unit: l/s, MAF_value: 28.799999237060547, Rpm_unit: u/min, Rpm_value: 2020.0,
+      Speed_unit: km/h, Speed_value: 98.0, Throttle Position_unit: '%', Throttle Position_value: 94.0}
+    _Measurement__road: *id011
+    _Measurement__time: '2014-01-23T06:13:36Z'
+  77: !!python/object:CarTrip.Measurement
+    _Measurement__index: 77
+    _Measurement__latitude: 50.90216105
+    _Measurement__longitude: 5.92792769
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 43.85871390917256,
+      Engine Load_unit: '%', Engine Load_value: 45.490196228027344, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.0, GPS Altitude_unit: m, GPS Altitude_value: 135.89999389648438,
+      GPS Bearing_unit: deg, GPS Bearing_value: 329.0, GPS HDOP_unit: precision, GPS HDOP_value: 0.7,
+      GPS PDOP_unit: precision, GPS PDOP_value: 0.9, GPS Speed_unit: km/h, GPS Speed_value: 99.9,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.6, Intake Pressure_unit: kPa, Intake Pressure_value: 130.0,
+      Intake Temperature_unit: c, Intake Temperature_value: 6.0, MAF_unit: l/s, MAF_value: 30.110000610351562,
+      O2 Lambda Voltage ER_unit: ratio, O2 Lambda Voltage ER_value: 0.121551513671875,
+      O2 Lambda Voltage_unit: V, O2 Lambda Voltage_value: 0.5604248046875, Rpm_unit: u/min,
+      Rpm_value: 2013.0, Speed_unit: km/h, Speed_value: 98.0, Throttle Position_unit: '%',
+      Throttle Position_value: 94.0}
+    _Measurement__road: *id011
+    _Measurement__time: '2014-01-23T06:13:41Z'
+  78: !!python/object:CarTrip.Measurement
+    _Measurement__index: 78
+    _Measurement__latitude: 50.90344124
+    _Measurement__longitude: 5.92671083
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 45.862347692596295,
+      Engine Load_unit: '%', Engine Load_value: 45.09803771972656, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 135.6999969482422,
+      GPS Bearing_unit: deg, GPS Bearing_value: 328.79998779296875, GPS HDOP_unit: precision,
+      GPS HDOP_value: 1.0, GPS PDOP_unit: precision, GPS PDOP_value: 1.3, GPS Speed_unit: km/h,
+      GPS Speed_value: 99.9, GPS VDOP_unit: precision, GPS VDOP_value: 0.8, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 135.0, Intake Temperature_unit: c, Intake Temperature_value: 6.0,
+      MAF_unit: l/s, MAF_value: 31.3799991607666, Rpm_unit: u/min, Rpm_value: 2027.0,
+      Speed_unit: km/h, Speed_value: 99.0, Throttle Position_unit: '%', Throttle Position_value: 94.0}
+    _Measurement__road: *id011
+    _Measurement__time: '2014-01-23T06:13:46Z'
+  79: !!python/object:CarTrip.Measurement
+    _Measurement__index: 79
+    _Measurement__latitude: 50.90451954
+    _Measurement__longitude: 5.925691
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 46.17910786412877,
+      Engine Load_unit: '%', Engine Load_value: 45.09803771972656, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.0, GPS Altitude_unit: m, GPS Altitude_value: 134.3000030517578,
+      GPS Bearing_unit: deg, GPS Bearing_value: 328.5, GPS HDOP_unit: precision, GPS HDOP_value: 0.9,
+      GPS PDOP_unit: precision, GPS PDOP_value: 1.2, GPS Speed_unit: km/h, GPS Speed_value: 100.8,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.8, Intake Pressure_unit: kPa, Intake Pressure_value: 135.0,
+      Intake Temperature_unit: c, Intake Temperature_value: 6.0, MAF_unit: l/s, MAF_value: 31.719999313354492,
+      Rpm_unit: u/min, Rpm_value: 2041.0, Speed_unit: km/h, Speed_value: 99.0, Throttle Position_unit: '%',
+      Throttle Position_value: 94.0}
+    _Measurement__road: *id011
+    _Measurement__time: '2014-01-23T06:13:52Z'
+  80: !!python/object:CarTrip.Measurement
+    _Measurement__index: 80
+    _Measurement__latitude: 50.90578197
+    _Measurement__longitude: 5.92435763
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 45.539553993987,
+      Engine Load_unit: '%', Engine Load_value: 44.313724517822266, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.0, GPS Altitude_unit: m, GPS Altitude_value: 133.6999969482422,
+      GPS Bearing_unit: deg, GPS Bearing_value: 323.8999938964844, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.8, GPS PDOP_unit: precision, GPS PDOP_value: 1.1, GPS Speed_unit: km/h,
+      GPS Speed_value: 100.8, GPS VDOP_unit: precision, GPS VDOP_value: 0.7, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 133.0, Intake Temperature_unit: c, Intake Temperature_value: 6.0,
+      MAF_unit: l/s, MAF_value: 31.15999984741211, O2 Lambda Voltage ER_unit: ratio,
+      O2 Lambda Voltage ER_value: 0.121307373046875, O2 Lambda Voltage_unit: V, O2 Lambda Voltage_value: 0.55859375,
+      Rpm_unit: u/min, Rpm_value: 2043.0, Speed_unit: km/h, Speed_value: 100.0, Throttle Position_unit: '%',
+      Throttle Position_value: 94.0}
+    _Measurement__road: *id011
+    _Measurement__time: '2014-01-23T06:13:57Z'
+  81: !!python/object:CarTrip.Measurement
+    _Measurement__index: 81
+    _Measurement__latitude: 50.90695005
+    _Measurement__longitude: 5.92285835
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 45.60642558575498,
+      Engine Load_unit: '%', Engine Load_value: 44.313724517822266, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.0, GPS Altitude_unit: m, GPS Altitude_value: 132.39999389648438,
+      GPS Bearing_unit: deg, GPS Bearing_value: 318.79998779296875, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.9, GPS PDOP_unit: precision, GPS PDOP_value: 1.2, GPS Speed_unit: km/h,
+      GPS Speed_value: 101.7, GPS VDOP_unit: precision, GPS VDOP_value: 0.8, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 133.0, Intake Temperature_unit: c, Intake Temperature_value: 6.0,
+      MAF_unit: l/s, MAF_value: 31.8799991607666, Rpm_unit: u/min, Rpm_value: 2046.0,
+      Speed_unit: km/h, Speed_value: 100.0, Throttle Position_unit: '%', Throttle Position_value: 94.0}
+    _Measurement__road: *id011
+    _Measurement__time: '2014-01-23T06:14:04Z'
+  82: !!python/object:CarTrip.Measurement
+    _Measurement__index: 82
+    _Measurement__latitude: 50.9080294
+    _Measurement__longitude: 5.92117367
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 43.720277982354645,
+      Engine Load_unit: '%', Engine Load_value: 43.92156982421875, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.0, GPS Altitude_unit: m, GPS Altitude_value: 133.60000610351562,
+      GPS Bearing_unit: deg, GPS Bearing_value: 313.3999938964844, GPS HDOP_unit: precision,
+      GPS HDOP_value: 1.0, GPS PDOP_unit: precision, GPS PDOP_value: 1.3, GPS Speed_unit: km/h,
+      GPS Speed_value: 100.8, GPS VDOP_unit: precision, GPS VDOP_value: 0.8, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 128.0, Intake Temperature_unit: c, Intake Temperature_value: 6.0,
+      MAF_unit: l/s, MAF_value: 29.360000610351562, Rpm_unit: u/min, Rpm_value: 2038.0,
+      Speed_unit: km/h, Speed_value: 100.0, Throttle Position_unit: '%', Throttle Position_value: 94.0}
+    _Measurement__road: *id011
+    _Measurement__time: '2014-01-23T06:14:09Z'
+  83: !!python/object:CarTrip.Measurement
+    _Measurement__index: 83
+    _Measurement__latitude: 50.90884583
+    _Measurement__longitude: 5.91969445
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 42.56184078360727,
+      Engine Load_unit: '%', Engine Load_value: 43.52941131591797, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.0, GPS Altitude_unit: m, GPS Altitude_value: 129.5, GPS Bearing_unit: deg,
+      GPS Bearing_value: 308.20001220703125, GPS HDOP_unit: precision, GPS HDOP_value: 0.9,
+      GPS PDOP_unit: precision, GPS PDOP_value: 1.1, GPS Speed_unit: km/h, GPS Speed_value: 99.9,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.7, Intake Pressure_unit: kPa, Intake Pressure_value: 124.0,
+      Intake Temperature_unit: c, Intake Temperature_value: 6.0, MAF_unit: l/s, MAF_value: 27.329999923706055,
+      O2 Lambda Voltage ER_unit: ratio, O2 Lambda Voltage ER_value: 0.12371826171875,
+      O2 Lambda Voltage_unit: V, O2 Lambda Voltage_value: 0.5721435546875, Rpm_unit: u/min,
+      Rpm_value: 2048.0, Speed_unit: km/h, Speed_value: 100.0, Throttle Position_unit: '%',
+      Throttle Position_value: 94.0}
+    _Measurement__road: &id012 !!python/object:CarTrip.Road
+      _Road__display_name: A76, Hoensbroek, Heerlen, Parkstad Limburg, Limburg, Nederland,
+        6433, Nederland
+      _Road__osm_id: '189656604'
+      _Road__tags: {highway: motorway, int_ref: E 314, lanes: '2', maxspeed: '120',
+        oneway: 'yes', ref: A76}
+    _Measurement__time: '2014-01-23T06:14:15Z'
+  84: !!python/object:CarTrip.Measurement
+    _Measurement__index: 84
+    _Measurement__latitude: 50.90972386
+    _Measurement__longitude: 5.91771493
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 41.97826463690034,
+      Engine Load_unit: '%', Engine Load_value: 26.27450942993164, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 129.3000030517578,
+      GPS Bearing_unit: deg, GPS Bearing_value: 304.1000061035156, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 0.8, GPS Speed_unit: km/h,
+      GPS Speed_value: 101.7, GPS VDOP_unit: precision, GPS VDOP_value: 0.6, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 121.0, Intake Temperature_unit: c, Intake Temperature_value: 6.0,
+      MAF_unit: l/s, MAF_value: 27.579999923706055, Rpm_unit: u/min, Rpm_value: 2070.0,
+      Speed_unit: km/h, Speed_value: 101.0, Throttle Position_unit: '%', Throttle Position_value: 94.0}
+    _Measurement__road: *id012
+    _Measurement__time: '2014-01-23T06:14:20Z'
+  85: !!python/object:CarTrip.Measurement
+    _Measurement__index: 85
+    _Measurement__latitude: 50.91045628
+    _Measurement__longitude: 5.91571212
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 39.95099953909243,
+      Engine Load_unit: '%', Engine Load_value: 0.0, GPS Accuracy_unit: '%', GPS Accuracy_value: 3.0,
+      GPS Altitude_unit: m, GPS Altitude_value: 126.19999694824219, GPS Bearing_unit: deg,
+      GPS Bearing_value: 298.29998779296875, GPS HDOP_unit: precision, GPS HDOP_value: 0.6,
+      GPS PDOP_unit: precision, GPS PDOP_value: 0.8, GPS Speed_unit: km/h, GPS Speed_value: 95.4,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.6, Intake Pressure_unit: kPa, Intake Pressure_value: 123.0,
+      Intake Temperature_unit: c, Intake Temperature_value: 6.0, MAF_unit: l/s, MAF_value: 40.83000183105469,
+      O2 Lambda Voltage ER_unit: ratio, O2 Lambda Voltage ER_value: 1.999969482421875,
+      O2 Lambda Voltage_unit: V, O2 Lambda Voltage_value: 1.2674560546875, Rpm_unit: u/min,
+      Rpm_value: 1938.0, Speed_unit: km/h, Speed_value: 96.0, Throttle Position_unit: '%',
+      Throttle Position_value: 94.0}
+    _Measurement__road: *id012
+    _Measurement__time: '2014-01-23T06:14:26Z'
+  86: !!python/object:CarTrip.Measurement
+    _Measurement__index: 86
+    _Measurement__latitude: 50.91104381
+    _Measurement__longitude: 5.91374488
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 35.11211082349141,
+      Engine Load_unit: '%', Engine Load_value: 41.17647171020508, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.0, GPS Altitude_unit: m, GPS Altitude_value: 122.80000305175781,
+      GPS Bearing_unit: deg, GPS Bearing_value: 293.8999938964844, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 0.8, GPS Speed_unit: km/h,
+      GPS Speed_value: 91.8, GPS VDOP_unit: precision, GPS VDOP_value: 0.6, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 113.0, Intake Temperature_unit: c, Intake Temperature_value: 6.0,
+      MAF_unit: l/s, MAF_value: 20.969999313354492, Rpm_unit: u/min, Rpm_value: 1854.0,
+      Speed_unit: km/h, Speed_value: 90.0, Throttle Position_unit: '%', Throttle Position_value: 94.0}
+    _Measurement__road: *id012
+    _Measurement__time: '2014-01-23T06:14:32Z'
+  87: !!python/object:CarTrip.Measurement
+    _Measurement__index: 87
+    _Measurement__latitude: 50.91163484
+    _Measurement__longitude: 5.91170141
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 43.793350699173786,
+      Engine Load_unit: '%', Engine Load_value: 44.70588302612305, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.0, GPS Altitude_unit: m, GPS Altitude_value: 122.19999694824219,
+      GPS Bearing_unit: deg, GPS Bearing_value: 294.3999938964844, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 0.8, GPS Speed_unit: km/h,
+      GPS Speed_value: 96.3, GPS VDOP_unit: precision, GPS VDOP_value: 0.6, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 134.0, Intake Temperature_unit: c, Intake Temperature_value: 6.0,
+      MAF_unit: l/s, MAF_value: 30.110000610351562, Rpm_unit: u/min, Rpm_value: 1950.0,
+      Speed_unit: km/h, Speed_value: 94.0, Throttle Position_unit: '%', Throttle Position_value: 94.0}
+    _Measurement__road: *id012
+    _Measurement__time: '2014-01-23T06:14:38Z'
+  88: !!python/object:CarTrip.Measurement
+    _Measurement__index: 88
+    _Measurement__latitude: 50.91222308
+    _Measurement__longitude: 5.90961692
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 40.486977861082316,
+      Engine Load_unit: '%', Engine Load_value: 42.74509811401367, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.0, GPS Altitude_unit: m, GPS Altitude_value: 121.80000305175781,
+      GPS Bearing_unit: deg, GPS Bearing_value: 294.20001220703125, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.5, GPS PDOP_unit: precision, GPS PDOP_value: 0.8, GPS Speed_unit: km/h,
+      GPS Speed_value: 96.3, GPS VDOP_unit: precision, GPS VDOP_value: 0.6, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 123.0, Intake Temperature_unit: c, Intake Temperature_value: 6.0,
+      MAF_unit: l/s, MAF_value: 26.549999237060547, O2 Lambda Voltage ER_unit: ratio,
+      O2 Lambda Voltage ER_value: 0.13043212890625, O2 Lambda Voltage_unit: V, O2 Lambda Voltage_value: 0.609619140625,
+      Rpm_unit: u/min, Rpm_value: 1964.0, Speed_unit: km/h, Speed_value: 96.0, Throttle Position_unit: '%',
+      Throttle Position_value: 94.0}
+    _Measurement__road: *id012
+    _Measurement__time: '2014-01-23T06:14:44Z'
+  89: !!python/object:CarTrip.Measurement
+    _Measurement__index: 89
+    _Measurement__latitude: 50.91281271
+    _Measurement__longitude: 5.9075396
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 40.74725751525689,
+      Engine Load_unit: '%', Engine Load_value: 49.01960754394531, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.0, GPS Altitude_unit: m, GPS Altitude_value: 123.0, GPS Bearing_unit: deg,
+      GPS Bearing_value: 294.29998779296875, GPS HDOP_unit: precision, GPS HDOP_value: 0.5,
+      GPS PDOP_unit: precision, GPS PDOP_value: 0.8, GPS Speed_unit: km/h, GPS Speed_value: 95.4,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.6, Intake Pressure_unit: kPa, Intake Pressure_value: 125.0,
+      Intake Temperature_unit: c, Intake Temperature_value: 6.0, MAF_unit: l/s, MAF_value: 28.360000610351562,
+      Rpm_unit: u/min, Rpm_value: 1945.0, Speed_unit: km/h, Speed_value: 95.0, Throttle Position_unit: '%',
+      Throttle Position_value: 94.0}
+    _Measurement__road: *id012
+    _Measurement__time: '2014-01-23T06:14:51Z'
+  90: !!python/object:CarTrip.Measurement
+    _Measurement__index: 90
+    _Measurement__latitude: 50.91340727
+    _Measurement__longitude: 5.90544617
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 49.27380446060886,
+      Engine Load_unit: '%', Engine Load_value: 47.05882263183594, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.0, GPS Altitude_unit: m, GPS Altitude_value: 123.30000305175781,
+      GPS Bearing_unit: deg, GPS Bearing_value: 294.0, GPS HDOP_unit: precision, GPS HDOP_value: 0.6,
+      GPS PDOP_unit: precision, GPS PDOP_value: 0.8, GPS Speed_unit: km/h, GPS Speed_value: 98.10000000000001,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.6, Intake Pressure_unit: kPa, Intake Pressure_value: 147.0,
+      Intake Temperature_unit: c, Intake Temperature_value: 6.0, MAF_unit: l/s, MAF_value: 34.83000183105469,
+      O2 Lambda Voltage ER_unit: ratio, O2 Lambda Voltage ER_value: 0.116790771484375,
+      O2 Lambda Voltage_unit: V, O2 Lambda Voltage_value: 0.52880859375, Rpm_unit: u/min,
+      Rpm_value: 2000.0, Speed_unit: km/h, Speed_value: 97.0, Throttle Position_unit: '%',
+      Throttle Position_value: 94.0}
+    _Measurement__road: *id012
+    _Measurement__time: '2014-01-23T06:14:57Z'
+  91: !!python/object:CarTrip.Measurement
+    _Measurement__index: 91
+    _Measurement__latitude: 50.91401185
+    _Measurement__longitude: 5.90330069
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 42.2926817869566,
+      Engine Load_unit: '%', Engine Load_value: 42.74509811401367, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.0, GPS Altitude_unit: m, GPS Altitude_value: 122.9000015258789,
+      GPS Bearing_unit: deg, GPS Bearing_value: 294.1000061035156, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 0.8, GPS Speed_unit: km/h,
+      GPS Speed_value: 99.9, GPS VDOP_unit: precision, GPS VDOP_value: 0.6, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 125.0, Intake Temperature_unit: c, Intake Temperature_value: 7.0,
+      MAF_unit: l/s, MAF_value: 27.739999771118164, Rpm_unit: u/min, Rpm_value: 2026.0,
+      Speed_unit: km/h, Speed_value: 99.0, Throttle Position_unit: '%', Throttle Position_value: 94.0}
+    _Measurement__road: &id013 !!python/object:CarTrip.Road
+      _Road__display_name: A76, Hoensbroek, Heerlen, Parkstad Limburg, Limburg, Nederland,
+        6363CT, Nederland
+      _Road__osm_id: '6769181'
+      _Road__tags: {highway: motorway, int_ref: E 314, lanes: '2', maxspeed: '120',
+        oneway: 'yes', ref: A76}
+    _Measurement__time: '2014-01-23T06:15:02Z'
+  92: !!python/object:CarTrip.Measurement
+    _Measurement__index: 92
+    _Measurement__latitude: 50.9146184
+    _Measurement__longitude: 5.90114437
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 42.229326402485334,
+      Engine Load_unit: '%', Engine Load_value: 42.74509811401367, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.0, GPS Altitude_unit: m, GPS Altitude_value: 122.9000015258789,
+      GPS Bearing_unit: deg, GPS Bearing_value: 294.1000061035156, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 0.8, GPS Speed_unit: km/h,
+      GPS Speed_value: 99.9, GPS VDOP_unit: precision, GPS VDOP_value: 0.6, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 124.0, Intake Temperature_unit: c, Intake Temperature_value: 6.0,
+      MAF_unit: l/s, MAF_value: 27.860000610351562, Rpm_unit: u/min, Rpm_value: 2032.0,
+      Speed_unit: km/h, Speed_value: 99.0, Throttle Position_unit: '%', Throttle Position_value: 94.0}
+    _Measurement__road: *id013
+    _Measurement__time: '2014-01-23T06:15:08Z'
+  93: !!python/object:CarTrip.Measurement
+    _Measurement__index: 93
+    _Measurement__latitude: 50.91524889
+    _Measurement__longitude: 5.89900741
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 41.744465462673986,
+      Engine Load_unit: '%', Engine Load_value: 42.35293960571289, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.0, GPS Altitude_unit: m, GPS Altitude_value: 122.4000015258789,
+      GPS Bearing_unit: deg, GPS Bearing_value: 297.0, GPS HDOP_unit: precision, GPS HDOP_value: 0.6,
+      GPS PDOP_unit: precision, GPS PDOP_value: 0.8, GPS Speed_unit: km/h, GPS Speed_value: 99.9,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.6, Intake Pressure_unit: kPa, Intake Pressure_value: 123.0,
+      Intake Temperature_unit: c, Intake Temperature_value: 6.0, MAF_unit: l/s, MAF_value: 27.079999923706055,
+      O2 Lambda Voltage ER_unit: ratio, O2 Lambda Voltage ER_value: 0.125244140625,
+      O2 Lambda Voltage_unit: V, O2 Lambda Voltage_value: 0.5804443359375, Rpm_unit: u/min,
+      Rpm_value: 2025.0, Speed_unit: km/h, Speed_value: 99.0, Throttle Position_unit: '%',
+      Throttle Position_value: 94.0}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: A76, Laar, Nuth, Parkstad Limburg, Limburg, Nederland,
+        6361, Nederland
+      _Road__osm_id: '435719611'
+      _Road__tags: {highway: motorway, int_ref: E 314, lanes: '2', maxspeed: '120',
+        oneway: 'yes', ref: A76}
+    _Measurement__time: '2014-01-23T06:15:14Z'
+  94: !!python/object:CarTrip.Measurement
+    _Measurement__index: 94
+    _Measurement__latitude: 50.91606887
+    _Measurement__longitude: 5.89702089
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 40.446754347236926,
+      Engine Load_unit: '%', Engine Load_value: 37.64706039428711, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.0, GPS Altitude_unit: m, GPS Altitude_value: 120.80000305175781,
+      GPS Bearing_unit: deg, GPS Bearing_value: 306.5, GPS HDOP_unit: precision, GPS HDOP_value: 0.6,
+      GPS PDOP_unit: precision, GPS PDOP_value: 0.8, GPS Speed_unit: km/h, GPS Speed_value: 99.9,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.6, Intake Pressure_unit: kPa, Intake Pressure_value: 119.0,
+      Intake Temperature_unit: c, Intake Temperature_value: 6.0, MAF_unit: l/s, MAF_value: 25.079999923706055,
+      Rpm_unit: u/min, Rpm_value: 2028.0, Speed_unit: km/h, Speed_value: 99.0, Throttle Position_unit: '%',
+      Throttle Position_value: 94.0}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: A76, Laar, Nuth, Parkstad Limburg, Limburg, Nederland,
+        6361, Nederland
+      _Road__osm_id: '435719604'
+      _Road__tags: {highway: motorway, int_ref: E 314, lanes: '3', maxspeed: '120',
+        oneway: 'yes', ref: A76, 'turn:lanes': none|none|slight_right}
+    _Measurement__time: '2014-01-23T06:15:20Z'
+  95: !!python/object:CarTrip.Measurement
+    _Measurement__index: 95
+    _Measurement__latitude: 50.91700146
+    _Measurement__longitude: 5.89518582
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 40.11212352575934,
+      Engine Load_unit: '%', Engine Load_value: 36.07843017578125, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.0, GPS Altitude_unit: m, GPS Altitude_value: 119.5999984741211,
+      GPS Bearing_unit: deg, GPS Bearing_value: 309.6000061035156, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 0.9, GPS Speed_unit: km/h,
+      GPS Speed_value: 99.0, GPS VDOP_unit: precision, GPS VDOP_value: 0.6, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 118.0, Intake Temperature_unit: c, Intake Temperature_value: 5.0,
+      MAF_unit: l/s, MAF_value: 24.940000534057617, Rpm_unit: u/min, Rpm_value: 2021.0,
+      Speed_unit: km/h, Speed_value: 99.0, Throttle Position_unit: '%', Throttle Position_value: 94.0}
+    _Measurement__road: &id014 !!python/object:CarTrip.Road
+      _Road__display_name: A76, Laar, Nuth, Parkstad Limburg, Limburg, Nederland,
+        6361, Nederland
+      _Road__osm_id: '6769179'
+      _Road__tags: {highway: motorway, int_ref: E 314, lanes: '2', maxspeed: '120',
+        oneway: 'yes', ref: A76}
+    _Measurement__time: '2014-01-23T06:15:26Z'
+  96: !!python/object:CarTrip.Measurement
+    _Measurement__index: 96
+    _Measurement__latitude: 50.91794314
+    _Measurement__longitude: 5.89339606
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 47.001953211777156,
+      Engine Load_unit: '%', Engine Load_value: 47.45098114013672, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 3.0, GPS Altitude_unit: m, GPS Altitude_value: 122.30000305175781,
+      GPS Bearing_unit: deg, GPS Bearing_value: 309.70001220703125, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 0.9, GPS Speed_unit: km/h,
+      GPS Speed_value: 98.10000000000001, GPS VDOP_unit: precision, GPS VDOP_value: 0.6,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 140.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 5.0, MAF_unit: l/s, MAF_value: 37.29999923706055,
+      O2 Lambda Voltage ER_unit: ratio, O2 Lambda Voltage ER_value: 0.134918212890625,
+      O2 Lambda Voltage_unit: V, O2 Lambda Voltage_value: 0.633056640625, Rpm_unit: u/min,
+      Rpm_value: 1996.0, Speed_unit: km/h, Speed_value: 97.0, Throttle Position_unit: '%',
+      Throttle Position_value: 94.0}
+    _Measurement__road: *id014
+    _Measurement__time: '2014-01-23T06:15:32Z'
+  97: !!python/object:CarTrip.Measurement
+    _Measurement__index: 97
+    _Measurement__latitude: 50.91896557
+    _Measurement__longitude: 5.89193294
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 37.479264613292905,
+      Engine Load_unit: '%', Engine Load_value: 56.07843017578125, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 4.0, GPS Altitude_unit: m, GPS Altitude_value: 127.69999694824219,
+      GPS Bearing_unit: deg, GPS Bearing_value: 325.29998779296875, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 0.8, GPS Speed_unit: km/h,
+      GPS Speed_value: 90.0, GPS VDOP_unit: precision, GPS VDOP_value: 0.6, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 122.0, Intake Temperature_unit: c, Intake Temperature_value: 6.0,
+      MAF_unit: l/s, MAF_value: 29.3799991607666, Rpm_unit: u/min, Rpm_value: 1833.0,
+      Speed_unit: km/h, Speed_value: 90.0, Throttle Position_unit: '%', Throttle Position_value: 94.0}
+    _Measurement__road: *id014
+    _Measurement__time: '2014-01-23T06:15:38Z'
+  98: !!python/object:CarTrip.Measurement
+    _Measurement__index: 98
+    _Measurement__latitude: 50.92019089
+    _Measurement__longitude: 5.89092449
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 52.51974529192491,
+      Engine Load_unit: '%', Engine Load_value: 55.686275482177734, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 4.0, GPS Altitude_unit: m, GPS Altitude_value: 129.3000030517578,
+      GPS Bearing_unit: deg, GPS Bearing_value: 333.8999938964844, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.6, GPS PDOP_unit: precision, GPS PDOP_value: 0.8, GPS Speed_unit: km/h,
+      GPS Speed_value: 92.7, GPS VDOP_unit: precision, GPS VDOP_value: 0.6, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 165.0, Intake Temperature_unit: c, Intake Temperature_value: 7.0,
+      MAF_unit: l/s, MAF_value: 40.9900016784668, O2 Lambda Voltage ER_unit: ratio,
+      O2 Lambda Voltage ER_value: 0.11236572265625, O2 Lambda Voltage_unit: V, O2 Lambda Voltage_value: 0.4974365234375,
+      Rpm_unit: u/min, Rpm_value: 1906.0, Speed_unit: km/h, Speed_value: 91.0, Throttle Position_unit: '%',
+      Throttle Position_value: 94.0}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: A76, Laar, Nuth, Parkstad Limburg, Limburg, Nederland,
+        6361, Nederland
+      _Road__osm_id: '6769044'
+      _Road__tags: {highway: motorway, int_ref: E 314, lanes: '2', maxspeed: '120',
+        oneway: 'yes', ref: A76}
+    _Measurement__time: '2014-01-23T06:15:44Z'
+  99: !!python/object:CarTrip.Measurement
+    _Measurement__index: 99
+    _Measurement__latitude: 50.92149996
+    _Measurement__longitude: 5.88994588
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 41.54851863223221,
+      Engine Load_unit: '%', Engine Load_value: 41.17647171020508, GPS Accuracy_unit: '%',
+      GPS Accuracy_value: 5.0, GPS Altitude_unit: m, GPS Altitude_value: 129.6999969482422,
+      GPS Bearing_unit: deg, GPS Bearing_value: 334.5, GPS HDOP_unit: precision, GPS HDOP_value: 0.7,
+      GPS PDOP_unit: precision, GPS PDOP_value: 1.0, GPS Speed_unit: km/h, GPS Speed_value: 97.2,
+      GPS VDOP_unit: precision, GPS VDOP_value: 0.7, Intake Pressure_unit: kPa, Intake Pressure_value: 127.0,
+      Intake Temperature_unit: c, Intake Temperature_value: 8.0, MAF_unit: l/s, MAF_value: 25.299999237060547,
+      Rpm_unit: u/min, Rpm_value: 1966.0, Speed_unit: km/h, Speed_value: 95.0, Throttle Position_unit: '%',
+      Throttle Position_value: 94.0}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: A76, Laar, Nuth, Parkstad Limburg, Limburg, Nederland,
+        6361, Nederland
+      _Road__osm_id: '6769037'
+      _Road__tags: {highway: motorway, int_ref: E 314, lanes: '2', maxspeed: '120',
+        oneway: 'yes', ref: A76}
+    _Measurement__time: '2014-01-23T06:15:50Z'

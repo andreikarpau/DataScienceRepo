@@ -1,0 +1,1539 @@
+!!python/object:CarTrip.Trip
+_Trip__car: !!python/object:CarTrip.Car {_Car__api_id: 52b1db30e4b0f9afbd165725, _Car__construction_year: 2012,
+  _Car__engine_displacement: 2500, _Car__fuel_type: diesel, _Car__manufacturer: VW,
+  _Car__model: T5}
+_Trip__id: 52e0257de4b0d8e8c2100df3
+_Trip__length: 22.136752140616927
+_Trip__measurements:
+  0: !!python/object:CarTrip.Measurement
+    _Measurement__index: 0
+    _Measurement__latitude: 47.75170972047367
+    _Measurement__longitude: 11.526276946558777
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 12.23896719683625,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 8.0, GPS Altitude_unit: m, GPS Altitude_value: 732.3938123184748,
+      GPS Bearing_unit: deg, GPS Bearing_value: 81.2495346069336, GPS HDOP_unit: precision,
+      GPS HDOP_value: 1.1, GPS PDOP_unit: precision, GPS PDOP_value: 2.0, GPS Speed_unit: km/h,
+      GPS Speed_value: 68.5111198425293, GPS VDOP_unit: precision, GPS VDOP_value: 1.7,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 49.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 62.0, MAF_unit: l/s, MAF_value: 19.1299991607666,
+      Rpm_unit: u/min, Rpm_value: 1357.0, Speed_unit: km/h, Speed_value: 68.0}
+    _Measurement__road: &id001 !!python/object:CarTrip.Road
+      _Road__display_name: "B 472, Oberfischbach, Wackersberg, Landkreis Bad T\xF6\
+        lz-Wolfratshausen, OB, Bayern, 83646, Deutschland"
+      _Road__osm_id: '31916047'
+      _Road__tags: {highway: primary, maxspeed: '70', oneway: 'no', ref: B 472, tmc: 'DE:23853/23854'}
+    _Measurement__time: '2014-01-21T14:55:10Z'
+  1: !!python/object:CarTrip.Measurement
+    _Measurement__index: 1
+    _Measurement__latitude: 47.75162236592225
+    _Measurement__longitude: 11.527573168020417
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 11.41536149288864,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 6.0, GPS Altitude_unit: m, GPS Altitude_value: 730.6181241021366,
+      GPS Bearing_unit: deg, GPS Bearing_value: 95.71028900146484, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.9, GPS PDOP_unit: precision, GPS PDOP_value: 1.8, GPS Speed_unit: km/h,
+      GPS Speed_value: 70.26084365844727, GPS VDOP_unit: precision, GPS VDOP_value: 1.5,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 49.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 74.0, MAF_unit: l/s, MAF_value: 23.719999313354492,
+      Rpm_unit: u/min, Rpm_value: 1311.0, Speed_unit: km/h, Speed_value: 68.0}
+    _Measurement__road: *id001
+    _Measurement__time: '2014-01-21T14:55:15Z'
+  2: !!python/object:CarTrip.Measurement
+    _Measurement__index: 2
+    _Measurement__latitude: 47.75127216298658
+    _Measurement__longitude: 11.529169445960903
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 11.819034798526513,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 8.0, GPS Altitude_unit: m, GPS Altitude_value: 728.0335582614307,
+      GPS Bearing_unit: deg, GPS Bearing_value: 102.00835418701172, GPS HDOP_unit: precision,
+      GPS HDOP_value: 1.0, GPS PDOP_unit: precision, GPS PDOP_value: 1.6, GPS Speed_unit: km/h,
+      GPS Speed_value: 73.15819244384765, GPS VDOP_unit: precision, GPS VDOP_value: 1.3,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 49.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 78.0, MAF_unit: l/s, MAF_value: 23.799999237060547,
+      Rpm_unit: u/min, Rpm_value: 1373.0, Speed_unit: km/h, Speed_value: 73.0}
+    _Measurement__road: *id001
+    _Measurement__time: '2014-01-21T14:55:21Z'
+  3: !!python/object:CarTrip.Measurement
+    _Measurement__index: 3
+    _Measurement__latitude: 47.75106318442961
+    _Measurement__longitude: 11.530816692516545
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 12.679150121022827,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 4.0, GPS Altitude_unit: m, GPS Altitude_value: 725.2220013626422,
+      GPS Bearing_unit: deg, GPS Bearing_value: 95.96044921875, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.9, GPS PDOP_unit: precision, GPS PDOP_value: 1.5, GPS Speed_unit: km/h,
+      GPS Speed_value: 73.92143325805664, GPS VDOP_unit: precision, GPS VDOP_value: 1.3,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 49.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 63.0, MAF_unit: l/s, MAF_value: 17.940000534057617,
+      Rpm_unit: u/min, Rpm_value: 1410.0, Speed_unit: km/h, Speed_value: 73.0}
+    _Measurement__road: *id001
+    _Measurement__time: '2014-01-21T14:55:27Z'
+  4: !!python/object:CarTrip.Measurement
+    _Measurement__index: 4
+    _Measurement__latitude: 47.751204859648126
+    _Measurement__longitude: 11.533614030198915
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 12.044052191444889,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 6.0, GPS Altitude_unit: m, GPS Altitude_value: 720.6946520476376,
+      GPS Bearing_unit: deg, GPS Bearing_value: 81.60086822509766, GPS HDOP_unit: precision,
+      GPS HDOP_value: 1.0, GPS PDOP_unit: precision, GPS PDOP_value: 1.8, GPS Speed_unit: km/h,
+      GPS Speed_value: 76.58876953125001, GPS VDOP_unit: precision, GPS VDOP_value: 1.5,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 49.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 87.0, MAF_unit: l/s, MAF_value: 36.52000045776367,
+      Rpm_unit: u/min, Rpm_value: 1435.0, Speed_unit: km/h, Speed_value: 74.0}
+    _Measurement__road: *id001
+    _Measurement__time: '2014-01-21T14:55:37Z'
+  5: !!python/object:CarTrip.Measurement
+    _Measurement__index: 5
+    _Measurement__latitude: 47.75159258254371
+    _Measurement__longitude: 11.535245866541954
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 13.4328060762396,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 6.0, GPS Altitude_unit: m, GPS Altitude_value: 720.9960644202915,
+      GPS Bearing_unit: deg, GPS Bearing_value: 69.02769470214844, GPS HDOP_unit: precision,
+      GPS HDOP_value: 1.0, GPS PDOP_unit: precision, GPS PDOP_value: 1.9, GPS Speed_unit: km/h,
+      GPS Speed_value: 75.4570198059082, GPS VDOP_unit: precision, GPS VDOP_value: 1.6,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 50.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 66.0, MAF_unit: l/s, MAF_value: 20.90999984741211,
+      Rpm_unit: u/min, Rpm_value: 1477.0, Speed_unit: km/h, Speed_value: 76.0}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: "B 472, Oberfischbach, Wackersberg, Landkreis Bad T\xF6\
+        lz-Wolfratshausen, OB, Bayern, 83646, Deutschland"
+      _Road__osm_id: '118022684'
+      _Road__tags: {highway: primary, oneway: 'no', ref: B 472, tmc: 'DE:23853/23854'}
+    _Measurement__time: '2014-01-21T14:55:43Z'
+  6: !!python/object:CarTrip.Measurement
+    _Measurement__index: 6
+    _Measurement__latitude: 47.75303016530693
+    _Measurement__longitude: 11.538500084335201
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 11.478152860443165,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 6.0, GPS Altitude_unit: m, GPS Altitude_value: 723.3568401085975,
+      GPS Bearing_unit: deg, GPS Bearing_value: 50.53501510620117, GPS HDOP_unit: precision,
+      GPS HDOP_value: 1.2, GPS PDOP_unit: precision, GPS PDOP_value: 2.1, GPS Speed_unit: km/h,
+      GPS Speed_value: 67.14346618652344, GPS VDOP_unit: precision, GPS VDOP_value: 1.8,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 51.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 84.0, MAF_unit: l/s, MAF_value: 43.630001068115234,
+      Rpm_unit: u/min, Rpm_value: 1303.0, Speed_unit: km/h, Speed_value: 67.0}
+    _Measurement__road: &id002 !!python/object:CarTrip.Road
+      _Road__display_name: "B 472, Bad T\xF6lz, Landkreis Bad T\xF6lz-Wolfratshausen,\
+        \ OB, Bayern, 83646, Deutschland"
+      _Road__osm_id: '24061634'
+      _Road__tags: {highway: primary, maxspeed: '100', oneway: 'no', ref: B 472, tmc: 'DE:23853/23854'}
+    _Measurement__time: '2014-01-21T14:55:58Z'
+  7: !!python/object:CarTrip.Measurement
+    _Measurement__index: 7
+    _Measurement__latitude: 47.75376819477298
+    _Measurement__longitude: 11.539583268835253
+    _Measurement__measures: {GPS Accuracy_unit: '%', GPS Accuracy_value: 6.0, GPS Altitude_unit: m,
+      GPS Altitude_value: 726.1028568947811, GPS Bearing_unit: deg, GPS Bearing_value: 46.126007080078125,
+      GPS HDOP_unit: precision, GPS HDOP_value: 1.0, GPS PDOP_unit: precision, GPS PDOP_value: 1.8,
+      GPS Speed_unit: km/h, GPS Speed_value: 67.87522430419922, GPS VDOP_unit: precision,
+      GPS VDOP_value: 1.4, Intake Pressure_unit: kPa, Intake Pressure_value: 53.0,
+      MAF_unit: l/s, MAF_value: 41.75, Rpm_unit: u/min, Rpm_value: 1310.0, Speed_unit: km/h,
+      Speed_value: 69.0}
+    _Measurement__road: *id002
+    _Measurement__time: '2014-01-21T14:56:04Z'
+  8: !!python/object:CarTrip.Measurement
+    _Measurement__index: 8
+    _Measurement__latitude: 47.754552499000866
+    _Measurement__longitude: 11.540675690143376
+    _Measurement__measures: {GPS Accuracy_unit: '%', GPS Accuracy_value: 6.0, GPS Altitude_unit: m,
+      GPS Altitude_value: 729.2884927069915, GPS Bearing_unit: deg, GPS Bearing_value: 43.9365348815918,
+      GPS HDOP_unit: precision, GPS HDOP_value: 1.0, GPS PDOP_unit: precision, GPS PDOP_value: 1.6,
+      GPS Speed_unit: km/h, GPS Speed_value: 70.65227279663087, GPS VDOP_unit: precision,
+      GPS VDOP_value: 1.3, Intake Pressure_unit: kPa, Intake Pressure_value: 53.0,
+      MAF_unit: l/s, MAF_value: 41.5, Rpm_unit: u/min, Rpm_value: 1375.0, Speed_unit: km/h,
+      Speed_value: 71.0}
+    _Measurement__road: *id002
+    _Measurement__time: '2014-01-21T14:56:11Z'
+  9: !!python/object:CarTrip.Measurement
+    _Measurement__index: 9
+    _Measurement__latitude: 47.75542953751836
+    _Measurement__longitude: 11.542010300743447
+    _Measurement__measures: {GPS Accuracy_unit: '%', GPS Accuracy_value: 8.0, GPS Altitude_unit: m,
+      GPS Altitude_value: 733.570786908999, GPS Bearing_unit: deg, GPS Bearing_value: 53.8989143371582,
+      GPS HDOP_unit: precision, GPS HDOP_value: 0.9, GPS PDOP_unit: precision, GPS PDOP_value: 1.5,
+      GPS Speed_unit: km/h, GPS Speed_value: 72.25686035156251, GPS VDOP_unit: precision,
+      GPS VDOP_value: 1.3, Intake Pressure_unit: kPa, Intake Pressure_value: 53.0,
+      Intake Temperature_unit: c, Intake Temperature_value: 75.0, MAF_unit: l/s, MAF_value: 28.15999984741211,
+      Speed_unit: km/h, Speed_value: 72.0}
+    _Measurement__road: *id002
+    _Measurement__time: '2014-01-21T14:56:17Z'
+  10: !!python/object:CarTrip.Measurement
+    _Measurement__index: 10
+    _Measurement__latitude: 47.755821040318764
+    _Measurement__longitude: 11.54352446179446
+    _Measurement__measures: {GPS Accuracy_unit: '%', GPS Accuracy_value: 8.0, GPS Altitude_unit: m,
+      GPS Altitude_value: 734.9417189781601, GPS Bearing_unit: deg, GPS Bearing_value: 79.21685028076172,
+      GPS HDOP_unit: precision, GPS HDOP_value: 0.9, GPS PDOP_unit: precision, GPS PDOP_value: 1.7,
+      GPS Speed_unit: km/h, GPS Speed_value: 72.96043853759765, GPS VDOP_unit: precision,
+      GPS VDOP_value: 1.4, Intake Pressure_unit: kPa, Intake Pressure_value: 52.0,
+      Intake Temperature_unit: c, Intake Temperature_value: 71.0, MAF_unit: l/s, MAF_value: 24.020000457763672,
+      Speed_unit: km/h, Speed_value: 72.0}
+    _Measurement__road: *id002
+    _Measurement__time: '2014-01-21T14:56:23Z'
+  11: !!python/object:CarTrip.Measurement
+    _Measurement__index: 11
+    _Measurement__latitude: 47.75571595938273
+    _Measurement__longitude: 11.545188472482755
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 12.778509082545217,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 8.0, GPS Altitude_unit: m, GPS Altitude_value: 735.910553651689,
+      GPS Bearing_unit: deg, GPS Bearing_value: 101.7075424194336, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.9, GPS PDOP_unit: precision, GPS PDOP_value: 1.8, GPS Speed_unit: km/h,
+      GPS Speed_value: 73.86456527709962, GPS VDOP_unit: precision, GPS VDOP_value: 1.5,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 51.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 74.0, MAF_unit: l/s, MAF_value: 23.690000534057617,
+      Rpm_unit: u/min, Rpm_value: 1410.0, Speed_unit: km/h, Speed_value: 73.0}
+    _Measurement__road: *id002
+    _Measurement__time: '2014-01-21T14:56:29Z'
+  12: !!python/object:CarTrip.Measurement
+    _Measurement__index: 12
+    _Measurement__latitude: 47.75516299077912
+    _Measurement__longitude: 11.546606651901104
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 13.256822220945587,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 8.0, GPS Altitude_unit: m, GPS Altitude_value: 737.008989744201,
+      GPS Bearing_unit: deg, GPS Bearing_value: 123.4821548461914, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.9, GPS PDOP_unit: precision, GPS PDOP_value: 1.8, GPS Speed_unit: km/h,
+      GPS Speed_value: 71.40813217163087, GPS VDOP_unit: precision, GPS VDOP_value: 1.5,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 51.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 61.0, MAF_unit: l/s, MAF_value: 18.549999237060547,
+      Rpm_unit: u/min, Rpm_value: 1408.0, Speed_unit: km/h, Speed_value: 73.0}
+    _Measurement__road: *id002
+    _Measurement__time: '2014-01-21T14:56:35Z'
+  13: !!python/object:CarTrip.Measurement
+    _Measurement__index: 13
+    _Measurement__latitude: 47.75464421365184
+    _Measurement__longitude: 11.547829032057576
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 12.706714166810832,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 8.0, GPS Altitude_unit: m, GPS Altitude_value: 733.7380334873783,
+      GPS Bearing_unit: deg, GPS Bearing_value: 116.66641235351562, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.9, GPS PDOP_unit: precision, GPS PDOP_value: 1.8, GPS Speed_unit: km/h,
+      GPS Speed_value: 76.65303268432618, GPS VDOP_unit: precision, GPS VDOP_value: 1.5,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 50.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 73.0, MAF_unit: l/s, MAF_value: 23.1299991607666,
+      Rpm_unit: u/min, Rpm_value: 1426.0, Speed_unit: km/h, Speed_value: 76.0}
+    _Measurement__road: *id002
+    _Measurement__time: '2014-01-21T14:56:40Z'
+  14: !!python/object:CarTrip.Measurement
+    _Measurement__index: 14
+    _Measurement__latitude: 47.75437349491389
+    _Measurement__longitude: 11.549678416212119
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 14.25005075839373,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 8.0, GPS Altitude_unit: m, GPS Altitude_value: 726.9195616083916,
+      GPS Bearing_unit: deg, GPS Bearing_value: 94.25897979736328, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.9, GPS PDOP_unit: precision, GPS PDOP_value: 1.8, GPS Speed_unit: km/h,
+      GPS Speed_value: 81.97821578979493, GPS VDOP_unit: precision, GPS VDOP_value: 1.5,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 50.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 63.0, MAF_unit: l/s, MAF_value: 20.860000610351562,
+      Rpm_unit: u/min, Rpm_value: 1553.0, Speed_unit: km/h, Speed_value: 81.0}
+    _Measurement__road: *id002
+    _Measurement__time: '2014-01-21T14:56:46Z'
+  15: !!python/object:CarTrip.Measurement
+    _Measurement__index: 15
+    _Measurement__latitude: 47.75459750975634
+    _Measurement__longitude: 11.551478922934853
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 7.907768979159212,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 8.0, GPS Altitude_unit: m, GPS Altitude_value: 716.0870348944437,
+      GPS Bearing_unit: deg, GPS Bearing_value: 80.76087951660156, GPS HDOP_unit: precision,
+      GPS HDOP_value: 1.0, GPS PDOP_unit: precision, GPS PDOP_value: 1.8, GPS Speed_unit: km/h,
+      GPS Speed_value: 81.5756217956543, GPS VDOP_unit: precision, GPS VDOP_value: 1.5,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 49.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 51.0, MAF_unit: l/s, MAF_value: 8.130000114440918,
+      Rpm_unit: u/min, Rpm_value: 848.0, Speed_unit: km/h, Speed_value: 79.0}
+    _Measurement__road: *id002
+    _Measurement__time: '2014-01-21T14:56:52Z'
+  16: !!python/object:CarTrip.Measurement
+    _Measurement__index: 16
+    _Measurement__latitude: 47.75489171787501
+    _Measurement__longitude: 11.553133235946486
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 21.606486703669688,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 8.0, GPS Altitude_unit: m, GPS Altitude_value: 709.4419692178403,
+      GPS Bearing_unit: deg, GPS Bearing_value: 79.27395629882812, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.9, GPS PDOP_unit: precision, GPS PDOP_value: 1.8, GPS Speed_unit: km/h,
+      GPS Speed_value: 76.30187530517578, GPS VDOP_unit: precision, GPS VDOP_value: 1.5,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 49.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 51.0, MAF_unit: l/s, MAF_value: 34.25, Rpm_unit: u/min,
+      Rpm_value: 2317.0, Speed_unit: km/h, Speed_value: 75.0}
+    _Measurement__road: *id002
+    _Measurement__time: '2014-01-21T14:56:58Z'
+  17: !!python/object:CarTrip.Measurement
+    _Measurement__index: 17
+    _Measurement__latitude: 47.75498903629207
+    _Measurement__longitude: 11.554487673599494
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 20.480421314526318,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 8.0, GPS Altitude_unit: m, GPS Altitude_value: 707.4712279722584,
+      GPS Bearing_unit: deg, GPS Bearing_value: 89.34202575683594, GPS HDOP_unit: precision,
+      GPS HDOP_value: 1.0, GPS PDOP_unit: precision, GPS PDOP_value: 1.6, GPS Speed_unit: km/h,
+      GPS Speed_value: 72.38915634155273, GPS VDOP_unit: precision, GPS VDOP_value: 1.2,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 48.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 51.0, MAF_unit: l/s, MAF_value: 33.380001068115234,
+      Rpm_unit: u/min, Rpm_value: 2242.0, Speed_unit: km/h, Speed_value: 72.0}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: "B 472, Bad T\xF6lz, Landkreis Bad T\xF6lz-Wolfratshausen,\
+        \ OB, Bayern, 83646, Deutschland"
+      _Road__osm_id: '118283296'
+      _Road__tags: {highway: primary, maxspeed: '70', oneway: 'no', ref: B 472, tmc: 'DE:23854;DE:27482'}
+    _Measurement__time: '2014-01-21T14:57:04Z'
+  18: !!python/object:CarTrip.Measurement
+    _Measurement__index: 18
+    _Measurement__latitude: 47.75463032968778
+    _Measurement__longitude: 11.556378266615756
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 18.638925425027878,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 6.0, GPS Altitude_unit: m, GPS Altitude_value: 700.7210030319652,
+      GPS Bearing_unit: deg, GPS Bearing_value: 109.93870544433594, GPS HDOP_unit: precision,
+      GPS HDOP_value: 1.0, GPS PDOP_unit: precision, GPS PDOP_value: 1.8, GPS Speed_unit: km/h,
+      GPS Speed_value: 67.58702545166015, GPS VDOP_unit: precision, GPS VDOP_value: 1.4,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 48.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 53.0, MAF_unit: l/s, MAF_value: 29.0, Rpm_unit: u/min,
+      Rpm_value: 2053.0, Speed_unit: km/h, Speed_value: 66.0}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: "B 472, Bad T\xF6lz, Landkreis Bad T\xF6lz-Wolfratshausen,\
+        \ OB, Bayern, 83646, Deutschland"
+      _Road__osm_id: '7989934'
+      _Road__tags: {bridge: 'yes', highway: primary, layer: '1', maxspeed: '70', oneway: 'no',
+        ref: B 472, tmc: 'DE:23854;DE:27482'}
+    _Measurement__time: '2014-01-21T14:57:11Z'
+  19: !!python/object:CarTrip.Measurement
+    _Measurement__index: 19
+    _Measurement__latitude: 47.75404037610425
+    _Measurement__longitude: 11.557610085878851
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 17.894140248321566,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 8.0, GPS Altitude_unit: m, GPS Altitude_value: 696.1761891026965,
+      GPS Bearing_unit: deg, GPS Bearing_value: 124.48452758789062, GPS HDOP_unit: precision,
+      GPS HDOP_value: 1.0, GPS PDOP_unit: precision, GPS PDOP_value: 1.6, GPS Speed_unit: km/h,
+      GPS Speed_value: 66.07192153930664, GPS VDOP_unit: precision, GPS VDOP_value: 1.2,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 48.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 77.0, MAF_unit: l/s, MAF_value: 38.58000183105469,
+      Rpm_unit: u/min, Rpm_value: 2116.0, Speed_unit: km/h, Speed_value: 69.0}
+    _Measurement__road: &id003 !!python/object:CarTrip.Road
+      _Road__display_name: "B 472, Bad T\xF6lz, Landkreis Bad T\xF6lz-Wolfratshausen,\
+        \ OB, Bayern, 83646, Deutschland"
+      _Road__osm_id: '7989935'
+      _Road__tags: {highway: primary, maxspeed: '70', oneway: 'no', ref: B 472, tmc: 'DE:23854;DE:27482'}
+    _Measurement__time: '2014-01-21T14:57:17Z'
+  20: !!python/object:CarTrip.Measurement
+    _Measurement__index: 20
+    _Measurement__latitude: 47.753276124646305
+    _Measurement__longitude: 11.55878999983482
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 18.206108334030464,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 8.0, GPS Altitude_unit: m, GPS Altitude_value: 694.5475048218834,
+      GPS Bearing_unit: deg, GPS Bearing_value: 130.4585723876953, GPS HDOP_unit: precision,
+      GPS HDOP_value: 1.0, GPS PDOP_unit: precision, GPS PDOP_value: 1.5, GPS Speed_unit: km/h,
+      GPS Speed_value: 69.57431488037109, GPS VDOP_unit: precision, GPS VDOP_value: 1.2,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 49.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 79.0, MAF_unit: l/s, MAF_value: 38.939998626708984,
+      Rpm_unit: u/min, Rpm_value: 2121.0, Speed_unit: km/h, Speed_value: 69.0}
+    _Measurement__road: *id003
+    _Measurement__time: '2014-01-21T14:57:23Z'
+  21: !!python/object:CarTrip.Measurement
+    _Measurement__index: 21
+    _Measurement__latitude: 47.75266107849549
+    _Measurement__longitude: 11.560133274923087
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 18.42518772789872,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 8.0, GPS Altitude_unit: m, GPS Altitude_value: 696.4295952707824,
+      GPS Bearing_unit: deg, GPS Bearing_value: 121.61492156982422, GPS HDOP_unit: precision,
+      GPS HDOP_value: 1.0, GPS PDOP_unit: precision, GPS PDOP_value: 1.5, GPS Speed_unit: km/h,
+      GPS Speed_value: 72.12435150146484, GPS VDOP_unit: precision, GPS VDOP_value: 1.2,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 49.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 84.0, MAF_unit: l/s, MAF_value: 44.189998626708984,
+      Rpm_unit: u/min, Rpm_value: 2177.0, Speed_unit: km/h, Speed_value: 70.0}
+    _Measurement__road: *id003
+    _Measurement__time: '2014-01-21T14:57:29Z'
+  22: !!python/object:CarTrip.Measurement
+    _Measurement__index: 22
+    _Measurement__latitude: 47.75235855012419
+    _Measurement__longitude: 11.56163619953009
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 19.79147333653067,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 6.0, GPS Altitude_unit: m, GPS Altitude_value: 697.8134016243906,
+      GPS Bearing_unit: deg, GPS Bearing_value: 109.4580307006836, GPS HDOP_unit: precision,
+      GPS HDOP_value: 1.0, GPS PDOP_unit: precision, GPS PDOP_value: 1.6, GPS Speed_unit: km/h,
+      GPS Speed_value: 70.0663444519043, GPS VDOP_unit: precision, GPS VDOP_value: 1.3,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 50.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 56.0, MAF_unit: l/s, MAF_value: 31.799999237060547,
+      Rpm_unit: u/min, Rpm_value: 2112.0, Speed_unit: km/h, Speed_value: 69.0}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: "B 472, Bad T\xF6lz, Landkreis Bad T\xF6lz-Wolfratshausen,\
+        \ OB, Bayern, 83646, Deutschland"
+      _Road__osm_id: '7989936'
+      _Road__tags: {bridge: 'yes', highway: primary, 'lanes:backward': '1', 'lanes:forward': '2',
+        layer: '1', maxspeed: '70', oneway: 'no', ref: B 472, tmc: 'DE:23854;DE:27482'}
+    _Measurement__time: '2014-01-21T14:57:35Z'
+  23: !!python/object:CarTrip.Measurement
+    _Measurement__index: 23
+    _Measurement__latitude: 47.75209092573356
+    _Measurement__longitude: 11.56303358847193
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 17.440222627747637,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 8.0, GPS Altitude_unit: m, GPS Altitude_value: 698.7076701303903,
+      GPS Bearing_unit: deg, GPS Bearing_value: 106.96023559570312, GPS HDOP_unit: precision,
+      GPS HDOP_value: 1.3, GPS PDOP_unit: precision, GPS PDOP_value: 1.8, GPS Speed_unit: km/h,
+      GPS Speed_value: 64.06949844360352, GPS VDOP_unit: precision, GPS VDOP_value: 1.2,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 49.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 65.0, MAF_unit: l/s, MAF_value: 29.049999237060547,
+      Rpm_unit: u/min, Rpm_value: 1951.0, Speed_unit: km/h, Speed_value: 64.0}
+    _Measurement__road: &id004 !!python/object:CarTrip.Road
+      _Road__display_name: "B 472, Oberm\xFChlberg, Bad T\xF6lz, Landkreis Bad T\xF6\
+        lz-Wolfratshausen, OB, Bayern, 83646, Deutschland"
+      _Road__osm_id: '7989937'
+      _Road__tags: {highway: primary, lanes: '2', maxspeed: '70', oneway: 'no', ref: B
+          472, tmc: 'DE:23854;DE:27482'}
+    _Measurement__time: '2014-01-21T14:57:41Z'
+  24: !!python/object:CarTrip.Measurement
+    _Measurement__index: 24
+    _Measurement__latitude: 47.751877909887156
+    _Measurement__longitude: 11.564220959197504
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 25.62606359808717,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 8.0, GPS Altitude_unit: m, GPS Altitude_value: 695.6067576996808,
+      GPS Bearing_unit: deg, GPS Bearing_value: 107.97306823730469, GPS HDOP_unit: precision,
+      GPS HDOP_value: 1.0, GPS PDOP_unit: precision, GPS PDOP_value: 1.6, GPS Speed_unit: km/h,
+      GPS Speed_value: 62.17280502319336, GPS VDOP_unit: precision, GPS VDOP_value: 1.2,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 49.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 53.0, MAF_unit: l/s, MAF_value: 25.690000534057617,
+      Rpm_unit: u/min, Rpm_value: 2765.0, Speed_unit: km/h, Speed_value: 64.0}
+    _Measurement__road: *id004
+    _Measurement__time: '2014-01-21T14:57:46Z'
+  25: !!python/object:CarTrip.Measurement
+    _Measurement__index: 25
+    _Measurement__latitude: 47.751197992402425
+    _Measurement__longitude: 11.564798036210453
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 22.76717646079831,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 8.0, GPS Altitude_unit: m, GPS Altitude_value: 695.1340123345154,
+      GPS Bearing_unit: deg, GPS Bearing_value: 159.45201110839844, GPS HDOP_unit: precision,
+      GPS HDOP_value: 1.0, GPS PDOP_unit: precision, GPS PDOP_value: 1.6, GPS Speed_unit: km/h,
+      GPS Speed_value: 47.34538879394531, GPS VDOP_unit: precision, GPS VDOP_value: 1.3,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 49.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 52.0, MAF_unit: l/s, MAF_value: 39.08000183105469,
+      Rpm_unit: u/min, Rpm_value: 2449.0, Speed_unit: km/h, Speed_value: 50.0}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: "Sch\xF6nbergstra\xDFe, Oberm\xFChlberg, Bad T\xF6lz, Landkreis\
+        \ Bad T\xF6lz-Wolfratshausen, OB, Bayern, 83646, Deutschland"
+      _Road__osm_id: '108148278'
+      _Road__tags: {access: private, highway: residential, horse: 'no', name: "Sch\xF6\
+          nbergstra\xDFe", surface: asphalt}
+    _Measurement__time: '2014-01-21T14:57:52Z'
+  26: !!python/object:CarTrip.Measurement
+    _Measurement__index: 26
+    _Measurement__latitude: 47.75058661560679
+    _Measurement__longitude: 11.564649881475479
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 14.103791323740403,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 6.0, GPS Altitude_unit: m, GPS Altitude_value: 691.4512729139158,
+      GPS Bearing_unit: deg, GPS Bearing_value: 182.57977294921875, GPS HDOP_unit: precision,
+      GPS HDOP_value: 1.0, GPS PDOP_unit: precision, GPS PDOP_value: 1.7, GPS Speed_unit: km/h,
+      GPS Speed_value: 35.5180778503418, GPS VDOP_unit: precision, GPS VDOP_value: 1.3,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 48.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 55.0, MAF_unit: l/s, MAF_value: 20.65999984741211,
+      Rpm_unit: u/min, Rpm_value: 1563.0, Speed_unit: km/h, Speed_value: 34.0}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: "B 13, Oberm\xFChlberg, Bad T\xF6lz, Landkreis Bad T\xF6\
+        lz-Wolfratshausen, OB, Bayern, 83646, Deutschland"
+      _Road__osm_id: '33073025'
+      _Road__tags: {highway: primary, lanes: '2', maxspeed: '50', ref: B 13, tmc: 'DE:20709/20710'}
+    _Measurement__time: '2014-01-21T14:57:58Z'
+  27: !!python/object:CarTrip.Measurement
+    _Measurement__index: 27
+    _Measurement__latitude: 47.75003089930426
+    _Measurement__longitude: 11.564327231045263
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 15.387533175018188,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 6.0, GPS Altitude_unit: m, GPS Altitude_value: 691.5017396725361,
+      GPS Bearing_unit: deg, GPS Bearing_value: 194.4379425048828, GPS HDOP_unit: precision,
+      GPS HDOP_value: 1.2, GPS PDOP_unit: precision, GPS PDOP_value: 1.7, GPS Speed_unit: km/h,
+      GPS Speed_value: 41.54017868041992, GPS VDOP_unit: precision, GPS VDOP_value: 1.2,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 49.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 83.0, MAF_unit: l/s, MAF_value: 47.130001068115234,
+      Rpm_unit: u/min, Rpm_value: 1813.0, Speed_unit: km/h, Speed_value: 41.0}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: "B 13, Oberm\xFChlberg, Bad T\xF6lz, Landkreis Bad T\xF6\
+        lz-Wolfratshausen, OB, Bayern, 83646, Deutschland"
+      _Road__osm_id: '116573552'
+      _Road__tags: {highway: primary, 'lanes:backward': '2', 'lanes:forward': '1',
+        maxspeed: '50', ref: B 13, tmc: 'DE:20709/20710', 'turn:lanes:backward': left|}
+    _Measurement__time: '2014-01-21T14:58:04Z'
+  28: !!python/object:CarTrip.Measurement
+    _Measurement__index: 28
+    _Measurement__latitude: 47.74948958479164
+    _Measurement__longitude: 11.564124682700093
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 12.451929238656284,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 6.0, GPS Altitude_unit: m, GPS Altitude_value: 693.2010717265525,
+      GPS Bearing_unit: deg, GPS Bearing_value: 189.34243774414062, GPS HDOP_unit: precision,
+      GPS HDOP_value: 1.0, GPS PDOP_unit: precision, GPS PDOP_value: 1.7, GPS Speed_unit: km/h,
+      GPS Speed_value: 44.27336769104004, GPS VDOP_unit: precision, GPS VDOP_value: 1.4,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 50.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 62.0, MAF_unit: l/s, MAF_value: 20.829999923706055,
+      Rpm_unit: u/min, Rpm_value: 1353.0, Speed_unit: km/h, Speed_value: 43.0}
+    _Measurement__road: &id005 !!python/object:CarTrip.Road
+      _Road__display_name: "B 13, Moralt Tischlerplatten GmbH & Co. KG, Oberm\xFC\
+        hlberg, Bad T\xF6lz, Landkreis Bad T\xF6lz-Wolfratshausen, OB, Bayern, 83646,\
+        \ Deutschland"
+      _Road__osm_id: '116573553'
+      _Road__tags: {highway: primary, lanes: '2', maxspeed: '50', ref: B 13, tmc: 'DE:20709/20710'}
+    _Measurement__time: '2014-01-21T14:58:09Z'
+  29: !!python/object:CarTrip.Measurement
+    _Measurement__index: 29
+    _Measurement__latitude: 47.748813854372656
+    _Measurement__longitude: 11.564405949938559
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 13.622298685775856,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 6.0, GPS Altitude_unit: m, GPS Altitude_value: 693.5871920303995,
+      GPS Bearing_unit: deg, GPS Bearing_value: 158.27145385742188, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.9, GPS PDOP_unit: precision, GPS PDOP_value: 1.6, GPS Speed_unit: km/h,
+      GPS Speed_value: 50.49675521850586, GPS VDOP_unit: precision, GPS VDOP_value: 1.3,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 50.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 76.0, MAF_unit: l/s, MAF_value: 43.75, Rpm_unit: u/min,
+      Rpm_value: 1542.0, Speed_unit: km/h, Speed_value: 49.0}
+    _Measurement__road: *id005
+    _Measurement__time: '2014-01-21T14:58:16Z'
+  30: !!python/object:CarTrip.Measurement
+    _Measurement__index: 30
+    _Measurement__latitude: 47.74816833130666
+    _Measurement__longitude: 11.564942997914457
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 7.904996070101351,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 4.0, GPS Altitude_unit: m, GPS Altitude_value: 693.2883760825694,
+      GPS Bearing_unit: deg, GPS Bearing_value: 154.16693115234375, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.9, GPS PDOP_unit: precision, GPS PDOP_value: 1.5, GPS Speed_unit: km/h,
+      GPS Speed_value: 43.810812377929686, GPS VDOP_unit: precision, GPS VDOP_value: 1.2,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 50.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 55.0, MAF_unit: l/s, MAF_value: 12.829999923706055,
+      Rpm_unit: u/min, Rpm_value: 841.0, Speed_unit: km/h, Speed_value: 43.0}
+    _Measurement__road: *id005
+    _Measurement__time: '2014-01-21T14:58:21Z'
+  31: !!python/object:CarTrip.Measurement
+    _Measurement__index: 31
+    _Measurement__latitude: 47.74801252198044
+    _Measurement__longitude: 11.565071882452887
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 7.933194629209917,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 4.0, GPS Altitude_unit: m, GPS Altitude_value: 693.3882678298992,
+      GPS Bearing_unit: deg, GPS Bearing_value: 155.57363891601562, GPS HDOP_unit: precision,
+      GPS HDOP_value: 1.0, GPS PDOP_unit: precision, GPS PDOP_value: 1.7, GPS Speed_unit: km/h,
+      GPS Speed_value: 0.0, GPS VDOP_unit: precision, GPS VDOP_value: 1.4, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 50.0, Intake Temperature_unit: c, Intake Temperature_value: 55.0,
+      MAF_unit: l/s, MAF_value: 8.609999656677246, Rpm_unit: u/min, Rpm_value: 844.0,
+      Speed_unit: km/h, Speed_value: 6.0}
+    _Measurement__road: *id005
+    _Measurement__time: '2014-01-21T14:58:29Z'
+  32: !!python/object:CarTrip.Measurement
+    _Measurement__index: 32
+    _Measurement__latitude: 47.74801252198044
+    _Measurement__longitude: 11.565071882452887
+    _Measurement__measures: {GPS Accuracy_unit: '%', GPS Accuracy_value: 6.0, GPS Altitude_unit: m,
+      GPS Altitude_value: 693.3204670468405, GPS Bearing_unit: deg, GPS Bearing_value: 155.57363891601562,
+      GPS HDOP_unit: precision, GPS HDOP_value: 1.0, GPS PDOP_unit: precision, GPS PDOP_value: 1.6,
+      GPS Speed_unit: km/h, GPS Speed_value: 0.0, GPS VDOP_unit: precision, GPS VDOP_value: 1.3,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 50.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 54.0, MAF_unit: l/s, MAF_value: 7.880000114440918,
+      Speed_unit: km/h, Speed_value: 0.0}
+    _Measurement__road: *id005
+    _Measurement__time: '2014-01-21T14:58:35Z'
+  33: !!python/object:CarTrip.Measurement
+    _Measurement__index: 33
+    _Measurement__latitude: 47.74801252198044
+    _Measurement__longitude: 11.565071882452887
+    _Measurement__measures: {GPS Accuracy_unit: '%', GPS Accuracy_value: 4.0, GPS Altitude_unit: m,
+      GPS Altitude_value: 693.3202331682536, GPS Bearing_unit: deg, GPS Bearing_value: 155.57363891601562,
+      GPS HDOP_unit: precision, GPS HDOP_value: 0.9, GPS PDOP_unit: precision, GPS PDOP_value: 1.5,
+      GPS Speed_unit: km/h, GPS Speed_value: 0.0, GPS VDOP_unit: precision, GPS VDOP_value: 1.3,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 49.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 54.0, MAF_unit: l/s, MAF_value: 7.71999979019165,
+      Speed_unit: km/h, Speed_value: 0.0}
+    _Measurement__road: *id005
+    _Measurement__time: '2014-01-21T14:58:40Z'
+  34: !!python/object:CarTrip.Measurement
+    _Measurement__index: 34
+    _Measurement__latitude: 47.74794964947807
+    _Measurement__longitude: 11.565222322303772
+    _Measurement__measures: {GPS Accuracy_unit: '%', GPS Accuracy_value: 8.0, GPS Altitude_unit: m,
+      GPS Altitude_value: 693.5994196687227, GPS Bearing_unit: deg, GPS Bearing_value: 115.87081909179688,
+      GPS HDOP_unit: precision, GPS HDOP_value: 0.9, GPS PDOP_unit: precision, GPS PDOP_value: 1.5,
+      GPS Speed_unit: km/h, GPS Speed_value: 15.6316068649292, GPS VDOP_unit: precision,
+      GPS VDOP_value: 1.2, Intake Pressure_unit: kPa, Intake Pressure_value: 49.0,
+      Intake Temperature_unit: c, Intake Temperature_value: 53.0, MAF_unit: l/s, MAF_value: 8.020000457763672,
+      Speed_unit: km/h, Speed_value: 0.0}
+    _Measurement__road: &id006 !!python/object:CarTrip.Road
+      _Road__display_name: "August-Moralt-Stra\xDFe, Oberm\xFChlberg, Bad T\xF6lz,\
+        \ Landkreis Bad T\xF6lz-Wolfratshausen, OB, Bayern, 83646, Deutschland"
+      _Road__osm_id: '5154321'
+      _Road__tags: {highway: residential, name: "August-Moralt-Stra\xDFe", oneway: 'no'}
+    _Measurement__time: '2014-01-21T14:58:46Z'
+  35: !!python/object:CarTrip.Measurement
+    _Measurement__index: 35
+    _Measurement__latitude: 47.74810821005386
+    _Measurement__longitude: 11.565859175927404
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 17.247429773615547,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 6.0, GPS Altitude_unit: m, GPS Altitude_value: 695.038933995206,
+      GPS Bearing_unit: deg, GPS Bearing_value: 70.46063995361328, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.9, GPS PDOP_unit: precision, GPS PDOP_value: 1.5, GPS Speed_unit: km/h,
+      GPS Speed_value: 24.44569244384766, GPS VDOP_unit: precision, GPS VDOP_value: 1.2,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 51.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 80.0, MAF_unit: l/s, MAF_value: 47.27000045776367,
+      Rpm_unit: u/min, Rpm_value: 1936.0, Speed_unit: km/h, Speed_value: 28.0}
+    _Measurement__road: *id006
+    _Measurement__time: '2014-01-21T14:58:52Z'
+  36: !!python/object:CarTrip.Measurement
+    _Measurement__index: 36
+    _Measurement__latitude: 47.74832539552351
+    _Measurement__longitude: 11.566082325915271
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 13.860403830422673,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 6.0, GPS Altitude_unit: m, GPS Altitude_value: 694.020941671447,
+      GPS Bearing_unit: deg, GPS Bearing_value: 351.1171569824219, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.9, GPS PDOP_unit: precision, GPS PDOP_value: 1.5, GPS Speed_unit: km/h,
+      GPS Speed_value: 21.65544662475586, GPS VDOP_unit: precision, GPS VDOP_value: 1.2,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 51.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 78.0, MAF_unit: l/s, MAF_value: 26.65999984741211,
+      Rpm_unit: u/min, Rpm_value: 1547.0, Speed_unit: km/h, Speed_value: 24.0}
+    _Measurement__road: &id007 !!python/object:CarTrip.Road
+      _Road__display_name: "Demmeljochstra\xDFe, Oberm\xFChlberg, Bad T\xF6lz, Landkreis\
+        \ Bad T\xF6lz-Wolfratshausen, OB, Bayern, 83646, Deutschland"
+      _Road__osm_id: '5154322'
+      _Road__tags: {highway: residential, name: "Demmeljochstra\xDFe", oneway: 'no'}
+    _Measurement__time: '2014-01-21T14:58:58Z'
+  37: !!python/object:CarTrip.Measurement
+    _Measurement__index: 37
+    _Measurement__latitude: 47.74862348728548
+    _Measurement__longitude: 11.565813701834799
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 8.034333461212642,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 4.0, GPS Altitude_unit: m, GPS Altitude_value: 693.9973609827956,
+      GPS Bearing_unit: deg, GPS Bearing_value: 321.40264892578125, GPS HDOP_unit: precision,
+      GPS HDOP_value: 1.0, GPS PDOP_unit: precision, GPS PDOP_value: 1.7, GPS Speed_unit: km/h,
+      GPS Speed_value: 13.322926998138428, GPS VDOP_unit: precision, GPS VDOP_value: 1.4,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 51.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 55.0, MAF_unit: l/s, MAF_value: 8.720000267028809,
+      Rpm_unit: u/min, Rpm_value: 838.0, Speed_unit: km/h, Speed_value: 12.0}
+    _Measurement__road: *id007
+    _Measurement__time: '2014-01-21T14:59:04Z'
+  38: !!python/object:CarTrip.Measurement
+    _Measurement__index: 38
+    _Measurement__latitude: 47.74863086630384
+    _Measurement__longitude: 11.565644379438567
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 8.126209736711116,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 6.0, GPS Altitude_unit: m, GPS Altitude_value: 694.0839224878771,
+      GPS Bearing_unit: deg, GPS Bearing_value: 244.9212646484375, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.8, GPS PDOP_unit: precision, GPS PDOP_value: 1.5, GPS Speed_unit: km/h,
+      GPS Speed_value: 0.0, GPS VDOP_unit: precision, GPS VDOP_value: 1.2, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 51.0, Intake Temperature_unit: c, Intake Temperature_value: 54.0,
+      MAF_unit: l/s, MAF_value: 7.96999979019165, Rpm_unit: u/min, Rpm_value: 845.0,
+      Speed_unit: km/h, Speed_value: 0.0}
+    _Measurement__road: *id007
+    _Measurement__time: '2014-01-21T14:59:10Z'
+  39: !!python/object:CarTrip.Measurement
+    _Measurement__index: 39
+    _Measurement__latitude: 47.748630865891556
+    _Measurement__longitude: 11.565644378160687
+    _Measurement__measures: {GPS Accuracy_unit: '%', GPS Accuracy_value: 4.0, GPS Altitude_unit: m,
+      GPS Altitude_value: 694.0706372331007, GPS Bearing_unit: deg, GPS Bearing_value: 244.9212646484375,
+      GPS HDOP_unit: precision, GPS HDOP_value: 1.0, GPS PDOP_unit: precision, GPS PDOP_value: 1.3,
+      GPS Speed_unit: km/h, GPS Speed_value: 0.0, GPS VDOP_unit: precision, GPS VDOP_value: 0.8,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 51.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 54.0, MAF_unit: l/s, MAF_value: 7.75, Speed_unit: km/h,
+      Speed_value: 0.0}
+    _Measurement__road: *id007
+    _Measurement__time: '2014-01-21T14:59:16Z'
+  40: !!python/object:CarTrip.Measurement
+    _Measurement__index: 40
+    _Measurement__latitude: 47.748630865891556
+    _Measurement__longitude: 11.565644378160687
+    _Measurement__measures: {GPS Accuracy_unit: '%', GPS Accuracy_value: 4.0, GPS Altitude_unit: m,
+      GPS Altitude_value: 694.0608529946522, GPS Bearing_unit: deg, GPS Bearing_value: 244.9212646484375,
+      GPS HDOP_unit: precision, GPS HDOP_value: 1.0, GPS PDOP_unit: precision, GPS PDOP_value: 1.7,
+      GPS Speed_unit: km/h, GPS Speed_value: 0.0, GPS VDOP_unit: precision, GPS VDOP_value: 1.4,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 51.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 54.0, MAF_unit: l/s, MAF_value: 7.909999847412109,
+      Speed_unit: km/h, Speed_value: 0.0}
+    _Measurement__road: *id007
+    _Measurement__time: '2014-01-21T14:59:22Z'
+  41: !!python/object:CarTrip.Measurement
+    _Measurement__index: 41
+    _Measurement__latitude: 47.748630865891556
+    _Measurement__longitude: 11.565644378160687
+    _Measurement__measures: {GPS Accuracy_unit: '%', GPS Accuracy_value: 4.0, GPS Altitude_unit: m,
+      GPS Altitude_value: 694.0687531395704, GPS Bearing_unit: deg, GPS Bearing_value: 244.9212646484375,
+      GPS HDOP_unit: precision, GPS HDOP_value: 1.0, GPS PDOP_unit: precision, GPS PDOP_value: 1.6,
+      GPS Speed_unit: km/h, GPS Speed_value: 0.0, GPS VDOP_unit: precision, GPS VDOP_value: 1.3,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 51.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 54.0, MAF_unit: l/s, MAF_value: 7.800000190734863,
+      Speed_unit: km/h, Speed_value: 0.0}
+    _Measurement__road: *id007
+    _Measurement__time: '2014-01-21T14:59:28Z'
+  42: !!python/object:CarTrip.Measurement
+    _Measurement__index: 42
+    _Measurement__latitude: 47.748630865891556
+    _Measurement__longitude: 11.565644378160687
+    _Measurement__measures: {GPS Accuracy_unit: '%', GPS Accuracy_value: 6.0, GPS Altitude_unit: m,
+      GPS Altitude_value: 694.093381333615, GPS Bearing_unit: deg, GPS Bearing_value: 244.9212646484375,
+      GPS HDOP_unit: precision, GPS HDOP_value: 1.0, GPS PDOP_unit: precision, GPS PDOP_value: 1.6,
+      GPS Speed_unit: km/h, GPS Speed_value: 0.0, GPS VDOP_unit: precision, GPS VDOP_value: 1.2,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 51.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 54.0, MAF_unit: l/s, MAF_value: 7.880000114440918,
+      Speed_unit: km/h, Speed_value: 0.0}
+    _Measurement__road: *id007
+    _Measurement__time: '2014-01-21T14:59:34Z'
+  43: !!python/object:CarTrip.Measurement
+    _Measurement__index: 43
+    _Measurement__latitude: 47.74860064173744
+    _Measurement__longitude: 11.565554662613671
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 11.181376556992598,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 4.0, GPS Altitude_unit: m, GPS Altitude_value: 694.1756971280273,
+      GPS Bearing_unit: deg, GPS Bearing_value: 245.94363403320312, GPS HDOP_unit: precision,
+      GPS HDOP_value: 1.0, GPS PDOP_unit: precision, GPS PDOP_value: 1.7, GPS Speed_unit: km/h,
+      GPS Speed_value: 6.5462503910064695, GPS VDOP_unit: precision, GPS VDOP_value: 1.4,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 51.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 69.0, MAF_unit: l/s, MAF_value: 24.020000457763672,
+      Rpm_unit: u/min, Rpm_value: 1216.0, Speed_unit: km/h, Speed_value: 7.0}
+    _Measurement__road: *id007
+    _Measurement__time: '2014-01-21T14:59:41Z'
+  44: !!python/object:CarTrip.Measurement
+    _Measurement__index: 44
+    _Measurement__latitude: 47.74859299248305
+    _Measurement__longitude: 11.565357476010675
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 14.31278849373305,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 6.0, GPS Altitude_unit: m, GPS Altitude_value: 693.9260419725291,
+      GPS Bearing_unit: deg, GPS Bearing_value: 319.00750732421875, GPS HDOP_unit: precision,
+      GPS HDOP_value: 1.0, GPS PDOP_unit: precision, GPS PDOP_value: 1.7, GPS Speed_unit: km/h,
+      GPS Speed_value: 12.777103900909424, GPS VDOP_unit: precision, GPS VDOP_value: 1.3,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 52.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 72.0, MAF_unit: l/s, MAF_value: 42.02000045776367,
+      Rpm_unit: u/min, Rpm_value: 1540.0, Speed_unit: km/h, Speed_value: 13.0}
+    _Measurement__road: *id006
+    _Measurement__time: '2014-01-21T14:59:47Z'
+  45: !!python/object:CarTrip.Measurement
+    _Measurement__index: 45
+    _Measurement__latitude: 47.74875536893919
+    _Measurement__longitude: 11.56551699817236
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 13.882218888329545,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 6.0, GPS Altitude_unit: m, GPS Altitude_value: 694.2913447525771,
+      GPS Bearing_unit: deg, GPS Bearing_value: 64.5138931274414, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.9, GPS PDOP_unit: precision, GPS PDOP_value: 1.5, GPS Speed_unit: km/h,
+      GPS Speed_value: 17.409848785400392, GPS VDOP_unit: precision, GPS VDOP_value: 1.2,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 52.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 73.0, MAF_unit: l/s, MAF_value: 19.15999984741211,
+      Rpm_unit: u/min, Rpm_value: 1498.0, Speed_unit: km/h, Speed_value: 21.0}
+    _Measurement__road: *id007
+    _Measurement__time: '2014-01-21T14:59:52Z'
+  46: !!python/object:CarTrip.Measurement
+    _Measurement__index: 46
+    _Measurement__latitude: 47.74877310874937
+    _Measurement__longitude: 11.565710792211318
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 10.78698450334819,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 6.0, GPS Altitude_unit: m, GPS Altitude_value: 694.4584701652453,
+      GPS Bearing_unit: deg, GPS Bearing_value: 119.56396484375, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.9, GPS PDOP_unit: precision, GPS PDOP_value: 1.5, GPS Speed_unit: km/h,
+      GPS Speed_value: 6.269878149032593, GPS VDOP_unit: precision, GPS VDOP_value: 1.2,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 52.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 73.0, MAF_unit: l/s, MAF_value: 31.770000457763672,
+      Rpm_unit: u/min, Rpm_value: 1164.0, Speed_unit: km/h, Speed_value: 12.0}
+    _Measurement__road: *id007
+    _Measurement__time: '2014-01-21T14:59:58Z'
+  47: !!python/object:CarTrip.Measurement
+    _Measurement__index: 47
+    _Measurement__latitude: 47.74857346839039
+    _Measurement__longitude: 11.565817134826702
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 12.764224327006728,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 6.0, GPS Altitude_unit: m, GPS Altitude_value: 694.2882440600591,
+      GPS Bearing_unit: deg, GPS Bearing_value: 162.53050231933594, GPS HDOP_unit: precision,
+      GPS HDOP_value: 1.5, GPS PDOP_unit: precision, GPS PDOP_value: 1.7, GPS Speed_unit: km/h,
+      GPS Speed_value: 21.70129737854004, GPS VDOP_unit: precision, GPS VDOP_value: 0.8,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 54.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 81.0, MAF_unit: l/s, MAF_value: 36.52000045776367,
+      Rpm_unit: u/min, Rpm_value: 1357.0, Speed_unit: km/h, Speed_value: 34.0}
+    _Measurement__road: *id007
+    _Measurement__time: '2014-01-21T15:00:04Z'
+  48: !!python/object:CarTrip.Measurement
+    _Measurement__index: 48
+    _Measurement__latitude: 47.7482173695345
+    _Measurement__longitude: 11.565779555677551
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 16.515716401215514,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 6.0, GPS Altitude_unit: m, GPS Altitude_value: 692.5504054335737,
+      GPS Bearing_unit: deg, GPS Bearing_value: 239.2196502685547, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.9, GPS PDOP_unit: precision, GPS PDOP_value: 1.7, GPS Speed_unit: km/h,
+      GPS Speed_value: 14.830643463134766, GPS VDOP_unit: precision, GPS VDOP_value: 1.4,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 54.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 77.0, MAF_unit: l/s, MAF_value: 34.15999984741211,
+      Rpm_unit: u/min, Rpm_value: 1736.0, Speed_unit: km/h, Speed_value: 17.0}
+    _Measurement__road: *id006
+    _Measurement__time: '2014-01-21T15:00:10Z'
+  49: !!python/object:CarTrip.Measurement
+    _Measurement__index: 49
+    _Measurement__latitude: 47.748039093231334
+    _Measurement__longitude: 11.565204788096734
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 8.699600643545468,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 6.0, GPS Altitude_unit: m, GPS Altitude_value: 692.2904476109862,
+      GPS Bearing_unit: deg, GPS Bearing_value: 247.39266967773438, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.8, GPS PDOP_unit: precision, GPS PDOP_value: 1.4, GPS Speed_unit: km/h,
+      GPS Speed_value: 16.25668258666992, GPS VDOP_unit: precision, GPS VDOP_value: 1.2,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 56.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 62.0, MAF_unit: l/s, MAF_value: 36.5, Rpm_unit: u/min,
+      Rpm_value: 844.0, Speed_unit: km/h, Speed_value: 31.0}
+    _Measurement__road: *id006
+    _Measurement__time: '2014-01-21T15:00:16Z'
+  50: !!python/object:CarTrip.Measurement
+    _Measurement__index: 50
+    _Measurement__latitude: 47.74786989393599
+    _Measurement__longitude: 11.565142304259522
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 29.186681453914506,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 6.0, GPS Altitude_unit: m, GPS Altitude_value: 693.2727323298016,
+      GPS Bearing_unit: deg, GPS Bearing_value: 156.97476196289062, GPS HDOP_unit: precision,
+      GPS HDOP_value: 1.0, GPS PDOP_unit: precision, GPS PDOP_value: 1.3, GPS Speed_unit: km/h,
+      GPS Speed_value: 23.87933349609375, GPS VDOP_unit: precision, GPS VDOP_value: 0.8,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 57.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 69.0, MAF_unit: l/s, MAF_value: 105.19000244140625,
+      Rpm_unit: u/min, Rpm_value: 2840.0, Speed_unit: km/h, Speed_value: 25.0}
+    _Measurement__road: *id005
+    _Measurement__time: '2014-01-21T15:00:21Z'
+  51: !!python/object:CarTrip.Measurement
+    _Measurement__index: 51
+    _Measurement__latitude: 47.74719767705222
+    _Measurement__longitude: 11.565648973354266
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 25.3948288615172,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 6.0, GPS Altitude_unit: m, GPS Altitude_value: 693.6863492769397,
+      GPS Bearing_unit: deg, GPS Bearing_value: 152.9029541015625, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.9, GPS PDOP_unit: precision, GPS PDOP_value: 1.4, GPS Speed_unit: km/h,
+      GPS Speed_value: 56.64654808044434, GPS VDOP_unit: precision, GPS VDOP_value: 1.1,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 61.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 69.0, MAF_unit: l/s, MAF_value: 49.75, Rpm_unit: u/min,
+      Rpm_value: 2309.0, Speed_unit: km/h, Speed_value: 52.0}
+    _Measurement__road: *id005
+    _Measurement__time: '2014-01-21T15:00:27Z'
+  52: !!python/object:CarTrip.Measurement
+    _Measurement__index: 52
+    _Measurement__latitude: 47.7462467688011
+    _Measurement__longitude: 11.566379516135225
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 22.41922120262139,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 6.0, GPS Altitude_unit: m, GPS Altitude_value: 693.2556099576085,
+      GPS Bearing_unit: deg, GPS Bearing_value: 153.6031494140625, GPS HDOP_unit: precision,
+      GPS HDOP_value: 1.1, GPS PDOP_unit: precision, GPS PDOP_value: 1.6, GPS Speed_unit: km/h,
+      GPS Speed_value: 64.99997863769532, GPS VDOP_unit: precision, GPS VDOP_value: 1.2,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 64.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 78.0, MAF_unit: l/s, MAF_value: 49.08000183105469,
+      Rpm_unit: u/min, Rpm_value: 1994.0, Speed_unit: km/h, Speed_value: 65.0}
+    _Measurement__road: *id005
+    _Measurement__time: '2014-01-21T15:00:33Z'
+  53: !!python/object:CarTrip.Measurement
+    _Measurement__index: 53
+    _Measurement__latitude: 47.745276340141096
+    _Measurement__longitude: 11.56705051765945
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 22.4220751805554,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 6.0, GPS Altitude_unit: m, GPS Altitude_value: 692.5524154949989,
+      GPS Bearing_unit: deg, GPS Bearing_value: 158.24942016601562, GPS HDOP_unit: precision,
+      GPS HDOP_value: 1.0, GPS PDOP_unit: precision, GPS PDOP_value: 1.5, GPS Speed_unit: km/h,
+      GPS Speed_value: 71.75708541870118, GPS VDOP_unit: precision, GPS VDOP_value: 1.2,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 61.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 86.0, MAF_unit: l/s, MAF_value: 46.08000183105469,
+      Rpm_unit: u/min, Rpm_value: 2140.0, Speed_unit: km/h, Speed_value: 69.0}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: "Lenggrieser Stra\xDFe, Obergries, Gai\xDFach, Landkreis\
+        \ Bad T\xF6lz-Wolfratshausen, OB, Bayern, 83674, Deutschland"
+      _Road__osm_id: '421348602'
+      _Road__tags: {highway: primary, maxspeed: '60', name: "Lenggrieser Stra\xDFe",
+        oneway: 'no', ref: B 13, tmc: 'DE:20709/20710'}
+    _Measurement__time: '2014-01-21T15:00:39Z'
+  54: !!python/object:CarTrip.Measurement
+    _Measurement__index: 54
+    _Measurement__latitude: 47.74424570106542
+    _Measurement__longitude: 11.567325246174303
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 21.682782391803087,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 8.0, GPS Altitude_unit: m, GPS Altitude_value: 693.0177806505678,
+      GPS Bearing_unit: deg, GPS Bearing_value: 174.42782592773438, GPS HDOP_unit: precision,
+      GPS HDOP_value: 1.1, GPS PDOP_unit: precision, GPS PDOP_value: 1.3, GPS Speed_unit: km/h,
+      GPS Speed_value: 68.90461578369141, GPS VDOP_unit: precision, GPS VDOP_value: 0.8,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 58.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 78.0, MAF_unit: l/s, MAF_value: 36.04999923706055,
+      Rpm_unit: u/min, Rpm_value: 2128.0, Speed_unit: km/h, Speed_value: 68.0}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: "Lenggrieser Stra\xDFe, Obergries, Gai\xDFach, Landkreis\
+        \ Bad T\xF6lz-Wolfratshausen, OB, Bayern, 83674, Deutschland"
+      _Road__osm_id: '421348599'
+      _Road__tags: {highway: primary, 'lanes:backward': '2', 'lanes:forward': '1',
+        maxspeed: '60', name: "Lenggrieser Stra\xDFe", oneway: 'no', ref: B 13, tmc: 'DE:20709/20710',
+        'turn:lanes:backward': left|}
+    _Measurement__time: '2014-01-21T15:00:45Z'
+  55: !!python/object:CarTrip.Measurement
+    _Measurement__index: 55
+    _Measurement__latitude: 47.74335767522753
+    _Measurement__longitude: 11.567248790120717
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 21.24508115493554,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 6.0, GPS Altitude_unit: m, GPS Altitude_value: 692.5056828271963,
+      GPS Bearing_unit: deg, GPS Bearing_value: 185.31552124023438, GPS HDOP_unit: precision,
+      GPS HDOP_value: 1.0, GPS PDOP_unit: precision, GPS PDOP_value: 1.6, GPS Speed_unit: km/h,
+      GPS Speed_value: 71.57701950073242, GPS VDOP_unit: precision, GPS VDOP_value: 1.3,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 57.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 87.0, MAF_unit: l/s, MAF_value: 59.939998626708984,
+      Rpm_unit: u/min, Rpm_value: 2176.0, Speed_unit: km/h, Speed_value: 72.0}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: "Blombergstra\xDFe, Gai\xDFach, Landkreis Bad T\xF6lz-Wolfratshausen,\
+        \ OB, Bayern, 83674, Deutschland"
+      _Road__osm_id: '24977621'
+      _Road__tags: {highway: residential, name: "Blombergstra\xDFe", oneway: 'no'}
+    _Measurement__time: '2014-01-21T15:00:54Z'
+  56: !!python/object:CarTrip.Measurement
+    _Measurement__index: 56
+    _Measurement__latitude: 47.741685977494704
+    _Measurement__longitude: 11.56653520029098
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 23.314272672912487,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 6.0, GPS Altitude_unit: m, GPS Altitude_value: 692.733006443488,
+      GPS Bearing_unit: deg, GPS Bearing_value: 196.70054626464844, GPS HDOP_unit: precision,
+      GPS HDOP_value: 1.1, GPS PDOP_unit: precision, GPS PDOP_value: 1.6, GPS Speed_unit: km/h,
+      GPS Speed_value: 74.60267486572266, GPS VDOP_unit: precision, GPS VDOP_value: 1.3,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 57.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 76.0, MAF_unit: l/s, MAF_value: 92.63999938964844,
+      Rpm_unit: u/min, Rpm_value: 2315.0, Speed_unit: km/h, Speed_value: 76.0}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: "Lenggrieser Stra\xDFe, Gai\xDFach, Landkreis Bad T\xF6\
+        lz-Wolfratshausen, OB, Bayern, 83674, Deutschland"
+      _Road__osm_id: '421348598'
+      _Road__tags: {highway: primary, 'lanes:backward': '1', 'lanes:forward': '2',
+        maxspeed: '60', name: "Lenggrieser Stra\xDFe", oneway: 'no', ref: B 13, tmc: 'DE:20709/20710',
+        'turn:lanes:forward': left|}
+    _Measurement__time: '2014-01-21T15:01:00Z'
+  57: !!python/object:CarTrip.Measurement
+    _Measurement__index: 57
+    _Measurement__latitude: 47.74079180196233
+    _Measurement__longitude: 11.566124685466194
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 18.115885910142126,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 6.0, GPS Altitude_unit: m, GPS Altitude_value: 694.3154927786741,
+      GPS Bearing_unit: deg, GPS Bearing_value: 197.16551208496094, GPS HDOP_unit: precision,
+      GPS HDOP_value: 1.0, GPS PDOP_unit: precision, GPS PDOP_value: 1.7, GPS Speed_unit: km/h,
+      GPS Speed_value: 73.95018997192383, GPS VDOP_unit: precision, GPS VDOP_value: 1.3,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 57.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 64.0, MAF_unit: l/s, MAF_value: 18.610000610351562,
+      Rpm_unit: u/min, Rpm_value: 1737.0, Speed_unit: km/h, Speed_value: 74.0}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: "Lenggrieser Stra\xDFe, Gai\xDFach, Landkreis Bad T\xF6\
+        lz-Wolfratshausen, OB, Bayern, 83674, Deutschland"
+      _Road__osm_id: '421348600'
+      _Road__tags: {highway: primary, maxspeed: '100', 'maxspeed:backward': '60',
+        name: "Lenggrieser Stra\xDFe", ref: B 13, tmc: 'DE:20709/20710'}
+    _Measurement__time: '2014-01-21T15:01:05Z'
+  58: !!python/object:CarTrip.Measurement
+    _Measurement__index: 58
+    _Measurement__latitude: 47.7357784193771
+    _Measurement__longitude: 11.565414434772268
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 19.105246553939015,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 8.0, GPS Altitude_unit: m, GPS Altitude_value: 694.6279940420413,
+      GPS Bearing_unit: deg, GPS Bearing_value: 167.2650146484375, GPS HDOP_unit: precision,
+      GPS HDOP_value: 1.0, GPS PDOP_unit: precision, GPS PDOP_value: 1.7, GPS Speed_unit: km/h,
+      GPS Speed_value: 91.62205581665039, GPS VDOP_unit: precision, GPS VDOP_value: 1.4,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 56.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 78.0, MAF_unit: l/s, MAF_value: 59.83000183105469,
+      Rpm_unit: u/min, Rpm_value: 1942.0, Speed_unit: km/h, Speed_value: 101.0}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: "Lenggrieser Stra\xDFe, Gai\xDFach, Landkreis Bad T\xF6\
+        lz-Wolfratshausen, OB, Bayern, 83674, Deutschland"
+      _Road__osm_id: '48460727'
+      _Road__tags: {highway: primary, maxspeed: '100', name: "Lenggrieser Stra\xDF\
+          e", ref: B 13, tmc: 'DE:20709/20710'}
+    _Measurement__time: '2014-01-21T15:01:29Z'
+  59: !!python/object:CarTrip.Measurement
+    _Measurement__index: 59
+    _Measurement__latitude: 47.70975322080134
+    _Measurement__longitude: 11.562135194966741
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 18.80363012955449,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 6.0, GPS Altitude_unit: m, GPS Altitude_value: 707.9977980661832,
+      GPS Bearing_unit: deg, GPS Bearing_value: 173.56695556640625, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.9, GPS PDOP_unit: precision, GPS PDOP_value: 1.6, GPS Speed_unit: km/h,
+      GPS Speed_value: 102.88075561523438, GPS VDOP_unit: precision, GPS VDOP_value: 1.3,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 56.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 84.0, MAF_unit: l/s, MAF_value: 72.44000244140625,
+      Rpm_unit: u/min, Rpm_value: 1944.0, Speed_unit: km/h, Speed_value: 102.0}
+    _Measurement__road: &id008 !!python/object:CarTrip.Road
+      _Road__display_name: "Lenggrieser Stra\xDFe, Obergries, Gai\xDFach, Landkreis\
+        \ Bad T\xF6lz-Wolfratshausen, OB, Bayern, 83674, Deutschland"
+      _Road__osm_id: '100867163'
+      _Road__tags: {highway: primary, maxspeed: '100', name: "Lenggrieser Stra\xDF\
+          e", oneway: 'no', ref: B 13, tmc: 'DE:20709/20710'}
+    _Measurement__time: '2014-01-21T15:03:15Z'
+  60: !!python/object:CarTrip.Measurement
+    _Measurement__index: 60
+    _Measurement__latitude: 47.70845070283995
+    _Measurement__longitude: 11.562431986797517
+    _Measurement__measures: {GPS Accuracy_unit: '%', GPS Accuracy_value: 8.0, GPS Altitude_unit: m,
+      GPS Altitude_value: 709.9108482200943, GPS Bearing_unit: deg, GPS Bearing_value: 174.0082244873047,
+      GPS HDOP_unit: precision, GPS HDOP_value: 1.0, GPS PDOP_unit: precision, GPS PDOP_value: 1.6,
+      GPS Speed_unit: km/h, GPS Speed_value: 102.8457504272461, GPS VDOP_unit: precision,
+      GPS VDOP_value: 1.2, Intake Pressure_unit: kPa, Intake Pressure_value: 57.0,
+      MAF_unit: l/s, MAF_value: 46.52000045776367, Rpm_unit: u/min, Rpm_value: 1986.0,
+      Speed_unit: km/h, Speed_value: 103.0}
+    _Measurement__road: *id008
+    _Measurement__time: '2014-01-21T15:03:21Z'
+  61: !!python/object:CarTrip.Measurement
+    _Measurement__index: 61
+    _Measurement__latitude: 47.70686689064691
+    _Measurement__longitude: 11.562527938047175
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 19.59696353183172,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 6.0, GPS Altitude_unit: m, GPS Altitude_value: 708.7973436498648,
+      GPS Bearing_unit: deg, GPS Bearing_value: 182.4457244873047, GPS HDOP_unit: precision,
+      GPS HDOP_value: 1.0, GPS PDOP_unit: precision, GPS PDOP_value: 1.7, GPS Speed_unit: km/h,
+      GPS Speed_value: 105.26463775634765, GPS VDOP_unit: precision, GPS VDOP_value: 1.4,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 56.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 81.0, MAF_unit: l/s, MAF_value: 92.80000305175781,
+      Rpm_unit: u/min, Rpm_value: 2009.0, Speed_unit: km/h, Speed_value: 104.0}
+    _Measurement__road: *id008
+    _Measurement__time: '2014-01-21T15:03:26Z'
+  62: !!python/object:CarTrip.Measurement
+    _Measurement__index: 62
+    _Measurement__latitude: 47.70522462934066
+    _Measurement__longitude: 11.562150556745154
+    _Measurement__measures: {GPS Accuracy_unit: '%', GPS Accuracy_value: 6.0, GPS Altitude_unit: m,
+      GPS Altitude_value: 710.5418664411254, GPS Bearing_unit: deg, GPS Bearing_value: 188.32325744628906,
+      GPS HDOP_unit: precision, GPS HDOP_value: 1.0, GPS PDOP_unit: precision, GPS PDOP_value: 1.5,
+      GPS Speed_unit: km/h, GPS Speed_value: 111.13599929809571, GPS VDOP_unit: precision,
+      GPS VDOP_value: 1.2, Intake Pressure_unit: kPa, Intake Pressure_value: 59.0,
+      MAF_unit: l/s, MAF_value: 54.5, Rpm_unit: u/min, Rpm_value: 2140.0, Speed_unit: km/h,
+      Speed_value: 111.0}
+    _Measurement__road: *id008
+    _Measurement__time: '2014-01-21T15:03:32Z'
+  63: !!python/object:CarTrip.Measurement
+    _Measurement__index: 63
+    _Measurement__latitude: 47.703501151814976
+    _Measurement__longitude: 11.561712574403197
+    _Measurement__measures: {GPS Accuracy_unit: '%', GPS Accuracy_value: 4.0, GPS Altitude_unit: m,
+      GPS Altitude_value: 712.2978761088426, GPS Bearing_unit: deg, GPS Bearing_value: 188.39234924316406,
+      GPS HDOP_unit: precision, GPS HDOP_value: 0.9, GPS PDOP_unit: precision, GPS PDOP_value: 1.5,
+      GPS Speed_unit: km/h, GPS Speed_value: 117.8795654296875, GPS VDOP_unit: precision,
+      GPS VDOP_value: 1.2, Intake Pressure_unit: kPa, Intake Pressure_value: 61.0,
+      MAF_unit: l/s, MAF_value: 80.5199966430664, Rpm_unit: u/min, Rpm_value: 2262.0,
+      Speed_unit: km/h, Speed_value: 117.0}
+    _Measurement__road: *id008
+    _Measurement__time: '2014-01-21T15:03:38Z'
+  64: !!python/object:CarTrip.Measurement
+    _Measurement__index: 64
+    _Measurement__latitude: 47.70200606252255
+    _Measurement__longitude: 11.561515162748622
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 46.032415180250304,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 4.0, GPS Altitude_unit: m, GPS Altitude_value: 711.6212951036014,
+      GPS Bearing_unit: deg, GPS Bearing_value: 183.16162109375, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.8, GPS PDOP_unit: precision, GPS PDOP_value: 1.4, GPS Speed_unit: km/h,
+      GPS Speed_value: 117.56773223876954, GPS VDOP_unit: precision, GPS VDOP_value: 1.1,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 116.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 76.0, MAF_unit: l/s, MAF_value: 36.08000183105469,
+      Rpm_unit: u/min, Rpm_value: 2246.0, Speed_unit: km/h, Speed_value: 116.0}
+    _Measurement__road: *id008
+    _Measurement__time: '2014-01-21T15:03:43Z'
+  65: !!python/object:CarTrip.Measurement
+    _Measurement__index: 65
+    _Measurement__latitude: 47.700233376567375
+    _Measurement__longitude: 11.561760076749072
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 23.87884916766671,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 6.0, GPS Altitude_unit: m, GPS Altitude_value: 711.7451102620668,
+      GPS Bearing_unit: deg, GPS Bearing_value: 171.55865478515625, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.8, GPS PDOP_unit: precision, GPS PDOP_value: 1.4, GPS Speed_unit: km/h,
+      GPS Speed_value: 119.74942474365234, GPS VDOP_unit: precision, GPS VDOP_value: 1.2,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 61.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 83.0, MAF_unit: l/s, MAF_value: 69.16000366210938,
+      Rpm_unit: u/min, Rpm_value: 2260.0, Speed_unit: km/h, Speed_value: 119.0}
+    _Measurement__road: *id008
+    _Measurement__time: '2014-01-21T15:03:49Z'
+  66: !!python/object:CarTrip.Measurement
+    _Measurement__index: 66
+    _Measurement__latitude: 47.69851482010421
+    _Measurement__longitude: 11.562610521012429
+    _Measurement__measures: {GPS Accuracy_unit: '%', GPS Accuracy_value: 6.0, GPS Altitude_unit: m,
+      GPS Altitude_value: 714.8951698961037, GPS Bearing_unit: deg, GPS Bearing_value: 160.06495666503906,
+      GPS HDOP_unit: precision, GPS HDOP_value: 0.9, GPS PDOP_unit: precision, GPS PDOP_value: 1.5,
+      GPS Speed_unit: km/h, GPS Speed_value: 122.07472229003906, GPS VDOP_unit: precision,
+      GPS VDOP_value: 1.1, MAF_unit: l/s, MAF_value: 79.63999938964844, Rpm_unit: u/min,
+      Rpm_value: 2311.0, Speed_unit: km/h, Speed_value: 120.0}
+    _Measurement__road: *id008
+    _Measurement__time: '2014-01-21T15:03:55Z'
+  67: !!python/object:CarTrip.Measurement
+    _Measurement__index: 67
+    _Measurement__latitude: 47.69682806890649
+    _Measurement__longitude: 11.563707184733904
+    _Measurement__measures: {GPS Accuracy_unit: '%', GPS Accuracy_value: 6.0, GPS Altitude_unit: m,
+      GPS Altitude_value: 714.6096696186544, GPS Bearing_unit: deg, GPS Bearing_value: 157.618896484375,
+      GPS HDOP_unit: precision, GPS HDOP_value: 0.8, GPS PDOP_unit: precision, GPS PDOP_value: 1.3,
+      GPS Speed_unit: km/h, GPS Speed_value: 121.01771392822266, GPS VDOP_unit: precision,
+      GPS VDOP_value: 1.0, Intake Pressure_unit: kPa, Intake Pressure_value: 63.0,
+      MAF_unit: l/s, MAF_value: 79.61000061035156, Rpm_unit: u/min, Rpm_value: 2330.0,
+      Speed_unit: km/h, Speed_value: 122.0}
+    _Measurement__road: &id009 !!python/object:CarTrip.Road
+      _Road__display_name: "Lenggrieser Stra\xDFe, Lenggries, Landkreis Bad T\xF6\
+        lz-Wolfratshausen, OB, Bayern, 83661, Deutschland"
+      _Road__osm_id: '45018855'
+      _Road__tags: {highway: primary, maxspeed: '100', name: "Lenggrieser Stra\xDF\
+          e", oneway: 'no', ref: B 13, tmc: 'DE:20709/20710'}
+    _Measurement__time: '2014-01-21T15:04:01Z'
+  68: !!python/object:CarTrip.Measurement
+    _Measurement__index: 68
+    _Measurement__latitude: 47.69505483249078
+    _Measurement__longitude: 11.564669107445535
+    _Measurement__measures: {GPS Accuracy_unit: '%', GPS Accuracy_value: 6.0, GPS Altitude_unit: m,
+      GPS Altitude_value: 713.8161145400867, GPS Bearing_unit: deg, GPS Bearing_value: 163.08592224121094,
+      GPS HDOP_unit: precision, GPS HDOP_value: 0.8, GPS PDOP_unit: precision, GPS PDOP_value: 1.4,
+      GPS Speed_unit: km/h, GPS Speed_value: 126.24149322509766, GPS VDOP_unit: precision,
+      GPS VDOP_value: 1.2, Intake Pressure_unit: kPa, Intake Pressure_value: 64.0,
+      MAF_unit: l/s, MAF_value: 77.61000061035156, Rpm_unit: u/min, Rpm_value: 2399.0,
+      Speed_unit: km/h, Speed_value: 125.0}
+    _Measurement__road: *id009
+    _Measurement__time: '2014-01-21T15:04:07Z'
+  69: !!python/object:CarTrip.Measurement
+    _Measurement__index: 69
+    _Measurement__latitude: 47.69327180047493
+    _Measurement__longitude: 11.565305479020799
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 50.10135915590428,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 4.0, GPS Altitude_unit: m, GPS Altitude_value: 715.0532201139446,
+      GPS Bearing_unit: deg, GPS Bearing_value: 165.86427307128906, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.9, GPS PDOP_unit: precision, GPS PDOP_value: 1.5, GPS Speed_unit: km/h,
+      GPS Speed_value: 121.92622833251953, GPS VDOP_unit: precision, GPS VDOP_value: 1.3,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 125.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 85.0, MAF_unit: l/s, MAF_value: 60.08000183105469,
+      Rpm_unit: u/min, Rpm_value: 2327.0, Speed_unit: km/h, Speed_value: 121.0}
+    _Measurement__road: *id009
+    _Measurement__time: '2014-01-21T15:04:13Z'
+  70: !!python/object:CarTrip.Measurement
+    _Measurement__index: 70
+    _Measurement__latitude: 47.691609873593116
+    _Measurement__longitude: 11.56615348095508
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 24.393606866566177,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 4.0, GPS Altitude_unit: m, GPS Altitude_value: 716.7019654753228,
+      GPS Bearing_unit: deg, GPS Bearing_value: 158.1326904296875, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.9, GPS PDOP_unit: precision, GPS PDOP_value: 1.3, GPS Speed_unit: km/h,
+      GPS Speed_value: 115.46503143310547, GPS VDOP_unit: precision, GPS VDOP_value: 1.0,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 61.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 67.0, MAF_unit: l/s, MAF_value: 48.77000045776367,
+      Rpm_unit: u/min, Rpm_value: 2205.0, Speed_unit: km/h, Speed_value: 115.0}
+    _Measurement__road: *id009
+    _Measurement__time: '2014-01-21T15:04:19Z'
+  71: !!python/object:CarTrip.Measurement
+    _Measurement__index: 71
+    _Measurement__latitude: 47.69020707668535
+    _Measurement__longitude: 11.567374972011503
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 20.562493369499204,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 4.0, GPS Altitude_unit: m, GPS Altitude_value: 717.2925865516825,
+      GPS Bearing_unit: deg, GPS Bearing_value: 146.70616149902344, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.8, GPS PDOP_unit: precision, GPS PDOP_value: 1.4, GPS Speed_unit: km/h,
+      GPS Speed_value: 108.79587020874024, GPS VDOP_unit: precision, GPS VDOP_value: 1.2,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 57.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 81.0, MAF_unit: l/s, MAF_value: 72.41000366210938,
+      Rpm_unit: u/min, Rpm_value: 2071.0, Speed_unit: km/h, Speed_value: 109.0}
+    _Measurement__road: *id009
+    _Measurement__time: '2014-01-21T15:04:25Z'
+  72: !!python/object:CarTrip.Measurement
+    _Measurement__index: 72
+    _Measurement__latitude: 47.688908102242884
+    _Measurement__longitude: 11.568864758666434
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 20.083240779275005,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 6.0, GPS Altitude_unit: m, GPS Altitude_value: 718.3301948674955,
+      GPS Bearing_unit: deg, GPS Bearing_value: 141.653564453125, GPS HDOP_unit: precision,
+      GPS HDOP_value: 1.0, GPS PDOP_unit: precision, GPS PDOP_value: 1.9, GPS Speed_unit: km/h,
+      GPS Speed_value: 108.02550201416015, GPS VDOP_unit: precision, GPS VDOP_value: 1.6,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 57.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 87.0, MAF_unit: l/s, MAF_value: 34.189998626708984,
+      Rpm_unit: u/min, Rpm_value: 2057.0, Speed_unit: km/h, Speed_value: 107.0}
+    _Measurement__road: *id009
+    _Measurement__time: '2014-01-21T15:04:31Z'
+  73: !!python/object:CarTrip.Measurement
+    _Measurement__index: 73
+    _Measurement__latitude: 47.68769091512258
+    _Measurement__longitude: 11.570316546299225
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 20.037903891226264,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 6.0, GPS Altitude_unit: m, GPS Altitude_value: 718.0535335688036,
+      GPS Bearing_unit: deg, GPS Bearing_value: 142.723876953125, GPS HDOP_unit: precision,
+      GPS HDOP_value: 1.1, GPS PDOP_unit: precision, GPS PDOP_value: 2.2, GPS Speed_unit: km/h,
+      GPS Speed_value: 105.37903289794922, GPS VDOP_unit: precision, GPS VDOP_value: 1.9,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 56.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 72.0, MAF_unit: l/s, MAF_value: 77.61000061035156,
+      Rpm_unit: u/min, Rpm_value: 2002.0, Speed_unit: km/h, Speed_value: 104.0}
+    _Measurement__road: *id009
+    _Measurement__time: '2014-01-21T15:04:37Z'
+  74: !!python/object:CarTrip.Measurement
+    _Measurement__index: 74
+    _Measurement__latitude: 47.6863204006896
+    _Measurement__longitude: 11.571576129239196
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 20.944921196694608,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 6.0, GPS Altitude_unit: m, GPS Altitude_value: 719.2999271949317,
+      GPS Bearing_unit: deg, GPS Bearing_value: 151.585205078125, GPS HDOP_unit: precision,
+      GPS HDOP_value: 1.1, GPS PDOP_unit: precision, GPS PDOP_value: 2.2, GPS Speed_unit: km/h,
+      GPS Speed_value: 108.3826400756836, GPS VDOP_unit: precision, GPS VDOP_value: 1.9,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 58.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 82.0, MAF_unit: l/s, MAF_value: 46.65999984741211,
+      Rpm_unit: u/min, Rpm_value: 2079.0, Speed_unit: km/h, Speed_value: 108.0}
+    _Measurement__road: &id010 !!python/object:CarTrip.Road
+      _Road__display_name: "Lenggrieser Stra\xDFe, Lenggries, Landkreis Bad T\xF6\
+        lz-Wolfratshausen, OB, Bayern, 83661, Deutschland"
+      _Road__osm_id: '72112335'
+      _Road__tags: {highway: primary, maxspeed: '70', name: "Lenggrieser Stra\xDFe",
+        oneway: 'no', ref: B 13, tmc: 'DE:20709/20710'}
+    _Measurement__time: '2014-01-21T15:04:43Z'
+  75: !!python/object:CarTrip.Measurement
+    _Measurement__index: 75
+    _Measurement__latitude: 47.68514441637931
+    _Measurement__longitude: 11.572201925867216
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 21.058822479725958,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 6.0, GPS Altitude_unit: m, GPS Altitude_value: 720.2323923018048,
+      GPS Bearing_unit: deg, GPS Bearing_value: 162.50965881347656, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.9, GPS PDOP_unit: precision, GPS PDOP_value: 1.4, GPS Speed_unit: km/h,
+      GPS Speed_value: 93.09642791748047, GPS VDOP_unit: precision, GPS VDOP_value: 1.0,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 57.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 80.0, MAF_unit: l/s, MAF_value: 61.90999984741211,
+      Rpm_unit: u/min, Rpm_value: 2115.0, Speed_unit: km/h, Speed_value: 84.0}
+    _Measurement__road: *id010
+    _Measurement__time: '2014-01-21T15:04:48Z'
+  76: !!python/object:CarTrip.Measurement
+    _Measurement__index: 76
+    _Measurement__latitude: 47.68412515061843
+    _Measurement__longitude: 11.572415453432903
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 21.84448378943584,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 8.0, GPS Altitude_unit: m, GPS Altitude_value: 719.7818550706429,
+      GPS Bearing_unit: deg, GPS Bearing_value: 170.5020294189453, GPS HDOP_unit: precision,
+      GPS HDOP_value: 1.1, GPS PDOP_unit: precision, GPS PDOP_value: 1.7, GPS Speed_unit: km/h,
+      GPS Speed_value: 62.476707458496094, GPS VDOP_unit: precision, GPS VDOP_value: 1.3,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 56.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 55.0, MAF_unit: l/s, MAF_value: 42.189998626708984,
+      Rpm_unit: u/min, Rpm_value: 2075.0, Speed_unit: km/h, Speed_value: 65.0}
+    _Measurement__road: &id011 !!python/object:CarTrip.Road
+      _Road__display_name: "B 13, Niederleger, Lenggries, Landkreis Bad T\xF6lz-Wolfratshausen,\
+        \ OB, Bayern, 83661, Deutschland"
+      _Road__osm_id: '7974159'
+      _Road__tags: {highway: primary, maxspeed: '70', ref: B 13, tmc: 'DE:20709'}
+    _Measurement__time: '2014-01-21T15:04:54Z'
+  77: !!python/object:CarTrip.Measurement
+    _Measurement__index: 77
+    _Measurement__latitude: 47.68337485568994
+    _Measurement__longitude: 11.572639021184639
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 8.31927221972228,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 8.0, GPS Altitude_unit: m, GPS Altitude_value: 719.0509837652332,
+      GPS Bearing_unit: deg, GPS Bearing_value: 167.80337524414062, GPS HDOP_unit: precision,
+      GPS HDOP_value: 1.2, GPS PDOP_unit: precision, GPS PDOP_value: 1.8, GPS Speed_unit: km/h,
+      GPS Speed_value: 46.510857009887694, GPS VDOP_unit: precision, GPS VDOP_value: 1.3,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 54.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 60.0, MAF_unit: l/s, MAF_value: 10.720000267028809,
+      Rpm_unit: u/min, Rpm_value: 832.0, Speed_unit: km/h, Speed_value: 47.0}
+    _Measurement__road: *id011
+    _Measurement__time: '2014-01-21T15:05:00Z'
+  78: !!python/object:CarTrip.Measurement
+    _Measurement__index: 78
+    _Measurement__latitude: 47.682913316588994
+    _Measurement__longitude: 11.572753498748408
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 8.556307367282082,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 8.0, GPS Altitude_unit: m, GPS Altitude_value: 719.67920912824,
+      GPS Bearing_unit: deg, GPS Bearing_value: 174.1923370361328, GPS HDOP_unit: precision,
+      GPS HDOP_value: 1.3, GPS PDOP_unit: precision, GPS PDOP_value: 1.9, GPS Speed_unit: km/h,
+      GPS Speed_value: 23.4837947845459, GPS VDOP_unit: precision, GPS VDOP_value: 1.3,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 54.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 57.0, MAF_unit: l/s, MAF_value: 13.0, Rpm_unit: u/min,
+      Rpm_value: 848.0, Speed_unit: km/h, Speed_value: 24.0}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: "M\xFCnchner Stra\xDFe, Niederleger, Lenggries, Landkreis\
+        \ Bad T\xF6lz-Wolfratshausen, OB, Bayern, 83661, Deutschland"
+      _Road__osm_id: '190917166'
+      _Road__tags: {highway: tertiary, name: "M\xFCnchner Stra\xDFe", oneway: 'no'}
+    _Measurement__time: '2014-01-21T15:05:06Z'
+  79: !!python/object:CarTrip.Measurement
+    _Measurement__index: 79
+    _Measurement__latitude: 47.682720808060076
+    _Measurement__longitude: 11.572749617414654
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 8.468967252272675,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 8.0, GPS Altitude_unit: m, GPS Altitude_value: 722.0429273266708,
+      GPS Bearing_unit: deg, GPS Bearing_value: 178.96435546875, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.9, GPS PDOP_unit: precision, GPS PDOP_value: 1.5, GPS Speed_unit: km/h,
+      GPS Speed_value: 5.928022670745849, GPS VDOP_unit: precision, GPS VDOP_value: 1.1,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 53.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 55.0, MAF_unit: l/s, MAF_value: 7.679999828338623,
+      Rpm_unit: u/min, Rpm_value: 850.0, Speed_unit: km/h, Speed_value: 6.0}
+    _Measurement__road: &id012 !!python/object:CarTrip.Road
+      _Road__display_name: "St 2072, Niederleger, Lenggries, Landkreis Bad T\xF6lz-Wolfratshausen,\
+        \ OB, Bayern, 83661, Deutschland"
+      _Road__osm_id: '41967531'
+      _Road__tags: {highway: secondary, maxspeed: '50', ref: St 2072}
+    _Measurement__time: '2014-01-21T15:05:12Z'
+  80: !!python/object:CarTrip.Measurement
+    _Measurement__index: 80
+    _Measurement__latitude: 47.682720808060076
+    _Measurement__longitude: 11.572749617414654
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 8.825696901383198,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 4.0, GPS Altitude_unit: m, GPS Altitude_value: 722.5363218584633,
+      GPS Bearing_unit: deg, GPS Bearing_value: 178.96435546875, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.8, GPS PDOP_unit: precision, GPS PDOP_value: 1.4, GPS Speed_unit: km/h,
+      GPS Speed_value: 0.0, GPS VDOP_unit: precision, GPS VDOP_value: 1.1, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 53.0, Intake Temperature_unit: c, Intake Temperature_value: 61.0,
+      MAF_unit: l/s, MAF_value: 21.0, Rpm_unit: u/min, Rpm_value: 902.0, Speed_unit: km/h,
+      Speed_value: 4.0}
+    _Measurement__road: *id012
+    _Measurement__time: '2014-01-21T15:05:18Z'
+  81: !!python/object:CarTrip.Measurement
+    _Measurement__index: 81
+    _Measurement__latitude: 47.68264110142698
+    _Measurement__longitude: 11.572656846696393
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 15.227023824043187,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 4.0, GPS Altitude_unit: m, GPS Altitude_value: 722.7959513615374,
+      GPS Bearing_unit: deg, GPS Bearing_value: 188.99884033203125, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.9, GPS PDOP_unit: precision, GPS PDOP_value: 1.5, GPS Speed_unit: km/h,
+      GPS Speed_value: 7.61766242980957, GPS VDOP_unit: precision, GPS VDOP_value: 1.1,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 53.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 85.0, MAF_unit: l/s, MAF_value: 31.90999984741211,
+      Rpm_unit: u/min, Rpm_value: 1668.0, Speed_unit: km/h, Speed_value: 11.0}
+    _Measurement__road: &id013 !!python/object:CarTrip.Road
+      _Road__display_name: "St 2072, Niederleger, Lenggries, Landkreis Bad T\xF6lz-Wolfratshausen,\
+        \ OB, Bayern, 83661, Deutschland"
+      _Road__osm_id: '41967530'
+      _Road__tags: {highway: secondary, maxspeed: '50', ref: St 2072}
+    _Measurement__time: '2014-01-21T15:05:23Z'
+  82: !!python/object:CarTrip.Measurement
+    _Measurement__index: 82
+    _Measurement__latitude: 47.68254519027249
+    _Measurement__longitude: 11.572633074856398
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 8.289624416342194,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 6.0, GPS Altitude_unit: m, GPS Altitude_value: 722.9546228116604,
+      GPS Bearing_unit: deg, GPS Bearing_value: 186.9274139404297, GPS HDOP_unit: precision,
+      GPS HDOP_value: 1.3, GPS PDOP_unit: precision, GPS PDOP_value: 1.9, GPS Speed_unit: km/h,
+      GPS Speed_value: 0.0, GPS VDOP_unit: precision, GPS VDOP_value: 1.5, Intake Pressure_unit: kPa,
+      Intake Pressure_value: 53.0, Intake Temperature_unit: c, Intake Temperature_value: 55.0,
+      MAF_unit: l/s, MAF_value: 8.0, Rpm_unit: u/min, Rpm_value: 832.0, Speed_unit: km/h,
+      Speed_value: 0.0}
+    _Measurement__road: *id013
+    _Measurement__time: '2014-01-21T15:05:29Z'
+  83: !!python/object:CarTrip.Measurement
+    _Measurement__index: 83
+    _Measurement__latitude: 47.682419517434234
+    _Measurement__longitude: 11.572779781368835
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 23.327736484702264,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 6.0, GPS Altitude_unit: m, GPS Altitude_value: 723.0607091818421,
+      GPS Bearing_unit: deg, GPS Bearing_value: 126.35303497314453, GPS HDOP_unit: precision,
+      GPS HDOP_value: 1.0, GPS PDOP_unit: precision, GPS PDOP_value: 1.4, GPS Speed_unit: km/h,
+      GPS Speed_value: 18.279852676391602, GPS VDOP_unit: precision, GPS VDOP_value: 1.0,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 54.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 68.0, MAF_unit: l/s, MAF_value: 25.75, Rpm_unit: u/min,
+      Rpm_value: 2389.0, Speed_unit: km/h, Speed_value: 16.0}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: "T\xD6L 16, Niederleger, Lenggries, Landkreis Bad T\xF6\
+        lz-Wolfratshausen, OB, Bayern, 83661, Deutschland"
+      _Road__osm_id: '33055537'
+      _Road__tags: {highway: tertiary, maxspeed: '50', ref: "T\xD6L 16"}
+    _Measurement__time: '2014-01-21T15:05:34Z'
+  84: !!python/object:CarTrip.Measurement
+    _Measurement__index: 84
+    _Measurement__latitude: 47.682308936771875
+    _Measurement__longitude: 11.57352528829222
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 20.788563391380148,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 6.0, GPS Altitude_unit: m, GPS Altitude_value: 722.3200012827763,
+      GPS Bearing_unit: deg, GPS Bearing_value: 96.91375732421875, GPS HDOP_unit: precision,
+      GPS HDOP_value: 1.0, GPS PDOP_unit: precision, GPS PDOP_value: 1.7, GPS Speed_unit: km/h,
+      GPS Speed_value: 27.83696765899658, GPS VDOP_unit: precision, GPS VDOP_value: 1.3,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 55.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 66.0, MAF_unit: l/s, MAF_value: 29.329999923706055,
+      Rpm_unit: u/min, Rpm_value: 2078.0, Speed_unit: km/h, Speed_value: 33.0}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: "Isarstra\xDFe, Niederleger, Lenggries, Landkreis Bad T\xF6\
+        lz-Wolfratshausen, OB, Bayern, 83661, Deutschland"
+      _Road__osm_id: '122911758'
+      _Road__tags: {highway: residential, name: "Isarstra\xDFe"}
+    _Measurement__time: '2014-01-21T15:05:40Z'
+  85: !!python/object:CarTrip.Measurement
+    _Measurement__index: 85
+    _Measurement__latitude: 47.68201616857074
+    _Measurement__longitude: 11.573776554487898
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 26.146498630774456,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 8.0, GPS Altitude_unit: m, GPS Altitude_value: 721.6656615356367,
+      GPS Bearing_unit: deg, GPS Bearing_value: 169.53562927246094, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.9, GPS PDOP_unit: precision, GPS PDOP_value: 1.4, GPS Speed_unit: km/h,
+      GPS Speed_value: 34.63908233642578, GPS VDOP_unit: precision, GPS VDOP_value: 1.1,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 56.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 82.0, MAF_unit: l/s, MAF_value: 23.969999313354492,
+      Rpm_unit: u/min, Rpm_value: 2688.0, Speed_unit: km/h, Speed_value: 36.0}
+    _Measurement__road: &id014 !!python/object:CarTrip.Road
+      _Road__display_name: "Sch\xFCtzenstra\xDFe, Lenggries, Landkreis Bad T\xF6lz-Wolfratshausen,\
+        \ OB, Bayern, 83661, Deutschland"
+      _Road__osm_id: '5655978'
+      _Road__tags: {highway: unclassified, maxspeed: '50', name: "Sch\xFCtzenstra\xDF\
+          e", sidewalk: both}
+    _Measurement__time: '2014-01-21T15:05:46Z'
+  86: !!python/object:CarTrip.Measurement
+    _Measurement__index: 86
+    _Measurement__latitude: 47.681501149185976
+    _Measurement__longitude: 11.573908716921826
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 18.380880515950572,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 6.0, GPS Altitude_unit: m, GPS Altitude_value: 721.8694329700193,
+      GPS Bearing_unit: deg, GPS Bearing_value: 169.83212280273438, GPS HDOP_unit: precision,
+      GPS HDOP_value: 1.0, GPS PDOP_unit: precision, GPS PDOP_value: 1.8, GPS Speed_unit: km/h,
+      GPS Speed_value: 39.32649879455567, GPS VDOP_unit: precision, GPS VDOP_value: 1.4,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 57.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 71.0, MAF_unit: l/s, MAF_value: 37.11000061035156,
+      Rpm_unit: u/min, Rpm_value: 1799.0, Speed_unit: km/h, Speed_value: 43.0}
+    _Measurement__road: *id014
+    _Measurement__time: '2014-01-21T15:05:51Z'
+  87: !!python/object:CarTrip.Measurement
+    _Measurement__index: 87
+    _Measurement__latitude: 47.68096691908316
+    _Measurement__longitude: 11.574024270050222
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 17.894085786427908,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 8.0, GPS Altitude_unit: m, GPS Altitude_value: 722.1138461352504,
+      GPS Bearing_unit: deg, GPS Bearing_value: 171.65077209472656, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.9, GPS PDOP_unit: precision, GPS PDOP_value: 1.4, GPS Speed_unit: km/h,
+      GPS Speed_value: 38.37403907775879, GPS VDOP_unit: precision, GPS VDOP_value: 1.1,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 57.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 67.0, MAF_unit: l/s, MAF_value: 21.579999923706055,
+      Rpm_unit: u/min, Rpm_value: 1731.0, Speed_unit: km/h, Speed_value: 40.0}
+    _Measurement__road: *id014
+    _Measurement__time: '2014-01-21T15:05:56Z'
+  88: !!python/object:CarTrip.Measurement
+    _Measurement__index: 88
+    _Measurement__latitude: 47.68052755301151
+    _Measurement__longitude: 11.574089802960914
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 14.837509945430105,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 6.0, GPS Altitude_unit: m, GPS Altitude_value: 722.9803162977398,
+      GPS Bearing_unit: deg, GPS Bearing_value: 173.3925323486328, GPS HDOP_unit: precision,
+      GPS HDOP_value: 1.1, GPS PDOP_unit: precision, GPS PDOP_value: 1.8, GPS Speed_unit: km/h,
+      GPS Speed_value: 33.76798667907715, GPS VDOP_unit: precision, GPS VDOP_value: 1.5,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 56.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 57.0, MAF_unit: l/s, MAF_value: 13.579999923706055,
+      Rpm_unit: u/min, Rpm_value: 1418.0, Speed_unit: km/h, Speed_value: 31.0}
+    _Measurement__road: *id014
+    _Measurement__time: '2014-01-21T15:06:01Z'
+  89: !!python/object:CarTrip.Measurement
+    _Measurement__index: 89
+    _Measurement__latitude: 47.68007041879344
+    _Measurement__longitude: 11.57410329464815
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 17.088132342148512,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 6.0, GPS Altitude_unit: m, GPS Altitude_value: 725.2299361727951,
+      GPS Bearing_unit: deg, GPS Bearing_value: 175.94253540039062, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.9, GPS PDOP_unit: precision, GPS PDOP_value: 1.4, GPS Speed_unit: km/h,
+      GPS Speed_value: 27.105978584289552, GPS VDOP_unit: precision, GPS VDOP_value: 1.1,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 55.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 63.0, MAF_unit: l/s, MAF_value: 13.25, Rpm_unit: u/min,
+      Rpm_value: 1693.0, Speed_unit: km/h, Speed_value: 28.0}
+    _Measurement__road: *id014
+    _Measurement__time: '2014-01-21T15:06:07Z'
+  90: !!python/object:CarTrip.Measurement
+    _Measurement__index: 90
+    _Measurement__latitude: 47.67987452098974
+    _Measurement__longitude: 11.574380048479858
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 14.608512269660297,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 6.0, GPS Altitude_unit: m, GPS Altitude_value: 726.3873056465636,
+      GPS Bearing_unit: deg, GPS Bearing_value: 91.95875549316406, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.9, GPS PDOP_unit: precision, GPS PDOP_value: 1.3, GPS Speed_unit: km/h,
+      GPS Speed_value: 17.609968185424805, GPS VDOP_unit: precision, GPS VDOP_value: 1.0,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 55.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 75.0, MAF_unit: l/s, MAF_value: 23.940000534057617,
+      Rpm_unit: u/min, Rpm_value: 1499.0, Speed_unit: km/h, Speed_value: 21.0}
+    _Measurement__road: &id015 !!python/object:CarTrip.Road
+      _Road__display_name: "Bahnhofstra\xDFe, Niederleger, Lenggries, Landkreis Bad\
+        \ T\xF6lz-Wolfratshausen, OB, Bayern, 83661, Deutschland"
+      _Road__osm_id: '5655979'
+      _Road__tags: {highway: residential, maxspeed: '50', name: "Bahnhofstra\xDFe",
+        sidewalk: both, surface: asphalt}
+    _Measurement__time: '2014-01-21T15:06:13Z'
+  91: !!python/object:CarTrip.Measurement
+    _Measurement__index: 91
+    _Measurement__latitude: 47.680164342590565
+    _Measurement__longitude: 11.57512741250031
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 20.721757648216713,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 6.0, GPS Altitude_unit: m, GPS Altitude_value: 724.3949539895383,
+      GPS Bearing_unit: deg, GPS Bearing_value: 63.64775466918945, GPS HDOP_unit: precision,
+      GPS HDOP_value: 1.1, GPS PDOP_unit: precision, GPS PDOP_value: 1.8, GPS Speed_unit: km/h,
+      GPS Speed_value: 26.32624969482422, GPS VDOP_unit: precision, GPS VDOP_value: 1.5,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 55.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 63.0, MAF_unit: l/s, MAF_value: 15.880000114440918,
+      Rpm_unit: u/min, Rpm_value: 2053.0, Speed_unit: km/h, Speed_value: 28.0}
+    _Measurement__road: *id015
+    _Measurement__time: '2014-01-21T15:06:21Z'
+  92: !!python/object:CarTrip.Measurement
+    _Measurement__index: 92
+    _Measurement__latitude: 47.68045199193424
+    _Measurement__longitude: 11.575831822840971
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 13.172058040360595,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 6.0, GPS Altitude_unit: m, GPS Altitude_value: 721.4220366816288,
+      GPS Bearing_unit: deg, GPS Bearing_value: 61.556739807128906, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.9, GPS PDOP_unit: precision, GPS PDOP_value: 1.6, GPS Speed_unit: km/h,
+      GPS Speed_value: 31.157734680175782, GPS VDOP_unit: precision, GPS VDOP_value: 1.3,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 54.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 67.0, MAF_unit: l/s, MAF_value: 20.5, Rpm_unit: u/min,
+      Rpm_value: 1345.0, Speed_unit: km/h, Speed_value: 32.0}
+    _Measurement__road: *id015
+    _Measurement__time: '2014-01-21T15:06:27Z'
+  93: !!python/object:CarTrip.Measurement
+    _Measurement__index: 93
+    _Measurement__latitude: 47.68067250301073
+    _Measurement__longitude: 11.576389897842434
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 8.606757292796715,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 6.0, GPS Altitude_unit: m, GPS Altitude_value: 721.9697347186477,
+      GPS Bearing_unit: deg, GPS Bearing_value: 64.23683166503906, GPS HDOP_unit: precision,
+      GPS HDOP_value: 1.1, GPS PDOP_unit: precision, GPS PDOP_value: 1.9, GPS Speed_unit: km/h,
+      GPS Speed_value: 22.578820037841798, GPS VDOP_unit: precision, GPS VDOP_value: 1.6,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 54.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 57.0, MAF_unit: l/s, MAF_value: 13.15999984741211,
+      Rpm_unit: u/min, Rpm_value: 853.0, Speed_unit: km/h, Speed_value: 24.0}
+    _Measurement__road: *id015
+    _Measurement__time: '2014-01-21T15:06:33Z'
+  94: !!python/object:CarTrip.Measurement
+    _Measurement__index: 94
+    _Measurement__latitude: 47.68076352064247
+    _Measurement__longitude: 11.576748517658217
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 14.371885887764607,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 6.0, GPS Altitude_unit: m, GPS Altitude_value: 722.4819673446088,
+      GPS Bearing_unit: deg, GPS Bearing_value: 73.5794677734375, GPS HDOP_unit: precision,
+      GPS HDOP_value: 1.1, GPS PDOP_unit: precision, GPS PDOP_value: 1.7, GPS Speed_unit: km/h,
+      GPS Speed_value: 19.287662887573244, GPS VDOP_unit: precision, GPS VDOP_value: 1.4,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 54.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 59.0, MAF_unit: l/s, MAF_value: 21.049999237060547,
+      Rpm_unit: u/min, Rpm_value: 1433.0, Speed_unit: km/h, Speed_value: 19.0}
+    _Measurement__road: *id015
+    _Measurement__time: '2014-01-21T15:06:38Z'
+  95: !!python/object:CarTrip.Measurement
+    _Measurement__index: 95
+    _Measurement__latitude: 47.68085579466939
+    _Measurement__longitude: 11.577111508005103
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 12.233900864214512,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 6.0, GPS Altitude_unit: m, GPS Altitude_value: 722.9045874569441,
+      GPS Bearing_unit: deg, GPS Bearing_value: 59.133453369140625, GPS HDOP_unit: precision,
+      GPS HDOP_value: 1.0, GPS PDOP_unit: precision, GPS PDOP_value: 1.6, GPS Speed_unit: km/h,
+      GPS Speed_value: 15.961655044555664, GPS VDOP_unit: precision, GPS VDOP_value: 1.3,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 53.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 70.0, MAF_unit: l/s, MAF_value: 12.880000114440918,
+      Rpm_unit: u/min, Rpm_value: 1284.0, Speed_unit: km/h, Speed_value: 19.0}
+    _Measurement__road: !!python/object:CarTrip.Road
+      _Road__display_name: "Rathausplatz, Niederleger, Lenggries, Landkreis Bad T\xF6\
+        lz-Wolfratshausen, OB, Bayern, 83661, Deutschland"
+      _Road__osm_id: '446656802'
+      _Road__tags: {highway: residential, name: Rathausplatz}
+    _Measurement__time: '2014-01-21T15:06:44Z'
+  96: !!python/object:CarTrip.Measurement
+    _Measurement__index: 96
+    _Measurement__latitude: 47.68103704865099
+    _Measurement__longitude: 11.577799100275984
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 13.780992890478933,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 8.0, GPS Altitude_unit: m, GPS Altitude_value: 723.6472886323324,
+      GPS Bearing_unit: deg, GPS Bearing_value: 69.8790512084961, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.9, GPS PDOP_unit: precision, GPS PDOP_value: 1.6, GPS Speed_unit: km/h,
+      GPS Speed_value: 34.77021102905274, GPS VDOP_unit: precision, GPS VDOP_value: 1.3,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 54.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 73.0, MAF_unit: l/s, MAF_value: 36.77000045776367,
+      Rpm_unit: u/min, Rpm_value: 1432.0, Speed_unit: km/h, Speed_value: 35.0}
+    _Measurement__road: &id016 !!python/object:CarTrip.Road
+      _Road__display_name: "Geiersteinstra\xDFe, Niederleger, Lenggries, Landkreis\
+        \ Bad T\xF6lz-Wolfratshausen, OB, Bayern, 83661, Deutschland"
+      _Road__osm_id: '25040220'
+      _Road__tags: {highway: residential, name: "Geiersteinstra\xDFe"}
+    _Measurement__time: '2014-01-21T15:06:50Z'
+  97: !!python/object:CarTrip.Measurement
+    _Measurement__index: 97
+    _Measurement__latitude: 47.68114200188754
+    _Measurement__longitude: 11.57855837742836
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 20.58519388179779,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 6.0, GPS Altitude_unit: m, GPS Altitude_value: 724.2554937722987,
+      GPS Bearing_unit: deg, GPS Bearing_value: 80.1532974243164, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.9, GPS PDOP_unit: precision, GPS PDOP_value: 1.5, GPS Speed_unit: km/h,
+      GPS Speed_value: 24.612353324890137, GPS VDOP_unit: precision, GPS VDOP_value: 1.2,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 55.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 56.0, MAF_unit: l/s, MAF_value: 28.940000534057617,
+      Rpm_unit: u/min, Rpm_value: 1997.0, Speed_unit: km/h, Speed_value: 28.0}
+    _Measurement__road: *id016
+    _Measurement__time: '2014-01-21T15:06:56Z'
+  98: !!python/object:CarTrip.Measurement
+    _Measurement__index: 98
+    _Measurement__latitude: 47.681171609037875
+    _Measurement__longitude: 11.578978802448487
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 13.06962277614781,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 6.0, GPS Altitude_unit: m, GPS Altitude_value: 727.1499647460578,
+      GPS Bearing_unit: deg, GPS Bearing_value: 83.83279418945312, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.8, GPS PDOP_unit: precision, GPS PDOP_value: 1.3, GPS Speed_unit: km/h,
+      GPS Speed_value: 15.4148775100708, GPS VDOP_unit: precision, GPS VDOP_value: 1.1,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 54.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 61.0, MAF_unit: l/s, MAF_value: 25.719999313354492,
+      Rpm_unit: u/min, Rpm_value: 1311.0, Speed_unit: km/h, Speed_value: 18.0}
+    _Measurement__road: *id016
+    _Measurement__time: '2014-01-21T15:07:02Z'
+  99: !!python/object:CarTrip.Measurement
+    _Measurement__index: 99
+    _Measurement__latitude: 47.68118414364825
+    _Measurement__longitude: 11.579309378709352
+    _Measurement__measures: {Calculated MAF_unit: g/s, Calculated MAF_value: 23.996979312765223,
+      GPS Accuracy_unit: '%', GPS Accuracy_value: 6.0, GPS Altitude_unit: m, GPS Altitude_value: 727.0560789111223,
+      GPS Bearing_unit: deg, GPS Bearing_value: 80.51634979248047, GPS HDOP_unit: precision,
+      GPS HDOP_value: 0.9, GPS PDOP_unit: precision, GPS PDOP_value: 1.4, GPS Speed_unit: km/h,
+      GPS Speed_value: 17.849919891357423, GPS VDOP_unit: precision, GPS VDOP_value: 1.1,
+      Intake Pressure_unit: kPa, Intake Pressure_value: 54.0, Intake Temperature_unit: c,
+      Intake Temperature_value: 85.0, MAF_unit: l/s, MAF_value: 58.970001220703125,
+      Rpm_unit: u/min, Rpm_value: 2580.0, Speed_unit: km/h, Speed_value: 18.0}
+    _Measurement__road: *id016
+    _Measurement__time: '2014-01-21T15:07:08Z'

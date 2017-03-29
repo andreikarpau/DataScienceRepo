@@ -17,7 +17,7 @@ def read_trip_file(file_name):
 def download_and_save(values=[[1, 10]]):
     for value in values:
         #Ranges downloaded: 1,10;2,10;10,10;11,10;20,10;25,10;30,10;40,10;50,10;130,10;160, 10;170,10;180,30;230,10;
-        #250,30;280,20;330,30;380,30
+        #250,30;280,20;330,30;380,30;450,30
         trips = envService.CarService.get_car_trips(value[0], value[1])  # Range found: 1 - 70 for limit = 100
 
         print("{0}:".format(len(trips)))
@@ -115,5 +115,5 @@ def reread_file():
     download_and_save([[1, 10], [2, 10], [10, 10], [11, 10], [20, 10], [25, 10]])
 
 
-#download_and_save([[380,30]])
+#download_and_save([[450,30]])
 read_and_save_trips_to_csvs()

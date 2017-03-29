@@ -126,6 +126,7 @@ create_car_trips_dataframe <- function(csv_file_name){
   car_trips$cycleway <- replace_na_by_value(car_trips$cycleway, "no")
   car_trips$lit <- replace_na_by_value(car_trips$lit, "no")
   car_trips$surface <- replace_na_by_value(car_trips$surface, "asphalt")
+  car_trips$car_manufacturer <- gsub("^\\s+|\\s+$", "", toupper(car_trips$car_manufacturer))
   
   car_trips$acceleration = 0
   car_trips$throttle_diff = 0

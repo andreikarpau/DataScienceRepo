@@ -103,20 +103,20 @@ for (i in 2:car_trips_length){
   trip_items <- trip_items + 1
   time_diff <- time_diff + tr$time_diff
   
-  throttle_position_sum <- throttle_position_sum + get_non_na_value(tr$Throttle.Position_value, 0)
+  throttle_position_sum <- throttle_position_sum + get_non_na_value(tr$Throttle.Position_value, 20)
   throttle_position_diff_sum <- throttle_position_diff_sum + abs(get_non_na_value(tr$throttle_diff, 0))
-  speed_sum <- speed_sum + get_non_na_value(tr$Speed_value, 0)
-  rmp_sum <- rmp_sum + get_non_na_value(tr$Rpm_value, 0)
+  speed_sum <- speed_sum + get_non_na_value(tr$Speed_value, 40)
+  rmp_sum <- rmp_sum + get_non_na_value(tr$Rpm_value, 1600)
   rmp_diff_sum <- rmp_diff_sum + get_non_na_value(abs(tr$rpm_diff), 0)
   distance_sum <- distance_sum + get_non_na_value(tr$distance, 0)
-  co2_sum <- co2_sum + get_non_na_value(tr$co2_emission, 0)
+  co2_sum <- co2_sum + tr$co2_emission
   intake_temp_sum <- intake_temp_sum + get_non_na_value(tr$Intake.Temperature_value, 12)
   engine_load_sum <- engine_load_sum + get_non_na_value(tr$Engine.Load_value, 32)
     
   if (0 < tr$acceleration){
-    acc_sum <- acc_sum + tr$acceleration
+    acc_sum <- acc_sum + get_non_na_value(tr$acceleration,0)
   }else{
-    decc_sum <- decc_sum + abs(tr$acceleration)    
+    decc_sum <- decc_sum + abs(get_non_na_value(tr$acceleration,0))    
   }
 }
 

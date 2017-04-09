@@ -10,10 +10,10 @@ trips_reg <- read.csv("./csv/output/car_trips_znorm.csv")
 trips_reg$X <- NULL
 
 co2_reg_formula <- formula(co2_emission_per_dist ~ throttle_position_diff_avg + 
-  car_construction_year + speed_avg +
-  rpm_avg + rpm_diff_avg + acceleration_avg + decceleration_avg +
-  car_engine_displ + time_light_type_num +
-  car_manufacturer + highway_val + #highway + time_type
+  car_construction_year + speed_avg + #time_diff + distance + 
+  rpm_avg + rpm_diff_avg + acceleration_avg + deceleration_avg + engine_load_diff_avg +
+  car_engine_displ + intake_pressure_avg + #time_light_type_num +
+  car_manufacturer + highway_val + #time_type + lit +  #highway + time_type
   throttle_position_avg + intake_temp_avg + engine_load_avg)
 
 # simple linear regression estimation

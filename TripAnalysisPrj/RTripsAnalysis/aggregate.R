@@ -27,6 +27,8 @@ distance_sum <- 0
 co2_sum <- 0
 intake_temp_sum <- 0
 engine_load_sum <- 0
+engine_load_diff_sum <- 0
+intake_pressure_sum <- 0
 
 index_v = c()
 trip_id_v = c()
@@ -37,6 +39,7 @@ car_engine_displ_v = c()
 car_fuel_v = c()
 car_manufacturer_v = c()
 time_type_v = c()
+lit_v = c()
 time_light_type_num_v = c()
 time_diff_v = c()
 throttle_position_avg_v = c()
@@ -51,6 +54,8 @@ co2_emission_v = c()
 cycleway_v = c()
 intake_temp_avg_v = c()
 engine_load_avg_v = c()
+engine_load_diff_avg_v = c()
+intake_pressure_avg_v = c()
 
 for (i in 2:car_trips_length){
   tr <- car_trips[i,]
@@ -68,6 +73,7 @@ for (i in 2:car_trips_length){
     car_fuel_v = c(car_fuel_v, prev_tr$car_fuel_type)
     car_manufacturer_v = c(car_manufacturer_v, prev_tr$car_manufacturer)
     time_type_v = c(time_type_v, prev_tr$time_type)
+    lit_v = c(lit_v, prev_tr$lit)
     time_light_type_num_v = c(time_light_type_num_v, prev_tr$time_light_type_num)
     time_diff_v = c(time_diff_v, time_diff)
     throttle_position_avg_v = c(throttle_position_avg_v, throttle_position_sum/trip_items)
@@ -82,6 +88,8 @@ for (i in 2:car_trips_length){
     cycleway_v = c(cycleway_v, prev_tr$cycleway)
     intake_temp_avg_v = c(intake_temp_avg_v, intake_temp_sum/trip_items)
     engine_load_avg_v = c(engine_load_avg_v, engine_load_sum/trip_items)
+    engine_load_diff_avg_v = c(engine_load_diff_avg_v, engine_load_diff_sum/trip_items)
+    intake_pressure_avg_v = c(intake_pressure_avg_v, intake_pressure_sum/trip_items)
     
     prev_tripid <- tr$trip_id
     prev_highway_val <- tr$highway_val
@@ -98,21 +106,32 @@ for (i in 2:car_trips_length){
     co2_sum <- 0
     intake_temp_sum <- 0
     engine_load_sum <- 0
+    engine_load_diff_sum <- 0
+    intake_pressure_sum <- 0
   }
+  
+  #if (tr$time_diff < 0.0001) next
+  #if (0.002 < tr$time_diff) next
   
   trip_items <- trip_items + 1
   time_diff <- time_diff + tr$time_diff
   
-  throttle_position_sum <- throttle_position_sum + get_non_na_value(tr$Throttle.Position_value, 20)
-  throttle_position_diff_sum <- throttle_position_diff_sum + abs(get_non_na_value(tr$throttle_diff, 0))
-  speed_sum <- speed_sum + get_non_na_value(tr$Speed_value, 40)
-  rmp_sum <- rmp_sum + get_non_na_value(tr$Rpm_value, 1600)
-  rmp_diff_sum <- rmp_diff_sum + get_non_na_value(abs(tr$rpm_diff), 0)
-  distance_sum <- distance_sum + get_non_na_value(tr$distance, 0)
+  throttle_position_sum <- throttle_position_sum + get_non_na_value(tr$Throttle.Position_value, 19)
+  speed_sum <- speed_sum + abs(tr$Speed_value)
+  rmp_sum <- rmp_sum + get_non_na_value(tr$Rpm_value, 1624)
+  distance_sum <- distance_sum + tr$distance
   co2_sum <- co2_sum + tr$co2_emission
-  intake_temp_sum <- intake_temp_sum + get_non_na_value(tr$Intake.Temperature_value, 12)
-  engine_load_sum <- engine_load_sum + get_non_na_value(tr$Engine.Load_value, 32)
-    
+  
+  intemp <- get_non_na_value(tr$Intake.Temperature_value, 12)
+  intake_temp_sum <- intake_temp_sum + intemp
+  
+  engine_load_sum <- engine_load_sum + get_non_na_value(tr$Engine.Load_value, 33.3)
+  intake_pressure_sum <- intake_pressure_sum +  get_non_na_value(tr$Intake.Pressure_value, 63.4)
+
+  rmp_diff_sum <- rmp_diff_sum + get_non_na_value(abs(tr$rpm_diff), 0)
+  throttle_position_diff_sum <- throttle_position_diff_sum + abs(get_non_na_value(tr$throttle_diff, 0))
+  engine_load_diff_sum <- engine_load_diff_sum + get_non_na_value(tr$engine_load_diff, 0)
+  
   if (0 < tr$acceleration){
     acc_sum <- acc_sum + get_non_na_value(tr$acceleration,0)
   }else{
@@ -130,7 +149,7 @@ trips_aggregated <- data.frame(
   car_fuel = car_fuel_v,
   car_manufacturer = car_manufacturer_v,
   time_type = time_type_v,
-  time_light_type_num = time_light_type_num_v,
+  lit = lit_v,
   time_diff = time_diff_v,
   throttle_position_avg = throttle_position_avg_v,
   throttle_position_diff_avg = throttle_position_diff_avg_v,
@@ -138,11 +157,13 @@ trips_aggregated <- data.frame(
   rpm_avg = rpm_avg_v,
   rpm_diff_avg = rpm_diff_avg_v,
   acceleration_avg = acceleration_avg_v,
-  decceleration_avg = decceleration_avg_v,
+  deceleration_avg = decceleration_avg_v,
   distance = distance_v,
   cycleway = cycleway_v,
   intake_temp_avg = intake_temp_avg_v,
   engine_load_avg = engine_load_avg_v,
+  engine_load_diff_avg = engine_load_diff_avg_v,
+  intake_pressure_avg = intake_pressure_avg_v,
   co2_emission = co2_emission_v
 )
 write.csv(file="./csv/output/all_aggregated_trips.csv", x=trips_aggregated)

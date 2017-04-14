@@ -1,4 +1,5 @@
 library(DAAG)
+library(relaimpo)
 
 mean_sq_error <- function(actual, predict) { sum((actual - predict)^2)/length(predict) }
 calculate_R2 <- function(actual, predict){
@@ -18,6 +19,9 @@ co2_reg_formula <- formula(co2_emission_per_dist ~ throttle_position_diff_avg +
 
 # simple linear regression estimation
 lm_model <- lm(data=trips_reg, formula = co2_reg_formula)
+
+metrics <- calc.relimp(lm_model, type = c("lmg", "first", "last"))
+print(metrics)
 
 # k-fold cross-validation
 regression_res <- cv.lm(data = trips_reg, m = 10, seed = 29, plotit = FALSE,

@@ -16,23 +16,28 @@ car_trips$car_fuel <- NULL
 # Remove 0 distance outliers
 car_trips <- car_trips[0 < car_trips$distance,]
 car_trips$co2_emission_per_dist <- car_trips$co2_emission / car_trips$time_diff 
+car_trips$co2_emission <- NULL
+
+summary(car_trips)
 
 str(car_trips)
 summary(car_trips)
 
 boxplot(car_trips$co2_emission_per_dist, main = "CO2 emission per distance", ylab = "kg/km")
-hist(car_trips$co2_emission_per_dist, breaks=100)
+hist(car_trips$co2_emission_per_dist, breaks=100, main = "CO2 emission per distance")
 
 #univariate outliers detection (makes the model worse)
 #max_co2_border <- sd(car_trips$co2_emission_per_dist) * 3 + mean(car_trips$co2_emission_per_dist)
 #car_trips <- car_trips[car_trips$co2_emission_per_dist<=max_co2_border,]
 
-boxplot(car_trips$co2_emission_per_dist, main = "CO2 emission per distance", ylab = "kg/km")
-hist(car_trips$co2_emission_per_dist, breaks=100)
+#boxplot(car_trips$co2_emission_per_dist, main = "CO2 emission per distance", ylab = "kg/km")
+#hist(car_trips$co2_emission_per_dist, breaks=100)
 
+boxplot(car_trips$time_diff, main = "Trip duration", ylab = "Hours")
+hist(car_trips$time_diff, breaks=100, main = "Trip duration")
 
-hist(car_trips$time_diff, breaks=100)
-boxplot(car_trips$time_diff, main = "Time diff", ylab = "Hours")
+boxplot(car_trips$speed_avg, main = "Speed average", ylab = "Km/h")
+hist(car_trips$speed_avg, breaks=100, main = "Speed average")
 
 
 car_trips_znorm <- as.data.frame(lapply(car_trips, function(x){return(if (is.numeric(x)) scale(x) else x) })) 
@@ -53,25 +58,37 @@ car_trips$outliers[outliers] <- TRUE
 
 #pairs(~co2_emission_per_dist + highway_val + car_construction_year + car_engine_displ +
 #        throttle_position_avg + throttle_position_diff_avg +
-#        speed_avg + rpm_avg + rpm_diff_avg + acceleration_avg + decceleration_avg +
+#        speed_avg + rpm_avg + rpm_diff_avg + acceleration_avg + deceleration_avg +
 #        intake_temp_avg + engine_load_avg,
-#      data=car_trips_znorm, main="Simple Scatterplot Matrix")
+#        data=car_trips_znorm, main="Simple Scatterplot Matrix")
 
 
-qplot(cycleway, co2_emission_per_dist, data = car_trips, geom="jitter")
-qplot(car_manufacturer, co2_emission_per_dist, data = car_trips, geom="jitter")
+qplot(highway, co2_emission_per_dist, data = car_trips, geom="jitter") +
+  ggtitle("Dependency between CO2 emissions and highway type") + 
+  xlab("CO2 emission per km") +
+  ylab("Highway type")
 
-ggplot(data=car_trips, aes(y=co2_emission_per_dist)) + 
-   geom_point(aes(x=throttle_position_avg, colour=outliers, shape=outliers)) + ggtitle("Emission and Throttle")
-
-ggplot(data=car_trips, aes(y=co2_emission_per_dist)) + 
-  geom_point(aes(x=rpm_avg, colour=outliers, shape=outliers)) + ggtitle("Emission and RPM")
-
-ggplot(data=car_trips, aes(y=co2_emission_per_dist)) + 
-  geom_point(aes(x=intake_temp_avg, colour=outliers, shape=outliers)) + ggtitle("Emission and Intake temp")
+qplot(car_manufacturer, co2_emission_per_dist, data = car_trips, geom="jitter") +
+  ggtitle("CO2 emission based on vehicle manufacturer") + xlab("CO2 emission per km") +
+  ylab("Vehicle manufacturer") 
 
 ggplot(data=car_trips, aes(y=co2_emission_per_dist)) + 
-  geom_point(aes(x=engine_load_avg, colour=car_manufacturer)) + ggtitle("Emission and Engine Load")
+   geom_point(aes(x=speed_avg, colour=outliers, shape=outliers)) + 
+  ggtitle("Outliers") + xlab("CO2 emission per km") +
+  ylab("Vehicle speed") + theme(legend.position="bottom",legend.direction="horizontal")
+
+ggplot(data=car_trips, aes(y=co2_emission_per_dist)) + 
+  geom_point(aes(x=rpm_avg, colour=outliers, shape=outliers)) + ggtitle("Outliers") + xlab("CO2 emission per km") +
+  ylab("RPM") + theme(legend.position="bottom",legend.direction="horizontal")
+
+ggplot(data=car_trips, aes(y=co2_emission_per_dist)) + 
+  geom_point(aes(x=acceleration_avg, colour=outliers, shape=outliers)) + 
+  ggtitle("Emission and Intake temp")
+
+ggplot(data=car_trips, aes(y=co2_emission_per_dist)) + 
+  geom_point(aes(x=acceleration_avg, colour=car_manufacturer)) + ggtitle("Dependency between Emission and Acceleration") + 
+  xlab("CO2 emission per km") +
+  ylab("Acceleration") + theme(legend.position="bottom",legend.direction="horizontal")
 
 
 

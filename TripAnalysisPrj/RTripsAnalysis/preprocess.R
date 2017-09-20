@@ -131,8 +131,9 @@ create_car_trips_dataframe <- function(csv_file_name){
   car_trips$acceleration = 0
   car_trips$throttle_diff = 0
   car_trips$distance = 0
-  car_trips$time_diff = 0
+  car_trips$time_diff = 0.001388889 # Use default value for time difference. Needed for first observations.
   car_trips$rpm_diff = 0
+  car_trips$engine_load_diff = 0
   
   for (i in 1:(length(car_trips$Speed_value) - 1)){
     next_i = i + 1
@@ -149,6 +150,7 @@ create_car_trips_dataframe <- function(csv_file_name){
         car_trips$distance[i] = car_trips$Speed_value[i] * time_diff + acceleration * time_diff * time_diff / 2 
         car_trips$throttle_diff[i] = car_trips$Throttle.Position_value[next_i] - car_trips$Throttle.Position_value[i]
         car_trips$rpm_diff[i] = car_trips$Rpm_value[next_i] - car_trips$Rpm_value[i]
+        car_trips$engine_load_diff[i] = car_trips$Engine.Load_value[next_i] - car_trips$Engine.Load_value[i]
       }
     }
   }

@@ -6,7 +6,7 @@ calculate_R2 <- function(actual, predict){
 } 
 calculate_R2_obj <- function(r2, n, p) {return(1 - (1-r2)*(n-1)/(n-p-1))}
 
-trips_reg <- read.csv("./csv/output/car_trips_znorm.csv")
+trips_reg <- read.csv("./csv/output/car_trips_minmax.csv")
 trips_reg$X <- NULL
 
 co2_reg_formula <- formula(co2_emission_per_dist ~ throttle_position_diff_avg + 

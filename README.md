@@ -31,3 +31,6 @@ The implementation of Hopfield Network with asynch running. The project is imple
 
 ## TripAnalysisPrj
 This project for extracting and analyzing driving related data. The project is implemented on **Python** and contains interaction with external APIs.
+
+## CnnMNIST
+This project builds a convolutional neural network for simple MNIST dataset. It is implemented on **Python** and uses **Tensorflow**.

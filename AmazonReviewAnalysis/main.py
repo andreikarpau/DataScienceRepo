@@ -1,8 +1,9 @@
+import nltk
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, precision_recall_fscore_support
 from sklearn.multiclass import OneVsRestClassifier
-from sklearn.naive_bayes import MultinomialNB
+from sklearn.naive_bayes import MultinomialNB, GaussianNB
 from sklearn.svm import LinearSVC
 from sklearn.tree import DecisionTreeClassifier
 
@@ -10,22 +11,46 @@ from MeanEmbeddingVectorizer import MeanEmbeddingVectorizer
 from helper import FileHelper
 from sklearn.feature_extraction.text import CountVectorizer, HashingVectorizer, TfidfVectorizer
 from sklearn.model_selection import GroupShuffleSplit, StratifiedShuffleSplit
+from nltk.stem.snowball import SnowballStemmer
 
-#texts, _, rates = FileHelper.read_data_file("data/Short_Data.json")
+
+#########################################################
+def stem_tokens(tokens, stemmer):
+    stemmed = []
+    for item in tokens:
+        stemmed.append(stemmer.stem(item))
+    return stemmed
+
+
+stemmer = SnowballStemmer("english")
+
+
+def tokenize(text):
+    tokens = nltk.word_tokenize(text)
+    stems = stem_tokens(tokens, stemmer)
+    return stems
+
+
+#########################################################
+
+# texts, _, rates = FileHelper.read_data_file("data/Short_Data.json")
 texts, _, rates = FileHelper.read_data_file("data/Grocery_Gourmet_Food.json", max_num=1000)
 
 rates = [3 < val for val in rates]
 
+# vectorizer = CountVectorizer(tokenizer=tokenize)
 vectorizer = CountVectorizer(stop_words='english')
-#vectorizer = HashingVectorizer(stop_words='english', alternate_sign=False)
-#vectorizer = TfidfVectorizer(sublinear_tf=True, stop_words='english')
-#vectorizer = MeanEmbeddingVectorizer(FileHelper.read_word2vec())
+# vectorizer = HashingVectorizer(stop_words='english', alternate_sign=False)
+# vectorizer = TfidfVectorizer(sublinear_tf=True, stop_words='english')
+# vectorizer = MeanEmbeddingVectorizer(FileHelper.read_word2vec())
 
-#classifier = MultinomialNB()
-#classifier = OneVsRestClassifier(LinearSVC())
-classifier = RandomForestClassifier(n_estimators=10)
-#classifier = OneVsRestClassifier(LogisticRegression())
-#classifier = LogisticRegression(multi_class='multinomial', solver='lbfgs')
+# analyzer = vectorizer.build_analyzer()
+
+classifier = MultinomialNB()
+# classifier = LinearSVC()
+# classifier = RandomForestClassifier(n_estimators=10)
+# classifier = LogisticRegression()
+# classifier = LogisticRegression(multi_class='multinomial', solver='lbfgs')
 
 
 k_folds = StratifiedShuffleSplit(n_splits=5, test_size=0.3, random_state=345)
@@ -55,7 +80,7 @@ for train_index, test_index in k_folds.split(texts, rates):
 
     accuracy.append(a_score)
     prf_array.append(prf)
-    
+
     print("Accuracy iteration {0}: {1}; Precision, recall, F score: {2}".format(iteration, a_score, prf))
     print(a_score)
 

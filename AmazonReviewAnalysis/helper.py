@@ -1,5 +1,6 @@
 import json
-
+import matplotlib.pyplot as plt
+from wordcloud import WordCloud
 import numpy as np
 
 
@@ -18,11 +19,33 @@ class FileHelper:
                     break
 
                 str = json.loads(line)
+
+                rate = str["overall"]
+                if rate == 3:
+                    continue
+
                 texts.append(str["reviewText"])
                 summaries.append(str["summary"])
-                overall.append(str["overall"])
+                overall.append(rate)
 
         return texts, summaries, overall
+
+    @staticmethod
+    def generate_word_cloud(vectorizer, text):
+        d = {}
+
+        corpus = vectorizer.fit_transform(text)
+        i = 0
+        for name in vectorizer.get_feature_names():
+            d[name] = corpus[i]
+            i += 1
+
+        wordcloud = WordCloud()
+        wordcloud.generate_from_frequencies(frequencies=d)
+        plt.figure()
+        plt.imshow(wordcloud, interpolation="bilinear")
+        plt.axis("off")
+        plt.show()
 
     @staticmethod
     def read_word2vec(file_name="word2vec/glove.6B.50d.txt"):

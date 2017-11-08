@@ -33,8 +33,8 @@ def tokenize(text):
 
 #########################################################
 
-# texts, _, rates = FileHelper.read_data_file("data/Short_Data.json")
-texts, _, rates = FileHelper.read_data_file("data/Grocery_Gourmet_Food.json", max_num=1000)
+texts, _, rates = FileHelper.read_data_file("data/balanced_sample.json")
+#texts, _, rates = FileHelper.read_data_file("data/Grocery_Gourmet_Food.json", max_num=3000)
 
 rates = [3 < val for val in rates]
 

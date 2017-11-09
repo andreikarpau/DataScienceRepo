@@ -32,7 +32,7 @@ def create_new_conv_layer(input_data, num_input_channels, num_filters,
 mnist = input_data.read_data_sets("MNIST_data/", one_hot=True)
 
 learning_rate = 0.0001
-epochs = 2
+epochs = 10
 batch_size = 50
 
 # input
@@ -43,7 +43,7 @@ x_shaped = tf.reshape(x, [-1, 28, 28, 1])
 y = tf.placeholder(tf.float32, [None, 10])
 
 layer1 = create_new_conv_layer(x_shaped, 1, 32, [5, 5], [2, 2], name='layer1')
-layer1 = tf.Print(layer1, [layer1], message="Layer 1: ")
+# layer1 = tf.Print(layer1, [layer1], message="Layer 1: ")
 
 layer2 = create_new_conv_layer(layer1, 32, 64, [5, 5], [2, 2], name='layer2')
 

@@ -1,6 +1,7 @@
 import json
 import matplotlib.pyplot as plt
 import numpy as np
+from wordcloud import WordCloud
 
 
 class FileHelper:
@@ -40,3 +41,21 @@ class FileHelper:
     @staticmethod
     def get_sample_data_rates():
         return FileHelper.read_data_file("data/balanced_sample.json")
+
+    @staticmethod
+    def show_word_cloud(word_frequences):
+        wordcloud = WordCloud()
+        wordcloud.generate_from_frequencies(frequencies=word_frequences)
+        plt.figure()
+        plt.imshow(wordcloud, interpolation="bilinear")
+        plt.axis("off")
+        plt.show()
+
+    @staticmethod
+    def print_top10(vectorizer, clf, class_labels):
+        """Prints features with the highest coefficient values, per class"""
+        feature_names = vectorizer.get_feature_names()
+        for i, class_label in enumerate(class_labels):
+            top10 = np.argsort(clf.coef_[i])[-10:]
+            print("%s: %s" % (class_label,
+                  " ".join(feature_names[j] for j in top10)))

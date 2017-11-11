@@ -1,4 +1,3 @@
-import nltk
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, precision_recall_fscore_support
@@ -8,40 +7,23 @@ from sklearn.svm import LinearSVC
 from sklearn.tree import DecisionTreeClassifier
 
 from MeanEmbeddingVectorizer import MeanEmbeddingVectorizer
+from PreprocessingEngine import PreprocessingEngine
 from helper import FileHelper
 from sklearn.feature_extraction.text import CountVectorizer, HashingVectorizer, TfidfVectorizer
 from sklearn.model_selection import GroupShuffleSplit, StratifiedShuffleSplit
 from nltk.stem.snowball import SnowballStemmer
 
+texts, summaries, overalls = FileHelper.get_sample_data_rates()
 
-#########################################################
-def stem_tokens(tokens, stemmer):
-    stemmed = []
-    for item in tokens:
-        stemmed.append(stemmer.stem(item))
-    return stemmed
+rates = [3 < val for val in overalls]
+#rates = overalls
 
+preprocessingEngine = PreprocessingEngine()
 
-stemmer = SnowballStemmer("english")
-
-
-def tokenize(text):
-    tokens = nltk.word_tokenize(text)
-    stems = stem_tokens(tokens, stemmer)
-    return stems
-
-
-#########################################################
-
-texts, _, rates = FileHelper.read_data_file("data/balanced_sample.json")
-#texts, _, rates = FileHelper.read_data_file("data/Grocery_Gourmet_Food.json", max_num=3000)
-
-rates = [3 < val for val in rates]
-
-# vectorizer = CountVectorizer(tokenizer=tokenize)
-vectorizer = CountVectorizer(stop_words='english')
+vectorizer = CountVectorizer(tokenizer=preprocessingEngine.tweet_tokenize_stemming)
+#vectorizer = CountVectorizer(stop_words='english')
 # vectorizer = HashingVectorizer(stop_words='english', alternate_sign=False)
-# vectorizer = TfidfVectorizer(sublinear_tf=True, stop_words='english')
+#vectorizer = TfidfVectorizer(sublinear_tf=True, tokenizer=preprocessingEngine.tweet_tokenize_stemming)
 # vectorizer = MeanEmbeddingVectorizer(FileHelper.read_word2vec())
 
 # analyzer = vectorizer.build_analyzer()
@@ -49,14 +31,16 @@ vectorizer = CountVectorizer(stop_words='english')
 classifier = MultinomialNB()
 # classifier = LinearSVC()
 # classifier = RandomForestClassifier(n_estimators=10)
-# classifier = LogisticRegression()
+#classifier = LogisticRegression()
 # classifier = LogisticRegression(multi_class='multinomial', solver='lbfgs')
 
 
-k_folds = StratifiedShuffleSplit(n_splits=5, test_size=0.3, random_state=345)
+k_folds = StratifiedShuffleSplit(n_splits=5, test_size=0.1, random_state=345)
 
 accuracy = []
 prf_array = []
+
+clf = None
 
 iteration = 0
 
@@ -84,6 +68,22 @@ for train_index, test_index in k_folds.split(texts, rates):
     print("Accuracy iteration {0}: {1}; Precision, recall, F score: {2}".format(iteration, a_score, prf))
     print(a_score)
 
-total_accuracy = sum(accuracy) / len(accuracy)
-print("Accuracy: ")
-print(total_accuracy)
+num_iterations = len(accuracy)
+total_accuracy = sum(accuracy) / num_iterations
+
+sum_precision = 0
+sum_recall = 0
+sum_f_score = 0
+
+for item in prf_array:
+    sum_precision = sum_precision + item[0]
+    sum_recall = sum_recall + item[1]
+    sum_f_score = sum_f_score + item[2]
+
+print("-----------------------------------------")
+print("Accuracy: {0}".format(total_accuracy))
+print("Precision: {0}".format(sum_precision/num_iterations))
+print("Recall: {0}".format(sum_recall/num_iterations))
+print("F-score: {0}".format(sum_f_score/num_iterations))
+FileHelper.print_top10(vectorizer, clf, ["Top Tokens"])
+print("-----------------------------------------")

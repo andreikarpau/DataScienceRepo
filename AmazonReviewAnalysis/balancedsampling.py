@@ -32,8 +32,8 @@ for index, item in enumerate(rates):
 
 
 with open('data/balanced_sample.json', 'w') as f:
-    save_random_sampe(rate1, 500, f)
-    save_random_sampe(rate2, 500, f)
-    save_random_sampe(rate3, 500, f)
-    save_random_sampe(rate4, 500, f)
-    save_random_sampe(rate5, 500, f)
+    save_random_sampe(rate1, 5000, f)
+    save_random_sampe(rate2, 5000, f)
+    save_random_sampe(rate3, 5000, f)
+    save_random_sampe(rate4, 5000, f)
+    save_random_sampe(rate5, 5000, f)

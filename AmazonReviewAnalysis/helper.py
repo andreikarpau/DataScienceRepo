@@ -1,7 +1,7 @@
 import json
 import matplotlib.pyplot as plt
 import numpy as np
-from wordcloud import WordCloud
+#from wordcloud import WordCloud
 
 
 class FileHelper:
@@ -44,12 +44,13 @@ class FileHelper:
 
     @staticmethod
     def show_word_cloud(word_frequences):
-        wordcloud = WordCloud()
-        wordcloud.generate_from_frequencies(frequencies=word_frequences)
-        plt.figure()
-        plt.imshow(wordcloud, interpolation="bilinear")
-        plt.axis("off")
-        plt.show()
+        print('Install packages and uncomment')
+        # wordcloud = WordCloud()
+        # wordcloud.generate_from_frequencies(frequencies=word_frequences)
+        # plt.figure()
+        # plt.imshow(wordcloud, interpolation="bilinear")
+        # plt.axis("off")
+        # plt.show()
 
     @staticmethod
     def print_top10(vectorizer, clf, class_labels):

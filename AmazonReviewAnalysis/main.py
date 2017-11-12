@@ -20,16 +20,16 @@ rates = [3 < val for val in overalls]
 
 preprocessingEngine = PreprocessingEngine()
 
-vectorizer = CountVectorizer(tokenizer=preprocessingEngine.tweet_tokenize_stemming)
-#vectorizer = CountVectorizer(stop_words='english')
+vectorizer = CountVectorizer(tokenizer=preprocessingEngine.tweet_tokenize_filter, ngram_range=(1, 2), min_df=3)
+#vectorizer = CountVectorizer(ngram_range=(1, 2), min_df=3)
 # vectorizer = HashingVectorizer(stop_words='english', alternate_sign=False)
 #vectorizer = TfidfVectorizer(sublinear_tf=True, tokenizer=preprocessingEngine.tweet_tokenize_stemming)
 # vectorizer = MeanEmbeddingVectorizer(FileHelper.read_word2vec())
 
 # analyzer = vectorizer.build_analyzer()
 
-classifier = MultinomialNB()
-# classifier = LinearSVC()
+#classifier = MultinomialNB()
+classifier = LinearSVC()
 # classifier = RandomForestClassifier(n_estimators=10)
 #classifier = LogisticRegression()
 # classifier = LogisticRegression(multi_class='multinomial', solver='lbfgs')

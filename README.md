@@ -34,3 +34,6 @@ This project for extracting and analyzing driving related data. The project is i
 
 ## CnnMNIST
 This project builds a convolutional neural network for simple MNIST dataset. It is implemented on **Python** and uses **Tensorflow**.
+
+## AmazonReviewAnalysis
+This project make the analysis of product reviews from Amazon. It is implemented on **Python**.

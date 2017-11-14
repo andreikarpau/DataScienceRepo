@@ -15,23 +15,30 @@ from nltk.stem.snowball import SnowballStemmer
 
 texts, summaries, overalls = FileHelper.get_sample_data_rates()
 
+
+
 rates = [3 < val for val in overalls]
+
+texts = ["{0}. {1}".format(summaries[i], texts[i]) for i in range(len(texts))]
 #rates = overalls
 
 preprocessingEngine = PreprocessingEngine()
 
-#vectorizer = CountVectorizer(tokenizer=preprocessingEngine.tweet_tokenize_filter, ngram_range=(1, 2), min_df=3)
-vectorizer = CountVectorizer(ngram_range=(1, 2), min_df=3)
+#vectorizer = CountVectorizer(tokenizer=preprocessingEngine.tweet_tokenize_stemming_custom_stopwords, ngram_range=(1, 2), min_df=3)
+#vectorizer = CountVectorizer(ngram_range=(1, 2), min_df=3)
+
 #vectorizer = HashingVectorizer(tokenizer=preprocessingEngine.tweet_tokenize_stemming_custom_stopwords, ngram_range=(1, 2), norm='l2', alternate_sign=False)
-#vectorizer = TfidfVectorizer(sublinear_tf=True, tokenizer=preprocessingEngine.tweet_tokenize_filter, ngram_range=(1, 2))
+vectorizer = HashingVectorizer(ngram_range=(1, 2), norm='l2', alternate_sign=False)
+
+vectorizer = TfidfVectorizer(sublinear_tf=True, tokenizer=preprocessingEngine.tweet_tokenize_stemming_custom_stopwords, ngram_range=(1, 2))
 # vectorizer = MeanEmbeddingVectorizer(FileHelper.read_word2vec())
 
 # analyzer = vectorizer.build_analyzer()
 
 #classifier = MultinomialNB()
-#classifier = LinearSVC(dual=False)
+classifier = LinearSVC(dual=False)
 #classifier = RandomForestClassifier(n_estimators=10)
-classifier = LogisticRegression()
+#classifier = LogisticRegression()
 #classifier = LogisticRegression(solver='lbfgs')
 
 

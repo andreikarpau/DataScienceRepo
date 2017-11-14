@@ -6,7 +6,7 @@ class PreprocessingEngine(object):
     def __init__(self):
         self.tweet_tokenizer = nltk.TweetTokenizer(preserve_case=False)
         self.stop_words = set(stopwords.words('english'))
-        self.stemmer = nltk.SnowballStemmer('english')
+        #self.stemmer = nltk.SnowballStemmer('english')
         self.stemmer = nltk.PorterStemmer()
 
         self.custom_stopwords = ['that', 'for', 'in', 'this', 'is', 'of', 'to', 'it', 'and', 'the']
@@ -51,5 +51,10 @@ class PreprocessingEngine(object):
 
     def tweet_tokenize_stemming(self, sentence):
         tokens = self.tweet_tokenize_filter(sentence)
+        stems = self.stem_tokens(tokens, self.stemmer)
+        return stems
+
+    def tweet_tokenize_stemming_stopwords(self, sentence):
+        tokens = self.tweet_tokenize_filter_stopwords(sentence)
         stems = self.stem_tokens(tokens, self.stemmer)
         return stems

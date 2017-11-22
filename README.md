@@ -37,3 +37,6 @@ This project builds a convolutional neural network for simple MNIST dataset. It 
 
 ## AmazonReviewAnalysis
 This project make the analysis of product reviews from Amazon. It is implemented on **Python**.
+
+## MaltaPropertiesAnalysis
+Collecting and analyzing Malta Properties data. Both data crawling and analyzis are made using **Python**.

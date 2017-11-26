@@ -15,10 +15,11 @@ class PropertiesSpider(CrawlSpider):
     name = "electronics"
     allowed_domains = ["www.propertymarket.com.mt"]
 
-    #pc7 Bungalow
-    #101 Penthouse
+    #pc 7 Bungalow
+    #pc 101 Penthouse
+    #pc 1 Houses and Villas
     start_urls = [
-        'http://www.propertymarket.com.mt/for-sale/?pt=0&currentLocations=&mnp=0&mxp=0&pc=101&nb=0&btnForSale=Search'
+        'http://www.propertymarket.com.mt/for-sale/?pt=0&currentLocations=&mnp=0&mxp=0&pc=1&nb=0&btnForSale=Search'
     ]
     rules = (
         Rule(LinkExtractor(restrict_xpaths='.//a[@title="Next"]'),
@@ -34,7 +35,7 @@ class PropertiesSpider(CrawlSpider):
 
     def __init__(self, *a, **kw):
         super().__init__(*a, **kw)
-        self.property_type = "penthouse"
+        self.property_type = "villa"
         self.file_name = "data/malta_{0}_properties.json".format(self.property_type)
         self.file = open(self.file_name, 'w', encoding='utf8');
 

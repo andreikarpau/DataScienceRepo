@@ -13,7 +13,7 @@ ids = {}
 properties_adjusted = []
 
 mapbox_token = "bla"
-geocoder = Geocoder(access_token=mapbox_token)
+geocoder = Geocoder(access_token="token")
 
 count = 0
 for p in properties:
@@ -50,7 +50,7 @@ for p in properties:
             size = int(re.search('\d+', p['details']['Size']).group(0))
 
 
-        response = geocoder.forward('{0}, Malta'.format(place), lat=35.937496, lon=14.375416)
+        response = geocoder.forward('{0}, Malta'.format(place))
         if response.status_code != 200:
             continue
 

@@ -12,7 +12,7 @@ import re
 
 
 class PropertiesSpider(CrawlSpider):
-    name = "electronics"
+    name = "property_marker"
     allowed_domains = ["www.propertymarket.com.mt"]
 
     #pc 7 Bungalow

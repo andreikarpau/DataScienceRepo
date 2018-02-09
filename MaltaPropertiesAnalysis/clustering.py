@@ -55,15 +55,18 @@ clusters = hac.fcluster(z, 0.11, 'distance')
 avg_prices = []
 clusters_size = []
 cluster_name = []
+avg_bedrooms = []
 
 for c in np.unique(clusters):
     avg_prices.append(np.mean(prices[clusters == c]))
     clusters_size.append(sum(clusters == c))
     cluster_name.append(c)
+    avg_bedrooms.append(np.mean(bedrooms[clusters == c]))
 
 avg_prices = np.asarray(avg_prices)
 clusters_size = np.asarray(clusters_size)
 cluster_name = np.asarray(cluster_name)
+avg_bedrooms = np.asarray(avg_bedrooms)
 
 clusters_relevant = 3 < clusters_size
 relevant_items = []
@@ -90,7 +93,7 @@ disp_longitude = np.asarray(disp_longitude)
 
 # 2d visualization
 #------------------------------------------------------------------------
-colors_list = ['red', 'blue', 'green', 'black', 'plum', 'orange', 'brown', 'palegreen', 'red', 'maroon', 'orchid', 'lightcoral', 'teal']
+colors_list = ['red', 'blue', 'green', 'black', 'plum', 'orange', 'brown', 'palegreen', 'red', 'gold', 'orchid', 'lightcoral', 'teal']
 
 axes = plt.gca()
 axes.set_xlim([14.1, 14.7])
@@ -99,7 +102,7 @@ axes.set_ylim([35.76, 36.15])
 malta_img = misc.imread('data/malta_map.PNG')
 plt.imshow(malta_img, zorder=0, extent=[14.1, 14.7, 35.76, 36.15])
 
-for c_name in cluster_name[clusters_relevant]:
+for c_name in reversed(cluster_name[clusters_relevant]):
     c_items = clusters == c_name
     plt.scatter(disp_longitude[c_items], disp_latitude[c_items], s=10, label=c_name, color=colors_list[c_name])
 
@@ -123,8 +126,18 @@ for i in range(len(clusters_relevant)):
     if clusters_relevant[i]:
         print("{0}: {1}; {2}".format(cluster_name[i], clusters_size[i], avg_prices[i]))
 
+# Bedrooms per cluster
+#------------------------------------------------------------------------
+plt.bar(cluster_name[clusters_relevant], avg_bedrooms[clusters_relevant])
+plt.xticks(cluster_name[clusters_relevant], cluster_name[clusters_relevant])
+plt.show()
+
+for i in range(len(clusters_relevant)):
+    if clusters_relevant[i]:
+        print("{0}: {1}; {2}".format(cluster_name[i], clusters_size[i], avg_bedrooms[i]))
+
 
 #print(avg_prices)
-#print(clusters_size)
+print(clusters_size)
 #print(clusters)
 #print(len(clusters))

@@ -1,4 +1,7 @@
-class StatisticsCalculator:
+import math
+
+
+class ListStatistics:
     def __init__(self, input_list):
         assert input_list is not None
         self.input = input_list
@@ -21,3 +24,18 @@ class StatisticsCalculator:
             return (sorted_list[index1] + sorted_list[index2]) / 2
         else:
             return sorted_list[int(len(sorted_list) / 2)]
+
+    def variance(self):
+        if len(self.input) <= 1:
+            return float('NaN')
+
+        mean = self.mean()
+        var_sum = 0
+
+        for num in self.input:
+            var_sum += math.pow((num - mean), 2)
+
+        return var_sum / (len(self.input)-1)
+
+    def std(self):
+        return math.sqrt(self.variance())

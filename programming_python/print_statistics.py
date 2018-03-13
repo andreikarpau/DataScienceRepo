@@ -1,12 +1,10 @@
-import statistics
-
 from list_statistics import ListStatistics
 
 
-def print_statistics(input):
-    print("Input list: {}".format(input))
+def print_statistics(input_list):
+    print("Input list: {}".format(input_list))
 
-    stat = ListStatistics(input)
+    stat = ListStatistics(input_list)
 
     print("Mean: {}".format(stat.mean()))
     print("Median: {}".format(stat.median()))
